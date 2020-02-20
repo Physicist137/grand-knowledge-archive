@@ -1,0 +1,12 @@
+TITLE: Optics 03: Classical optics
+	- Pre-requisitives: Calculus 04, Optics 02.
+	- Co-requisitives: PDE 01.
+
+
+
+https://en.wikipedia.org/wiki/Kirchhoff%27s_diffraction_formula
+
+KEEP IN MIND: Formalism must be general enough para englobar:
+	- Elastic Waves. Shear Waves. (sound).
+	- Surface waves. Menbran waves.
+	- Electromagnetic waves.

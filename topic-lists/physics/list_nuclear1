@@ -1,0 +1,99 @@
+TITLE: Nuclear Physics 01: Crude Models.
+	- Pre-requisitives: Quantum Mechanics 04
+	- Co-requisitives: Quantum Mechanics 09.
+
+
+Nomenclature and Definitions
+	- An element
+		- Def: Atom.
+		- Def: Nuclide.
+		- Def: Protons, Neutrons.
+		- Def: Nucleon.
+		- DeF: Element number (Atomic number).
+		- Def: Element Mass Number.
+		- Def: Writing for element X: ^A_Z X.
+	- Nomenclature
+		- Def: Nuclide.
+		- Def: Isobar
+		- Def: Isotone.
+		- Def: Isotope.
+		- Def: Isomer.
+	- Relevant data.
+		- Proton mass: 938.280MeV/c²
+		- Neutron mass: 938.573MeV/c²
+		- Electron mass: 0.511MeV/c²
+	- Nuclear ranges
+		- Fenmtometer/Fermi (10^-15 m).
+		- Mega Electron Volt (MeV)
+	- Nuclear Biding Energy
+		- Note: Every nuclide has a mass.
+		- Note: Given mass-energy equivalent, they are not the same as individual masses.
+		- Def: Nuclear Binding Energy. Necessary energy to disassemble a nuclide, removing each nucleon.
+		- Calc: Formula for nuclear binding energy, in terms of individual components of nuclides (nucleons).
+		- Calc: Formula for nuclear binding energy, in terms of atomic mass (atomic mass we can measure!)
+		- Calc: Formula for nuclear binding energy, in terms of atomic mass, ignoring electron binding energy.
+		- Calc: Final formula for nuclear binding energy from measurable data.
+	- Other energies
+		- Def: Proton separation energies.
+		- Def: Neutron separation energy.
+		- Note: Analogous to "ionization" energy in an atom.
+		- Note: Reflecting energy of "valence" nucleons.
+	- Semi-empirical mass formula (SEMF)
+		- Calc: Mass of a nuclide M(Z,A)
+		- Note: Binding energy decreases the mass.
+
+
+Liquid Drop Model
+	- TODO: Explanation of the model.
+	- TODO: Empirical nuclear volume.
+	- TODO: Volume term in the binding energy.
+	- TODO: Surface term in the binding energy.
+	- TODO: Coulomb term in the binding energy.
+
+
+Nuclear Shell Model.
+	- TODO: Explanation of model. Crude 1D model in a box.
+	- TODO: Symmetry Term in the binding energy.
+	- TODO: Pairing term in the binding energy.
+
+
+Stability of Nuclides
+	- TODO: Semi empirical binding energy (data fitting) (experimental fit to each term).
+	- TODO: The most stable nuclide: Maximize semi empirical formula for binding energy.
+	- TODO: Line of stability in the Chart of nuclides.
+	- TODO: Radioactive decay: Alpha, beta, gamma. Spontaneous fission.
+
+
+
+
+
+Objective: The History and nuclear models. Crude quantum models to calculate orders of magnitude of things.
+
+TODO: Avaiable experimental data at the time. Knowledge at the time. (note: Only after rutheford atom (and then bohr), the nucleous passed to exist).
+
+TODO: Squared well adding protons and neutrons, considering pauli exclusion principle. Nuclear Energy. Note: MeV magnitudes!
+TODO: Spherical well, adding protons and neutrons, considering pauli exclusion principle. Nuclear Energy. Note: MeV Magnitudes!
+
+TODO: Two-Nucleon System (The Deuteron)
+TODO: Nuclear transitions. Spectrum.
+
+TODO: Fermi Gas Model.
+TODO: Shell Model.
+
+TODO: Volume energy. Surface energy. Coulomb energy. Asymmetry energy. Pairing energy (spin-orbit coupling).
+TODO: https://en.wikipedia.org/wiki/Semi-empirical_mass_formula
+TODO: Arrive in semi-empirical formula for binding energy.
+
+TODO: Alpha decay. Energy of the emitted alpha particle (using E = mc²).
+TODO: Gamow's Theory of Alpha Decay
+
+TODO: Cross Sections. Interaction with matter.
+TODO: Contribution of each type of scattering.
+
+TODO: Detectors.
+
+TODO: Fission Process.
+
+
+
+Nuclear Physics 01: [TODO] The History and nuclear models. Crude quantum models to calculate orders of magnitude of things.

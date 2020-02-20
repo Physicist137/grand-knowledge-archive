@@ -1,0 +1,182 @@
+Title: Algebra Linear 00: Matrix Linear Algebra.
+	- Pre-requisitives: Elementary Algebra 01, Matrix Algebra 01.
+	- Co-requisitives: None
+
+
+Espaços e subspaços vetoriais
+	- Espaço vetorial sobre um corpo K
+		- Formal Definition
+		- Closed under adition
+		- Closed under scalar multiplication
+		- Comutatividade da soma
+		- Associatividade da soma
+		- Existencia de elemento neutro da soma
+		- Existencia de elemento inverso para a soma
+		- Distributividade: k(u+v) = ku+kv
+		- Distributividade: (k+l)v = kv + lv
+		- Compatibilidade da multiplicação: (kl)u = k(lv)
+		- Note: Todo espaço vetorial tem o elemento neutro (null vector)
+	- Generalização: Definição formal de um vetor
+	- Exemplos de espaços vetoriais: Desenho geométrico e calculo do vetor nulo
+		- V = {(x1, x2, x3), xi \in R} = R^3
+		- V = {(x, x), x \in R}
+		- V = {(x, 2x), x \in R}
+		- V = {(0, 0, 0)}
+		- V = {[a b; c d], a, b, c, d \in R} = M(2,2)
+		- V = {a + bi, a, b \in R} = C
+		- V = {a0 + a1x + a2x^2 : ai \in R} = P_2
+		- Conclusion: Matrizes são vetores
+		- Conclusion: Numeros complexos são vetores
+		- Conclusion: Polinomios são vetores
+	- Contra-Exemplos de espaços vetoriais (e desenho geométrico)
+		- V = {(x, 1+x), x \in R}
+		- V = {(1, x), x \in R}
+		- V = {(1, 1, 1)}
+		- Conclusion: Linear != reta
+	- Subspaços Vetoriais
+		- Formal Definition
+			- Example: V = R^3, W = {(0, x1, x2), x1,x2 \in R}
+			- Example: V = R^3, W = R^3
+			- Example: V = M(m, n), W conjunto matrizes triangulares superiores
+			- Example: V = R^3, W conjunto dos vetores solução de sistema homogeneo qualquer
+		- Lema: Conjunto de intersecção de dois subspaços vetoriais nunca é vazio
+		- Theorem: Intersecção de dois subspaços vetoriais é um subspaço vetorial
+			- Corolary: Matrizes diagonais são subspaços vetoriais (triangular inferior inter superior)
+			- Note: União de dois subspaços vetoriais não eh subspaço
+				- Example: Duas retas
+		- Soma de subspaços
+			- Definition: Soma de dois subspaços
+			- Theorem: Soma de dois subspaços vetoriais de V, é um subspaço vetorial de V
+			- Soma direta de subspaços vetoriais
+			- Example: Soma de subspaços representando retas não coincidentes (soma direta)
+			- Example: Soma de subspaços representando retas coincidentes (soma não-direta)
+	- Subspaço Vetorial Gerado
+		- Definição: Combinação linear
+		- Conjunto gerado por combinação linear de vetores em V
+		- Theorem: Tal conjunto é subspaço vetorial de V
+		- Exemplos de subspaços vetoriais gerados e analise geometrica
+			- Example: V = R^3,  W = [v]
+			- Example: V = R^2,  W = [(0, 1), (1, 0)]
+			- Example: [(0, 0)] = {(0, 0)}
+			- Example: Find [[1 0; 0 0], [0 1; 0 0]]
+			- Example: Find [(0, 0, 1), (0, 1, 0), (0, 1, 1)]
+			- Example: Find [(0, 0, 1), (0, 1, 0)]
+			- Note: last two are equal. Why?
+		- Theorem: Vetores geradores geram V <==> Vetores geradores pertencem a V
+	- Dependencia e Independencia linear
+		- Def: Vetores LI (linearmente independentes) (remember: diff de zero)
+		- Def: Vetores LD: not LI
+		- Theorem: Vetores LD ==> combinações lineares uns dos outros
+		- Corolary: Não são combinações lineares ==> Vetores LI
+		- Example: Check if {(0, 1), (1, 0)} is LI
+		- Example: Check if {(0, 0, 1), (0, 1, 0), (0, 1, 1)} is LI
+		- Example: Check if {(0, 0, 1), (0, 1, 0)} is LI
+	- Base e dimensão de um espaço vetorial
+		- Formal Definition
+			- {v1, v2, ..., vn} is LI
+			- [v1, v2, ..., vn] = V
+		- Examples (or not) de bases vetoriais
+			- Example: {(0, 0, 1), (0, 1, 0), (0, 1, 1)} is base of R^3 ?
+			- Example: {(0, 0, 1), (0, 1, 0)} is base of R^3 ?
+			- Example: {(0, 1), (1, 1)} is base of R^2?
+		- Theorem: Todos os vetores da base de V <==> fazem parte de V
+		- Theorem: se V = [v1,v2,...vn], tal que {v1,v2,...vn} é LD, retirando um vetor LD ==> Conjunto irá gerar V
+		- Theorem: Given {v1,v2,...,vn} nao nulos tal que geral V, pode-se extrair base de V dentro eles.
+		- Theorem: Seja V = [v1,v2,...,vn]. Qualquer outro conjunto com m > n vetores de V é LD
+			- Retirar elementos de {v1, v2, ..., vn} até tornar uma base de r elementos, r <= n.
+			- Escrever outro conjunto de m elementos {w1, w2, ..., wm}
+			- Escrever wi como combinação linear de v1, v2, vr
+			- Escrever combinações de ws que dá zero fatorando vi da combinação
+			- Provar sistema aprensenta homogeneneo solução não trivial
+		- Corolary: Qualquer conjunto LI tem no máximo n vetores (negation)
+		- Corolary: Qualquer base de V tem mesmo numero de elementos
+		- Def: Dimensão de um espaço vetorial
+			- Example: dim R^3 = 3
+			- Example: dim R^n = n
+			- Example: dim[(1,1), (2,2)] = 1
+			- Example: dim M(m,n)
+			- Example: dim P_n
+		- Teorema do completamento de base
+			- Lema: v\in V e v \notin [v1,v2,...vn] ==> v nao eh combinação linear de v1,v2,...,vn
+			- Theorem: Qualquer conjunto LI de V e dimV finito, pode ser completado a formar base de V
+			- Corolary: Se dimV = n, qualquer conjunto de n vetores LI é base de V
+		- Teorema da dimensão finita de espaço vetorial V
+			- Problem: Dado V = {(x,y,z), \in R^3 | x+2y+z=0}, ache subsaço W tal que R^3 = V (soma direta) W
+			- Lema: Se U, V são subspaços de V, entao dimU <= dimV  e  dimW <= dimV
+			- Theorem: dim(U+W) = dimU + dimW - dim(U inter W)
+		- Coordenadas de um vetor
+			- Formal Definition
+			- Notação: [v]_base
+			- Ordem da base
+				- Example: [(4,3)]_{(1, 0), (0, 1)} = (4, 3)
+				- Example [(4,3)]_{(0, 1), (1, 0)} = (3, 4)
+				- Note: Ordem da base is important
+			- Example: Coordenadas em diferentes bases
+			- Example: Coordenadas de polinomios em base canonica
+			- Example: coordenadas de polinomios em outras bases
+
+
+Transformações Lineares
+	- Def: Funções que mapeiam espaços vetoriais
+		- F(u+v) = F(u)+F(v)
+		- F(kv) = kF(v)
+		- Note: Mapear mesmos espaços vetoriais
+	- Def: Aplicações lineares
+		- Mapeamento de espaços vetoriais diferentes
+		- Linearidade
+		- Examples: R^2 --> R,  R-->R^2. And so on.
+	- Theorem: Necessariamente T(0) = 0, para qualquer T
+	- Intuition: Estrutura dos espaços vetoriais foi respeitada
+	- Examples identificando linearidade. F(x) = x. F(x) = x^2. F(x) = x+2
+	- Theorem: Seja {v1,..,vn} base de V e w1,..,wn elementos de W ==> Existe unico T: V-->W tal que T(vi) = wi
+		- Calc: Encontrar tal transformação linear
+		- Examples de transformações na base
+	- Def: Seja T: V-->W. Imagem de T são vetores de W tais que T(v) = w.
+	- Theorem: Imagem de transformação linear T: V-->W é subspaço vetorial de W
+	- Def: Núcleo da transformação linear
+	- Theorem: Núcleo da transformação T: V-->W é subspaço vetorial de V
+	- Corolary: kerT sempre terá pelo menos o zero.
+	- Examples: Encontrando imagem e núcleo da transformação linear
+		- T: R^2 --> R tal que (x,y) --> x+y
+		- T: R^3 --> R^3 and T(x, y, z) = (x, 2y, 0)
+		- Note: Dimensão da imagem e do núcleo e do dominio
+	- Def: Transformação linear injetora
+	- Def: Transformação linear sobrejetora (imagem == CD)
+	- Theorem: ker(T) = {0}  <==> T é injetora
+		- Corolary: T é injetora ==> mapeia vetores LI a vetores LI
+	- THE THEOREM: Teorema do núcleo e da imagem
+		- Descript: v1..vn base de kerT subspaço V. Completar com wi.
+		- Theorem: [T(w1), ..., T(wm)] = ImT
+		- Theorem: {[T(w1), ..., T(wm)} é LI
+		- Theorem: {v1..vn, w1..wm} eh base de V
+		- Theorem: dimV = dim kerT + dim ImT
+		- Corolary: dimV = dimW e T sobrejetora ==> T injetora
+		- Corolary: dimV = dimW e T injetora ==> T sobrejetora
+		- Corolary: dimV = dimW e T injetora ==> T leva base em base
+	- Isomorfismos e espaços vetoriais isomorfos
+		- Def: Isomorfismo: T linear injetor e sobrejetor
+		- Def: Espaços vetoriais isomorfos
+		- Theorem: Espaços isomorfos tem mesma dimensão (Theorem do nucleo e da iamgem)
+		- Theorem: Existe T^-1: W --> V transformação linear inversa
+		- Theorem: T^-1 é também um isomorfismo
+		- Example: Show T(x, y, z) = (x-2y, z, x+y) é isomorfismo. Calc T^-1
+	- Forma matricial da transformação linear (TODOO! DONE ALONE BY ME!!! MAY BE UGLY!!)
+		- Theorem: Todo produto de matriz por vetor é transformação linear
+		- Theorem: Toda transformação linear pode ser escrita por produto de matriz
+		- Representação de T como uma matriz
+		- Composição da transformação linear
+		- Iteração de transformação linear
+		- Matriz de isomorfismo
+		- Inversa de matriz isomorfa
+
+
+VECTOR SPACE FORMALISM OVER MATRIX:
+TODO: Cross product as a linear transformation
+TODO: Produtos internos, externos, ...
+TODO: Operadores. Auto-adjuntos, adjuntos ortogonais, etc. Grupos.
+TODO: Diagonalização, ortogonalização e mais propriedades de operadores, grupos ortogonais
+TODO: Determinantes (the real def) e inversas e permutações.
+TODO: Autovalores, autovetores, subspaços invariantes por operadores.
+TODO: Teoria Espectral
+TODO: Generalização tensorial e implicações
+TODO: Aplicações: Matrizes de Markov, ODEs, Graph Theory, FFT.s

@@ -1,0 +1,182 @@
+TITLE: Pre-Mechanics. 
+	- Pre-requisitive: Calculus 02
+	- Co-requisitive: None
+
+
+Math base: Coordenadas e Transformações entre coordenadas
+	- Rotação de eixos
+		- Medidas invariantes sob rotação (mass, etc)
+		- Medidas não invariantes sob rotação (position, etc)
+		- Def: Escalares
+	- Matriz de rotação
+		- Def: Cossenos diretores
+		- Definição em relação (xi', xj).
+		- Note: Length position vector is preserved
+		- Calc: Rotação em tres dimensões
+	- Relações da matriz de rotação
+		- Def: Cossenos diretores
+		- Theorem: Quadrado da soma dos cossenos diretores é 1
+		- Calc: Angulo entre dois vetores em função dos cossenos diretores
+		- Calc: Angulo entre eixos perpendiculares
+		- Calc: Teorema anterior para os 3 eixos
+		- Note: 6 relações de depedencia
+		- Note: Matrizes de rotação tem apenas 3 valores livres.
+	- Kronecker delta tensor
+		- Generalização das relações anteriores
+		- Definição formal do Kronecker Delta Symbol
+		- Validity: Ortogonalidade dos eixos x1, x2, x3.
+		- Equação da condição de ortogonalidade (bi-implication)
+		- Note: Kronecker delta is identity matrix
+	- Relação de ortogonalidade (calculo usando matrizes)
+		- Formulação matricial da rotação de eixos de coordenadas
+		- Calc: Matriz de rotação transposta
+		- Calc: Multiplicação R^T * R
+		- Relação entre matrizes inversa e matriz transposta
+		- Relação de ortogonalidade
+	- Relação de ortogonalidade (calculo usando delta symbol)
+		- Usando invariancia do modulo
+		- Condição de ortogonalidade
+	- Multiplas rotações
+		- Duas rotações distintas
+		- Matriz de rotação das duas rotações seguidas
+		- Não comutatividade das matrizes de rotação
+		- Example: Rotação de 90 degrees sobre eixos diferentes
+	- Inversões (ou rotações improprias)
+	- Def of scalar and vector in terms of transformation properties
+		- Def: Scalar
+		- Def: Vector
+
+
+Math Base: Operações e operadores vetoriais e escalares
+	- Propriedades de escalares e vetores
+		- Proof: Soma de vetores/escalares é um vetor/escalar
+		- Proof: Produto de escalar por vetor/escalar é um vetor/escalar
+	- Produto escalar de dois vetores
+		- Formal Definition
+		- Def: Length of a vector
+		- Theorem: Produto escalar é um escalar
+		- Corolary: Modulo do vetor é invariante a transformação sob transformação ortogonal
+		- Corolary: Angulo entre dois vetores é invariante sob transformação ortogonal
+	- Vetores unitarios (ou versores)
+		- Formal Definition
+		- Outros versores: Coordenadas esfericas
+		- ei * ej = deltaij
+	- Produto vetorial
+		- Formal Definition
+		- Def: Tensor de Levi-civita
+		- Expressão do produto vetorial usando tensor de Levi-civita
+		- Theorem: A * (B x C) = C * (A x B)
+		- Corolary: AxB é perpendicular a A.
+		- Theorem: Produto vetorial é um vetor
+		- Note: A x B = -B x A
+		- Note: A x A = 0
+	- Relação entre os tensores de levi-civita e kronocker delta
+		- e{ijk}e{ijk} = 6
+		- e{ijk}e{mjk} = 2delta{im}
+		- e{ijk}e{ilm} = delta{jl}delta{km} - delta{jm}delta{kl}
+		- e{ijk}e{lmn} = ?
+	- Mais relações (uteis) entre os vetores
+		- (A x B) * (C x D) = (A*C)(B*D) - (A*D)(B*C)
+			- Corolary: |A x B| = |A||B|sin(A, B)
+		- A x (B x C) = (A*C)B - (A*B)C
+			- Corolary: A x (B x C) = 0 <==> B e C paralelos
+			- Corolary: B x C = 0 <==> B e C paralelos
+	- Diferenciando um vetor com respeito a escalar
+		- Derivada de um escalar por escalar é escalar
+		- Derivada de um vetor é um vetor
+		- Propriedades (calcs usando simbolos)
+			- Calc: Derivada da soma de vetores
+			- Calc: Derivada do Produto escalar de vetores
+			- Calc: Derivada do produto vetorial de vetores
+			- Calc: Derivada de produto de vetor por escalar
+	- Posição, velocidade e aceleração em diferentes sistemas coordenados
+		- Coordenadas Retangulares
+		- Coordenadas Cilindricas
+		- Coordenadas Esfericas
+	- Operador Gradiente
+		- Função escalar phi dependente de x1, x2, x3
+		- Aplicando mudança de coordenada para x1', x2', x3'
+		- Theorem: Derivadas parciais do campo escalar comportam-se como vetor
+		- Formal Definition: Vetor gradiente
+		- Diferencial da função escalar
+			- Escrita matematica
+			- Proof: Gradiente é normal à linha/superficie quando phi é constante
+			- Proof: Gradiente tem direção da máxima variação de phi
+		- Escrita do operador divergente
+		- Escrita do rotacional usando levi-civita
+
+
+Math Base: Cinemática em sistemas coordenados curvilineos
+	- Coordenadas Retangulares (Obviously, não eh curvilineo)
+		- Note: They are constant
+		- Note: Derivadas deles é vetor nulo
+		- Posição, velocidade, e aceleração de particula
+		- Operador gradiente, divergente, rotacional
+	- Coordenadas cilindricas
+		- Note: Vectors are not constant (dependem de theta)
+		- Calc: Vetor posição de particula em coordenadas cilindricas
+		- Calc: Vetor velocidade de particula
+		- Calc: Vetor aceleração de particula
+	- Coordenadas Esféricas
+		- Note: Vectors are not constant (dependem de theta)
+		- Calc: Vetor posição de particula em coordenadas Esféricas
+		- Calc: Vetor velocidade de particula
+		- Calc: Vetor aceleração de particula
+
+
+
+
+
+
+
+Assume a closed circuit $\gamma$, with stationary current $I$. On this region, there is a magnetic field $\mathbf B(\mathbf r)$. The force over an element of circuit $d\mathbf l$ is, by Lorentz force:
+$$
+d\mathbf F = dq\mathbf v\times\mathbf B
+$$
+
+Assuming $n$ charge carriers per unit volume of the conductor, where $A$ is the sectional area of the circuit is $A$, the force then becomes:
+$$
+d\mathbf F = NAq|d\mathbf l|\mathbf v\times\mathbf B = 
+NAq|\mathbf v| d\mathbf l\times\mathbf B = 
+A|\mathbf J| d\mathbf l\times\mathbf B = 
+I d\mathbf l\times\mathbf B
+$$
+
+The torque:
+$$
+d\tau = \mathbf r\times d\mathbf F = 
+\mathbf r\times (I d\mathbf l\times\mathbf B) = 
+I\mathbf r\times (d\mathbf l\times\mathbf B)
+$$
+
+About the torque, notice that if we integrate component by component, we will arrive in: $\tau = I\mathbf A\times\mathbf B$, where $\mathbf A$ is the vector where $A_i$ is the area over of the projections of the curve $\gamma$ over plane xy, yz, zx. At this point, we can find its magnetic moment:
+$$
+\mathbf m = I\mathbf A = \frac{1}{2}\oint_\gamma \mathbf r\times d\mathbf l
+$$
+
+Therefore, the torque can be calculated using magnetic moment:
+$$
+\tau = \oint_\gamma I\mathbf r\times (d\mathbf l\times\mathbf B) = 
+\mathbf m\times\mathbf B
+$$
+
+Its possible to prove that such integral also gives vector $\mathbf A$. So, with this we notice it appeared the magnetic moment vector $\mathbf m$, and that we can find the torque easily using it. It coincides with the actual defined value of the magnetic moment vector from the multipole expansion of the magnetic vector potential from localized current distributions. Furthermore, it indicates systems with magnetic moment (such as, magnets) are equivalent to circuit current loops. A similar treatment is possible with general localized current distribution $\mathbf J(\mathbf r)$ instead of a closed current circuit $\gamma$ with statioanry current $I$.
+
+Taylor expansion of the magnetic field gives: $\mathbf B(\mathbf r) = \mathbf B_0 + \mathbf r\cdot\nabla\mathbf B$, until second order. You can consider the gradient of a vector field as the Jacobian matrix of the field. Notice that, we can use such approximation to compute the force over the circuit:
+$$
+\mathbf F = 
+\oint_\gamma Id\mathbf l\times\mathbf B = 
+\oint_\gamma Id\mathbf l\times\mathbf B_0 +  \oint_\gamma Id\mathbf l\times\mathbf r\cdot\nabla\mathbf B
+$$
+
+The first integral, $\mathbf B_0$ is constant, and will get out the integral. If $I$ is constant, it will also get out, and we will be left with a closed integral over $d\mathbf l$ which is zero. So, the force contribution comes from the non-uniformity of the magnetic field, ie, its second order term expansion:
+$$
+\mathbf F = 
+I\oint_\gamma d\mathbf l\times(\mathbf r\cdot\nabla\mathbf B) = 
+(\mathbf m\times\nabla)\times\mathbf B
+$$
+
+Done. Here we made use of the magnetic moment. This means, the magnetic moment of experiences a force from an external non-uniform magnetic field (such as, the magnetic field generated by other magnetic dipole). We can simplify:
+$$
+\mathbf F = 
+$$

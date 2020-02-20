@@ -1,0 +1,140 @@
+TITLE: Quantum Mechanics 05: System of two quantum particles. Identical Particles.
+	- Pre-requisitives: Quantum Mechanics 03.
+	- Co-requisitives: Relativity 01
+	- Note: Analogo a Mecanica Classica 02.
+
+
+Identical Particles
+	- Formal Definition
+		- Wavefunctions are separable for central forcess
+		- The definition: Undistinguishable.
+		- Example: Wavefunction of two particles are separable. Note: Distinguishable.
+		- Example: Symmetric wavefunction of two particles. Note: Indistinguishable.
+		- Example: Anti-symmetric wavefunction of two particles. Note: Indistinguishable.
+	- Formalization of identical particles
+		- Def: The exchange operator. Exchanges a given function: Pf(r1, r2) = f(r2, r1).
+		- Eigenvalues of the exchange oeprator are +1 or -1
+		- Note: There are only symmetric or antisymmetric identical particles
+		- Definition: Bosons and fermions.
+		- Note: No fermion can be in the same state!!
+	- Infinite square well for two non-identical particles
+		- Recall: One particle state in the infinite square well
+		- Calc: State of two non-identical particles
+		- Calc: The ground energy
+		- Note: First excited state (12 and 21) are degenerate for two non-identical particles
+	- Infinite square well for two bosons
+		- Symmetrization of the wavefunction
+		- Calc: Ground state for bosons
+		- Calc: First excited state
+		- Note: First excited state is non denegerate
+	- Infinite square well for two fermions
+		- Antisymmetrization of the wavefunction
+		- Calc: Ground state for bosons
+		- Note: Ground state of bosons IS NOT the ground state for fermions
+		- Note: The fermions couldn't exist in the ground state of the bosons
+	- Conclusions
+		- Conclusion: It makes difference if the particle is identical or not!
+		- Conclusion: It makes difference if identical particle is a fermion or boson!
+		- Question: Do identical particles exist?
+	- Normalization of orthogonal states for two identical particles
+		- Calc: The normalization factor for fermions (antisymmetric wavefunction)
+		- Calc: The normalization factor for bosons (symmetric wavefunction).
+	- Exchange forces of identical particles
+		- Assume: Wavefunction of two nonidentical noninteracting particles in different orthonormal states
+		- Assume: Wavefunction of two identical noninteracting particles in different orthonormal states
+		- Note: the normalization factor was included!!
+		- Objective: The average of the square of the separation distances between the two particles
+		- The non-identical particles
+			- Calc: The average of position of first particle
+			- Calc: The average of position of second particle
+			- Calc: The average of <x1 x2>.
+			- Calc: Average of quadratic separation distance
+		- The identical particles
+			- Calc: The average of position of first particle
+			- Calc: The average of position of second particle
+			- Note: Average of position of first and second particles are equal (no surprise...).
+			- Calc: The average of <x1 x2>.
+			- Calc: Average of quadratic separation distance
+		- Comparisom of the distances
+			- The difference term
+			- Conclusion: Bosons are found more likely to be near each other as compared to non-identical
+			- Conclusion: Fermions are found more likely to be far from each other as compared to non-identical
+			- Note: Again, being fermion or boson or distinguishable, produces measurable effects
+			- Def: An exchange force (its not a force!!!) (Its consequence of symmetrization requirement).
+	- Existance of identical particles
+		- Question: Do identical particles really exist?
+		- Answer: Yes. In fact, ALL of them are identical (two protons are identical, and etc).
+		- Answer: We shall prove such thing, experimentally, later.
+		- Theorem of spin-statistics: Half integer is fermion. Integer is boson (shall be proved later).
+		- Electrons are fermions! Electrons must be described by antisymmetric wavefunctions
+		- Note: Electrons cannot be in the same state (anti-symmetry forbiddes).
+		- Pauli-Exclusion Principle
+	- Exchange forces in covalent bond
+		- Objective: Try to explain a covalent bond in H-H molecule (H2 molecule).
+		- If electrons are bosons
+			- They would group in the middle between the to nucleous
+			- Two nucleous would be subject to attractive force
+			- A covalent bond is formed!!!! How niice!
+			- Too bad its wrong: Electrons are fermions....
+		- If electrons are fermions
+			- They would group far from them selves, far from the middle between nucleous
+			- The two nucleous would be subject to reppulsive forces
+			- Molecule is teared appart!!! How odd... experiment disagrees.....
+			- Oh wait! we haven't considered spin!!
+	- Covalent Bond
+		- Note: The total wavefunction of electrons must be anti-symmetric
+		- Possibility 01: Symmetric spatial wavefunction with anti-symmetric spin wavefunction.
+		- Possibility 02: Anti-symmetric spatial wavefunction with symmetric spin wavefunction.
+		- Possibility 01: Bond State
+			- Total spin is zero: Spin state is in the singlet state
+			- Wavefunction: Its symmetric around the middle of two nucleous
+			- Note: Electron cloud is in the inter-nuclear separation
+			- We have a sigma bond
+		- Possibility 02: Anti-bond state
+			- Total spin is one: Spin state is in the triplet state
+			- Wavefunction: Its Anti-symmetric around the middle of two nucleous
+			- Note: Electron clod is far from the inter-nuclear separation
+			- We have a sigma anti-bond
+		- Note: its wrong to say electrons are in spin up and spin down in sigma bond (chemists do say that, BUT ITS WRONG!)
+		- Note: Its correct to say: electrons are in the triplet or singlet state
+		- Note: After all, in triplet state, electrons can be with spin up and down (instead of only up) (ie, state |1 0>).
+	
+
+
+The Helium Atom (qualitatevely)
+	- Experimental values
+		- Ionization energy (ground state energy) is: -79eV.
+	- The wavefunctions
+		- Calc: The Helium Atom hamiltonian
+		- Note: Nucleous is static in this hamiltonian
+		- Note: Essentially two proton-electron systems that don't interact.
+		- Note: It is a "two body problem".
+		- The Scrodinger Equation
+		- Note: Electrons are fermions (Pauli Exclusion Principle)
+		- Note: We shall get total antisymmetric wavefunction (position and spin)
+	- Approximating the helium atom
+		- Calc: The Helium Atom hamiltonian without electron repulsion
+		- Note: Two hydrogenic hamiltonians is left
+		- Calc: Separation of schrodinger equation
+		- Note: General Solution: Two hydrogenic wavefunctions
+		- Calc: The energy level in the ground state: E0 = -109eV.
+		- Comparisom with experimental energy.
+		- Note: Electron repulsion shall increase that energy, as expected.
+	- Excited States of the Helium
+		- If both electrons are excited, one will go to ground, making the other be ejected out of atom
+		- Excited state of hydrogen: One elctron in nlm-state, other electon in 100-state.
+		- Def: Parahelium: Symmetric position wavefunction with antisymmetric spin wavefunction (singlet).
+		- Def: Orthohelium: Antisymmetric position wavefunction with symmetric spin wavefunction (triplet).
+		- Ground State: Parahelium is only possible state (electrons are in singlet configuration).
+		- Note: Orthohelium states are more stable (since symmetric position wavefunctions means electrons closer to each other).
+	- The Energy levels of helium if....
+		- 1) The electrons were identical bosons
+		- 2) The electrons were distinguishable particles (with same mass and charge ofc).
+		- Note: Ground state of helium (if calculated accurately) provides experiemntal proof for identical particles.
+
+
+
+TODO: Atoms.
+TODO: Hydrogenionic approximation. Ground state. s, p, d, f orbitals.
+
+

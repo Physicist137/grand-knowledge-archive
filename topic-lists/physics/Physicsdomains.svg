@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.0"
+   width="690"
+   height="550"
+   id="svg2">
+  <defs
+     id="defs4">
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="Arrow1Mend"
+       style="overflow:visible">
+      <path
+         d="M 0,0 L 5,-5 L -12.5,0 L 5,5 L 0,0 z"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         id="path3941"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none" />
+    </marker>
+  </defs>
+  <g
+     id="g2827">
+    <rect
+       width="288.39856"
+       height="216.00703"
+       x="104.9156"
+       y="117.41364"
+       id="rect3604"
+       style="fill:#c0c0c0;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <rect
+       width="288.25058"
+       height="209.75461"
+       x="-393.16629"
+       y="333.43829"
+       transform="scale(-1,1)"
+       id="rect3606"
+       style="fill:#fe504f;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <rect
+       width="288.39856"
+       height="216.00703"
+       x="392.91562"
+       y="117.41364"
+       id="rect3608"
+       style="fill:#bae0e3;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <rect
+       width="288.25058"
+       height="209.75461"
+       x="-681.16626"
+       y="333.43829"
+       transform="scale(-1,1)"
+       id="rect3610"
+       style="fill:#cc99fe;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+  <text
+     x="248.40199"
+     y="214.73357"
+     id="text3639"
+     xml:space="preserve"
+     style="font-size:20px;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"><tspan
+       x="248.40199"
+       y="214.73357"
+       id="tspan3641"
+       style="font-size:40px;text-align:center;text-anchor:middle;font-family:Arial Black;-inkscape-font-specification:Arial Black">Classical</tspan><tspan
+       x="248.40199"
+       y="264.73358"
+       id="tspan3643"
+       style="font-size:40px;text-align:center;text-anchor:middle;font-family:Arial Black;-inkscape-font-specification:Arial Black">Mechanics</tspan></text>
+  <text
+     x="248.32811"
+     y="427.63202"
+     id="text3645"
+     xml:space="preserve"
+     style="font-size:20px;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"><tspan
+       x="248.32811"
+       y="427.63202"
+       id="tspan3649"
+       style="font-size:40px;text-align:center;text-anchor:middle;font-family:Arial Black;-inkscape-font-specification:Arial Black">Quantum</tspan><tspan
+       x="248.32811"
+       y="477.63202"
+       id="tspan3653"
+       style="font-size:40px;text-align:center;text-anchor:middle;font-family:Arial Black;-inkscape-font-specification:Arial Black">Mechanics</tspan></text>
+  <text
+     x="536.23596"
+     y="214.48943"
+     id="text3659"
+     xml:space="preserve"
+     style="font-size:20px;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"><tspan
+       x="536.23596"
+       y="214.48943"
+       id="tspan3663"
+       style="font-size:40px;text-align:center;text-anchor:middle;font-family:Arial Black;-inkscape-font-specification:Arial Black">Relativistic</tspan><tspan
+       x="536.23596"
+       y="264.48944"
+       id="tspan3667"
+       style="font-size:40px;text-align:center;text-anchor:middle;font-family:Arial Black;-inkscape-font-specification:Arial Black">Mechanics</tspan></text>
+  <text
+     x="535.49799"
+     y="423.66718"
+     id="text3669"
+     xml:space="preserve"
+     style="font-size:20px;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"><tspan
+       x="535.49799"
+       y="423.66718"
+       id="tspan3673"
+       style="font-size:40px;text-align:center;text-anchor:middle;font-family:Arial Black;-inkscape-font-specification:Arial Black">Quantum</tspan><tspan
+       x="535.49799"
+       y="473.66718"
+       id="tspan3677"
+       style="font-size:40px;text-align:center;text-anchor:middle;font-family:Arial Black;-inkscape-font-specification:Arial Black">Field Theory</tspan></text>
+  <g
+     transform="translate(0,78.960866)"
+     id="g2833">
+    <text
+       x="-390.71143"
+       y="48.332115"
+       transform="matrix(0,-1,1,0,0,0)"
+       id="text3921"
+       xml:space="preserve"
+       style="font-size:20px;fill:#f3f426;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"><tspan
+         x="-390.71143"
+         y="48.332115"
+         id="tspan3923"
+         style="font-size:55px;fill:#f3f426;fill-opacity:1;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;font-family:Arial;-inkscape-font-specification:Arial">Size</tspan></text>
+    <path
+       d="M 33.659245,257.82484 L 33.659245,120.44409"
+       id="path3927"
+       style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow1Mend);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+  <g
+     transform="translate(-103.42957,0)"
+     id="g2838">
+    <text
+       x="306.44104"
+       y="51.753719"
+       id="text3917"
+       xml:space="preserve"
+       style="font-size:20px;fill:#f3f426;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"><tspan
+         x="306.44104"
+         y="51.753719"
+         id="tspan3919"
+         style="font-size:55px;fill:#f3f426;fill-opacity:1;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;font-family:Arial;-inkscape-font-specification:Arial">Speed</tspan></text>
+    <path
+       d="M 492.30911,33.57097 L 678.17718,33.57097"
+       id="path4377"
+       style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow1Mend);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+  <text
+     x="248.67543"
+     y="99.233574"
+     id="text2667"
+     xml:space="preserve"
+     style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Sans;-inkscape-font-specification:Sans"><tspan
+       x="248.67543"
+       y="99.233574"
+       id="tspan2669">Far less than 3×10</tspan><tspan dy="-8" font-size="16px">8</tspan><tspan dy="8"> m/s</tspan></text>
+  <text
+     x="537.05334"
+     y="99.233574"
+     id="text2671"
+     xml:space="preserve"
+     style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Sans;-inkscape-font-specification:Sans"><tspan
+       x="537.05334"
+       y="99.233574"
+       id="tspan2673">Comparable to 3×10</tspan><tspan dy="-8" font-size="16px">8</tspan><tspan dy="8"> m/s</tspan></text>
+  <text
+     x="-438.42548"
+     y="73.635994"
+     transform="matrix(0,-1,1,0,0,0)"
+     id="text2675"
+     xml:space="preserve"
+     style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Sans;-inkscape-font-specification:Sans"><tspan
+       x="-438.42548"
+       y="73.635994"
+       id="tspan2677">Near or less than</tspan><tspan
+       x="-438.42548"
+       y="96.135994"
+       id="tspan2679">10</tspan><tspan dy="-8" font-size="16px">-9</tspan><tspan dy="8"> m</tspan></text>
+  <text
+     x="-225.52702"
+     y="73.635994"
+     transform="matrix(0,-1,1,0,0,0)"
+     id="text2681"
+     xml:space="preserve"
+     style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Sans;-inkscape-font-specification:Sans"><tspan
+       x="-225.52702"
+       y="73.635994"
+       id="tspan2683">Far larger than</tspan><tspan
+       x="-225.52702"
+       y="96.135994"
+       id="tspan2685">10</tspan><tspan dy="-8" font-size="16px">-9</tspan><tspan dy="8"> m</tspan></text>
+</svg>

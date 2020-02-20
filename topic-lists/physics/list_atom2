@@ -1,0 +1,96 @@
+TITLE: Atomic Physics 02: The Hydrogen Atom
+	- Pre-requisitives: Quantum Mechanics 04.
+	- Co-requisitives: None.
+
+
+TODO: Calculate the energy levels using bohr theory (early quantum theory)
+TODO: Spectrum using bohr theory. (very quickly. To talk deeply in quantum part below).
+
+TODO: Full hydrogen atom calculations. Hydrogen-like atoms: He+, Li++, etc.
+TODO: To calculate normalization of the wavefunction (laguerre + spherical harmonics).
+TODO: To calculate orthogonality of the wavefunction (laguerre + spherical harmonics).
+TODO: Full wavefunctions (with spin ofc!!) (nlms state).
+
+TODO: Probability density function.
+TODO: To calculate and visualize surfaces of constant probability density.
+TODO: To analyise the probability densities for the electron. Where is the electron?? The various form os nlms state.
+
+TODO: To calcualte the energy levels. Its identical to bohr one. So far so good.
+TODO: To calculate <r>, <r^2>, <p>, <p^2>, <v>, <v^2>, dev(r), dev(p), dev(v). 
+TODO: Check speed of the electron around of atom. Hopely its below c! (compare with c) (remmember: This is not relativistic).
+
+TODO: Spectral differences between hydrogen and deuterium and tritium.
+TODO: Spectral difference between electronic and muonic hydrogen.
+TODO: Spectrum of helium ion (lost one electron). Hydrogen-like ions. How to identify helium in mixture of hydrogen-helium using spectroscopy?
+TODO: Can in a sample be identified, hydrogen, deuterium, tritium, helium and muonic? =D.
+
+TODO: Spectrum measurement. Diffracting Grating. Spectrometer.
+
+Gas of hydrogen at given temperature:
+TODO: Transition probability.
+TODO: In a gas of hydrogen, to calculate brightness of each of its transition.
+
+Gas of hydrogen. Is it valid, since they are molecules? On the other hand.. that might be not possible.
+TODO: To calculate: Fully derive PVT-ways.
+TODO: To calculate: Heat conductivity, heat capacity.
+TODO: To calculate: Electrical conductivity, resistivity, dielectric constant. Electrical Polarizibility.
+TODO: To calculate: Magnetic permeability. Diamagnetic, paramagnetic?
+
+TODO: Relativistic First Order correction to energy levels. Full calculations: Expectation <1/r> and <1/r^2> in full wavefunctions. Etc.
+TODO: To calculate <1/r> and <1/r^2> and <1/r^3> (perhaps using virial theorem, and Hellman-Feymann Theorem, and Kramer's relation).
+TODO: To calculate general <1/r^n> (Krammer's Relation).
+TODO: Fine Structure of Hydrogen: Relativistic Correction. Spin-Orbit Coupling, Thomas Precession.
+TODO: Zeeman Effect. Weak Field. Strong Field.
+TODO: Stark Effect.
+TODO: Hyperfine Splitting.
+TODO: LS-Coupling.
+
+TODO: Calc: Approximation of the atom to calculate van der wall (maybe 1/2 kx^2) (follow griffiths!).
+TODO: Calc: The electric dipole moment p. To calc: <p>, <p^2>, dev(p). Flutuations of the dipole moment. (instant polarization).
+TODO: Calc: Van Der Wall Attraction between two hydrogen atoms. The potential of the van der wall.
+TODO: Calc: The H2 molecule: Distance of the bound, etc.
+
+TODO: To have a nice introduction to: Klein-Gordon, dirac equation. (to prove them ofc).
+TODO: Full hydrogen relativistic solution (Dirac Equation (yeees!)).
+TODO: The wavefunction. The interpretation of the wavefunction.
+TODO: The energy levels. Comparing with hydrogen hyperfine splitting.
+TODO: To calculate <r>, <r^2>, <p>, <p^2>, <v>, <v^2>, dev(r), dev(p), dev(v). Compare with the non-relativistic solution.
+TODO: To analyise the probability densities for the electron. Where is the electron?? The various form os nlms state.
+TODO: Compute the relativistic probability for electronic transitions.
+
+
+TODO: Hydrogenionic approximation to general atoms. Def of orbitals. Filling up orbitals. Hund's Rule. Quantum numbers.
+TODO: Electron configuration in the ground state under the Hydrogenic approximation. That is: 1s2 2s2 2p6 .. etc. (To enphatize how many approximations are there on this!)
+TODO: The s orbital. Shapes. Radius. Trying to get radius of atoms with hydrogenic apprx. https://upload.wikimedia.org/wikipedia/commons/9/9f/Atomic_%26_ionic_radii.svg
+TODO: The p orbital. Shapes. Hydrogenic approximation for hybridization sp3, sp2, sp1. Calculation of hybridized orbitals (simple sum of wavefunctions, probability dens ity, shape, size).
+TODO: The d orbital. Shapes.
+TODO: Perhaps: Higher energy orbitals. The f orbital. Beyound f orbital (higher angular momentum quantum numbers).
+
+PERHAPS: DYNAMICS OF ORBITALS. MAYBE THIS SHOULD BE IN MOLECULAR PHYSICS?
+TODO: Bond of s orbitals. Exchange forces of identical electrons in s orbital. Position averages. Spin orientation. Molecular energy levels. Covalent bond of s orbitals. Eg: An H-H Bond.
+TODO: Bond of s,p orbitals. Exchange forces of identical electrons in s and p orbital. Position averages. Spin and angular momentum posibility. Molecular energy levels. Covalent Bond.
+TODO: Bond of p,p orbitals. Exchange forces, position averages, spin and angular momentum possibilities. Molecular energy levels. The Sigma Bond. The Pi-Bond. Positional preference.
+
+PERHAPS PERHAPS: HIGHER ENERGY ORBITALS:
+TODO: Bond of d,s orbitals.
+TODO: Bond of d,p orbitals.
+TODO: Bond of d,d orbitals.
+TODO: Bond of f orbitals.
+
+
+------------------------------------------------------------
+# Visible spectral lines of hydrogen, deuterium, tritium. Wavelength in nanometer.
+coef = ee^4 / (32 * pi^2 * e0^2 * hbar^2);
+hydrogen = -c./(coef * (me * (mp+0*mn) / (me + mp + 0*mn)) * ((1./((3:10).^2)) - 1/2^2) / h);
+deuterium = -c./(coef * (me * (mp+1*mn) / (me + mp + 1*mn)) * ((1./((3:10).^2)) - 1/2^2) / h);
+tritium = -c./(coef * (me * (mp+2*mn) / (me + mp + 2*mn)) * ((1./((3:10).^2)) - 1/2^2) / h);
+M = [hydrogen; deuterium; tritium]
+
+# Wavelegnth (nanometer).
+M / 1e-9
+
+# Frequence (THz)
+c ./ M / 1e12
+
+# Energy (eV)
+c./ M * h / ee

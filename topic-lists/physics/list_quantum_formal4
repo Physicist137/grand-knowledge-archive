@@ -1,0 +1,33 @@
+TITLE: Formal Quantum Mechanics 04: Symmetry.
+	- Pre-requisitives: Formal QM 03.
+	- Co-requisitives: 
+
+
+TODO: Translation Symmetry. Infinitesimal translation operator. Finite translation operator.
+TODO: Commutator relations.
+TODO: Schrodinger Picture: Ket transformation under finite translation.
+TODO: Heisenberg Picture: Operator transformation under finite translation.
+TODO: Invariance under translation: Operator must commut with momentum operator.
+
+TODO: Rotation symmetry. Infinitesimal rotation operator. Finite rotation operator.
+TODO: Commutator relations.
+TODO: Schrodinger Picture: Ket transformation under finite rotation.
+TODO: Heisenberg Picture: Operator transformation under finite rotation.
+TODO: Invariance under rotation: Operator must commute with Lx, Ly, Lz.
+TODO: Degeneracy because of symmetry. 2j+1 degeneracies.
+
+TODO: SO(4) symmetry. 4D-rotations. n² degeneracy in hydrogen.
+
+TODO: General continuous symmetry. Operator. Commutation. Invariance.
+
+TODO: Parity Transformation. Space Inversion.
+TODO: Impositions for the parity transformation. x, p, L, S.
+TODO: Eigenvalue of parity operator.
+TODO: Schrodinger Picture: Ket transformation under parity.
+TODO: Heisenberg Picture: Operator transformation under parity. Even and odd parity. Commutators and anti commutators.
+TODO: WARNING: Weak interaction.
+TODO: Example: Atom in uniform E-Field.
+
+
+TODO: Lattice Transformation.
+TODO: Time Reversal Transformation.

@@ -1,0 +1,644 @@
+THE LIST OF LIST OF LIST OF LISTS:
+	- Matematica
+	- Physics
+	- Outras Listas
+
+
+THE LIST OF LIST OF LISTS: MATEMÁTICA
+	- (09 lists) Fundamental Math.
+	- (19 lists) Basic Math.
+	- (-- lists) Pure Mathematics.
+	- (-- lists) Computing.
+	- (39 lists) Algebra.
+	- (34 lists) Analysis.
+	- (18 lists) Geometry.
+	- (05 lists) Probability and Statistics.
+	- (-- lists) Cryptography.
+	- (07 lists) Comeplements.
+
+
+
+THE LIST OF LIST OF LISTS: PHYSICS.
+	- (10 lists) For Layman (calculus not needed).
+	- (06 lists) Basic Physics.
+	- (23 lists) Classical Mechanics.
+	- (27 lists) Electromagnetism.
+	- (25 lists) Thermodynamics and Stat Mechanics and alike.
+	- (08 lists) Gravity.
+	- (09 lists) Relativistic Mechanics.
+	- (32 lists) Quantum Mechanics.
+	- (13 lists) Atomic and Molecular Physics.
+	- (09 lists) Condensed Matter Physics.
+	- (24 lists) Quantum Field Theory.
+	 
+
+
+THE LIST OF LIST OF LISTS: OUTRAS LISTAS
+	- (20 lists) Engineering Machines: It assumes strong physics base. How to build them.. from scratch. =).
+	- (23 lists) Listas de Eletrônica.
+	- (08 lists) Listas de Programação.
+	- (12 lists) Listas de Quimica.
+
+
+
+-----------------------------------------------------
+
+
+LISTAS DE MATEMÁTICA FUNDAMENTAL:
+Geometria Elementar: [TODO] Intersecção entre retas, angulos, triangulos, teoremas de pitagoras, quadrados, poligonos.
+Trigonometria: Ciclo trigonométrico, arcos, funções trigonométricas, eq trigonométricas, funções trig inversas.
+Algebra Elementar 01: Somas, multiplicações, expoentes, logaritmos, somatórios, polinomios, intr numeros complexos.
+Algebra Elementar 02: [TODO] Polinomios, Raizes de grau 3 e 4, Frações continuadas, Função W de lambert, etc.
+Geometria Analítica 01: Curvas, Rotações, translações, Secções Cônicas (Elipses, Parábolas, Hipérboles), Coordenadas polares.
+Geometria Analítica 02: [TODO] Retas, Planos, Quádricas.
+Algebra Vetorial: Vetor, Soma, Base, Combinação linear, Produto escalar, Produto vetorial, Produtos triplos.
+Matrix Algebra 01: Matrixes, Linear Systems, Determinants, Inversibility.
+Matrix Algebra 02: [TODO]
+
+
+LISTAS DE MATEMÁTICA BÁSICA:
+Calculus 00: Pre-Calculus: Principios de lógica e teoria dos conjuntos. Funções de R em R.
+Calculus 01: Calculo real: Continuidade, Limites, Derivadas e aplicações, Polinomio de Taylor, Integrais e aplicações. Teorema fundamental to calculo.
+Calculus 02a: Calculo diferencial e integral curvas: Funções, Derivações em curvas, Integral de linha.
+Calculus 02b: Calculo diferencial em superficies: Continuidade, Limites, Derivadas, Maximização, Expansão de Taylor.
+Calculus 02c: Calculo integral em superficies: Integrais duplas, Integral de superficie, Integrais triplas, Integrais sobre sólido.
+Calculus 03: Basic ODE: Sequencias, Séries, ODE de primeira ordem, ODE de segunda ordem.
+Calculus 04a: Calculo vetorial: Campo escalar (def, continuidade, limites, derivadas). Campo vetorial (def, continuidade, limites, derivadas). Teorema fundamental do calc vetoral.
+Calculus 04b: Calculo vetorial em 3D: Operadores grad, div, rot. Teorema de Green. Teorema de Stokes. Teorema do divergente. Outros teoremas.
+Complex 01: Complex Algebra: Defs, operações algebricas, funções de variaveis complexas, funções elementares, Polinomios, Teorema fundamental da Algebra.
+Complex 02: Complex Calculus: Continuity, Limits, Derivatives, Integral, Closed Integral, Cauchy Integral, Laurent Expansion.
+Complex 03: Residue Calculus: Poles, Singularies. Residue Calculus. Real integrals. Improper integrals. Sum evaluation by residue.
+Complex 04: [TODO] Mapping: 
+ODE Methods 01: [TODO]. First order ODE.
+ODE Methods 02: [TODO]. Nth order ODE.
+ODE Methods 03: [TODO]. System of ODEs.
+ODE Methods 04: [TODO]. Frobenius Method, Sturm-Liouvilli Theory, etc.
+PDE Methods 01: [TODO]. Fourier Method: Fourier Theorem. Dirichlet/Neumann/Robin Problem. Heat Equation. Wave Equation.
+PDE Methods 02: [TODO].
+PDE Methods 03: [TODO].
+
+
+
+LISTAS DE MATEMÁTICA: PURE MATHEMATICS. [TODO]
+Logic Theory 01: [TODO].
+Set Theory 01: [TODO].
+Number Theory 01: [TODO].
+Algebraic NT 01: [TODO].
+Analytical NT 01: [TODO].
+Computation Theory 01: [TODO].
+
+
+
+LISTAS DE MATEMATICA: COMPUTING [TODO].
+Algorithms 01: [TODO].
+
+
+
+LISTAS DE MATEMÁTICA: ALGEBRA
+Algebra 01: [TODO] Basic: Groups, Rings, Ideals, Polynomials, Domains (integral, euclidean, factorization), Fields, Polynomial ring over field/domain, Algebras.
+Algebra 02: [TODO] Group-like structures: Monoid, Semigroup, Rachs, Quandles, Quasigroup, loop, Magma.
+Algebra 03: [TODO] Ring-like structures: Ring, Semiring, Near-Ring.
+Algebra 04: [TODO] Lattice-like structures: Lattice, Semilattice, Maps.
+Algebra 05: [TODO] Module-like structures: Module, Group with operators, Vector space, Linear algebra
+Algebra 06: [TODO] Algebra-like structures: 
+Algebra 07: [TODO] Differential Algebra:
+Group Theory 01: Group def, Group examples. Subgroups. Generators. Cosets. Lagrange Theorem. Symmetric Group. Normal subgroups. Quotient Groups. Morphisms, Kernel, Isomorphism Theorems.
+Group Theory 02: Center, Centralizer, Normalizer, Stabilizer, Orbit, etc. Direct ext/int product. p-groups. Sylow Groupos. Group-like structures. Group examples.
+Group Theory 03: [TODO] Nilpotent/Solvable/Free/Homology Groups. Simple Groups. Group Decomposition. Etc.
+Group Theory 04: [TODO] 
+Group Theory 05: [TODO] Continuum groups. Lie groups. Etc.
+Ring Theory 01: [TODO] Ring Def/Examples, Homomomorphism, Quotients, Ideals, generators. Polynomials over field, Fatorization. Polynomials over ring. Isomorphism Theorems.
+Ring Theory 02: [TODO] Maybe: Commutative Rings, Non-Commutative rings, Noetherian Ring, Artinian Ring. Hilbert's basis theorem.
+Ring Theory 03: [TODO]
+Field Theory 01: [TODO] Integral/Euclidean Domain, Unique Factorization Domain, Field, Morphisms, Field Extensions, Splitting/Finite Fields, Algebraic/Normal/Isomorphism/(In)Separable extensions.
+Field Theory 02: [TODO] Minimal Polynomial, Decomposition Field, F-morphisms.
+Linear Algebra 00: (For non-mathematicians) Matrix Linear Algebra: Vector spaces, subspaces, generator, determinant, Eigenproblems, Spectrum, Inner Product, infinite-dimensional. 
+Linear Algebra 01: Vector Spaces, Subspaces, Linear Combinations, Generators, Base, Linear Transformations, Kernel/Image, Isomorphisms, Linear Functionals, Dual Space. Bidual isomorphism.
+Linear Algebra 02: Linear Algebra, Polynomials, Ideals. Multilinear alternating functionals, Determinants, Permutations, Uniqueness, Properties. Modules, Grassman Ring.
+Linear Algebra 03: [TODO] Elementary Canonical Forms, Eigenstuff, Diagonalization, Invariant direct sums. Decomposition. Rational and Jordan forms, Cyclic stuff. Quotiet spaces.
+Linear Algebra 04: [TODO] Inner Product Spaces, Operators, Spectral Theory. Bilinear Forms. Tensor Product. Multilinear Forms. Tensor.
+Linear Algebra 05: [TODO] Tensor Product, Exterior Product, n-forms, n-vectors, Determinants, Eigenstuffs, Cayley-Hamilton, Jordan, Jacobi, Liouvilli, Pffian.
+Module Theory 01: [TODO] Linear Algebra Generalization, Module, Finitely Generated, Generators, Noetherian Modules, etc. Tensor over A-Module.
+Module Theory 02: [TODO] Noetherian Modules, Artinian Modules, Graded modules. Uniform Modules.
+Lattice Theory 01: [TODO]
+Lattice Theory 02: [TODO]
+Polynomials 01: [TODO] [TO INSERT?] Not so abstract. To prepare fellow to ring theory and euclidean domains.
+Polynomials 02: [TODO] [TO INSERT?] ??? Ideals, etc.
+Galois Theory 01: [TODO]. With polynomials.
+Galois Theory 02: [TODO]. With integrals.
+Galois Theory 03: [TODO]. With ODEs.
+Galois Theory 04: [TODO]. With PDEs.
+Commutative Algebra 01: [TODO].
+Commutative Algebra 02: [TODO].
+Algebraic Geometry 01: [TODO].
+Algebraic Geometry 02: [TODO].
+Algebraic Geometry 03: [TODO].
+Algebraic Geometry 04: [TODO].
+
+
+
+LISTAS DE MATEMÁTICA: ANALISE.
+Real Analysis 01: [TODO] Number Set: Sets, Natural, Integer, Rational. Sequences, rational sequences. Real Field. Dedekind Cuts. Cauchy Rational Sequences. Def of real number.
+Real Analysis 02: Real Sequences: Sequences, Convergence, Cauchy Sequences, convergence tests, Bolzanno Weiestrass Theorem.
+Real Analysis 03: [TODO] Real Topology: Open/Closed/Compact sets. Glues and subglues. (Definite version of) Borel-Lebesgue Theorem.
+Real Analysis 04: [TODO] Real Functions: Continuity, Uniform Continuous, Lipschitz continuous.
+Real Analysis 05: [TODO] Real Limits: Limits, limits at infinity, infinite limits, lim sup, lim inf, Continuity. 
+Real Analysis 06: [TODO] Derivatives: (Definitly to have: f is continuously differentiable ==> f is lipschitz continuous).
+Real Analysis 07: [TODO] Riemann Integral:
+Real Analysis 08: [TODO] Function sequences: convergence, Bolzanno-Weiestrass Theorem, Equicontinuity, Lipschitz functions, Arzela-Ascoli Theorem, etc.
+Rn Analysis 01: [TODO]
+Rn Analysis 02: [TODO] Lagrange Inversion Theorem, Inverse Function Theorem, Implicit Function Theorem. Etc.
+Numerical Analysis 01: [TODO] Linear Methods: Matrix Multiplication, Determinants, Inverses, Eigenproblems, Polynomials, FFT, etc.
+Numerical Analysis 02: [TODO] NonLinear Methods: Nonlinear equations. Zeros. Approximations. Optimization.
+Numerical Analysis 03: [TODO] Datasets: Interpolation. Extrapolation. Regression. Multidimensional datasets.
+Numerical Analysis 04: [TODO] Integration.
+Numerical Analysis 05: [TODO] ODE.
+Numerical Analysis 06: [TODO] Multidimensional nonlinear problems.
+Numerical Analysis 07: [TODO] System of nonlinear ODE.
+Numerical Analysis 08: [TODO] PDE.
+ODE Theory 01: [TODO] Picard, Banach, Lipschitz, etc.
+ODE Theory 02: [TODO]
+PDE Theory 01: [TODO]
+PDE Theory 02: [TODO] Cauchy–Kowalevski Theorem.
+Complex Analysis 01: [TODO]
+Complex Analysis 02: [TODO]
+Complex Analysis 03: [TODO]
+Complex Analysis 04: [TODO] Cauchy Inversion Theorem.
+Functional Analysis 01: [TODO]
+Functional Analysis 02: [TODO]
+Functional Analysis 03: [TODO]
+Functional Analysis 04: [TODO]
+Measure 01: [TODO]
+Measure 02: [TODO]
+Variation 01: [TODO]
+Variation 02: [TODO]
+
+
+
+LISTAS DE MATEMÁTICA: GEOMETRIA. [TODO]
+Axiomatic Euclidean: [TODO]
+Axiomatic hyperbolic: [TODO]
+Differential Geometry 01: Local/Global Curve Theory: Reparameterization. Arc length. Natural parameter. Isometry. Tangent/torsion vector. Frenet Equations. 2D, 3D and nD curves.
+Differential Geometry 02: Extrinsic Geometry of 3D Surfaces: Regular Surfaces, Parameterization, Tangent Space, Normal Vector, First/Second fundamental form, Curvatures.
+Differential Geometry 03: Intrinsic Geometry of 3D Surfaces: Isometry, Christoffel Symbols, Gauss Theorem, Geodesics.
+Differential Geometry 04: [TODO] Geometry of Generalized Surfaces: Implicit Function Theorem, n-dimensional surfaces in m-dimensional space. Diff Manifolds. First/Second Form/Tensors.
+Riemannian Geometry 01: [TODO]
+Riemannian Geometry 02: [TODO]
+Riemannian Geometry 03: [TODO]
+Riemannian Geometry 04: [TODO]
+Algebraic Geometry 01: [TODO]
+Algebraic Geometry 02: [TODO]
+Algebraic Geometry 03: [TODO]
+Algebraic Geometry 04: [TODO]
+Algebraic Geometry 05: [TODO]
+Algebraic Geometry 06: [TODO]
+General Topology: [TODO]
+Differential Manifolds: [TODO]
+
+
+
+LISTAS DE MATEMÁTICA: PROBABILITY AND STATISTICS. [TODO].
+Probabilidade 00: (For non-mathematicians) Naive Probability. 
+Probabilidade 01: [TODO] Probabilidade discreta. 
+Probabilidade 02: [TODO] Probabilidade continua.
+Probabilidade 03: [TODO] Estatística descritiva e inferencial.
+Probabilidade 04: [TODO] Processos estocásticos.
+Game Theory 01: [TODO].
+
+
+
+LISTAS DE MATEMÁTICA: CRYPTOGRAPHY [TODO].
+Cryptography 01: [TODO] History of it, ceaser cypher, polyalphabetic, etc.
+Cryptography 02: [TODO]
+Cryptography 03: [TODO]
+Cryptography 04: [TODO]
+TODO: Cryptography: Elliptic Curve, Abstract Algebra, Algebraic Geometric, NT, Post-Quantum, Quantum, etc.
+
+
+
+COMPLEMENTOS DE MATEMÁTICA:
+Transform 01: Fourier: Fourier Series, Existance and convergence, Coeficients. Complex fourier series. Fourier transform. Fourier inversion theorem.
+Transform 01: Laplace:
+Integration 01: Binomial, Pochhamer, Partial Fractions, Exponential, Logarithm, Quartic, Normal.
+Integration 02: [TODO]. Euler Integrals, Log Integrals, Fresnel Integrals, Zeta, Eta, Elliptic Integrals.
+Integration --: [TODO]. Complex, Cauchy. Evaluation of Integrals by residues. Evaluation of sums. (maybe this should be in complex 03? Or in same integration than gamma?)
+Integration --: [TODO]. Maybe: Gamma function stuff.
+Integration --: [TODO]. Integral Transforms: Laplace, Fourier, Melin, Abel, Hilbert, etc. Inverse existance/unicity. Solving integrals with it.
+Special Functions 01: [TODO]. Maybe: Bessel/Neumann Functions. Spherical Bessel/Neumann Functions. Airy. Cylindrical Harmonics. Modified Bessel/Neumann Functions. Hankel Functions/Transform.
+Special Functions 02: [TODO]. Maybe: Legendre Polynomials. Generating Function. Recursive relations. Rodrigues formula. Associated Legendre Polynomials. Spherical Harmonics. Legendre Functions.
+Special Functions 03: [TODO]. Maybe: Hermite, Laguerre, Chebyschev, Zernike Polyomials,Polynomials, Bernoulli Polynomials, etc.
+Special Functions 04: [TODO]. Maybe: Airy Functions, Etc etc.
+	- Btw: Hankel Transform of Zernike Polynomials are the Bessel Functions. =).
+Special Functions 05: [TODO] Confluent Hypergeometric Functions. Generalized Hypergeometric functions. Appel Hypergeometric Functions.
+Special Functions 06: [TODO] Meijer G-Functions. Closeness. Etc. Fox H-Function.
+Special Functions 07: [TODO] General Theory of Orthogonal Polynomials: Gegenbauer Polynomials. Jacobi Polynomials. General properties.
+
+
+--------------------------------
+
+
+LISTAS DE FISICA FOR LAYMAN: NO CALCULUS.
+Layman Physics 01: [TODO] Cinematica, Dinamica, Trabalho, Energia, Galileu relativity, linear/angular momentum, collisions. Plano inclinado, roldana, atrito, etc. Colisões.
+Layman Physics 02: [TODO] Massa-Mola, Pendulo. Ondas: Mecânicas/etc. Wavenelgth, frequency, etc.
+Layman Physics 03: [TODO] Gravity: Newton Gravity, Escape Velocity, Orbits, kepler Laws, orbital transfer, orbital dynamics.
+Layman Physics 04: [TODO] Electromagnetism: Coulomb law, electric field, current, magnetic field, biot-savart law, faraday law, meaning of maxwell equations, EM Wave.
+Layman Physics 05: [TODO] Optics: Geometrical, Refraction, Mirrors, Lens, Lens-Maker Equation, Intereference, Double-slit, Thin Film, Difraction, Difraction grating, etc.
+Layman Physics 06: [TODO] Thermodynamics: Temperature, Expansão térmica, Gas Ideal, Speed of sound, Distribuição de Boltzmann, Graus de liberdade, Mecanismo de Kelvin-Helmholtz.
+Layman Physics 07: [TODO] Relativity: Aether, Michelson-Morley, cinemática, dinamica, trabalho, energia, momento linear/angular. Massa de repouso. Colisões relativisticas.
+Layman Physics 08: [TODO] Quantum: Radiação corpo-negro, efeito fotoelétrico, efeito compton, Átomo de Bohr, série espectral do hidrogenio, ionization energy, principio da incerteza, nuclear stuff.
+Layman Physics 09: [TODO] Atom: Orbitals, hydrogen-like ions, multielectron atoms, hydrogenionic approximation, ground state energies, orbitals s px py pz. Sigma/Pi bound.
+Layman Physics 10: [TODO] Molecules: Electron density, Hybridization (CH4, NH3, H2O, etc). Molecular geometry, Calc of angles.
+
+
+
+LISTAS DE FÍSICA BÁSICA:
+Fisica 01: Introdução básica aos conceitos de mec clássica: Analise Dimesional, Plots, Cinemática e dinâmica pontual, trabalho e energia, galileu relativity, momento linear/angular.
+Fisica 02a: Intr Oscilações e ondas: Oscilações mec, Oscilações: Harmonicas, Amortecidas, Forçadas, Acopladas. Ondas: Mecânicas, harmonicas, unidimensionais, em cordas.
+Física 02b: Intr Fluids: Estática de Fluidos, Dinâmica de Fluidos.
+Fisica 02c: Intr Termodinamica: Expansão térmica, Intr Termodinamica Básica, Intr Gás Ideal, Intr Teoria cinética, Ondas sonoras.
+Física 03a: Intr Eletrostática: Força elétrica, Campo eletrostático, Potecial, Dipolos, Máquinas eletrostáticas, capacitores, dielétricos, corrente estacionária.
+Física 03b: Intr Magnetismo e EM: Campo magnético, Indução magnética, dipolos, produção de campos magnéticos, Indução EM, indutores, Circuitos RLC, Eq de Maxwell, Onda EM.
+Fisica 04: Intr Optica EM: Interferencia, Difração [not decided yet].
+
+
+
+LISTAS DE FÍSICA: CLASSICAL MECHANICS
+Classical Mechanics 00: Math: Calculo de versores em várias coordenadas. Coordenadas ortogonais e curvilineas. Transformações diferenciais. Tensores.
+Classical Mechanics 01: Mecânica Newtoniana: Teoremas de conservação, curva potencial, espaço de fase, oscilações 1D, non-inertial frame, Orbital Dynamics, Chaos.
+Classical Mechanics 02: Problema de dois Corpos: Conservation Theorems, Collisions, Collisional Scattering, Central forces, Orbits, Scattering, Inverse Scattering.
+Classical Mechanics 03: Problema de N Corpos: Conservation Theorems, Teorema virial, Corpos Rígidos.
+Classical Mechanics 04: Coupled Oscilations and Continuum: Coupled Oscilations, Ressonances, Infinite limit, continuous systems, waves, continuum ressonances.
+Classical Mechanics 05: Lagrangian Mechanics, Euler-Lagrange, Variational, Hamiltonian Mechanics, Cannonical Equations, Hamiltonian Chaos.
+Analytical Mechanics 01: [TODO] Lagrangian Mechanics: Virtual Work, D'Alambert, Lagrangian, Variational, Hamiltonian, Noether Theorems, Symmetry, Examples (oscilations, rigid body, relativity, etc).
+Analytical Mechanics 02: [TODO] Hamiltonian Mechanics: Hamilton Equations, Virial Theorem, Variational, Canonical Transformations, Poisson/Lagrange Parenthesis, Liouvilli/Poincare Theorem. Vinculos.
+Analytical Mechanics 03: [TODO] Hamilon-Jacobi Theory
+Analytical Mechanics 04: [TODO] Pertubation Theory: Strong/weak perturbation, Adiabatic/Sudden perturbation, etc.
+Acoustics 01: [TODO] To include: https://en.wikipedia.org/wiki/Acoustic_resonance#Resonance_of_a_tube_of_air
+Acoustics 02: [TODO] SASERs, etc.
+Continuum 01: Preliminaries: Continuum Hypothesis. Cauchy Stress Tensor. Continuum Kinematics and Dynamics. Deformations. Continuum equations. Examples/applications.
+Continuum 02: Continuum Theory: Material Body, Lagrange/Euler Description, Deformation, Continuum Kinematics/Stresses/Equations. Constitutive Equations. Entropy. Elasticity.
+Elasticity 01: [TODO].
+Elasticity 02: [TODO].
+Fluid Mechanics 01: [TODO].
+Fluid Mechanics 02: [TODO].
+Fluid Mechanics 03: [TODO].
+Fluid Mechanics 04: [TODO].
+Classical Optics 01: Óptica geométrica: Leis, Imagens, Formalismo matricial, Ray tracing, abeerações, instrumentos: microscopios/telescópios/olho.
+Classical Optics 02: Óptica ondulatória: Inteferencia, Difração, Filmes finos, Filmes multicamadas, rede de difração, etc.
+Classical Optics 03: [TODO] Fourier Optics e não-linear.
+Orbits 01: [TOTHINK] Travelling thru out solar system: Acceleration by: Gravity, Solar plasma, B-Fields, Emission of light from sun, emission of thermalr adiation by probe, etc.
+	- https://en.wikipedia.org/wiki/Yarkovsky_effect
+	- https://en.wikipedia.org/wiki/Yarkovsky%E2%80%93O%27Keefe%E2%80%93Radzievskii%E2%80%93Paddack_effect
+	- https://en.wikipedia.org/wiki/Poynting%E2%80%93Robertson_effect
+	- https://en.wikipedia.org/wiki/Perturbation_(astronomy)
+	- https://en.wikipedia.org/wiki/Orbit_modeling#Models_of_perturbing_forces
+	- https://en.wikipedia.org/wiki/Sphere_of_influence_(astrodynamics)
+
+
+
+LISTAS DE FÍSICA: ELECTRODYNAMICS.
+Electromagnetism 01: Eletrostatica: Expansão multipolar. Problemas eletrostaticos, imagens, laplace. Dielétricos, circuitos elétricos. Energia, torque, pressão, estresse.
+Electromagnetism 02: Magnetostatica: Campo magnético, materiais magnéticos, histerese, circuitos magnéticos. Energia, torque, pressão, estresse.
+Electromagnetism 03: Indução EM: Indução, Circuitos, Magnetic Energy, Magnetization Dynamics, Pinch, etc.
+Electromagnetism 04: Eletromagnetismo: Eq de maxwell, campos variaveis, estresse de maxwell, circuitos EM, ondas de campo, potenciais, transformações de calibre/gauge. Eq de Jefimenko.
+Electromagnetism 04: Introdução à eletrodinâmica: Causality. Relativistic field transformations, Doppler. Liénard–Wiechert potentials.
+Electromagnetism 05: Teoria microscopica: Materiais dielétricos e magnéticos, condutividade, dispersão optica. Intr basica à Fisica de plasma, Intr básica à Física de supercondutores.
+EM Radiation 01: Propagação livre: Ondas planas, meios dielétricos, meios condutores. Ondas esféricas, Ondas cilindricas. Poyting, Energia, Potencia. Stresses/Pressures in the dielectric.
+EM Radiation 02: Propagação em interfaces: Reflexão, Transmissão, Refração. Radiation Pressure, Absorption. Compression.
+EM Radiation 03: [TODO] Propagação confinada: Guias de ondas, ressonadores, linhas de transmissão. 
+EM Radiation 04: [TODO] Emissão de radiação: Dipolo elétrico, dipolo magnético, quadrupolo, antenas infinitesimais, antenas finitas. Contornos.
+Classical Electrodynamics 01: Electrostatics, Magnetism, Maxwell Equations, EM Free/Interface/Confined Waves, Radiating Systems, Scattering and Diffraction.
+Classical Electrodynamics 02: [TODO]
+Electrodynamical Systems 01: [TODO] Electrostatics: Boundary-Value Problems, Potential Coeficients, Dielectrics, Stresses.
+Electrodynamical Systems 02: [TODO] Magnetostatics:
+Electrodynamical Systems 03: [TODO] Dynamics:
+Electrodynamical Systems 04: [TODO] Confined Radiation:
+Electrodynamical Systems 05: [TODO] Radiating Systems:
+Electrodynamical Systems 06: [TODO]
+EM Optics 01: [TODO]
+EM Optics 02: [TODO]
+EM Optics 03: [TODO]
+EM Optics 04: [TODO]
+Plasma Physics 01: Orbital Theory: Guiding center equations. Colisionless plasma.
+Plasma Physics 02: [TODO] Kinetic Theory: Macroscopic Values, Equlibrium, Transport. Heat, diffusion, conductivity. Oscilations, Shielding, Sheath. Plasma generation.
+Plasma Physics 03: [TODO] MHD Theory: Fluid Equations. Pressures, stresses. Viscosity, Reynolds, pinches. EM waves. MHD Waves.
+Plasma Physics 04: [TODO] Plasma waves: Cold plasma, Worm plasma, Hot plasma, Isotropic plasma, Magnetized plasma.
+Plasma Physics 05: [TODO] Interaction of plasma particles: Boltzmann Plasma Theory. Vlasov Equation. Fokker-Planck Equations. Transport. Gyrokinetics.
+
+
+
+LISTAS DE FÍSICA: THERMODYNAMICS AND STATISTICAL MECHANICS:
+Thermodynamics 01: General Theory: Lei zero, Sistemas termodinamicos, PVT, Trabalho e energia, Primeira lei, Calor, Gás ideal, Máquinas térmicas, Segunda lei, Ciclo de Carnot, Entropia.
+Thermodynamics 02: Sistema PVT: Primeira Lei, Segunda lei, Potenciais Termodinamicos, Relações de Maxwell, Transição de fase, Zero absoluto, Gases, teoria cinética.
+Thermodynamics 03: Sistema PVTN: First Law, Chemical Potential, Multi-specie system, Mixtures, Second Law, Thermodynamical Potential. Chemical Reactions, Equilibrium, Ideal Gas. Open Systems.
+Thermodynamics 04: Generalized Thermodynamics: Zeroth/First/Second/Third generalized laws. General systems. THM System, Magnetic Cooling, Cryogenics. PVTHM Systems. PVTPE. Basic PVTNHMPE System.
+Thermodynamics 05: Other Systems: Thermal Properties of Solids. Critical Phenomena. Heterogeneous Systems.
+Heterogeneous Systems 01: [TODO] General Theory:
+Heterogeneous Systems 02: [TODO] Cells and Electrodes:
+Heterogeneous Systems 03: [TODO] 
+Heterogeneous Systems 04: [TODO] 
+Kinetic Theory 01: Gases at kinetic View. Distribuição de Maxwell-Boltzmann. Coeficientes de transporte. Efusão.
+Kinetic Theory 02: [TODO]
+Intr Statistical Mechanics 01: Principles: Boltzmann Entropy, Microcanonical Ensemble, Canonical Ensemble, Partition Function, Classical/Quantum Statistics, Grand Canonical Ensemble.
+Intr Statistical Mechanics 02: [TODO] Quantum Statistics: 
+Intr Statistical Mechanics 03: [TODO] Interacting Systems: 
+Intr Statistical Mechanics 04: [TODO] Phase Transitions: 
+Classical Statistics 01: Ensembles, Liouvilli. NVE, NVT, uVT, NPT, NPH Ensembles. Kinetic Theory.
+Classical Statistics 02: Ideal Gas. Internal degrees of freedom. External potentials.
+Classical Statistics 03: Interacting System: Single particle components, multi-particle compoenents.
+Classical Statistics 04: Phase Transitions:
+Classical Statistics 05: Non-Equilibrium:
+Quantum Statistics 01: Ensembles, Liouvilli. NVE, NVT, uVT, NPT, NPH Ensembles. Kinetic Theory.
+Quantum Statistics 02: Ideal Gas: Bose, Fermi, MB. Internal degrees of freedom. External potentials.
+Quantum Statistics 03: Interacting System: Single particle components, multi-particle compoenents.
+Quantum Statistics 04: Phase Transitions: 
+Quantum Statistics 05: Non-Equilibrium: 
+
+
+
+LISTAS DE FÍSICA: GRAVITY:
+Gravity 00: [TODO] How was developed. Experiments (Calculation of G, etc). Kepler equations. (Make it to be Physics 01?)
+Gravity 01: [TODO] Newtonian Gravity: Field equations. Pressures/Stresses. Tidal Forces/Torques/Stresses. Orbital maneouvers. Precession. Pertubations. Mercury precession problem.
+Gravity 02: [TODO] Beyond Newton: Galactic Rotation curves, Dark Matter, MOND, AQUAL, etc. Dark Energy, etc.
+Gravity 03: [TODO] GEM: Gravitoelectromagnetism: Gravity-Probe B. Gravitomagnetic Fields. Generation. Strength. Poynting vector. Gravitational Waves. Revisiting Mercury Precession.
+Gravity 04: [TODO] LITG: Lorentz Invariant Theory of Gravitation: Torsion Field. Gravitational Radiation. Stress-Energy-Momentum Tensor. Field Strength Tensor. Etc. Revisiting Mercury Precession.
+Gravity 05: [TODO] GR 01: General Relativity: Two-Body problem. Relativistic Stars. Gravitational collapse. Black Holes. Waves and interaction with matter. Few cosmology (Dark Matter/Energy). TeVeS.
+Gravity 06: [TODO] GR 02: Gravitational Radiation: Energy, Momentum, ALgnuar momentum, red-blue shifting, absorption, re-emissio, refraction. Dispersion.
+Gravity 07: [TODO] QFT in curved spacetime.
+TODO: QG Theories: LQG, etc.
+
+
+
+LISTAS DE FÍSICA: RELATIVISTIC MECHANICS:
+Special Relativity 01: Special Theory of Relativity: How the thery was developted. Rival Theories. Relativistic Kinematics and dynamics. Implications to Electromagnetic Theory.
+Special Relativity 02: [TODO] Tensorial Notation, Geometrical formulation, spacetime, covariant formulation. Accelerating frames. Electrodynamics.
+Special Relativity 03: [TODO] Fluids, Relativistic Euler Equation, https://en.wikipedia.org/wiki/Relativistic_Euler_equations, speed of sound, etc. More relativistic stuff: heat, etc.
+Special Relativity 04: [TODO] Formulação lagrangiana e hamiltoniana, ação, matéria continua, teorema de noether, meios continuos, eletrodinamica.
+General Relativity 01: [TODO] One-Body Problem: Analogous to Mechanics 01.
+General Relativity 02: [TODO] Two-Body Problem: Analogous to Mechanics 02. (Grav radiation ofc).
+General Relativity 03: [TODO] N-Body Problem. Analogous to Mechanics 03. Several precessions.
+General Relativity 04: [TODO] Gravitational Radiation.  or not?? (Perhaps this is in gravity 02?)
+General Relativity 05: [TODO] Lagrangian and Hamiltonian of it all. Analogous to Mechanics 05.
+
+
+
+LISTAS DE FÍSICA: QUANTUM MECHANICS:
+Quantum Mechanics 00: Early Quantum Mechanics: Ultraviolet Catastrophe, Thermal Radiation, Photoelectric, Compton, Matter-Radiation, Bohr, Sommefeld Quantization, de Brougli, Schrodinger.
+Quantum Mechanics 01: 1D one quantum particle: The 1D Quantum Theory, Infinite square well, Harmonic Oscilator, free particle, finite square well, delta well, arbitrary potential, formalism.
+Quantum Mechanics 02: 3D one quantum particle: The 3D Quantum Theory, Galilean Relativity, Angular Momentum, Spin.
+Quantum Mechanics 03: 3D two quantum particles: Bound state: Quantm Two-Body system, Central Potential, Hydrogen Atom, Total Angular Mometum. System of two spin-s particles.
+Quantum Mechanics 04: 3D two quantum particles: Scattering State:
+Quantum Mechanics 05: 3D two quantum particles: Identical Particles: Pauli Exclusion Principle, Exchange forces, Qualitative Covalent Bond, Qualitative Helium.
+Quantum Mechanics 06: Quantum Statistics: Free electron gas, solids, Degeneracy Pressure, Boltzmann/Fermi/Bose Statistics. Photon Gas. Black Body. Fermi Gas.
+Quantum Mechanics 07: QM Pertubation Theory: Time-Independent, Variation, WKB Approximation, Time-Dependent, Adiabatic Approximation.
+Quantum Mechanics 08: Measurement: Wavefunction collapse, Local Variable, EPR Paradox, Bell Inequalities, Quantum Entanglment, No-Cloning Theorem, Schrodinger Cat, Zeno Paradox, QM Axioms.
+Quantum Mechanics 09: [TODO]. Relativistic Quantum: Klein-Gordon Equation, Dirac Equation, energy levels, Hydrogen, etc.
+Formal Quantum Mechanics 01: Quantum Theory: QM Axioms, Enumerable/Continuum Hilbert
+Formal Quantum Mechanics 02: Quantum Dynamics: Time Evolution, Schrodinger/Heisenberg/Interaction Picture, Propagators, Path Integral, etc.
+Formal Quantum Mechanics 03: [TODO] Angular Momentum: 
+Formal Quantum Mechanics 04: [TODO] Symmetry: 
+Formal Quantum Mechanics 05: [TODO] Identical Particles:
+Formal Quantum Mechanics 06: Approximation Methods: Time Dependent/Independent, Sudden/Adiabatic apprx, strong/weak perturbation, WKB, Variational, Self-Consistent, etc.
+Formal Quantum Mechanics 07: [TODO] Scattering Theory:
+Formal Quantum Mechanics 08: [TODO] Relativistic Theories: Relativistic QM, Dirac, Klein-Gordon, Second Quantization, QFT Intro.
+Formal Quantum Mechanics 09: [TODO] Measurement, Quantum Foundations, etc.
+Quantum Systems 01: [TODO] 1D QM: Zero/Step/Barrier potential, Infinite/Finite Well potential. Wavepacket at potential barrier.
+Quantum Systems 02: [TODO] 3D QM: Zero/Step/Barrier and Infinite/Finite rectangular/cylindrical/spherical well potential. Wavepacket at potential barrier.
+Quantum Systems 03: [TODO] QM EM: Spin-1/2 (and spin-s) particle in magnetic Field. NMR. Spin-s particle in electromagnetic Fields. AB-Effect. Cyclotrons. Particle Accelerators.
+Quantum Systems 04: [TODO] Central and N-Body: Isotropic Harmonic Oscilator. Vibration spectrum. Energy modes. Infrared heating. Rigid Rotor. Microwave Spectroscopy
+Quantum Systems 05: [TODO] Approximation Methods: Stark, Van Der Walls, Helium, H2-, Alpha Decay, Power potential, Rabi, MR.
+Quantum Systems 06: [TODO] 
+Nuclear Physics 01: Crude Models: Squared/Spherical well, Binding energy, alpha/beta/gamma decay, Two-nucleon system, Shell Model, Cross-Sections, Detectors, Fission, Fusion.
+Nuclear Physics 02: [TODO] Nuclear Structure:
+Nuclear Physics 03: [TODO] Nuclear Decay:
+Nuclear Physics 04: [TODO] Nuclear Reactions:
+Quantum Optics 01: [TODO] Crude Models: Perturbative, Two level Atom, Rabi frequency, etc.
+Quantum Optics 02: [TODO] 
+Quantum Optics 03: [TODO]
+Quantum Optics 04: [TODO]
+Particle Physics 01: [TODO] Basic particle physics... uses only quantum 01.
+Particle Physics 02: [TODO] Elementary particles. Very Introductory QED, QCD and Electroweak theory.
+SSD Circuits:
+
+
+
+LISTAS DE FÍSICA: ATOMIC AND MOLECULAR PHYSICS:
+Atomic Physics 01: History: Dalton Atom. Avogadro. Thomsom Atom. Rutheford Atom. de Brougli Atom. Schrodinger Atom.
+Atomic Physics 02: [TODO] The Hydrogen Atom: Full hydrogen quantum wavefunction (with spin) in nlmjs state. Spectrum. Perturbative spectrum. Gas of hydrogen. Relativistic Hydrogen. Hydrog apprx.
+Atomic Physics 03: [TODO] The Helium Atom: Experiment. Hydrogenionic apprx. Energy levels. Pertubation, nth order. Variational.
+Atomic Physics 04: [TODO] Multielectron atoms: Hydrogenionic approximation and ground levels spdf. Orbitals. Nitrogen, Oxygen, Argon. Noble gases. Atomic Lattices, geometry, groups. Metals. Gold.
+Atomic Physics 05: [TODO] Multiplet Theory: Multiplet Calculations: Light Atoms, Iron Group Atoms, Heavy Atoms.
+Molecular Physics 01: [TODO] Born-Oppenheimer Approximation, Adiabatic Approximation. H2+ Ion.
+Molecular Physics 02: [TODO] Valence Bond Theory, Molecular Orbital Theory, LCAO, Variational, Hartree-Fock Method, Mean Field Approximation, Post-Hartree-Fock Methods. Pertubation methods. Spectroscopy. Lasers.
+Molecular Physics 03: [TODO] 
+Molecular Physics 04: [TODO] Intr DFT.
+Molecular Spectroscopy 01: Diatomic Molecules. Rotation, Vibration, Potential curves, Spectrum.
+Molecular Spectroscopy 02: Molecular Symmetry. Molecular Groups. Rotations, Vibrations, Potential Curves, electronic states, Spectrum.
+Molecular Spectroscopy 03:
+Molecular Spectroscopy 04:
+Molecular Calculations 01: [TODO] Diatomic Molecules. Energy/frequency spectrum. Acids. Electronic density. Dipole moment. Electronegativity. Autoionization. Chemical bonds. Hybridization. Water.
+Molecular Calculations 02: [TODO] Inorganic.
+Molecular Calculations 03: [TODO] Organic.
+Molecular Calculations 04: [TODO] Organic.
+Molecular Calculations 05: [TODO] Coordination.
+
+
+
+LISTAS DE FÍSICA: CONDENSED MATTER PHYSICS:
+Solid State Physics 01: Simple Models of solids: Drude Model (conductivity(DC/AC), thermal, etc). Sommefeld model. Einstein Model.
+Solid State Physics 02: Electrons in Crystals:
+Solid State Physics 03: Quantum excitations:
+Solid State Physics 04: Scattering and optics:
+Solid State Physics 05: EM Properties, Semiconductors, Superconductors.
+Semiconductor Physics 01: [TODO].
+Semiconductor Physics 02: [TODO].
+Semiconductor Physics 03: [TODO].
+Superconductivity 01: [TODO]. The classical theory. London Equations. Etc.
+Superconductivity 02: [TODO]. The quantum theory. BCS. Etc.
+Condensed Matter Physics 01:
+Condensed Matter Physics 02:
+Condensed Matter Physics 03:
+Condensed Matter Physics 04:
+Condensed Matter Physics 05:
+
+
+
+LISTAS DE FÍSICA: QUANTUM FIELD THEORY:
+Classical Field Theory 01: [TODO]
+Classical Field Theory 02: [TODO]
+Classical Field Theory 03: [TODO]
+Quantum Field Theory 01: [TODO]
+Quantum Field Theory 02: [TODO]
+Quantum Field Theory 03: [TODO]
+Quantum Field Theory 04: [TODO]
+Effective Field Theory 01: [TODO]
+Effective Field Theory 02: [TODO]
+Quantum Electrodynamics 01: [TODO] To definitly include: https://en.wikipedia.org/wiki/Schwinger_limit, https://en.wikipedia.org/wiki/Klein%E2%80%93Nishina_formula
+Quantum Electrodynamics 02: [TODO]
+Quantum Electrodynamics 03: [TODO]
+Quantum Electrodynamics 04: [TODO]
+Electroweak Theory 01: [TODO].
+Electroweak Theory 02: [TODO].
+Quantum Chromodynamics 01: [TODO]
+Quantum Chromodynamics 02: [TODO]
+Quantum Chromodynamics 03: [TODO]
+Quantum Chromodynamics 04: [TODO]
+Standard Model: [TODO].
+QFT Optics 01: [TODO].
+QFT Optics 02: [TODO].
+QFT Optics 03: [TODO].
+QFT Optics 04: [TODO].
+
+
+ENGINEERING MACHINES:
+Optical Machines 01: [TODO] Telescopes, Microscopes, Chromatic Correction, etc, etc. Big Telescopes (heat, mirror, etc).
+Mechanical Machines 01: [TODO] Gears, Power transmission, Energy Storage, Gyroscopes, etc, etc..
+Fluid Machines 01: [TODO] Hydraulics, Pneumatics, Etc.
+Thermodynamical Machines 01: [TODO] No Fluid Flow: Otto Cycle, Rankine Cycle, Stirling Engine. Refrigerators. Reversibility. Work.
+Thermodynamical Machines 02: [TODO] With Fluid Flow: Nozzles, Jet Engines, Heat Exchangers, Gas Turbines, Pumps, Furnaces, Air conditioners, Radiadors(even for space).
+Thermodynamical Machines 03: [TODO] Cryogenics. Magnetic Cooling, etc.
+EM Machines 01: [TODO] Electrostatic Machines:
+EM Machines 02: [TODO] Electrodynamic Machines: Motors, Generators, Hydroelectric, MHD Propulsion, Particle Accelerators, etc.
+EM Machines 03: [TODO] RF Machines: Transmission Lines, Antennas, Radar, Magnetron, Particle Accelerators, Amplifiers, Valves, etc...
+EM Machines 04: [TODO] Microwave Machines:
+Plasma Machines 01: [TODO] Creation: Ionization, Microwave, RF, Particle Beams, Etc.
+Plasma Machines 02: [TODO] Confinment: Magnetic, Inertial, Electrostatic. Mirrors, Tokamaks, Sphericals, etc. 
+Plasma Machines 03: [TODO] Control: Pinch Machines, Etc.
+Nuclear Machines 01: [TODO] Nuclear Fission: Nuclear Reactors, breeders, generation 1, 2, 3, 3+, 4, 5. Bombs.
+Nuclear Machines 02: [TODO] Nuclear Fusion: Fusor. Fusion techniques. Plasma. Aneutronic. Etc.
+Quantum Machines 01: [TODO] Laser: Several Lasers, CO2, Free-electron laser, etc.
+Quantum Machines 02: [TODO] Spectroscopy: NMR, Optical, etc.
+Quantum Machines 03: [TODO] Scanning:  Scanning tunneling microscope(STM), Etc.
+Quantum Machines 04: [TODO] Superconductor: B-Field, Joseph Junction, SSP.
+Quantum Machines 05: [TODO] Semiconductor: 
+
+
+
+ENGINEERING MACHINES: OLD LIST.
+Machines 01: [TODO] Optical Machines: Telescopes, Microscopes, Chromatic Correction, etc, etc. Big Telescopes (heat, mirror, etc).
+Machines 02: [TODO] Mechanical Machines: Gears, Power transmission, Energy Storage, Gyroscopes, etc, etc..
+Machines 03: [TODO] Fluid Machines: Hydraulics, Pneumatics, Etc.
+Machines 04: [TODO] Thermodynamical Machines: Engines, Refrigerators, Heat pumps, Heat Exchangers, Radiadors(even for space), Cryogenics, etc.
+Machines 05: [TODO] EM Machines: Electrostatic Machines, EM Machines, Motors, Generators, Hydroelectric, etc.
+Machines 06: [TODO] RF Machines: Transmission Lines, Antennas, Radar, Magnetron, Particle Accelerators, Amplifiers, Valves, etc...
+Machines 07: [TODO] Quantum Machines: Laser, Free-electron laser, Semiconductors, superconductors, Scanning tunneling microscope(STM), NMR, etc.
+Machines 08: [TODO] Nuclear Machines: Nuclear Reactors, breeders, generation 1, 2, 3, 3+, 4, 5. Nuclear Fusion.
+[TO DO] To always analyse: Internal stresses, shear forces, loads.
+[TO CONSIDER] Superconducting Machines, Solid State Machines(solar energy, processors, HDs, etc), etc.
+[TO CONSIDER] Chemical Machines:
+	- ElectroChemical: Fuel Cell, Batteries, Super-capacitors. Electro-plating, etc.
+	- https://en.wikipedia.org/wiki/Chloralkali_process
+
+
+LISTAS DE ELETRÔNICA:
+Circuits 01: Circuitos resistivos: Leis de circuitos. Thevenin, norton theorems. Maybe op amps.
+Circuits 02: Lumped Circuit Abstraction: Lumped Elements, IV Curve, Circuits, Kirchhoff laws, Methods to solve circuits.
+Circuits 03: [TODO] The RLC Circuit: Capacitor, Inductor, Resistor. RLC-Circuit in series. Ressonance. AC Power.
+Circuits 04: [TODO] Stationary Linear RLC Circuits: Impedance, Thevenin/Norton, Magnetic Coupling, Polyphasic Systems, Two-Port Network.
+Circuits 05: [TODO] Nonlinear circuits: exponential, etc.
+Circuit Design 01: [TODO] Resistive circuit design: Voltage dividers, etc.
+Circuit Design 02: [TODO] RLC Circuit Design: Filters, etc.
+Circuit Design 03: [TODO] Circuit design: Diodes, Logic gates, Flip-flops, Amplifiers, Oscilators, Op-Amps, etc.
+Circuit Design 04: [TODO] 
+Component Electronics 01: Semiconductor: Doping, PN Junctions, Diodes, PNP, NPN, Transistors, FETs, MOSFETs, etc.
+Component Electronics 02: [TODO] Valves, Diode Valve, Triode, Pentrode, Valve Amplifiers, etc.
+Analog Electronics 01: [TODO]. Diodes: Semiconductors, Diode junction, Zener, Half/Full rectifier, Voltage Regulator, Voltage multiplicator, clippers, clampers.
+Analog Electronics 01: [TODO]. Transistor Basics: Semiconductor, Transitive junctions, amplification, stability, thermal stability.
+Analog Electronics 01: [TODO]. Transistor Oscilators: Flip Flops, Multivibrators, oscilators.
+Analog Electronics 01: [TODO]. Transistor Amplfiers:
+Analog Electronics 01: [TODO]. Resistive Circuit Design: Amplifiers, Dividers, Adders, Subtractors.
+Analog Electronics 02: [TODO]. RLC Circuit Design: Integrators, Differentiators, Active/Passive filters, etc.
+Analog Electronics 03: [TODO]. Circuit Design: Transistors, diodes.
+Analog Electronics 04: [TODO].
+Digital Electronics 01: [TODO]. Lumped Signal Abstraction: (also: Static discipline, voltages thresholds, noise margin).
+Digital Electronics 02: [TODO]. Combinatorial Electronics:
+Digital Electronics 03: [TODO]. Sequential Electronics:
+Digital Electronics 04: [TODO]. Computers:
+Power Electronics 01: [TODO].
+Power Electronics 02: [TODO].
+Power Electronics 03: [TODO].
+Power Electronics 04: [TODO].
+TO THINK: Isn't currently Analog Electronics 123 simply circuit design? Building block of analog is the op-amp after all.....
+TO THINK: Perhaps to add circuit design 1234, and then, to add, analog electronics 123 from op-amps.
+PERHAPS: In circuit design, no op-amps are allowed. In analog one, "only" op-amps are allowed.
+
+
+PROGRAMMING LIST:
+C/C++ Programming: The basics of the language.
+C++ Programming 01: [TODO] Extensions, STL, Generic Functions, Classes, Class Inheritance, Template Classes, Metaprogramming.
+C++ Programming 02: [TODO].
+C++ Programming 03: [TODO].
+C++ Programming 04: [TODO].
+C Programming 01: [TODO].
+C Programming 02: [TODO].
+AVR Programming 01: [TODO].
+AVR Programming 02: [TODO].
+
+
+CHEMISTRY LIST:
+General Chemistry 01: [TODO] Intr Concepts: Atom, Molecules, Ions. Periodic Table, Radius, electronegativity. Reactions, Stoichiometry.
+General Chemistry 02: [TODO] Chemical bonds: Atomic Structure, Octet rule, bonds, VSEPR, QM, MOT, LCAO, FMOT.
+General Chemistry 03: [TODO] Chemical Reactions: Equilibrium, Acid-Base, Redox. Buffers, Titrations. Solubility. Kinetics.
+General Chemistry 04: [TODO] Chemical Thermodynamics: Internal Energy, Enthalpy, Entropy, Gibbs. Activation energy.
+Inorganic Chemistry 01: [TODO].
+Inorganic Chemistry 02: [TODO].
+Inorganic Chemistry 03: [TODO].
+Inorganic Chemistry 04: [TODO].
+Organic Chemistry 01: QM, MOT, LCAO, Carbon Atom, Hybridization, Bonds. FMOT, etc.
+Organic Chemistry 02: [TODO].
+Organic Chemistry 03: [TODO].
+Organic Chemistry 04: [TODO].
+
+
+ECONOMICS LIST:
+Basic Economics 01: Equilibrium Economics: Supply/Demand. Equilibrium Price. Consumer/Producer surplus. Elasticity. Supply/demand shift. Market response intuition.
+Basic Economics 02: Economics outside equilibrium: Taxation, Subsidy, price floor/ceiling, deadweight loss, wasteful trades, Shortage/surplus. Labor market. Price controls, soviet union.
+Microeconomics 00: Supply/Demand: Equilibrium price, Elasticity. Taxation, subsidy, price floor/ceiling. Correlation vs Causation. 
+Microeconomics 01: Consumer Theory: Utility functions. Types of Goods. Demand curve for consumer. Market demand curve. Leisure/Fun and Labor supply curve.
+Microeconomics 02: Output Producer Theory: Capital/Labor. Isoquants, Isocosts. Profit. Competitive Market, Monopoly, Oligopoly. Market power. Market supply curve.
+Microeconomics 03: Input Producer Theory: Economics of Factors. Capital/Labor inputs. Competitive Market, Monopsony, Oligopsony. Market power.
+Microeconomics 04: Wellfare economics:
+Microeconomics 05: General Equilibrium:
+Microeconomics 06: Market Failure:
+
+
+LATER FOR ME: CIRCUITS: CALCULATE IT ALL:
+	01) Stationary Regime: Calculate the fasors, impedances. Series impedance and parallel. ASsociation of impedances.
+	02) Transient regime: Try to calculate few things.
+	03) Fourier Series: CAlculate sine/cos, cos and complex fourier series. Relate. Find properties. Do square wave example.
+	04) Fourier Transform: Calculate complex, cos, and sin/cos fourier transform. Relate. Find properties. Do square wave example.
+	05) Laplace Transform: Calculate laplace transforms. FInd property. Do square wave example. Try the inverse laplace transform.
+	06) Try to develop circuit solving in frequence domain (fourier/laplace transform of equations) (stationary) (transient if possible)
+	07) Try to extend "impedances" and association in parallel/series (maybe node method) (stationary) (transient if possible).
+	08) Two-port network: Calculate all parameters (Z, Y, ABCD, G, H), and relate each other.
+	09) Two-port network: Classify: Reciprocal, symmetrical, etc, finding conditions for each parameter.
+	10) Two-port network: Associate the networks: Series-series, parallel-parallel, parallel-series, series-parallel, cascates.
+	11) To develop filters: Low-pass, high-pass, bandwith-pass, bandwith-no-pass, etc. Diagrams (normal, log(bode), etc).
+	12) Investigate time delay between signals passing thru filters. Example: Step function.
+	13) Series RLC. Calc all of ressonance curve. Quality factor. Log diagram (bode). Gain. Calculate quality of some ressonant filters.
+	14) Parallel RLC (current source). Ressonance curve. Quality factor. Log diagram. Gain. Maybe filters. Maybe response by step function.
+	15) More realistic parallel RLC. Ressonance curves. Quality factor. Log. Gain. Maybe filters. Etc.
+	16) (optional) Quality factor on inductors. Resistor in parallel, series. Associations of quality factor (series, parallel, etc).
+	17) (optional) Quality factor on capacitors. Resistor in parallel, series. Associations of quality factors (series, parallel, etc).
+
+
+LATER FOR ME: QUANTUM:
+	- Calcs: Find the state in position and momentum representations, ofc.
+	- Calcs: Probability Density, Probability current, <x_i>, <p_i>, <x2>, <p2>, dev(x), dev(p). d<x>/dt. d²<x>/dt².
+	01) Infinite Square Well.
+	02) Harmonic Oscilator. Analytic. Algebraic.
+	03) Free Particle. Gaussian Wavepacket.
+	04) Delta-Function potential. Green's Function. General solution to given potential.
+	05) Moving Delta-Well. Recover Galilean Relativity.
+	06) Hydrogen Atom.
+	07) Angular Momentum and Spin.
+	08) Hydrogen Atom (full state).
+	09) EM Field. Aharonov-Bohm Effect.
+	10) Galilean Relativity.
+
+---
+
+TO CONSIDER: Maybe to have an "advanced section". Objective: To indeed calculate real systems, such as:
+	- Advanced Mechanics: Nonlinear, chaos, Precession, Gyros.. No math hiding. Using special functions, Green, and much more.
+	- Advanced Electromagnetism: Electrostatics problems, Magnetostatics Problems, Radiating problems.... No math hiding.
+OR PERHAPS: It should be called NMH (No Math Hiding). Say..: NMH Electromagnetism 01. Etc. =). ==).

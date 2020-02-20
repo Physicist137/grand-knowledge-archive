@@ -1,0 +1,62 @@
+TITLE: Thermodynamics 04: Generalized Thermodynamics
+	- Pre-requisitives: Thermodynamics 03.
+	- Co-requisitives: None
+
+
+Zeroth law of thermodynamics.
+	- TODO: Statment.
+	- TODO: Proof of existance of thermodynamical temperature.
+
+
+First Law of Thermodynamics.
+	- TODO: First law of thermodynamics: Work in adiabatic system. State function of internal energy. Definition of heat.
+	- TODO: Quasi-static transformation.
+	- TODO: Generalized forces and generalized displacements. Computation of work. Examples of each.
+	- TODO: Extensive/intensive quantities.
+	- TODO: Eg.: Ideal gas.
+	- TODO: Response Functions: Heat capacities, Force constants, Thermal responses.
+
+
+Second Law of Thermodynamics.
+	- TODO: Heat engines. Kelvin and Clausius statement. Equivalence of both.
+	- TODO: Carnot engines. Carnot Theorem and corolary. Negative temperatures cannot exist.
+	- TODO: Entropy.
+
+
+Thermodynamic Potentials
+	- TODO: Several thermodynamic potentials: Enthalpy, Helmoholtz, Gibbs, Grand Potential.
+
+
+Third law of thermodynamics
+	- TODO.
+
+
+TODO: The THM System. Recall: Hysteresis is not valid reversible process. Exclusion of ferromagnetic materials in here.
+TODO: Magnetization of small sample by changing the current of solenoid. Calc: Work done by battey.
+TODO: Magnetization of small sample by changing the position of the sample in fixed current solenoid. Calc: Work done by quasistaticforce, work done by battery.
+TODO: Vacuum Field Energy, Mutual Field energy, Self Magnetization Energy.
+TODO: Statement of the first law of thermodynamics: Considering mutual and vacuum field energy not part of the system. Interpretation of heat.
+TODO: Statement of the first law of thermodynamics: Considering mutual field energy, but not vacuum field energy, as part of the system. Interpretation of heat.
+TODO: Note: A more general concept of heat is made here.
+TODO: Heat capacity at constant magnetization. Heat capacity at constant H field.
+
+TODO: Isothermal process. Description of experimental procedure. Contact with thermal resevoir (heat bath). Work done in isothermal process.
+TODO: Isomagnetic process. Description of experimental procedure. Work done in isomagnetic process. Does sample increase or decrease its temperature?
+TODO: Adiabatic process. Adiabatic constant. Work done in adiabatic process. Adiabatic magnetization/demagnetization. Does sample increase or decrease its temperature?
+TODO: Note: Loss of overall heat capacitity due to loss of freedom of the dipoles, due to magnetized sample. Entropy control with magnetic fields.
+TODO: Thermodynamical process in the THM System. Thermal machines. Carnot Cycles Refrigerators. Second law of Thermodynamics.
+TODO: Magnetic Cooling. Thermodynamical Cycle. Equations. https://en.wikipedia.org/wiki/Magnetic_refrigeration#Thermodynamic_cycle
+
+TODO: Equation of state?
+TODO: Second law of thermodynamics.
+
+
+TODO: The PVTHM System.
+TODO: The PVTPE System.
+TODO: Basic PVTNHMPE System.
+
+TODO: Thermal Properties of Solids
+TODO: Critical Phenomena
+TODO: Heterogeneous Systems
+
+

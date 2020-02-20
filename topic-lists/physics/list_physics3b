@@ -1,0 +1,863 @@
+TITLE: Fisica 03b: Magnetismo fenomenológico básico introdutório.
+	- Pre-requisitive: Fisica 01, Calculus 02
+	- Co-requisitive: Calculus 04, Fisica 02
+
+
+Campo Magnetico
+	- Experiment: Inexistência de cargas magnéticas
+		- Analogy: Electric dipole (we make a magnetic dipole).
+	- Def: Força Magnetica de carga em campo magnetico em referencial inercial (experiment)
+		- Constante k.
+		- Unidade do campo magnetico (SI) e constante k no SI.
+		- Valor do campo magnetico da Terra.
+	- Força de Lorentz
+		- Carga imerso em campo eletrico e campo magnetico
+		- Formal DeF: Força de Lorentz
+		- Potencia da força de Lorentz
+		- Conclusion: Campo magnético não realiza trabalho.
+		- Conclusion: Energia cinética de particula em campo magnetico é conservada
+	- Trajetória circular de carga em campo magnetico uniforme
+		- Calc: Equação de movimento
+		- Calc: Raio da órbita circular
+		- Calc: Velocidade angular da carga
+		- Note: Velocidade angular independe de sua velocidade/raio.
+	- Experimento de Rutheford
+		- Tubo a vacuuo. Raios catódicos. Descoberta do elétron
+		- [por catavento] Electrons has momentum. =).
+		- [por magnet] Electron has charge.
+		- Calc: Verificando que elétron tem carga negativa
+		- Calc: Razão carga-massa do eletron.
+		- Conclusion: Eletron tem massa.
+	- Experiment: Particle Detector: Câmara de Wilson (Clould chamber)
+		- Expansão adiabática de vapor de água saturado ==> Vapor de agua supersaturado
+		- Condensação de vapor em torno de íons existente
+		- Note: We just built detector de radiação ionizante (such as, OBVIOUSLY, electrons).
+		- Experiment: Eletrons tem trajetória circular em campo puramente magnetico
+		- Curious: Descoberta do pósitron. Fotografia da camara do primeiro positron observado:
+		- http://upload.wikimedia.org/wikipedia/commons/6/69/PositronDiscovery.jpg
+	- Fluxo do campo magnetico
+		- Analogo magnetico da lei de Gauss
+		- Formal local do analogo magnetico da lei de Gauss
+		- Conclusion: Linhas de campo magnetico sempre fechadas
+		- Unidade de fluxo magnetico
+	- Força magnetica sobre fio de corrente
+		- Densidade de corrente em função da velocidade
+		- Densidade de força magnetica
+		- Força magnetica em elemento de corrente dl
+		- Def: Elemento de corrente
+		- Força magentica em um circuito
+	- Example: Circuito fechado em campo magnetico constante
+		- Força e torque em circuito fechado em forma de quadrado
+		- Def: Momento de dipolo magnético
+		- Mudança de eixo do circuito (ou do campo)
+		- Força e torque em circuito fechado em forma de circulo
+	- Circuito fechado em campo magnetico constante
+		- Força em circuito fechado.
+		- Torque em circuito fechado
+	- Momento de dipolo magnetico em corrente fechada
+		- Note: Parece com torque em dipolo elétrico
+		- Def: Momento de dipolo magnetico
+		- Calc: Momento de dipolo magnetico
+		- Equipment: Amperimetro. Torque em campo magnetico.
+	- Efeito Hall
+		- Fio submerso em campo magnetico
+		- Campo eletrico do fio e vetor densidade de corrente
+		- Vetor Densidade de corrente em função de velocidade media dos portadores
+		- Força magnetica media sobre cada portador de carga
+		- Acumulo de cargas em lados opostos
+			- Portadores de cargas positivos
+			- Portadores de cargas negativos
+			- Note: Dependente do sinal da carga do portador
+		- Surgimento de campo eletrico impresso
+		- Tendencia: Força eletrica de igual magnitude da força magnetica
+		- Calc: Força eletromotriz no equlibrio
+		- Def: Força Eletromotriz Hall
+		- Example: Calc: Força eletromotriz de efeito hall
+		- Application: Determinar o sinal dos portadores de carga
+		- Application: Medir intensidade do campo magnetico
+		- Application: Determinar o coeficiente hall: 1/nq
+	- Movimento de cargas em campo magnetico
+		- Velocidade inicial arbitraria de particula em campo magnetico uniforme
+		- Equações de movimento 
+		- Solução em termos da velocidade
+		- Posição tridimensional da particula em campo magnetico
+		- Note: Apenas movimento em direção do campo, sobrevive
+		- Note: Movimento perpendicular ao campo são curvas de Lissajous
+		- Conclusion: Charged particles follow magnetic field lines
+		- Note: Hall effect was exactly this
+	- All Eletromagnetic laws so far
+		- Forma local e integral do campo elétrico
+		- Forma local e integral do campo magnético
+
+
+Indução de campo magnetico: Lei de Ampere
+	- Question: Qual a fonte do campo magnetico?
+		- Oersted Experiment: Bússola e fio com corrente.
+		- Campo magnetico circular
+	- Lei de Ampere na Forma integral
+		- divB = 0 ==> Linhas fechadas ==> Há circulação
+		- Àmpere experiment: Circulação é proporcional à corrente total atravessada por curva
+		- Def: Constante de permeabilidade magnética no vácuo
+		- Unidade da permeabilidade magnética
+		- Comparação com Lei de Gauss
+		- Note: Corrente é mantida constante (corrente estacionária)
+		- Lei de Àmpere em função do vetor densidade de corrente
+	- Lei de Àmpere na forma Local
+		- Aplicando teorema do rotacional
+		- Formal local da Lei de Àmpere
+		- Comparação com forma local das leis eletrostáticas
+		- Note: e0 <--> 1/u0
+		- Calc: Divergencia do vetor densidade de corrente é zero.
+		- Condição de corrente estacionária: Divergencia do vetor densidade de corrente
+		- Remember: Equação da continuidade
+		- Condição de corrente estacionaria
+	- Example: Campo magnético induzido por corrente retilinea
+		- Fio condutor longo cilindrico de raio a
+		- Note: Simetria Axial. Campo magnetico cte in given r.
+		- Aplicação da lei de Àmpere para o calculo do campo magnetico induzido
+		- Calc: Campo magnético externo (r >= a)
+		- Calc: Campo magnético interno (r < a)
+		- Grafico do campo magnetico em função da distancia
+	- Potencial Escalar Magnetico
+		- Definição do potencial escalar magnetico
+			- Consider: Espira C com corrente i
+			- Aplicando lei de Àmpere
+			- Note: Integral de linha do caminho fechado nao passando pela area/barreira, é zero
+			- Escrita do campo magnetico como gradiente de potencial escalar
+			- Imposition: Caminho não pode ultrapassar a barreira/area
+			- Note: Descontinuidade ao ultrapassar barreira.
+			- Note: Fenomeno análogo em dipolos elétricos
+		- Calc: Valor do potencial escalar magnetico
+			- Remember: Potencial de dipolo eletrostático
+			- Densidade superficial de dipolo eletrostático
+			- Calc: Potencial dV devido a dipolo dp
+			- Calc: Potencial v devido ao disco de dipolo elétrico
+			- Potencial escalar magnético devido a disco de dipolo magnético
+	- Lei de Biot-Savart
+		- Corrente i, circuito C produz em P em posição R um campo magnetico
+		- Calc: Campo magnético em função do potencial escalar magnético
+		- Deslocamento infinitesimal de P
+			- Note: Campo magnético aparece explicitamente
+			- Note: Just to calc the integral
+			- Note: Integral é sobre cilindro lateral varrido por deslocamento
+		- Mudando integral de superficie para integral de linha
+		- Campo magnetico gerado por circuito de corrente
+	- Example: Campo magnetico em fio retilineo
+		- Transformando para variavel theta
+		- Calc: Campo magnetico em fio de tamanho L
+		- Special Case: Fio de corrente semi-infinito
+		- Special Case: Fio de corrente infinito
+	- Example: Campo magnético no centro de anel circular (current loop)
+		- Centro de anel circular
+		- Calculo do campo
+	- Example: Campo magnetico em eixo de espira circular
+		- Eixo de espira circular
+		- Calculo do campo
+		- Special Case: Campo magnetico no eixo em altura z=0
+		- Note: Espira circular é equivalente a dipolo magnético
+		- Extrapolação do dipolo elétrico para caso magnético
+		- Campo magnético em distancia qualquer de dipolo magnético infinitésimo
+	- Example: Campo magnético em bobina (current loop)
+		- Bobina formada por vários current loops
+		- Calc: Campo magnético no centro da bobina
+		- Calc: Campo magnético na extremidade da bobina
+		- Note: Dentro da bobina campo magnético é aproximadamente constante
+		- TODO: How to produce powerful magnetic fields with coils
+	- Example: Bobina de Helmholtz
+		- Descrição da bobina de Helmholtz
+		- Calc: Campo magnético dentro da região de interesse
+		- Note: Campo é praticamente constante
+		- Note: Aproximação de campo constante
+	- Example: Campo magnético em bobina (solenoide)
+		- Def: Bobina
+		- Bobina descrita por helice
+		- Campo magnetico por causa de corrente (TODO the calcs)
+		- Aproximação de solenoide como n espiras
+	- Example: Bobina Toroidal
+		- Calculo do campo magnético usando lei de Àmpere
+		- Note: Campo foi expresso em coordenadas polares
+		- Note: Campo inteiramente confinado dentro de um toroide
+		- Note: Se a,b->inf diferneça finita, apprx para solenoide
+	- Example: Forças Magnéticas entre correntes
+		- Dois fios infinitos com mesmo sentido de corrente
+		- Campo magnético gerado pelos dois fios
+		- Força magnética por unidade de comprimento
+		- Note: Sentido igual de corrente ==> Força atrativa
+		- Note: Sentido inverso de corrente ==> Força repulsiva
+	- Definição da unidade àmpere
+		- Fixar constante de permeabilidade magnética
+		- Experimentalmente determinar permissividade elétrica
+	- Example: Campo magnético por bobina de Helmholtz
+		- Descrição da bobina de Helmholtz
+		- Schematic: http://upload.wikimedia.org/wikipedia/commons/8/8d/Helmholtz_coils.png
+		- Calculo do campo magnético induzido
+		- Special Case: Campo magnetico entre as duas bobinas (em R/2)
+		- Note: Campo magnético aproximadamente uniforme entre as bobinas
+	- Optional: Configuração de campo magnético sobre varias bobinas (TODO the calcs)
+		- Bobina de geometria cilindrica
+		- Bobina de geometria eliptica
+		- Bobina de geometria parabólica
+		- Bobina de geometria cônica
+		- Bobina de geometria hiperbólica
+		- Inverse problem: How to approuch it?  (TODO MYSELF)
+	- Optional: TODO maybe: Confimanemto de plasma (Magnetic mirror)
+	- All Eletromagnetic laws so far
+		- Forma local e integral do campo elétrico
+		- Forma local e integral do campo magnético
+
+
+Análise de Dipolos Magnéticos
+	- Anaogo a análise de dipolos elétricos
+	- Falar de inexistencia de cargas magnéticas
+
+
+Produção de Campos Magnéticos
+	- Like the electrostatic machines
+	- TODO: Powerful Static Fields
+	- TODO: Powerful Pulsed Fields
+
+
+Materiais Magnéticos
+	- Analogo a materiais dieletricos in electrostatics
+	- TODO: INcrease in magnetic field when material is inserted
+	- TODO: Relative magnetic permeability
+	- TODO: Talking (no calcs) of hysteresis curves. No-calc-understanding of how they work.
+	- TODO: Talking (no calcs) about random accesing memory (RAM) by magnetization.
+
+
+Indução Eletromagnética
+	- Corrente produces magnetic field. What about the opposite?
+	- Experiment: Galvanometro extremamente sensivel em sala isolada. No effect.
+	- Faraday Experiment 01
+		- Dois fios enrolados em pedaço de madeira. Conectado a galvanometro, e bateria.
+		- No effect. :(
+		- BUT, there's an effect ONLY when ligamos e desligamos.
+		- Variação do campo magnetico ==> Corrente. Published in 24/11/1831
+	- Faraday Experiment 02
+		- Aproximar e afastar ímã de solenoide ==> Galvanômetro detectava corrente.
+		- Aproximar e afastar solenoide de ímã ==> Galvanômetro detectava corrente.
+		- Detecção de corrente em movimento relativo entre solenoide e ímã.
+	- Lei da indução eletromagnetica
+		- Def: Fluxo de campo magnetico
+		- Força eletromotriz e variação do fluxo magnético
+		- Intensidade de corrente induzida
+	- Demonstração da lei de indução eletromagnetica em fio movente
+		- Eletrons livres sujeitos à força de Lorentz
+		- Def: Campo elétrico equivalente (impresso e induzido) sobre o fio
+		- Força Eletromotriz ao longo do circuito
+		- Calc: Circuito em posições t e t+dt. Formando volume cilindrico.
+		- Calc: Fluxo de campo magnético sobre superficie de clindro fechado
+		- Força eletromotroz do circuito é a variação de fluxo magnetico
+	- Fio não movente e campo magnético variavel
+		- Não existe Lorentz force nesse caso
+		- Experiment says: Lei de indução eletromagnetica continua válida
+	- Forma local e integral da indução eletromagnética
+		- Forma integral da indução eletromagnética
+		- Aplicando teorema do rotacional
+		- Forma local da indução eletromagnética
+		- Conclusion: Campo magnético variável produz campo elétrico não-eletrostático
+	- Fio movente e campo constante  vs.  Fio fixo e campo variavel. TODO: FIXME. Should be espira-ímã.
+		- 1) Fio movente: Força eletromotriz no fio por cargas em movimento relativo com campo magnetico
+		- 2) Fio fixo: Campo magnético produz campo eletrico não-eletrostatico impulsionando cargas
+		- Note: 1 is caused by magnetic force. 2 is caused by eletric force.
+		- Note: Casos identicos. Dependencia apenas de movimento relativo. But, still temos assimetricidade.
+		- Note: Explicação assimétrica de mesmo fenômeno. Strange... How can it be?
+	- Lei de Lenz.
+		- Example: Imã aproximando-se de espira com polo Norte.
+			- Variação de fluxo magnético negativo ==> Força eletromotriz positiva ==> Indução de corrente na espira
+			- Indução de corrente na espira ==> Indução de dipolo magnético com norte apontando para ímã
+			- Tendencia de repulsão entre espira e ímã.
+			- Dificultando movimento (oposição ao movimento).
+		- Example: Imã afastando-se de espira com polo Norte.
+			- Variação de fluxo magnético positivo ==> Força eletromotriz negativa ==> Indução de corrente na espira
+			- Indução de corrente na espira ==> Indução de dipolo magnético com sul apontando para ímã
+			- Tendencia de atração entre espira e ímã.
+			- Dificultando movimento (oposição ao movimento).
+		- Lei de Lenz: Sentido de corrente induzida se opõe à variação de fluxo magnético
+		- That's why we have sinal de -, na lei de indução eletromagnetica
+		- Note: Campo magnético nos dois casos tinha o mesmo sentido. Ie, corrente não se opõe ao campo magnético.
+	- Lei de Lenz: Analogo a atrito viscoso ou amortecimento
+		- Example: Espira condutora em queda livre sobre imã.
+			- Variação de fluxo magnético ==> Força electromotriz induzida
+			- Espira tenderá a ser repelida pelo ímã
+			- Calc: Força de repulsão
+		- Example: Espira condutora se afastando de ímã
+			- Variação de fluxo magnético ==> Força electromotriz induzida
+			- Espira tenderá a ser atraída pelo ímã
+			- Calc: Força de atração
+		- Conclusion: Analogo a força de atrito viscoso
+	- Correntes de Focault (or.. Eddy Currents)
+		- Pendulo métalico cilindrico imerso em campo magnético uniforme
+		- Calc: Equação de movimento de pendulo
+		- Note: Existe um coeficiente de amortecimento dependente do campo magnético externo
+		- Note: Campo magnético é análogo a fluido viscoso (mel por exemplo)
+		- Calc: Analogia: Campo magnético e viscosidade do fluido.
+		- Corrente induzida: Correntes de Focault ==> Perda de potencia. We don't want it!
+		- Question: Como reduzir a corrente de Focault?
+	- Example: Haste metálica sobre trilhos imersa em campo magnético
+		- Approximation: resistencia constante (mesmo com l mudando)
+		- Calc: Fluxo magnético
+		- Calc: Força eletromotriz induzida
+		- Calc: Intensidade de corrente na haste
+		- Calc: Força magnética aplicada sobre haste movel
+		- Calc: Força necessária para puxar haste a velocidade constante
+		- Calc: Potencia necessaria a ser gasta.
+		- Calc: Potencia dissipada pela corrente induzida
+		- Note: Conservação de energia keeps valid. :)
+	- Example: Descobrindo velocidade de trem em movimento using amperímetro
+		- Note: Sistema muito parecido ao da haste
+		- Note: Uso do campo magnético da Terra
+		- Calc: Qual velocidade do trem dado corrente induzida I?
+	- Example: Motor de indução linear: Levantando um peso
+		- Bateria gera diferença de potencia. Haste Metálica sobre trilhos imerso em campo magnetico.
+		- Corrente i é passada em sentido oposto at previous example
+		- Corrente i passa pela haste imersa em campo magnetico ==> There will be magnetic force
+		- Força magnética equilibrando o peso e mantendo velocidade constante (subindo o peso)
+		- Calc: Força contra-eletromotriz induzida
+		- Calc: Intensidade de corrente total
+		- Calc: Velocidade do peso
+		- Calc: Corrente em função de massa, gravidade, ...
+		- Calc: Balanço energetico. Potencia.
+		- Note: Not that nice por ser linear.
+	- Example: Canhão eletromagnético.
+		- How to build one (Principio de funcionamento)
+		- Note: Eh identicamente igual ao last one, last-last one, and last-last-last one.
+		- Calc: Velocidade do projétil
+		- Calc: Intensidade de corrente para lançar projetil a velocidade v
+		- Balanço energético: Energia e potencia.
+		- Perhaps: Simulação de computador para checar resultados
+	- Example: Gerador de corrente alternada.
+		- Espira giratória imersa em campo magnético
+		- Força eletromotriz induzida. Note: It is senoidal
+		- Note: Espira se comportará como dipolo magnético
+		- Torque dissipador induzido pelo campo magnético
+		- Calc: Fornecimento de potencia mecanica para girar com velocidade angular cte.
+		- Calc: Potencia elétrica gerada
+		- Ways: Potencia mecanica, for instance, pode ser fornecida por queda d'água.
+	- TODO: Example: Gerador de corrente continua
+	- TODO: Example: Motores
+	- All Eletromagnetic laws so far
+		- Forma local e integral do campo elétrico
+		- Forma local e integral do campo magnético
+
+
+Indutores e Indutância
+	- Lei de Lenz: Corrente apresenta ter "inercia".
+		- Example: Desligando circuito de corrente
+			- FEM induzida se opondo à sua propria variação
+			- Lei de lenz: Sentido de corrente induzida se opõe à variação de fluxo magnético
+			- Força electromotriz induzida tende a manter a corrente circulando.
+		- Example: Ligando circuito de corrente
+			- FEM induzida se opondo à sua propria variação
+			- Lei de lenz: Sentido de corrente induzida se opõe à variação de fluxo magnético
+			- Força electromotriz induzida tende a manter a corrente desligada.
+		- Conclusion: Corrente tem "inercia".
+		- Note: Corrente em fio de resistencia zero (superconductor)
+		- How to measure this "inercia"?
+	- Formal Definition: Indutância mútua
+		- Consider: 2 Solenoides coaxiais longos.
+		- Diferença de raios e numero de espiras
+		- Calc: Fluxo magnetico do campo induzido sobre a outra bobina
+		- Note: Fluxo é proporcional a intensidade de corrente
+		- Constante de proporcionalidade: Fluxo induzido por unidade de corrente indutora
+		- Def: Indutância mútua
+		- Unidade de indutancia no SI.
+		- Note: Revertendo conta não muda o valor da indutância
+	- Formal Definition: Auto-Indutancia
+		- Consider: 2 Solenoides coaxiais longos.
+		- Calc: Fluxo magnetico de campo induzido sobre a propria bobina
+	- Propriedades das Indutancias
+		- Note: Auto-indutancia e indutancia mutua dados por fatores puramente geométricos
+		- Assume: Corrente simultanea i1, i2, nos solenoids S1 e S2
+		- Calc: Fluxo magnetico no solenoide 1 em função das indutâncias
+		- Calc: Fluxo magnético no solenoide 2 em função das indutâncias
+		- Media geometrica das auto indutancias
+	- Formal Definition: Correntes quasi-estacionárias
+		- Dominio de validade das expressões com correntes dependentes do tempo
+			- Expressões válidas para correntes variaveis no tempo
+			- Yet to see: Interações eletromagneticas se propagam com velocidade finita
+			- Variação lenta de correntes (quasi-estacionarias)
+			- Variação baixa durante tempo interação EM leva dimensões tipicas de circuitos
+			- Note: Falha na faixa de frequencias de microondas for instance.
+		- Note: Lei de Faraday ==> Auto-indutancias sempre positivas
+		- Note: Sinais de indutancia mutua dependem da convenção de sinais das correntes
+		- Calc: Força eletromotriz induzida nos solenoides em função das indutancias
+	- Example: Auto-indutância em cabo coaxial
+		- Argumento simétrico
+		- Aplicando lei de Àmpere
+		- b >> a ==> Desprezar fio interno
+		- Calc: Fluxo magnético por unidade de comprimento
+		- Auto-indutancia de cabo coaxial por unidade de comprimento
+	- TODO: Example: Indutancia de current loop
+	- TODO: Example: Indutancia de uma bobina (no core)
+	- TODO: Example: Indutancia de uma bobia (with magnetic core)
+	- TODO: Example: Indutancia mutua de bobina no mesmo nucleo magnético
+	- TODO: Example: Indutancia mutua da Bobina de Helmholtz
+	- TODO: Example: Indutancia de bobina toroidal (rectangular cross section)
+	- TODO: Example: Indutancia mutua bobina toroidal (rectangular cross section)
+	- Energia Magnética em circuito auto-indutivo
+		- Remember: Força eletromotriz induzida opoe a variação de fluxo
+		- Potencia fornecida para corrente I em função da auto-indutancia do circuito
+		- Note: Ignoring perda por efeito Joule
+		- Calc: Energia total fornecida para passar corrente de 0 para I
+		- Energia armazenada num circuito auto-indutivo alimentado por corrente
+		- Note: Energia armazenada em forma magnética
+	- Energia Magnética em circuito mutualmente indutivo
+		- Assume: Dois circuitos
+		- Energia necessaria para produzir corrente I1 em um circuito
+		- Energia necessaria para produzir cororente I2 no outro circuito
+		- Calc: Energia total
+		- Note: Trinomio de 2o grau na energia total
+		- Def: Coeficiente de acoplamento indutivo
+		- Note: Acoplamento magnético forte: Coeficiente close to 1.
+		- Note: Acoplamento magnético fraco: Coeficiente close to 0.
+	- Densidade de energia magnética
+		- Assume: Solenoide longo comprimento l, area S, N espiras.
+		- Remember: Auto-indutância do solenoide
+		- Calc: Energia magnética armazenada em solenoide
+		- Note: Energia magnética confinada no volume interno do solenoide
+		- Def: Densidade de energia magnética
+		- Compare: Densidade de energia elétrica
+		- Def: Densidade de energia eletromagnética em campo eletromagnético
+		- Example: Densidade de energia magnética em cabo coaxial auto-indutivo
+		- Example: Energia magnética por comprimento em cabo coaxial auto indutivo
+
+
+Noções de Circuitos Elétricos simples em corrente continua
+	- Restriction: EVERYTHING here aplicavel APENAS em correntes quasi-estacionarias. Humpf!
+	- Elementos de circuitos e representação esquemática e quantificação de suas propriedades
+		- Resitor: Queda de potencial. Dissipação de calor. Resitencia.
+		- Capacitor: Queda de potencial. Energia elétrica armazenada. Capacitância.
+		- Indutor: Queda de potencial. Energia magnética armazenada. Indutância.
+		- Gerador: "Queda" de potencial. Energia gerada. Força eletromotriz.
+		- Note: There are more. But, we have only base to study those 4.
+	- Tipos de elementos
+		- Def: Elemento passivo
+		- Def: Elemento ativo
+		- Representação esquemática geral de elemento passivo
+		- Representação esquemática geral de elemento ativo
+	- 1a Lei de Kirchhoff: Lei das malhas
+		- Def: Malha
+		- Contorno fechado passando por fora dos elementos
+		- Restriction: There is NO magnetic field outside.
+		- Integral de linha do campo elétrico é zero. Therefore...:
+		- Lei das Malhas: Soma de todas as quedas de tensao em malha fechada é zero.
+		- Example: Ridiculous example em 1 malha
+	- 2a Lei de Kirchhoff: Lei dos nós
+		- Def: Nó.
+		- Superficie gaussiana em volta de um nó
+		- Nò não deve ser sorvedouro nor fonte
+		- Principio da conservação de carga elétrica
+		- Fluxo do vetor densidade de corrente é nulo. Therefore....:
+		- Lei dos nós: Soma algebrica das correntes em nó é nula.
+		- Note: Circuito de duas malhas. Mesmo resultado em nó A e B.
+		- Note: Corrente em malha eh independente
+	- Enfatic: Restrições das Leis de Kirchhoff (yes, sempre enfatizar restrições)
+		- Enfatizar: Campo magnético inexistente fora do circuito
+		- Enfatizar: Conservação de carga em todos os nós
+		- Out of scope: Example: Antenas.
+		- Tratamento generalizado tirando tais restrições: Equações de Maxwell
+	- Geração de corrente continua usando meios eletromagnéticos
+		- TODO.
+	- Circuito: Gerador-Indutor
+		- Note: Resistencia nula, gerador ideal, indutor ideal
+		- Note: Esse é um circuito indutivo (obviously).
+		- Equação diferencial
+		- Note: Aumento linear da intensidade da corrente
+	- Interrupção abruta de circuitos altamente indutivos
+		- Circuito: Gerador-Indutor-Chave
+		- Chave inicialmente ligada. What happens if shutdown?
+		- Note: Pico de voltagem de acordo com a lei do indutor
+		- Curious: Ionização do ar, e ar passa a ser condutor
+		- Example: Caneta que dá choque
+		- Interpretação física
+			- Remember: Energia magnética armazenada no indutor
+			- Note: Sem corrente ==> Sem energia magnética. Pra onde a energia foi?
+		- Note: Todas as energias observadas possuem inercia. In this case, energia magnética.
+	- Aplicação: Inercia da corrente elétrica para geração de campos magnéticos
+		- Circuito: Indutor curto-circuitado
+		- Bobina de material supercondutor ==> Resistencia nula ==> Indutor ideal
+		- Imã dentro. Puxar ímã. Geração de campo magnético constante pela bobina
+		- Cleary: Corrente tem inércia
+		- Analogy: Segunda lei de Newton e Lei da indutância
+			- Massa <--> Indutancia
+			- Corrente <--> Velocidade
+	- Circuito: Gerador-Capacitor
+		- Note: Carregamento instantaneo do capacitor
+		- Note: Energia elétrica armazenada é descontinuo no tempo
+		- Violação da continuidade da energia elétrica amarzenada
+		- Note: Todas as energias observadas possuem inercia. In this case, energia elétrica.
+	- Impossibilidades em circuitos. Sem significado físico
+		- Curto-circuito em uma bateria. Contradição matemática dos modelos usados.
+		- Circuito: Bateria-capacitor. Contradição da inércia de energia elétrica.
+		- Interrupção abrupta de circuito puramente indutivo. Presença de infinitos.
+		- Note: There exist mathematical solutions. As physicist you shouldn't do it.
+	- Circuito RC: Gerador-Resistor-Capacitor, capacitor descarregado
+		- Aplicando Leis de Kirchhoff
+		- Equação diferencial da intensidade de corrente e solução geral
+		- Def: Constante de decaimento capacitiva (exponential decay constant).
+		- Significado físico da constante de tempo
+		- Calc: Carga de um capacitor
+		- Note: Capacitor is being charged.
+		- Note: Tempos mto maior que tempo de decaimento ==> Capacitor is charged.
+		- Note: Tempos mto maior que tempo de decaimento ==> Current blocked.
+		- Noção intuitiva of what is going on.
+		- Limite de resistencia cada vez menor
+		- Note: Houve respeito da inercia da energia elétrica no processo de carga do capacitor
+	- Circuito RC: Considerações energéticas
+		- Calc: Energia liberada para carregar o capacitor
+		- Calc: Energia armazenada pelo capacitor
+		- Question: Where did the energy go? What happened with half of it?!?!
+		- TODO: Explanation of it.
+		- TODO: What if a resistenceless wire? (Say.. superconductors?)
+	- Circuito RC: Resistor e capacitor carregado
+		- Capacitor inicialmente carregado
+		- Remember: Como carregar um capacitor
+		- Aplicando Leis de Kirchhoff
+		- Equação diferencial da carga e solução geral
+		- Constante de decaimento
+		- Calc: Carga de um capacitor
+		- Note: Capacitor is being discharged.
+		- Note: Tempos mto maior que tempo de decaimento ==> Capacitor is discharged.
+		- Noção intuitiva of what is going on.
+		- Note: Capacitor carregado se comporta como gerador de tensão
+	- Circuito RL: Gerador-Resistor-Indutor
+		- Aplicando Leis de Kirchhoff
+		- Equação diferencial da intensidade de corrente e solução geral
+		- Relação entre RL e RC.
+		- Valor assintótico da corrente (corrente no infinito)
+		- Def: Constante de decaimento indutiva
+		- Note: Quanto maior L, maior tempo de decaimento. Because inertia.
+		- Noção intuitiva of what is going on.
+	- Circuito RL: Resistor-Indutor
+		- Indutor com energia magnética armazenada inicial
+		- Remember: Como "carregar" um indutor magneticamente
+		- Analogo: Capacitor inicialmente carregado
+		- Aplicando Leis de Kirchhoff
+		- Equação diferencial da intensidade de corrente e solução geral
+		- Noção intuitiva of what is going on.
+		- Note: Inercia da corrente e da energia
+		- Note: Indutor magneticamente "carregado" se comporta como gerador de corrente
+	- Circuito LC: Oscilações livres em indutor e capacitor carregado.
+		- Aplicando Leis de Kirchhoff
+		- Equação diferencial da intensidade de corrente e solução geral
+		- Frequencia angular da oscilação
+		- Energia armazenada no capacitor e no indutor
+		- Energia média armazenada no capacitor e no indutor
+		- Energia eletromagnética total
+		- Analogy: Oscilações mecânicas
+		- Noção intuitiva of what is going on.
+	- Circuito RLC: Oscilações eletromagnéticas amortecidas
+		- Aplicando Leis de Kirchhoff
+		- Equação diferencial da intensidade de corrente e solução geral
+		- Note: Equação diferencial de oscilador harmonico amortecido
+		- Calc: Termo de amortecimento.
+		- Calc: Frequencia angular
+		- Equivalente mecanico: Massa ligada a mola em fluido viscoso.
+		- Solução geral do circuito RLC
+		- Amortecimento subcritico
+			- Intensidade de corrente
+			- Carga
+			- Energia armazenada no indutor
+			- Energia armazenada no capacitor
+			- Energia eletromagnetica total
+			- Energia dissipada em calor
+			- Energia dissipada por ciclo
+			- Def: Fator de qualidade Q
+			- Note: Greater Q ==> Menor perda de energia por ciclo
+		- Amortecimento supercritico
+			- Intensidade de corrente
+			- Carga
+			- Energia armazenada no indutor
+			- Energia armazenada no capacitor
+			- Energia eletromagnetica total
+			- Energia dissipada em calor
+			- Energia dissipada por ciclo
+		- Amortecimento critico
+			- Intensidade de corrente
+			- Carga
+			- Energia armazenada no indutor
+			- Energia armazenada no capacitor
+			- Energia eletromagnetica total
+			- Energia dissipada em calor
+			- Energia dissipada por ciclo
+	- Circuito RLC com gerador
+		- Aplicando Leis de Kirchhoff
+		- Equação diferencial da intensidade de corrente e solução geral
+		- Note: Solução transiente
+		- Note: Solução geral
+		- Constante de tempo
+	- Resultados estacionarios dos elementos passivos
+		- Resistor: Dissipação de potencia.
+		- Capacitor: Bloqueio de corrente.
+		- Indutores: Ignored. Aumenta inercia da corrente.
+	- Soluções estacionarias de circuitos (com geradores)
+		- Circuito RC puro em série
+		- Circuito RC puro em paralelo
+		- Circuito RL puro em série
+		- Circuito RL puro em paralelo
+		- Circuito RLC puro em série
+		- Circuito RLC puro em paralelo
+		- Circuitos mistos RC
+		- Circuitos mistos RL
+		- Note: All of them easily calculated.
+
+
+TODO: Circuito: Capacitor--battery em região de campo magnético.
+TODO: Circuits caught in EMP.
+
+
+Noções de Circuitos Elétricos simples em corrente alternada
+	- Note: We already know how to generate corrente alternada
+	- Restrições
+		- Possivel existencia de campo magnético externo
+		- Note: Kirchhoff's Laws danger in applying for AC circuits (cease to apply at high frequency).
+	- Circuitos simples
+		- Circuito puramente resistivo com gerador AC
+		- Circuito puramente capacitivo com gerador AC
+		- Circuito puramente indutivo com gerador AC
+	- Circuito RLC: Oscilações eletromagneticas forçadas
+		- Analogy: Gerador alternado <--> Força externa em oscilações forçadas
+		- Equação da intensidade de corrente e solução geral
+			- Calc: Solução da carga
+			- Note: Solução transiente e solução estacionária
+			- Note: Efeitos transientes desaparecem para tempos mto maiores que constante de decaimento
+			- Calc: Amplitude de intensidade e de carga
+			- Calc: Valor médio de intensidade e de carga
+			- Def: Potencial efetivo
+		- Curva de ressonancia de circuito RLC
+			- Note: All of this is done em Fisica 02
+			- Calc: Frequencia angular de pico de ressonancia
+			- Calc: Semi-largura do pico de ressonancia
+			- Fator de qualidade
+		- Balanço Energético
+			- Potencia do sistema
+			- Potencia média da força externa
+			- Energia média armazenada pelo oscilador eletromagnético
+	- Uso de notação complexa
+		- Solução transiente é descartada
+		- Note: Todas as grandezas irão oscilar com mesma frequencia
+		- EMF, Potencial e corrente complexa
+		- Def: Amplitude complexa da grandeza
+		- Def: Valor máximo de cada grandeza
+		- Equação diferencial dos circuitos AC
+			- Note: its linear
+			- Note: Parte imaginaria e parte real devem ser zero
+			- Uso de grandeza complexa é justificavel.
+		- Note: Conexão algébrica da derivada. Now is easier!
+	- Reatância de elemento passivo
+		- Circuito puramente indutivo
+			- Equação diferencial do circuito
+			- Relação entre amplitude complexa de EMF e corrente
+			- Solução do circuito: EMF e intensidade
+			- Note: Amplitude complexa da queda de tensão através do indutor
+			- Note: Corrente é atrasada em relação a tensão
+			- Note: "Lei de Ohm" nos valores máximos
+			- Def: Relação entre os valores máximos
+			- Def: Reatância indutiva
+		- Circuito puramente capacitivo
+			- Equação diferencial e solução complexa
+			- Note: Corrente é adiantada em relação a tensão
+			- Def: Relação enter os valores máximos
+			- Def: Reatância capacitiva
+		- Interpretation: Reatância nula e infinita
+		- Interpretation: Frequencia nula e infinita
+	- Impedância de elementos passivos
+		- Circuito RL
+			- Equação diferencial
+			- Queda de tensão do par RL
+			- Note: Generalização complexa da Lei de Ohm
+			- Impedância complexa do par RL
+				- Formal Definition
+				- Parte real da impedancia complexa
+				- Parte imaginaria da impedacia complexa
+				- Escrita da impedancia complexa no diagrama de Argand-Gauss
+				- Def: Angulo de fase da impedancia
+				- Def: Impedância do par RL
+			- Solução real do circuito RL
+				- Tensão do par RL
+				- Intensidade de corrente
+				- Note: Amplitude máxima da corrente
+				- Note: Atraso de fase da corrente
+				- Note: Se R-->0, atraso tende a resultado anterior
+		- Circuito RC
+			- Equação diferencial
+			- Queda de tensão do par RC
+			- Note: Generalização complexa da Lei de Ohm
+			- Impedância complexa do par RC
+				- Formal Definition
+				- Parte real e imaginaria da impedancia
+				- Escrita da impedancia complexa no diagrama de Argand-Gauss
+			- Solução real do circuito RC
+				- Tensão e intensidade de correntedo par RC
+				- Note: Amplitude máxima da corrente
+				- Note: Adiantamento de fase da corrente
+				- Note: Se R-->0, Adiantamento tende a resultado anterior
+		- Interpretações sobre impedancias
+			- Note: Impedancia como generalização complexa da Lei de Ohm
+			- Note: Cada elemento passivo tem impedancia.
+			- Note: Soluções gerais estacionárias apenas usando impedancias
+			- Note: Tudo do elemento é descrito por sua impedancia. No need to identify them!
+			- Note: Hence it is logical if we:
+		- Associação de elementos passivos e Impedancia equivalente
+			- Def: Impedancia equivalente
+			- Circuitos passivos em série: Impedancia equivalente
+			- Circuitos passivos em paralelo: Impedancia equivalente
+			- Note: Sounds alike resistance
+	- Potencia e valor eficaz de corrente e tensão
+		- Small example: Potencia dissipada por resistor e corrente eficaz
+		- EMF de gerador alternado
+		- Intensidade de corrente geral para qualquer circuito alternado
+		- Calc: Potencia geral
+	- Ressonancia em circuito RLC
+		- Impedancia complexa do circuito RLC
+		- Solução geral da queda de potencial do circuito
+		- Solução da intensidade de corrente
+		- Frequencia baixa ==> Reatancia capacitiva é dominante
+		- Frequencia alta ==> Reatancia indutiva é dominante
+		- Note: Intensidade máxima tende a zero em frequencia alta e baixa
+		- Note: There must be an maximum
+		- Calc: Maximo de corrente
+	- Regiões da curva de ressonancia (intensidade da corrente)
+		- Região praticamente capacitiva
+		- Região predominantemente capacitiva
+		- Região predominantemente resistiva
+		- Região predominantemente indutiva
+		- Região praticamente indutiva
+	
+	
+	- TODO: Ressonancia em circuito RLC
+	- TODO: Transformadores
+	- TODO: Filtros
+	- TODO: Tesla Coil explanation.
+
+
+
+Equações de Maxwell
+	- Equações eletromagneticas na forma integral e local
+		- Fluxo de campo elétrico
+		- Fluxo de campo magnético
+		- Circulação de campo magnético
+		- Circulação de campo elétrico
+		- Força de Lorentz
+		- Densidade de força
+		- Densidade de carga de polarização
+		- Corrente de polarização
+		- Equação da continuidade
+	- Correção na lei d Ampère (optional)
+		- Note: Corrente produz campo magnetico.
+		- Conclusion: Corrente de polarização também deve produzir campo magnetico
+		- Correção na Lei Integral de Àmpere
+		- Correção na Lei local de Àmpere
+	- Contradição nas atuais leis eletromagneticas
+		- Example: Processo de carga de um capacitor
+		- Aplicação da Lei de Ampere com superficie que intersecta fios
+		- Aplicação da Lei de Ampere com superficie que não intersecta fios
+		- Note: Não há corrente entre as placas
+		- Contradição na lei de Ampere... How to fix?
+		- But note: Lei de ampere works nice in DC
+	- Correção integral na Lei de Ampere
+		- Def: Corrente de deslocamento
+			- Soma da corrente de deslocamento na lei de Ampere
+		- Corrente de deslocamento nula com superficie que intersecta fios
+		- Corrente de deslocamento igual a corrente elétrica com superficie entre placas
+		- Remember: Fluxo do campo elétrico e lei de gauss
+		- Calc: Derivação no tempo. 
+		- Calc: Corrente de deslocamento em função do fluxo
+		- Calc: Calculo da corrente de deslocamento no caso do capacitor
+	- Correção local na lei de Ampere
+		- Divergente do rotacional de B ==> Não há respeito pela conservação de carga
+		- Note: Equação de Poisson e reescrita da equação da continuidade
+		- Correção (de novo) na lei de Ampere
+		- Correção de Maxwell em lei local no vácuo
+		- Note: Correção de Maxwell em lei local em meio dielétrico
+	- Equações de Maxwell no vácuo
+		- Efetuar todas as correções
+		- Interpretação: Variação de campo eletrico produz campo magnético
+		- Note: Corrente não mais é APENAS a fonte do campo magnético
+		- BUT! Experiment agreed with previous law. What about maxwell corrections?
+		- Example: Corrente alternada: Coexistencia dos dois efeitos: Corrente e campo eletrico variavel
+		- Note: Para dimensões típicas correções de maxwell são praticamente indetectaveis experimentalmente
+	- Equação de Ondas Eletromagnéticas
+		- Equações de Maxwell no vacuo em região sem corrente e carga
+		- Assumindo divergentes apenas na componente z
+		- Reescrita das equações de maxwell
+		- Note: Equação de ondas para o campo magnetico
+		- Note: Equação de ondas para o campo eletrico
+		- Calc: Velocidade da onda eletromagnetica
+		- Note: OH! It is equal to speed of light!
+		- Note: Constantes foram obtidas de experiencias puramente magneticas
+		- Note: Possible unification with optics
+		- Note: Formalismo válido para o campo magnético
+	- Equação de onda eletromagnética tridimensional
+		- Rotacional da lei rotacional de Maxwell
+		- Equação de onda tridimensional
+	- Ondas Eletromagnéticas planas
+		- Formal Definition: Campo elétrico identico em um dado tempo em todos os pontos em um plano
+		- Escrita da onda monocromática plana
+			- Proof: Fase identica em todos os pontos em um plano
+			- Proof: Campo elétrico identico em todos os pontos em um plano
+		- Numero de onda, constante de fase, amplitude da onda
+		- Direção de propagação da onda. Vetor de propagação.
+		- Periodo temporal: Frequencia da onda
+		- Periodo espacial: Comprimento de onda
+		- Direção do campo eletrico e magnetico
+		- Note: Direção de B, E e propagação formam base vetorial ortogonal
+	- Densidade de energia eletromagnética
+		- Remember: Densidade de energia eletromagnética no vacuo
+		- Calc: Taxa de variação temporal da densidade de energia eletromagnetica
+		- Aplicando some maxwell equations
+		- Reescrita da taxa de variação da densidade de energia eletromagnética
+		- Def: Vetor de Poynting
+		- Reescrita da taxa de variação da densidade de energia eletromagnética em função do vetor de Poynying
+	- Interpretação física do Vetor de Poynting
+
+
+
+The end! Now you can go to:
+	- Fisica 04: Optica electromagnética básico introdutorio
+	- Eletromagnetismo 01: Teoria eletrostática e materiais dielétricos
+	- Circuits 03: Single RLC Circuit in series
+	- Circuits 04: Stationary Linear RLC Circuits
+
+
+
+TODO: Produção de radiação
+TODO: Producing EMPs
+
+
+
+fazer circuitos em fisica 3?
+Every single consideration (wire has resistance, inductance, capacitance, ...). Is 10k x 10k matrix fast enough?
+
+TODO: Talk about Rutheford experiment.
+
+
+TODO: Falar e calcular sobre charged particles spiring in following magnetic field lines. [DONE]
+TODO: Falar sobre inercia/indutancia da corrente gerar elevadas FEMs quando há variação de corrente.
+TODO: After Corrente Eletrica: Talvez por: Modelos estatísticos microscopicos de condução: Propriedade ondulatoria dos eletrons, e espectros de bandas. But in other hand, Maybe not...
+TODO: Pehaps falar de força eletromotriz e pilhas em modelos microscopicos. Falar a few about statistical mechanics e relação de Einstein (Q10).
+TODO: Introduce and make calcs with Centro de carga em analogia com centro de massa. Maybe not....
+TODO: Define intensidade de corrente como o fluxo J and then Prove why I = dq/dt
+TODO: Magnetic field configuration com Bobina sobre:
+	- Um corpo cilindrico
+	- Corpo parabolico
+	- Corpo conico
+	- Corpo hiperbolico
+	- Corpo qualquer radialmente simetrico (variable circunference radius)
+
+TODO: Ask: Foi visto que todo condutor carregado, cargas nao podem estar estaticas. Therefore, pq os condutores não são imans?
+TODO: Ask:
+	- Theorem: Atomic configuration with static electrons is impossible.			( Teorema de Earnshaw )
+	- Theorem: Atomic configuration with non-static electrons is impossible.		( Electromagnetic irradiation )
+	- How is that possible? How electrons is configured on atoms?????????
+
+TODO: Particle Accelerator Betatron :). Ter q explicar perda de energia. Todo after maxwell equations.
+TODO: Falar sobre correntes quase-estacionárias after maxwell equations. Falar de microondas.
+
+TODO: Por em fisica 04 or em fisica 03? Por anyway?
+	- Everything in media: Dieletric Materials, Magnetic materials, Modelos microscopicos de condução, ...
+	- Electromagnetic equations in media
+	- Speed of EM waves in media
+	- Radiation pressure and experimental verification (Kepler explaining cauda do cometa sempre afastada do sol). To ask: Does EM waves has momentum?!
+

@@ -1,0 +1,73 @@
+Title: Machine Learning 00: The very basic view.
+	- Pre-requisitives: Probability 02, Linear Algebra 01, Calculus 04
+	- Co-requisitive: Advanced Calculus
+
+
+Math Base: Naive Matrix Calculus
+	- Trace of squared matrix
+
+Introduction to Machine Learning
+	- Supervised Learning
+	- Unsupervised learning
+	- Noção Geral
+		- Input or Independent variables or Features or Predictors
+		- Learning algorithm
+		- Hypotesis representation
+		- Output or Dependent variables or Response
+	- Learning Algorithm: Metodo do minimos quadrados (2D)
+		- Tabela de dados
+		- Erro de cada ponto com reta qualquer
+		- Aproximação da melhor reta
+	- Example: House pricing prediction
+		- Training examples: Dataset
+		- Learning Algorithm: Minimos quadrados
+		- Hypotesis representation
+		- Parameters of the hypotesis: (a,b)
+		- Input identification (tell me size)
+		- Output identification (tell you price)
+
+Linear Regression
+	- What if I have more stuffs beside size?
+	- Generalização dos minimos quadrados: Linear Regression (n-dimensional)
+	- Escrita da hipotese
+		- Parameters of the hypotesis
+		- Bias parameter
+		- PUtting dataset x0 := 1
+		- Matricial writing of hypotesis
+	- Quadratic Error function
+		- Formal Definition
+		- Calculation
+	- Learning Algorithm
+		- Objective: Chose parameters to minimze error
+		- Calc: Diferentiating error function
+		- Objective: Set result to zero
+	- Gradient Descent algorithm
+		- Def: Learning rate
+		- Algorithm description
+		- Learning rate interpretation
+			- Too high learning rate
+			- Too low learning rate
+			- Orbitas em torno do minimo
+			- How to chose nice learning rate?
+		- OBS: Batch gradient descent
+		- OBS: Stochastic gradient descent
+			- Faster "convergence"
+			- Applyed for larger training sets
+	- The Normal Equations
+		- Parametros em função dos dados
+		- Singularidade da matriz xTx
+			- Vetores linha/coluna linearmente dependentes em X
+			- Example: Size in metters, size in foots
+			- Training example repetidos/lineares
+			- Make sure this don't happen
+		- Closed form equation
+	- Probabilistic Interpretation for LInear Regression
+		- Assumption 01: Erro do parametro recai na distribuição normal com media zero
+			- Why: Matematicamente conveniente
+			- Why: Teorema do limite central
+		- Assumption 02: Erro do parametro é independentemente identicamente distribuido (IID)
+		- Calculating the likelihood
+		- Maximizando likelihood
+
+
+Regressão Logística

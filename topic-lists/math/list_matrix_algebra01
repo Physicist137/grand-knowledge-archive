@@ -1,0 +1,152 @@
+TITLE: Matrix Algebra I:
+	- Pre-Requisitive: Vector Algebra.
+	- Co-Requisitive: None.
+
+
+Matrizes
+	- Intuition: Tabela
+	- Formal Definition
+		- Linhas de uma matriz
+		- Colunas de uma matriz
+		- Representação: Matriz de m linhas e n colunas
+		- Def: elementos da matriz
+			- Elemento mxn
+			- Representação
+		- Def: "Dimensão" da matriz
+	- Def: Igualdade de matrizes
+	- Tipos de matrizes
+		- Matriz quadrada
+		- Matriz Nula
+		- Matriz Coluna
+		- Matriz Linha
+		- Matriz Simétrica
+		- Matriz Triangular Superior
+		- Matriz Triangular Inferior
+		- Matriz Diagonal
+		- Matriz Identidade
+	- Operações com matrizes
+		- Soma de matrizes
+			- Soma é comutativa
+			- Soma é associativa
+			- Soma tem elemento neutro
+			- Soma tem mesmas propriedades de soma por escalares
+		- Multiplicação por escalar
+			- Comutatividade
+			- Distributividade na soma
+			- (ab)A = a(bA)
+			- 0*A = null matrix
+		- Transposição de matrizes
+			- Matrix é simétrica <==> A = A'
+			- Transposta da transposta é ela mesma
+			- (A+B)' = A' + B'
+			- (kA)' = kA'
+		- Produto de duas matrizes
+			- Multiplcação linha por coluna
+			- Calc: Dimensão nxm do produto
+			- Some examples
+				- Multiplicando 2x2 e 2x2
+				- Multiplicando 3x1 e 1x3
+				- Multiplicando 1x3 e 3x1
+				- MUltiplicando 2x3 e 2x3 ?
+			- Condição para existencia do produto
+				- Analise em linha e coluna
+				- Analise algebrica (tentando multiplicar)
+			- Calc: Produto para qualquer matriz
+			- Propriedades
+				- Não comutatividade
+				- AB = 0 não implica A = 0 or B = 0
+				- Matriz identidade: AI = IA = A
+				- Distributatividade: A(B+C) = AC + BC
+				- Associatividade: (AB)C = A(BC)
+				- (AB)' = B'A'  (note the order)
+				- 0A != A0. but 0A = 0 and A0 = 0
+			- Propriedades derivadas
+				- is -(A') = (-A)' ?
+				- How much would be A^2 ?
+				- Quando AB = BA ?
+				- (A+B)^2 != A^2 + 2AB + B^2
+				- (A+B)(A-B) != A^2 + B^2
+			- Interpretation
+				- Problem: Tabela resource x buildingtype. Calc: Material gasto
+				- Problem: Calc: Preços por unidade de resource. Preço unitario de cada building.
+	- Vetor como uma matriz coluna
+		- Def: Produto interno
+		- Def: Produto externo
+
+
+Sistemas de Equações Lineares
+	- Example: Sistemas lineares e sua matriz associada
+	- Objective: Achar o valor das incognitas do sistema
+	- Formal Definition: Sistemas lineares
+		- Def: Matriz ampliada do sistema
+		- Def: Matriz dos coeficientes
+		- Def: Matriz incognita
+	- Escrita do sistema na forma matricial
+	- Operações elementares
+		- Permutação de linhas
+		- Multiplicar linha por escalar
+		- Soma de linhas
+	- Equivalencia de um sistema
+		- Definiçao: Equivalencia
+			- Matrizes Linha-equivalente
+			- Matrizes Coluna-Equivalente
+			- Notação
+		- Produto-Equivalencia
+			- Operações elementares sobre identidade
+			- Multiplicação da matriz por ela (IA)
+			- Example: Permutação de linhas
+			- Example: Multiplicar linha por escalar
+			- Example: Soma de linhas
+			- Multiplicações sucessivas
+	- Example: Resolvendo sistema
+		- Resolvendo sistema linear e verificar o que acontece com matriz associada
+		- Chegar na resposta: notar na forma escada
+		- Exemplificar diferentes tipos de escada que chegam na resposta
+	- Matriz Reduzida na forma escada
+		- Formal Definition
+		- Examples: Identificar quando é forma escada
+		- Theorem: Toda matriz mxn é linha equivalente a uma única matriz RFE
+		- Theorem: Toda matriz mxn é coluna equivalente a uma única matriz RFE
+		- Posto e nulidade de uma matriz
+			- Def: Posto: Numero de linhas não nulas da MRFE equivalente
+			- Def: Nulidade: n - p
+			- Examples
+		- Analise Geométrica dos sistemas 2x2
+			- Equações repsentam retas no plano x1 x2
+			- Resolução satisfaz as duas equações simultaneously (um ponto)
+			- Caso 1: Retas concorrentes
+				- Analise da matriz MRFE
+				- Posto e nulidade da matriz dos coeficientes
+				- Posto e nulidade da matriz ampliada
+			- Caso 2: Retas coincidentes
+				- Analise da matriz MRFE
+				- Posto e nulidade da matriz dos coeficientes
+				- Posto e nulidade da matriz ampliada
+			- Caso 3: Retas Paralelas
+				- Analise da matriz MRFE
+				- Posto e nulidade da matriz dos coeficientes
+				- Posto e nulidade da matriz ampliada
+	- Analise geral de qualquer sistema
+		- Valores possiveis da matriz ampliada
+		- Valores possiveis da matriz Reduzida
+		- Conclusion: Todo sistema dever ter:
+			- 1 unique solution
+			- Infinitas soluções
+			- Nenhuma solução
+		- Def: Sistema possível
+			- Def: Sistema possivel determinado
+			- Def: Sistema possivel indeterminado
+		- Def: Sistema impossivel
+		- Def: Sistema homogeneo (vetor solução é nulo)
+		- Theorem: Todo sistema homogeneo tem pelo menos uma solução
+		- Corolary: Todo sistema homogeneo é possível
+		- Theorem: Sistema possivel <==> p(A) = p(C)
+		- Theorem: Sistema possivel determinado <==> p(A) = n(A)
+		- Theorem: Sistema possivel indeterminado <==> p(A) < n(A)
+			- Corolary: Nulidade representa numeros de incognitas
+			- Corolary: Posto é numero de variaveis livres
+		- Def: Grau de liberdade := Numero de variaveis livres
+
+
+TODO: Determinant motivation in solving linear equations.
+TODO: Inversibilidade. Ligação com determinante. Ligação com sistema Ax = 0.

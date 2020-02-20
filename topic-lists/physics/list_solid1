@@ -1,0 +1,309 @@
+TITLE: Solid State Physics 01: Crude Models.
+	- Pre-requisitives: Quantum Mechanics 04, Kinetic Theory 01.
+	- Co-requisitives: Quantum Mechanics 09, Stat Mechanics 01.
+
+
+Experimental Data:
+	- Resistivity/Conductivity: https://en.wikipedia.org/wiki/Electrical_resistivity_and_conductivity#Resistivity_and_conductivity_of_various_materials
+	- Thermopower/SeeBackCoeff: https://en.wikipedia.org/wiki/Seebeck_coefficient#Seebeck_coefficients_for_some_common_materials
+
+
+Intr Solid State Physics
+	- Object of Study: Solid State Physics studies the.... objects.. that.. are in solid state.. Obviously.
+	- Objective: Find all properties of a solid, given its atomic structure.
+	- Properties of a solid
+		- Thermal: Thermal Conductivity, Heat Capacity, Etc.
+		- Mechanical: Young's Modulus, Stresses and strains, etc.
+		- Electromagnetic: Dielectric constant, magnetic permeability, conductivity, polarizibility, etc.
+		- Optical: Optical constants, frequency responses, etc.
+	- All of that.. only and exclusively, from the atomic structure of the solid.
+	- Note: A good solid state model will yield good values to such constants of materials.
+
+
+Experimental Phenomena of Metals
+	- TODO: Conductivity, Resistivity, Thermal conductivity.
+	- Thermoelectric effects.
+		 - https://en.wikipedia.org/wiki/Thermoelectric_effect
+		 - Influence of temperature into electricity.
+	- Seebeck effect
+		- Physicist Thomas Johann Seebeck (1821).
+		- Needle is deflected at closed loop formed by different metals joined in two places, with temperature difference in junction.
+		- History: He called it "Thermomagnetic" as he didn't realise it was current that was causing the B-Field. Orsted corrected it.
+		- Note: Electromotive force caused by temperature gradient in the junction.
+		- Calc: Current density due to electromotive force.
+		- Calc: Current density in general: J = sigma (-nabla V + Emf).
+		- Calc: Electromotice force as a function of the temperature gradient.
+		- Def: The Seebeck coeficient (aka Thermopower). Emf = -S Delta T.
+		- Note: Seebeck coeficient depends uniquely on the materials.
+		- Note: No current: Open circuit: Steady-state: A voltage is formed: V = -S Delta T.
+		- Note: Can be used as thermocouples (instruments that detect temperature differences).
+		- Note: Can be used for thermoelectricity. Thermoelectric generators.
+	- Peltier Effect.
+		- TODO: Peltier Effect, Thermoelectric cooling, etc.
+
+
+Drude Theory of Metals
+	- The time line
+		- 1897: Thomsom discovers the electron.
+		- Kinetic Theory of gases: Sucess!
+		- Drude has tried: Metals as a free electron gas, using kinetic theory.
+	- Electrons in a metal
+		- Za electrons total.
+		- Z electrons weakly bound. Valence electrons.
+		- Za-Z electrons tightly bound. Core electrons.
+	- Counting electrons.
+		- Calc: Amount of atoms per mole.
+		- Calc: Amount of valence electrons per mole.
+		- Calc: Density of conducting electrons (free electron density) (electron per cubic meter)
+		- Calc: Volume enclused by one conduction electron.
+		- Calc: Radius of the spherical volume enclused by one conduction electron.
+	- Mean Electronic Velocity in a current
+		- Recall: The current density vector.
+		- Calc: The mean electronic velocity due to the current density.
+		- Numerics: Assume a VERY high current, say, 1A/mm². Compute the mean electron velocity.
+	- Assumptions of Drude's kinetic theory:
+		- Independent Electron Approximation: No electron-electron interactions.
+		- Free Electron Approximation: No electron-ion interactions.
+		- Ballistic Colisions between ion-electrons.
+		- No collisions between electron-electron.
+		- Thermal equilibrium achived only by means of collisions.
+	- Probability of ion-electron collision.	
+		- Def: Relaxation time.
+		- Def: Proibability of collision in time dt.
+	- DC Electrical Conductivity of a metal
+		- Recall: Relation between J and E. Conductivity/resistivity.
+		- Recall: Definition of current density vector. Carrier density. Carrier charge.
+		- Calc: Assume electron is accelerated by E-Field, before a collision.
+		- Calc: Calculate the velocity of the electron due E-Field speeding it up.
+		- Calc: Relating with the current density.
+		- Calc: The DC conductivity of metals.
+		- Note: Experimental way of determining the relaxation time.
+	- The relaxation time
+		- Calc: Relaxation time is function of resistivity
+		- Calc: Relaxation time in function of resistivity and radius of sphere enclosed by electron.
+		- Calc: Relaxation time, where radius is measured as a ratio with bohr radius.
+		- Calc: Evaluate the constant, numerically.
+		- https://en.wikipedia.org/wiki/Electrical_resistivity_and_conductivity#Resistivity_and_conductivity_of_various_materials
+		- Calc: The numerical evaluation of relaxation time of some metals: Note: Order of 10^-14 or 10^-15 secs.
+		- Note: It is possible, and likely, that relaxation time has heavy dependence on temperature.
+		- Note: Thus, we should pay important attention to results, that are independent on the relaxation time.
+	- Free Mean Path
+		- Relation between free mean path and relaxation time by a velocity proportionality constant.
+		- Calc: Average electronic speed from classical equipartition theorem: Kinetic energy is 3/2 kbT.
+		- Calc: Numerical evaluation of electronic speed of several metals, at given temperature. Then: At 77K. At 273K. At 373K.
+		- Calc: Numerical evaluation of the free mean path of electron-ion collisions of several metals, at given temperature.
+		- Relevant temperatures: 77K: Fusion point of nitrogen. 273K: Fusion point of water. 373K: Boiling point of water.
+	- Equation for electron momentum
+		- Calc: Probability that an electron will undergo collision in time dt
+		- Calc: Probability than an electron will NOT undergo collision in time dt.
+		- Calc: Momentum p(t+dt) in function of p(t).
+		- Calc: Differential equation. Solution to it.
+	- Equation of motion for electrons: Average momentum.
+		- Calc: Probability that an electron will undergo collision in time dt
+		- Calc: Probability than an electron will NOT undergo collision in time dt.
+		- Calc: Momentum p(t+dt) in function of p(t), when external force f(t) is acting. Momentun: f(t)dt.
+		- Calc: Equation of motion for average momentum.
+		- Note: Relaxation time introduces a damping factor, in "second newton law".
+		- Calc: Equations of motion for the current density.
+	- Equations of motion: DC Conductivity
+		- Write: Equations of motion for electrons due to external E-Field applied.
+		- Calc: Solve the equations of motion due to external E-Field.
+		- Calc: Assymptoptic solution for times larger than relaxation time.
+		- CAlc: The relationshp between current and external E-Field.
+		- Calc: The conductivity. The resistivity.
+		- Note: Time it takes for the current to cease, once we open a circuit (Terminate the E-Field).
+	- AC Conductivity
+		- Time-Varying electric field. The momentum equation.
+		- Note: There is no longer assymptoptic terms.
+		- Calc: Making it imaginary. We seek real solution. Relationship between current density and electric field.
+		- Calc: The frequency-dependent conductivity.
+		- Note: Not a EM Wave, given B-Field was disconsidered.
+		- Note: Inclusion of the B-Field into Lorentz external force of EM-Wave implies v/c correction, v mean electronic velocity.
+		- Note: Given v/c is very low, given mean electronic velocity is very low... then.. no harm is done by disregarding B-Fields.
+		- Note: Same force acts for each electron. Won't be true for high frequency EM Waves.
+	- Hall Effect
+		- Metal with current in x-direction, with B-Field applied in z-direction.
+		- Experimental result: There appears a voltage across the y-direction. Hall Voltage.
+		- Experimental result: The resistivity of the metal changes due to B-Field. Magnetoresistance.
+		- Note: Application of Lorentz Force.
+		- Note: There appears an electrical tension in the other ends of the metal.
+		- Def: Hall Coeficient
+		- Def: Magnetoresistance.
+	- Application of Drude Model into the Hall Effect
+		- Write: Equations fo motion for electrons due to external B-Field applied, and E-Field applied (to drive current).
+		- Calc: Solve the equations of motion due to external B-Field, for each different component: x,y.
+		- Calc: Assymptoptic solution for times larger than relaxation time.
+		- Calc: The Current density in the x-direction.
+		- Calc: The current density in the y-direction.
+		- Calc: Once hall voltage is established, Jy = 0. Find Ey, imposing Jy = 0.
+		- Calc: Solutions for Ey and Jx.
+		- Calc: The Hall coeficient.
+		- Calc: Magnetoresistance: There is no predicted magnetoresistance effect (because Jy=0).
+
+
+Thermal Conductivity and Thermoelectric effects in Metals
+	- Empirical law of Wiedemann and Franz (1853)
+		- Have you noticed the better the electric conductivity the "colder" the metal is?
+		- There must exist an relationship between electric and thermal conductivity.
+		- Empirical law: Ratio of electric and thermal conductivity is proportional to the temperature.
+		- The proportionality constant changes for each material.
+	- Fourier Heat Law
+		- Def: Thermal Current Density
+		- Show: Fourier Law
+		- Def: Thermal Conductivity.
+	- Thermal Current Density in the Drude Model
+		- Assume: Uniform temperature gradient in x-direction (1D Problem).
+		- Note: The larger the temperature ==> The larger the thermal velocity of the electrons.
+		- Note: Electrons arriving from high temperature side will have greater velocity.
+		- Calc: Contribution to thermal current density from electrons coming from high temperature side, since last collision.
+		- Calc: Contribution to thermal current density from electrons coming from low temperature side, since last collision.
+		- Calc: Identify the mean free path. Assumption of small free mean path.
+		- Calc: The current density in 1D. Depends on thermal velocity.
+		- Note: Isotropic thermal velocities in direction x, y, z.
+		- Calc: Fourier Law from the Drude Model.
+		- Note: Result independent on relaxation time.
+	- Thermal Conductivity in the Drude Model
+		- Calc: Thermal Conductivity.
+		- Calc: Thermal conductivity in function of electronic heat capacity.
+		- Calc: Thermal conductivity in function of electronic volume-specific heat capacity.
+	- Wiedemann-Franz law in the Drude Model
+		- Recall: Thermal conductivity in function of electronic heat capacity (not volume-specific).
+		- Recall: DC Conductivity of the metal.
+		- Calc: Thermal conductivity and DC conductivity ratio.
+		- Calc: Relating themal velocity with temperature by equipartition theorem.
+		- Calc: Internal energy of kinetic theory and heat capacity.
+		- Calc: The proportionality constant of Wiedemann-Franz law
+		- Calc: Numerical value of the proportionality constant (Watt Ohm / K²).
+		- Note: It is independent of the material.
+	- Thermoelectric Effect
+		- A temperature gradient induces an electric field.
+		- Thermoelectric law: E = Q gradT.
+		- Def: The thermopower constant (proportionality constant).
+		- Also known as: Seebeck effect. Seebeck coeficient.
+	- Drude Model qualitative explanation for thermoelectric effect
+		- Electrons from high temperature end has more speed than electrons from low temperature end.
+		- Due to this different of speed, there will exist a electric current density contribution.
+		- Current will concentrate charge, creating induced E-Field, until electrostatic forces cancel the current.
+		- Note: Induced E-Field by temperature gradient. E-Field goes from low T to high T.
+	- Thermoelectric law in the Drude Model
+		- Calc: Drift velocity of electrons due to temperature difference, in 1D Problem.
+		- Calc: If mean path is low enough, transform in derivatives, dv/dx.
+		- Calc: Transform into d/dx (v^2).
+		- Calc: Transform the velocity drift into three dimensions. Make appear a temperature gradient.
+		- Calc: Electric field due to velocity drift (simply the: speed of accelerated electron in E-Field in relaxation time).
+		- Calc: The electric field in function of the temperature gradient.
+		- Calc: Using equipartition theorem for evaluation of the derivative d/dT v^2.
+		- Calc: The Thermoelectric law.
+	- Thermopower constant in the Drude Model
+		- Calc: Thermopower constant.
+		- Note: If carrier is negative (electrons), then it becomes positive.
+		- Calc: Numerical evaluation of the thermopower constant (volt per kelvin) (microvolt per kelvin).
+		- Note: Independent on the relaxation time.
+		- Note: Verify agreement with experiment.
+
+
+Drude Model: Electronic Kinetic Theory
+	- TODO: Maxwell Distribution of velocities.
+	- TODO: Mean electronic speed (zero). Velocity moments. Velocity variance. Thermal velocity. Mean squared velocity.
+	- TODO: Thermal transport. Specific heat capacity. Experimentally, this specific heat capacity is not observed. Experimental curve and theoretical curve.
+
+
+Sommefeld Theory: Electronic Kinetic Theory
+	- Sommefeld theory
+		- Electrons again move as a gas. But this time, as a quantum gas, instead of a classical gas.
+		- Note: Classical Maxwell-Boltzmann statistics must be replaced by quantum Fermi-Dirac statistics.
+		- Note: That is the only change from the Sommefeld to Drude Model.
+		- Note: Let's see what happens when this change is made.
+	- Assumptions of Sommefeld's kinetic theory:
+		- Independent Electron Approximation: No electron-electron interactions.
+		- Free Electron Approximation: No electron-ion interactions.
+		- Ballistic Colisions between ion-electrons.
+		- No collisions between electron-electron.
+		- Thermal equilibrium achived only by means of collisions.
+		- Note: Exactly IDENTICAL assumptions to those taken by the Drude Model.
+	- Free electron in a box: Confined boundary condition.
+		- Recall: Time independent Schrodinger Equation
+		- Calc: The solution of time-independent schrodinger equation
+		- Calc: The boundary condition: Confination of the box
+		- Calc: Normalization constant (in function of volume).
+		- Calc: Quantization of energy
+	- Free electron in a box: Periodic boundary condition.
+		- Calc: The solution of time-independent schrodinger equation
+		- Calc: The boundary condition: Periodic boundary condition
+			- Note: Solution are plane waves been propagated in both directions.
+			- Note: One has to chose arbitrarily a direction, and kill the other direction.
+			- Note: Quantization of k. (from e^z = 1 <==> z = 2 pi i n).
+		- Calc: The general solution (a plane wave, with wave-vector k).
+		- Calc: De brougli wavelength of the plane wave solution.
+		- Calc: The normalization constant (in function of volume).
+		- Calc: Quantization of energy.
+		- Calc: The momentum eigenvalue: Application of momentum operator into the solution.
+		- Calc: Expressing the energy in function of the momentum eigenvalue p. Note: Classical energy.
+
+
+Free Electron Gas: The ground state
+	- The ground state
+		- Electrons will gather in the lowest avaiable energy state, respecting pauli exclusion.
+		- Ground State is achivable when temperature is zero (Zero kelvin) (T = 0K).
+	- Electron gas in a box: Periodic Boundary Conditions
+		- Recall: We had to kill a direction of the wavevector due to boundary conditions.
+		- Fixing: We shall consider negative values of quantum number, as acceptable solutions.
+		- Calc: The amount of allowed values of k for a large k-volume Sigma in the k-space
+		- Calc: Density of states: The amount of allowed values of k per unit of k-volume.
+	- Counting electrons
+		- Note: Pauli Exclusion Principle: Two electrons cannot be in the same state
+		- Note: Each state in the k-space will be occupied by two electrons in the spin singlet state.
+		- Note: Each electron will be occupying, lowest avaible state (since we are in the ground state.
+		- Note: Given energy is proportional to square of wavevector, it will occupy a sphere.
+		- Def: Fermi k-sphere. Fermi k-radius.
+		- Calc: Amount of possible states in the box in k-space inside a fermi-sphere.
+		- Calc: The amount of electrons inside this fermi-sphere.
+		- Calc: The density of electrons in function of the fermi k-radius.
+		- Note: The fermi k-radius will depend only on the electron density (which is measurable).
+	- Nomenclature for the free indeendent electrno ground state gas
+		- Def: Fermi k-radius. (also called: Fermi wave vector).
+		- Def: Fermi sphere.
+		- Def: Fermi surface. (this case was sphere, but won't be in general).
+		- Def: Fermi energy.
+		- Def: Fermi Temperature.
+		- Def: Fermi Momentum.
+		- Def: Fermi Velocity. (classical analog: The thermal velocity).
+		- Recall: Radius of the spherical volume enclused by one conduction electron
+		- Recall: Experimental values of such radius ranges in between 2 to 3. Sometimes 2 to 6.
+		- Calc: All fermi-values in terms of the spherical volume enclused by one conduction electron (make it be: ratio with bohr radius).
+		- Calc: Numerical values (order of magnitude) of the fermi wave vector, fermi momentum, fermi energy, fermi velocity.
+		- Note: Fermi velocity is rlughly 1% speed of light! Impressive, consider this is for the *ground* state....
+	- Total energy of the electrons
+		- Note: We need a summation over all electrons and their energy levels (summation over |\vec k| < fermi wave vector).
+		- Note: Unique k-space volume allowed in the k-space (already calculated 8pi^3/V)
+		- Calc: Calculating E/V. Transformation of the summation as an integral, for V-->Inf. (spherical coordinates).
+		- Calc: Volumetric energy density, in function of fermi wave vector.
+		- Calc: Energy per particle, in function of the fermi wave vector.
+		- Calc: Energy per particle, in function of the fermi energy.
+		- Calc: Energy per volume, in function of the fermi energy.
+		- Calc: Energy as a function of volume and number of electrons. E = E(V, N).
+	- Thermodynamic data
+		- Calc: Pressure of the electrons. (using dE/dV for constant N).
+		- Calc: Bulk Modulus B (=1/K, K compressibility) (using B = -V dP/dV).
+		- Calc: Pressure and bulk modulus as a function of the fermi energy.
+		- Calc: Compressibility of a metal
+		- Calc: Numerical value for the pressure in the electron gas.
+		- Calc: Numerical value for the bulk modulus of several metals.
+		- Comparisom with actual experimental data of bulk modulus.
+		- Note: It is naive to expect compressibility of metal is ONLY due to the electron gas.
+
+
+
+Free Electron Gas: Fermi-Dirac Distribution
+	- TODO.
+
+
+
+TODO: Free electron Model. Sommefeld Theory
+TODO: ONce done: Apply:
+    the Wiedemann–Franz law which relates electrical conductivity and thermal conductivity;
+    the temperature dependence of the electron heat capacity;
+    the shape of the electronic density of states;
+    the range of binding energy values;
+    electrical conductivities;
+    thermal electron emission and field electron emission from bulk metals.

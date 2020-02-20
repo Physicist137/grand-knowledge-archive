@@ -1,0 +1,138 @@
+TITLE: Circuits 04: Stationary Linear RLC Circuits
+	- Pre-requisitive: (Circuit 02, Complex 01)  OR  Fisica 03b.
+	- Co-requisitive: None.
+
+
+TODO: RLC Circuits. Stationary response. Fasores. Ohm Law. Impedance. Admitance. KVL, KCL. Association in series/parallel. Measuring.
+TODO: Application of generic signal in RLC circuit.
+TODO: Power. Real Power. Reactive Power. Apparent Power. Max power transfer.
+TODO: Thevenin and Norton Theorems.
+TODO: Magnetic coupled systems. Transformers. Ideal/Linear Transformers. Triphasic systems. Polyphasic systems.
+TODO: Two-Port networks: Symmetric, Lossless, Reciprocal. Transmission lines.. etc.
+
+TODO: Signal Analysis. Fourier series. Fourier transform. Laplace Transform. Etc.
+TODO: Dependent sources. Amplifiers.
+TODO: Op-Amps (how to build it) (usage) (I don't think it should come here.. erase it?)
+
+
+
+
+
+PERHAPS: Separate the course of circuits in two:
+	- Analysis of circuits: Given a circuit, find out all currents and voltages.
+	- Synthesis of circuits: Given function/objective, build circuit.
+
+
+
+-----------
+Two-Port Network: Caracterization parameters
+	- Formal Definition
+		- Def: Port (terminal pair) (net current zero in a port)
+		- Def: One-Port Network (note: Its simply a lumped element)
+		- Def: Two-Port Network (four terminal network made of two ports).
+		- Def: Linear Two-port Network
+	- Parameters of the two-port network
+		- Input voltage. Output voltage
+		- Input current (up), and output current (up).
+	- Impedance parameters (Z-Parameters).
+		- Remmember: The whole circuit is linear (linear two-port).
+		- Def: The impedance matrix (voltages as independent variables).
+		- Def: Open circuit impedance parameters
+	- Admitance Parameters (Y-Parameters)
+		- Def: The admitance matrix (currents as independent variables).
+		- Def: Short circuit admitance parameters
+	- Relation between impedance and admitance parameters
+		- Calc: Relation between the impedance and admitance matrix
+		- Note: Simply matrix inverse.
+		- Note: Writing each impedance parameter in function of admitance parameters.
+	- Transmission parameters (ABCD-Parameters).
+		- Output variables as independent variables.
+		- Def: The transmission matrix (or, the transfer matrix).
+		- Def: Transmission parameters
+		- Note: Transmission convention (negative sign of parameters of current).
+		- Calc: Each transmission parameters with open/short circuits in output/input.
+		- Def: Voltage gain in open circuit.
+		- Def: Current gain in short circuit.
+		- Def: Transfer admitance in short circuit.
+		- Def: Transfer impedance in open circuit.
+		- Def: Inverse transfer matrix.
+	- Relation between transmission and impedance/admitance parameters
+		- Calc: Voltage amplification in open circuit
+		- Calc: Current amplification in short circuit.
+		- Calc: Transfer admitance in short circuit.
+		- Calc: Transfer impedance in open circuit.
+	- TODO: Hybrid Parameters (H-Parameter and G-Parameters).
+	- TODO: Relations with other parameters.
+	- Load in the output of the two-port network
+		- Assume: Impedance load in the output
+		- Calc: Impedance seen in the input as function of load
+		- Def: Characteristic Impedance of the two-port network
+		- Calc: Characteristic impedance of the two-port network
+
+
+Two-Port Network: Types.
+	- Types of two-port networks
+		- Def: Reciprocal two-port network
+		- Def: Symmetric two-port network
+		- Def: Lossless two-port network
+		- Note: Such definitions are general: No need to be linear network.
+	- The reciprocal two-port linear network
+		- Definition: Reciprocity (switching excitation/response is invariant).
+		- Note: Its a general definition. Not necessarily only for linear networks.
+		- Calc: Condition for reciprocal network for the impedance matrix.
+		- Calc: Condition for reciprocal network for the admitance matrix.
+		- Calc: Condition for reciprocal network for the transmission matrix (det = 1).
+		- Calc: Condition for reciprocal network for the H-Matrix.
+		- Calc: Condition for reciprocal network for the G-Matrix.
+	- TODO: The symmetric two-port network
+	- TODO: The lossless two-port network
+
+
+
+Two-Port Network: Canonical Configurations
+	- The T-Network
+		- Draw: The T-Network configuration (three impedances in T).
+		- Calc: The impedance parameters (Z-Parameters) (from KVL).
+		- Calc: The impedance matrix
+		- Calc: The Admitance parameters and admitance matrix.
+		- Calc: The transmission parameters and transmission matrix.
+		- Calc: Condition in the T impedances for reciprocal network
+		- Calc: Condition in the T impedances for symmetrical network
+	- The Pi-Network
+		- Draw: The pi-network configuration (three impedances in pi).
+		- Calc: The impedance parameters (Z-Parameters) (from KCL).
+		- Calc: The impedance matrix
+		- Calc: The Admitance parameters and admitance matrix.
+		- Calc: The transmission parameters and transmission matrix.
+		- Calc: Condition in the T impedances for reciprocal network
+		- Calc: Condition in the T impedances for symmetrical network
+	- TODO: Transforming a pi-network into a T-network
+	- TODO: Example: Calculating parameters of some two-port network. Calculating the impedances of the T-network and pi-network.
+
+
+Associations between Two-Port Networks
+	- Series-Series association
+		- Draw: The series-series association between two two-port networks
+		- Note: The impedance parameters (Z-parameters) must add.
+		- Calc: The impedance matrix of the association
+	- Parallel-Parallel association
+		- Draw: The parallel-parallel association between two two-port networks
+		- Note: The admitance parmeters (Y-parameters) must add.
+		- Calc: The admitance matrix of the association
+	- Series-Parallel association
+		- Draw: The association between two two-port networks
+		- Note: The H-parmeters must add.
+		- Calc: The H-matrix of the association
+	- Parallel-Series association
+		- Draw: The association between two two-port networks
+		- Note: The G-parmeters must add.
+		- Calc: The G-matrix of the association
+	- Cascate association
+		- Draw: The association between two two-port networks
+		- Note: The ABCD-Parameters are the best to deal with it.
+		- Calc: The transmission matrix of the association.
+	- TODO: Examples.
+
+
+TODO: Three-Port network (3x3 matrixes).
+TODO: N-Port network (nxn matrixes).

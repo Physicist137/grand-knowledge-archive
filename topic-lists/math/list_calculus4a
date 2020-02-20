@@ -1,0 +1,223 @@
+TITLE: Calculus 04: Basic Vector Calculus
+	- Pre-Requisitive: Calculus 02a, Linear Algebra 01.
+	- Co-Requisitive: Linear Algebra 02.
+
+
+Conjuntos e subconjuntos do R^n
+	- Escolha de norma
+		- Norma euclidiana
+		- Distancia entre dois pontos
+	- Formal Definition
+		- Funções/Mapeamento. Dominio e imagem.
+		- Campo escalar com argumento escrito de forma multivariavel
+		- Campo escalar com argumento escrito de forma vetorial
+	- Examples of scalar fields
+		- Campos de temperatura
+		- Campos de pressão
+	- Bola aberta
+		- Def: Open n-ball with radius r centered somewhere
+		- Def: Boundary of open ball
+	- Definição quanto classificação de pontos
+		- Consider: Let S to be subset of R^n
+		- Def: Ponto interior de S: Exists open ball of such point relies entirely in the set.
+		- Def: Ponto exterior de S: Exists open ball of such point relies entirely not in the set.
+		- Def: Interior set of S. The set of all points interior to S. Nomenclatura: intS.
+		- Def: Exterior set of S. The set of all points exterior to S. Nomenclatura: extS.
+		- Def: Boundary point of S. Point which is not exterior, nor interior.
+		- Def: Boundary set of S. The set of all points boundary to S. Nomenclatura: (partial)S.
+	- Example: Open n-ball centered at origin with radius r
+		- Show: Interior of the n-ball.
+		- Show: Exterior of the n-ball.
+		- Show: Boundary of the n-ball.
+	- Conjuntos abertos e fechados
+		- Def: Open set. All points on it are interior points.
+		- Def: Closed set. Complement of this set is open.
+		- Examples: Intervalo [a, b] subset of R is not open.
+		- Example: Proof that R^n is an open set.
+		- Example: Proof that R^n is a closed set.
+		- Def: Clopen set. When a set is closed and open. =).
+
+
+Campos escalares: Definição, limites e continuidades
+	- Representação funcional de campos escalares
+		- Representação funcional usando várias variaveis
+		- Representação funcional usando unica variavel vetorial
+		- Dominio e imagem da função. Mapping.
+		- Def: Hipersuperficies de nível
+			- 2D case: Linhas de contorno
+			- 3D case: Superficies de contorno
+	- Composição de campo escalar
+		- Curva n-dimensional parametrizada (escrita vetorial).
+		- Composição de campo escalar para uma curva n-dimensional parametrizada
+		- Note: Redução do campo escalar para função R-->R
+	- Continuidade de campo escalar
+		- Formal Definition
+		- Note: Continuidade é definida em unico ponto no dominio
+		- Note: Identical to calculus 01.
+		- Theorem: Aplicações lineares são continuas
+		- Theorem: n-dimensional general polynomial form is continuous
+		- Theorem: Continuidade da composição de campos escalares por curva
+	- Limites de campos escalares
+		- Formal Definition
+			- Escrita do limite
+			- Escrita usando vector-->vector.
+			- Escrita usando escalares: ||vector-vector|| --> 0
+			- Substituição para: ||vector||-->0.
+			- Note: We now have reduced to real valued limits :).
+			- Escrita com epsilon-delta.
+		- Proof: Limite da soma é soma dos limites
+		- Proof: Limite de produto por escalar, é produto dos escalares dos limites
+		- Proof: Limite de produto por escalar, é produto por escalar dos limites
+		- Proof: Limite do modulo, é modulo do limite.
+		- Proof: Limite de produto por função, é produto do limite das funções
+		- Proof: Limite da potencia é potencia do limite
+	- Teoremas envolvendo limite
+		- Theorem: Campo continuo em P ==> Limite da função em P é seu valor no campo escalar
+		- Theorem: Limite da composição de campo escalar por uma curva
+
+
+Campos escalares: Diferenciação
+	- Intuição e definição de variações
+		- Intuition: Variação de f em uma direção
+		- Example: Temperature in an enviroment. Note: direction is important.
+	- Derivada de campo escalar na direção de vetor v
+		- Consider: Scalar field f: D --> R
+		- Consider: Ponto P interior ao dominio do campo escalar
+		- Taxa de variação média do ponto P na direção v por fator escalar h
+		- Calc: Distancia percorrida no calculo da variação média
+		- Def: Derivada na direção de vetor
+	- Derivadas direcionais e parciais
+		- Def: Derivadas direcionais
+		- Def: Derivadas parciais
+	- Continuidade e derivadas direcionais
+		- Assume scalar field: f(x, y) = xy² / (x^2+y^4)
+		- Note: Existencia de derivada direcional em todas as direções no ponto (0, 0).
+		- Note: Função não é continua no ponto (0, 0)
+		- Note: Directional derivative does not imply in continuity
+		- Remember: Calculus 01: Differentiable ==> Continuous
+		- We need something alike
+	- Derivada total
+		- Remember: Real to real case: Taylor first order expansion and error.
+		- Extensão para o caso de campo escalar
+		- Note: Deve ser uma transformação linear
+		- Def: Derivada total de campo escalar em um ponto
+	- Derivada total e direcional
+		- Assumption: Campo escalar f differenciavel (existencia de derivada total)
+		- Theorem: Derivada na direção de vetor v é derivada total em v.
+		- Write: Derivada na direção de vetor v em função de derivada total
+	- Vetor Gradiente
+		- Definition
+		- Gradiente da soma de funções
+		- Gradiente de funções multiplicado por escalar
+		- Gradiente do produto de funções
+		- Gradiente da Divisão de funções
+	- Theorem: Campo escalar f é diferenciavel ==> f é continuo
+		- First order taylor formula
+		- Escrita da derivada total em termos do gradiente
+		- Proof: Continuidade de campo se for diferenciavel
+	- Condição suficiente para diferenciabilidade do campo escalar
+		- Assume: Derivadas parciais existem em n-bola centered at A
+		- Theorem: Derivadas parciais continuas em A ==> Campo é diferenciavel
+		- TODO
+	- Theorem: Regra da cadeia: Derivada da composição de campo escalar por curva qualquer
+		- Definição de função real a valores reais.
+		- Taylor First order expansion using the total derivative
+		- Achando derivada da função real a valores reais
+	- Theorem: Vetor gradiente é ortogonal às curvas pertencentes à hipersuperficie de nível
+		- Equação da hipersuperficie de nível de campo escalar
+		- Remember: Implementação de curva parametrizada no campo escalar
+		- Proof Conclusion: Vetor gradiente perpendicular à curva da hipersuperficie de nível
+	- Theorem: Gradiente aponta para direção de máxima variação
+		- n-dimensional proof of the theorem
+		- Example: Direction of maximum variation
+		- Example: Eq. trajetoria alpinista z = 25 - x^2 - y^2
+		- Exampĺe: Eq. de reta tangente à curva x^2+y^2=4 no ponto (a, b)
+	- Gradiente do produto de dois campos escalares
+		- Calculation
+		- Note: Similar to product rule.
+	- The Theorem: Gradient Theorem
+		- Remember: Chain rule
+		- Gradient Theorem writing
+		- Note: Fundamental theorem of calculus for line integrals.
+	- TODO: Partial derivatives are scalar fields. 
+	- TODO: Higher-order partial derivatives. Substituição de variaveis. Chain rule calculations. Total derivatives.
+	- TODO: Hessian Matrix of scalar field. Second order total derivative.
+
+
+Aplicação da diferenciação de campos escalares
+	- TODO: Laplacian of scalar field. Harmonic Functions.
+	- TODO: Biharmonic functions.
+	- TODO: First order taylor expansion for scalar field. Gradient Vector usage.
+	- TODO: Second order taylor expansion for scalar field. Hessian Matrix usage.
+	- TODO: Third and higher order taylor expansion for scalar field.
+	- TODO: Maximum, Minimum, Saddle Points of scalar fields.
+
+
+Campos Vetoriais: Definição, limites e continuidade
+	- Formal Definition
+		- Mapeamento geral R^n --> R^m
+		- Note: Equivalente a m components de n-dimensional scalar fields
+		- Escrita vetorial
+	- Continuidade de campo vetorial
+		- Formal Definition
+		- Note: Component-wise continuity.
+		- All scalar fields stuff are valid
+		- Theorem: Continuidade da composição de campos vetoriais gerais
+	- Limite de campo vetorial
+		- Formal Definition
+			- Escrita do limite
+			- Escrita usando vector-->vector.
+			- Escrita usando escalares: ||vector-vector|| --> 0
+			- Substituição para: ||vector||-->0.
+			- Note: We now have reduced to real valued limits :).
+		- Theorem: Component-wise limits.
+		- Note: All theorems of scalar field limits are valid.
+
+
+Campos Vetoriais: Diferenciação
+	- Derivadas parciais de campo vetorial
+		- Note: Each component is a scalar field
+		- Derivada na direção de um vetor v
+		- Derivada direcional
+		- Derivada parcial de campo vetorial
+		- Note: Derivada parcial component-wise
+		- Note: The gradient of scalar function is a vector field itself. Called: Gradient field.
+	- Derivada total de campo vetorial
+		- Remember: Derivada total de campo escalar
+		- Taylor first order expansion. Linear total derivative.
+		- Component-wise total derivative for scalar fields
+		- Matrix writing
+		- Proof: Differenciabilidade ==> Continuidade
+	- Campos vetoriais conservativos
+		- Integral de linha sob campo vetorial
+		- Formal Definition: Integral de caminho independe do caminho (pontos finais e iniciais)
+		- Theorem: Null closed line integral <==> Integral dependente apenas de pontos finais e iniciais.
+		- Note: Path is irrelevant in conservative vector field.
+	- Função potencial de campo vetorial
+		- Formal Definition
+		- Note: Potential function is a scalar field
+		- Note: Vector field is a gradient field
+	- Theorem: Existencia de função potencial ==> Campo vetorial é conservativo
+		- Evaluation of closed line integral over vector field in given path
+		- Escrita da função potencial
+		- Remember: Chain rule of composition of scalar function with curve
+		- Note: Null integral. Theorem proved.
+	- Regra da cadeia de campo vetorial
+		- Escrita de campo vetorial sob uma curva parametrizada
+		- Escrita da derivada total. Component-wise scalar fields.
+		- Diferenciação total de campo vetorial
+		- Formal Def: Jacobian matrix of the vector field. Note: Gradient "generalization"
+	- Regra da cadeia geral
+		- Escrita de campo vetorial composto com outro campo vetorial
+		- 
+	- TODO: Jacobian determinant. Interpretation.
+
+
+Aplicação da diferenciação de campos
+	- TODO: On scalar field: Substituição de variaveis. Jacobian Matrix. Total derivative. General Chain Rule
+	- TODO: On scalar field: Inverse mapping. Curvilinear coordinates. Polar, Spherical, Cylindrical, ...
+	- TODO: On scalar field: Funções implicitas. Hipersuperficies de nivel. Derivadas totais implicitas. Relação com determinante jacobiano.
+
+
+TODO: Second order taylor expansion of scalar fields after vector fields?? (after all, the gradient of scalar field is vector field)
+TODO: Teorema fundamental do calculo vetorial

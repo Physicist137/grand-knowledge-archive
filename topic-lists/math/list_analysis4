@@ -1,0 +1,18 @@
+TITLE: Analysis 04: Real Functions.
+	- Pre-Requisitive: Analysis 02.
+	- Co-Requisitive: None.
+
+
+TODO: Real Function. Continuity of a real Function.
+TODO: Theorem: If f,g are continuous in x0, then f-g, f+g, fg, f/g, max{f,g}, min{f,g} are continuous in x0.
+TODO: Might help: https://math.stackexchange.com/questions/1564757/proof-if-f-and-g-are-continuous-then-max-fx-gx-is-continuous
+
+TODO: Several others continuity theorems.
+TODO: If f is continuous, lim f(xn) = f(lim xn).
+
+TODO: Uniform continuity. Intuition of uniform continuity.
+TODO: Lipschitz continuity. Hölder continuity. Intuition of these continuities.
+TODO: If f is Lipschitz continuitous ==> f is alpha-Hölder continuous ==> f is uniformely continuous ==> f is continuous.
+TODO: Several other theorems involving these continuities (say.. f+g, fg, etc).
+
+TODO: Continuity in compact sets.

@@ -1,0 +1,450 @@
+TITLE: Quantum Mechanics 07: General Applications and approximations.
+	- Pre-requisitives: Quantum Mechanics 03.
+	- Co-requisitives: 
+
+
+Time-Independent Non-Degenerate Pertubation Theory
+	- Objective.
+		- We know: Exact solution of the unperturbed problem (orthornormal btw).
+		- Introduce a small perturbation in the hamiltonian.
+		- Objective: What is the new solutions and energy?
+	- Energy and wavefunction corrections
+		- Define: Non-dimensional lambda parameter multiplying perturbed hamiltonian
+		- Def: The wavefunction, solution of perturbed problem (we can go until second order).
+		- Def: The energy level, solution of the perturbed problem (we can go until second order).
+		- Calc: Substitution in Time-Independent Schrodinger Equation. Isolating different orders.
+		- Calc: Zeroth, First and second order Time-independent schrodinger equation for perturbed problem.
+	- First Order Energy correction
+		- Calc: Multiply by ket of phi_n of zero-th order (or psi_n^(0) conjugate).
+		- Calc: The first energy correction
+		- Note: Veery important equation
+	- Example: Constant perturbative hamiltonian
+		- Calc: First energy level correction for constant perturbed hamiltonian into any system.
+		- Note: As it should be.
+		- Note: It yelds the exact result!
+		- Note: In constant perturbation, all higher-order corrections are zero (hence exact result).
+	- First Order correction for wavefunction
+		- Recall: Equation of first order (Calc: separate psi_n^(1) from psi_n^(0)).
+		- Note: If psi_n^(1) is solution, then psi_n^(1) + a*psi_n^(0) is solution.
+		- Note: Since eigenstates are complete, first order wavefunction is linear combination of zeroth order.
+		- Note: Exclusion of the n-term (since we already get from solution).
+		- Calc: First order wavefunction as linear combination in the first order equatio
+		- Calc: The coeficients of the linear combination
+		- Calc: The first order wavefunction
+	- Second order energy correction
+		- Calc: Multipying by psi_n^(0) in the second order equation.
+		- Calc: Using the previous wavefunction and coeficients.
+		- Calc: The second order energy correction formula
+		- Note: If the system is degenerate, we are in real trouble (dividing by zero).
+	- Example: Weak electric field perturbing harmonic oscilator
+		- Calc: Pertubative hamiltonian due to weak electric field.
+		- Recall: Operators x and p can be written in terms of a+ and a-.
+		- Recall: Eigenvalues of harmonic ladder operators
+		- Calc: <n|x|n'>.
+		- Calc: First order correction of the energy levels (note: Its zero!)
+		- Calc: Second order correction of the energy levels
+		- Calc: Exact value (solve the Schrodinger Equation).
+	- TODO: Third order corrections.
+	- TODO: n-th order corrections (general).
+
+
+
+Time-Independent Degenerate Pertubation Theory
+	- First order Two-Fold degeneracy
+		- Assume: Two orthogonal degenerate states (states with same eigenvalue of hamiltonian).
+		- Assume: The unperturbed eigenstate as linear combination of the degenerate orthogonal states.
+		- Calc: (or recall) First order Equation.
+		- Multiply by first degenerate ket of unperturbed state.
+		- Multiply by second degenerate ket of unperturbed state.
+		- Define: The W-Matrix. Note: Wij = Wji*. (That is, W-matrix is hermitian).
+		- Calc: Multiply second by Wab, and use first to eliminate beta Wab.
+		- Calc: The splitting of energy levels.
+		- Calc: The other case (ie, one of the linear coeficients zero) (to note general formula covers it).
+		- Note: In case one of linear coeficient is zero, result is identical to the non-degenerate case
+	- Theorem conditioning when to treat degenerate states as non-degenerate
+		- Assume: A hermitian operator comuting with perturbed hamiltonian (and unperturbed hamiltonian).
+		- Assume: Eigenstates of A are the same degenerate eigenstates of the unperturbed hamiltonian.
+		- Assume: operator A yields distinct eigenvalues (where eigenstates are specified above).
+		- Then: Wab = 0. (meaning, I can treate the system as non-degenerate).
+		- Proof: Just compute <psi^(0)_a|[A, H']|psi^(0)_b>, where a,b are the degenerate eigenstates.
+		- Note: Use hermiticity of A. Ofc.
+	- Two-Fold Degeneracy (way 2).
+		- Calc: Putting equations (multiplied by first/second degenerate ket) in matrix form
+		- Note: Its a mere eigenvalue problem for the W-Matrix.
+		- Calc: The characteristic equation of the eigenproblem.
+		- Calc: The energy level splitting.
+	- Higher-Order Degeneracy
+		- Assume: N orthogonal degenerate states. Unperturbed state is linear combination.
+		- Calc: Multiply by n-th degenerate ket of unperturbed state.
+		- Calc: Put the problem in matrix form. We need to find eigenvalues of W-Matrix.
+		- Note: Characteristic equation for finding eigenvalues of W-Matrix.
+		- Note: To find a transformation that diagonalizes the W-Matrix.
+		- Note: That is why one should probably try to use previous theorem to flip to non-degenerate case.
+	- TODO: Finding the eigenstates for the perturbed system in the degenerate case.
+	- TODO: Second order perturbation in degenerate state.
+	- TODO: N-th order perturbation in degenerate state.
+
+
+Application: Relativistic Correction to Hydrogen
+	- Recall: Hamiltonian (cartesian) for the hydrogemn atom.
+	- Fine Structure: Relativistic correction
+		- Calc: Approximate kinetic energy of the electron
+		- Calc: Approximate rest mass of the electron.
+		- Note: Hydrogen atom is cleary non-relativistic.
+		- Note: Then, we don't need to correct much.
+	- Relativistic perturbative hamiltonian
+		- Recall: Relativistic formula for kinetic energy
+		- Calc: Series expansion
+		- Note: First term is what we have. Take second term.
+		- Calc: Perturbative hamiltonian for relativistic correction
+	- Hydrogen Degenerecency
+		- Recall: Hydrogen eigenstates are highly degenerate
+		- Note: Perturbation is spherically symmetrical ==> Comutes with Lz and L^2.
+		- Note: Eigenfunction of these operators has distinct eigenvalues for all n^2 states in level n.
+		- Conclusion: Degenerate theorem applies. We can treat as if there is no degeneracy.
+	- First order non degenerate perturbation
+		- Calc: The energy correction.
+		- Calc: The energy correction as expected values of potential energy.
+		- Calc: The energy correction as expected values of 1/r and 1/r2
+		- Note: we need to calculate these...
+	- Virial Theorem
+		- Recall: 3D virial theorem
+		- Calc: Apply virial theorem to hydrogen atom at stationary state
+			- Calc: The expected value of kinetic energy  (-En).
+			- Calc: The expeeted value of potential energy (2En).
+		- Calc: The expected value of <1/r^2>
+	- Hellmann–Feynman theorem
+		- Consider: Orthonormal basis with some parameter. TI-SE Equation. Eigenvalue.
+		- Note: Squared norm is one (orthonormal). Hence derivative with respect to parameter is zero.
+		- Calc: Derivative with respect to parameter of the energy eigenvalue.
+		- Conclusion: Its the expected value of derivative of hamiltonian with respect to parameter
+	- Calculating expected value of 1/r2
+		- Recall: Hydrogen hamiltonian operator in spherical coordinates
+		- Calc: Derivative of hamiltonian operator with respect to quantum number of angular momentum
+		- Calc: Application of Hellmann–Feynman
+		- Calc: The expected value of 1/r2
+	- The energy level relativistic correction
+		- The correction.
+		- Note: Degenerecency in l has been broken.
+		- Note: Relativistic correction is smaller than En by En/mc².
+
+
+Application: Spin-Orbit Coupling in Hydrogen
+	- Classical Spin-Orbit Coupling
+		- Assume: Non-inertial frame of the electron
+		- Calc: Magnetic Dipole moment of the electron (IA) (in function of spin).
+		- Calc: Magnetic Field of the proton over electron.
+		- Calc: Magnetic Field in function of Orbital Angular Momentum
+		- Calc: Spin-orbit Coupling Hamiltonian
+		- Note: Relativistic Thomas precession. 1/2 factor (or 1-g).
+		- Note: g-factor of electron (gyromagnetic ratio deviation from classical).
+		- Calc: Quantum hamiltonian operator of spin-orbit coupling perturbation
+	- Thomas Precession
+		- TODO: To make the proper relativistic calculation
+	- Inertial Frame Spin-Orbit coupling
+		- TODO: Moving electron ==> Moving magnetic dipole ==> Electric dipole component
+		- TODO: Spin Orbit coupling on inertial frame (no thomas precession).
+	- Comutation relations:
+		- Recall: Total Angular momentum: J = L + S.
+		- Calc: [L, S].
+		- Calc: [L*S, L]. [L*S, S]. [L*S, J].
+		- Calc: [L*S, L^2]. [L*S, S^2]. [L*S, J^2].
+		- Calc: Chosing the proper operators for non-degenerate perturbation treatment
+		- Note: L^2, J^2, S^2, Jz are the proper operators for non-degenerate treatment
+	- Krammer Relation
+		- Note: We have a 1/r^3 in the hamiltonian. We need that average.
+		- TODO.
+		- TODO: Calculation of <1/r^3>
+	- Spin-Orbit Coupling correction energy
+		- Calc: Eigenvalues of the L*S operator.
+		- Calc: The energy level correction.
+	- TODO: Definition of the fine structure constant
+	- TODO: The fine structure of Hydrogen. Energy splitting. Etc.
+	- TODO: To understand why is called "fine structure of hydrogen". They are the first term of the fine constant.
+
+
+Application: Fine and Hyperfine structure of Hydrogen
+	- Fine Structure of Hydrogen
+		- Recall: Relativistic energy level correction
+		- Recall: Spin-Orbit coupling correction.
+		- Calc: Combining relativistic correction and spin-orbit correction
+		- Calc: The fine structure of Hydrogen (combining with hydrogen energy levels (bohn ones)).
+	- The Fine Structure Constant
+		- Def: The Fine Structure Constant
+		- Calc: The Fine Structure Constant
+		- Calc: Numerical value of the fine structure constant
+		- Calc: Dimension of the fine structure constant
+		- Note: Its an adimensional constant. No matter the units, it yelds same value.
+	- Fine Structure of Hydrogen
+		- The energy level of hydrogen
+		- Note: Degeneracy broken in l
+		- Note: Quantum numbers: n, l, s, j, mj.
+	- The Hyperfine structure of groundstate hydrogen
+		- The proton has a magnetic dipole moment
+		- Calc: Magnetic Dipole of the proton (in function of its spin).
+		- Def: The g-factor for the proton (it is not simply 2 as proton is composite particle).
+		- Calc: Magnetic Dipole of electron (in function of its spin).
+		- Recall: Magnetic Field produced by magnetic dipole
+		- Calc: Hyperfine hamiltonian due to magnetic moment of the proton
+		- Note: Since groundstate, first term is zero (spherically symmetrical).
+		- Note: Spin-Spin Coupling (since involves Sp * Se).
+		- Note: Hyperfine in ground state dependent only of spin-spin coupling.
+		- Calc: Eigenvalues of Sp * Se.
+		- Hyperfine energy levels
+			- Triplet state
+			- Singlet state
+		- Hyperfine splitting
+			- Note: Spectral splitting between triplet and singlet configurations
+			- Calc: Energy level difference between triplet and singlet states
+			- Calc: Frequence of the photon emitted in triplet-->singlet transition
+			- Calc: Wavelength of photon emitted in triplet-->singlet transition
+			- The famous 21-centimeter line.
+	- Fine and Hyperfine Structure
+		- Note: Fine Structure reveals with second power of fine constant.
+		- Note: Hyperfine structure reveals with fourth power of fine constant.
+		- Curious: Hyperfine transition as depicted on the Pioneer plaque
+		- https://upload.wikimedia.org/wikipedia/commons/0/07/Pioneer_plaque_hydrogen.svg
+
+
+Application: Zeeman Effect.
+	- Question: What happens when an atom is subject to an external magnetic field?
+	- Objective:
+		- Weak-Field: We shall build a zeeman perturbation over the fine structure energy levels.
+		- Strong-Field: We shall build zeeman perturbation over hydrogen and then build the fine structure perturbation over it.
+		- Intermediate-Field: Build zeeman perturbation and fine structure perturbation, simultaneously.
+		- Calc: Weak-Strong Field Limit: Approximate internal magnetic field (just to check magnitude order).
+	- Weak-Field Zeeman Effect.
+		- Perturbation over the fine structure
+		- Calc: Zeeman perturbation hamiltonian
+		- Calc: Commutator relations. To use theorem to treat as non-degenerate perturbation.
+		- Calc: n, l, j, mj are nice quantum numbers (can be treated as non-degenerate) (ms, ml are not).
+		- Note: Makes sense: LS-Coupling conserves J, but not L and S.
+		- Note: L and S precesses around fixed J.
+		- Calc: Average spin is approximately the projection of spin along the J direction (because rapid precession).
+		- Calc: The eigenvalues of S*J operator.
+		- Calc: The average <L+2S> for the zeeman hamiltonian.
+		- Def: Lande-g Factor
+		- Calc: The energy levels of the zeeman perturbation
+		- Def: Bohr Magneton. (In units of eV/T).
+		- Calc: Spectral splitting of fine structure due to magnetic field.
+	- Strong-Field Zeeman Effect
+		- Perturbation over the hydrogen atom itself
+		- Calc: The Zeeman Pertubative Hamiltonian
+		- Calc: Energy level correction. Zeeman splitting.
+		- Note: Easy pizy isn't it? Now lets build the fine structure
+		- Recall: Fine structure perturbative hamiltonian (relativistic + spin-orbit coupling).
+		- Note: ml, ms are no longer degenerate.
+		- Calc: The expected value of S*L due to spin-orbit coupling hamiltonian (given ml,ms are non degenerate)
+		- Calc: Fine structure energy level corrections on top of zeeman pertubation
+		- Calc: Energy level of the Strong-Field Zeeman-Effect with fine structure.
+	- TODO: Intermediate-Field.
+
+
+
+The Variational Principle
+	- TODO.
+	- TODO: Definition of a functional. https://en.wikipedia.org/wiki/Variational_method_(quantum_mechanics)#In_general
+
+
+WKB Approximation
+	- Motivation for the approximation
+		- De Brougli Wavelength much smaller than potential variations
+		- Consideration of unchanging amplitude over that area
+		- Possibility to express solution as A(x) e^(i phi(x)).
+	- The Classical Allowed Region
+		- Recall: Condition for classical allowed region (E < V(x)).
+		- Defining momentum p(x) = sqrt(2m [E - V(x)]). Notice: Its ofc, real.
+		- Calc: Rewriting Time-Independent Schrodinger Equation (by isolating psi'' term).
+		- Calc: Assuming solution of the form A(x) e^(i phi(x)).
+			- Calc: First Derivative A'(x).
+			- Calc: Second derivative A''(x).
+		- Calc: Plug A and A'' into Schrodinger Equation
+		- Calc: Separating real and imaginary part. Two equations to satisfy.
+		- Calc: Second equation can be put into form (A² phi')' = 0. Solution for A.
+		- Calc: A', A'' and A''/A in function of A
+		- Calc: Plug A into first equation.
+		- Calc: The Phase Equation (Third Order Non-Linear ODE) (how hard!)
+	- The WKB Approximation
+		- Wentzel-Kramers-Brillouin Approximation: A''/A is much smaller than the rest
+		- Calc: The Phase Equation under WKB Approximation. Note: EEEASY to solve!
+		- Calc: General Solution for the Phase Equation.
+		- Calc: General Solution for the eigenstates (TI SE Solution).]
+		- Calc: The probability density function
+		- Note: Probability of finding particle is inversily proportional to momentum
+		- Note: As classical physics say so.
+		- Note: WKB could be "derived" by this classical physical (non mathy) consideration
+	- Example: Potential well between two vertical walls
+		- Calc: Wavefunction with WKB Approximation (with exp) (then switch to cos/sin).
+		- Calc: Boundary with right infinite well (yields integration limit).
+		- Calc: Boundary with left infinite well (yields quantization condition).
+		- Note: The quantization condition yields from WKB Approximation
+		- Calc: Quantized energy levels.
+	- WKB Approximation: Expansion in powers of hbar
+		- Motivation: Free particle wavefunction
+		- Consider: psi(x) = e^(i f(x) / hbar).
+		- Calc: The derivatives: psi', psi'']
+		- Calc: Substitute into TI-SE  (psi'' = -p²/hbar² psi).
+		- Calc: Expansion of f(x) as power series of hbar.
+		- Calc: Collecting hbar powers. The WKB Approximation.
+	- TODO: Approximation in the classial non-allowed region. (Prob 8.10).
+	- TODO: The connection Formulas.
+	- TODO: Transmission and Reflection Coeficients.
+	- TODO: Perhaps: Gamow's Alpha Decay.
+	- TODO: Perhaps: The general Power law
+
+
+
+Time-Dependent Pertubation Theory for Two Level System.
+	- Two level system
+		- Assume: Initially two level orthonormal system satisfying TI SE.
+		- Note: It may or may not be degenerate.
+		- Introduction to time-dependent Perturbation H'. H = H0 + H'.
+		- Calc: Substitution of H into the Time DEpendent Schrodinger Equation
+		- Note: The coeficients might vary.
+		- Calc: The equations for the derivative of the coeficient
+		- Def: The Matrix H', that is <psi_a|H'|psi_b>
+		- Calc: The equations for the derivative of the coeficient if H'aa = H'bb = 0.
+	- Uncoupled equations for the coeficients
+		- Calc: Uncoupling the cb equation.
+		- Note: Second order non-homogeneous non-linear ODE.
+		- Calc: (Optional) Uncoupling the ca equation.
+	- Quantum Transitions
+		- Formal Definition: Quantum Transition  or  Quantum Jumps.
+		- Viewing how time-dependent H' can induce a quantum transition
+	- Approximate solution for the coeficients
+		- Assume: Equation for the coeficients where diagonal is zero.
+		- Assume: Initial conditions: ca(0) = 1, cb(0) = 0.
+		- Calc: Approximate solution in zeroth picard iteration
+		- Calc: Approximate solution in first picard iteration 
+		- Calc: Approximate solution in second picard iteration
+	- TODO: Picard solution with non-null diagonal of hamiltonian matrix.
+	- N-Level System
+		- Assume: N-level orthonormal system satisfying TI SE. May or may not be degenerate.
+		- Calc: Introduce H'. Substitute H into TI DE.
+		- Calc: The equations for the derivative of the coeficient
+		- Calc: The equations for the derivative of the coeficient if diagonal of H' is zero.
+
+
+
+Applications for Quantum Dynamics
+	- Application: Sinuisoidal Pertubation
+		- Calc: Coeficient cb using first picard iteration
+		- Calc: Probability of transition from state psi_a to state psi_b.
+	- Application: Hamiltonian turning on/off
+	- Application: Rotating Wave Approximation
+		- Also: Rabi's Approximation.
+		- Assume: Approximation near the transition frequency. Rotating Wave Approximation.
+		- Calc: Equivalent hamiltonian for approximation near transition frequency.
+		- Recall: The coupled coeficient equations. The uncoupled cb equation.
+		- Calc: Using uncoupled cb equation to get analytic exact resuslt under the rotating wave approximation.
+		- Calc: The general solution for cb, with condition cb(0) = 0.
+		- Calc: The general solution for ca, with condition ca(0) = 1.
+		- Calc: Solution for the coeficients, with the initial conditions settage.
+		- Calc: Probability of measuring states a and b.
+		- Calc: All probabilities sum to 1
+		- Def: Rabi Flopping Frequency
+			- Def: Rabi Flopping Angular Frequency.
+			- Def: Rabi Flopping Frequency.
+			- Note: The frequency of cycles between high and low probabilities
+			- Calc: Maximum value of the rabi flopping frequency.
+		- Calc: Transition Probability
+		- Calc: Maximum probability. Time in which maximum probability occurs.
+	- Description of the phenomena
+		- Def: Transition frequency.
+		- Recall: The transition probability (perturbation) (rotating wave approximation).
+		- Note: The closer from the transition frequency, the higher the rabi flopping frequency.
+		- Note: Maximum value for the rabi flopping frequency.
+		- Note: Validity domain of the rotating wave approximation: Driving frequency close to transition frequency.
+		- Note: Validity domain of the perturbation: Probability much less than 1 (ofc).
+		- Note: Transition probability quickly fades out when driving frequency is not close from transition frequency.
+		- Plot: Transition probability as function of driving frequency (from perturbative result).
+		- Plot: Transition probability as function of time (from rabi one).
+	- Application: Atomic Transitions
+		- Hamiltonian of oscilating electric field (in k direction).
+		- Two Level system: The hamiltonian Matrix. The electric dipole matrix.
+		- Recall: Transition Probability (from rabi) (from perturbation).
+		- Def: Absorption of radiation.
+		- Def: Stimulated emission of radiation.
+		- Def: Spontaneous Emission of radiation (ground state of QED Field).
+		- Application: Population inversion. Laser.
+
+
+Application: Hydrogen Transitions
+	- TODO: Electric Interaction. The dipole moment operator. The electric dipole moment matrix.
+	- TODO: Selection rules for m, l. Conservation of angular momentum (a photon has spin 1).
+	- TODO: Allowed Transitions. Forbidden Transitions. Metastable state.
+	- TODO: Actual calculation of electric dipole moment matrix for an transition (assume two level system ofc).
+
+
+Adiabatic Approximation
+	- Def: Adiabatic process
+		- Slow change (quasi-static).
+		- Time of external events is muuch greater than time of internal events
+		- Eg.: Ground state particle in infintie square well where well goes from a to 2a adiabatically.
+			- Claim: Particle should remain in ground state.
+			- Note: Initial form of the wavefunction
+			- Claim: Final form of the wavefunction after the adiabatic process (from a to 2a).
+	- The Adiabatic Theorem
+		- Assume: Particle starts initially in nth eigenstate of H(0). Adiabatic process is made
+		- Theorem: Particle will remain in nth eigenstate, and will pickup time-dependent phase factor.
+	- Proof ot the Adiabatic Theorem
+		- TISE at t=0 (initial system prior to the adiabatic process).
+		- Assume: Time-varying eigenfunctions, orthornormal for any t. 
+		- Assume: Time varying hamiltonian. Time varying eigenvalue (energy).
+		- Assume: General solution of TDSE: Expansion in time varying coeficients of (time varying) eigenstates.
+		- Assume: In each n-th eigenstate (in the sum), there is a time-varying phase, as integral over n-th energy.
+		- Calc: Substitution of the general solution into TDSE. Using Time-Varying TISE Equation to cancel few terms.
+		- Calc: Inner product with mth eigenstate. Finding the derivative of the mth coeficient.
+		- Calc: Deriving wrt time the time-varying TISE. Take inner product with m. Express result if n=m and n!=m.
+		- Calc: The expression of the time-derivative of the mth coeficient of the solution.
+		- Note: So far, so good. Its all general.
+		- Calc: Insertion of the adiabatic approximation. H varies too slowly. Zeraring the entire n!=m summation.
+		- Calc: The simple equation (with adiabatic approximation) for time-varying coeficients. First order linear ODE.
+		- Calc: Solution for the coeficients. The first order ODE.
+		- Note: <psi m|psi m> = 1, hence its time derivative imposes restriction.
+		- Note: General solution if particle initially starts from nth eigenstate.
+		- Note: Its called: The Adiabatic Theorem.
+	- The Dynamic Phase
+		- Recall: The Phase gains (as found in the proof of the adiabatic theorem).
+		- Def: The Dynamic Phase. (Proportional to Integral over nth energy state).
+		- Note: Dynamic Phase generalizes the usual factor exp(i En t / hbar) in case En depends on time.
+	- The Gometric Phase
+		- Def: The Geometric Phase. (Proportional to Integral of inner product of eigenfunction and its derivative).
+		- Assume: A given parameter (say R) is varying thru time inside the hamiltonian
+		- Eg.: In the infinite square well, R would be a (which changes in time from a to 2a adiabatically).
+		- Calc: Chain rule (the partial time derivative of the nth eigenstate)
+		- Note: Geometric Phase depends only on initial and final values of the parameter.
+		- Note: If hamiltonian returns to same place it started, in adiabatic process, geometric phase is zero.
+	- The Berry Phase
+		- Assume: Adiabatic closed cycle.
+		- Calc: Chain rule for N parameters inside the hamiltonian responsible for its change in time.
+		- Calc: The geometric phase with such parameters.
+		- Note: Its a path integral.
+		- Note: What if integrand is not conservative field? Closed integral in period T will pick up a phase.
+		- Def: Berry Phase.
+		- Note: Berry Phase depends only on path taken (not on how fast path is transversed) (ofc, slow enough for adiatic validity).
+		- Note: Dynamic phase acumulates as time passes. Definitly depends on how fast cycle is taken.
+		- Note: 3 parameter case: Berry Phase as a surface integral around the path.
+	- Significance of the phase shift
+		- Note: Usually phases are ignored (probability density cancels them out).
+		- Question: Can phase shift be measured?
+	- Detection of the Phase Shift
+		- Assume: Have particle beam, separate. In one of them, peform closed adiabatic cycle. Recombine.
+		- Note: Total wavefunction is the sum of the wavefunctions.
+		- Calc: The probability density of total wavefunction.
+		- Note: We need to seek an interference pattern.
+		- Note: In the pattern, the total phase shift will be even or odd multiple of pi.
+		- Note: Experimental measurement of the phase shift.
+
+
+
+
+
+
+
+
+TODO: Etc =D.
+
+
+TO TALK ABOUT: 
+	- Hellmann–Feynman theorem: https://en.wikipedia.org/wiki/Hellmann%E2%80%93Feynman_theorem

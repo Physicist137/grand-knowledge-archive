@@ -1,0 +1,63 @@
+TITLE: AVR: Introduction to AVR Programming.
+	- Pre-requisitives: C/C++ Introduction to Programming
+	- Co-Requisitives: None.
+
+
+MOST DEFINITLY OBJECTIVE: To teach how to use datasheet.
+
+
+TODO: Phyics base: Circuits. Ohm law. Resistor. Power. Quickly: Capacitors, Inductors.
+TODO: AVR Physics Limitations: Maximum current (be careful!), Maximum voltage, digital voltage thresholds, etc. (datasheet).
+
+TODO: DDR (Direction data register). 
+TODO: Digital output. PORTn register (Data register).
+TODO: Digital input. (Pull-up resistor enable/disabled, PIN register)
+TODO: Button debouncing. When to debound(counting). When not to. Debouncing codes. Software debouncing. Hardware Debouncing (capacitor).
+
+TODO: External Interrupts. ISRs, Interruption Service Routine. Polling vs Interrupting.
+TODO: "you want the AVR to respond when you press the button, not when the AVR is ready to have you press the button"
+TODO: Interrupting because of button pressed.
+TODO: Interruption because one wants to (Programmed triggered interruptions, isntead of physics triggered ones)
+
+TODO: Serial I/O: UART (Assyncronous one). Baud rate. Registers.
+TODO: Internal schematics of it. Down-scale clock. Baud Rate. UBBR settage of down-scale-clock.
+TODO: Description of transmit and receive (in voltage level). Frame format: Idle. Start bit. Stop bit. Size. Parity.
+TODO: Register description. Coding: UART Initialization, transmit, receive. Error correction.
+
+TODO: Using python to get the serial comunication. Python library serial-to-tcp/ip. (really really?)
+TODO: Serial comunication by directly reading/writing the proper files. /dev/ttyUSB0.
+TODO: C++ Library for serial comunication. (reading/writing the linux file?)
+TODO: Serial ISR.
+
+TODO: ADC Hardware. How it works. Reference Value AREF. AVCC Power.
+TODO: Left and right using.
+
+TODO: Timers. The Time hardware. How it works. Clocks. Clock pre-escaler.
+TODO: Normal Mode Timers.
+TODO: CTC Mode Timers.
+TODO: Calling interrupt on timers.
+
+TODO: PWM. PWM Description. Average of a signal. PWM Frequency. PWM Duty Cycle.
+TODO: Implementing PWM Manually.
+TODO: Implementing PWM using ISR of the Timer.
+TODO: Implementing PWM using dedicated Timer PWM hardware.
+
+TODO: SPI.
+TODO: The SPI Bus (schematics). Synchronous serial protocol. Speed comparisom with UART.
+TODO: SPI Circuit implementation: A loop of shift registers connected by MOSI and MISO lines controlled by CLK.
+TODO: Time diagram. SPI Modes 0, 1, 2, 3.
+TODO: Using shift registe to select more devices in the SPI bus, using only an AVR pin.
+
+TODO: Physics Base: Antennas and radiation of EM waves (important for MHz and up applications, say... SPI.).
+TODO: Point out: The way circuits are implemented (size of wire, etc) can completely shutdown an SPI bus, shall this physics not be considered.
+TODO: Irradiated power. Radiation resistance. Voltage drop. Voltage being received in the other end.
+
+TODO: I2C. SPI with nofourth cable for each device (address), no read/write at same time.
+TODO: Clock and data lines. CLK and SDA.
+TODO: Time diagram: Start signal. 7bit address, 1bit read/write, 1 byte data, ACK/NACK response. End signal.
+
+
+
+DEBOUNCE CODES:
+http://www.ganssle.com/debouncing.htm
+http://hackaday.com/2010/11/09/debounce-code-one-post-to-rule-them-all/

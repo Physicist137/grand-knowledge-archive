@@ -1,0 +1,357 @@
+TITLE: Thermodynamics 02: PVT System.
+	- Pre-requisitives: Thermodynamics 01
+	- Co-requisitives: None
+
+
+Sistema PVT
+	- Formal Definition.
+		- Also named: Sistema hidrostático
+		- May include: Gas, Liquid, Solid, something else, ...
+		- Cannot include: Paramagnetic gas, etc.
+	- Some Definitions and physical interpretations
+		- Def: Capacidade térmica
+		- Def: Capacidade térmica a volume e pressão constante (why not at constant temperature?)
+		- Def: Trabalho de um sistema PVT
+	- Relações entre pressão, volume, temperatura
+		- Def: Isobaric Volume expansivity. 
+			- Also called: Volume expansivity. 
+			- Interpretação física.
+			- Few examples: Solid, liquid, gas.
+		- Def: Isothermal Volume Compressibility.
+			- Also called: Isothermal compressibility. 
+			- Interpretação física.
+			- Few examples: Solid, liquid, gas.
+		- Def: Adiabatic Volume compressibility
+			- Also called: Adiabatic compressibility
+			- Interpretação física
+			- Few examples: Solid, liquid, gas.
+		- Relações matemáticas entre as derivadas parciais
+			- Sistema PVT são superficies ==> f(P,V,T) = 0
+			- Escrita dos diferenciais PVT.
+			- Relação inversa: Duas derivadas parciais
+			- Relação inversa: Tres derivadas parciais
+		- Valores de derivadas parciais entre variaveis PVT
+			- Volume e temperatura a pressão constante
+			- Volume e pressão à temperatura constante
+			- Pressão e temperatura a volume constante
+		- Equações de estado para uma variavel de estado constante
+			- Equação de estado a temperatura constante: Pequenas variações de pressão e volume
+			- Equação de estado a pressão constante: Pequenas variações de volume e temperatura
+			- Equação de estado a volume constante: Pequenas variações de pressão e temperatura
+	- Equação de Estado geral para sistema PVT
+		- Def: Equação de estado: f(P, V, T) = 0.
+		- Variaveis PVT tem relação.  V = V(P,T)
+		- Escrita diferencial de V
+		- Equação de estado diferencial
+		- Equação de estado para pequenas variações de pressão, volume, temperatura
+
+
+
+First Law of Thermodynamics
+	- 1a lei da Termodinamica para sistema PVT
+		- Forma dependente da energia interna.
+		- Forma dependente da entalpia.
+	- TODO: Reversible Change. (Q and W are well defined here).
+	- TODO: Irreversible Change (cannot talk about Q and W! Only state functions, such as U).
+	- Capacidade Térmica
+		- Def: Specific Heat.
+		- Consider: A point in (P,V) space (plot PV diagram and take ap oint).
+		- Calc: Variation of heat (from first law).
+		- Calc: Variation of temperature (from first law).
+		- Note: Specific Heat depends on the rate dp/dv of pressure/volume virtual displacements.
+		- Calc: Principal Heat Capacities (direction of axis) (constant V) (and constant P).
+	- Capacidade térmica e energia interna
+		- Equação geral de relação entre capacidade térmica e energia interna
+		- Relação entre: Capacidade térmica a volume constante e energia interna
+		- Relação entre: Capacidade térmica a pressão constante e energia interna
+		- Expressão do termo: (dU/dP)T em função de capacidade térmicas
+		- Expressão do termo: (dU/dV)T em função de capacidade térmicas     (du/dv)T = Tb/k - P
+		- Expressão dos termos da energia interna mantendo pressão constante (partial derivatives).
+		- Expressão dos termos da energia interna mantendo volume constante (partial derivatives).
+	- Capacidade térmica e entalpia
+		- Equação geral de relação entre capacidade térmica e entalpia
+		- Relação entre: Capacidade térmica a pressão constante e entalpia
+		- Relação entre: Capacidade térmica a volume constante e entalpia
+		- Expressão do termo: (dH/dV)T em função de capacidade térmicas
+		- Expressão do termo: (dH/dP)T em função de capacidade térmicas
+		- Expressão dos termos da entalpia mantendo pressão constante (partial derivatives).
+		- Expressão dos termos da entalpia mantendo volume constante (partial derivatives).
+	- Fluxo quasi-estático de calor
+		- Calor liberado por processo isobárico quasi-estático
+		- Calor liberado por processo isocórico quasi-estático
+		- Calor isocórico. Note: Capacidade térmica a volume constante e energia interna
+		- Calor isobárico. Note: Capacidade térmica a pressão constante e entalpia
+		- Calor isocórico. Note: 1st law of thermodynamics. Energia interna.
+		- Calor isobárico. Note: 1st law of thermodynamics. Entalpia.
+	- Virtual Displacements
+		- Again: Draw: A point C in the PV-Diagram.
+		- Note: Adiabatic lines and isothermal lines pass thru this point (ofc) (ie, isothermal/adiabatic change).
+		- Note: At point P, such lines has normal vectors.
+		- Note: At small circle centered at C, dT is sinusoidal (zerating at the isothermal lines).
+		- Note: At small circle centered at C, dQ is sinusoidal (zerating at the adiabatic lines).
+		- Calc: The heat capacity at constant P from the components of the normal unit vectors of adiabatic/isothermal lines.
+		- Calc: The heat capacity at constant V from the components of the normal unit vectors of adiabatic/isothermal lines.
+		- Calc: Gradient of the isothermal line (that is, dP/dV isothermal) (from components of normal unit vectors).
+		- Calc: Gradient of the adiabatic line (that is, dP/dV adiabatic) (from components of normal unit vectors).
+		- Calc: Ratio of cp and cv (as a function of previous isothermal/adiabatic gradients).
+		- Def: The adiabatic constant (why is called this way shall be clear later).
+	- Other PV relations
+		- Def: Bulk Modulus of Elasticity
+		- Def: Coeficient of Compressibility.
+
+
+
+TODO: Thermodynamical Machines and Cycles.
+TODO: Carnot Machine. Calor absorvido/rejeitado. Trabalho. Efficiency.
+TODO: Carnot Machine Theorem: No cyclic machine is more efficient than carnot machine.
+TODO: Relembrar ciclo de Carnot. Relembrar 2a lei da termodinamica.
+TODO: Definição de temperatura usando ciclos de carnot
+
+
+Segunda Lei da Termodinâmica
+	- TODO: Clausius theorem
+	- Segunda Lei da Termodinamica
+		- Enunciado de Kelvin e Clausius da segunda lei da termodinamica
+		- Definição de temperatura absoluta usando ciclo de carnot
+		- Temperatura como fator integrante
+		- Forma entrópica da segunda lei da termodinamica (using clausius theorem).
+		- Entropia como função de estado para sistemas reversíveis
+	- Relações entrópicas do sistema PVT
+		- 1a lei da termodinamica na forma diferencial exata para sistema PVT
+		- Variaveis TV
+			- Diferencial de variação de entropia em função de energia interna
+			- Why TV? Why internal energy?
+			- Variação da entropia na variavel T e V
+			- Variação da entropia com temperatura a volume constante
+			- Variação da entropia com volume à temperatura constante
+			- Note: Dependente da variação de energia interna
+			- Segunda derivada. Aplicar teorema de Schwarz.
+			- Equação de energia: Variação da energia interna.
+		- Variaveis TP
+			- Diferencial de variação de entropia em função da entalpia
+			- Why TP? Why Enthalpy?
+			- Variação da entropia na variavel T e P
+			- Variação da entropia com temperatura a pressão constante
+			- Variação da entropia com pressão à temperatura constante
+			- Note: Dependente da variação de energia interna
+			- Segunda derivada. Aplicar teorema de Schwarz.
+			- Equação de energia: Variação da energia interna.
+		- Variaveis PV
+			- Variação da entropia por temperatura com pressão constante.
+			- Variação da entropia por pressão com temperatura constante.
+			- Segunda derivada. Aplicar teorema de Schwarz.
+			- Equação de energia
+		- Interpretação física para as variações de entropia.
+		- Comparação entre as relações para energia interna
+		- Comparação entre as relações para entalpia
+	- Fluxo de calor reversível. Equações TdS.
+		- Note: Possivel substituição em grandezas mediveis nas variações de energia interna
+		- Note: Pode-se usar também os coeficientes de expansão e compressibilidade
+		- Calor reversível para pressão constante.
+		- Calor reversível para volume constante.
+		- Calor reversível para temperatura constante.
+		- Interpretação física para fluxos de calor.
+	- Adiabatic constant (TODO: TO check, is this really here?)
+		- Calc: Ratio of the heat capacities (Using TdS Equations)
+		- Calc: Ratio in isentropic condition (dS = 0)
+		- Adiabatic constant for general PVT System.
+
+
+Potenciais Termodinâmicos
+	- TODO: Transformação de legendre
+	- TODO: Definição, propriedades, e significado de todos os potenciais
+	- TODO: Condição de equilibrio termodinamico
+	- TODO: Potenciais: Internal Enerhy, Enthalpy, Helmholtz, Gibbs.
+	- TODO: Differential first law for all potentials.
+	- TODO: Relações de Maxwell.
+	- TODO: Second law inequalities with all thermodynamic potentials.
+	- TODO: Few thermochemistry examples. (Enthalpy and Gibbs)
+	- TODO: Heat capacity equations.
+	- TODO: Chemical potential. Landau Potential. Differential first law. Differential of every potential with chemical one. Maxwell Relations.
+	- TODO: Equilibrium of chemical reactions. Etc.
+
+
+Entropy of PVT System
+	- TODO: Variation of entropy and energy
+	- TODO: Variation of entropy with respect to: Energy, Volume, Temperature.
+	- TODO: Using variables S(U, V, N): Energy, Volume, Number of particles.
+	- TODO: Chemical potential.
+	- TODO: Temperature, Pressure (as partial derivatives using entropy). T = (dE/ds)_v. P = -(dE/dV)_S
+	- TODO: Heat capacity (constant V, constant P) (using entropy).
+	- TODO: Inequações para sistema PVT
+	- TODO: To make it clear entropy is a function of state (depends on initial or final only) (no need to only consider reversible paths).
+
+
+Maxwell Relations
+	- TODO: Derive all Maxwell Relations.
+	- TODO: Its importance: Relates directly measurable quantities with non measurable ones.
+	- TODO: Use that as advantage to calculate: cp-cv, adiabaatic constant, etc.
+
+
+Maximum Entropy Principle
+	- TODO: Thermodynamic equilibrium as maximum entropy. Definition of thermodynamic equilibrium. S(U, V).
+	- TODO: Isolated system partitioned in two subsystems separated by fixed isothermal wall. 
+		- TODO: Maximum entropy principle ==> Equal temperatures. 
+		- TODO: Impose: dS/dt > 0. Check dE1/dt. Check direction of energy flow given temperatures.
+	- TODO: Isolated system partitioned in two subsystems separated by movable adiabatic wall.
+		- https://physics.stackexchange.com/questions/257815/thermodynamic-equilibrium-will-the-piston-move
+		- https://physics.stackexchange.com/questions/258583/adiabatic-piston-why-is-callens-argument-flawed
+		- Necessary condition for thermodynamic equilibrium. (Note it is not sufficient condition!)
+		- If initially P1 = P2 and T1 != T2, will piston move?
+	- TODO: Isolated system partitioned by two subsystem separated by movable isothermal wall.
+
+
+Transição de Fase
+	- TODO: Description of phase transition
+	- TODO: How all potentials behave (principalmente gibbs ofc)
+	
+
+Zero Absoluto
+	- TODO: How PVT behaves at absolute zero. (thermodynamic potentials and their relations)
+	- TODO: Enunciation of Third Law of Thermodynamics.
+
+
+Application: Solids and Liquids.
+	- TODO: Equation of State. Internal Energy. Variation of Entropy. Heat capacity.
+
+
+Application: Caloric Gas
+	- TODO: Caloric Imperfect Gas. Equation of State. Internal Energy. Variation of Entropy. Heat capacity.
+	- TODO: Caloric Perfect Gas. Equation of State. Internal Energy. Variation of Entropy. Heat capacity.
+
+
+Application: Gás Ideal
+	- :).
+	- TODO: Equation of state. Forma das isotermas
+	- TODO: Heat Capacity. Constant V. Constant P.
+	- TODO: Internal energy U(T,V) dependent only of temperature. Calculation of internal energy (Dependent on heat capacity, ofc).
+	- TODO: Adiabatic Equation of state (PV, TV, TP).
+	- TODO: Variation of entropy. Absolute entropy of ideal gas. S(T,V) and S(T,P). T(S,P) and T(S,V).
+	- TODO: Free expansion. To calc variation of entropy. Note: int dq/T is invalid since process is thermodynamically irreversible. Plot in PV Diagram (two dots).
+	- TODO: Several examples (with big calculations) (Check mastering tests).
+	- TODO: Diatomic ideal gas. Polyatomic ideal gas. Degrees of freedom.
+	- TODO: Speed of sound. Speed in mixture of gases. Standing wave. Measuring it.
+
+
+Engines operated by ideal gas
+	- TODO: Carnot Engine: Heat, Work, Temperature, Entropy, Internal Energy, etc. Efficiency. Does it gives what it should?
+	- TODO: (AB: Cte volume V)-->(BC: Adiabatic from V to rV)-->(CA: Isotherm from rV to V). Calc: Heat, Work, Temperature, Entropy, Internal Energy, Efficiency, Carnot efficiency comparisom.
+	- TODO: Otto Engine (Gasoline Cycle). Heat, Work, Temperature, Entropy, Internal Energy. Efficiency. Comparisom with carnot efficiency.
+
+
+Application: Gás de Van der Walls
+	- TODO: Equation of state. Parametros moleculares de Van der Walls.
+	- TODO: Data table: https://en.wikipedia.org/wiki/Van_der_Waals_constants_(data_page)
+	- TODO: Forma das isotermas
+	- TODO: Ponto crítico. Parametros criticos.
+	- TODO: Universal scaling. Critical exponent 1/2. Experimental critical exponent 1/3. Not a good model...
+	- TODO: Internal energy.
+	- TODO: Adiabatic Equation of state (PV, TV, TP).
+	- TODO: Variation of entropy. Absolute entropy of ideal gas.
+	- TODO: Speed of sound. Speed in mixture of gases. Standing wave. Measuring it.
+	- TODO: Virial Expansion. Boyle Temperature. Calc: Boyle temperature for hydrogen.
+
+
+Teoria cinética do gás ideal
+	- Limitações termodinamicas
+		- Coordenadas termodinamicas macroscopicas
+		- Energia interna e equação de estado completamente desconhecidos
+		- Pesadamente baseado em experimentação
+	- Fixing: Teoria microscopica
+		- Teoria cinética: Considerações mecânicas microscópicas
+		- Mecanica Estatística: Considerações energéticas microscópicas
+	- Suposições de simplificação do gás ideal. Axiomatic Theory.
+		- 1) Gás é formado por grande particulas identicas quimicamente inertes
+		- 2) Tamanho de particulas é desprezivel comparado com distancia média entre particulas
+		- 3) Potencial balístico: Qualquer interação entre particulas é inexistente, exceto colisões
+		- 4) Todas as colisões são perfeitamente elásticas
+		- 5) Particuals estão distribuidas uniformemente
+		- 6) Não existe direção preferencial na distribuição de velocidade das particulas
+		- Note: Todas as suposições são verdades com muito boa aproximação para gás ideal
+	- Derivação da Equação de Estado do gás ideal. TODO: Make it better.
+		- Particula de gás com vetor velocidade w
+		- Vizinhança de modulo de velocidade w + dw
+		- Vizinhança da direção de velocidade usando coordenadas esféricas
+			- Area da superficie de esfera
+			- Calc: Diferencial de angulo sólido
+		- Particulas com velocidades quasi-iguais
+			- Calc: Numero de particulas vizinhas com velocidade quasi-igual
+			- Note: Equação expressando velocidades atomicas não tem direção preferencial
+		- Colisões do gás com recipiente
+			- Calc: Volume do cilindro de colisão em um pequeno intervalo dt
+			- Calc: Fração de átomos contidas no cilidnro
+			- Calc: Numero de átomos com velocidades quasi-iguais colidindo em dA em tempo dt
+			- Note: Equação expressando particulas não tem localização preferencial
+		- Transferencia de Momentum Linear. TODO: Fix speed distribution to become clearer.
+			- Calc: Transferencia de momentum por colisão
+			- Calc: Transferencia total de momentum
+			- Calc: Transferencia total de momentum por unidade de área por unidade de tempo em colisão em unica direção
+			- Note: Contribuição de pressão exercida em colisão unidirecional
+			- Calc: Pressão total exercida pelas particulas com velocidades quasi-iguais em todas as direções
+			- Calc: Pressão total exercida pelas particulas com todas as velocidades em todas as direções
+		- Equação de Estado
+			- Formal Def: Velocidade quadrática média das particulas
+			- Calc: Equação de estado de gás ideal em função da velocidade quadrática média
+			- Calc: Equação de estado de gás ideal em função da energia cinética média
+	- Propriedades microscópicas do gás ideal
+		- Interpretação microscopica da temperatura
+			- Comparação com equação de estado do gás ideal encontrado termodinamicamente
+			- Calc: Temperatura em função das grandezas microscopicas
+			- Note: Temperatura é proporcional a energia cinética média das particulas
+		- Energia interna do gás ideal
+			- Note: Por hipotese não existe energia potencial nas particulas ==> Origen energética é puramente cinética
+			- Suposição: Gás ideal é monoatômico (considerações energéticas vibracionais e rotacionais desconsideradas)
+			- Conclusion: Energia interna do gás ideal == Energia cinética total do sistema de particulas
+			- Calc: Energia interna de gás ideal em função das grandezas termodinamicas macroscópicas. Behold!
+			- Note: Energia interna dependente apenas da temperatura conforme concluido de forma experimental
+		- Capacidade térmica para gás ideal monoatômico
+			- Calc: Capacidade térmica a volume constante
+			- Calc: Capacidade térmica a pressão constante
+			- Note: Ambos independem da temperatura como esperado
+		- Note: Energia interna foi calculada completamente de considerações microscopicas
+			- Note: Não foi usado experimentação
+			- Note: Foi usado leis da física já conhecidas, e estatística
+	- Reescrita da equação de estado de gás ideal
+		- n = N/NA, NA numero de avogadro
+		- Def: Constante de Boltzmann
+		- Reescrita da energia interna usando constante de Boltzmann
+		- Note: Proporção direta da energia cinética média e temperatura, com uso da constante de Boltzmann
+	- It is nice to note:
+		- Note: Teoria microscopica desenvolvida é válida for anything which match assumptions
+		- Note: Conseguimos ver aqui o carater estatístico da termodinamica com respeito a teoria de gases
+		- Quote: Termodinamica inteira é estatística?
+		- Example: Gas ideal
+		- Example: Bando de moscas em recipiente fechado
+			- Note: Bando de moscas pode ter temperatura
+			- Note: Temperatura ganha agora interpretação estatística aplicavel a qualquer coisa
+			- Note: Energia interna do bando de moscas calculavel
+		- Example: Pessoas num bloco de carnaval
+		- Example: ...
+
+
+TO THINK: To take off Teoria cinética do gás ideal
+
+
+
+
+
+
+
+Context: Captain Benjamim Sisko (commander of the space station and of the ship USS Defiant of the Federation) were taking his ship into (without clearance from high command) to Cardassian space (capital of Cardassian Empire), to save life of a friend. The plan was to put a holographic filter and make the ship look like a Koberian Cargoship.
+
+https://www.youtube.com/watch?v=4FQrZePyWGg
+https://www.youtube.com/watch?v=0hZqOdsRoKU
+
+Nobody here but us Koberians
+https://www.youtube.com/watch?v=z0mba5Nf520
+
+
+TNG Data trolls Worf (Liaisons
+https://www.youtube.com/watch?v=hLyszVGMZ_o
+
+
+I am an engineer
+https://www.youtube.com/watch?v=eDh9jXY3zMY
+
+This is why Sisko is the most badass captain
+https://www.youtube.com/watch?v=XGcAbI-4_io

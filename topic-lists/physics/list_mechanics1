@@ -1,0 +1,842 @@
+TITLE: Classical Mechanics 01: One-Body Newton Formalism.
+	- Pre-requisitive: Fisica I, Fisica II, Full Calculus, Mechanics Zero.
+	- Co-requisitive: None
+
+
+Formalismo newtoniano em 03 dimensões.
+	- Leis de Newton Tradicionais
+		- Leis de newton
+			- 1st Newton Law: mv=cte until acted force
+			- 2nd newton law: Força é variação do momentum
+			- 3rd newton law: Ação e reação de forças
+		- Interpretação: 1st law: Noção qualitativa de força
+			- Conservação do momento do sistema em colisões
+		- Interpretação da segunda lei de newton
+			- 1st lei é consequencia
+			- Definição de força é explicitada
+			- Qual definição de massa?
+			- 2 primeiras leis como definições (e não leis)
+		- Terceira Lei de newton
+			- Indeed a law: Formulação completa da mecanica (1st e 2nd é consequencia)
+			- Another interpretation: 3rd é consequencia de 1st e 2nd
+			- Equivalencia matemática entre 3rd lei e 2nd e 1st lei
+			- Sistema de duas particulas apenas
+				- Conceito de Forças centrais
+				- Definição de massa inercial (razão entre acelerações)
+			- Note: Leis foram enunciadas para dois corpos em completo isolamento
+	- Sistema Matemático Axiomático das Leis de Newton
+		- 1st Axiom: Definition of inertial reference frame.
+		- 2nd Axiom: There are scalars (mi) such that linear combination of accelerations equals zero in isolated group of system.
+		- 3rd Axiom: F = ma.
+		- Def: Massa inercial
+	- Propriedade aditiva de massas
+		- Assumption: 3 Body system. Rigidez em corpos 2 e 3. 
+		- Forças internas para cada corpo
+		- Massa inercial equivalente é soma das massas inerciais
+	- Sistemas de referencia
+		- Note: Position is not absolute. Always relative to something.
+		- Referenciais inerciais
+		- Invariancia de Galileu: ref com cte speed em relação a ref inercial, é inercial
+		- Example: Sistema de referencia não inercial
+		- Transformação de Galileu
+		- Homogeneidade do tempo
+		- Homogeneidade do espaço
+	- Invariancia das Leis de Newton
+		- Def: Referencial Inercial
+		- Invariancia por Transformação de Galileu
+		- Conclusion: Não existe velocidade absoluta
+		- Conclusion: Todos os referenciais inerciais são equivalentes
+		- Relative velocity
+	- Sistema não-inerciais
+		- Não-Invariancia por transformação de Galileu em sistema não-inerciais
+		- Mudança nas leis de newton por referencial lineramente acelerado
+		- Note: Non-Inertial observers will disagree upon inertial observers.
+		- Note: Todos os referenciais igualmente acelerados são equivalentes
+	- Torque e momento angular
+		- Formal Definition: Angular Momentum
+		- Calc: Derivada do momento angular
+		- Formal Definition: Torque
+		- Lei de Newton para Torque e momento angular.
+
+
+Movimento de uma particula em uma dimensão
+	- Simplest example: Particula livre
+		- Ausencia de força
+		- Conservação do momento linear
+		- Note: Corpos andam em linha reta
+	- Força em campo de aceleração
+		- Formal Definition
+		- Equação de movimento da particula
+		- Example: Equação de Movimento de uma particula
+		- Example: Equação de movimento de corpo em queda
+		- Example: Plano inclinado
+			- Def: Vinculos
+			- Vinculo: Rigidez do plano inclinado (bloco nao afunda)
+			- Descrição do atrito. Dynamic/Static friction coeficient.
+		- Example: Maquina de Atwood
+			- Vinculo: Corda inextensivel
+			- Maquina de 1 polias ideais
+			- Maquina de 3 polias ideais
+			- Def: Polia ideal
+		- Example: Movimento de carga em campo magnetico
+	- Força dependente da posição
+		- Formal Definition
+		- Equação de movimento da particula
+		- Example: Pendulo simples
+		- Example: Oscilador Harmonico Simples
+	- Forças de Retardamento
+		- Formal Definition (-v direction)
+		- Def: Força de Retardamento linear
+		- Def: Força de retardamento quadrático
+		- Def: Força de retardamento geral (n power)
+		- Experimental data
+			- Speed < 24m/s ==> Retardamento linear
+			- Speed < Mach 1 ==> Retardamento quadrático
+		- Equação de movimento de particula
+		- Application: Movimento com resistencia do ar (ou fluido qualquer)
+		- Def: Velocidade terminal
+			- Calc: Velocidade terminal para força de retardamento linear
+			- Calc: Velocidade terminal para força de retardamento quadrático
+			- Calc: Velocidade terminal para força de retardamento de termos linear e quadrático
+			- Calc: Velocidade terminal para força de retardamento geral (polinomio em v).
+	- Movimento linearmente retardado
+		- Calc: Equação de movimento. 
+		- Calc: Solução geral (em termo da velocidade).
+		- Note: Velocidade decresce linearmente com deslocamento
+		- Note: Velocidade terminal é nula
+		- Calc: Posição da particula
+		- Calc: Alcance da particula
+		- Calc: Velocidade em função da posição
+		- Calc: dv/dx
+	- Movimento linearmente retardado sob campo gravitacional
+		- Calc: Equação de movimento. 
+		- Calc: Solução geral (em termo da velocidade).
+		- Note: Velocidade decresce linearmente com deslocamento
+		- Note: Velocidade terminal vista a partir da solução
+		- Calc: Posição da particula
+		- Note: Alcance infinito.
+		- Calc: Velocidade em função da posição
+		- Calc: dv/dx
+	- Movimento quadrático retardado
+		- Calc: Equação de movimento. 
+		- Calc: Solução geral (em termo da velocidade).
+		- Calc: Velocidade em função do tempo (com velocidade inicial).
+		- Calc: Tempo em função de velocidade (com velocidade inicial).
+		- Calc: Posição em função de tempo (com posição e velocidade inicial).
+		- Calc: Tempo em função da posição (com posição e velocidade inicial).
+		- Calc: Velocidade em função da posição
+		- Calc: dv/dx
+		- Note: Velocidade terminal é nula
+		- Calc: Alcance da particula
+		- Example: Orbital decay (how much velocity decreases when travels deltaX).
+	- Movimento quadrático retardado sob campo gravitacional
+		- Calc: Equação de movimento. 
+		- Calc: Solução geral (em termo da velocidade).
+		- Calc: Velocidade terminal.
+		- Calc: Posição da particula
+		- Calc: Velocidade em função da posição
+		- Calc: dv/dx
+		- Example: Queda Livre com resistencia do ar
+		- Example: Queda livre com paraquedas.
+	- Movimento retardado linear e quadrático sob campo gravitacional
+		- Calc: Equação de movimento. 
+		- Calc: Solução geral (em termo da velocidade).
+		- Calc: Solução geral usando velocidade inicial
+		- Calc: Solução geral usando velocidade terminal
+		- Calc: Velocidade terminal em função de velocidade inicial
+		- Note: Velocidade decresce linearmente com deslocamento
+		- Note: Velocidade terminal vista a partir da solução
+		- Calc: Posição da particula
+		- Note: Alcance infinito.
+		- Calc: dv/dx
+	- Example: Oscilador Armotecido
+		- Equação de movimento
+		- Solução da equação de movimento
+		- Solução geral do sistema
+
+
+Trajetórias Balísticas
+	- Lançamento obliquo sem resistencia do ar
+		- Calc: equações de movimento
+		- Calc: Solução das equaçõs de movimento
+		- Calc: Velocidade e posição horizontal.
+		- Calc: Velocidade e posição vertical.
+		- Calc: Deslocamento total instataneo do projétil (sqrt(xx+yy)).
+		- Calc: Speed (velocidar escalar) total instantanea do projétil.
+		- Calc: Alcance do projétil dependente de angulo inicial.
+		- Calc: Angulo para alcance máximo
+		- Calc: Angulo to hit a target
+		- Calc: Tempo de queda
+		- Calc: Tempo para chegar na altura máxima
+	- Lançamento obliquo com resistencia linear do ar
+		- Calc: equações de movimento
+		- Calc: Solução das equaçõs de movimento
+		- Calc: Velocidade e posição horizontal.
+		- Calc: Velocidade e posição vertical.
+		- Calc: Deslocamento total instataneo do projétil (sqrt(xx+yy)).
+		- Calc: Speed (velocidar escalar) total instantanea do projétil.
+		- Calc: Alcance do projétil dependente de angulo inicial.
+		- Calc: Angulo para alcance máximo
+		- Calc: Angulo to hit a target
+		- Calc: Tempo de queda
+		- Calc: Tempo para chegar na altura máxima
+		- Comparando com e sem resistencia do ar
+			- Alcance, Altura máxima, Tempo de queda
+			- Question: Em qual tempo ele está na altura maxima?
+			- Question: Tempo para cair no chao?
+			- Question: Qual angulo provoca maximo alcance?
+			- Question: Qual o erro do alcance (em %) quando considera-se sem resistencia do ar?
+		- German WW1 cannon: v0 = 1450m/s, theta = 55degree, alcance = 120Km. Is this accurate?
+	- Lançamento obliquo com resistencia quadrática do ar
+		- Calc: equações de movimento
+		- Calc: Solução das equaçõs de movimento
+		- Calc: Velocidade e posição horizontal.
+		- Calc: Velocidade e posição vertical.
+		- Calc: Deslocamento total instataneo do projétil (sqrt(xx+yy)).
+		- Calc: Speed (velocidar escalar) total instantanea do projétil.
+		- Calc: Alcance do projétil dependente de angulo inicial.
+		- Calc: Angulo para alcance máximo
+		- Calc: Angulo to hit a target
+		- Calc: Tempo de queda
+		- Calc: Tempo para chegar na altura máxima
+	- Lançamento obliquo com resistencia linear e quadrática do ar
+		- Calc: equações de movimento
+		- Calc: Solução das equaçõs de movimento
+		- Calc: Velocidade e posição horizontal.
+		- Calc: Velocidade e posição vertical.
+		- Calc: Deslocamento total instataneo do projétil (sqrt(xx+yy)).
+		- Calc: Speed (velocidar escalar) total instantanea do projétil.
+		- Calc: Alcance do projétil dependente de angulo inicial.
+		- Calc: Angulo para alcance máximo
+		- Calc: Angulo to hit a target
+		- Calc: Tempo de queda
+		- Calc: Tempo para chegar na altura máxima
+	- Examples of such problems
+		- Example: Lançamento Oblíquo (obvio).
+		- Example: Launching bombs from airplane.
+
+
+Teoremas de Conservação
+	- Theorem: Conservação de momento linear na direção ausente de força, se conserva
+		- Proof: Resolvendo equação da ausencia de força
+		- Generalization: F*s=0, always for some s
+		- Componente do momento linear onde força é zero, se conserva. F*s=cte
+		- Note: Velocidade é constante nessa direção.
+		- Movimento nessa direção é confinado a uma reta
+	- Theorem: Momento linear é conservado para dois corpos sem força externa
+		- Forças internas (de interação) entre os dois corpos
+		- Forças externas entre os dois corpos
+		- Aplicação da Lei de Newton
+		- Note: Momento linear total do sistema é constante
+	- Theorem: Conservação do momento angular
+		- Remember: Definição de momento angualr e torque.
+		- Lei de Newton para Torque e momento angular. Conservação quando torque é zero.
+		- Note: Momento angular representa a normal do plano que contem vetores posição e velocidade
+		- Note: Momento angular constante ==> Normal do plano constante
+		- Note: Vetor posição e velocidade sempre no mesmo plano
+		- Movimento é confinado a um plano
+	- Theorem: Conservação do momento angular para dois corpos sem torque externo
+		- Torques externos
+		- Aplicação da Lei dew Newton
+		- Momento angular total do sistema é constante
+	- Trabalho executado por força sob trajetória
+		- Formal Definition: Funcional trabalho sobre curva
+		- Parametrização de caminho e integral do trabalho
+		- Note: Valid in full generality, for any force, of any type.
+		- Note: F = F(r, t) is valid.
+	- Campo de Forças conservativas
+		- Formal Definition: Trabalho independe do caminho
+		- Theorem: Conservative field <==> Trabalho sob uma curva fechada é nula
+			- Proposition: Campo de força conservativo ==> Existe função potencial (Energia potencial).
+		- Proposition: Existe função potencial ==> Campo de força é conservativo
+		- Note: Conservativo <==> Função potencial <==> Trabalho independe do caminho <==> Closed curve zero.
+		- Formal Definition: Energia potencial
+			- Note: U = U(r)  or  U = U(r, t)
+			- Note: U não é grandeza: U+cte não muda o campo vetorial
+			- Note: Variação de U é grandeza física
+		 - Calc: Força a partir da energia potencial
+	- Theorem: Campo de força conservativo <==> Rotacional é nulo
+		- Campo de força conservativo ==> Integral sob caminho fechado é zero.
+		- Aplicação do Teorema de Stokes
+		- Note: Rotacional deve ser identicamente nulo
+		- Note: Teorema de Helmholtz ==> Existe função potencial para campo de força conservativo
+	- Theorem: Variação da energia cinética é Força resultante dot speed.
+		- Produto escalar da velocidade com a força
+		- Fator Integrante. Solução em termos de derivada total
+		- Formal Definition: Energia cinética
+		- Conservação da energia cinética
+		- Corolary: Conservação da energia cinética quando velocidade é ortogonal à força resultante
+		- Note: Apenas válido para força resultante.
+	- Theorem: Work-Energy Theorem.
+		- Remmember: Def de trabalho
+		- Parametrização (escolha de caminho) para integral
+		- Substituição de F dot speed na integral de trabalho
+		- Trabalho da força resultante é diferença de energia cinética
+		- Note: Apenas válido para força resultante.
+	- Teorema do trabalho e energia potencial
+		- Escrita do funcional do trabalho em termos da função potencial
+		- Resolução da integral.
+		- Trabalho de força em função da energia potencial
+		- Note: Apenas é válido para forças conservativas
+		- Note: Não precisa ser força resultante
+	- Theorem: Conservação da energia mecânica em sistemas conservativos
+		- Multiplicar por velocidade a equação de movimento
+		- Note: Fator Integrante
+		- Note: Energia Cinética + Energia potencial
+		- Conservação da energia cinética e potencial
+		- Def: Energia Mecânica ou Energia Total.
+	- Theorem: Conservação da energia mecanica/total
+		- Consider: Energia potencia U(r, t). (Nao-conservativo, ofc).
+		- Calc: Derivada da energia total
+		- Theorem: Variação da energia mecanica é derivada parcial temporal da energia potencial.
+		- Corolary: Energia mecanica se conserva se U = U(r). (ie, se campo de força é conservativo).
+
+
+Curva Potencial e Espaço de Fase
+	- Analise da curva de energia potencial (1D: U = U(x))
+		- Pontos de Equilibrio na curva potencial
+			- Pontos de equilibrio instável
+			- Pontos de equilibrio estável
+			- Pontos de equilibrio neutro/indiferente
+			- Quando em equilibrio: Momentum conservation holds
+		- Zonas permitidas e proibidas
+			- Zonas proibidas
+			- Zonas Permitidas
+			- Zonas permitidas entre zonas proibidas
+		- Movimento da particula
+			- Zonas de oscilação
+			- Zonas de escape ao infinito
+			- Barreiras de potencial
+			- Example: Particula vem do infinito, bate em barreira, volta ao infinito
+		- Velocidade da particula
+			- Àreas de grande velocidade
+			- Áreas de baixa velocidade
+		- Pontos Importantes
+			- Def: Ponto de Equilibrio. (Derivative is zero).
+			- Def: Ponto de Equilibrio estável. (second derivative).
+			- Def: Ponto de Equilibrio instável. (second derivative).
+			- Def: Ponto de Equilibrio indiferente.
+			- Def: Ponto de retorno da particula (dependent on the energy of the system).
+		- Zonas de aproximação parabólica do potencial
+			- Expansão em série de taylor da energia potencial
+			- Condição de equilibrio: U'(0) = 0
+			- Energia potencia ma vizinhança do ponto de equilibrio
+			- Condição para equilibrio instável e estável
+		- Exercicios envolvendo curvas potenciais
+			- Example: Pendulo simples (sem aproximações)
+			- Example: Potencial de Lennard-Jones (molecular potential).
+			- Example: Potencial parabólico (aproximação do pendulo simples e lennard-Jones)
+	- Equação da posição em parametros energeticos (quadratura)
+		- Conservação da energia Mecanica
+		- U = U(x)
+		- Equação da "posição" da particula
+		- Example: Movimento com ausencia de potencial
+		- Example: Movimento com força constante
+		- Example: Oscilador Harmonico
+		- Example: Pendulo simples
+	- Espaço de Fase
+		- Formal Definition
+		- Dimensão do espaço de fase para movimento n-dimensional
+		- Espaço de fase para movimento unidimensional
+		- Equação diferencial do espaço de fase
+			- Note: It's first order
+			- Easier to find solution
+			- General Case: F = F(x, x')
+		- Resolvendo equação diferencial do espaço de fase
+			- Assumption: F = F(x)
+			- Note: Dropped in energy conservation theorem!
+			- Equação geral do espaço de fase em termos energeticos
+		- Interpretation: Greater potential ==> Less speed
+		- Example: Espaço de fase de barreira de potencial parabolica (equilibrio estável)
+			- Equação do espaço de fase
+			- Note: Ellipses
+		- Example: Espaço de fase de potencial parabolico em torno de equilibrio instável
+			- Equação do espaço de fase
+			- Niveis de energia maiores que barreira de potencial: Fases hiperbólicas
+			- Niveis de energia abaixos da barreira da potencial: Fases hiperbolicas
+			- Niveis de energia igual ao potencial do ponto de equilibrio: Linhas
+
+
+Trajetórias por Quadraturas
+	- Quadratura
+		- We learned: Energia é conservada
+		- Isolar velocidade da equação de energia
+		- Note: Equação diferencial homogenea de primeira ordem. Easily solvable.
+		- Integração direta
+		- Def: Quadratura.
+		- Solução geral por quadratura
+		- Solução geral de problema de valor inicial por quadratura
+	- Exemplos simples
+		- Quadratura de particula livre
+		- Quadratura de particula em queda livre
+		- Quadratura de oscilador harmonico simples
+	- Movimento Periódico Geral
+		- Remmember: Pontos de retorno do potencial
+		- Quadratura
+		- Solução geral de problema de valor inicial por quadratura
+		- Calc: Periodo do movimento periódico (usando quadratura).
+	- Pendulo simples
+		- Equação de movimento
+		- Energia total
+		- Quadratura
+		- Note: Integral Eliptica do primeiro tipo
+		- Calc: Periodo do pendulo em função de integral eliptica
+		- Calc: Periodo do pendulo em série de potencia
+	- Queda Livre usando gravitação universal
+		- Equação de movimento e energia total
+		- Quadratura.
+		- Calc: Tempo de queda livre.
+		- Calc: Posição em função do tempo.
+		- Calc: Velocidade em função do tempo.
+	- TODO: Periodo de pendulo não pontual (inertia moment). Termos não-lineares.
+	- TODO: Example: Calc: Taxa de atraso/adiantamento de relogio de pendulo por fatores não-lineares. 
+
+
+
+Oscilação de uma partícula em uma dimensão
+	- Força expressa por expansão de taylor da posição
+	- Case: Particula próxima ao ponto de equilibrio
+	- Oscilador Harmonico simples (eq. diferencial e solução geral da posição)
+		- Calc: Solução geral do oscilador harmonico simples.
+		- Calc: Energia total do sistema.
+		- Calc: Periodo do movimento.
+		- Note: Energia total é proporcional ao quadrado da amplitude
+		- Note: Conservação da energia
+		- Note: Periodo independente da amplitude
+	- Example: Esfera presa na superficie
+		- Calc: Momento de inertia sobre CM de esfera maciça.
+		- Calc: Teorema do eixo paralelo. Momento de inercia.
+		- Calc: Torque. Aproximação de pequeno angulo. Equação de movimento.
+		- Calc: Periodo. Frequencia. Solução geral.
+		- Note: Periodo/frequencia independe da massa da esfera.
+	- Oscilações harmonicas em duas direções
+		- F = -kr (Força central)
+		- Componentes da força x e y
+		- Note: frequencias nos eixos x, y são iguais
+		- Equações diferenciais para os eixos x,y
+		- Equações parametricas (com tempo) da posição de cada particula
+		- Trajetória da particula
+			- Equação da trajetória da particula. (x, y).
+			- Casos especiais: Elipses
+			- Caso especial: Reta (phases angles vanishes)
+			- Note: Equação de segundo grau
+			- Aplicando rotação de eixos
+			- Caso Geral: Elipses too!
+		- Diagrama no espaço de fase: Elipses
+	- Oscilações harmonicas de frequencias diferentes
+		- Plotting in some software
+		- Curvas de Lissajous
+		- Contagem de máximos proporcional à razão entre frequencias
+		- Curva fechada: Razão racional.
+		- Curva aberta: Razão irracional. Note: preenchimento do retangulo.
+	- Amortecimento
+		- Adicionar força de retardamento
+		- Equação diferencial
+		- Solução geral da equação diferecial.
+			- Caso 1: Subcritico (oscilação amortecida)
+			- Caso 2: Critico (não há oscilação).
+			- Caso 3: Supercritico (não há oscilação).
+		- Calc: Constante de tempo do amortecimento
+	- Amortecimento Subcritico
+		- Note: Frequencia com amortecimento é menor
+		- Calc: Razão da amplitude após dois máximos sucessivos
+		- Energia sendo dissipada
+			- Perda por calor
+			- Perda por radiação (fluid waves)
+		- Espaço de fase no amortecimento subcritico
+			- Escrita parametrica
+			- Escrita em coordenadas polares
+			- Figure: Espiral logaritmica
+	- Amortecimento Critico
+		- Retorna mais rapidamente para posição de equilibrio
+		- Equação geral do amortecimento critico
+	- Amortecimento Supercritico
+		- Aproximação assintotica para posição de equilibrio
+		- Equação geral do amortecimento supercritico
+		- Espaço de fase
+			- Linha assintotica: x' = -(b+w)x
+			- Linha assintotica: x' = -(b-w)x
+			- Equação paramétrica do espaço de fase
+			- Equação cartesiana do espaço de fase (WA pehaps?)
+	- Example: Pendulo submerso em fluido
+		- Torque restaurador
+		- Torque de retardamento
+		- Condição de proporcionalidade do torque de retardamento para amortecimento critico
+		- Equação da posição e da velocidade
+	- Example: Circuito RLC
+		- Identificaçao com: constante de amortecimento, frequencia natural.
+		- Condição para amortecimento subcritico, critico, supercritico.
+		- Trajetória no espaço de fase
+
+
+Oscilação harmonica forçada
+	- Oscilação forçada harmonica
+		- Solução particular
+		- Solução geral
+		- Solução transiente e estacionaria
+		- Efeitos transientes
+			- Caso 1: Frequencia externa muito maior que frequencia "natural" do amortecimento
+			- Caso 2: Frequencia externa muito menor que frequencia "natural" do amortecimento
+		- Efeito estacionário
+			- Plot: Curva de amplitude.
+			- Plot: Curva de amplitude em gráfico loglog.
+			- Plot: Curva de amplitude normalizada em função de w/w0 (non loglog).
+			- Plot: Curva de amplitude normalizada em função de w/w0 (loglog).
+		- Fenomeno de ressonancia de amplitude
+			- Def: Frequencia (externa) de ressonancia
+			- Calculation: Frequencia de ressonancia
+			- Note: Frequencia de ressonancia cai quando amortecimento aumenta
+			- Note: Ressonancia não ocorre se amortecimento > freq natural do sistema
+		- Ressonancia cinética
+			- Def: Frequencia de ressonancia de energia cinetica
+			- Calc: Energia cinética média
+			- Calc: Frequencia de ressonancia de energia cinetica
+		- Ressonancia potencial
+			- Definition
+			- Calculation
+			- Note: Frequencia de ressonancia potencial == Frequencia de ressonancia amplitude (Coincidence?)
+		- Question: Porque freq de ressonancia de energia cinética e potencial ocorrem em diferentes frequencias?
+	- Curva de Ressonancia
+		- Semi-largura do pico de ressonancia
+			- Consideration: Oscilador fracamente amortecido.
+			- Valores de frequencia onde amplitude cai em 1/sqrt2 do valor de pico
+			- Intervalo de frequencia de queda de 1/sqrt2
+			- Def: Semi-largura de pico de ressonancia (para curva fracamente amortecida).
+			- Def: Largura de pico de ressonancia
+			- Question: What would happen para qualquer oscilação? (Não somente fracamente amortecido)?
+			- Calc: Largura de pico de ressonancia cinética para oscilação fracamente amortecida.
+		- Fator de Qualidade
+			- Def 1) Frequencia de ressonancia de amplitude / largura de pico de ressonancia
+			- Def 2) 2pi Energy Stored / Energy dissipated per cycle
+			- Note: Equivalent: 2pif * Energy Stored / Power Loss.
+			- Note: Def 1 more used to study ressonance curves.
+			- Note: Def 1 and 2 are identical in regime of weakly damped oscilator.
+		- Curva de ressonancia para oscilador harmonico simples
+			- Plot: Curvas de ressonancia para vários valores de Q-Factor.
+			- Calc: Curva dos máximos da curva de ressonancia.
+				- Dependente da frequencia externa.
+				- Dependente do Q-Factor.
+			- Calc: Aproximação assimptotica da curva de ressonancia ao aproximar de amortecimento nulo.
+			- Note: Classificação de subcritico/critico/supercritico pode ser feita com Q-Factor.
+			- Note: Critical value for Q-Factor is 1/2.
+			- Curva do angulo de fase para varios valores do fator de qualidade.
+		- Lorentzian Ressonance Curve
+			- https://en.wikipedia.org/wiki/Resonance#Theory
+			- Def: The lorentzian ressonance curve
+			- Def: Ressonance frequency. Linewidth.
+			- Note: Symmetric around the ressonance peak
+			- Note: Its a Cauchy Distribution
+			- Note: In general, ressonance can be approximated as lorentzian curve around ressonance peak.
+			- Note: After all, not all ressonances are harmonic (hence the lorentzian curve).
+			- Calc: Approximation harmonic oscilator ressonance with lorentzian curve.
+			- Calc: The Q-Factor from Lorentzian Ressonance.
+ 	- Example: Circuito RLC Forçado
+ 		- Calc: Equação diferencial. Solução transiente
+ 		- Calc: Solução estacionaria. Amplitude da solução estacionaria.
+ 		- Calc: Frequencia de ressonancia de carga
+ 		- Calc: Frequencia de ressonancia de corrente
+ 		- Calc: Frequencia de ressonancia de tensão (no resistor, indutor, capacitor).
+ 		- Calc: Fator de Qualidade para oscilação fracamente amortecida.
+	- Superposição de forças externas oscilantes
+		- Solução geral
+		- Superposição de n forças externas
+		- Serie de Fourier
+		- Aproximação de função periódica qualquer para serie de fourier
+		- Força do enésimo termo da expansão de Fourier
+		- Calc: Enésimo termo de amplitude da expansão de Fourier
+		- Calc: Enésimo termo de ressonancia de amplitude
+		- Calc: Enésimo termo de ressonancia cinética
+		- Example: Square-wave form force.
+		- Example: Triangular-wave form force.
+	- Resposta do oscilador linear para a "step force"
+		- Def: Heaviside function
+		- Solução da equação (na forma acos + bsin to next item)
+		- Descobrindo constantes para condições iniciais (0, 0) no espaço de fase.
+		- Equação de movimento para tempos maiores e menores que o step
+		- Equação de movimento em função da função de Heaviside
+		- Equação de movimento estacionária (tempos muito grandes)
+		- Special case: Fator de amortecimento nulo
+			- Equação de movimento
+			- Calc: Extremos de oscilação
+			- Calc: Amplitude de oscilação
+	- Respostas de osciladores lineares para forças de impulso
+		- Def: Força de impulso
+		- Calc: Variação de momentum
+		- Escrita da força de impulso com combinação linear da função de Heaviside
+		- Distancia tau entre as duas funções de Heaviside
+		- Equação de movimento para condições iniciais fixas (0, 0) no espaço de fase
+	- TODO: Example: Carro ao passar por quebra-mola
+	- Respostas para osciladores lineares para "spike"
+		- Def: Função delta de dirac
+		- Impulso infinito de duração infinitesimal
+		- Equação de movimento para condições inciais fixas (0, 0) no espaço de fase
+		- Note: It's simple. We could use it.
+	- Método de Green
+		- Superposição de funções de impulso
+		- Equação de movimento para condições iniciais fixas (0,0) no espaço de fase
+		- Limite de intervalos em zero: Superposição de funções de dirac
+		- Equação de movimento para condições iniciais fixas (0,0) no espaço de fase
+	- TODO: Example: Equação de movimento para oscilador forçado F = F0 e^kt
+	- TODO: Example: Equação de movimento para oscilador forçado F = F0 e^kt cos(wt)
+
+
+Sistema de referencia não-inercial
+	- Assumptions
+		- Assume: Posição da origem do referencia nãoinercial with respect to inertial
+		- Assume: Posição do ponto with respect to inertial frame and non-inertial frame
+		- Calc: Relação vetorial entre os dois referenciais inerciais
+		- Note: Not necessarily its a constant angular velocity (r' = R + r)
+	- Velocidade de ponto fixo with respect to non-inertial frame
+		- Assume: Ponto fixo (estático) no referencial não-inercial
+		- Calc: Posição do ponto no referencia inercial
+		- Calc: Velocidade do ponto no referencial inercial (using angular velocity vec)
+		- Note: Válido para qualquer tipo de vetor fixo no referencial não-inercial
+		- Calc: Velocidade dos vetores canonicos {i, j, k} do eixo não-inercial
+	- Example: Particula em campo magnético uniforme
+		- Lei de newton em referencial inercial de carga em campo magnético uniforme
+		- Note: Its alike the equation of a rotating frame
+		- Calc: Vetor velocidade angular (em função do campo magnético)
+		- Note: Its parallel to magnetic field
+	- Origem do sistema não-inercial fixa with respect to inertial frame
+		- Escrita do ponto em termos dos vetores canonicos {ijk} fixos in non-inertial frame
+		- Calc: Variação de ponto fixo (velocity) with respect to inertial rame
+		- Calc: Variação do ponto from non-inertial frame with respect to inertial frame
+		- Calc: Variação of any vector from non-inertial frame with respect to inertial frame
+		- Calc: Aceleração angular in the inertial frame with respect to inertial one
+	- Calc: Vetor velocidade in non-inertial frame with respect to inertial frame
+		- Note: Velocidade linear da origem do sistema nao-inertial
+		- Note: Velocidade relativa ao eixo rotacionado
+		- Special Case: Velocidade linear da origem with respect to inertial frame is null
+	- Acelerações não-inerciais
+		- Write: Newton's law.
+		- Note: Everything is relative to fixed coordinate system.
+		- Calc: Newton's law in the inertial frame using terms from the non-inertial one
+		- Newton's law for non-inertial observers. Note: Non-inertial forces
+		- Net forces for observer in the non-inertial frame
+			- One term for: Net force measured by inertial observer
+			- Two terms for: Translational and angular acceleration of non-inertial observer
+			- Two terms for: Angular velocity of non-inertial observer
+		- Net accelerations for observer in the non-inertial frame
+			- One term for: Net acceleration measured by inertial observer
+			- Two terms for: Translational and angular acceleration of non-inertial observer
+			- Two terms for: Angular velocity of non-inertial observer
+	- Aceleração não-inercial: Linear accelerating frame
+		- Note: Its a linear term
+		- Remember: Principle of equivalence
+		- Note: Felt exactly like gravity
+	- Aceleração não-inercial: Angular accelerating frame
+		- Case: Aceleração angular paralela a velocidade angular
+			- Note: Increasing angular velocity on same rotating axis
+			- Aceleração perpendicular a posição e eixo de rotação
+			- Aceleração na direção da velocidade in inertial frame for fixed point
+			- Note: Aceleração não-inercial tangencial
+		- TODO: General case
+	- Aceleração não-inercial: Termo wxwxr
+		- Transformando produto vetorial em produto escalar
+		- Name: Aceleração centrífuga
+		- Calc: Direção da aceleração centrífuga
+			- Show: Aceleração centrifuga perpendicular ao eixo de rotação
+			- Show: Aceleração centrifuga perpendicular à (velocidade de objeto fixo) in inertial frame
+			- Note: Will pull non-inertial observer away from rotating axis
+		- Calc: Modulo da aceleração centrifuga.
+			- Note: Proporcional à distancia do objeto ao eixo.
+			- Note: Proporcional ao quadrado da velocidade angular
+		- Earth Rotation Example
+			- Calc: Componente da aceleração centrifuga normal à superficie
+			- Calc: Componente da aceleração centrífuga tangente à superfície
+			- Calc: Gravidade efetiva (towards center, and tangent to surface)
+			- Calc: Localização na terra com máxima aceleração centrifuga normal à superficie
+			- Calc: Localização na terra com máxima aceleração centrífuga tangencial à superficie
+	- Aceleração não-inercial: Termo 2wxvr
+		- Note: Perpendicular à velocidade linear in non-inertial frame e ao eixo de rotação
+		- Note: If observer has no linear velocity in non-inertial frame, force vanishes
+		- Name of the force: Força de Coriolis
+		- Calc: Modulo da aceleração de Coriolis
+		- Note: Earth rotates. We also feel coriolis force. Calc it.
+	- Potenciais não-inerciais
+		- Potencial da força centrífuga
+		- Example: Superficie de líquido em rotação
+		- Example: Superficie de planeta em rotação (stars too)
+			- Note: This is a big simplification
+			- After all: There are quadrupole contributions.
+	- Earth System
+		- Measuring effective gravity: Gravity + Centrifugal force.
+		- Força de coriolis
+	- TODO: Maybe: Formato do planeta terra (geoide)
+
+
+Conceitos de Mecânica Orbital
+	- TODO: Conservação do momento angular (em certas posições).
+	- TODO: Queda Livre a partir de potencial gravitacional de Newton (GM/r).
+	- TODO: Leis de Kepler. Órbitas Elipticas.
+	- Objective: From Earth To Mars
+	- TODO: Little of Transferencia de órbita
+	- TODO: Hohmann transfer
+	- TODO: Little of orbital manevouers (slingshot, airbaking) (TO CANCEL! This is on mechanics 02).
+	- TODO: Little of Perturbation theory
+
+
+
+Osciladores Não lineares e Caos. TODO: FIXME.
+	- Informal Def: caos
+		- Example: Agitar bandeira ao vento
+		- Example: Gotejamento de torneira de agua
+	- Força Simétrica
+		- Termo cubico adicionado
+		- Soft oscilation: e > 0
+		- Hard oscilation: e < 0
+	- Example: Massa com movimento em x, suspensa por molas identicas de tamanho l em equilibrio
+		- Forças envolvidas no sistema
+		- Expressão da força dependente de x e l
+		- Expansão do radical (1+y)^b, b=-1/2
+		- Não-linearidade intrinsceca do sistema: Mesmo x/l small, sistema depende at least (x/l)^3
+		- Identificando tipo de oscilação: Soft or hard?
+	- Generalização do exemplo anterior
+		- Assume: No equilibrio, molas estão esticadas em d
+		- Expressão da força em função de x e l e d
+			- Note: Termo linear aparece
+			- Note: Oscilações pequenas ==> Aproximadamente harmonico
+		- Identification: Oscilação é "hard".
+		- Inserting: Força externa periodica no tempo (oscilador não linear forçado)
+		- Equação diferencial do movimento
+		- Try: x = Acos(wt)
+		- "Solução" aproximada
+			- Note: Dominio de validade desconhecido
+			- Note: Não existe ressonancia em w = w0 ??
+	- Diagramas de fase para sistemas nao lineares
+		- Diagrama de fase de barreira de potencial nao linear soft com ponto estável de equilibrio (computer plot)
+		- Diagrama de fase de barreira de potencial nao linear hard com ponto estável de equilibrio (computer plot)
+		- Note: Termos nao lineares cada vez menores: Limite é elipse
+		- Diagrama de fase de barreira de potencial nao linear soft com ponto instável de equilibrio (computer plot)
+			- Energia maior que barreira de potencial
+			- Energia menor que barreira de potencial
+			- Energia igual a potencial do ponto de equilibrio instável
+		- Diagrama de fase de barreira de potencial nao linear hard com ponto instável de equilibrio (computer plot)
+			- Energia maior que barreira de potencial
+			- Energia menor que barreira de potencial
+			- Energia igual a potencial do ponto de equilibrio instável
+		- Note: Termos nao lineares cada vez menores: Limites são hiperbolas e linhas
+		- Sistemas amortecidos
+			- Particula tende a ir para o ponto de equilibrio estável
+			- Atractor de um sistema dinamico
+	- Example: Equação de Van der Pol
+		- Estudo de oscilações não lineares de circuitos de tubos à vacuum
+		- Equation: x'' + u(x^2-a^2)x' + w^2 x = 0,  u > 0 cte.
+		- Condições de amortecimento positivo: Amplitude da oscilação cai
+		- Condições de amortecimento positivo: Amplitude da oscilação aumenta!!
+		- Condição de amortecimento nulo: Amplitude constante
+			- Nome da curva no espaço de fase: Ciclo limite de Poincaré
+			- Note: Atractor do sistema nao linear
+		- Resolução numerica da equação de Van der Pol no espaço de fase
+			- u = 0.05, w=1, a=1
+			- Condição inicial: x=1, x'=0
+			- Condição inicial: x=3, x'=0
+			- Condição inicial: x=2. x'=0
+			- Note: Ciclo limite é circunferencia de raio 2
+		- Redo resolução numerica: u = 0.5
+			- Condição inicial: x=1, x'=0
+			- Condição inicial: x=3, x'=0
+			- Condição inicial: x=2. x'=0
+			- Note: Ciclo limite foi deformado
+			- Note: Particula alcança ciclo limite mais rapido
+	- Example: Pendulo Simples
+		- Equação diferencial do pendulo simples
+		- Note: Equação diferencial nao linear
+		- Calc: Torque resultante
+			- Plot do torque em função do angulo
+			- Plot: Onde aproximação linear era boa
+		- Calc: Energia Potencial do sistema
+			- Plot da energia potencial
+			- Plot: Onde aproximação parabólica era boa
+		- Calc: Periodo do pendulo
+			- Em função de integrais elipticas
+			- Em função de séries
+			- Note: Periodo para angulo = pi
+		- Diagrama de fase
+			- Expressão da velocidade angular em função do angulo
+				- Energia E0 do sistema (energia necessaria para entrar em equilibrio instável)
+				- Special Case: Se E = E0, espaço de fase são funções cosseno
+			- Note: Redução da expressão de fase se angulo máximo for pequeno
+			- Note: se eixos forem sqrt(l/g) o' e o, diagramas serão circulos se angulo maximo for pequeno
+			- Plot: Desenho do espaço de fase para eixos com diagramas circulares para pequenas amplitudes
+				- Note: What happens quando energia do sistema é menor que energia de equilibrio instável
+				- Note: What happens quando energia do sistema é igual que energia de equilibrio instável
+				- Note: What happens quando energia do sistema é maior que energia de equilibrio instável
+				- Note: Pontos de equilibrio instável e estável no diagrama de fase
+				- Note: Se E > E0 o sistema não é mais oscilatório, mas é periódico.
+			- Def: Separatriz: Linha de fase que separar movimento ilimitado de movimento limitado (E = E0 for example)
+				- Vizinhança da separatriz é extremamente sensitível ás condições inciais do sistema
+				- Separatrizes sempre passam por pontos de equilibro instáveis
+			- Curious: Desenho do espaço de fase para o' e o
+	- Descontinuidades, Histerese e atraso de fase
+		- Equação de Duffing
+			- Oscilação harmonica forçada
+			- Constante da mola dependente da posição: k(x) = (1+bx^2)k0
+		- Explicação do fenomeno (no calcs)
+			- Descontinuidades na "curva de ressonancia"
+			- Descontinuidades dependem do sentido de "percorrer" a curva
+			- Name: Efeito Histerese
+			- Fenomeno similar com o angulo de fase
+		- Theory: Efeito Histerese
+			- Força continua dependendo de x é derivavel por partes
+				- f(x) = -kx, x <= a
+				- f(x) = -bar{k}x-c, x>=a
+				- Plottage
+				- Note: "aproximação" parabólica da força nao linear da equação de Duffing: Simpler Math :)
+			- ""Curva" de ressonancia" e o efeito histerese
+				- Plottage com constante k
+				- Plottage com constante bar{k}
+				- Separando para as condições da força
+				- Note: If a is too large, maybe x won't be that large (x <= A(w) always). Oscilador harmonico com valor k
+				- Note: Analogo para a mto pequeno, oscilador harmonico com constante de mola bar{k}
+				- Explicação gráfica do fenomeno de histerese
+		- Experiment: Testando efeito histerese
+			- Numerically testing para aproximação "linear"
+			- Numerically testing com equação de Duffing
+	- Caos em um pendulo
+		- Pendulo forçado
+		- Equação diferencial
+		- Equação diferencial adimensional
+	- Mapeamento na equação logística
+		- Def: Equação de diferneça discreta
+		- Iteração de funções
+		- Example: Equação logística
+		- Mapeamento logístico
+		- Computational: Comportamento da convergencia/divergencia logistica para varios valores de alpha
+	- Example de caos
+		- Equação: x_n+1 = alpha * x_n * (1 - x_n^2)
+		- Test: x1 = 0.700000000
+		- Test: x1 = 0.700000001
+		- Calc: Quantas iterações até clara divergencia de resultados
+		- Calc: Relação entre precisão da medida e iterações até clara divergencia de resultados
+		- Note: Relação seems exponential
+	- Expoente de Lyapunov
+		- Assumption: Diferença entre duas medidas cresce exponencialmente conforme numero de iterações
+		- Approximation: Para diferneças pequenas ==> Derivadas
+		- Calculando o expoente de Lyapunov
+		- Propriedades do expoente de Lyapunov
+			- Note: Valores acima de zero, there is chaos
+			- Note: Valores abaixo de zero, there is convergence (not chaos)
+			- Valores iguais a zero ==> Bifurcação ocorre
+			- Def: Ponto instável, ie, ocorrencia caótica utilizando expoente de Lyapunov
+			- Def: Ponto estável
+			- Def: Ponto super-estável
+		- Computing: Expoente de Lyapunov para a equação logística
+			- Grafico do expoente de Lyapunov em função de alpha
+			- Valores para onde ocorre bifurcação
+
+
+
+Overall List of Problems
+	- Given sphere mass m, radius r, presa na superficie. Calculo periodo de oscilação (pequenos angulos).
+
+
+
+
+TODO: Maybe falar sobre Forces of Constraints in lot surfaces (perhaps after non-inertial frame?)
+
+
+
+
+
+

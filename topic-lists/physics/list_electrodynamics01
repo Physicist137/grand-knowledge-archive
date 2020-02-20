@@ -1,0 +1,215 @@
+TITLE: Classical Electrodynamics 01.
+	- Pre-requisitives: Electromagnetism 04, PDE 01, Special Functions 01, Thermodynamics 02.
+	- Co-requisitives: Relativity 01, PDE 02.
+
+
+Electrostatics
+	- Notes and objectivies
+		- Objective: A more rigorous mathematical treatment
+		- Objective: Less physics is presented, and more math.
+		- Note: The physics one should get in Electromagnetism courses.
+	- Coulomb Law
+		- Directly to magnitude of each charge
+		- Inversely as square of distance between
+		- Force is directed into the line separating the charges
+		- Like charges reppel, alike charges attract.
+		- The mathematical law
+	- Electrostatic Quantities
+		- Force between two charges at position x1 and x2
+		- Electric field of a given charge
+		- ESU Units: k = 1. The statcoulmb. 
+		- SI Units: e0 = 8.854e-12. The coulomb.
+		- Electric Field of discrete and continuums distribution of charge
+	- Distributions of charge
+		- Ponctual. Line. Surface. Volume. Distributions
+		- The delta dirac: Everything is volume distribution.
+	- Gauss Law
+		- Flux of electric field over given surface
+		- Note: Solid angle.
+		- Integral Form of gauss law.
+		- Differential Form of gauss law
+	- Determining electric field
+		- Note: Recall: Helmholtz decomposition theorem
+		- Note: we need information of rotational to get full description of electric field
+		- Recall: Electric field of volume distribution
+		- Recall: Gradient of 1/|x-x'|.
+		- Calc: The rotational of the electric field
+		- Def: The electric potential function
+	- Electric field rotational law
+		- Differential Form
+		- Integral Form
+	- Boundary Conditions
+		- Consider: Electric field in a point, crossed by "imaginary" boundary (no need to be physical boundaries)
+		- The normal condition of boundary across mathematical surface (application of gauss law)
+		- The tangential condtiion of boundary across mathematical surface (application of rotational).
+	- Distribution of electric dipoles
+		- Assume: Two identical surfaces, identical (and opposite) surface charge densities, separated by d in direction n.
+		- Calc: The electric potential. Taylor expansion (multivariable).
+		- Calc: The electric potential by surface-distribtion of electric dipoles
+		- Def: The surface electric dipole density.
+		- Def: The moment of dipole (pontual one).
+		- Note: Law of electric potential can be thought as solid angle as well.
+		- Note: A "gauss law" for electric potential
+		- Note: Boundary condition of electric potential for surface distribution of dipoles
+		- Note: Discontinuity of potential across boundary.
+	- Poisson and Laplace Equation
+		- Calc: Poisson Equation.
+		- Calc: Laplace Equation
+		- Checking: Directly calculating laplace of the potential (integral of charge distribution).
+	- Green's Identities
+		- Recall: Divergence Theorem
+		- Proof: First Green's Identity
+		- Proof: Second Green's Identity
+	- Uniqueness of solutions of poisson equation with same boundary and charge distribution
+		- Dirichlet and Neumann Boundary Conditions (specified potential in each point of surface and normal E-Field in each point of surface)
+		- Assume: There exists two different solutions of poisson equation with same booundary and charge distribution
+		- Consider: The difference U between them. Note: Satisfies laplace equation on interior.
+		- Dirichlet Boundary Conditions makes U = 0 on surface. Likewise in Neumann
+		- Calc: Using First Green identity (both parameters U).
+		- Proof: Solution is unique (up to additive constanat) (as expected).
+		- Note: its only valid for CLOSED surfaces.
+		- Question: How about open surfaces?
+	- Potential in finite region with surface boundary
+		- Substituting potential and 1/|x-x'| in parameters of second green identity
+		- Integral Equation for the potential in finite region with boundary
+	- Green's Function for Poisson Equation
+		- Recall: Laplacian of 1/|x-x'| gives -4pi dirac delta. Exactly what we need!
+		- Calc: Green's Function of Poisson Equation
+		- Note: Green's Functon can be added a function F(x,x') st satisfies laplace equation
+		- Calc: Second Green's identity with first and second parameters as potential and green's Function.
+		- Calc: Boundary values for Green's Function for Dirichlet condition in Poisson Equation.
+		- Calc: Boundary values for Green's Function for Neumann condition in Poisson Equation.
+			- Note: Divergence Theorem says overall integral is -4pi.
+			- Note: One cannot simply zerate the part for neumann condition.
+		- Proof: Symmetry of Green's Function
+
+
+
+Energy Considerations
+	- Electrostatic Energy
+		- Calc: Potential Energy
+		- Calc: Energy to bring one charge to a system of charges (ponctual ones).
+		- Calc: Total electrostatic energy of the system
+		- Calc: Electrostatic energy for continuous charge distribution (volumetric ofc).
+		- Calc: Electrostatic energy in function of potential and density distribution
+		- Calc: Electrostatic energy in function of electric field (Integration by parts (first green's Identity)).
+		- Note: Energy density is positive definite. Discrete electrostatic energy is not. Why?
+		- Note: Energy density considers self energy. Eg.: Two charges.
+	- TODO: Forces from electrostatic energies
+		- TODO: Work needed to assembly a system. Hence why it yields force when derivating.
+	- TODO: Electrostatic pressure. Stresses. https://en.wikipedia.org/wiki/Electrostatics#Electrostatic_pressure
+
+
+
+System of conductors
+	- Def: Conductors
+		- Formal Definition: Conductor: All charges can move freely with negligible resistance.
+		- Thus: The charges will move until the field inside is zero..
+		- Thus: Gauss law: Total charge inside is zero. Charge relies in the surface.
+		- Thus: Electric field is normal to surface.
+		- Calc: Magnitude of the electric field given surface charge density.
+		- https://physics.stackexchange.com/a/22774/57094
+	- Situations involving conductors
+		- An hollow conductor shields interior from fields in the outside.
+		- An hollow conductor does not shield exterior from fields in the inside (why? The field IN the conductor is zero anyway!)
+		- https://i.stack.imgur.com/IqTR7.png
+		- https://i.stack.imgur.com/YEH4y.jpg
+	- System of N conductors of any geometry
+		- Assume: The i-th conductor has potential Vi and total charge Qi.
+		- Calc: Electrostatic potential in any point in space outside conductors.
+		- Calc: Electrostatic potential in the surface of a given conductor.
+		- Note: Recall: The surface charge density is in general not uniformely distributed.
+		- Def: Mean charge density. Calculation of the mean charge density.
+		- Def: Ratio between actual charge density and mean charge density.
+		- Calc: Electrostatic potential in the surface of a given conductor using ratio of charge densities.
+		- Note: One can write mean charge density in terms of total charge and total surface of conductor.
+		- Calc: Electrostatic potential in the surface of a given conductor using the total charge.
+		- Note: It is a linear relatioship.
+	- Coeficients of potential
+		- Def: Coeficients of potential. Expression of the coeficients of potential.
+		- Note: Linear relationship between potential and charge of the conductors.
+		- Note: Can be placed as matrix: Matrix of coeficients of potential.
+		- Note: Matrix of coeficients of potential is symmetric
+		- Example: Calc: Capacitance of capacitor: Two conductors with opposite charge in function of coeficients of potential.
+		- https://en.wikipedia.org/wiki/Coefficients_of_potential
+	- Coeficients of capacitance
+		- Def: Coeficients of capacitance.
+		- Measurement of coeficients: Total charge of conductor when maintained at unit potential, and all others at zero potential.
+		- Def: Capacitance or Capacity or self-capacitance coeficient of a conductor.
+		- Def: Coeficients of electrostatic induction of a conductor given another conductor.
+		- Example: Calc: Capacitance of capacitor: Two conductors with opposite charge in function of coeficients of capacitance.
+		- Note: Matrix of coeficients of capacitance. It is a symmetric matrix.
+
+
+Relevant Theorems and Consequences
+	- Mean Value Theorem.
+		- Assume: Imaginary sphere, with no charge inside.
+		- Enunciation: The mean value of potential in surface of sphere, equals potential at center.
+		- Step 01: Use Second Green's Identity, with: electrostatic potential and 1/|r-r'|.
+		- Step 02: Calculate the volume integral. Recall there is no charge inside the sphere.
+		- Step 03: Calculate the surface integral. Recall |r-r'| = R = cte, since it is a sphere. Recall Gauss law.
+	- TODO: Earnshaw Theorem.
+		- TODO: Proven independently.
+		- TODO: As a consequence of the Mean Value Theorem.
+	- Theorem: Normal derivative at surface of charged curved conductor.
+		- Step 01: Inserting a gaussian surface right above, where top/bottom are paralel to surface (sides won't contribute).
+		- Step 02: Gauss law at top and bottom parts of gaussian surface.
+		- Step 03: Bottom area, and top area, from the principal radius of curvature of the surface.
+		- Step 04: The normal derivative (directional derivative) (use limit definition).
+		- Conclusion: Pointed conductor has large field gradients.
+		- Conclusion: Flat conductor has zero field gradients.
+	- Green Reciprocity Theorem: Surface and Volumetric Charge densities
+		- Problem 01: Charge density rho1 inside volume V, where its boundary surface S is conductor, with surface charge sigma1.
+		- Problem 01: Charge density rho2 inside volume V, where its boundary surface S is conductor, with surface charge sigma2.
+		- Objective: Given they are same volume and same surface, is there a connection between the two situations?
+		- Step 01: Volume integral (r1 phi2 - rho2 phi1).
+		- Step 02: Use Local Gauss law (First maxwell equation). Use Second green's identity.
+		- Step 03: Normal electric field is related with surface charge density.
+		- Example: Calculate the induced charge in two infinite conducting plans, if one insert a charge q in between.
+	- TODO: Thomsom Theorem.
+	- TODO: System of Conductors: Inserting new uncharged conductor lowers system's electrostatic energy.
+
+
+Variational Approaches
+	- TODO: Functional in which extremum yields Poisson Equation.
+	- TODO: Functional with defined Neumann Condition.
+	- TODO: Computational techniques.
+
+
+
+
+
+TO THINK: Insert this things here? Or in electrodynamical systems?
+TO THINK: If decide to insert in electrodynamical systems, it must be pre-requisitve for Electrodynamics 02.
+TODO: Method of Images.
+TODO: Orthogonal Functions. Expansions. Fourier series. Fourier integral.
+
+
+Problems with Azimuthal Symmetry
+	- Main Objective
+		- Solving problems with azimuthal symmetry
+		- Spherical coordinates might be the best.
+	- General Solution (Warning: Heavy Math Area) (optional)
+		- Calc: The laplace equation in spherical coordinates.
+		- Calc: Uncoupling the PDE into three ODEs.
+		- Calc: Solution of polar and radial equations
+		- Note: Identification of azimuthal equation with generalized legendre equation.
+		- Note: If m=0, we have azimuthal symmetry
+	- Azimuthal Symmetry (Warning: Heavy Math Area) (optional)
+		- Calc: Legendre Differential Equation.
+		- Calc: Series solution attempt. Series convergence. Termination.
+		- Calc: Legendre polynomial. Recursive and explicit formula for the coeficients.
+		- Calc: Rodrigues formula (1) Proving directly from explicit formula.
+		- Calc: Orthogonality of legendre polynomials (Integrate Pl' with legendre equation, by parts. Switch l and l'. Subtract).
+		- Calc: Norm of the polynomials. (Use Rodrigues formula, integrate by parts, brute integration by recursion).
+		- Calc: Legendre Series representation. Coeficients of the representation
+		- Calc: Recurrence relations (from Rodrigue's formula) (the others: Combine with the legendre differential equation).
+		- Calc: General solution of azimuthal symmetry problems.
+
+
+
+TODO: Thermodynamical interpretation of the energies. First and second law!
+TODO: All tensors! Conductivity tensor, permissivity tensor, etc.
+TODO: In harmonic stationary case, the component of such tensors are imaginary! =D.
+
+TODO: Multipole radiation! (Radiation of electric and magnetic multipoles. Near field and far field. Special gases: monopole(electric), dipole, quadrupole).

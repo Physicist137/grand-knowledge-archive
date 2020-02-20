@@ -1,0 +1,62 @@
+TITLE: Fluid Dynamics 01
+	- Pre-requisitives: Calculus 04, Fisica 02, Continuum 01, Thermodynamics 02.
+	- Co-requisitives: 
+
+
+POSSIBLY: When thermodynamics 02 becomes necessary, then its Fluid Dynamics 02. =D.
+
+
+Fluid in Equilibrium
+	- TODO: Definition of a fluid
+	- TODO: Stress-Tensor of fluid in equilibrium.
+	- TODO: Fluid under gravity (constant density, constant temperature).
+	- TODO: Fluid in rotating recipient.
+	- TODO: Self-Gravitating Fluid.
+
+
+Recall: PVT Thermodynamics Review.
+	- TODO: General PVT. Heat capacities. Entropy.
+	- TODO: Ideal Gas.
+
+
+TODO: Diffusion. Diffusivities. Mass transport.
+TODO: Heat transport. General equation for heat transport. Equation for constant pressure. Variation of entropy (per unit volume) always increases.
+TODO: Couette Flow. Laminar Flow. Shear Viscosity. Momentum transport.
+TODO: General transport Phenomena. Diffusivity of transported thing. (Diffusivity of matter, heat, momentum).
+
+
+
+
+
+All I have to do.....:
+1) The Makefile generator. (Lets do it! faaast!)
+
+
+
+
+
+-----------------------------------------------------------
+Description of a Fluid
+	- Def: The continuum approximation.
+	- Definition of a fluid
+		- Deformes under tangential forces
+		- Resists under normal forces
+		- Pressure, Density at point in space and time.
+		- The velocity field.
+	- The Euler Equation
+		- Recall: Force acting on fluid volume (surface integral of pressure)
+		- Calc: The force density in a fluid volume (pressure gradient).
+		- Calc: The total derivative of the velocity field
+		- Calc: The euler equation
+		- Calc: Addition of a force field per unit mass in the euler equation (acc).
+	- TODO: The Continuity Equation
+	- Hydrostatics
+		- Fluid in mechanical equlibrium
+		- Calc: Euler equation in the hydrostatic regime
+		- Calc: Curl on both sides
+		- Note: Gradient density is always parallel to the force.
+		- Calc: Euler equation with force per unit mass from potential function
+		- Example: Calc: Hydrostatic incompressible atmosphere with cte gravity
+		- Example: Calc: Hydrostatic ideal-gas isothermal atmosphere with cte gravity
+		- Example: Calc: Hydrostatic ideal-gas linear temperature decay atmosphere with cte gravity
+		

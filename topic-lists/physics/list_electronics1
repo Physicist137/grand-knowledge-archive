@@ -1,0 +1,62 @@
+TITLE: Digital Eletronics 01: Lógica Combinacional
+	- Pre-requisitive: None
+	- Co-requisitive: None
+
+
+Math Base: Sistemas numericos
+	- Sistema de numeração decimal
+	- Metodo formal de definição matematica
+	- Sistema de numeração de bases diferentes
+	- Example: Sistema binario
+	- Example: Sistema octal
+	- Example: Sistema decimal (should be obvious...)
+	- Example: Sistema hexadecimal
+	- Conversão entre base decimal e outras bases
+		- Conversão Binaria
+		- Conversão octal
+		- Conversão hexadecimal
+
+
+Physics Base: Intuição da Corrente Eletrica
+	- Intuition: Diferença de potencial (DDP)
+	- Corrente Alternada (AC) (tomada)
+	- Corrente Continua (DC) (bateria, pilhas)
+	- Resistores
+		- Leis da fisica para corrente DC
+		- Resistores em série
+		- Resistores em paralelo
+	- Aterramento eletrico
+		- Conexão com a Terra
+		- Potencial da Terra
+	- Diodos
+		- Principio intuitivo de funcionamento do diodo
+		- Diodo ideal
+		- Diodo real
+		- Aplicações
+	- Transistores
+		- Principio de funcionamento dos transistores
+		- Comandar circuitos com maior tensão
+		- Circuitos de controle de baixa tensão
+
+
+Portas Lógicas
+	- Circuitos digitais: 1 or 0
+	- Tratamento de dados digitais
+		- Portas logicas
+		- Analogy: "Funções": input --> Output
+	- Porta AND
+		- Descrição matematica da porta logica
+		- Representação da porta
+		- Como criar uma porta
+	- Porta OR
+		- Descrição matematica da porta logica
+		- Representação da porta
+	- Porta NOT
+		- Descrição matematica da porta logica
+		- Representação da porta
+		- Como criar uma porta
+	- Porta NOR
+	- Porta NAND
+
+
+TODO: Math: Algebra Booleana

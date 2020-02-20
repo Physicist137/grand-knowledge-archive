@@ -1,0 +1,235 @@
+TITLE: General Chemistry 01: Chemical Bonds
+	- Pre-requisitives: General Chemistry 02, General Chemistry 03.
+	- Co-requisitives: None.
+	- Recommended: Quantum Mechanics 03.
+
+
+TODO: What is organic chemistry. Chain of carbons.
+TODO: Hydrocarbons. Alkane. Nomenclature. Ramifications. Systematic and common naming. Boiling point, molecular interactions.
+TODO: Alkene, Alkine.
+TODO: Functional Groups: Alcohols, aldeids, formaldeid, amine, amide. Nomenclature.
+
+TODO: Carbon Hybridization. sp3, sp2, sp. Molecular geometry. Where are the electrons.
+TODO: Lewis structure. Partially condensed. Fully condensed. Bond line structure. Showing 3D Geometry.
+TODO: Structural Isomers.
+
+TODO: Formal charge and oxidation state of several carbons.
+TODO: Carbanion. Carbocation.
+
+TODO: Ressonance structures. Delocalization of formal charge. Several examples.
+TODO: Ressonance in amine and amide groups (delocalization in amide, localization in amide).
+TODO: Experiment: Planar sp2 hybridization in amide (explained by ressonance and delocalization).
+TODO: Hence why amides and amines behave differently!
+
+TODO: Brownsted-Lowry acid/base. Lewis acid/base. Acid-Base mechanisms.
+TODO: Acid-Base Organic Chemistry: Acidity: stabilization of the conjugate base. Electronegatity, ion size, ressonance, induction, hybridization (consequence: sp hybridized carbon is more electronegative than sp2, and sp2 than sp3). Solvent stabilization and steric hindrance.
+
+TODO: Molecular conformations. Bond line structure, see saw projection, newman projection.
+TODO: Conformation of ethene. Staggered conformation. Ecclipsed conformation. Energy difference: 12kJ/mol. Torsional strain. Each hydrogen contributes with 4kJ/mol. Dihedral angle.
+TODO: Conformation of propane. CH3 and H torsion strain energy.
+TODO: Conformation of buthane. CH3 and CH3 torsion strain energy. CH3 CH3 Bauche configuration and strain energy. Steric hindering.
+
+TODO: Heat of combustion. Heat of combustion per carbon.
+TODO: Heat of combustion per CH2 in cycloalkanes. Conclusion: they can't be planar. Comformation analysis of stability.
+
+TODO: Conformation cyclohexane. Chair conformation. Double newman projection. Angles 111 degree. No hydrogen ecclipse. Most stable.
+TODO: Boat conformation. Flag pole interaction. Torsional strain. Ecclipsing. Double newman projection. Less stable.
+TODO: How to draw chair conformation. Axial and equatorial hydrogens (equator of the ring).
+TODO: Ring flip. Drawing the second chair conformation. Axial down/up hydrogens became equatorial down/up.
+
+TODO: Methylcyclohexane. Conformation analysis: stability between the chair conformations. Equatorial methyl is most stable.
+TODO: Axial methyl: 1,3 (or 1,5) diaxial interaction. Difference in energy. 95% equatorial methyl at room temperaure.
+TODO: Checking that with double newman projections.
+TODO: Monosubstituted cyclohexanes. Eg.: Tert-butyl-cyclohexane. Equatorial vs axial tertbutyl. 99.99% equatorial room temperature.
+
+TODO: Disubstituted cyclohexane.
+TODO: 
+
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+Math Base: Complex Numbers (optional)
+	- Definition of complex numbers.
+	- The Complex Plane
+		- A complex number reprenseted as a point.
+		- Representation as a vector.
+		- Def: The absolute value of a complex number (modulus).
+		- Def: The conjugate of a complex number.
+	- Basic operations with complex numbers
+		- Sum and subtraction of complex numbers.
+		- Multiplication of complex numbers.
+		- Division of complex numbers.
+		- Squaring complex numbers.
+
+
+Qualitative Intro Quantum Mechanics
+	- History of QM (relevant to us).
+		- Max Planck, Black Body Radiation.
+		- De Brougli, associated matter wave.
+		- Heinsenberg, Uncertainty Principle.
+		- Schrodinger, Schrodinger equation
+	- Schrodinger Quantum Mechanics (Wave QM).
+		- Schrodinger Equation.
+		- Solution to Schrodinger Equations: The wavefunction.
+		- Note: Solutions given belongs to the complex set (not real).
+		- Interpretation of wavefunction: Probability density.
+		- Probability of finding a particle in infinitesimal given position cube (use delta, not d)
+	- Schrodinger Mechanics applied on atoms
+		- What we want: The wavefunction of an electron.
+		- The wavefunction completely describes the state of an electron. Everything.
+		- Note: Probability density of finding an electron.
+		- Note: Probability of finding an electron in a region of space.
+		- Note: Probability of finding an electron in the overall space (entire R3).
+	- Operations with the wavefunction.
+		- Note: Waves can cross each other (as classical waves do).
+		- Probability density in a sum of two waves.
+		- Note: There exists an interference term. It is not simply the sum of probabilities.
+		- Def: Constructive/Destructive interference.
+		- Note: There can't be particle in destructive interference regions (nodes).
+		- Note: Probability density quadruples in constructive interference regions (crosses).
+	- Identical particles
+		- Wavefunction of two particles
+		- Probability of finding both particles in certain positions.
+		- Def: Identical particles. Definition using probability density.
+		- Note: Indistinguishability of identical particle by its very definition. (Hence the name 'identical').
+		- Note: Which particle is which? IMPOSSIBLE to tell. This is a quantum phenomena only. No classical analog exists.
+		- Note: Identical particles forces restriction into the wavefunction itself. The restriction.
+		- Note: Symmetric wavefunctions complies requirement of identical particles.
+		- Note: Antisymmetric wavefunctions complies requirement of identical particles.
+	- Fermions and Bosons
+		- Def: Spin.
+		- Def: Fermion: Antisymmetric wavefunction. Half integer spin.
+		- Def: Boson: Symmetric wavefunction. Integer spin.
+		- Spin-1/2 particles: Protons, Neutrons, electrons, etc. (spin up or down).
+		- Spin-1 particles: Photons. etc
+	- Pauli Exclusion Principle
+		- System consisting of two bosons in the same state.
+		- System consisting of two fermions in the same state.
+		- Note: Constructive interference into the bose system.
+		- Note: Destructive interference into the fermion system. 
+		- Note: Electron: Spatial wavefunction + spin state (spinor).
+		- General Enunciation of the Pauli Exclusion Principle.
+		- Consequence for electrons: Only two electrons can occupy same state, one with spin up, other with spin down.
+		- In reality: Singlet and triplet spin states (Sum of spins).
+	- The Hydrogen atom
+		- Just show: Solution to Schrodinger Equations: The Hydrogen atom wavefunction
+		- Note: Three quantum numbers (three degrees of freedom into all three axis).
+		- Note: Range of the quantum numbers.
+		- Note: Energy of a state given the quantum numbers.
+		- Note: No need to include spin, as there's only one electron.
+		- Show: Ground State Wavefunction. Plot it. Identify Bohr Radius.
+		- Def: Orbitals in the hydrogen.
+		- Show: Shape of the ground state orbital.
+		- Show: Shape of the n=1,l=0 state orbital. Show with phase.
+		- Show: Shape of the n=1,l=1 state orbital. Show with phase. (m=-1,0,1).
+	- Hydrogenic approximation of all atoms
+		- Inserting more and more electrons. Obeying Pauli exclusion principle.
+		- Hund's Rule.
+		- Valence quantum numbers of the atoms.
+		- Orbitals: s,p,d,f. Identification with the quantum numbers.
+		- Note: There are infinite possible orbitals.. But we are interesting in ground state.
+		- Hydrogenic electronic ground state configuration. 1s2 2s2.. etc.
+		- Electronic configuration of the atoms. Several examples.
+
+
+
+Molecular Orbital Theory
+	- Octet Rule
+		- Def: The octate rule
+		- Note: Only valid for second period.
+		- Note: Nature wants to seek a state of lowest energy possible.
+	- Molecular Hydrogen Bonding.
+		- Two hydrogen atoms with same phase approaches.
+		- Linear Combination of Atomic Orbitals (LCAO) (Portuguese: CLOA).
+		- Summing the two wavefunctions. The resulting wavefunction.
+		- Note: Electron cloud concentrated in the internuclear region, in the axis.
+		- Note: By octet rule, they share nice stability.
+	- Molecular Hydrogen Antibonding.
+		- Two hydrogen atoms out of phase approaches.
+		- Linear Combination of Atomic Orbitals (LCAO) (Portuguese: CLOA).
+		- Summing the two wavefunctions. The resulting wavefunction.
+		- Note: Electron cloud concentrated in the extranuclear region, in the axis.
+		- Note: Protons will reppel each other. So as electrons. Instable configuration.
+		- Note: They possess higher energy.
+	- Molecular orbitals of the hydrogen atom
+		- Atomic Orbitals of both hydrogens and their electrons (with different spins).
+		- Molecular Orbitals of the hydrogen molecule and their electrons (with different spins).
+		- Molecular Orbital Energy Diagram.
+	- Atomic and Molecular Orbitals
+		- There are no atomic orbitals in a molecule. Only molecular orbitals resulting from combination of atomic ones.
+		- Orbitals are not destroyed, nor created! Number of molecular orbitals = Number of atomic orbitals.
+		- Note: LCAO is not the only way, nor the best way.
+		- There are: Symmetric/antisymmetric ways of combination. Respects that electrons are identical (we won't see this here).
+	- Lets do for helium! Is there molecule He2? Why? or Why not?
+		- Atomic orbitals of the Helium atom.
+		- LCAO to form molecular orbitals.
+		- Calc: Molecular Orbital Energy Diagram of the Helium molecule.
+		- Note: There are electrons in the antibonding molecular orbital.
+		- Note: There is no gain at all!! In fact, antibonding has too much energy. Its a disadvantage.
+		- Conclusion: There is no He2 molecule.
+
+
+Bonds of the Carbon Atom.
+	- Try 01: The Carbon Atom
+		- Ground state electronic configuration following pauli and hund's rule.
+		- Note: The carbon can only form TWO bonds by octet rule in this configuration.
+		- Experimental Evidence: Simplest substance: Methane! Um.. Something's wrong.
+	- Try 02: The Carbon Atom
+		- BUUT, atoms are not always in the ground state.
+		- Calc: Excited Electronic configuration of the carbon atom. Electron from 2s to 2p orbital.
+		- Note: Now the carbon forms FOUR bonds by octet rule in this configuration. Good! experimental agreement.
+		- Conclusion: The carbon atoms bonds in the excited state. Why? Is it benefitial to go to an higher energy state?
+	- The Methane Molecule by LCAO MOT in excited carbon.
+		- 2s and 2p orbitals in the carbon atom.
+		- Same phased hydrogens connecting to the carbon.
+		- The visualization of the methane molecule. Nice 90 degree bonds with the hydrogens.
+		- Calc: The angles of the bonds (90 degree) and the distance between them (p-p bond).
+	- Experimental Evidence
+		- Cool down methane until becomes solid.
+		- Peform X-Ray difraction: Getting the position of the nucleous.
+		- Data: All four bonds are IDENTICAL, in tetragonal geometry, at 109.5 degree.
+		- Umm.. our model is wrong..... We need another.....
+	- Carbon Hybridization in Methane.
+		- Linear combination of atomic orbitals 2s and 2p. Summing the wavefunctions.
+		- Forming the hybrid orbitals. Drawing their shape. Phased and antiphased regions.
+		- Formation of sp³ hybrid orbital, identical to each other.
+		- Calc: Hydrbrized carbon electronic configuration in excited state.
+	- The Methane Molecule by LCAO MOT in hybridized carbon.
+		- Repulsion between orbitals: Tetrahegonal geometry! yay! Note: Tetragonal angle also fits!
+		- The Methane Molecule. Note: Stable.
+		- Note: Fits all experimental data! Conclusion: Atoms do hybridize..
+	- The Ethene Molecule
+		- X-Ray Difractometry into cooled solid ethene: 
+			- Planar Structure. 
+			- Double bound: 1.34A. C-H Bound: 1.09A. 
+			- Between Hydrogen: 118 degree. Between C-H: 121 degree.
+		- Carbon sp² hybridization. Electronic configuration of hybridized carbon.
+		- The Sigma Network. It is a planar molecule.
+		- Note: In sigma network, carbon is not complying octet rule. We need more bonds!
+		- The pi-bond.
+			- Phased LCAO of p-p orbitals. Orbital pi-bond. Electrons outside axis, in intranuclear region.
+			- Antiphased LCAO of p-p orbitals. Orbital pi-antibond. Electrons outside axis, in extranuclear region.
+			- Note: Evidently, the bond is far more stable than the antibond.
+			- The Pi Network.
+		- The Ethene molecule: Electron cloud above and below the plane of the molecule.
+		- Note: Electrons from above and below has different phases from one another.
+		- Note: Our theory fits experimental data of X-Ray difractometry.
+	- The Ethine Molecule
+		- X-Ray Difractometry into cooled solid ethene: Linear molecule
+		- Carbon sp hydrbrization. Electronic configuration of hybridized carbon.
+		- Calc: The Sigma Network. Show all phases.
+		- Calc: The Pi Network. Show all phases.
+		- The Ethine Molecule. Note: Electron clouds with different phases around the molecule itself.
+
+
+Other Theories
+	- FMOT: Frontier molecular orbital theory
+		- Chemcial Reactions. Where the bonding happens/breaks.
+		- Reaction: Species with many electrons want to share its electrons with species with no electrons.
+		- HOMO: Higher energy Occupied Molecular Orbital.
+		- LUMO: Lower energy Unnocupied Molecular Orbital.
+
+
+
+
+
+

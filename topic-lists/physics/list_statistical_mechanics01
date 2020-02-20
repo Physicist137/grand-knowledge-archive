@@ -1,0 +1,577 @@
+TITLE: Stat Mechanics 01: Principles of Statistical Mechanics.
+	- Pre-requisitive: Thermodynamics 02, Probability 00, Quantum 01.
+	- Co-requisitive: Kinetic Theory 01.
+	- Recommended: Thermodynamics 03.
+
+
+
+Thermodynamics Review
+	- Equilibrium
+		- Def: Thermodynamic Equilibrium. Conditions for thermodynamic equilibrium.
+		- Def: Relaxation time (time associated with system to enter at equilibrium).
+		- Def: Meta-stable equilibrium (too high relaxation time, hence, in practice, it is in equilibrium).
+	- First Law
+		- Change of state in adiabatic system yields same amount of work (independent on intermediate steps).
+		- Overwhelming experimental evidence: Joule Paddle-wehell experiment, Joule electrical work experiment.
+		- Def: State function: Internal energy of the system.
+		- Note: Not true for non-thermally insulated systems.
+		- Def: Heat supplied to the system: Deficit between increase of internal energy and work.
+		- Note: Work/Heat are not state functions. Thus, they do not describe the system.
+	- Thermodynamical processes
+		- Def: Infinitesimal process.
+		- Def: Quasi-static process.
+		- Note: In practice: Process is slow as compared to relaxation time.
+		- Def: Reversible process: Quasic static + no hysteresis.
+	- Example: Quasistatic isothermal compression of an ideal gas
+		- Experimental procedure. Heat bath.
+		- Calc: Work made by the compression (assume ideal gas).
+	- Partial derivatives of entropy and energy
+		- Recall: First Law.
+		- Calc: Partial derivative of entropy with respect to PVU.
+		- Calc: Partial derivative of energy with respect to SVP.
+		- Note: Interpretation of PVT with respect to partial derivative of entropy.
+		- Note: Direct mensurable quantities. Equations of state from derivatives of energy.s
+	- Thermodynamic Equilibrium
+		- Maximum Entropy Principle
+		- Isolated system with fixed diathermal wall
+		- Isolated system with movable adiabatic wall.
+		- Isolated system with movable diathermal wall.
+
+
+
+Equilibrium of Isolated System
+	- Formal Definitions
+		- Def: Macrostate
+		- Def: Microstate
+		- Note: We shall deal with discrete states (Quantum).
+		- Note: Even continuum states can be discrete by placing them inside box.
+	- Example: Several spin-1/2 particles fixed.
+		- Calc: n particles with spin up out of N particles.
+		- Calc: Energy of such a system under magnetic field B.
+		- Def: Microstates in the spin-1/2 system.
+		- Note: Indistinguishibility: Switching two spin-up particles leads to same microstate
+		- Def: Macrostates in the spin-1/2 system.
+	- Thermodynamic Equilibrium
+		- Statistical Weight Function for isolated system splitted in two.
+		- Note: Principle of maximum microstates under fixed macrostate.
+		- Note: System evolves as to access the maximum amount of microstates possible.
+		- Isolated system with fixed diathermal wall.
+		- Isolated system with movable adiabatic wall.
+		- Isolated system with movable diathermal wall
+	- Connecting with Thermodynamics
+		- Note: Isolated system with fixed diathermal wall: Equilibrium when beta is equal.
+		- Thermodynamics: We expect equilibrium as temperature is equal: Zeroth law of thermodynamics.
+		- Conclusion: There must exist an relationship between temperature and the beta parameter.
+	- Boltzmann Entropy
+		- Calc: dS/d(ln sigma) (its 1/beta T) (equal to some function F(ln sigma)).
+		- Note: Entropy on total system must be the sum of entropies of separate system (extensive property).
+		- Calc: Impose extensivity at the entropy ==> Entropy must be a linear transformation at ln sigma.
+		- Conclusion: dS/d(ln sigma) must be a constant.
+		- Note: All we've done was fundamental. Thus: this constant must be universal.
+		- Def: The Boltzmann Constant.
+		- Calc: Thermodynamic Entropy as a function of the statistical weight function.
+		- Def: Boltzmann Entropy.
+	- Consequences of Boltzmann Entropy
+		- Note: This is THE equation. It connects the microscopic and macroscopic.
+		- Note: We shall calculate later how much is this boltzmann constant, by applying this to ideal gas.
+		- Note: Accessing maximum amount of microstates <==> Maximization of entropy. (Equivalent approaches).
+		- Note: This is an absolute entropy definition (it is not relative entropy).
+		- Note: Entropy is zero when everyone in the system has no choice but to be in a single unique state.
+		- Note: Entropy of a whole system is sum of entropy of both systems (since statistical weight multiplies).
+	- Isolated system broke into two subsystems
+		- Recall: First law of thermodynamics at variables E,V,N,S.
+		- Calc: Boltzmann Entropy of total system as function of entropy of subsystems
+		- Calc: Isolated system with fixed diathermal wall. The beta parameter. Relation with temperature.
+		- Calc: Isolated system with movable diathermal wall. The eta parameter. Relation with pressure.
+		- Calc: Isolated system with wall passing E,V,N (eg.: no wall). The zeta parameter. Relation with chemical potential.
+	- Example: Several spin-1/2 particles fixed.
+		- Calc: n particles with spin up out of N particles.
+		- Calc: Energy of such a system under magnetic field B.
+		- Calc: n particles with spin up out of N particles.
+		- Calc: Energy of such a system under magnetic field B.
+		- Calc: Statistical Weight Function.
+		- Calc: Boltzmann Entropy.
+		- Calc: Distribution of spins given a temperature T.
+	- Example: Schottky Deffect
+		- Physical Description. Migration of atom in lattice to the surface.
+		- Def: Excitation Energy (formation of Schottky deffect). Energy difference between surface deffect and atom in lattice.
+		- Calc: Statistical Weight function of n defects out of N atoms in a lattice.
+		- Calc: Stirling approximation formula in the Statistical Weight Function.
+		- Calc: Boltzmann Entropy of n defects out of N atoms.
+		- Calc: Distribution of defects given a temperature T
+		- Note: Approximation only valid for a low amount of deffects.
+		- Note: Approximation if n << N  (that is Schottky Energy >> kT)
+		- Note: Excitation energy tipically at 1eV. How many deffects at ambient temperature? How about 1000K?
+	- Crude model for Ideal Gas
+		- Number of microstates proportional to V^N.
+		- Calc: Entropy of the ideal gas.
+		- Calc: Equation of state (use dS/dV)
+		- Calc: Identification of Boltzmann constant with ideal gas law.
+
+
+
+The Ideal Gas
+	- Particle trapped in a box
+		- Calc: The Time Independent Schrodinger Equation.
+		- Calc: Solution of the wavefunctions. Contour conditions.
+		- Calc: Quantization of energy.
+	- Quantum gas of distinguishable N Particles.
+		- Calc: The quantization of energy of all particles
+		- Calc: Condition for fixed energy (isolated system).
+		- Calc: The statistical weight function.
+		- Note: Weight function is the number of integer solutions of equation from energy quantization.
+		- Note: Weight function won't be smooth as total energy changes.
+		- Note: We are interested in real big values of energy as compared to quantized difference level.
+	- The Statistical Weight Function
+		- Calc: Number of integer solutions less than or equal to the given value of energy.
+		- Note: It will be irregular, but not as irregular as statistical weight function. And has known assymptoptics.
+		- Note: 3N sphere with radius less than calculated value.
+		- Calc: Volume of a D-Dimensional sphere
+			- Calc: Relation of D-Spherical volume and D-Spherical surface area. Unknown coeficient.
+			- Calc: Use D-Dimensional gaussian to change to D-Spherical using surface area.
+			- Calc: Change of variable into gamma function to induce gaussian.
+			- Calc: Evaluate D-Dimensional spherical gaussian using above calculated gamma function.
+			- Calc: The volume and surface area of D-Dimensional sphere.
+		- Calc: Volume of a 3N-Dimensional sphere.
+		- Calc: Fraction (1/2)^D of the positive part of the D-Dimensional sphere.
+		- Calc: Number of microstates less than an energy E.
+		- Calc: Number of microstates with an energy E with small error Delta.
+		- Calc: The Statistical Weight Function
+	- Entropy and energy of ideal gas
+		- Calc: Logarithm of the number of microstates less than energy E.
+		- Calc: Logarithm of the statistical weight function.
+		- Note: Recall from kinetic theory: Delta/E falls at O(1/sqrtN).
+		- Note: Both logarithms are approximately equal for large N.
+		- Note: This happens because both functions grow imensily as E grows. Hence the "interior" is small as compared to surface.
+		- Calc: Entropy of the ideal gas. S(N, V, E).
+		- Calc: Energy of the ideal gas. E(N, V, S).
+	- The Ideal Gas properties
+		- Calc: Pressure of ideal gas (from energy partial derivative).
+		- Calc: Internal energy of the ideal gas.
+		- Calc: Equation of state of ideal gas (combining both above).
+		- Calc: Numerical calculation of the boltzmann constant.
+		- Calc: Absolute entropy S(N, V, T).
+		- Calc: Heat capacity at constant volume.
+		- Calc: Heat capacity at constant pressure.
+		- Calc: Adiabatic Ratio.
+		- Calc: Change in entropy due to isothermal change of state (N=cte, T=cte).
+		- Calc: Change in entropy due to change in volume and temperature (N=cte).
+		- Calc: Equation of state for adiabatic process
+	- The Gibbs Paradox
+		- Recall: Entropy of the ideal gas.
+		- Note: Dividing container in two DOES NOT reduce entropy in two.
+		- Note: Entropy of entire system is not sum of entropy of subsystems. Something is wrong.
+	- The Gibbs Paradox: Entropy of mixing.
+		- Assume: Let two systems with two gases, and then one removes a wall separating them, so they mix.
+		- Assume: Note: At first, both gases might be different composition (different mass, etc).
+		- Calc: Initial entropy of the system.
+		- Calc: Final entropy of the system, after the mix has happened.
+		- Calc: Difference in the initial entropy and final entropy.
+		- Note: So far so good. Mixing is an irreversible process, hence the increase in entropy.
+		- Recalc: Difference in initial and final entropy for if there is the same gas.
+		- Recalc: Difference in initial and final entropy for if there is same gas, and n1=n2=n_final.
+		- Note: There is an entropy difference. ABSURD! This process is evidently reversible (just insert the wall back to reverse it).
+		- Reason: Our assumption was the particles were distinguishables. Switching two particles in microstate yields different microstate.
+	- Correction of Gibbs Paradox.
+		- Note: Difference in entropy can be approximated as logarithm of factorials of N (that is, N!)
+		- Note: If we subtract absolute entropy by logN!, entropic difference yields zero on that case.
+		- Calc: Subtraction of absolute entropy of ideal gas by logN!. Adhoc correction.
+		- Note: Now entropy is an truly extensive quantity!!
+		- Note: No paradox anymore in the gibbs!!
+	- The Sackur-Tetrode Equation
+		- Calc: Absolute Entropy of the Ideal Gas. The Sackur-Tetrode Equation
+		- Calc: Energy of the ideal gas.
+		- Calc: Internal energy of ideal gas.
+		- Calc: Equation of state of the ideal gas.
+		- Calc: Chemical potential of the ideal gas.
+	- Correction for distinbuishability
+		- Calc: The corrected factor to make the particles indistinguishale.
+		- Note: The N! is an approximation of the corrected factor.
+		- Note: The validity domain for logN! adhoc correction at the entropy.
+	- Exercise: Ultrarelativistic case.
+		- Step 01: Solve Schrodinger Equation to find energy levels for an ultrarelativistic distinguishable gas.
+		- Step 02: Find the statistical weight function. Find the absolute boltzmann entropy.
+		- Step 03: Find everything: Internal Energy, Equation of state, Heat capacities, adiabatic ratio, etc.
+
+
+
+General Ensemble Theory.
+	- Classical System of N Particles
+		- The Hamiltonian of the System.
+		- Canonical Equations of Motion.
+		- Def: Phase Space
+		- Note: Entire N particle system fully describe by a single unique point in phase space.
+		- Note: Could be a gas, liquid, etc.
+	- Ensemble Definition
+		- Note: Initial conditions are required.
+		- Assume: Mental copies of a single system.
+		- Def: Ensemble.
+	- Trajectories in the phase space
+		- Set of points in the phase space for an ensemble of systems.
+		- Note: Each point in the phase space represents one system in the ensemble.
+		- Note: Each representative point will have an associated trajectory.
+		- Note: Trajectory of each point is continuous and doesn't intersect.
+	- Ensemble Theory and Equilibrium Condition.
+		- Assume: Phase Density of representative points due to ensemble.
+		- Calc: Amount of points in an infinitesimal element of volume in the phase space.
+		- Def: Density Function. Dependent on generalized coordinates and possibly explicit on time.
+		- Calc: Ensemble average of a classical physical observable.
+		- Note: A system is in equilibrium if ensemble average independs on time.
+		- Thus: System is in equilibrium if density function independs explicitly on time.
+	- Liouvilli Theorem
+		- Assume: Arbitrary volume in phase space
+		- Calc: Time derivative of the number of representative points inside the volume.
+		- Calc: Flux of representative points passing thru volume boundary. Note: Phase space velocity.
+		- Note: Equation of continuity.
+		- Note: Representative points in phase space of ensemble behaves like incompressible fluid.
+		- Note: There is no sinks/sources, as systems cannot be created/destroyed.
+		- Calc: Calculating the divergence of the phase current.
+		- Theorem: Total time derivative of density function is zero.
+	- Condition for thermodynamic Equilibrium
+		- Recall: Liouvilli Theorem. Identification of Poisson Parenthesis.
+		- Recall: Equilibrium condition.
+		- Calc: Condition for equilibrium.
+		- Example: Equal probability ==> Constant density function ==> Thermodynamic Equilibrium.
+		- Example: Density function as a function of hamiltonian ==> Thermodynamic Equilibrium.
+		- Example: Microcanonical and canonical ensembles satisfying equilibrium conditions.
+	- Ergodic Hypothesis
+		- Note: What we measure is a single system, not an ensemble of them.
+		- Equilibrium measure: Average in time (as time->inf).
+		- Ergodic Hypothesis: Ensemble Average is equal to Time Average, of an arbitrary observable.
+		- Intuition: As time passes, trajectories of the point in phase space, will go thru a great portion of accesible thing.
+		- Note: So far, there is no general proof.
+		- Note: This is provable to be true in some special cases.
+
+
+
+Microcanonical Ensemble.
+	- Formal Definition
+		- Postulate of a priori equal probabilities.
+		- Def: Ensemble density function (for the microcanonical ensemble)
+		- Calc: Ensemble average of physical quantity f(q, p).
+		- Note: Intuitively: Ensemble average == Time average of ensemble average == Ensemble average of time average == Time average
+		- Note: Time average is what is measured physically.
+	- Thermodynamics of the microcanonical ensemble
+		- Objective: Find connection between mechanics of the microcanonical ensemble and the thermodynamics of the members of the ensemble
+		- Note: Given density function is cte, overall allowed phase space volume must be proportional to number of microstates
+		- Calc: Proportionality constant 1/w0. w0 is the phase-volume mathematically-equivalent to one microstate.
+		- Calc: Entropy of the microcanonical ensemble (from the phase space volume).
+		- Note: Objective is now to calculate full phase space allowed volume.
+	- Classical Ideal Gas of N Particles.
+		- Calc: Hamiltonian function of the classical ideal gas.
+		- Calc: Allowed hypersurface in the phase space: H(q, p) = E.
+		- Calc: Volume of the allowed phase space (ranging from E-1/2 Delta  and  E+1/2 Delta).
+		- Calc: Volume of the phase space is volume of 3N-dimensional hypershell bounded by hyperspheres with given radii.
+		- Calc: Phase space volume in function of E, V, N, Delta.
+		- Calc: Comparisom with the from quantum energies done earlier. Determination of the w0 constant by comparisom.
+		- Note: This was an experimental determination of w0.
+		- Calc: Entropy of the ideal gas.
+		- Calc: Applying Gibbs correction. Sackur-Tetrode Equation.
+	- Density of microstates in the ideal gas
+		- Consider: A gas of ONE particle (N=1).
+		- Calc: The number of microstates avaiable to a free particle confined in volume V, with momentum being less than specified P.
+			- Note: Simply shall be volume of a sphere of radius P (where P is the maximum momentum).
+		- Calc: Number of microstates lying in between p and p+dp. Note: Somehow a 'density' of microstates.
+		- Calc: Number of microstates lying in between E and E+dE. (Use: P = sqrt(2mE)).
+	- TODO: Quantum and classical: System of N distinguishable harmonic oscilators. Entropy. Equation of state. Heat Capacities. Adiabatic Ratio.
+	- TODO: Gibbs Correction by N!.
+	- TODO: Poincare Theorem. https://en.wikipedia.org/wiki/Poincar%C3%A9_recurrence_theorem
+
+
+
+Canonical Ensemble of Quantum System.
+	- Equilibrium between system and heat reservoir
+		- Let: Heat reservoir A' in state with energy Er', in thermal contact with A, with energy Er, temperature T.
+		- Notice: Each state is equally likely to occur. Calc: Probability of state r (proportionality).
+		- Calc: Expansion of the logarithm of the weight function centered at the total energy of the isolated system.
+		- Calc: Identification of thermodynamic beta. Definition of an alpha parameter.
+		- Calc: Probability that the system A is in state r. Normalized probability. Normalization factor.
+	- Canonical ensemble
+		- Def: Ensemble of system in thermal contact with each other. The whole is isolated (surrounded by adiabatic walls).
+		- Variables: E: Total energy of the ensemble, nr: number of ensemble in state r, Er: Energy of state r.
+		- The constraint conditions of the ensembles.
+		- Def: Average energy per system in the ensemble.
+		- Note: An ensemble is uniquely characterized by the sequence described by (nr).
+		- Calc: W: Number of distinct ways of organizing an ensemble into (nr).
+		- Def: Expectation values of nr. <nr>. How to calculate it.
+		- Def: Most probable value of nr. nr*. How to calculate it.
+	- Most probable value of nr.
+		- Objective: To maximize W. But it is easier to maximize lnW.
+		- Calc: Calculating the logarithm. Using Stirling approximation.
+		- Calc: Method of lagrange multipliers. Defining the associated lagrange function.
+		- Calc: Maximization subject to constraints.
+		- Calc: Showing how to calculate the lagrange multipliers from the constraints.
+		- Note: Lagrange beta and thermodynamic beta in this case are identical. We shall prove it late.
+	- Mean Value of nr.
+		- TODO.
+	- The Canonical Ensemble
+		- Def: The Canonical distribution.
+		- Def: The Partition Function.
+		- Def: Energy of a single system (ensemble energy per system).
+		- Calc: Calculating energy from a system using the partition function.
+	- Thermodynamical Connection of the canonical ensemble.
+		- Recall: Helmholtz Free Energy (A = U-TS). First law with it. Thermodynamic relations from first law.
+		- Calc: Writing internal energy of the system as a function of the helmoltz free energy (U = A + TS).
+		- Calc: Writing internal energy using the thermodynamic relations from helmholtz free energy (substituting entropy).
+		- Calc: Writing internal energy as a derivative of d/dT (A/T). Substitution of variables from T to beta.
+		- Calc: Connection with the partition function and helmholtz free energy.
+	- Getting thermodynamical results
+		- Calc: Heat capacity at constant volume from the helmholtz free energy (use U = A + TS).
+		- Calc: Gibbs free energy from helmholtz free energy.
+	- Entropy of the canonical ensemble
+		- Calc: The probability a system in state r. Using the partition function.
+		- Calc: Mean value of the logarithm of probability of states. Using above expression.
+		- Calc: Connection with thermodynamic entropy and mean value of logarithm of probability of states.
+		- Calc: Comparisom with definition of mean value of the logarithm of probability that system is in state r.
+		- Calc: Expression of thermodynamical entropy from probability values.
+		- Note: Entropy depends solely and only at the probabilities values of being in state r.
+		- Note: Entropy at zero temperature. Recovery of third law of thermodynamics.
+		- Note: If states are equaly likely to occur, we recover thermodynamical entropy of microcanonical ensemble (as we should).
+	- Flutuation of energy
+		- Calc: Energy of the system as calculated from the partition function.
+		- Def: Variance of energy
+		- Calc: Variance of energy calculated from the partition function.
+		- Calc: Variance of energy calculated from internal energy.
+		- Calc: Relation with variance of energy and the heat capacity of the system.
+		- Calc: Crude consideration of variance of energy with respect to number of particles in the system.
+	- TODO: Correspondence with microcanonical ensemble.
+	- TODO: Eg.: Quantum Monoatomic Ideal Gas. Comparisom from the one we got from the microcanonical ensemble.
+	- TODO: Eq.: Quantum Harmonic Oscilator. Comparisom from the one we got from the microcanonical ensemble.
+
+
+
+Canonical Ensemble of Classical System.
+	- Counting energy levels
+		- Note: We were counting different quantum states. But often, one has access to energy levels only.
+		- Note: Counting thru different energy levels (which might involve several quantum states at once).
+		- Def: Degeneracy value of a quantum state
+		- Calc: Partition function couting energy levels (with the degeneracy state)
+		- Calc: Probability of system being in an energy level i
+		- Note: Degeneracy value as a weight factor in the probabilities.
+	- From Quantum to classical
+		- Energy levels are too close too each other, and form approximately a continuum
+		- Proper limit conditions for the summation turn to an integration.
+		- Def: Density of states
+		- Calc: Probability P(E)dE for a system being in energy level between E and E+dE
+		- Calc: Probability density for energy of the system.
+		- Calc: The classical partition function of the sytem. (energy levels E >= 0 only).
+		- Calc: Expression for expectation value of a quantity f, dependent on energy.
+	- The density of energy states
+		- Note: Partition function calculated from the density of states.
+		- Note: It is just a laplace transform!
+		- Calc: Density of states from the partition function: Inverse laplace transform.
+	- Density of representative points in phase space (ensemble theory)
+		- Recall: Ensemble theory: Expected value of observable under ensemble.
+		- Note: Comparison with expected value in the classical case.
+		- Calc: The phase space density of representative points of the canonical ensemble.
+	- The Classical partition function over energy space
+		- The Partition function
+		- Calc: Corrected classical partition function for the phase space.
+		- Calc: Average energy as calculated from the partition function.
+		- Calc: Variance of energy as calcualted from the partition function.
+		- Note: Comparisom with quantum case. Degeneracy values become density of state function.
+	- The classical partition function over phase space
+		- Recall: Classical partition function already derived. Note: Integration in the phase space.
+		- Recall: Correction of the phase space volume from quantum to classical.
+		- Recall: Correct Boltzmann Counting.
+		- Calc: Corrected classical partition function for the phase space.
+		- Calc: Average energy as calculated from the partition function.
+		- Calc: Variance of energy as calcualted from the partition function.
+		- Note: Comparisom with quantum case. Quantum states become a phase space integration.
+	- Classical Partition Function
+		- Note: There are two ways of computing partion functions: Phase space or energy space.
+		- Recall: Classical partition function in phase space. Relation with ensemble theory. Liouvilli phase density.
+		- Recall: Classical partition function in energy space. Density of states. Laplace transform.
+		- Recall: Comparisom with quantum cases.
+	- Flutuation of energy
+		- Note: Probability density is product of monotonically increasing and decreasing function (degeneracy and Boltzmann factor).
+		- Note: Henceforth, there must exist an extremum, say E*, in the probability density.
+		- Calc: Condition for the extremum directly from the probability density (Zero derivatvie)
+		- Calc: Using the logarithm of the probability density for evaluating condition for extremum.
+	- TODO: Shape of the probability density function of energy.
+		- TODO: To show it approaches gaussian.
+		- TODO: As N->inf, approachs dirac delta.
+		- TODO: Intuition: Either boltzmann factor makes it close to zero (large E), or degeneracy close to zero (small E).
+
+
+
+Example: Classical Perfect Monoatomic Ideal Gas.
+	- Recall: Corrected classical partition function.
+	- Recall: Hamiltonian of classical perfect monoatomic gas of N Particles.
+	- Phase space partition function
+		- Calc: The partition function expression of the monoatomic gas using the phase space
+		- Calc: The partition function of a single molecule of the system. Comparing partition function of gas.
+		- Calc: Integrating. Analytic expression of the partition function.
+	- Energy space partition function
+		- Recall: Density of states of the ideal gas (calculated in microcanonical ensemble) (the D-dimensional sphere surface)
+		- Calc: The partition function expression of the monoatomic gas in energy space
+		- Calc: The partition function of a single molecule of the system. Comparing partition function of gas.
+		- Calc: Integrating. Analytic expression of the partition function.
+		- Note: Both partition functions (energy and phase spaces) are equal! As we shall expect.
+	- Calc: Helmholtz free energy.
+	- Calc: Pressure from Helmholtz free energy. Recovering the Equation of state
+	- Calc: Entropy from Helmholtz free energy. Recovering Sackur-Tetrode Equation.
+	- Calc: Chemical potential from Helmholtz free energy.
+	- Calc: Internal energy of ideal gas from the partition function.
+	- Calc: Variance of energy of the ideal gas from the partition function.
+	- Recall: Density of states as calculated from microcanonical ensemble.
+	- Calc: Density of states from partition function of canonical ensemble.
+	- Note: We have recovered same results for ideal gas from microcanonical ensemble. As expected.
+	- Note: There's only one difference: Working in the canonical ensemble was MUCH easier.
+	- Note: Lastly, with this, we show the boltzmann constant derived in canonical ensemble is identical to microcanonical one.
+	- Recall: At first, they might not have been (it was simply a lagrange multiplier).
+
+
+Virial and Equipartition Theorems
+	- TODO: Virial Theorem.
+	- TODO: Equipartition Theorem. Note: Equipartition theorem was derived in a classical system! Quantumly, is invalid.
+	- TODO: Relativistic Equipartition Theorem.
+	- TODO: Ideal gas equation using only equipartition theorem.
+	- TODO: Very light intr into interacting systems (central potential) using virial theorem.
+
+
+
+Example: Harmonic Oscilator	System
+	- Motivating example
+		- Modelling a solid: Fixed localized particles that can oscilate around equilibrium point
+		- Note: Particles here are distinguishable becaused they are fixed and localized.
+		- Other modelings: Phonon gas (to be seen later..)
+		- Suffice to say.. this is important!! Learn!!!!
+	- Classical Harmonic Oscilator
+		- Recall: The hamiltonian function of a one particle harmonic oscilator.
+		- Calc: Partition function of one particle in harmonic oscilator
+		- Calc: Partition function of a system of N particles
+		- Calc: Helmholtz free energy (directly from the partition function).
+		- Calc: Internal Energy (directly from the partition function (deriving in beta)).
+		- Calc: Entropy.
+		- Calc: Pressure.
+		- Calc: Heat capacity.
+		- Note: Pressure in the gas is zero!
+		- Note: Internal energy complied with equipartition theorem! 1/2 kbT for each quadratic term in the hamiltonian (kbT) 
+		- Note: Comparisom with classical result from the microcanonical ensemble. Identical! As expected!
+		- Note: Calculating all of this has been FAAR easier than using microcanonical ensemble..
+	- Quantum Harmonic Oscilator
+		- Recall: The quantum energy levels of the one particle harmonic oscilator.
+		- Calc: Partition function of one particle in harmonic oscilator. Using hyperbolic sine.
+		- Calc: Partition function of a system of N particles.
+		- Calc: Helmholtz free energy (directly from the partition function).
+		- Calc: Internal Energy (directly from the partition function (deriving in beta)).
+		- Calc: Entropy.
+		- Calc: Pressure.
+		- Calc: Heat capacity.
+		- Note: Results are different frmo the classical harmonic oscilator. Guess who's more general?
+		- Note: Equipartition theorem is not complied! In fact, it is greater than kbT!
+		- Calc: Internal energy in the limit of kbT >> hbar w (kbT greater than energy quantum).
+		- Calc: Heat capacity in the limit of kbT >> hbar w (kbT greater than energy quantum).
+		- Note: We recovered the classical harmonic oscilator!
+		- Note: Classical approximation valid in the quantum one as kbT >> hw.
+		- Note: As kbT is close to the quantum energy differences, one has to use quantum statistics.
+
+
+
+Grand Canonical Ensemble
+	- TODO: The theory.
+	- TODO: Example
+	- TODO: Example: Vapor pressure (Phase transition).
+	- TODO: Flutuations. Flutuations in a phase transition. Comparisom with other ensembles.
+
+
+
+
+EXAMPLES: MAYBE CREATE STAT SYSTEMS 01? 02?
+EVERYTHING MUST BE CLASSICAL AND QUANTUM! CALC FOR BOTH CASES!
+	- Gas in a box (ideal gas).
+	- Diatomic Gas.
+	- Molecular rotor gas.
+	- Gas that can rotate and vibrate.
+	- Gas in a box in constant gravitational field (linear potential).
+	- Gas in a box in central potential (and soon, gravitational potential).
+	- Relativistic gas in a box (recover classical limit, and ultrarelativistic limit).
+	- Relativistic gas in a box under external potential (linear potential, central potential, gravitational potencial).
+	- Dielectric solid. Polarization. Polarizability.
+	- Magnetic solid. Magnetization.
+
+
+APPLICATIONS: OLD:
+TODO: Monoatomic Gas.
+TODO: Diatomic Gas.
+TODO: Polyatomic Gas.
+TODO: Chemical Equilibrium.
+TODO: Imperfect Gases
+TODO: Quantum Statistics
+TODO: Crystals. Einstein Theory. Debye Theory. Lattice Dynamics. Phonons.
+TODO: Imperfect Gases.
+TODO: Monoatomic Liquids. Diatomic Liquids? Perturbation theory of liquids.
+TODO: 
+
+FOR SIMULATOR: Relativistic interacting gas (-1/x², 1/x, x, x², x^n) under external central potential (-1/x², 1/x, x, x², x^n).
+
+
+
+
+
+
+Wait: Difference betwen adiabatic expansion, and free expansion... (except no change in temperature in free expansion?)
+-----------------------------------------------------
+DEFINITLY TALK ABOUT:
+TODO: Statistical Entropy.
+TODO: Thermodynamics. 0th, 1st, 2nd, 3rd laws of thermodynamics. Entropy. Thermodynamical potentials.
+TODO: Equipartition theorem. Half kbT contribution to each quadratic term in energy/hamiltonian.
+
+
+
+
+
+OLD:------------------------------------------
+TODO: Boltzmann Transport Equation
+	- https://en.wikipedia.org/wiki/Boltzmann_equation
+	- Microscopic properties: Viscosity, Thermal Conductivity, Electrical Conductivity, etc.
+
+
+https://en.wikipedia.org/wiki/Maxwell%E2%80%93Boltzmann_statistics
+
+
+TODO: Kelvin–Helmholtz mechanism. Gravitational Contraction. Source of energy for sun shining (when nuclear reactions were unknown)
+	- Temperature of nebulas. Gas Giants.
+	- Maybe to move it into thermodynamics? =D.
+	- https://en.wikipedia.org/wiki/Kelvin%E2%80%93Helmholtz_mechanism
+	- http://physics.stackexchange.com/questions/259263/as-i-understand-it-entropy-and-disorder-always-increase-but-gravity-increase
+
+
+
+MAYBE OFC NOT HERE IN STAT01:
+TODO: https://en.wikipedia.org/wiki/Chapman%E2%80%93Enskog_theory
+	- http://physics.stackexchange.com/questions/191786/why-cant-the-navier-stokes-equations-be-derived-from-first-principle-physics
+	- Pertubation of the Maxwell-Boltzmann distribution for ellastic gases
+	- Derivation of Navier-Stokes Equations.
+	- MAYBE: Find out finally what is viscosity!! Find out MHD Equations!! =D.
+
+
+
+
+
+
+
+
+
+
+==============================================================================
+https://en.wikipedia.org/wiki/Chapman%E2%80%93Enskog_theory
+
+
+http://physics.stackexchange.com/questions/191786/why-cant-the-navier-stokes-equations-be-derived-from-first-principle-physics
+"The Chapman-Enskog equation is the link between statistical mechanics and the Navier-Stokes equations that you allude to at the end."
+
+
+
+
+
+
+They are derivable from classical mechanics using either the continuum or molecular points of view.
+
+Starting with a continuum view, one applies conservation of mass, momentum, and energy to a control volume and the result is the Navier Stokes equations. The Navier Stokes equations, in the usual form, apply to Newtonian fluids, that is fluids whose stress and rate-of-strain are linearly related. One might regard this as an assumption but it can also be viewed as the first term in a power law expansion.
+
+Starting with a microscopic point of view, one can derive the Navier-Stokes equations from taking moments of the Boltzmann equation. In this approach, the linear relation between stress and rate-of-strain appears naturally as the first term in the Chapman-Enskog expansion.
+
+Many undergraduate fluids textbooks include a derivation from the continuum point of view. The derivation from a molecular point of view is done in first-year graduate textbooks such as Introduction to Physical Gas Dynamics by Vincenti and Kruger.
+

@@ -1,0 +1,463 @@
+TITLE: Group Theory 01: The basics.
+	- Pre-requisitives: 
+	- Co-requisitives:
+	- Recommended: Set Theory 00, Number Theory 00.
+
+
+Review of Number theory (optional)
+	- TODO: Divides. Primes. gcd. Coprime or relative prime. Benzout Lemma.
+	- TODO: Euclidean Algorithm. k = mq+r, 0 <= r < m.
+	- TODO: Modular Congruence.
+	- TODO: Chinese Remainder Theorem.
+
+
+Motivation, Formal Definition, and Examples.
+	- Motivation: 
+		- Algebra is about Equation solving.
+		- Solve: ax=b the usual way.
+		- Solve ax=b with careful track of everything one does.
+	- Formal Definition of a group
+		- Def: The support set of a group
+		- The operation of a group
+			- Binary operation: *: GxG --> G.
+			- Its a well-defined operation (that is, its a function).
+			- Its closed under the support set.
+		- Existance of inverse for every element
+		- Existance of identity element.
+		- Associativity in the group operation.
+	- Conviniences and notation
+		- a\in G <==> a\in (G, *)
+		- Formalism abuse: "G = (G, *)".
+	- Is this a group or not? If not, in which axioms does it fails?
+		- Natural support set. (N, +) and (N, *).
+		- Integer support set. (Z, +) and (Z, *).
+		- Even Integer support set. (2Z, +) and (2Z, *).
+		- Odd Integer support set. (2Z+1, +) and (2Z+1, *).
+		- 5-multiple integer support set. (5Z, +) and (5Z, *).
+		- n-multiple integer support set. (nZ, +) and (nZ, *).
+		- Rational support set. (Q, +) and (Q, *).
+		- Rational support set with no zero. (Q*, +) and (Q*, *).
+		- Real support set. (R, +) and (R, *).
+		- Complex support set. (C, +) and (C, *).
+		- Quaternion support set. (H, +) and (H, *).
+		- Octonion support set. (O, +) and (O, *).
+		- Matrix over real support set. (M(n, R), +) and  (M(n, R), *).
+		- Matrix over real with nonzero determinant over + and *.
+		- Matrix over real with determinant one over + and *.
+		- Set of all functions, over sum and composition operation.
+		- Set of all bijective functions, over sum and composition operator.
+	- The set integer modulo n.
+		- Formal Definition Zn.
+		- Formal Definition Zn* (exluding identity).
+		- Formal Definition: Addition modulo n.
+		- Formal Definition: Multiplication modulo n.
+		- Is (Zn, +n) a group?
+		- Is (Zn, *n) a group?
+		- Is (Zn*, *n) a group?
+	- Equation solving in a general group under general operation
+		- Equation: a op x = b.
+		- Solution of the operation.
+	- Few other things of groups.
+		- Def: Commutative/Abelian Group.
+		- Def: Order of a group.
+		- Def: Finite and infinite groups.
+	- Group Table (or Cayley Table)
+		- The trivial group: {e}.
+		- All tables of the two-element group.
+			- Note: There is only one table.
+			- Example: The Z1 group under +2.
+		- All tables of the three-element group.
+			- Example: The Z2 group under +2.
+		- All tables of four element groups
+			- Note: There are two possible tables.
+			- Note: All four-element groups are abelian.
+		- All tables of five-element groups
+			- Note: There is only one possible table.
+			- Note: This table is abelian.
+			- Note: All order 5 groups are abelian.
+	- TODO: Rules a Group table most follow.
+
+
+
+Basic Properties of Groups
+	- Basic Propositions: Note:
+		- We cannot prove by equation, imply, because we don't know if this holds.
+		- We shall prove by equality, in the group elements.
+		- Keep careful close track in every axiom we use: associativity, etc, etc.
+	- Basic Propositions
+		- Proposition: There is only one unique identity in a group.
+		- Proposition: For each element in a group, its inverse is unique.
+		- Proposition: If a,b elements of a group, then inv(ab) = inv(b) * inv(a).
+		- Proposition: If a is element of a group, then inv(inv(a)) = a.
+	- Basic equation solving propositions.
+		- Proposition: Left Cancelation Law: if a,b,c in the group: ac = bc ==> a=b.
+		- Proposition: Right Cancelation Law: if a,b,c in the group: ca = cb ==> a=b.
+		- Proposition: Left Equation Imply: if a,b,c in the group: a=b ==> ac=bc.
+		- Proposition: Left Equation Imply: if a,b,c in the group: a=b ==> ca=cb.
+		- Proposition: If a,b elements of a group, equation ax=b has unique solution in the group, where x is in the group.
+		- Proposition: If a,b elements of a group, equation xa=b has unique solution in the group, where x is in the group.
+	- Exponential notation
+		- Definition: Negative exponent, positive exponent, zero exponent, of an element of a group.
+		- Proposition: g^m g^n = g^(m+n), for all m,n in Z.
+		- Proposition: (g^m)^n = g^(m+n), for all m,n in Z.
+		- Proposition: (ab)^n = (b^-1 * a^-1)^-1, for all m,n in Z.
+		- Proposition: If group is abelian ==> (ab)^n = a^n * b^n.
+		- Note: Laws in between the exponents are usual laws in Z: Distributivity, commutativity, etc.
+
+
+Examples of Groups
+	TODO: The Zn group. To show orders of elements of Zn. To prove gcd stuff?
+	TODO: The dihedral group. Notation: r, f (reflection, flip). Build up the elements. Triangle, square, cube, etc.
+	TODO: The symmetric group. Find subgroups of it which are actually dihedral or alternative. Motivate introduction of subgroups.
+	TODO: Other finite groups: {+-1, +-i} "complex" group, Quaternion group, 
+	TODO: Infinite groups: Matrix gruops, complex groups, the circle group (ie, |z|=1 in complex), etc.
+
+
+Subgroup of a group
+	- Formal Definition: Subgroup.
+		- Subset of a group in which is a group by itself
+		- Def: The trivial groups.
+		- Def: Proper subgroups.
+		- Notation: H <= G.
+	- Theorem: Subset H of G is subgrop of G iff:
+		- 1) The identity of G is in H.
+		- 2) if h1, h2 \in H, then h1h2\in H.
+		- 3) If h\in H, then inv(h)\in H.
+		- To prove foward. (1) Cancelation law. (2) Obvious. (3) Use 1.
+		- To prove backwards: Note: exactly the axioms.
+	- Theorem: H subset G. H is subgroup IFF H is non empty and g,h\in H then gh^-1 \in G.
+		- Foward: Easy.
+		- Backward: From last one, prove: (1), (3) and (2) in this order.
+	- Theorem: G group, and H non-empty finite subset, then H is subgroup IFF H is closed under G's operation.
+		- Foward: Evidently obvious.
+		- Backward: Find identity, and inverse.
+		- Corolary: If G finite group, subset H is subgroup IFF H is closed under G's operation.
+	- TODO: General linear group GL(n), Special Linear Group SL(n).
+	- TODO: The intersection of two subgroups of G is a subgroup of G.
+
+
+
+Cyclic Groups
+	- Order of a element.
+		- Formal Definition: Order of element: smallest natural st: a^n = e.
+		- Example: Identity element of any group has order 1.
+		- Example: Order of all elements of Z12.
+	- Propositions of order of an element.
+		- Proposition: If G is finite group, then every element of G has finite order.
+		- Proposition: If a is element of a group, then: ord(a) = ord(inv(a)).
+	- Power repetitions in a group
+		- Proposition: If ord(a) = n and a^m = e <==> n|m.
+		- Proposition: If ord(a) = n, then: a^i = a^j <==> i == j (mod n).
+		- Proposition: if ord(a) is infinite, then: a^i = a^j <==> i = j.
+	- Theorem: If ord(a) = n, then, ord(a^m) = n/gcd(n, m).
+	- Generated subgroups
+		- Formal Definition: Set generated by element of a group: <a> = {a^k : k\in Z}
+		- Proof: Generated set form a subgroup.
+		- Example: <2> in Z is 2Z.
+		- Example: <3> in Z is 3Z.
+	- Cyclic Group
+		- Formal Definition: There exists element that generates the group.
+		- Note: Evidently, every generated subgroup is cyclic.
+		- Example: Is Z6 a cyclic group?
+		- Example: is Z5 a cyclic group?
+	- Theorems for cyclic groups.
+		- Theorem: If G = <a> is cyclic, then |G| = ord(a).
+		- Theorem: Generators of finite cyclic group G = <a>, |G| = n, are elements a^r st gcd(r, n) = 1.
+		- Theorem: If G is finite cyclic group. Then, for any element b\in G, b^|G| = e.
+		- Theorem: G finite cyclic group. Then, for any element b\in G, ord(b) | |G|.
+		- Theorem: Every cyclic group is abelian.
+		- Theorem: Let <a> = G cyclic group of order n. Then: a^k = e <==> n|k.
+	- Subgroups of cyclic groups.
+		- Theorem: every subgroup of cyclic group is cyclic.
+		- Corolary: All subgroups of Z are exactly <n> = nZ, for n\in N u {0}.
+
+
+
+Left and right cosets.
+	- Review of Relations
+		- Formal Defintion: Relation under set S.
+		- Formal Definition: Equivalent relation under set S.
+		- Formal Definition: Equivalent class of relation of element of set S.
+		- Example: Equality is an equivalet relation.
+		- Example: Congruence modulo n under Z is equivalent relation.
+	- Review of relation theorems
+		- Theorem: Every element of S belongs to at least one equivalent class.
+		- Theorem: Given a,b\in S, [a] inter [b] = empty  xor  [a] = [b].
+		- Conclusion: Every element of S belongs to one and only one equivalent class.
+		- Conclusion: Equivalent classes are a partition of S.
+		- Conclusion: Union (disjoint) of all unrelated equivalent class elements is S.
+	- Relation: If H subgroup of G, a ~ b iff ab^-1 \in H.
+		- Proof: This relation is reflexive.
+		- Proof: This relation is symmetric.
+		- Proof: This relation is transitive.
+		- Conclusion: This relation is an equivalent relation.
+		- Note: Writing the set of the equivalent classes [a]_H.
+	- Equivalent classes of this relations
+		- Proof: [a]_H is subset of Ha.
+		- Proof: [a]_H is superset of Ha.
+		- Formal Definition: Right cosets of H.
+		- Conclusion: Equivalent classes are right cosets of H.
+		- Conclusion: Either Ha inter Hb is empty, xor Ha = Hb.
+		- Conclusion: If Ha = Hb <==> ab^-1\in H.
+		- Example: If (Z, +) group: [a]_nZ = nZ + a.
+	- Right cosets.
+		- Formal Definition
+		- Associated equivalence relation.
+		- Note: Writing set of equivalent classes as _H[a].
+	- TODO: Examples: Cosets in the Z. Cosets of symmetric group. Cosets of dihedral group.
+	- Example: Cosets of subgroup {(1), (123), (132)} of S3.
+		- Calc: All left cosets.
+		- Calc: All right cosets.
+		- Note: In this case, both left and right cosets are equal.
+	- Example: Cosets of subgroup {(1), (12)} of S3.
+		- Calc: All left cosets.
+		- Calc: All right cosets.
+		- Note: In this case, left and right cosets are not equal.
+	- Theorem: H subgroup of G, and a,b in G. The conditions are equivalent:
+		- 1) aH = bH.
+		- 2) Hinv(a) = Hinv(B).
+		- 3) aH subset bH.
+		- 4) b\in aH.
+		- 5) inv(a)b\in H.
+	- Theorem: Proof that cosets are disjoint using previous theorem
+		- Step 01: Take element of intersection. 
+		- Step 02> Write as a\in bH.
+	- Theorem: H subgroup of G. Number of left cosets is equal to number of right cosets.
+		- Step 01: Define the set of all left cosets, and right cosets.
+		- Step 02: Define map between sets: f(gH) = Hinv(g). Show bijection.
+
+
+
+Lagrange Theorem and subgroup diagram
+	- Lagrange Theorem: H subgroup of G, H,G finite. 
+		- Enunciation: Order of H divides order of G
+		- Step 01: Take all distinct cossets of H.
+		- Step 02: Prove f(h) = hai is bijective.
+		- Conclusion: H has the same order of all its cosets
+		- Conclusion: Order of H divides order of G.
+		- Note: This was true for finite cyclic groups. Now is true for any finite.
+	- Formal Definition: Index H in G, [G:H]
+		- Its number of distinct right cosets of H in G.
+		- Rewriting lagrange theorem: |G| = [G:H]|H|.
+	- Example: All subgroups of dihedral group with 6 elements.
+		- Calc: All subgroups
+		- Display: The lattice tree 
+	- Corolary: If G finite group: Order of any element of group divides order of G.
+	- Corolary: If G is group of prime order, then:
+		- 1) G is a cyclic group.
+		- 2) G has only trivial subgroups.
+		- 3) Any non-identity element in G is generator of G.
+		- 4) G is an abelian group.
+	- Corolary: If H, K are subgroups of finite group G, set K proper subset H proper subset G.
+		- Then: [G:K] = [G:H][H:K].
+	- TODO: Converse of lagrange theorem is false.
+	- TODO: Fermat Little Theorem. Euler Theorem. Wilson Theorem. (with lagrange theorem perspective).
+
+
+The Symmetric Group
+	- TODO: Cycle Decomposition: Equivalence relation (k-cycles), equivalent classes, k-cycles.
+	- TODO: Theorem: Every element of symmetric group can be written as product of dosjoint cycles.
+	- TODO: Theorem: Disoint cycles commute.
+	- TODO: Theorem: The order of a k-cycle is k.
+	- TODO: Order of an element of the symmetric group.
+	- TODO: Transpositions.
+	- TODO: Theorem: Every cycle can be written as prduct of transpositions.
+	- TODO: Sign of a permutation. Parity of a permutation. And theorem: Permutation cannot be both even and odd.
+	- TODO: Alternating Group. Also, prove: A3 is isomorphic to Z3.
+	- TODO: Dihedral Group.
+
+
+Group Homomorphisms
+	- Formal Definition
+		- Group Structure preserving function.
+		- Formal Definition: Homomorphism.
+		- Formal Definition: Monomorphism.
+		- Formal Definition: Epimorphism.
+		- Formal Definition: Isomorphism.
+		- Formal Definition: Automorphism.
+	- Examples of homorphisms
+		- Def: Identity Homomorphism.
+		- Def: Trivial Homomorphism.
+	- Properties of Homomorphisms: if phi: G1 --> G2
+		- 1) phi(e_1) = e_2
+		- 2) phi(inv(a)) = inv(phi(a)).
+		- 3) phi(a^n) = phi(a)^n.
+	- Theorem: If a has finite order, then: ord(phi(a)) divides ord(a).
+	- Composition theorems
+		- Theorem: Composition of homomorphisms is homomorphism.
+		- Theorem: Composition of isomorphism is isomorphism.
+		- Theorem: Inverse of isomorphism is isomorphism.
+	- Isomorphic Groups
+		- Intuition: ITs the "same" group.
+		- Formal Defintiion
+	- Examples of isomorphic groups
+		- Proof: (R, +) and (R*, *) are isomorphic.
+	- Theorem: Cyclic groups are isomorphic to integers.
+		- Proof: (Z, +) is isomorphic to any infinite cyclic group.
+		- Proof: (Zn, +) is isomorphic to any finite cyclic group of order n.
+	- Theorem: If G is group of order prime, then G is isomorphic to Zp.
+	- TODO: The Cayley Theorem: Every (finite and infinite) group is isomorphic to some subgroup of symmetric group.
+	- Image and Kernel of homomorphism
+		- Formal Definition: Image of homomorphism.
+		- Formal Definition: Kernel of homoorphism.
+		- Theorem: Kernel is subgrop of domain group.
+		- Theorem: Image is subgroup of codomain group.
+	- Example: The determinant function: det: GL(n) --> GL(n).
+		- Proof: The determinant function is an homomorphism in general linear group.
+		- Proof: Kernel of determinant is special linear group. ker(det) = SL(n).
+	- Example: The sign function: sign: Sn --> {-1, 1}.
+		- Proof: The sig function is an homomorphism in the symmetric group.
+		- Proof: The Kernel of the sign function is alternating group. ker(sign) = An.
+	- Example: The null space of linear transformation
+		- Proof: An linear transformation is a homomorphism between vector spaces
+		- Proof: The Kernel of the linear transformation is the null vector space.
+	- Kernel Cosets
+		- Theorem: phi(a) = phi(b) <==> ker(phi)a = ker(phi)b.
+		- Note: Kernel cosets measures fail of homomorphism to be injective.
+		- TODO: Introduce notion of quotient group and normal subgroups.
+	- TODO: Kernel cosets. Introduce notion as kernel subgroup measures fail of injectivity. Introduce notion of quotient subgrops and normal subgroups.
+
+
+
+Normal Subgroups and Quotient Groups
+	- Cosets of subgroup nZ in Z.
+		- Calc: All right cosets of nZ in Z.
+		- Define: The set of all right cosets of nZ in Z.
+		- Intuition: Thinking each right cosets of equivalent classes in Zn.
+		- Note: Maybe we should impose Zn and the set of right cosets of nZ isomorphic. =).
+		- Question: Is set of all right cosets of nZ in Z a group? What is needs to be a group?
+	- Defining a group operation
+		- Inheriting the operation of Z.
+		- Defining operation in the set of all right cosets of nZ in Z.
+		- Proof: The oepration is well defined.
+		- Proof: The set fors a group under operation in Z.
+		- Def: Group Z/nZ  (Z mod nZ).
+	- Forming the group G/H, H subgroup of G.
+		- Defining the operation between cosets of H.
+		- Condition for well-defined operation between cosets
+		- Proof: Operation in G/H is well defined iff aHa^-1 subset H for all a\in G.
+		- Formal Definition: Normal Subgroup of a group
+		- Formal Definition: Quotient Group.
+	- Theorem: If G is group, and N normal subgroup, then G/N is a group with respect to G operation.
+		- Proof: Operation is well defined.
+		- Proof: Operation is closed (obvious).
+		- Proof: Has identity.
+		- Proof: Has inverses.
+	- Amount of elements in a quotient group
+		- Example: Calc: Amount of elements in Z/nZ
+		- Note: Amount of elements in G/N is [G:N].
+		- Remmember: Lagrange Theorem: [G:N] = |G| / |N|.
+	- Intuition of what is happening in quotient groups.
+		- Remmember: The cosets are really equivalent classes
+		- Note: In quotient groups we are working only with their representants.
+		- Note: We excluded all equivalent elements, dealing with only one.
+		- Example of the notings: The quotient Z/nZ.
+		- Usefulness: Sometimes is needed to work only with certain equivalent classes
+	- A quotient with the kernel
+		- If kernel of some epimorphism is normal, we can exclude all non-injectiveness!
+		- We can produce isomorphisms by looking at the kernel!! USEFUL!!!!!
+	- Theorem: If N subgroup of G, then its equivalent:
+		- 1) N is normal subgroup of G.
+		- 2) For all a\in G, aNa^-1 = N.
+		- 3) Every left coset is equal to right coset, that is, Na = aN, forall a\in G.
+	- Examples of subgroups.
+		- Let K = {i, m1} subgroup of D3. Is K a normal subgroup of D3?
+		- Let H = {1, r1, r2} subgroup of D3. Is H a normal subgroup of D3?
+		- Let <5> subgroup of Z15. Is <5> normal subgroup? How many cosets there are?
+	- Example of Quotient: Z/3Z
+		- The elements of the Z/3Z (the cosets).
+		- The group table of Z/3Z.
+	- Normal Subgroups
+		- Theorem: All subgroups of abelian group is normal.
+		- Theorem: Let phi group homomorphism. If H is normal, then phi(H) is normal.
+		- Theorem: The Kernel of any homomorphism is normal subgroup of domain.
+		- Corolary: The alternating group is normal subgroup of symmetric group.
+		- Corolary: SL(n, R) is normal subgroup of GL(n, R).
+		- Note: Since kernel is always normal, we can indeed find isomorphisms easily using it.
+	- Quotient Groups.
+		- Theorem: |G/H| = 1  iff  G = H.
+		- Example: S3/A3 isomorphic to Z2  (note: A3 isomorphic to Z3).
+
+
+Isomorphism Theorems
+	- The canonical homomorphism: G --> G/H, H normal subgroup.
+		- Formal Definition.
+		- Proof: Its indeed an homomorphism.
+		- Naming: Called: Canonical/Natural Homomorphism.
+	- The First Isomorphism Theorem
+		- Enunciation: Let psi G --> H be homomorphism, G group, H subgroup of G.
+		- Enunciation: Let phi G --> G/ker(psi) be canonical homomorphism.
+		- Then: There exists unique isomorphism n: G/K --> psi(G) such that psi = n * phi.
+		- Proof of the theorem.
+		- Commutative Diagram of the First Isomorphism Theorem.
+		- Note: If G group and phi epimorphism, then: G/ker(phi) is isomorphic to phi(G).
+		- Example: Z/nZ is isomorphic to Zn.
+		- Example: GL(n, R)/SL(n, R) is isomorphic to R*
+		- Example: Something/Something = T (the circle group).
+	- TODO: The Second Isomorphism Theorem.
+	- TODO: The correspondence Theorem.
+	- TODO: The Third Isomorphism Theorem.
+
+
+
+
+
+TODO: Definition. Trivial Group. Two Element groups. Three element groups.
+TODO: Caylay table. Conditions to be a group in the caylay table.
+
+TODO: Group of mod n additions.
+TODO: Group of mod n multiplications.
+
+TODO: To understand groups very well.. =).
+
+TODO: Finite/infinite groups.
+TODO: Dihedral Group.
+TODO: Cyclic Groups. To prove: Every cyclic group is isomorphic to Zn.
+TODO: Symmetric Group. Permutations.
+TODO: Subgroups. Generators.
+TODO: Right/Left Cosets, Relation, Set of all (right) cosets, Lagrange Theorem.
+TODO: Quotient groups intuition, Normal Groups, Quotient groups.
+
+TODO: Homomorphism, onto, 1to1, Isomorphism, Automorphism. Kernel of homormophism.
+TODO: Isomorphic Groups. Its the same. Very detailed.
+TODO: Cayley Theorem: Every group is isomorphic to Symmetric Group.
+TODO: All three homormophism Theorems.
+
+TODO: There are 2 types of groups of order 04: Z2 x Z2 and the 4-Klein Group.
+	- The complex {+-1, +-i} is a four order group. Where does it fit? =D.
+
+
+
+
+--------------------------
+DONE WRONGLY?
+http://math.stackexchange.com/questions/1666880/how-to-prove-b-c-if-ab-ac-cancellation-law-in-groups
+http://math.stackexchange.com/a/1666905/169193
+
+http://math.stackexchange.com/questions/1301324/proof-of-the-right-and-left-cancellation-laws-for-groups
+http://math.stackexchange.com/a/1301326/169193
+http://math.stackexchange.com/a/1301327/169193
+
+DONE CORRECTLY:
+http://math.stackexchange.com/questions/673485/cancellation-property-in-groups
+http://math.stackexchange.com/a/673487/169193
+http://math.stackexchange.com/a/673508/169193
+
+
+--------------------------
+I was checking up cancelation law in groups. I found three questions of this in math SE, these ones: [Q1](http://math.stackexchange.com/questions/1666880/how-to-prove-b-c-if-ab-ac-cancellation-law-in-groups), [Q2](http://math.stackexchange.com/questions/1301324/proof-of-the-right-and-left-cancellation-laws-for-groups), and [Q3](http://math.stackexchange.com/questions/673485/cancellation-property-in-groups). I was puzzled by one thing. [Accepted answer on Q1](http://math.stackexchange.com/a/1666905/169193) proved $ac = bc \implies a = b$ by assuming the very opposite of what he wanted to prove: $ac = bc \impliedby a = b$. Is that allowed?? Basically, they proved:
+$$
+\left(ac = bc \quad\impliedby\quad a = b\right)\quad\implies\quad
+\left(ac = bc \quad\implies\quad a = b\right)
+$$
+
+Also, [accepted answer in Q2](http://math.stackexchange.com/a/1301326/169193) and the [other answer](http://math.stackexchange.com/a/1301327/169193) also assumed the same thing. For sake of shorter argument, consider:
+$$
+(1)\quad ac = bc \quad\impliedby\quad a = b\\
+(2)\quad ac = bc \quad\implies\quad a = b
+$$
+
+
+Then I found Q3. All answers in Q3 do not assume such thing. I mean, take [this answer in Q3](http://math.stackexchange.com/a/673508/169193). He proves $(1)$ without use of $(2)$. Furthemore, from his proof of $(2)$, one can easily prove $(1)$.
+
+Is it correct to prove $(2)$ considering $(1)$? If yes, why?

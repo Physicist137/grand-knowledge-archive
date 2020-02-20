@@ -1,0 +1,62 @@
+TITLE: Cryptography 00: Cryptography: History and Basic Concepts.
+	- Pre-Requisitive: 
+	- Co-Requisitive: Probability 00.
+
+
+TODO: Ceaser Cipher. Attacking it: Breaking ceaser cipher.
+TODO: Polyalphabetic Cipher. Attacking it: Breaking polyalphabetic ciper.
+TODO: Evaluation of our mistakes: We broke both of them because they weren't random.
+
+TODO: Xor. Xor properties. Xor and random distributions.
+TODO: One Time Pad. Perfect security. Shannon paper.
+TODO: Two Time Pad. Attacking it and breaking it.
+TODO: Soviet historical example. One time pad. Two time pad.
+
+TODO: PRG Def. Secure PRG. Stream cipher.
+TODO: Semantic security.
+TODO: Examples of stream ciphers.
+TODO: Using same key twice.
+TODO: Integrity not garanteed. Integrity attacks.
+TODO: WW2.
+
+TODO: Pseudorandom function (PRF). Pseudorandom permutation (PRP).
+TODO: Secure PRP. Making a secure PRG using secure PRP/PRF.
+TODO: Block cipher. Key expansion. Round function. 
+TODO: Feistel Network. Network is efficiently invertible regardless of intermediate functions. Construction of inverse.
+
+TODO: Using PRP to encrypt data.
+TODO: Data Encryption standard: DES. (don't use it. It is completely broken).
+TODO: Triple DES: 3DES. (people still use it). Why it is not double DES? 2DES?
+TODO: Advanced Encryption Standard: AES.
+TODO: Attacks for block ciphers.
+
+TODO: Def: Secure PRP. Secure PRF. Advantage.
+TODO: Example: Is E(k, x) = k xor y a secure PRP? Is it a secure PRF?
+TODO: PRF Switching Lemma.
+
+TODO: One time key: PRP/PRF Encryption mode. (AES or 3DES)
+TODO: Electronic Code Block (ECB) mode. Proof: ECB is not semantically secure.
+TODO: Deterministic Counter Mode. Stream cipher over PRF. One-time key.
+
+TODO: Many time-key: PRP/PRF Encrpytion modes.
+TODO: Chosen-Plain Attack (CPA). Def: Semantic security under CPA (many-key semantic security).
+TODO: Exploring insecure systems under CPA: https://crypto.stackexchange.com/a/2506
+TODO: Advantage of semantic security under CPA.
+TODO: Proof: If E(k, m) outputs same ciphertext for same message m for sake k, then it is insecure under CPA.
+TODO: Thus: Deterministic counter mode, ECB and one time pad, are insecure under CPA attacks.
+TODO: Solution 01: Randomized encryption. Proof of semantic security under CPA.
+TODO: Solution 02: Nonce-Based encrpytion. Proof of semantic security under CPA.
+
+TODO: Cipher block chain (CBC) Mode. IV: Initialization vector. CBC Encryption. CBC Decryption.
+TODO: CBC Theorem: If E is a secure PRP, then CBC is semantically secure under CPA.
+TODO: If CBC has predictable IV, then it is vulnerable to CPA attacks.
+TODO: Randomized CBC. Choose random IV.
+TODO: Nonce-based CBC. Add step: To encrypt the nounce with different key to generate IV.
+TODO: Padding. Dummy block. Expansion in short messages.
+
+TODO: Randomized Counter Mode (CTR). IV. CTR Encryption. CTR Decryption. Note: Paralelizable.
+TODO: Nonce-Based Counter Mode.
+TODO: Counter Mode Theorem. Note: Better semantic security boundary than CBC.
+TODO: Comparisom CTR vs CBC. Note: CTR superior in every way.
+
+http://www.icg.isy.liu.se/courses/tsit03/

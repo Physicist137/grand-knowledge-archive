@@ -1,0 +1,78 @@
+TITLE: Component Electronics 01: Semiconductor.
+	- Pre-requisitive: Circuits 02.
+	- Co-requisitive: None
+	- Recommended: Calculus 01.
+
+
+Notes and considerations
+	- Note: This is NOT a semiconductor physics list.
+	- Note: Semiconductor physics results will be brought up without justification.
+	- Objective: To understand circuits with semiconductor components.
+
+
+Recall: Intuitive behaviour of components
+	- Diode: Current pass in one side, but not in the other.
+	- NP Junction transistors: Electronic switch.
+	- Field Effect transistors. Electronic switch.
+
+
+Physics Review
+	- TODO: EM: Gauss law. Poisson equation.
+	- TODO: QM: Quantum energy levels. State transitions.
+	- TODO: Stat: Boltzmann Distribution.
+	- TODO: Stat: Diffusion Equation.
+	- TODO: Kinetics: Einstein Relation.
+
+
+The Silicon Semiconductor
+	- TODO: Raw data: Dielectric constant, conductivity, etc.
+	- TODO: Silicon lattice. Covalent bonds.
+	- TODO: Creation of electron-hole pair. Energy required. Holes as quasiparticle. Mass of a hole. Mass of an electron.
+	- TODO:  Intrinstic carrier concentration. Concentration of electron and holes in the silicon semiconductor in a given temperature.
+	- TODO: N-Doped semiconductor. N dopants.
+	- TODO: P-Doped semiconductor. P dopants.
+
+
+The PN Junction
+	- TODO: The PN Junction.
+	- TODO: Equilibrium condition: Competition of carrier diffusion and E-Fields left by uncovered ions (donors or acceptors).
+		- TODO: Calc: Concentration of electrons and holes in the region. Depletion zone. Non-conductive region.
+		- TODO: Calc: Net charge density across the junction (considering electron-hole carriers, and fixed ions). Approximation to step.
+		- TODO: Calc: Electric field. E-Field stopping diffusion. Built-in voltage.
+	- Bias of the junction.
+		- TODO: Foward bias. Conduction of current. The more and more voltage, the less and less resistance in the deplotion zone.
+		- TODO: Reverse bias. Blocking of current. The more and more voltage, the more and more resistance in the deplotion zone.
+		- TODO: Note: We made a diode!
+	- Depletion Region
+		- TODO: Diffusion law. Built in voltage given the equilibrium carrier and ion concentrations.
+		- TODO: Poisson law. Size of the depletion region given built in potential and external potential.
+		- TODO: Depletion region over n-doped side. Depletion region over p-doped side.
+	- TODO: Electric breakdown.
+		- TODO: Critical field. Critical reverse-bias.
+	- Numerical calculations
+		- TODO: Tipical doping: Acceptor: 10^15 atoms/cm³. Donor: 10^16 atoms/cm³.
+		- Calc: The built in potential under equilibrium conditions at room temperature (T = 300K)
+		- Calc: Under no bias: The size of the depletion layer under, maximum electric field. (say.. 10V).
+		- Calc: Under foward bias: The size of the depletion layer, maximum electric field. (say.. 10V).
+		- Calc: Under reverse bias: The size of the depletion layer, maximum electric field. (say.. 10V).
+		- Calc: The breakdown voltage.
+
+
+PN Diode
+	- TODO: Derivation of the Shockley diode equation.
+	- TODO: Zener and avalanche. Breakdown voltage. Zener Diode.
+	- TODO: Electron-hole creation/anihilation. Absoprtion/Emission of a photon. Solar Cells. Light emitting diodes (LEDs).
+	- TODO: Diode capacitances (Even in reverse bias).
+	- TODO: Equivalent circuit of a diode.
+
+
+NPN Transistor
+	- TODO.
+
+
+PNP Transistor.
+	- TODO.
+
+
+
+TODO: Non constant doping densities in the PN Junction.

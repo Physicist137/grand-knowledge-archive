@@ -1,0 +1,483 @@
+Title: Geometria Analitica 01: Duas dimensões.
+	- Pre-requisitive: Geometria euclidiana básica, Trigonometry
+	- Co-requisitive: Elementary Algebra
+
+
+Geometria Analitica de duas dimensões
+	- Geometria Analítica
+		- Rememebr: Geometria euclidiana. Studying shapes.
+		- Goal: To study those shapes with equations.
+		- Goal: Posicionamento de pontos e figuras.
+	- Formalização matemática de posição
+		- Posição numa reta real
+		- Produto cartesiano da reta real
+		- Formalização matemática de posição de ponto
+	- Plano cartesiano
+		- Definição: Plano Cartesiano
+		- Definição: Ponto
+		- Distancia entre dois pontos
+		- Ponto médio
+	- Curvas no plano
+		- Pontos pertencentes á curva
+		- Equação paramétrica da curva
+		- Def: Lugar Geométrico
+		- Equação da curva
+	- Retas paralelas aos eixos
+		- Formal Definition
+		- Pontos pertencentes à reta horizontal/vertical que passa pela origem
+		- Equação da reta horizontal/vertical que passa pela origem
+		- Translação da reta horizontal/vertical
+		- Equação de qualquer reta horizontal/vertical.
+	- Retas em formato geral
+		- Argumento geométrico para formação de retas
+		- Pontos pertencentes à reta
+		- Equação geral da reta
+	- Equação da circunferencia
+		- Formal Definition: Lugar geométrico da circunferencia
+		- Equação canonica da circunferencia centrada na origem (ou eq. reduzida)
+		- Equação paramétrica da curva
+		- Pontos pertencentes à curva
+		- Construção de circunferencia. Compasso.
+
+
+Transformação de coordenadas
+	- Transformação de translação
+		- Novo eixo de coordenadas transladado
+		- Translação do eixo x
+		- Translação do eixo y
+		- Calc: Relação entre as coordenadas dos pontos em relação aos eixos
+		- Def: Transformação de translação
+	- Exemplos de translação
+		- Example: Translação sobre uma reta
+		- Example: Translação sobre uma circunferencia
+		- Calc: Equação da circunferencia centrada em qualquer lugar
+	- Transformação de rotação
+		- Counter-clockwise rotation of the main axis
+		- Novo eixo de coordenadas rotacionado
+		- Calc: Relaçao entre coordenada x de ponto em relação aos novos eixos
+		- Calc: Relação entre coordenada y de ponto em relação aos novos eixos
+		- Def: Transformação de rotação
+	- Exemplos de rotação
+		- Calc: Rotação de uma reta horizontal
+		- Calc: Rotação de uma reta vertical
+		- Calc: Rotação de circunferencia centrada na origem
+	- Transformação mista
+		- Aplicar transformação de rotação
+		- Aplicar transformação de translação ao eixo rotacionado
+		- Equações de transformação mista
+	- Transformação inversa de translação
+		- Eixo já transladado.
+		- Transformação para inverter a translação
+		- Note: Sistema de equações. Inversão.
+		- Note: Comparisom between translation and inverse-translation equations
+	- Transformação inversa de rotação
+		- Remember: Equações de transformação de rotação
+		- Inversão do sistema de equações de transformação
+		- Transformação para inverter rotação
+		- Note: Comparisom between rotation and inevrse-rotation equations
+
+
+Seção Cônica: Elipses
+	- Definição
+		- Comprimento total
+		- Focos da elipse
+	- Elementos da elipse
+		- Focos da Elipse
+		- Distancia focal: Distancia entre os focos da elipse
+		- Centro da Elipse: Ponto medio do segmento que conecta os focos
+		- Vertices da Elipse
+		- Identificação do eixo maior.
+		- Identificação do eixo menor.
+	- Propriedades da elipse
+		- Remember: Definição da elipse.
+		- Given data: Comprimento total, distancia entre focos
+		- Calc: Distancia origem-foco
+		- Calc: Distancia vertice-vertice
+			- Mesmo eixo dos focos
+			- Eixo diferente dos focos
+		- Calc: Distancia origem-vertice
+			- Mesmo eixo dos focos
+			- Eixo diferente dos focos
+		- Triangulo retangulo: Origem-Vertice-Foco
+		- Aplicação do Teorema de Pitágoras
+	- Construção de uma elipse
+		- Remember: Definição da elipse
+		- Escolher dois pontos quaisquer para o foco e a distancia total.
+		- Forma de construir elipse de acordo com definição
+	- Equação reduzida da elipse
+		- Uso da definição e lugar geométrico
+		- Simplify: Focos simétricos colineares em X.
+		- Escrita matemática das distancias entre pontos
+		- Note: Triangulo retangulo envolvendo foco, vertice e origem da elipse
+		- Calc: Equação reduzida da elipse em função
+	- Equação da elipse com centro qualquer
+		- Aplicação da transformação de translação
+		- Equação da elipse centrada em pontos quaisquer
+	- Elementos da elipse a partir da equação da elipse
+		- Calc: Os dois focos (pontos).
+		- Calc: Os dois vértices (pontos).
+		- Calc: Centro da elipse (pontos).
+	- Equação geral da elipse
+		- Aplicação de transformação de rotação arbitrária
+		- Polinomio geral da elipse
+		- Note: Termo xy apareceu por conta de rotação
+		- Condição para elipse na equação geral polinomial de 2 grau
+	- Elementos da elipse a partir da equação geral da elipse
+		- Calc: Os dois focos (pontos).
+		- Calc: Os dois vértices (pontos).
+		- Calc: Centro da elipse (pontos).
+	- Equação paramétrica da elipse
+		- Remmember: Equação paramétrica do circulo
+		- Coordenadas paramétricas de circunferencia com raios diferentes
+		- Plug: Equação paramétrica de elipse na equação canonica da elipse
+	- Classificação de elipses
+		- Def: Elipse Real
+		- Def: Elipse puntiforme
+		- Def: Elipse Imaginaria
+
+
+Seção Cônica: Parábolas
+	- Definição Formal
+		- Foco da parábola
+		- Diretriz da parabóla
+	- Elementos da parabóla (foco, diretriz, vertice, parametro, latus rectum)
+		- Foco da parábola
+		- Diretriz da parabóla
+		- Vértice da parábola
+		- Eixo de simetria da parabola
+		- Distancia do foco à reta diretriz
+		- Concavidade de parabola com eixo simétrico X (voltada para esquerda ou direita)
+		- Concavidade de parabola com eixo simétrico Y (voltada para cima ou para baixo)
+	- Equação canonica/reduzidfa da parabola
+		- Equação canonica da parabóla com simetria no eixo X
+		- Equação canonica da parabóla com simetria no eixo Y
+	- Translação de uma parabóla. Simetria no eixo X.
+		- Aplicar transformação de translação à uma parabola
+		- Aplicar transformação de translação à reta diretriz
+		- Equação da parabola transladada
+	- Translação de uma parabóla. Simetria no eixo Y.
+		- Aplicar transformação de translação à uma parabola
+		- Aplicar transformação de translação à reta diretriz
+		- Equação da parabola transladada
+	- Rotação de parábola
+		- Aplicar transformação de rotação à uma parabola
+		- Aplicar transformação de rotação à reta diretriz
+		- Note: Aparecimento de termo xy
+	- Equação geral da parábola
+		- Aplicar transformação de translação à parábola rotacionada
+		- Equação geral polinomial de segundo grau de uma parábola
+		- Comparação com equação polinomial geral de segundo grau
+		- Condição para ser uma parábola
+	- Equação paramétrica da parábola
+		- TODO.
+	- Propriedades geometricas da parabola
+		- Antenas parabólicas
+		- Espelhos parabólicos
+
+
+Seção Cônica: Hipérboles
+	- Formal Definition
+		- Focos da Hiperbole
+		- Diferencia das distancias
+	- Elementos da hipérbole
+		- Focos da hipérbole
+		- Vértice da hipérbole
+		- Centro da hipérbole
+		- Retas assintóticas da hipérbole
+	- Propriedades da hipérbole
+		- Remember: Definição da hipérbole
+		- Given data: Comprimento entre focos, comprimento total.
+		- Calc: Distancia origem-foco
+		- Calc: Distancia origem-vertice
+		- Remember: Triangulo retangulo na elipse
+			- Def: Eixo real da hipérbole (eixo dos focos)
+			- Def: Eixo imaginário da hipérbole
+			- Def: Vértice "imaginario" da hipérbole
+		- Triangulo retangulo. Teorema de Pitagoras.
+		- Comprimento do eixo imaginário da hipérbole
+		- Comprimento do eixo real da hipérbole
+	- Equação canônica de hipérbole centrada na origem (eixo real coincidente com X)
+		- Remember: Definição da hipérbole
+		- Escrita matemática das distancias entre pontos
+		- Equação da hipérbole em função da distancia do eixo real e imaginario
+		- Comparação com equação canônica da elipse
+	- Equação canônica de hipérbole centrada na origem (eixo real coincidente com Y)
+		- Remember: Definição da hipérbole
+		- Escrita matemática das distancias entre pontos
+		- Equação da hipérbole em função da distancia do eixo real e imaginario
+		- Comparação com equação canônica da elipse
+		- Note: Eixo real sempre tem sinal positivo na equação canônica
+	- Equação das assíntotas da hipérbole centrada na origem (eixo real coincidente com X)
+		- Note: Assintóta passa pela origem
+		- Forma da equação da assintóta
+		- Isolando y. Equação y(x) da hipérbola.
+		- Equação da assintota da hipérbole
+		- Note: No need to do again with another real exis. Just switch axis names.
+	- Equação da hipérbole centrada arbitrariamente
+		- Aplicação da transformação de translação em hipérbole centrada na origem
+		- Calc: Equação da hipérbole centrada arbitrariamente
+		- Note: No need to do again with another real exis. Just switch axis names.
+		- Assintota da hiperbole: Aplicação da transformação de translação
+	- Elementos da hipérbole a partir da equação da hipérbole
+		- Calc: Os dois focos (pontos).
+		- Calc: Os dois vértices (pontos).
+		- Calc: Centro da hipérbole (pontos).
+	- Equação geral da hipérbole
+		- Aplicação da transformação de rotação em hipérbole e assíntota
+		- Note: Aparecimento de termo xy após rotação
+		- Aplicação da transformação de translação em hipérbole e assíntota
+		- Equação geral da hipérbole. Relação entre assintota
+		- Example: Rotação por 45degree sem translação.
+		- Note: Function y=1/x is hyperbola! (xy=1)
+		- Condição de equação geral polinomial de 2o grau para hipérbole
+		- Assintota em função dos coeficientes da equação geral polinomial
+	- Equação paramétrica de hipérbole
+		- Remember: xy=1 é hipérbole rotacionada in 45 degree.
+		- Parametrização da hiperbole xy=1 usando função exponencial (e^t, e^-t)
+		- Note: Tal parametrização não considera valores x<0 ou y<0.
+		- Aplicação da matriz de rotação da parametrização da hipérbole xy=1
+		- Escrita parametrizada da hipérbole
+		- Note: Apenas um ramo da hipérbole foi parametrizado
+	- Arcos hiperbólicos
+		- Comparisom
+			- Look: Escrita parametrizada da hipérbole
+			- Compare: Escrita parametrizada do circulo
+			- What can we take from it?
+		- Def: Cosseno Hipérbolico
+		- Def: Seno hiperbólico
+		- Def: Hipérbole unitária
+		- Def: Angulo hiperbólico
+		- Def: Setor hiperbólico
+
+
+Secções cônicas em polinomio de 2o grau
+	- Seções Conicas
+		- Cone de base circular
+		- Interceptação por um plano
+		- Plano perpendicular ao eixo do cone: Circunferencia
+		- Plano paralelo a geratriz do cone: Parábola
+		- Plano paralelo ao eixo do cone: Hipérbole
+		- Plano obliquo e nao paralelo a eixo ou geratriz: Elipse (plano corta uma das folhas)
+	- Equação geral das seções conicas
+		- Lugar geométrico: Equação geral polinomial do segundo grau
+		- Remmember: They may be Circunferencias, ellipses, parabolas, hyperbolas
+		- Remmember: Condição para ser hipérbole, parábola, elipse
+		- Def: Discriminante do polinomio de segundo grau
+	- Simplificando equação da seção cônica
+		- Aplicação de rotação da conica
+		- Escolha de angulo para eliminar os termo xy
+			- Tangente do angulo
+			- Cosseno do angulo
+			- Seno do angulo
+		- Aplicação da rotação com esse angulo
+		- Fatoração de quadrados
+		- Equação da conica em centro arbitrario
+	- Conicas degeneradas
+		- Formal Definition: Conica Degenerada.
+		- Ponto: Plano de intersecção com cônica recai sobre o vértice do cone
+		- Duas Retas concorrentes: Plano perpendicular ao eixo de orientação do cone
+		- Uma reta: Plano contem vértice do cone e uma de suas geratrizes. Plano tangencia cone.
+		- Duas retas paralelas: Intersecção com superficie cilindrica circular (superficie conica de vértice impróprio)
+	- Identificação de conicas degeneradas (TODO)
+		- Equação geral polinomial do segundo grau (equação das conicas)
+		- Verificação com uso de um determinante
+
+
+Representação matricial de secções cônicas
+	- TODO: Representação matricial de polinomio. x^T Ax, A symmetric.
+	- TODO: Application of rotation matrix. (Rx)^T A(Rx), new matrix: A' = R^T A T
+	- TODO: Condições de identificação de cônicas para matriz A. Unrotated conics and matrix A.
+
+
+Secções Cônicas
+	- Definição geral da conica
+		- Formal Definition. Foco, diretriz, excentricidade.
+		- Note: Se excentricidade é nula ==> Conica é uma circunferencia
+		- Note: Se excentricidade é 1 ==> Conica é uma parábola
+		- Note: Conica é simétrica sobre linha do foco perpendicular a diretriz
+		- Note: Linha de simetria da conica (perpendicular a diretriz, contendo foco).
+	- Elementos da conica
+		- Foco da conica
+		- Linha diretriz da conica
+		- Excentricidade da conica
+		- Def: Vértice da conica. Ponto da conica na linha de simetria.
+	- Calculando equação das conicas
+		- Assume: Vertice da conica em (0, 0). Eixo de simetria: x.
+		- Ponto do foco. Ponto da intersecção da diretriz com eixo x.
+		- Equação da conica.
+		- Note: Se excentricidade for 1 ==> Equação da parabola.
+		- Divisão por 1-e^2. Completing squares.
+		- Note: Comparisom: Equação reduzida da elipse/hiperbole.
+		- Note: Equação "reduzida da conica"
+		- Note: We can now calc excentricity!
+	- Propriedade da excentricidade na elipse
+		- Rememebr: Equação notável da elipse
+		- Note: Posição do centro da elipse
+		- Calc: Valor da excentricidade em função de semi-eixo maior/menor da elipse
+		- Calc: Valor da excentricidade em função da distancia centro-foco
+		- Note: Elipse de excentricidade 0. A circunference!
+		- Interpretação do valor da excentricidade
+			- Elipses de baixa excentricidade
+			- Elipses de alta excentricidade
+			- Calc: Ratio: Semi-Major/minor axis em função da excentricidade
+	- Propriedade da excentricidade na hipérbole
+		- Rememebr: Equação notável da elipse
+		- Note: Posição do centro da elipse
+		- Calc: Valor da excentricidade em função de semi-eixo maior/menor da hipérbole
+		- Calc: Valor da excentricidade em função da distancia centro-foco e semi-eixo maior
+		- Interpretação do valor da excentricidade
+			- Hipérboles de baixa excentricidade
+			- Hipérboles de alta excentricidade
+			- Hipérbole de excentricidade infinita: Reta diretriz =).
+			- Calc: Ratio: Semi-Major/minor axis em função da excentricidade
+	- TODO: Talk about parametrization of unit-conics. Parabolic sin-cossine. Elliptic sine-cossine. Hyperbolic sin-cossine.
+	- TODO: Super-conics: Super-elipses, super-hiperboles, etc.
+
+
+Coordenadas polares
+	- Definição de novo sistema de coordenadas
+		- Expressão de um ponto em coordenadas polares
+		- Transformação cartesiana-->polar
+		- Transformação polar-->cartesiana
+	- Contas envolvendo pontos polares
+		- Distancia de um ponto até a origem
+		- Distancia entre dois pontos
+	- Desenho de gráficos polares
+		- Equação polar geral r=r(theta)
+			- Each theta value there is a theta
+			- Note: Theta is not limited to 2pi.
+		- Equação polar geral theta = theta(r)
+			- Each r value there is a theta
+			- Note: Theta is not limited to 2pi.
+	- Example: Equação r=theta
+		- Plotting graph
+		- Interpretação to visualize the graph
+		- Note: It is spiralling
+	- Transformação de translação em um gráfico polar
+		- Note: Semelhante a verificação da distancia de dois pontos
+		- Calculations.
+		- Equações de transformação de translação
+		- Note: Its complicated...
+	- Transformação de rotação em um gráfico polar
+		- Note: Draw of the "polar axis"
+		- Transformação de rotação.
+		- Easier isn't it? :).
+		- Note: Obviously, polar is nicer to rotate than cartesian
+	- Espiral de Archimedes (archimdean spiral)
+		- Equação polar do espiral: r = a*theta.
+		- Desenho gráfico do espiral
+		- Note: Velocidade angular é 1.
+		- Note: Velocidade radial é a.
+	- Espiral logaritmo
+		- Equação polar do espiral
+		- Desenho gráfico
+		- Note: Radial distance exponentially increase
+	- Equação da circunferencia
+		- Equação cartesiana reduzida de circunferencia centrada na origem
+		- Passagem para coordenadas polares
+		- Note: Teorema fundamental da trigonometria
+		- Note: Plain and simple polar equation for circunference
+		- Graphing polar equation for circunference
+	- Equação da reta
+		- Equação: theta = theta0
+		- Grafico da reta
+		- Inclinação da reta
+	- Equação r=a*cos theta
+		- Plotting. Hmm.. hard isn't it?
+		- Multiplicar por r. Transformação para coordenadas cartesianas.
+		- Completando quadrados
+		- Note: ITs a circunference
+		- Calc: Raio da circunferencia
+		- Calc: Centro da circunferencia
+	- Equação r=a cos(theta) + b sin(theta)
+		- Multiplicar por r. Transformação para coordenadas cartesianas.
+		- Note: Uma circunferencia.
+		- Calc: Raio da circunferencia
+		- Calc: Centro da circunferencia
+	- Equação geral da circunferencia
+		- Remember: We saw how to center at (a, b) with radius a^2 + b^2
+		- Equação reduzida: Arbitrarily centered circunference with radius R
+		- Transformação em equação polinomial de segundo grau completa
+		- Transformação em coordenadas polares
+		- Equação polar geral da circunferencia
+	- Equação geral da linha
+		- Equação reduzida de linha
+		- Transformação em coordenadas polareas
+		- Equação polar da linha
+		- Note: Do the same with ay = bx + c.
+		- Equação polar da linha
+	- Polar curve: Rosas (roses).
+		- Formal Definition. General format: r = a*cos(n*theta) or r = a*sin(n*theta);
+		- Theorem: Equation r=a cos(n theta) or r=a sin(n theta) eh uma rosa com 2n pétalas (n par).
+		- Theorem: Equation r=a cos(n theta) or r=a sin(n theta) eh uma rosa com n pétalas (n impar).
+		- Calc: Valores de theta onde a curva se afasta da origem
+		- Calc: Valores de theta onde a curva se aproxima da origem
+		- Calc: Valores de theta onde a curva está na origem
+	- Polar Curve: Limações
+		- Formal Definition. General format: r = a + b cos(theta);
+		- Transformação para coordenadas cartesianas
+			- Note: 4 degree polynomial.
+			- Well.. harder to interpret... perhaps polar is easier
+		- Calc: Valores de theta onde a curva se afasta da origem
+		- Calc: Valores de theta onde a curva se aproxima da origem
+		- Calc: Valores de theta onde a curva está na origem
+		- Approximate plotting graph
+		- Plot: Real Graph: a=2, b=4.
+	- Polar Curve: Cardiodes
+		- Formal Definition: Caso especial: Limaçon a=b.
+		- Calc: Valores de theta onde a curva se afasta da origem
+		- Calc: Valores de theta onde a curva se aproxima da origem
+		- Calc: Valores de theta onde a curva está na origem
+		- Approximate plotting graph
+	- TODO: Leminiscatas. (Special case of rose (n=2)).
+	- TODO: Catenaria.
+
+
+Secções cônicas em coordenadas polares
+	- Objective: Find the polar equation of a conic
+	- Linha diretriz vertical. Eixo simétrixo x.
+		- Consider: (0,0)-foci centered conic. Directrx positive line: x=d.
+		- Note: Eixo de simetria: Eixo x.
+		- Remember: Definição da conica
+		- Escrita da definição em coordenadas polares
+		- Equação polar da conica
+	- Linha diretriz horizontal. Eixo simétrico y.
+		- Consider: (0,0)-foci centered conic. Directrx positive line: y=d.
+		- Note: Eixo de simetria: Eixo x.
+		- Remember: Definição da conica
+		- Escrita da definição em coordenadas polares
+		- Equação polar da conica
+	- Rotações de pi nas conicas
+		- Calc: Rotação de pi em equação polar de cônica com linha diretriz vertical.
+		- Calc: Rotação de pi em equação polar de cônica com linha diretriz horizontal.
+	- Equação reduzida polar da cônica
+		- Calc: Excentricidade da cônica
+		- Calc: Distancia do foco para a diretriz
+		- Calc: Orientação (vertical-horizontal) da linha diretriz
+		- Calc: Direção da concavidade da hipérbole/parábola.
+		- Note: Equação da cônica com rotação arbitrária. Easy!
+		- Note: Excentricidade zero indeed gives a circunference
+	- Equação reduzida cartesiana da cônica
+		- Consider: (0, 0)-foci centered conic. Vertical directrix line.
+		- Usando definição da conica. Usage: Excentricidade, distancia foco-diretriz.
+		- Calc: Equação reduzida da cônica (elipse ou hipérbole)
+		- Note: Circulo e parábola are out.
+		- Hipótese: Hiperbole:
+			- Calc: Verificar qual o eixo real
+			- Calc: Centro da hipérbole
+			- Calc: Vértice da hipérbole
+			- Calc: Semi-eixo maior da hipérbole.
+			- Calc: Semi-eixo menor (imaginário) da hipérbole
+			- Calc: Retas assíntotas da hipérbole
+		- Hipótese: Elipse
+			- Calc: Semi-eixo maior da elipse.
+			- Calc: Semi-eixo menor da elipse
+			- Calc: Posição dos dois focos da elipse
+			- Calc: Posição do centro da elipse
+			- Calc: Vértice da elipse
+		- Semi-eixo imaginário e excentricidade
+			- Note: Eixo pode ser posto em forma imaginária (hipérbole)
+			- Calc: Excentricidade de elipse
+			- Calc: Excentricidade de hipérbole com eixo em forma imaginária
+			- Note: Single equation for excentricity
+	

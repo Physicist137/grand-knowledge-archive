@@ -1,0 +1,208 @@
+TITLE: Differential Geometry 01: Teoria das Curvas
+	- Pre-requisitive: Calculus 02b.
+	- Co-requisitive: 
+
+
+Definições de curvas
+	- Def: Função vetorial.
+	- Def: Função vetorial satisfaz localmente propriedade P.
+	- Def: Curva parametrizada
+		- Dominio subconjunto conexo de R
+		- Função localmente injetiva: 
+		- Note: Curva nao poderá voltar sobre si mesma.
+		- Note: Curva poderá se interceptar
+	- Def: Curva parametrizada diferenciavel
+		- Remoção de eventos patologicos: Curvas de hilbert
+		- Requerimento não previne aparecimento de quinas
+	- Def: Curva parametrizada de classe Ck
+	- Def: Curva parametrizada suave
+	- Def: Traço de uma curva
+	- Exemplo: Reta
+		- Contra-dominio no R2
+		- Contra-dominio no R3
+		- Contra-dominio no Rn
+		- Proof: Curva é globalmente injetiva
+	- Exemplo: Circulos
+		- Circulo em R2
+		- Note: ||curva - centro|| = R
+		- Note: Circulo é uma curva suave
+		- Proof: Curva é localmente injetiva em todos os pontos
+	- Exemplo: Elipses
+		- Contra-dominio no R2
+		- Equação do circulo
+		- Proof: Curva é localmente injetiva em todos os pontos
+	- Exemplo: Hipérboles
+		- Contra-dominio no R2
+		- Equação da hiperbole
+		- Proof: Curva é localmente injetiva em todos os pontos
+	- Exemplo: Grafico de função f: R --> R
+		- Escrita da curva
+		- Se f é Ck ==> Curva é Ck
+	- Counter-Examplo: Curva (t2, t3).
+		- Note: Imagem: semi-diagonal principal positiva do plano
+		- Note: Não é uma curva parametrizada. Why?
+		- Proof: Curva não =e localmente injetiva em t=0
+	- TODO: Example: Parametrização C1 de quina
+	- TODO: Example: Parametrização Ck de quina
+	- TODO: Example: Parametrização suave de quina
+	- TODO: Example: Parametrização suave de quadrado
+
+
+
+Cuvas Regulares
+	- Def: Curva regular
+		- Existencia do vetor tangente
+		- Derivada primeira é não-nula
+	- Proposition: Curva C1 regular ==> Curva é localmente injetiva em todos os pontos
+	- TODO: Reparametrizaões de uma curva
+	- Comprimento de curva
+		- Def: Função comprimento de arco a partir de t0
+		- Def: Comprimento de arco de t0 a t1
+		- Note: Comprimento é numero nao-negativo
+	- Theorem: Comprimento de arco independende da parametrização
+		- Calcular em uma parametrização.
+		- Proof: Reparametrizar usando função estrita crescente
+		- Proof: Reparametrizar usando função estrita decrescente
+	- Exemplos
+		- Comprimento de circunferencia
+		- Comprimento de espiral de arquimedes
+		- Comprimento de espiral logaritmica
+		- Comprimento de cicloide
+		- Comprimento de helice circular
+	- Minimal curves.
+		- What is the curve with minimum length? (now that we know length..)
+		- Theorem: |alpha(b) - alpha(a)| is less than or equal to the length of any curve between a,b.
+		- Proof: Simple application of fundamental theorem of calculus and integral triangular inequality.
+		- Theorem: If |alpha(b) - alpha(a)| = length curve between a,b ==> curve is a line.
+
+
+Arc Length Parameterization.
+	- Parametrização de comprimento de arco
+		- Formal Definition
+		- Função comprimento de arco para função parametrizada em comprimento de arco
+		- Comprimento de t0 a t1.
+	- Curva unitária
+		- Formal Definition: ||a'(t)|| = 1
+		- Also called: Curva normalizada
+	- Theorem: Curva parametrizada pelo comprimento de arco <==> Curva é unitária
+		- Proof: <==] Trivial.
+		- Proof: ==>] Derivar comprimento de arco. Teorema fundamental do calculo
+	- Theorem: Toda curva regular pode ser reparametrizada pelo comprimento de arco
+		- Step 01: Se curva regular de classe Ck ==> Inversa de função comprimento de arco está bem definida
+		- Step 02: Proof: Inversa de função comprimento de arco é de classe Ck (ie, to calc s', s'', s''', etc).
+		- Step 03: Let reparametrization by inverse arc length function. (b = a * s^{-1}) (* is composition).
+		- Step 04: Calcular derivada de curva reparametrizada. Usar teorema da função inversa.
+		- Step 05: Curva reparametrizada é unitária
+		- Note: Parametrização para atingir comprimento de arco
+		- Example: Find Arc Length parameter of a line.
+	- Example: Find arc lengh parameter of logairhtmic spiral
+		- Calc: The velocity vector of the logarithmic spiral
+		- Calc: Checking if logarithmic spiral is a regular curve.
+		- Calc: Length of the curve (t0 = 0).
+		- Calc: The arc length parameter (by inverting it).
+		- Calc: Arc length parameterized logarithmic spiral.
+		- Calc: Velocity vector (checking if modulus is 1).
+	- Example: Find arc length parameterized helice
+		- Recall: Helice curve.
+		- Calc: The velocity vector of the logarithmic spiral
+		- Calc: Checking if logarithmic spiral is a regular curve.
+		- Calc: Length of the curve (t0 = 0).
+		- Calc: The arc length parameter (by inverting it).
+		- Calc: Arc length parameterized logarithmic spiral.
+		- Calc: Velocity vector (checking if modulus is 1).
+	- Curvature, tangent vector, normal vector.
+		- Intuition: How much curve curves...
+		- Formal Definition.
+		- Proposition: Tangent Vector T of arc-length parameterized curve is orthognal to T'
+		- Def: Principal Normal Vector
+		- Calc: Curvatre in function of T' and N.
+		- Show: T'(s) = k(s) N(s)
+	- TODO: Example: Tractrix
+
+
+
+Isometrias
+	- TODO: Def and etc.
+	- TODO: Translations
+	- TODO: Orthogonal Transformations
+	- TODO: Congruent curves. Theorem: Two Rn congruent curves n>=3, has same curvature.
+
+
+Curves in the plane
+	- Tangent and Normal vector
+		- Assume: The curve itself: a(s) = (x(s), y(s))
+		- Calc: The tangent vector of the curve
+		- Def: The normal Vector of the curve
+			- Note: There are two possible ways to determine a normal vector.
+			- Define normal vector st {T, N} is orthonormal and positevely oriented.
+		- Calc: {T, N} vectors are orthonormal and positively oriented.
+	- Signed curvature
+		- Def: Signed curvature of the curve.
+		- Note: Difference in between positive and negative curvatures.
+		- Calc: Module of the curvature (in function of x'' and y'')
+		- Calc: Curvature (in function of x',y',x'',y''.
+		- Def: Radius of curvature.
+	- Curve under general parameter (instead of arc length)
+		- ASsume: The curve itself: a(t) = (x(t), y(t)).
+		- Calc: The tangent vector
+		- Calc: The Normal Vector
+		- Calc: The signed curvature
+		- Calc: The module of curvature
+	- Examples: line, circle, parabola, elipse, hyperbola
+		- Calc: Tangent Vector
+		- Calc: Normal Vector
+		- Calc: Signed Curvature
+	- Derivative of Normal Vector
+		- Recall: T'(s) = k(s) N(s)
+		- Calc: N'(s).
+		- Show: <N'(s), T(s)> = -k
+		- Then: N'(s) = -k(s) T(s)
+	- Frenet Equations
+		- The two frenet equations for curves in the plane
+		- Frenet equations in matrix form.
+	- Examples:
+		- Calc: Show all plane curves with zero curvature are lines
+		- Calc: Show all plane curves with cte curvature are circles
+		- Calc: Show all plane curves with 1/(as+b) curvature are logarithmic spirals.
+	- Fundamental Theorem of the Curves in the plane.
+		- Theorem: There exists an unique curve continuously differentiable arc length parameterized I --> R^2 st:
+			- Curvature is given by continuous function k: I --> R.
+			- Initial point is specified: a(s0)= p
+			- Initial tangent is specified: vector a'(s0) = v.
+		- Proof of the theorem
+			- Step 01: Use First Frenet Equation. Arrive at two coupled second order linear ODE.
+			- Step 02: Theorem of Existance and unicity of linear ODE: There is unique continuously differentiable solution with IVP.
+			- Step 03: Find the solution of the ODE with specified by IVP.
+		- Calc: Find tangent vector of the solution
+		- Calc: Show solution curve is unitary, and hence arc length parameterized.
+		- Calc: Find normal vector of the solution.
+		- Calc: Find signed curvature of the solution.
+		- Note: This tells curvature is an instrinsic properties of curves.
+		- Note: Now we have a way of calculating any curve only from it curvature. =).
+		- Example: Calculate for 0 curvature, and cte curvature, using this.
+
+
+
+Curves in the 3D space
+	- TODO: Binormal vector. Define st: Orthonormal set positevely oriented.
+	- TODO: Show how signed curvature loses meaning.
+	- TODO: Signed Torsion. Radius of torsion.
+	- TODO: Example: Circular Helice. Calc: Tangent, Normal, Binormal, Curvature, Torsion. Dextrogire/Levogire helices.
+	- TODO: Frenet-Serret Formulas. https://en.wikipedia.org/wiki/Frenet%E2%80%93Serret_formulas
+	- TODO: Osculating Plane, Normal Plane, Rectifying Plane.
+	- TODO: Any parameterization: Calc: Tangent Vector, Normal vector, Binormal vector, Curvature, signed torsion.
+	- TODO: Taylor approximation in a piece of curve. Show (by taylor expansion) that torsion represents how curve fails to be planar.
+	- TODO: Fundamental Theorem of the curves in space.
+
+
+
+Curves in n-dimensional space
+	- TODO: The vectors (tangent, etc, etc).
+	- TODO: All curvatures
+	- TODO: Frenet Equations.
+	
+
+---- telegram:
+Se não entender algo, me avise.
+Essas duas(resto da 2 na próxima foto)
+Lista 3. Haverá aula dia 16.

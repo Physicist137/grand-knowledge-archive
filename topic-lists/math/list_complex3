@@ -1,0 +1,60 @@
+Title: Complex 03: Residue Calculus
+	- Pre-Requisitives: Complex 02.
+	- Co-Requisitive: None
+
+
+Singularities and Residues
+	- Isolated Singularity
+		- Def: Perfurated Vicinity: 0 < |z-z0| < epsilon
+		- Def: Singularity: Ill-Defined point (say.. 1/z at z=0).
+		- Def: Isolated Singularity: There exists perfurated vicinity in which f is analytic.
+		- Example: f(z) = Log z is NOT an isolated singularity. Proof: Branch cut.
+		- Example: f(z) = log z is NOT an isolated singularity at any branch.
+		- Example: f(z) = 1/sin(pi/z) is NOT an isolated singularity at z=0 (but is isolated in all other points).
+	- Residues
+		- Proof: If f has isolated singularity in z0, there exists laurent expansion in perfurated vicinity of f centered at z0
+		- Formal Definition: Residue of f at isolated singularity z0: The b1 coeficient.
+		- Calc: Residue of f in function using an closed integral at f.
+		- Example: (e^z - 1)/z⁵. Use laurent expansion. Use cauchy integral formula. Compute the residue.
+	- Cauchy Residue Theorem
+		- Assume: Let C simple positively oriented contour over analytical function f except of finite number of isolated singularities at C interior.
+		- Then: Closed contour integral of f is 2*pi i times the sum of all residues at singular points in f.
+		- Proof: Direct application of Cauchy-Gousart Theorem.
+		- Example: Compute closed integral over |z| = 2 of (4z-5)/[z(z-1)].
+	- Residues at infinity
+		- Formal Definition: Closed contour of a curve where all residues lies on the interior of it.
+		- Note: The residue at infinity is simply the sum of all residues of the function.
+		- Theorem: Residue at infinity is residue over z=0 of [1/z f(1/z)].
+	- Types of Isolated singularities
+		- Def: Removable singularity: If all negative coeficients of laurent expansion are zero.
+		- Def: Essential singularity: If there are infinite negative-coeficients of the laurent expansion which are non-null.
+		- Def: Poles of ordem m. If the negative-coeficient b_m is non-null, but are null for n > m.
+		- Def: Simple pole: Pole or order 1.
+	- Examples
+		- f(z) = sinz/z has removable singularity at z=0.
+		- f(z) = (1-coshz)/z² has removable singularity at z=0.
+		- f(z) = 1/z has simple pole at z=0.
+		- f(z) = 1/z² has pole of order 2.
+		- f(z) = exp(1/z) has essential singularity at z=0
+	- Residues on poles
+		- Assume: Let z0 isolated singularity of function f.
+		- Theorem: z0 is pole of ordem m <==> f(z) = phi(z) / (z-z0)^m for some analytic phi non-null at z0.
+		- Theorem: z0 is pole of ordem m ==> Res_{z=z0}f(z) = phi^{(m-1)}(z0) / (m-1)!.  (if simple pole: Res = phi(z0)).
+		- Example: f(z) = z+4 / (z^2 + 1). Using above theorem for the residues on the singularities
+		- Note: Since they are simple poles, all we did was to 'remove' the pole, and evaluate the function at the singular point.
+		- Example: f(z) = (z³ + 2z) / (z-i)³
+		- Example: f(z) = (1 - cos(z)) / z³. Careful! It is not an order 3 pole. Cannot say phi(z) = 1-cosz.
+	- Zeros of analytical functions
+		- Def: z0 is a zero of order m of f: f(z0) = f'(z0) = .. = f^(m-1)(z0) = 0, and f^{(m)}(z0)\neq 0.
+		- Assume: Let f analytical function in point at z0.
+		- Theorem: z0 is zero of order m of f <==> there exists analytical function g non-null at z0, st, f(z) = (z-z0)^m g(z).
+	- Zeros and poles
+		- Assume: p,q analytical in z0. Let p(z0) non-null.
+		- Theorem: If q has zero z0 of order m. Then: p/q has pole of order m in z0.
+		- Theorem: If q(z0) = 0 and q'(z0) \neq 0. Then: z0 is simple pole of p/q and residue is p(z0)/q'(z0).
+		- Example: f(z) = cotg(z) = cosz / sinz. Each singularity z = n pi has residue of 1.
+
+
+
+TODO: All kinds of integrals using residues.
+TODO: All kinds of sums using residues.

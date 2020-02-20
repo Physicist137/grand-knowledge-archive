@@ -1,0 +1,229 @@
+TITLE: Group Theory 02: Other subgroups, p-groups, Sylow subgroups.
+	- Pre-requisitives: Group Theory 01.
+	- Co-requisitives:
+
+
+Normalizer and Centralizer
+	- Formal Definitions
+		- Def: Centralizer of a subset of a group.
+		- Def: Normalizer of a subset of a group.
+		- Question: Are both definitions equal?
+		- Note: Normalizer is slightly weaker than centralizer.
+	- Proposition: g\in N_G(H) <==> ghg^1\in H.
+	- TODO: Calc: Normalizer of a normal subgroup.
+	- TODO: Intution: Normalizer are the elements which normalizes G.
+	- TODO: https://proofwiki.org/wiki/Normalizer_of_Subgroup_is_Largest_Subgroup_containing_that_Subgroup_as_Normal_Subgroup
+	- TODO: Normalizer-Centralizer Theorem.
+	- TODO: http://math.stackexchange.com/questions/93662/normalizer-centralizer-theorem
+https://proofwiki.org/wiki/Normalizer_of_Conjugate_is_Conjugate_of_Normalizer
+
+
+Center of a Group
+	- Formal Definitions: 
+		- Def: Center of the group
+		- Def: Central (the elements of the center)
+		- Note: Its the centralizer of the group itself.
+		- Note: Central elements are "abelian" elements.
+		- Question: Who is the center of an abelian group?
+	- Properties of the center
+		- Proposition: The center of a group G is a subgroup of G.
+		- Proposition: The center of a group G is a normal subgroup of G.
+	- Simple examples
+		- Calc: The center of the quaternion group.
+		- Calc: The center of the general linear group over matrix-multiplication.
+		- Calc: The center of the special linear group over matrix-multiplication.
+		- Calc: The center of the orthogonal
+	- TODO: Examples to prove: https://en.wikipedia.org/wiki/Center_(group_theory)#Examples
+	- TODO: Proof: Center is intersection of all centralizer elements. https://proofwiki.org/wiki/Center_is_Intersection_of_Centralizers
+	- TODO: To prove things about G/Z(G).
+	- TODO: Theorem: If G/Z(G) is cyclic, then: G is abelian (hence, G = Z(G), hence G/Z(G) is trivial).
+	- TODO: (maybe this is in nilpotent?) Higher centers: First center, Second center, Third Center, ...
+	- TODO: (maybe this is in nilpotent?) Lower Central Sequence. https://en.wikipedia.org/wiki/Central_series#Lower_central_series
+	- TODO: (maybe this is in nilpotent?) Upper Central Sequence. https://en.wikipedia.org/wiki/Central_series#Upper_central_series
+
+
+Group Acting on Sets
+	- Formal Definition: Left action of G on X
+		- Mapping G x X --> X, (g, x) --> x.
+		- Condition 01: ex = x.
+		- Condition 02: (g1g2)x = g1(g2x).
+		- Def: G-Set.
+	- Examples
+		- GL(n, R) acting on R^n with left matrix multiplication.
+		- D4 acting on X = {1, 2, 3, 4} vertices of square. Action on X as functions.
+		- A group acting on itself, (g, x) --> gx.
+		- A group acting on itself by conjugation.
+		- Trivial action of a group under itself.
+	- Note: Can we see every g\in G as a function? g: X --> X.
+		- Proposition: If G acts on X, g element of G, function g: X --> X, x --> g(x) is bijection.
+		- Proposition: There exists homomorphism from G to the symmetry group of X, S_X.
+		- Definition: If such homomorphism is injective: G acts faithfully on X.
+		- Conclusion: We can.
+	- Example: Z2 = {e, h} acting on regular hexagon X = {1,2,3,4,5,6}, where h acts as reflection
+		- Show: The homomorphism Z2 --> S_X.
+		- Note: The homomorphism is injective.
+		- Note: Z2 acts faifully over regular hexagon.
+		- Note: Z2 can be identified with subgroup of D6 (symmetry group of hexagon).
+	- Example: Z3 = {e, g, g2} faithully action over cube
+		- Show: The homomorphism. Show it is injective.
+		- Note: Z2 acts faifully over cube.
+		- Note: Z2 can be identified with subgroup of symmetry group of cube.
+
+
+Orbit and Stabilizer
+	- Subgroups of acting sets.
+		- Def: Estabilizador: Stab_G(x)  or  G_x.
+		- Def: Fixador. Fix_G(T)  or  G_T, T\subset X.
+		- Proposition: The stabilizer of x is subgroup of G.
+		- Proposition: The fixator of T\subset X is subgroup of G.
+		- Proposition: The fixator is intersection for all x\in T for stabilizer of x.
+		- Note: Not necessarily stabilizer is normal subgroup. Can we prove it?
+	- Orbit and G-Equivalence.
+		- Def: Orbit
+		- Def: G-Equivalence.
+		- Proof: G-Equivalence is an equivalence relation
+		- Note: Orbit of X under G: Partitions of the equivalence relation.
+		- Note: Orbit of x under G: The equivalent classes of the relation.
+		- Writing the orbit in the langauge of set (the two ways).
+		- Note: The element x is always on its orbit.
+		- Notation: Orb_G(x)  or  G(x)  or  G.x,  x\in X.
+	- Example: Z2 = {e, h} acting on regular hexagon X = {1,2,3,4,5,6}, where h acts as reflection
+		- Calc: The orbit of each element of X.
+		- Note: The orbits is indeed a partition of X.
+		- Calc: The relation of each element of X.
+	- Example: special orthogonal group acting on R2.	
+		- Calc: The orbit of element of R2 acted by SO(2).
+		- Calc: The stabilizer of SO(2) acting on R2 on any nonzero element of R2.
+		- Calc: The stabilizer of SO(2) acting on R2 on the zero element of R2.
+	- Orbit-Stabilizer Theorem
+		- Enunciation: G acts in X. Then, for each x\in X, [G:Stab_G(x)] = |Orb_G(x)|.
+		- Recall: [G:Stab_G(x)] is the amount of left cosets of the stabilizer.
+		- Note: Using the most natural function. What appens with it? How to fix?
+		- Note: To fix, use phi(Hg) = g^(-1)(x).
+		- Note: Not necessarily the domain is a group. Its just set of left cosets.
+		- Note: Furthermore, the codomain of such function is not a group...
+		- Corolary: If G is finite acts on X, then for each x\in X: |G| = |Stab_G(x)||Orb_G(x)|.
+	- Examples of using such theorem
+		- Example: Calculate the number of all proper rotations of a cube.
+		- Example: Calculate the number of all proper and improper rotations of a cube.
+	- Proposition: G acts on G by conjugation. Let x\in G. Then, are equivalent:
+		- 1) x is in the center.
+		- 2) Stab_G(x) = G.
+		- 3) Orb_G(x) = {x}.
+		- 4) |Orb_G(x)| = 1.
+	- The Class Equation. Finite group acting on itself by conjugation
+		- Recall: The orbits partition the group G.
+		- Note: G is disjoint union.
+		- Note: If exists, we can separate orbit {x} into center.
+		- Note: G is disjoinnt union of center and disjoint union of nontrivial orbits.
+		- The class equation
+	- The Cauchy Theorem.
+		- Enunciation: Let G group, and prime p divides order of G. Then G has element of order p.
+		- Proof by induction: Theorem is true for all groups of order less than |G|.
+		- Proof for abelian groups.
+		- Proof for nonabelian groups.
+		- Proof on the start of induction: |G| = p.
+		- Proof: Using Class Equation.
+	- Corolaries of Cauchy Theorem
+		- Corolary: If |G| = p^n, p prime, n natural, then Z(G) is nontrivial.
+		- Corolary: If |G| = p^2, p prime, then G is abelian.
+	- TODO: The set of fixed points: http://mathworld.wolfram.com/GroupFixedPoint.html
+	- TODO: Burnside Counting Theorem
+	TODO: Intuition of Orbit-Stabilizer Theorem. https://gowers.wordpress.com/2011/11/09/group-actions-ii-the-orbit-stabilizer-theorem/
+
+
+Sylow Theorems and p-groups
+	- TODO.
+
+
+
+TODO: Counting problem: https://www.youtube.com/watch?v=OoQ16YCYksw
+
+TODO: Direct external product. Direct internal product.
+TODO: Teorema dos grupos abelianos finitamente gerados.
+TODO: Sequencia exata curta. 1 --> A --> B --> C --> 1.
+TODO: Sequencia exata.
+TODO: Produto semi-direto de grupos.
+TODO: Subgrupo comutador de G. [G, G].
+	- Prop: G é abeliano iff [G, G] = {e}.
+	- Prop: [G, G] é subgrupo normal de G.
+	- Prop: G/[G, G] é abeliano.
+	- Prop: Se N eh subgrupo normal de G, então: G/N é abeliano <==> N contem [G, G].
+TODO: Lower/Upper central series. https://en.wikipedia.org/wiki/Central_series
+TODO: Derived Series. https://en.wikipedia.org/wiki/Commutator_subgroup#Derived_series
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------
+DUV: Is ab^-1\in H implies Ha = Hb? Why? (Used in theorem 03, where H = Stab_G(x))
+DUV: Corolary 9. What?
+DUV: Prop 12 makes no sense! This is the very definition of a p-group!!
+
+
+
+TODO: Group actions. Ação por multiplicação. Ação por conjugação.
+TODO: Conjunto de automorfismos forma grupo. Automorfismos internos e externos.
+
+TODO: Estabilizador.
+TODO: Fixador.
+TODO: Orbita. Orbits are disjoint. Orbit representant. Teorema do estabilizador (orbita-estabilizador).
+TODO: Centro. Abelian.
+TODO: Ação por conjugação: Few theorems, Eq de Classes, 
+TODO: Group Commutator. 
+
+TODO: Direct external and internal product.
+TODO: Simple Groups. Composite groups.
+
+TODO: Cauchy Theorem. Corolaries: p^n order group has nontrivial center. p^2 order group is abelian.
+TODO: Sylow Groups. p-groups. All three sylow theorems.
+TODO: Nilpotent Groups.
+TODO: Solvable Groups.
+TODO: Free
+TODO: Homology Groups.
+
+TODO: Lattice Algebra. Boolean Algebra.
+TODO: Coding Theory.
+
+TODO: Commutator. https://en.wikipedia.org/wiki/Commutator
+TODO: Rubik's Cube.
+	- https://en.wikipedia.org/wiki/Rubik%27s_Cube
+	- https://en.wikipedia.org/wiki/Rubik%27s_Cube_group
+
+
+TODO: Grupoid.
+TODO: 15-puzzle Grupoid.
+
+TODO: Other group-like structures: Magma, Quasigroup, Loop, Semigroup, Monoid, Category, Semi-Category.
+
+
+
+
+
+
+
+
+
+
+---------------------------------------
+Let $X$ finite set. Define $F$ as a set of some functions $f: X\mapsto X$. 
+
+Let $x\in X$. Now define the following sets:
+
+$$
+\begin{aligned}
+& A(x) = \{f(x) : f\in F\} \\
+& B(x) = \{y\in X : y = f(x), \forall f\in F\} \\
+& C(x) = \{y\in X : y = f(x), \mbox{ for some } f\in F\} \\
+& D(x) = \{y\in X : \exists f\in F \mbox{ st } y = f(x)\}
+\end{aligned}
+$$
+
+My teacher said in class $A(x) = C(x)$. But I am not sure of this... I think $A(x) = B(x)$. 
+
+
+**Question:** Are all this sets equal? 
+
+- If yes, why? There is no difference between "for some", "for all", "existance" in this case? Why not?
+
+- If not, what are the differences between those sets?
+
+Out of your curiosity, I've seen this in the context of groups actions, where, $F$ is a group acting on $X$, and $A(x)$ is defined as the orbit of $x$.

@@ -1,0 +1,287 @@
+TITLE: Formal Quantum Mechanics 01: Quantum Theory.
+	- Pre-requisitives: Quantum Mechanics 08, Full Linear Algebra.
+	- Co-requisitives: 
+
+
+Review of Hilbert spaces (optional)
+	- Formal Definition
+		- Vector space over complex field equipped with an inner product.
+		- Most be closed under this inner product.
+	- Definition: Complex inner product:
+		- Conjugate commutativity: <x, y> = <y, x>*
+		- Inner product is linear at the first argument
+		- Inner product is conjugate-linear at second argument
+		- Inner product is positive definite
+	- Definition: Norm in hilbert spaces
+		- Def: Real-valued norm.
+		- Theorem: The norm is a real quantity
+		- Note: It fits the definition of a norm
+		- Distance between two points in the hilbert space
+	- Dirac Notation: Kets
+		- Representation of a vector: Ket.
+		- Multiplication by complex scalar.
+		- Operator acting in a ket. Acts in ket's left.
+	- Dirac Notation: Bras
+		- Dual Hilbert space. Linear Functionals.
+		- Representation of the dual vector: Bra.
+		- Multiplication by complex scalar.
+		- Operating acting in a bra. Acts in bra's right.
+	- Dirac Notation
+		- Application of a linear functional into a hilbert vector.
+		- Definition of the inner product as bra applied into ket.
+		- Def: Orthogonal kets.
+		- Def: Normalized ket.
+		- Def: Null ket/bra.
+	- Operators
+		- Def: Equality of operators.
+		- Def: Null operator.
+		- Def: Hermitian adjoint of an operator.
+		- Show: (XY)+ = (Y+)(X+).
+		- Def: Hermitian operators.
+	- Outer product
+		- Definition of outer product as an operator
+		- Definition of the result of outer product operator applied in ket.
+		- Show: <beta|X|alpha> = <alpha|X+|beta>
+		- Show: Hermitian operator of |beta><alpha| is |alpha><beta|
+	- Eigenvalues and eigenvectors
+		- Def: Eigenvector and eigenvalue of an operator.
+		- Theorem: Eigenvalues of hermitian operator are real. Eigenkets to different eigenvalues are orthogonal.
+		- Completness in a base of eigenkets: Spans the entire hilbert space.
+		- Calc: Writing arbitrary vector as linear combination of eigenkets.
+		- Calc: The coeficients of the linear combination as inner products.
+		- Calc: Completness closure: Identity operator from sum of outer products.
+		- Def: Projection operator into eigenket.
+	- Matrix representation relative to a base
+		- Calc: Matrix representation of an operator. Using completeness closure relation.
+		- Calc: Product of two operators in matrix representation coincides with product of matrix.
+		- Calc: Matrix representation of an operator applied on ket. Ket as column matrix. Coeficients.
+		- Calc: Matrix representation of an operator applied on bra. Bra as line matrix. Coeficients.
+		- Calc: Matrix representation of an operator in the base of its eigenkets. Note: It is diagonal.
+	- Change of basis
+		- Assume: Both basis are orthonormal.
+		- Theorem: There exists an unitary operator that changes the basis. Construction of the operator.
+		- Calc: The transformation matrix at the base of the first.
+		- Calc: Components of a ket in the new basis. Components in matrix representation.
+		- Calc: Components of an operator in the new basis. Components in matrix representation. Similarity transform.
+		- Theorem: Trace of an operator remains invariant under similarity transform. 
+		- Note: Thus, trace is independent of the representation.
+	- Diagonalization
+		- Objective: Find b' and |b'>, eigenvalue and eigenket of operator B.
+		- Calc: In the base relative to eigenkets of A. Arrive at matrix equation.
+		- Note: Characteristic polynomial. Characteristic equation.
+
+
+
+Axioms/Postulates of Quantum Mechanics.
+	- Pure Quantum State
+		- Formal Definition.
+		- Pure Quantum ensemble.
+	- The Axioms of Quantum Mechanics.
+		- Axiom 01: A state in a quantum system is a vector in hilbert space over complex field.
+		- Axiom 02: A physical measure is the application of a linear hermitian operator in the state
+		- Axiom 03: The measured result in a pure quantum state, is the eigenvalues of its operator.
+		- Axiom 04: The probability of jumping into eigenstate after measure is norm of an inner product.
+		- Note: As you can see, All postulates are reasonable =).
+		- Note: Hermiticity of measure in postulate 02 is because postulate 03.
+		- Def: An observable: Hermitian operator as physical measure.
+	- Degenerate measures in Enumerable hilbert space.
+		- Axiom 03: Measured result in pure quantum state in hilbert space, collapses to subspace of spanned by eigenkets.
+		- Note: After measure, quantum state collapses into some state of the eigenspace of that operator.
+		- Axiom 04: Probability of jumping into subspace spanned by eigenkets after measure.
+	- Continuum Hilbert spaces
+		- Axiom 03: The measured result in a pure quantum state, is the eigenvalues of its operator.
+		- Axiom 04: Probability density of jumping to eigenvalue of an observable.
+
+
+
+Quantum System as Enumerable Hilbert Space
+	- Expectation value of an observable.
+		- Calc: The statistical expected value of a measure.
+		- Calc: Using the fact observable applied yields eigenvalue in the sum.
+		- Calc: Using completeness closure.
+		- Show: Expected value is: <A> = <a|A|a>, if system is in state |a>
+		- Theorem: Expectation value of hermitian operator is purely real.
+	- Degenerency of observables
+		- Def: Degenerate operator.
+		- Def: Non-Degenerate operator.
+	- Compatibility of observables
+		- Def: Commutator.
+		- Def: Compatible observables
+		- Theorem: A,B compatible, eigenvalues of A non dengenerate. Then B is diagonal at base of eigenkets of A.
+		- Theorem: If |a'> is eigenket of A, then |a'> is also an eigenket of B. Simultaneous eigenket
+			- Use B completeness closure and B diagonality over |a'> eigenket basis.
+			- Note: Eigenvalue of B is just expected value of <B> over state |a'>
+		- Note: Even being simultaneous eigenkets, eigenvalues are not necessarily equal.
+		- Def: CSCO: Complete Set of Commuting Observables
+	- Complete Set of Commuting Observables
+		- Tagging a state uniquely by a set of measured eigenvalues of a set of commuting observables.
+		- Note: Useful when an observable is degenerate.
+		- Dirac representation into kets of an CSCO eigenket (represented by set of eigenvalues).
+		- Completeness closure relation of an CSCO.
+	- Incompatible observables
+		- Theorem: Inompatible observables DO NOT has set of simultaneous eigenkets (proof by absurd).
+		- Consider: Sequential selective measurements: A, B, C.
+		- Calc: Probability of getting state |c'> after measurement A, B, C.
+		- Calc: Probability of getting state |c'> after measurement A, C.
+		- Note: Those probabilities are different if A, B, C are incompatible.
+	- Uncertainty relation
+		- Def: Dispersion operator.
+		- Def: Variance of an operator.
+		- Theorem: Schwarz inequality.
+		- Recall: Theorem: Expectation value of hermitian operator is purely real.
+		- Theorem: Expectation value of anti-hermitian operator is purely imaginary.
+		- Theorem: The uncertainty relation.
+
+
+
+Quantum System as Continuum Hilbert Space
+	- Hilbert space spanned by continuum space of eigenkets
+		- Assume: Operator with continuum spectrum spanning the hilbert space (complete) (call it.. xi)
+		- Note: Eigen-equation in the continuum.
+		- Orthonormal space: Inner products of eigenkets form dirac delta.
+		- Completeness Closure: Integration of outer products yields unitary operator.
+		- Calc: Writing a quantum state as "linear combination" of eigenkets.
+		- Calc: Conservation of probability.
+		- Calc: Inner product of two quantum states.
+		- Calc: "Matrix representation" of an observable in the base if eigenkets.
+	- Position eigenkets and position measurements
+		- Assume: Position eigenkets form complete hilbert space. Completeness closure is valid.
+		- Calc: Quantum state written in terms of the position eigenkets. Coeficients.
+		- Calc: Probability of detector clicking in a measurement of position (using QM probability axiom)
+		- Note: It is assumed quantum state is normalized. Probability of finding anywhere (total probability is 1).
+		- Calc: Three-dimensional position. Simultaneous eigenket for observables of all three coordinates of position.
+		- Experimental evidence: Commutator relation of the position operators: [xi, xj] = 0.
+	- Infinitesimal Translation operator
+		- Def: Infinitesimal translation operator (ITO) (use minuscule delta for dx).
+		- Calc: Application of ITO into arbitrary quantum state spanned by position eigenkets.
+		- Show: The ITO is an unitary operator.
+	- Constructing the infinitesimal translation operator (ITO).
+		- TODO: Construct in such a more obvious way. And then go correcting by the impositions.
+		- Imposition 01: Must be an unitary operator.
+		- Imposition 02: Application of sequential ITOs.
+		- Imposition 03: Application of opposite and foward direction ITOs.
+		- Imposition 04: Limit of ITO as delta-x approaches zero yields identity operator.
+		- Construction: 1-iK*delta x'. K is hermitian. 
+		- Show: Constructed above operator satisfies all above impositions.
+		- Calc: Commutator: [x, ITO(delta x')] = delta x' (calc in arbitrary state |x'>).
+		- Calc: Commutator: [xi, Kj] = i kronecker. (calc substituting constructed form of ITO).
+		- Note: ITO at x, then at y is identical to ITO at y then at X.
+	- Momentum as generator of translation.
+		- Postulate: K = p/(universal constant, dimensions of actions).
+		- Define: K = p/hbar. hbar some constant to be determined later. =).
+		- Calc: The ITO as a function of momentum operator.
+		- Calc: Commutator relations [xi, pj].
+		- Calc: Uncertainty relation <(delta x)^2 (delta y)^2>
+		- Calc: Compound N infinitesimal translations. Let N go to infinity.
+		- Def: Finite Translation Operator. Note: Its an exp.
+		- Calc: Commutator relation of ITO at different directions: eg: x,y.
+		- Calc: Commutator relation of momentum at diferent directions
+		- Calc: Commutator [pi, pj].
+	- Momentum eigenkets and momentum measurements
+		- Def: Momentum eigenkets. Momentum eigenvalues.
+		- Calc: Application of ITO in an momentum ket.
+		- Note: ITO's eigenkets are momentum kets.
+		- Note: ITO's are not hermitian. Hence its eigenvalues are not necessarily real.
+		- Cannonical Commutator relations.
+
+
+The wavefunction as a special case.
+	- The wavefunction.
+		- Note: Coeficients of quantum state spanned by position eigenkets
+		- Note: Probability density of this quantum state.
+		- Recall: Probability density of wavefunction.
+		- Formal Definition: Wavefunction: Coeficients of quantum state spanned by position eigenkets.
+	- Calculations from kets to wavefunctions
+		- Calc: Inner product of two quantum states given by the wavefunctions.
+		- Calc: Quantum state spanned by enumerable eigenkets. Eigenfunctions. Calc of the eigenfunction. Coeficients.
+		- Calc: <beta|A(x)|alpha>, where A is operator dependent on position operator x, given by the wavefunction.
+	- Momentum operator and wavefunction
+		- Calc: ITO applied into quantum state spanned by position eigenkets. Apply small taylor expansion.
+		- Calc: Momentum operator applied into quantum state spanned by position eigenkets.
+		- Calc: <x'|p|alpha> as a function of <x'|alpha>
+		- Calc: <x'|p|x''>.
+		- Calc: <beta|p|alpha> as a function of the wavefunctions.
+		- Calc: <beta|p^n|alpha> as a function of the wavefunctions.
+	- Momentum space wavefunction
+		- Note: Coeficients of quantum state spanned by momentum eigenkets
+		- Calc: Probability density in momentum space. Recall probability density into momentum space wavefunction.
+		- Definition: Momentum space wavefunction: Coeficients of quantum state spanned by momentum eigenkets.
+	- Change to momentum basis.
+		- Calc: Coeficients of the change of basis: <x'|p'>
+		- Calc: <x'|p|p'>, and then use it to calc <x'|p'>
+		- Calc: Normalization of <x'|p'> by calculating <x'|x''> using momentum completeness closure.
+		- Calc: From position space wavefunction to momentum space wavefunction.
+		- Calc: From momentum space wavefucntion to position space wavefunction.
+		- Note: We derived (not postulated) they are just fourier transforms.
+		- Note: It fits the fourier inversion theorem.
+		- Note: All of this came from assumptions:
+			- Completeness closure of position eigenkets.
+			- Momentum as generators of translations.
+		- Note: The wavefunction formalism is just special case into this nicer wider formalism.
+		- Note: Now we can explain everuything into one simple formalism, mathematically rigorous.
+	- Generalization to Three Dimensions.
+		- The position eigenkets. The eigenvalue. The orthonormality.
+		- The momentum eigenkets. The eigenvalue. The orthonormality.
+		- Completeness closure of position and momentum.
+		- Calc: Writing a quantum state spanned by position/momentum eigenkets.
+		- Calc: The position/momentum state wavefunctions.
+		- Calc: <beta|p|alpha>, where p is 3D momentum operator as a function of the position-wavefunctions.
+		- Calc: Change of basis <x'|p'> in vector.
+		- Calc: Passage from position to momentum wavefunctions.
+		- Note: Satisfies the three-dimensional inverse fourier theorem
+
+
+TODO: Tensor Product.
+TODO: Quantum Entanglment.
+
+
+The density matrix.
+	- TODO: Definition (in terms of wavefunctions. Eigenfunctions. Kets). Density matrix in energy eigenbase.
+	- TODO: Dynamics of the density matrix. Quantum analogue of classical Liouvilli equation.
+	- TODO: Pure and mixed states
+
+
+Pure Ensemble
+	- TODO: Density matrx of a pure state. Intrepretation.
+	- TODO: Expectation values
+	- TODO: Eigenvalues of a pure ensemble.
+	- TODO: Properties of a pure ensemble: rho² = rho.
+	- TODO: Tests for identification to check if the density matrix is pure.
+	- TODO: Partially mixed state.
+	- TODO: Identification for a partial mixed state
+
+
+Mixed Ensemble
+	- TODO: Density matrix of mixed state. Interpretation. Most general form.
+	- https://en.wikipedia.org/wiki/Density_matrix#Measurement
+	- https://en.wikipedia.org/wiki/Density_matrix#Definition
+	- https://en.wikipedia.org/wiki/Density_matrix#Entropy
+
+
+
+
+
+
+--------------------------------------
+TODO: Two Level System. Stern-Gerlach experiment.
+
+TODO: n-level system.
+TODO: https://en.wikipedia.org/wiki/Complete_set_of_commuting_observables
+
+
+
+TODO: Quantum Dynamics
+TODO: Angular momentum theory
+TODO: Symmetry =).
+
+TODO: Formalize the Hellman-Feymann Theorem.
+
+
+TODO: Quantum Entanglment.
+TODO: Quantum Teleporation.
+TODO: Quantum energy teleportation. https://en.wikipedia.org/wiki/Quantum_energy_teleportation
+
+FOR QPCS:
+https://en.wikipedia.org/wiki/Quantum_network
+https://en.wikipedia.org/wiki/Amplitude_amplification
+

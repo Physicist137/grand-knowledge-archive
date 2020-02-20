@@ -1,0 +1,71 @@
+TITLE: Analytical Mechanics 01: 
+	- Pre-requisitive: Classical Mechanics 05.
+	- Co-requisitive: None.
+
+
+Revision.
+	Momentum conservation. Energy conservation.
+	Systems of several particles. Lagrange equations.
+
+
+Definições e axiomas da Mecanica Classica
+	- Definição de eixo de coordenadas
+	- Componentes dos vetores posição
+	- Def: Velocidade
+		- Calc: Distancia percorrida pela trajetoria
+		- Calc: Velocidade em termos da distancia
+		- Calc: Vetor tangente (unitario) à trajetória
+		- Calc: Velocidade em função do vetor tangente
+	- Def: Aceleração
+		- Def: Curvatura da curva
+		- Def: Vetor normal (unitario) à curva
+		- Calc: Aceleração em termos do vetor normal e tangente
+		- Note: Aceleração tangencial e normal/centripeta
+	- Torsão
+		- Def: Osculating plane
+		- Calc: Vetor normal ao plano tangente ao movimento
+		- Def: Torsão da curva (mudança de plano)
+		- Note: Torsão é vetor unitario
+		- Variação do vetor normal ao plano em relação à distancia
+	- Referencial de Frenet–Serret
+		- Formal Definition
+		- http://upload.wikimedia.org/wikipedia/commons/6/6f/Frenet.png
+		- Note: Base ortonormal
+		- Calc: variação de tempo dos vetores de base em relação aos vetores de base
+		- Calc: variação de distancia dos vetores de base em relação aos vetores de base
+		- Def: Formulas de Frenet–Serret
+		- Escrita matricial das formulas de Frenet–Serret
+	- Suposições do espaço-tempo (Restrições da mecanica classica)
+		- Efeitos quanticos e relativisticos desprezados
+		- Espaço é tridimensional euclidiano isotrópico uniforme
+		- Tempo é unidimensional isotrópico monotonicamente crescente espacialmente uniforme
+		- Note: Idea não-relativistica de simulaneidade de eventos
+	- Definições formais
+		- Def: Particula isolada
+		- Def: Referencial inercial
+	- Axiomas da Mecanica Classica
+		- Axiom 01: Existe alguns referenciais que são inerciais
+			- Note: Existencia de infinitos referenciais inerciais
+			- Note: Limites (experimentais) de "extensão/tamanho" dos referenciais inerciais
+		- Axiom 02: Conservação de momentum
+			- Duas particulas isoladas interagindo
+			- Existencia de constante c>0 tal que v1 + c v2 = K
+			- Constante c dependente apenas das duas particulas
+			- Constantes vetorial K independente do tempo
+			- Extensão para n particulas. Conjunto de equações
+			- Relação de todas as constantes cij de um dado sistema de n particula
+		- Consequencias do axioma 02
+			- Note: Existencia de constante para cada particula independente. Name it: mass!
+			- Derivação com o tempo: Note: Claramente conservação de momentum do sistema para duas particulas
+			- Formal Definition: Força
+			- Escrita do conjunto de equações usando definições de força
+			- Note: Forma fraca da terceira lei de newton
+	- TODO: Axiomas de ação (principios variacionais)
+
+
+TODO: Liouvili theorem
+TODO: Noether Theorem. Variational Principles
+TODO: Commutator algebra. Evolução temporal usando comutadores (hamiltoniano). Evolução geral usando geradores.
+TODO: Transformações canonicas. Canonical Equations of motion. Etc.
+TODO: Hamilton-Jacobi Theory
+TODO: Perhaps: Sympletic Stuffs. Geometrical Interpretation of Mechanics.

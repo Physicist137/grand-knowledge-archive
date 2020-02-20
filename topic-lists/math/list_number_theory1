@@ -1,0 +1,52 @@
+TITLE: Number Theory 01: Natural Numbers.
+	- Pre-requisitives: Discrete Math I, Calculus 0.
+	- Co-requisitives: None.
+
+
+
+NATURAL NUMBERS:
+TODO: Peano Axioms. Natural numbers. Explore what would happen chosing different stars, or different sucessions.
+TODO: Prove: Principle of math induction, Well ordering Principle, Divisibility, Teorema Fundamental da Aritmética, GCD, Algoritmo de Euclides.
+
+INTEGER NUMBERS:
+TODO: Dedekind Construction. Divisibility, Teorema Fundamental da Aritmética, Algoritmo de Euclides. gcd(a, b) = ma + nb.
+TODO: Congruence.
+
+
+TODO: Diophantine Equations.
+TODO: Chinese Remainder Theorem.
+TODO: Perfect Numbers. Fibonatti numbers. Fermat numbers. Mersenne Numbers.
+
+
+
+Divisibility
+	- Definition. a|b.
+	- Fundamental Propositions
+		- Proposition: a|b and b|c, then a|c (transitivity)
+		- Proposition: a|b  ==>  ca|cb
+		- Proposition: a|b and a|c, then a|(bx+cy).
+		- Proposition: a|1	==> a = +- 1.
+	- Theorem: The division algorithm.
+		- For all a,b, thre exists q,r, st, a = b*q + r, with 0 <= r < b.
+		- Proof: Let S = {a-bx : x\in Z st a-bx >= 0}, then S is non-empty.
+		- Proof: There exists minimum. r=min{S} and q is the associated x-value of r.
+		- Proof: r are within range 0 <= r < b.
+		- Proof: r,q are unique.
+	- The euclidean algorithm: Calculating gcd.
+		- Description of the euclidean algorithm.
+			- Divide r_{n-1} by r_n. Get: q_{n+1}, r_{n+1}.
+			- In which: r_1 = a, r_0 = b.
+		- Example.
+			- Divide a,b. Get q,r.
+			- Divide b,r. Get q2,r2.
+			- Divide r,r2. Get: q3,r3.
+			- Divide r2,r3. Get q4,r4.
+			- And so on.
+		- Proof of termination.
+			- Truncation and well ordering principle.
+			- r_N = 0. And, r_{N-1} = gcd(a,b).
+		- Proof of correctness: gcd.
+			- Proof: It is a common divisor: r_{N-1} | a and r_{N-1} | b.
+			- Proof: It is the greatest one.
+	- Extended euclidean Algorithm.
+		- Claim: There exists integers a,b st ax + by = gcd(a, b).

@@ -1,0 +1,420 @@
+TITLE: Electromagnetism 01: Teoria eletrostática e materiais dielétricos.
+	- Pre-requisitives: Fisica 03, Calculus 04
+	- Co-requisitives: Continuum 01.
+
+
+Eletrostática
+	- Conceito de carga (em excesso)
+	- Lei de coulomb
+		- Definição de unidades
+		- sistema de Gauss
+		- Sistema SI
+	- Formal Definition: Campo eletrostático
+		- Campo em cargas pontuais discretas
+		- Densidade linear, superficial e volumétrica de carga
+		- Distribuições continuais e discretas, simultaneously
+	- Potencial eletrostático
+		- Rotacional do campo elétrico
+		- Formal Definition: Potecial eletrostático
+		- Potencial para distribuição discreta e continua de cargas
+		- Energia potencial
+	- Condutores e isolantes
+		- Cargas movem-se até equilibrio
+		- Condutores: Superficie equipotencial
+	- Lei de Gauss
+		- Fluxo de campo eletrostático
+		- Fluxo de campo em superficie fechada
+		- Example: Campo eletrico em superficie de condutor
+	- Leis diferenciais
+		- Função delta de dirac
+		- Densidade volumétrica de carga pontual
+		- Potencial de carga pontual calculada de forma continua
+		- Forma diferencial da Lei de Gauss
+	- TODO: Eletrização. Máquinas eletrostáticas (just a quick review).
+
+
+Expansão multipolar do campo eletrostático
+	- Campos formado por dipolo eletrostático
+		- Formal Definition: Dipolo eletrostático
+		- Campo elétrico geral, cargas separadas em l
+		- Campo elétrico expandida, dipolo eletrico.
+		- Campo potencial de dipolo
+	- Dipolo eletrico em campo externo
+		- Energia potencial de dipolo em campo eletrico externo
+		- Torque aplicado sobre o dipolo
+		- Força aplicado sobre o dipolo
+	- Expansão multipolar do campo eletrostático
+		- Potencial de distribuiçao volumétrica continua
+		- Expansão em r/r'
+		- Def: Vetor momento de monopolo (carga discreta)
+		- Def: Vetor momento de dipolo
+		- Def: Tensor momento de quadrupolo
+		- Note: Campo a longas distancias independe da geometria
+	- Vetor momento de dipolo
+		- Calc: Momento de dipolo para duas cargas opostas (similar to dipole).
+		- Show: Momento de dipolo independe do centro de referencia
+		- Note: Potencial cai ao quadrado da distancia. Força cai ao cubo da distancia
+	- TODO: Momento de quadrupolo
+		- TODO: Dois dipolos opostos
+		- TODO: Chosing reference: Dependencia apenas do angulo azimutal
+	- TODO: Multipole expansion. Vetor/Tensor momento de monopolo/dipolo/quadrupolo, etc.
+		- TODO: The expansion itself. Until quadrupole.
+		- Momento de dipolo de distribuição com carga não-nula
+			- Show: Momento de dipolo dependente da origem por fator de qR
+			- Note: Podemos posicionar origem such that momento de dipolo é nulo (for non-null charge distributions)
+			- Calc: Posicionamento de origem para anular vetor momento de dipolo
+			- Note: Origem no centro de carga da distribuição
+			- Note: Análogo ao centro de massa
+		- TODO: General distributions apprxs: electric monopole + quadruple.  Or: dipole + quadrupole.
+	- TODO: Perhaps draw equipotential surfaces of electric quadrupole
+	- TODO: More explaning and examples. Or to take out some?
+
+
+Problemas Eletrostáticos
+	- Equação de Poisson
+		- Derivation from Gauss law
+		- Equação de Laplace
+	- Coordenadas Cartesianas (1D)
+		- Equação de laplace em uma dimensão
+		- Solução geral da equação de laplace em 1D
+		- Example: Capacitor infinito 1D carregado
+	- Coordenadas esféricas (simetria esférica)
+		- Equação de laplace em coordenadas esféricas
+		- Imposição de simetria esférica (invariante por rotação)
+		- Equação de laplace em simetria esférica
+		- Solução geral da equação de laplace em simetria esférica
+	- Coordenadas cartesiana (3D)
+		- Equação de laplace em coordenadas cartesianas
+		- Método das separação de variaveis
+		- Solução da equação de laplace
+		- Série de Fourier: Solução geral da equação de laplace
+	- Coordenadas esféricas
+		- Equação de laplace em coordenadas esféricas
+		- Método das separaão de variáveis
+		- Equação da variavel polar
+			- Solução geral
+			- Nota: Soluções fazem sentido iff parametro é inteiro
+		- Equação da variavel azimutal
+			- Reescrita em termo do parametro polar
+			- Mudança de variavel (retirando dependencia do cosseno)
+			- Equação diferencial de Legendre
+			- Solução da equação azimutal
+		- Equação radial
+			- Reescrita usando termos azimutal e polar
+			- Tentativa de potencia: r^p
+			- Solução geral da equação radial
+		- Solução geral da equação de laplace em coordenadas esféricas
+	- Coordenadas cilindricas
+		- Equação da variazel z. Solução.
+		- Equação da variazel polar. Solução.
+		- Equação da variavel radial.
+	- Método das imagens
+		- Superficies equipotenciais
+		- Example: Carga pontual e placa metálica
+			- Calc: Posição da carga imagem
+			- Calc: Carga da imagem
+			- Calc: Potencial no espaços
+		- Example: Carga pontual e esfera condutora
+			- Calc: Posição da carga imagem
+			- Calc: Carga da imagem
+			- Calc: Potencial no espaços
+	- Equação de Poisson
+		- Solução particular da equação de poisson
+		- Solução geral da equação de poisson
+
+
+Campo eletrostático em meios dielétricos
+	- Def: Material dielétrico
+		- Efeitos do material submetido a campo externo
+		- Polarização do material dielétrico
+		- Dielétrico irá gerá o próprio campo
+		- Objective: Somehow calculate every aspect of this
+	- Vetor polarização
+		- Momento de dipolo em elemento de volume do dielétrico
+		- Def: Vetor polarização do dielétrico
+		- Discretização ao nível molecular e vetor de polarização
+	- Campo elétrico externo gerado por meio dielétrico polarizado
+		- Potencial eletrostático
+			- Potencial gerado em ponto por elemento de volume do dielétrico
+			- Potencial gerado por meio dielétrico
+		- Densidade de carga polarizada
+			- Note: Gradiente de 1/|r-r'|. Substituir no potencial.
+			- Reescrita do potencial para integrando sobre superficie e volume
+			- Note: Potencial é igual a soma de cargas superficiais e volumétricas
+			- Def: Densidade superficial de carga polarizada
+			- Def: Densidade volumétrica de carga polarizada
+			- Potencial em função das densidade de carga polarizadas
+		- Intuição do fenômeno de superficie
+			- Superficie do dielétrico polarizado
+			- Densidade superficial de carga polarizada
+		- Intuição do fenomeno no interior
+			- Interior do dielétrico polarizado
+			- Intuition: Densidade volumétrica de carga polarizada
+			- Intuition: Constribuições volumétricas de carga liquida
+		- Fenomeno no interior
+			- Densidade de carga positiva e negativa de dielétrico não polarizado
+			- Deslocamento de carga do dielétrico polariazado
+			- Calc: Carga positiva e negativa em elemento de volume
+			- Note: Vetor de polarização
+			- Conclusion: Constribuição volumétrica de carga líquida
+			- Note: How?! We started with neutral dielectric. And now there is charge?
+		- Carga de polarização total de um dielétrico
+			- Equação da carga total
+			- Note: Carga é zero
+		- Calc: Campo elétrico no exterior do dielétrico
+	- Campo elétrico no interior do dielétrico
+		- Intuition: Campo no interior, ao nivel molecular
+		- Note: Estamos interessados no campo macroscopico (medio)
+		- Formal Definition: Campo em agulha no interior
+		- Calc: Potencial em interior de um dielétrico
+		- Calc: Campo elétrostático em interior de um dielétrico
+	- Lei de Gauss no interior de um dielétrico
+		- Inclusão das cargas de polarização
+		- Enunciado integral da Lei de Gauss
+		- Example: 3 cargas inside dielectric
+		- Calc: Carga de polarização
+		- Substituição na lei de Gauss
+		- Def: Vetor deslocamento elétrico (also called: Vetor densidade de fluxo elétrico)
+		- Valor do campo eletrostático
+			- Def: Carga externa
+			- Contribuições de carga externa
+			- Contribuições de carga polarizada
+		- Lei de Gauss na forma integral
+		- Lei de Gauss na forma local
+	- Dependencia do vetor de polarização
+		- Polarização ocorre por impressão de campo eletrico externo
+		- Dependencia do campo externo e das propriedades moleculares do meio
+		- Forma funcional P(E)
+		- Def: Equação constitutiva: P = P(E)
+		- Forma funcional determinada experimentalmente
+		- Polarização depende do campo elerico total (incluindo dielétrico)
+	- Relação funcional constitutiva
+		- Def: Dielétrico isotrópico
+			- Campo elétrico paralelo a vetor de polarização
+			- Polarização anula se campo elétrico anula
+		- Equação constitutiva para material dielétrico isotrópico
+			- Def: Susceptibilidade elétrica
+			- Calc: Substituição no deslocamento elétrico
+			- Def: Permissibidade elétrica do material
+			- Escrita do deslocamento elétrico em função da permissibidade
+			- Note: Validity: Meios isotrópicos only.
+		- Dielétricos isotrópicos lineares
+			- Expansão de taylor da polarização e deslocamento elétrico em função do campo
+			- Formal Definition: Dielétricos isotrópicos lineares
+			- Note: Validade para campos elétricos não intensos em materiais isotrópicos
+			- Relação linear: Polarização e campo elétrico
+			- Relação linear: Deslocamento elétrico e campo elétrico
+		- Def: Constante dielétrica do material
+			- Relação adimensional entre permissibidade do material e no vácuo
+			- Relação adimensional entre susceptibilidade e permissibidade no vacuo
+	- Example: Carga pontual imerso material dielétrico
+		- Uso da Lei de gauss
+		- Calc: Vetor de deslocamento elétrico
+		- Calc: Campo eletrostático
+		- Calc: Polarização
+		- Note: Campo elétrico menor por fator da constante dielétrica. Why?
+		- Remember: Campo elétrico tem fonte cargas externas e polarizadas
+		- Calc: Densidade volumétrica de carga polarizada
+		- Calc: Densidade superficial de carga polarizada
+		- Calc: Carga polarizada
+		- Calc: Carga total (externa + polarizada)
+		- Note: See? That's why o campo elétrico é menor por fator da constante dielétrica
+		- Intuition: Desenho of what is happening
+	- Codições de contorno sobre vetores de campo E e D.
+		- Separação de meios diferentes
+		- Superficie gaussiana
+		- Calc: Carga total na superficie
+		- Aplicação da Lei de Gauss
+		- Note: Descontinuidade da componente de deslocamento elétrico
+		- Aplicação da circulação de campo eletrostático
+		- Note: Componentes tangenciais de E são iguais
+	- Problemas Eletrostáticos envolvendo materiais dielétricos
+		- Formal local da Lei de Gauss para vetor de campo D
+		- Formal local da Lei de Gauss para vetor de campo E
+		- Equação de Poisson em dielétrico
+		- Equação de Laplace em dielétrico
+	- Example: Esfera dielétrica em campo elétrico uniforme
+		- Campo potencial fora da esfera
+		- Campo potencial na região do dielétrico
+		- Condições de contorno para campos distantes da esfera
+		- Condição de contorno: Continuidade do potencial
+		- Condição de contorno: Continuidade da componente normal do deslocament elétrico
+		- Campo potencial resultante
+		- Note: Campo elétrico dentro do dielétrico
+	- Força sobre esfera dielétrica em campo elétrico uniforme
+		- Esfera dielétrica carregada
+		- Calc: Força elétrica
+		- Retirando fator de interação com o proprio campo
+			- Sem contribuições de força
+			- Contribuições com tensão superficial interna
+			- Repulsão de elétrons
+		- Calc: Campo elétrico próprio (produzido pelo próprio elemento de carga)
+		- Calc: Tensão superficial interna
+		- Calc: Relação integral da força sobre dielétrico
+		- Calc: Força sobre dielétrico
+		- Note: Só a carga do dielétrico tem contribuição
+		- Note: As expected :)
+
+
+Trabalho e energia no campo eletrostático
+	- Trabalho realizado pelo campo eletrostático para mover uma carga
+		- Definição de trabalho
+		- Usando o potencilal
+	- Movimento uniforme de carga
+		- Força externa equilibrando para soma de forças ser nula
+		- Calc: Trabalho da força externa
+		- Relação entre trabalho da força externa e trabalho do campo
+	- Energia eletrostática
+		- Formal Definition
+		- Calc: Energia necessaria para trazer a primeira carga ao sistema
+		- Calc: Energia necessaria para trazer a segunda/terceira carga ao sistema.
+		- Calc: Energia necessaria para trazer a n-esima carga ao sistema
+		- Calc: Energia necessária para montar um sistema com n cargas
+		- Matriz de energia
+			- Diagonal principal nula
+			- Matriz simétrica
+		- Energia eletrostática
+		- Note: Energia eletrostática em função do valor final do potencial
+		- Note: Energia eletrostática independe da ordem de colocação das cargas
+	- Energia eletrostática em vários meios dielétricos
+		- Calc: Energia eletrostática em um meio dielétrico
+		- Calc: Energia eletrostática em vários meios dielétricos
+	- Energia eletrostática de distribuição de carga
+		- Densidade volumétrica e superficial
+		- Calc: Energia eletrostática de distruibção volumétrica e superficial
+		- Calc: Energia eletrostática com presença de condutores
+	- Densidade de energia eletrostática
+		- Assumption: Distribuição arbitraria de cargas em sistema limitado
+		- Assumption: Densidade superficial na superficie de condutores
+		- Densidade volumétrica de cargas livres em função do vetor deslocamento elétrico
+			- Note: Lei de Gauss para o vetor de campo de deslocamento
+			- Note: Validade na parte externa dos condutores (of course).
+		- Densidade superficial de cargas em função do vetor deslocamento elétrico
+		- Calc: Energia potencial em função do vetor de deslocamento elétrico
+		- Aplicação do teorema da divergencia and small manipulations
+		- Note: Normal da integral de superficie aponta para fora dos condutores
+		- Note: Resultado do teorema do divergence aponta para fora da superfivie de V (dentro do condutor)
+		- Note: Carga total nula: Superficie ocupado pelo volume (se for infinita) terá contribuição nula do campo
+		- Note: Carga total nao-nula: Comportamento multipolo, nulo a longas distancias
+		- Densidade de energia eletrostática usando os vetores de campo. Behold!
+		- Note: Volume de integração externo aos condutores (unless field is zero inside conductor)
+		- Note: Energia é armazenada no campo elétrico
+		- Note: Procedure seems to indicate campo é armazenado por unidade de volume
+		- Def: Densidade de energia eletrostática em um ponto (usando vetores de campo)
+		- Note: Validade para materiais isotrópicos lineares
+	- TODO: Voltage is J/C. Why? =). (A general one (probably integral), not just because capacitors)
+	- TODO: Forças e torques a partir da energia. Examples.
+	- TODO: Densidade de forças. Pressão eletrostática. Estresses eletrostáticos. Few examples (say... pressure on surface of charged ball..).
+	- TODO: Example: Calc: Pressures and stresses and maybe stress tensor in: Charged ball, Charged infinite plane, Parallel Plate cpacaitor.
+
+
+Corrente Elétrica
+	- Def: Corrente elétrica
+		- Corrente em material condutor
+		- Correntes ionicas
+		- Corrente em vacuo por emissão termoionica
+		- Correntes em eletrólitos
+		- Correntes em dielétricos imperfeitos
+		- Note: Cargas opostas movendo em direções opostas contribui com corrente no mesmo sentido
+		- Intuition: Não há acumulo nem deficiencia de cargas na movimentação
+	- Tipos de corrente
+		- Corrente por condução
+			- Movimento térmico aleatorio
+			- Movimento de deslocamento ordenado
+		- Corrente por convenção. We won't see it...
+	- Vetor densidade de corrente
+		- Assume: Unico portador de carga
+		- Calc: corrente ultrapassando elemento de area em dado intervalo de tempo
+		- Generalization: Varios portadores de carga diferentes
+		- Calc: Corrente em elemento de area
+		- Def: Vetor densidade de corrente
+		- Calc: Intensidade usando vetor densidade de corrente
+	- Equação da continuidade
+		- Intuitive: Densidade de corrente e de carga são dependentes (conservação da carga)
+		- Calc: Carga entrando em volume
+		- Calc: Equação da continuidade
+	- Condução e Lei de Ohm
+		- Def: Condutividade
+		- Note: Função condutividade deve ser sempre positivo
+		- Condutividade linear
+		- Def: Meios lineares (meios ohmicos)
+		- Def: Resistividade
+		- Relação entre potencial e corrente para densidade uniforme de corrente
+		- Def: Resistencia
+		- Calc: Potencia dissipada por efeito Joule
+	- Correntes estacionarias em meios ohmicos
+		- Def: Corrente estacionaria
+		- Note: Corrente continua
+		- Densidade de carga em seu valor de equilibrio
+		- Look! Laplace equation
+	- Condição de condução em estado estacionario
+		- Corrente em meio 1 = corrente em meio 2
+		- Componente normal do vetor densidade de corrente é continuo
+		- Circulação do campo elétrico
+		- Componentes tangenciais do campo elétrico é continuo
+	- Example: Tanque eletrolitico
+		- Condutores mantidos com potenciais fixos mergulhados em solução eletrolitica
+		- Note: Condutividade do metal muito maior que solução eletrolitica
+		- Note: Campo eletrico tangencial do metal muito menor que solução eletrolitica
+		- Approximation: Campo eletrico tangencial do metal inexistente ==> Problema eletrostatico
+		- Calc: Corrente entre dois condutores metalicos
+		- Calc: Uso do vetor densidade e campo eletrico
+		- Note: Carga eletrostática nos condutores em meio dielétrico
+		- Note: Dois condutores foram um capacitor
+		- Relação entre resistencia do meio e capacitancia do problema eletrostático equivalente
+		- Note: Nenhum dielétrico tem condutividade nula, hence:
+		- Note: Existe fuga de corrente em um capacitor
+	- Passagem de um sistema para estado de equilibrio eletrostático
+		- Excesso de carga de condutor se localiza em superficie
+		- Situação de equilibrio eletrostatico
+		- Assumption: Meio ohmico isotropico homogeneo linear
+		- Densidade de carga volumétrica
+		- Equação da continuidade
+		- Soluçao da equação diferencial parcial
+		- Note: Pasagem para equilibrio eletrostático é exponencial
+		- How quickly does it passes to equilibrium?
+	- Origem do comportamento condutor/dielétrico do material
+		- Formal Definition: Constante de tempo de dissipação de excesso de densidade de carga
+		- Calc: Constante de tempo do cobre/ferro
+		- Calc: Constante de tempo de vidro/papel
+		- Note: Comportamento de condutor: Constante de tempo muito menor que caracteristica temporal do sistema
+		- Example: Comportamento de condutor em sistema de alta frequencia ==> Constante de tempo << 1/f
+		- Note: Comportamento de dielétrico: Constante de tempo muito maior que caracteristica temporal do sistema
+		- Example: Comportamento de dielétrico em sistema de alta frequencia ==> Constante de tempo >> 1/f
+		- Note: What about in the middle?
+	- Circuito elétrico. Redes de Resistencias
+		- Portadores de carga limitados a seguir percurso de alta condução
+		- Def: Circuito
+		- Quantidade de interesse: correntes em cada parte do circuito
+		- Assumption: Correntes estacionarias/continuas
+		- Theorem: Impossibilidade de manter corrente estacionária em circuito de forma eletrostática
+			- Note: Circulação do campo eletrico ==> Componente tangencial nula ==> Apenas há componente normal
+			- Vetor densidade corrente paralelo ao campo ==> Apontar para fora do circuito
+			- Conclusion: Não há corrente no circuito
+		- Conclusion: Corrente estacionária deve ser mantida por forças não-eletrostáticas
+			- Example: "Forças" quanticas (bateria eletroquimica)
+			- Example: Forças mecanicas (Gerador de Van de Graff)
+		- Ignorar a causa da corrente estacionaria
+		- Def: Voltagem aplicada
+		- Def: resistor
+		- Calc: Resistencia equivalente de resistores em serie
+		- Calc: Resistencia equivalente de resistores em paralelo
+	- Dedução das Leis de Kirchhoff
+		- Note: Working em correntes estacionarias
+		- Def: Malha, No.
+		- Proof: 1a lei: Soma de correntes em um nó eh nula
+		- Proof: 2a lei: Soma de DDPs em uma malha é nula
+
+
+TODO: Densidade de corrente de polarização.
+TODO: Earnshaw's theorem. To prove. https://en.wikipedia.org/wiki/Earnshaw%27s_theorem
+TODO: Ferroelectric materials.
+TODO: Shielding from electric fields by metals.
+TODO: Energy stuff. Relation to force/torque. Necessary energy to polarize.
+TODO: Dielectric stresses/pressures. The general theory. In capacitors, etc.
+TODO: Piezoelectric materials. https://en.wikipedia.org/wiki/Piezoelectricity
+TODO: Electrostriction. https://en.wikipedia.org/wiki/Electrostriction
+TODO: Few electrostatic machines. Quick overview of their working.
+
+MAYBE: Por a teoria microscopica aqui também? =). Its a GOOD idea.
+

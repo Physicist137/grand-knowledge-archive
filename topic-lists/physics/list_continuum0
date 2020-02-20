@@ -1,0 +1,56 @@
+TITLE: Continuum Mechanics 00: Introduction and main concepts
+	- Pre-requisitives: Calculus 04, Fisica 02.
+	- Co-requisitives: 
+
+
+
+TODO: Axial Stress. Shear Stress. Some materials stress limits: Axial (compressible, tensile), shear.
+TODO: Examples involving statics.
+
+TODO: The Continuum Hypothesis.
+TODO: Total force in a piece: Body forces (Per unit mass) + Surface/Contact forces.
+TODO: The traction vector (depending on a plane). Cauchy Traction Field T(n, x, t).
+TODO: Contact force in a piece with defined cauchy traction field. (Surface integral!)
+TODO: Body force in a piece (Volume integral!)
+TODO: Total force and torque from contact/body forces in a piece.
+
+TODO: Cauchy Postulate (curvature independent). Cauchy fundamental lemma.
+TODO: Cauchy Stress Theorem.
+TODO: Stress notion. Stress tensor. Calculating the traction vector from the stress tensor.
+TODO: Symmetry of the cauchy stress tensor.
+TODO: Notion: Tij: Flow of i-momentum across surfaces of constant j. https://physics.stackexchange.com/a/134996/57094
+
+TODO: Conservation of mass.
+TODO: Conservation of Linear Momentum ==> Equilibrium Equations. Cauchy First Law of motion.
+TODO: Conservation of angular momentum ==> Symmetry of stress tensor. Cauchy second law of motion.
+TODO: Example: Mechanical Equilibrium in a fluid. Definition of pressure.
+
+TODO: Rotation of coordinates. How components of the stress tensor transform.
+TODO: Stress invariants.
+
+TODO: Principal axis of stresses (only normal stresses).
+TODO: Decomposition into: stress fluid-static tensor + stress deviator tensor  (trace and etc). Hydrostatic case.
+TODO: Condition for fluid at rest. The form of the stress tensor. The tractions in all directions.
+TODO: Example: Fluid at rest (hydrostatic equilibrium). 
+
+TODO: Stress tensor in other coordinates: cylindrical, spherical.
+
+TODO: Budgets: Mass, Momentum.
+TODO: Kinematics of Continuum. Deformation. Strains.
+TODO: Dynamics of Continuum. General equations of motion of the continuum.
+
+TODO: Some examples (elasticity and fluids). 
+TODO: Waves in Elastic Medium
+TODO: Newtonian Fluids
+TODO: Statics, etc.
+
+
+
+Crhis Something
+Geometry of pyhsics or something.
+
+
+
+http://maps.unomaha.edu/maher/GEOL3300/week4/stress.html
+https://en.wikipedia.org/wiki/Cauchy_stress_tensor
+https://en.wikipedia.org/wiki/Continuum_mechanics

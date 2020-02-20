@@ -1,0 +1,621 @@
+TITLE: Quantum Mechanics 01: System of one quantum particle in 1D.
+	- Pre-requisitives: Quantum 00, Classical Mechanics 01.
+	- Co-requisitives: None.
+	- Note: Analogo a Mecanica Classica 01.
+
+
+The Wavefunction in 1D.
+	- Basic properties of the wavefunction
+		- Satisfies Schrodinger Equation.
+		- Born Statistical Interpretation
+		- Probability of finding a particle between a, b at time t.
+		- Calc: Probability density of the wavefunction
+		- Question: Probability density has dimensions of what?
+		- Question: The wavefunction has dimensions of what?
+		- Note: The wavefunction is not adimensional!!
+	- Normalization of the wavefunction
+		- Stat interpretation: Wavefunction should be normalized to 1.
+		- Non-normalizable solutions are non-physical and rejected.
+		- If wavefunction is normalizable at time t, will it stay that way?
+	- Proposition: Schrodinger equation conserves normalization
+		- Assumption: Wavefunction is normalized + satisfies schrodinegr equation
+		- Calc: Time derivative of the normalization integral of wavefunction
+		- Calc: Partial derivative of time of probability density. (conjugates).
+		- Calc: Isolate d/dt at schrodinger equation and substitute
+		- Calc: Get d/dx in front of it all
+		- Calc: The time derivative of the normalization integral by direct integration
+		- Note: Integral stays normalized. This concludes the proof.
+		- Note: Very important, remmember: partial d/dt of probability density as d/dx (..).
+	- Expected position
+		- Calc: Expectation of position of a particle
+		- Note: This does NOT means average of several measurements of position of single particle.
+			- Question: Why?
+			- Note: What happens when you measure?
+		- Note: This means average of measurements of positions of ensemble of particles.
+	- Expected momentum
+		- Question: How to calculate velocity/momentum?
+			- The probability density is only in function of x, t.
+			- There is no way to calculate expected velocity...
+			- Btw, in quantum sense, what is velocity anyway?? There is only wavefunction!
+		- Note: Expected position might change.
+		- Postulate: Time derivative of expected position is expected velocity.
+		- Calc: Expected Velocity (using manipulations of before).
+		- Calc: Expected Momentum
+		- Note: We can pull associated operator of momentum
+		- Calc: Momentum operator.
+	- Operator and general case (little math) (not rigorous) (just curiosity).
+		- Note: Association with position and momentum operators.
+		- Position operator.
+		- Momentum operator.
+		- Calculation of expected dynamic variable O(x, p).
+			- Substitution of x by position operator
+			- Substitution of p by momentum operator
+			- Dynamic Variable operator O.
+		- Note: Everything is dependent of position and momentum.
+		- Example: Calc: Expected Value of Kinetic Energy.
+		- Example: Identify Kinetic energy operator.
+		- Example: Identification of total energy operator (hamiltonian).
+		- Example: Close look at schrodinger equation. Write with hamiltonian operator.
+	- Ehrenfest Theorem
+		- TODO.
+	- Variance and standard deviation
+		- Def: Variance
+		- Calc: Variance
+		- Calc: Variance in function of expected values.
+	- Uncertainty principle
+		- De-brougli formula
+		- Uncertainty principle.
+	- Probality current
+		- Remmember: The probability of finding particle in interval [a, b].
+		- Calc: Rate of change of probability of finding particle in [a, b].
+		- But: Probability is always conserved in the whole system..
+		- Calc: Associated probability flow (current).
+		- Calc: Probability current.
+	- Example: Gaussian wavepacket
+		- Calc: Normalization constant
+		- Calc: Potential function satisfied by the gaussian wavepacket
+		- Calc: Expectation values: x, xx, p, pp.
+		- Calc: Uncertainty product.
+	- Continuity Equation for Non-Hermitian potential
+		- Calc: Rate of change of probability of finding particle in [a, b].
+		- Calc: The Continuity Equation.
+		- Calc: Probability current.
+		- Note: Probability is no longer conserved.
+		- Note: Imaginary potentials can be used for annihilation of particles. Say: V = V0 + iG.
+
+
+Time-Independent Schrodinger Equation
+	- Separation of variables
+		- Separation constant E.
+		- Equation and solution for variable of time.
+		- Equation of variable of space.
+		- Time-Independent Schrodinger Equation.
+		- The wavefunction
+	- The separable solutions
+		- Calc: The wavefunction
+		- Calc: Probability Density.
+			- Note: Probability density does not vary with time.
+			- Note: Separable solutions are stationary states.
+		- Calc: Expectation value of position
+			- Note: It does not vary with time.
+			- Note: Velocity and momentum is zero.
+		- Show: Expectation values of any quantity is constant in time.
+	- The total energy of separable solutions
+		- Calc: Hamiltonian operator.
+		- Note: Time-Independent Schrodinger equation.
+		- Calc: Expected value of hamiltonian
+		- Note: That's why we called the constant E.
+		- Calc: Expected second moment of hamiltonian
+		- Calc: Variance of the hamiltonian
+		- Note: Every measuremen of total energy is certain to return E.
+		- Proof: The constant/energy E must be real (cannot be complex).
+		- Proof: The energy E most exceed minimum value of V(x).
+	- General Solution
+		- Linear Superposition.
+		- Discrete energy levels. General Solution
+		- Continuous energy levels. General Solution.
+		- Movement may rise in the general solution.
+	- Example: Wavefunction at t=0 in supérposition of two stationary states
+		- Calc: The wavefunction
+		- Calc: The probability density.
+		- Note: Probability density does depend on time.
+	- TODO: To show boundary conditions (phi and d phi/dx are continuous, excpt where V->inf.) (section 2.5).
+
+
+
+The Infinite Square Well
+	- The Infinite Square Well Potential in interval [0, a].
+		- Description of the problem
+		- Quantum particle in potential well.
+	- The Stationary States Solution
+		- Calc: Separable solutions. Contour conditions.
+		- Calc: Energy levels. (Discrete).
+		- Calc: Normalization constant of each stationary state n.
+		- Solution of stationary state n.
+		- Def: Ground State. Ground Energy. Excited states.
+		- Calc: Ortogonality of solutions.
+		- Note: Solutions are orthonormal.
+		- Note: Fourier Series. Solutions are complete by dirichlet theorem.
+		- Calc: Coeficients cn of each stationary state (initial conditions).
+	- The General Solution
+		- Wavefunction for state n (Time and space function multiplied).
+		- Writing the "time function" explicitly to depend with n.
+		- General wavefunction.
+	- Position and momentum of particle
+		- Calc: The average position at each stationary state n
+		- Calc: The average momentum at each stationary state n
+		- Calc: Second moment of position at each stationary state n
+		- Calc: Second moment of momentum at each stationary state n
+		- Calc: The position variance at each stationary state n
+		- Calc: The momentum variance at each stationary state n
+		- Calc: The uncertainty product at each stationary state n
+		- Question: Which state carries more uncertainty? Which state carries less?
+		- Question: Which state better approuchs the uncertainty principle? 
+	- Probability coeficients
+		- Remmember: Integration of probability density returns 1.
+		- Consider: Special Case: Starting at wavefunction(x, t=0).
+			- Calc: The probability density in terms of the stationary states.
+			- Calc: Using orthogonality of the solutions
+			- Note: The summation of all |cn|^2 is 1.
+		- Calc: Probability density of general wavefunction (in terms of stationary state).
+		- Calc: Integration of probability density (in terms of stationary state).
+		- Possibly: Relation with |cn|^2 with probability of each state
+	- Energy of the particle
+		- Note: Energy levels of the particle.
+		- Calc: Average energy of the particle
+		- Note: Equation of average energy is ponderated average of energy levels
+		- Note: Interpretation of |cn|^2 as a probability term
+		- Calc: Summation over all |cn|^2.
+	- Quantum Revival Time
+		- Recall: General wavefunction for the infinite well
+		- Note: The time part is simple imaginary exponent. Its periodic!
+		- Calc: Periodicity of the wavefunction
+		- Def: Quantum revival time.
+		- Calc: Classical periodicity of wavefunction (in function of energy)
+		- Note: Classical one depends on energy, quantum one does not.
+		- Question: Is there a relation with classical period and quantum revival time?
+		- Calc: Quantum revival time of 1g ball in 10cm box.
+		- Calc: Quantum revival time of electron in 10cm high-electric-potential box.
+		- Note: This is only valid for 1D potential well.
+	- Example: The infinite square well potential with initial conditions
+		- Initial condition: Wavefunction at t=0 is parabolic: Ax(a-x).
+		- Calc: Normalization constant A.
+		- Calc: Coeficients of stationary state solutions
+		- Calc: The full wavefunction (general solution).
+		- Calc: Probability that we will measure the ground energy.
+		- Calc: Total probability. Evaluation of summation of 1/n^6 over odd numbers.
+		- Calc: Ground Energy.
+		- Calc: Expected value of energy from the coeficients
+		- Calc: Expected value of energy using hamiltonian operator over wavefunction(x, t=0).
+		- Show: The stationary state solutions form complete basis which complies initial conditions.
+
+
+The Harmonic Oscilator: The analytic way.
+	- Approximation of general potential
+		- Taylor expansion around x0 of a general potential
+		- Approximation of small x in equilibrium point.
+		- Calc: Spring constant as second derivative at x0.
+	- The quantum Harmonic Oscilator
+		- The potential
+		- Time independent Schrodinger Equation
+		- Substitution for simplification: xi = sqrt(mw/hbar)x.
+		- Note: Energy in units of 1/2 hw.
+	- Solution for very large distances
+		- Equation for very large distances
+		- Solution: exp(+- xi^2/2).
+		- Solution checkage by direct substitution
+		- Note: One term is non-normalizable. Lets ignore.
+	- The general case
+		- Redefinition of the stationary solution: h(x)exp(-xi^2/2).
+		- Note: Inclusion of the assymptoptic term.
+		- Calc: First and second derivative of the stationary solution
+		- Calc: The re-writing of schrodinger equation.
+		- Calc: Solution try by power series (taylor expansion).
+		- Calc: Recursion formula for coeficients
+	- The general solution
+		- Calc: Coeficients of the even solution (recursive)
+		- Calc: Coeficients of the odd solution (recursive)
+		- Calc: Convergence tests. Ratio test: Odd and even solution converges.
+		- Calc: Coeficients of the even and odd function (non-recursive).
+		- Note: Even and odd functions has no limit as x->inf.
+		- Note: Thus, general solution is non-normalizable... unless....
+		- Calc: Truncation of series ==> Quantization of energy
+		- Calc: Energy of the harmonic oscilator
+		- Calc: The Hermite polynomials
+		- Calc: The normalized general solution
+	- Quantum Revival Time
+		- Calc: Quantum revival time of the n-th stationary state
+		- Calc: Quantum revival time of the 1-th stationary state.
+		- Calc: Revival time of n-th in function of 1-th stationary state.
+		- Note: Multiplication by 4 leads to revival time of overall harmonic oscilator
+		- Quantum revival time of harmonic oscilator
+		- Calc: Classical revival time (period of harmonic oscilator)
+		- Comparisom of quantum and classical revival time.
+		- Question: Why are they different?
+	- Few plots
+		- Calc: Solution for n=1. Plot it.
+		- Calc: Solution for n=2. Plot it.
+		- Plot: Solution for n=3.
+		- Plot: Solution for n=100.
+	- Classical Harmonic Oscilator
+		- Calc: Angular frequency of oscilation
+		- Calc: Potential in function of angular frequence
+		- Calc: Inversion for t(x)
+		- Calc: Probabiilty density of finding classical particle
+		- Note: Compare classical probability density and quantum probability density
+		- Note: They are similar at large quantum values of n.
+	- TODO: Exact-closed form solution for gaussian particle.
+		- TODO: Motivation of how to find it.
+		- TODO: Expected: Position, Momentum, Energy.
+		- TODO: How probability density evolves with time.
+		- TODO: Probability currents.
+
+
+The Harmonic Oscilator: The algebraic way
+	- Schrodinger Equation of the harmonic oscilator
+		- The equation
+		- Using the momentum operator
+		- Factoring out 1/2m. Note: Sum of two squares
+		- Using the hamiltonian operator.
+		- The schrodinger equation with the momentum operator.
+		- The schrodinger equation with the hamiltonian operator.
+	- Ladder operators
+		- Factoring out numbers
+		- Note: Be careful with operator. They are not comutative in general.
+		- Definition of the ladder operators
+		- Ladder operators using the hamiltonian operator
+		- Writing hamiltonian operator as ladder operators.
+	- Product of the ladder operators
+		- Calc: Product of a- and a+
+		- Note: Comutator of x, p. [x, p].
+		- Calc: Commutator of [x, p] with test function f.
+		- Canonical comutation relation
+		- Calc: Expression of product of a- and a+.
+		- Calc: Product of a+ and a-
+		- Comutator of the ladder operators
+	- Theorem: f satisfies schr ==> a+f satisfies too.
+		- Calc: Hamiltonian of ladder a+ of eigenfunction.
+			- Writing hamiltonian as ladder operator (a+a-).
+			- Factoring out first ladder operator
+			- Writing a-a+ using hamiltonian operator.
+			- Using E as eigenvalue of hamiltonian operator in f.
+		- Note: Energy of the new a+f function is different.
+		- Calc: Energy of the stationary eigenfunction as a+ ladder operator is applied
+		- Calc: Hamiltonian of ladder of a- of stationary eigenfunction.
+		- Calc: Energy of the stationary eigenfunction as a- ladder operator is applied
+	- The ladder operators
+		- Note: a+ increases the energy of the system.
+		- Note: a- decreases the energy of the system.
+		- Def: Raising ladder operator.
+		- Def: Lowering ladder operator.
+		- Writing ladder operators using momentum.
+		- Writing ladder operators using derivative.
+		- Note: Lowering and raising operators are complex conjugates of each other.
+		- Note: Application of a- sucessvely leads to lower value than V. Contradiction.
+		- Note: Application of a- in ground eigenfunction is zero (non-normalizable).
+		- Note: If we have eigenfunction for single energy level, we can get all of them.
+	- The ground state eigenfunction
+		- Remmember: Application of lowering ladder operator of ground eigenfunction is zero
+		- Calc: Differential equation satisfied by the ground eigenfunction.
+		- Calc: Solution of differential equation
+		- Calc: Normalization constant
+		- Calc: The ground state eigenfunction
+		- Question: How about the 50-th energy state eigenfunction? =D.
+			- How about its normalization?
+			- How about its energy levels?
+	- The energy levels
+		- Remmember: Application of lowering ladder operator of ground eigenfunction is zero
+		- Calc: Hamiltonian operator as ladder operator (with left one as a- ofc).
+		- Calc: Application of hamiltonian operator in ground state eigenfunction.
+		- Calc: The ground energy
+		- Calc: All energy levels. The n-th energy level.
+	- The normalization constant
+		- Proof: a+- is the hermitian conjugate of a-+
+		- Calc: TI-SE with hamiltonian with ladder operators, into n-th eigenstate (nth energy state).
+		- Calc: The eigenvalues of a+a- and a-a+.
+		- Calc: The eigenvalues of a+ and a- (using hermitian conjugate and integral).
+		- Calc: The normalization constant of the nth-eigenstate found with (a+)^n the ground state.
+	- Position and momentum operators
+		- Remmember: Definition of ladder operators
+		- Inversion
+		- The position operator in terms of ladder operators
+		- The momentum operator in terms of ladder operators.
+	- Averave values
+		- Calc: Expected value of position
+		- Calc: Expected second moment of position.
+		- Calc: Average of potential energy
+		- Calc: Variance of position.
+		- Calc: Average and second moment and variance of momentum
+		- Calc: Uncertainty principle for the n-stationary state.
+
+
+The Free particle
+	- Yes! This is what should be the simplest example.
+	- General Solution
+		- Time Independent Schrodinger Equation
+		- General solution (superposition of complex exponents).
+		- The wave-equation.
+		- Identification of a velocity.
+		- Calculation of momentum from velocity.
+		- Ops: Momentum is off by factor of 2 from de brougli relation.
+		- Err: This wave-equation is non-normalizable.
+	- Pancherel's Theorem
+		- General Solution as a fourier series (cossine and sine).
+		- Solution as complex fourier series (from -inf to inf).
+		- Coeficients of the complex fourier series
+		- Change of variables, increase in length: Convergence to integral
+		- Fourier integral formula
+		- Fourier transform
+		- Inverse fourier transform
+	- The wavefunction from Pancherel's Theorem
+		- The wavefunction (integration from theorem).
+		- The initial condition (wavefunction at t=0).
+		- Def: The wavepacket.
+		- Finding the wavepacket (fourier transform of wavefunction at t=0).
+		- Finding wavefunction from wavepacket (inverse fourier transform).
+	- Dispersion relation
+		- Wavefunction with angular frequency.
+		- Def: Dispersion relation. w(k).
+		- Approximation in the wavefunction for small range w(k).
+		- Calc: Group Velocity
+		- Calc: Phase Velocity
+		- Note: Now we understand off factor of 2.
+	- Example: Particle localized in range [-a, a].
+		- Calc: Normalization constant
+		- Calc: The wavepacket
+		- Calc: The wavefunction (general solution).
+		- Plot of wavefunction.
+	- Example: The gaussian wavepacket
+		- Initial condition of wavefunction is gaussian.
+		- Calc: Normalization constant
+		- Calc: The wavefunction (general solution).
+		- Calc: Probability density function
+		- Note: Verification what happens to probability density as time passes.
+		- Calc: Probability current
+		- Note: Where is probability going?
+		- Calc: Averave value of position
+		- Calc: Averave value of momentum
+		- Calc: Second moment of position
+		- Calc: Second moment of momentum
+		- Calc: Position and momentum variance.
+		- Calc: Compare uncertainty principle.
+	- Example: The travelling gaussian wavepacket.
+		- TODO: TODO!!;
+
+
+
+Finite Square Well
+	- The bound solution
+		- Schrodinger equation for all three regions
+		- Calc: Normalizable stationary solutions for all three regions.
+		- Calc: Applications of continuous stationary solutions and its derivatives
+		- Calc: The energy levels
+		- Note: Its a transcedental equation
+		- Calc: Energies of wide/deep well approximation.
+		- Calc: Energies of Shallow/narrow well approximation.
+	- The scattering solution
+		- Calc: Normalizable stationary solutions for all three regions.
+		- Calc: Applications of continuous stationary solutions and its derivatives
+		- Calc: The transmission coeficient
+		- Calc: The reflection coeficient
+		- Calc: Energies such that well is 100% transparent
+		- Note: Same energies as infinite square well allows.
+
+
+
+Delta Function Well
+	- The delta function
+		- Sequence of functions
+		- Convergence and delta
+	- The delta potential
+		- Bound state (E < V(inf)).
+		- Scattering state (E >= V(inf)).		
+		- Note: In most cases, V(inf) = 0.
+	- Bound state solution for down delta (E < 0)
+		- Time independent schrodinger equation
+		- Solution to schrodinger equation (before the well).
+		- Solution to schrodinger equation (after the well).
+		- Note: Some terms have 0 coeficients such that are normalizable.
+		- Continuity of the delta function
+		- Integration of schrodinger equations from [-e, e], for any e>0.
+		- Allowed energy
+		- Normalization of the wavefunction
+		- The wavefunction (note: one can use module).
+	- Scattering state solution for down delta
+		- Time independent schrodinger equation
+		- Solution to schrodinger equation (before the well).
+		- Solution to schrodinger equation (after the well).
+		- Continuity of delta function
+		- Note: All solutions are not normalizable
+		- Consider: Scattering from left
+		- Ratio of coeficients of reflection/transmition from incident.
+		- Reflection coeficient
+		- Transmission coeficient
+		- Note: Solutions do not represent particles!!
+	- TODO: Delta well as limiting case of finite square well.
+	- TODO: Moving delta well. Time dependent schrodigner equation.
+
+
+
+Arbitrary Potential
+	- http://www.physicspages.com/2015/06/18/greens-function-for-one-dimensional-schrodinger-equation/
+	- TODO: Construct arbitrary potential from several deltafunctions
+	- TODO: Green's Function for schrodinger equation
+	- TODO: General Solution for arbitrary potential.
+	- TODO: green's functions for all potentials so far.
+	- TODO: Example: Hyperbolic secant potential (P 2.51 erase me)
+		- TODO: Plottage of the potential.
+		- TODO: Find the solutions of time independent shcrodinger equation
+		- TODO: Ground state and stationary solutions.
+		- TODO: Bound solution.
+		- TODO: Scattering solution. 
+		- To note: No reflection. This is a reflectionless potential.
+	- TODO: Transmission and reflection from general potential.
+	- TODO: Scattering Matrix. 
+	- TODO: Transfer Matrix. Product of such matrixes is new transfer matrix.
+
+
+
+Quantum Formalism
+	- Elements of quantum mechanics
+		- Wavefunctions, operators.
+		- Note: Wavefunctions satisfy definition of abstract vectors.
+		- Note: Operators can act as linear transformations.
+		- Note: Natural language is: Linear Algebra
+	- Hilbert Space
+		- Wavefunctions as vectors
+		- Square-Integrable functions.
+		- Inner product of two functions.
+		- Def: Normalized function.
+		- Def: Orthogonal Functions.
+		- Def: Orthonormal Functions.
+		- Def: Complete set of functions
+	- Operators in Hilbert Space
+		- Expectation value of a operator (integral form)
+		- Expectation value of a operator (inner-product form)
+		- Def: Hermitian Operator Q
+			- <==> Real expectation value.
+			- <==> Reverse order of inner-product of f and Qf.
+			- <==> Reverse order of inner product of f, g.
+		- Check: Example: Momentum operator is hermitian (check).
+	- Determinate state
+		- Def: Determinate state. Measure is certain.
+		- Def: Undeterminate state. Measure is uncertain.
+		- Note: Variance of operator in determinate state is zero
+		- Theorem: Determinate states are eigenfunctions of operator
+			- Calc: Recover Eigenvalue equation from operator in determinate state
+			- Note: Eigenvalue is expected value of operator
+		- Note as example: Time-indepedent schrodinger equation
+	- Spectrum of an operator.
+		- Eigenvalue equation of operator.
+		- Def: Discrete Spectrum.
+		- Def: Continous Spectrum.
+	- Discrete Spectra properties of operator
+		- Theorem: Eigenvalues of hermitian operators are real
+		- Theorem: Non-degerate Eigenfunctions of hermitian operators are orthogonal.
+		- The degenerate case: Gram-Schmidt Orthogonalization
+	- Statistical Interpretation of Quantum Mechanics over discrete spectra
+		- Postulate: Probability of eigenvalue qn is: |cn|^2, where cn = <f|psi>.
+		- Checking: The sum of all probabilities is one
+			- Coeficient (dependent of time) from wavefunction and eigenfunction
+			- Note: Eigenfunctions are orhotogonal. We can sum them all.
+			- Expressing wavefunction as sum of all eigenfunctions
+			- Note: Full probability is inner product of wavefunctions.
+			- Calc: Full probability (which is 1).
+		- Calc: Expected value of general operator
+			- Note: Operator complies eigenvalue equation
+			- Expected value using inner product.
+			- Calc: The expected value (using eigenfunctions).
+		- Calc: Direct Consequence: Enhenfest Theorem.
+	- Statistical Interpretation of Quantum Mechanics over continuous spectra
+		- Postulate: Probability density is: |c(z)|^2, c(z) = <fz|psi>.
+		- Calc: "Eigenfunction" of position operator: Dirac Delta.
+		- Calc: "Eigenfunction' of momentum operator: Complex exponential.
+		- Calc: Coeficients of continuum spectra from wavefunction
+		- Calc: Coeficients of momentum spectra from wavefunction
+		- Def: Position space wavefunction
+		- Def: Momentum space wavefunction
+		- Note: Probability density of momentum in momentum space wavefunction.
+		- Note: They are fourier transform of themselves
+	- Example: Bound delta well
+		- Recall: Position-space wavefunction
+		- Calc: Momentum space wavefunction
+		- Calc: Probability momentum has value greater than p0=m*alpha/hbar
+	- Other examples
+		- Calc: Momentum space wavefunction of infinite square well. Momentum probabilities.
+		- Calc: Momentum space wavefunction of harmonic oscilator. Momentum probabilities.
+	- Abstract Vectors
+		- Note: Wavefunction (position and momentum ones) and coeficients has same information
+		- Abstract Vector in hilbert space
+		- Vector coeficients of a hilbert vector (note: infintie dimensional...)
+		- Matrix coeficients of a hilbert operator (note: Infinite dimensional...).
+		- Def: Ket and Bra.
+		- Def: Projection operator
+
+
+Uncertainty and Expected Values
+	- Generalized Uncertainty Relation
+		- Uncertainty/Variance of operator A and B.
+		- Calc: Applying Schwarz Inequality
+		- Note: |z|^2 >= [Im(z)]^2. Write imaginary in terms of the complex itself.
+		- Calc: The operators themselves.
+		- Calc: Using the commutator relation
+		- The generalized uncertainty relation
+		- Example: Uncertainty of position and momentum
+	- Time variation of expected value
+		- Calc: Time derivative of expeceted value of hermitian operator Q.
+		- Calc: Applying the Time-dependent Schrodinger Equation
+		- Calc: Arrvie in relation using comutators.
+		- Note: Expeceted value of operator is constant if it comutes with hamiltonian.
+		- Calc: Time variation of expected value of any operator over stationary eigenstates (Hpsi = Epsi)
+	- Time uncertainty
+		- Variance between hamiltonian and some other operator Q
+		- Calc: Use the time variation of expeceted value
+		- Define amount of time expectation vaue changes in one standard deviation
+		- Uncertainty between time and energy.
+	- Ehrenfest theorem
+		- Objective: Compute expected values of position and momentum
+		- Expected value of time variation of position
+			- Objective: What would be the expected value of position? Lets calc it!
+			- Recall: Canonical comutation relations
+			- Calc: Expected value of the position
+			- Note: Its simply <p>/m
+			- Note: Basically, its simply first hamilton equation.
+			- Note: How about second one?
+		- Expected value of time variation of momentum
+			- Show: [f(x), p] = -ih df/dx, for any f.
+			- Calc: Epected value of momentum
+			- Note: Its basically the second hamilton equation!
+			- Note: Or, newton's second law
+		- Conclusion: Expected values of position and momentm follow hamilton's equation
+		- Conclusion: Expected value of position and momentum follow newton's law (conservative forces ofc).
+		- Note: Maybe.... we got the connection from quantum to classical!
+	- Virial Theorem
+		- Calc: Commutator [xp, H]
+		- Calc: Time variation of <xp>
+		- Note: In Stationary state, d/dt <xp> = 0.
+		- The virial Theorem.
+		- The virial theorem for stationary states.
+
+
+Harmonic Oscilator.
+	- OBJECTIVE: Try to use no integrals everywhere. Only <|> dirac notation.
+	- TODO: Introduce the |n> vector. Ladder operators.
+	- TODO: Compute <n|x|n'> and <n|p|n'>. Also: To draw these infinite matrices.
+	- TODO: Compute <n|x^2|n'> and <n|p^2|n'>. Compute <n|V|n'> and <n|T|n'>. Compute <n|H|n'>. Also: To draw these infinite matrices.
+	- TODO: Compute components of infinite matrix of the hamiltonian. Show H is diagonal.
+	- TODO: Apply virial theorem, show <T> = <V>.
+
+
+
+-----------------------------------------------------------------------
+
+TODO: Analise da curva de potencial? Zonas proibidas? Zonas likely to tunnel? etc?
+
+TODO: To point out: Before schrodinger equation, we "mixed" quantum and classical physics
+	- Planck's law: The derive average radiance from classical electromagnetism (average poyinting vector) to calculate spectrial radiance.
+	- Photoelectric effect: The inclusion of the kinetic energy expression in classical form
+	- Comptom Effect: A classical elastic collision is calculated, with quantum-calculated energies
+	- Bohr's Atom: The inclusion of the kinetic energy expression in classical form (again).
+TODO: Explain those phenomena (and many others) from a purely quantum point of view.
+TODO: Symmetric barrier potential inside box. Transmission and reflection coeficients. Period/Frequence of tunneling. Chirality of molecules.
+
+
+
+
+TODO: Other Things
+	- The nice double slit experiment.
+
+TODO: At the end, give a light to the postulates of quantum mechanics, and how could one fully mathly formalize it.
+
+---
+TO THINK: TO have perturbation theory? Or maybe it may be quantum4? (shifting formal qnautm to quantum5 ofc).
+
+
+---------------------
+
+PERHAPS: Make a quantum 05? And shift formal quantum to 06? =D.
+http://www.physicspages.com/index-physics-quantum-mechanics/shankar-principles-of-quantum-mechanics/
+http://www.physicspages.com/2017/02/06/path-integral-formulation-of-quantum-mechanics-free-particle-propagator/
+http://www.physicspages.com/2017/02/07/free-particle-propagator-from-a-complete-path-integral/
+http://www.physicspages.com/2017/02/10/the-path-integral-is-equivalent-to-the-schrodinger-equation/

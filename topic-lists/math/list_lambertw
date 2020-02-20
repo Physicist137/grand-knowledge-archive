@@ -1,0 +1,38 @@
+TITLE: LambertW Function 01
+	- Pre-requisitives: Elementary Algebra
+	- Co-requisitives: None
+
+
+Trivial Equations
+Properties of W Function
+Some non-trivial Equations
+Logarithm Equations
+Equations involved W itself. x = W(x), etc.  E.g.: x = W(a/x) ==> x = W(sqrt(a)/2
+
+Trivial Examples
+x * e^x = a
+bx * e^x = a
+x * e^(cx) = a
+bx * e^(cx) = a
+
+
+Examples:
+x^2 e^x = a
+x^n e^x = a
+x * e^x^2 = a
+x * e^x^n = a
+x^n * e^x^m = a
+
+Nice ones:
+x * (logx)^a - 2^(2t) = 0, x>1. ==> x = exp(a * W(a))
+x = 1 - e^(a*x) ==> x = 0.
+x*e^x + a*(e^x-1) = 0 ==> x = 0.
+x^x^a = b
+x^x = a
+
+
+NON ALGEBRIC STUFF:
+Derivative
+Integration
+Series Representation (Lagrange inversion theorem). Centered at zero and inf. (and 1/e).
+Integral Representations

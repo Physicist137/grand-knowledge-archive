@@ -1,0 +1,111 @@
+TITLE: Gravity 01: Gravitational Newtonian Formalism
+	- Pre-requisitive: Continuum 00.
+	- Co-requisitive: 
+	- Recommended: Mecânica Clássica 03.
+
+
+Gravitação Newtoniana
+	- Principio de equivalencia
+		- Principio de equivalencia de galileu
+		- Principio de equivalencia fraco de Einstein
+		- Principio de equivalencia forte de Einstein
+	- Carga gravitacional
+		- Equação de movimento envolvendo campo gravitacional
+		- Analogy: Equação de movimento envolvendo campo eletrico
+		- Aplicação do principio de equivalencia de galileu
+		- Note: Carga gravitacional é a massa.
+	- Força gravitacional e campo gravitacional
+		- Força gravitacional pontual
+		- Força gravitacional em distribuição discreta
+		- Força gravitacional em distribuição continua
+	- Campo gravitacional
+		- Def: Campo Gravitacional
+		- Campo gravitacional pontual
+		- Campo gravitacional em distribuição discreta
+		- Campo gravitacional em distribuição continua
+	- Energia gravitacional
+		- Def: Particula fonte e particula de teste/prova.
+		- Equação de movimento de um corpo sujeito a força gravitacional de corpo fixo
+		- Multiplicando equação pelo fator integrante
+		- Energia mecanica da particula de prova
+		- Energia potencial
+	- Potencial Gravitacional
+		- Formal Definition and calculation
+		- Relação com energia potencial
+		- Trabalho realizado pelo campo gravitacional de massa m
+	- Inexistencia da Dinamica de gravidade
+		- Efeito de ação à distancia
+		- EM-Theory is a true field theory
+	- Campo gravitacional gerado por casca esferica
+		- Raio externo a, raio interno b.
+		- x: Ponto do espaço onde calculará o campo
+		- y: Ponto do volume da esfera
+		- Calc: Campo em x > a
+		- Calc: Campo em x < b
+		- Calc: Campo em b < x < a
+		- Note: Em toda a região interna não existe aceleração gravitacional
+		- Note: Potencial de distribuição esférica uniforme (solida ou não), fora dela, eh -GM/r.
+		- Note: Toda massa pode ser considerada como estando no centro em distribuição esferica.
+	- Equação de Poisson
+		- Fluxo do campo gravitacional
+		- Calc: Fluxo em esfera
+		- Note: Fluxo quando normal e r perpendiculares é zero
+		- Note: Compor qualquer curva com variação infinitesimal normal e radial
+		- Lei de Gauss
+		- Calc: Equação de Poisson
+		- Solução geral da equação de Poisson
+		- New Def: Potencial é campo gravitacional
+		- New def: Campo aceleração gravitacional
+		- Equação de Laplace
+	- Solução Formal da Equação de Poisson
+		- Função de Green do operador Laplaciano
+		- Solução da equação de Poisson usando função de Green
+		- Note: Problem reduces to find a green function. TODO.
+	- Equação de Laplace em coordenadas cartesianas
+		- Equação de laplace em coordenadas (x, y, z)
+		- Assume: Solução é separável em x,y,z.
+		- Solução geral
+		- Note: Good for cubic simmetries
+		- Example: Potencial gravitacional de cubo
+	- Equação de Laplace em coordenadas esféricas
+		- Separação de variáveis
+		- Equação azimutal e solução azimutal
+		- Equação radial e solução radial
+		- Equação polar e solução polar
+		- Equação generalizada de Legendre
+		- Simetria azimutal e polinomios de Legendre
+		- Example: Campo gravitacional de esfera
+
+
+
+TODO: Binding energy. Binding energy of planets. How much energy death star shoots? =D.
+TODO: Pressures and stresses at interior of masses due to gravity. Pressures in planets. What pressure is our inner core?
+TODO: Kelvin-Helmholtz Contraction. https://en.wikipedia.org/wiki/Kelvin%E2%80%93Helmholtz_mechanism
+TODO: Gravitational field equations. Gravity. Potential. Laplace Equation. Poisson equation. Solution to those equations.
+TODO: Energy density (of gravitational field). Continuity equation. Pressures/Stresses.
+TODO: Forças de Maré. Application of pressure/stresses. Moon. (But not too detailed... detailed will be in Astrophysics 01: Planetary physics).
+TODO: Roche Limit. https://en.wikipedia.org/wiki/Roche_limit
+TODO: Torques. Tidal Locking
+TODO: Spinning planets. Centrifugal potential. Planetary shape. Earth oblatness calculation. Equatorial bulge.
+TODO: Oblate Earth. Gravitational quadrupole moment. Orbital quadrupole contributions. Precession of satellites.
+TODO: Axial Precssion (equinox precession). Changing polar stars. https://en.wikipedia.org/wiki/Axial_precession
+TODO: Oscilation of axial tilt. https://en.wikipedia.org/wiki/Axial_tilt
+TODO: Orbital Manouvers. Circular Orbit. Eg.: Height of geostationary satellites.
+TODO: Two-Body problem.
+TODO: Restricted three-body problem. Lagrangian points (calcs, stabilities, etc).. Etc.
+TODO: Euler Three-Body Problem. https://en.wikipedia.org/wiki/Euler%27s_three-body_problem
+TODO: Precession.
+TODO: Pertubation. Perturbed orbits. Calc of all orbits in solar system. PRecession.
+TODO: Mercury precession problem. Solution into GR..
+TODO: Galactic rotation curves. Dark Matter and dark energy. MOND.
+
+
+TODO: Perhaps: At end, insert gravitational dynamics (mimic maxwell equations for gravity).
+
+
+
+
+
+----------------------------------
+For Other gravities: Ie, gravity 234:
+https://en.wikipedia.org/wiki/Alternatives_to_general_relativity

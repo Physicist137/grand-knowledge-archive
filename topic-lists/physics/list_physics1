@@ -1,0 +1,579 @@
+TITLE: Fisica 01: Basic-basic Introduction to Fundamental Concepts of Classical Mechanics
+	- Pre-requisitive: Calculus 01, Vector Algebra.
+	- Co-requisitive: None.
+
+
+Visão Geral da Física
+	- Physics: Study of motion.
+	- Dominio de validade de areas da fisica
+		- http://upload.wikimedia.org/wikipedia/commons/f/f0/Physicsdomains.svg
+		- Warning: Não faça previsões de certo fenomeno com teoria fora da validade.
+		- Recommended: "Não mate formiga com bola de canhão"
+	- Note: Fisica 1, 2, 3, 4 is only the basics.
+		- Real Physics to be introduced after it.
+		- Classical Mechanics, Electrodynamics, etc..
+	- Forças fundamentais da natureza
+		- Força Gravitacional
+		- Força eletromagnética
+		- Força nuclear forte
+		- Força nulcear fraca
+
+
+Analise Dimensional
+	- Grandezas físicas
+		- Formal Definition
+		- Dimensão das Grandezas
+		- SI (sec, metro, kg, kelvin, ampere, ..)
+		- Comparar grandezas (result makes sense?)
+		- Def: Grandeza escalar
+		- Def: Grandeza vetorial
+	- Pequeno exemplo
+		- Verificar validade de formula
+		- x = t may be wrong (1 must be m/s)
+		- Impossibilidade de haver medida em algo nao potencia
+			- Jusitificativa by Taylor expansion
+		- Objective: Todas as leis da física devem ser válidas independente da escolha de unidades
+	- Tipos de unidades
+		- Def: Unidades primárias
+		- Def: Unidades secundárias
+	- Tipos de grandezas
+		- Def: Grandezas primárias
+		- Def: Grandezas secundárias
+		- Def: Grandezas adimensionais
+		- Examples: Grandezas primarias, secundarias e adimensionais
+	- Escolha de unidades primárias
+		- Convenções (SI, CGS, ..)
+		- Example: Sistema de unidades arbitrario
+		- Composição de grandezas secundarias com grandezas primarias
+		- Note: Dimensão da grandeza não deve mudar por causa da escolha do sistema de unidade
+		- Note: We need a single way to express dimension independente das unidades
+	- Escrita da dimensão de uma grandeza
+		- Escrita de Dimensões primárias
+		- Escrita de Dimensões secundárias
+		- Example: Length, Time, Speed, Acceleration
+		- Dimensão da soma de duas grandezas gerais
+		- Dimensão da multiplicação de duas grandezas gerais
+	- This is a powerful tool
+		- Estimate: Estime periodo do pendulo dependendo de: tamano, massa, gravity.
+		- Estimate: Aceleração centripeta dependendo de velocidade e raio.
+		- Estimate: Velocidade de um corpo lançado em ambiente com gravidade e está na altura h
+		- Note: Dependente de uma constante de proporcionalidade adimenssional desconhecida
+		- Note: Dependente de termo constante desconhecido de mesma dimensão
+		- Note: Não houve necessidade de saber as leis da física para estimar tais coisas
+		- Note: Não satisfaz analise dimensional ==> Its wrong
+		- Show: As constantes de proporcionalidade para cada exemplo
+	- Métodos de determinação das constantes desconhecidas
+		- Métodos experimentais: Realização do experimento e medidas
+		- Métodos teóricos: Utilizando modelos de física teórica
+		- Métodos computacionais: Utilizando simulação de computador. Computational "experiment".
+	- Example: Periodo de um pendulo composto (não-simples)
+		- Show: Formula vinda de física teórica para periodo de pendulo composto
+		- Note: So far, analise dimensional could not have guessed that =(.
+		- We need a better method
+	- Método da equação adimensional
+		- Theorem: Toda e qualquer equação física pode ser escrita de forma adimensional
+		- One side of equation: Grandeza adimensional dependendo da grandeza que queremos estimar
+		- Other side of equation: Grandeza adimensional não-dependente da grandeza que queremos estimar
+		- Uso de uma função que preserve a dimensão of other side of equation: A = f(B, C, D, ..).
+			- Note: A, B, C, D são adimensionais
+			- Note: Ao inves do termo e da constante de proporcionalidade, temos uma função à descobrir
+		- Note: Função a ser determinada experimentalmente, física teórica, ou simulação computacional
+		- Example: Periodo de um pendulo composto (não-simples)
+
+
+Métodos de física experimental (optional)
+	- Erro associado à medida - Tipos de erros, alg significativos, etc.
+	- TODO: Grafico Linear
+	- TODO: Grafico Log-Linear
+	- TODO: Grafico Log-Log
+	- TODO: Plotting a²-b³ para dar reta. Etc. Anamorfose?
+
+
+Cinemática Pontual
+	- Vetor posição
+	- Vetor deslocamento
+	- Vetor velocidade
+		- Def: Velocidade Media
+		- Def: Velocidade Instantanea
+	- Vetor Aceleração
+		- Def: Aceleração Media
+		- Def: Aceleração Instantanea
+	- Velocidade Média Geral
+		- Calc: Movimento Discretizado
+			- Intervalos com velocidades e distancias diferentes
+			- Velocidade média discreta
+		- Calc: Movimento Continuo
+			- Intervalos tendem a zero
+			- Velocidade Média continua
+	- Lançamento obliquo em acc cte
+	- Movimento de rotação uniforme
+		- Parametrização do movimento
+		- Dedução da velocidade, e aceleração vetorial
+		- Aceleração Centrípeta
+			- Em função de velocidade linear
+			- Em função de velocidade angular
+	- Movimento geral de rotação
+		- Parametrização do movimento
+		- Dedução da velocidade, e aceleração vetorial
+		- Dedução do modulo da aceleração
+	- TODO: Engrenagens
+	- TODO: Example: Sistema Roda-correia
+	- Aceleração tangencial e centripeta em curva qualquer
+		- Def: Aceleração tangencial
+		- Def: Aceleração centrípeta
+		- Calc: Modulo da aceleração tangencial
+		- Calc: Modulo da aceleração centripeta
+			- Relação com curvatura
+			- Relação com raio de curvatura
+		- Example: Acelerações em uma circunferencia
+		- Example: Acelerações em uma elipse
+	- Nice Problems (ordem: Do mais simples ao mais "dificil")
+		- Airbattle problem: When drop the bomb?
+		- Battleship problem: What angle to fire?
+		- Battleship tatics: Avoid plunging fire! Keep in the right distance!
+		- Tank game problem
+		- Battleship tatics: Lead a torpedo run!
+		- Firing in missile in motion
+		- Gabriel Game problem: 2D Starship escaping!  (warning: this is a VERY simplified version of the real one)
+
+
+Referenciais.
+	- TODO: Formal Definition. R(Origin, axis), eg, R(O, x, y).
+	- TODO: Cinematica de varios referenciais.
+	- TODO: Mudança de referencial. Cinematica da mudança de referencial.
+	- TODO: Rotating frames. Cinematica da mudança de referencial.
+
+
+Dinamica Pontual
+	- Def: Referencial Co-Inercial
+	- Force Intuition
+		- Measurement: Molas
+		- Measurement: Pistao e gases
+	- Def: Referencial Inercial
+	- Leis de Newton (axiomatic system (inertial frame))
+		- 1a lei/axioma de newton
+		- 2a lei/axioma de newton
+		- 3a lei/axioma de newton
+		- 4a lei/axioma de newton: superposição
+			- Why we can sum same units
+	- Forças Fundamentais
+		- Força gravitacional
+		- Força eletromagnetica
+		- Força nuclear forte
+		- Força nuclear fraca
+	- Forças derivadas
+		- Força normal
+		- Força elastica
+		- Força de tração
+		- Força de atrito (pts de solda (statistical law))
+		- Example: Objeto em cima da mesa
+	- Pares ação-reação
+		- Example: Earth-satellite system
+		- Example: Bloco sobre mesa
+		- Example: Pessoa empurrando algo
+		- Example: Força durante colisão entre carrinhos
+	- Lei fundamental da Dinamica (LFD)
+		- Calc: Sistema com várias particulas.
+		- Calc: Somatório de todas as forças ao sistema.
+		- Show: Força resultante é somatório das forças externas.
+		- Second newton law: Força resultante é massa * acc do sistema.
+		- Note: All we did here, is for a system of N Particles!
+	- Exemplos de sistemas dinâmicos
+		- Example: Leis da dinamica: Lançamento obliquo
+		- Example: Plano inclinado
+		- Example: Máquina de Atwood
+		- Example: Dois pendulos eletricamente carregados (angle)
+	- Referenciais inerciais
+		- Mudança de referencial inercial
+		- Velocidade e posição de particula no outro referencial
+		- Constancia da aceleração
+		- Note: Newton laws de um referencial para outro remains valid
+		- Transformações de Galileu
+	- Força de Atrito
+		- Equação da força de atrito
+		- Dominio de validade: statistical physics
+		- Interpretação física microscopia: pontos de solda
+	- Força elástica
+		- Guess: First order taylor approximation dependente do comprimento da deformação
+		- Experiment: Linearidade de algumas molas
+		- Equation
+	- Referenciais não inerciais
+		- Experiment: Pessoa rodando segurando corda que segura massa
+		- Ref: Ligado à Terra
+		- Ref: Ligado à Pessoa
+		- Força de inercia
+			- Do not comply 3nd law
+	- Método de solução de problemas dinâmicos
+		- (1) Escolha do eixo de coordenadas. Escolha das variaveis.
+		- (2) Vínculos do sistema.
+		- (3) Aplicação da LFD. Separação em componentes.
+		- (4) Solução das equações.
+	- Nice Problems (ordem: Do mais simples ao mais "dificil")
+		- TODO.
+
+
+Relatividade de Galileu
+	- Formal Definition: Referencial
+	- Example: Esteira rolante
+		- Observadores em diversos locais (referenciais)
+		- Passagem de um referencial para o outro
+		- Relatividade da velocidade para cada observador
+	- Exampel: Accelerating ship
+		- Pessoas inside. Pessoas outside.
+		- Passagem de um referencial para o outro
+		- Relatividade da velocidade e aceleração para cada observador
+	- Example: Moving train
+		- People inside. People outside.
+		- Passagem de um referencial para o outro
+		- Relatividade da velocidade para cada observador
+	- Transformação entre dois referenciais R e R' quaisquer (non-rotating)
+		- Origem do referencial
+		- Posicionamento do ponto
+	- Transformação de Galilei
+		- Dois referenciais com velocidade relativa
+		- Referenciais descrevendo posição de um ponto
+		- Passagem entre os referenciais: Transformação de Galilei
+	- Invariancia da lei fundamental da dinamica (LFD)
+		- Aplicação da lei fundamental da dinamica em ambos referenciais
+		- Assumption: Massa inercial permanece a mesma em ambos referenciais
+		- Note: Invariancia da lei de newton
+		- Consequence: Dinamica será a mesma em qualquer referencial inercial
+		- Consequence: Impossivel distinguir entre referenciais inerciais com as leis dinamicas
+		- Consequence: Distinção entre parado e movimento (v cte) eh impossivel
+		- Note: Equivalent Definition of an inertial frame of reference using this
+	- Referencial acelerado
+		- Aplicação da lei fundamental da dinamica em ambos referenciais
+		- Note: Leis de newton não permanenceram invariantes
+		- Note: Aparecimento de uma força que não existe.
+		- Formal Definition: Non-inertial forces
+		- Consequence: Dinamica não é a mesma entre referenciais não-inerciais
+		- Consequence: Possivel distinguir entre referenciais nao inerciais com as leis dinamicas
+		- Consequence: Distinção between accelerating frame is possible
+
+
+Trabalho e Energia
+	- Trabalho realizado por força constante
+		- Formal Definition
+		- Calc: Trabalho da força peso
+		- Calc: Trabalho "da pessoa" puxando caixa com v cte em plano inclinado
+		- Calc: Trabalho "da pessoa" puxando caixa com v cte em plano não-inclinado com atrito
+		- Note: Trajetória perpendicular à uma força não realiza trabalho
+	- Trabalho realizado por uma força qualquer
+		- Motivation and Formal Definition
+		- Note: Trabalho associado à força
+		- Note: Trajetória sempre perpendicular à uma força não realiza trabalho
+	- Energia cinética e Teorema trabalho-energia
+		- Def: Potencia média
+		- Def: Potencia instantanea
+		- Trabalho realizado pela força resultante
+			- Aplicação da primeira lei da dinamica
+			- Note: Expressão dependente apenas da velocidade
+		- Formal Definition: Energia Cinética
+		- Enunciado do Teorema trabalho-energia
+		- Example: Trabalho da força de atrito
+	- Definição de sistemas
+		- Def: Sistema
+		- Def: Sistema isolado
+		- Def: Sistema conservativo
+		- Identificação de forças internas a um sistema
+		- Identificação de forças externas a um sistema
+		- Formal Def: Força interna a um sistema
+		- Formal Def: Força externa a um sistema
+	- Campo de forças
+		- Formal Definitions
+		- Example: Campo de força peso na superficie da Terra
+	- Energia Potencial (1D)
+		- Trabalho realizado por movimento quasi-estático contra um campo de força
+			- Note: Consequence: Velocidades finais e iniciais zero
+			- Note: We are NOT calculating work of net force
+		- Formal Definition: Energia Potencial
+		- Example: Energia potencial à força peso na superficie
+		- Example: Energia potencial à força elastica
+		- Força a partir da energia potencial
+	- Forças conservativas (3D)
+		- Trabalho realizado por um campo de forças
+		- Example: Trabalho da força peso de objeto realizando trajetória fechada
+		- Example: Trabalho da força de atrito de objeto realizando trajetória fechada
+		- Formal Definition: Trabalho em trajetória fechada é nula
+		- Proof: Trabalho de força conservativa independe do caminho
+			- Note: Equivalencia matemática entre definição and this one
+			- Note: Consequence: This could be an definition too
+		- Proof: Força conservativa ==> Existencia de energia potencial
+		- Optional: Gradient vector
+			- Derivação formal da energia potencial usando operador gradiente
+			- Escrita da força a partir da energia potencial
+	- Energia Mecanica
+		- Trabalho associado à uma força externa em um campo de força
+		- Aplicação da primeira lei da dinamica
+		- Calc: Trabalho associado à força
+		- Note: Variação de energia cinética e potencial
+		- Formal Definition: Energia mecanica do sistema
+	- Teorema da conservação de energia mecânica
+		- Sistema com ausencia de força externa
+		- Trabalho da somatoria da força externa zero ==> Variação da energia mecanica zero
+		- Teorema da conservação da energia mecanica de um sistema
+	- Example: Lançamento obliquo
+		- Resolução aplicando LFD
+		- Calcualr energia potencial e cinetica em t=0
+		- Calcular energia potencia e cinetica em v=0
+		- Calcular energia potencial e cinetica em qualquer t
+		- Note: Soma de potencial e cinetica is equal always. As expected.
+	- TODO: Example: Position/speed em curva qualquer (known height. Easy energy principle)
+	- Experiment: Atritar maos continuamente
+		- Broken conservation theorem
+		- Needing nicer stuff
+	- Teorema Geral da conservação de energia
+		- Forças não conservativas: Trabalho da energia externa
+		- Formal Definition: Energia interna de um sistema
+		- Variações de energia interna
+		- Example: Atrito, calor, ..
+		- Aumento de temperatura às custas da energia interna
+		- Considerações termodinamicas (out of scope of this course)
+	- TODO: Energia on inertial frames of reference (Kinetic, Potential, Mechanical)
+	- Nice Problems (ordem: Do mais simples ao mais "dificil")
+		- TODO.
+
+
+Centro de massa e Momento Linear
+	- Def: Sistema de particulas
+	- Centro de massa discretizado de sistema de particulas
+		- Formal definition
+		- Vetor posição do centro de massa
+		- Vetor velocidade do centro de massa
+		- Vetor aceleração do centro de massa
+			- Para referenciais inerciais
+			- Para referenciais não inerciais
+		- Property: Centro de massa se comporta como se toda massa estivesse no ponto
+			- Proof: Sistemas isolados
+			- Proof: Sistemas não isolados
+	- Centro de massa de sistema continuo
+		- Formal definition
+			- Sistema continuo unidimensional
+			- Sistema continuo bidimensional
+			- Sistema continuo tridimensional
+				- iiint rho(r) (r - R)dv = 0,  R eh CM
+				- Finding R
+		- Vetor posição do centro de massa
+		- Vetor velocidade do centro de massa
+		- Vetor aceleração do centro de passa
+	- Formal Defintion: Momento linear
+		- Momento linear do sistema
+		- Relação entre centro de massa
+	- THE THEOREM: Conservação do momento linear para sistemas isolados
+	- Referencial do Centro de massa
+		- Definition
+		- Conservação da posição do centro de massa
+		- Momento do sistema é zero
+	- Modelagem de colisões
+		- What happens durante a colisão?
+			- Verificação intuitiva das forças entre blocos (atom compression)
+			- Verificação experimental de forças entre blocos durante colisão
+			- Momentum conservation holds (isolated system)
+		- Def: Colisão perfeitamente inelastica (usando p)
+		- Def: Colisão inelastica (usando p)
+		- Def: Colisão elastica (kinetic energy conservation)
+		- Def: Colisão explosiva (usando p)
+		- Theorem: Colisão inelastica ==> Modulo dos momentos individuais do CM eh zero
+		- Theorem: Colisão elastica ==> Troca dos momentos individuais do CM
+		- Def: Coeficiente de restituição
+		- Força durante colisão
+		- Example: Colisão de blocos
+	- Implicações teóricas da conservação do momento linear
+		- Example: Pessoa em barco jogando pedras
+		- Contradiction: Conservação do momento linear ==> F = ma is wrong
+		- Redefiniçao de força (segunda lei de newton original)
+		- Aplicação da lei de newton redefinida
+		- Validade geral da lei de newton
+	- Calc: Escrita de energia cinetica em função do momentum
+	- Infinity Mass Problem
+		- Conservação de momentum holds
+		- Speed approuchs zero
+		- Energy conservation laws holds
+			- Calculo de kinetic energy em função da velocidade
+			- Calculo de kinetic energy em função do momentum
+	- Example: Pessoa chuta pedra em chão sem atrito
+		- Tipo de colisão
+		- Calculo das velocidades
+	- Example: Colisão bidimensional
+	- Example: Rocket Equation	(optional)
+		- Derivation of rocket equation
+			- Assumption: excluding gas has constant velocity
+			- Assumption: Mass is expelled linearly
+			- Calculation of rocket equation
+		- Acceleration of the rocket
+		- Average acceleration
+			- From t0 to t1
+			- From 0 to fuel mass ending time
+		- Speed analysis
+			- Rocket speed into time
+			- Initial speed
+			- Final speed (before fuel end)
+			- Independency of mass variation
+			- Condition to linear acceleration
+			- Discrepancy from average acceleration
+		- Relationship between mass variation and exhaustion speed
+			- Calc: What are conditions to have desired acceleration?
+			- Maximum distance achived by the rocket
+			- Tempo de operação before fuel runs out
+			- Nice rocket paramters
+	- Fenomenos envolvendo conservação de momentum
+		- Calc: Recuo de canhão
+		- Calc: Pendulo balistico
+		- Curious: Pendulo de newton
+		- Curious: Descoberta do Neutrino
+	- Nice Problems (ordem: Do mais simples ao mais "dificil")
+		- Orbital Acceleration Manevouer!
+
+
+Estudo de rotações
+	- Descrição formal de rotações
+		- Aplicações lineares
+		- Não comutatividade das matrizes de rotação
+		- Tentativa Vetorial
+	- Torque
+		- Vetorização da aceleração angular
+			- Indicação do eixo de rotação apenas
+			- Modulo caracteriza aceleração angular
+		- Objective: Find grandeza de força "natural" de rotações
+		- Experiment: Trying to open a door
+			- Aplicando força em diferentes distancias do eixo
+			- Aplicando força em diferentes angulos
+			- Expressão do torque em "angulo" ideal
+			- Expressãol do torque em angulo genérico
+		- Vetorizando o torque na mesma direção da aceleração angular
+		- Expressão intuitiva do torque (fenomenologica)
+	- Momento de Inercia
+		- Formal Definition
+		- Sistema haste-particula em rotação sobre haste
+			- Analise dinamica
+			- Torque da particula
+			- Calc: Momento de Inercia
+		- Sistema haste-particula com duas particulas
+			- Analise dinamica
+			- Torque da particula
+			- Calc: Momento de Inercia
+		- Sistema haste-particula com n particulas
+			- Analise dinamica
+			- Torque da particula
+			- Calc: Momento de Inercia
+		- Momento de inercia: Sistema de corpo rigido
+		- Exemplo: Porta Retangular
+			- Generalization: Escolhendo onde por o eixo na porta
+			- Question: Does inertia moment has local optima?
+		- Momento de Inercia de disco cilindrico
+		- Momento de inercia do cilindro
+			- Eixo de rotação no eixo central do cilindro
+			- Eixo de rotação perpendicular ao eixo central no meio
+			- Eixo de rotação perpendicular ao eixo central na ponta
+		- Momento de inercia de esfera
+			- Eixo de rotação no eixo central
+			- Eixo de rotação tangente
+		- Momento de inercia de bola
+			- Eixo de rotação no eixo central
+			- Eixo de rotação tangente
+		- Teorema do eixo paralelo
+	- Força e torque da aceleração gravitacional
+	- Problem: Massa m caindo por polia cilindrica
+	- Calc: Equação do pendulo físico
+	- Calc: Equação do pendulo de torção
+	- Equilibrio de corpo rigido
+		- Intuition and formal definition
+		- Theorem: Torque é zero em qualquer eixo
+	- Example: Massa em cima de plano sobre duas pilastras (estacionamento)
+		- Pilastras nas pontas
+		- Uma na ponta, e outra depois do centro (verificar que eh possivel tensão negativa)
+		- Pilastras em x1 e x2
+	- Leis de newton para torque
+		- 1a lei de newton
+		- 2a lei de newton
+		- 3a lei de newton
+		- 4a lei de newton
+	- Pares de ação e reação de torque
+	- Referenciais inerciais (rotativos)
+		- Mudança de referencial
+		- Aceleração angular de particula em outro referencial
+		- Constancia da aceleração angular
+	- TODO: Example: Corda com roldana que gira.
+	- Torque de atrito
+	- Torque elástico
+	- Referenciais não inerciais
+	- Extensão de Trabalho e Energia
+		- Calc: Trabalho do Torque
+		- Nota: Trabalho do Torque é trabalho das forças
+		- Energia cinética de sistema em rotação (em função da velocidade angular)
+		- Energia cinética total de sistema combinando rotação e translação
+		- Torques conservativos
+	- Momento Angular
+		- Formal Definition: Angular momentum
+		- Calc: Escrita de Energia cinetica em função do momentum angular
+		- Theorem: Conservação de momento linear para sistemas isolados
+		- Infinity moment of inertia Problem
+	- Theorem: Conservação do Momento Angular
+		- Prova formal
+		- Example: Collision of two rotating disks
+		- Tipos de colisão
+	- Non-intuitive phenomena of momentum conservation
+		- Example: Pessoa chuta pedra em chão sem atrito
+			- Previous example considering angular momentum conservation
+			- What happens com pedra?
+			- What happens com pessoa?
+		- Example: What happens quando pessoa olha para o lado em sistema isolado?
+		- Noção básica: Porque roda não cai quando anda
+		- Noção básica: Giroscopio
+		- Noção básica: Pessoa sobre disco giratorio com braços cruzados e levantados
+		- Noção básica: Pessoa segurando roda de bicicleta que gira
+
+
+Estudo de Estática
+	- TODO: Absense of movement. (Also very important. Eg.: building).
+	- TODO: Soma de forças e de torques is null.
+	- TODO: Example: Barra horizontal suspensa sobre uma barra na vertical.
+	- TODO: Example: Barra horizontal suspensa sobre duas barras na vertical.
+	- TODO: Example: Barra horizontal suspensa sobre tres barras na vertical. Notice: Too many variables for few equations. To say about deformation.
+	- TODO: Example: Triangle structure over load in one of the points. Calc stresses and diameters. =D.
+
+
+Gravitação Universal
+	- TODO: Falar sobre massa inercial e massa/carga gravitacional
+	- Lei da gravitação Universal
+		- 1a lei de kepler: Planetas descrevem orbitas elipticas, sol em um foco
+		- 2a lei de kepler: Areas da elipse iguais em tempos iguais
+		- 3a lei de kepler: Quadrado do periodo proporcional ao cubo da distancia media
+	- TODO: 2a lei de Kepler <==> Conservação de momento angular.
+	- TODO: Energia potencial. Energia cinética. Energia da orbita. 
+	- TODO: Velocidade de escape de um planeta. Calc: Velocidade de escape na superficie da Terra, Jupiter, Sol.
+	- TODO: Mudança de orbita. Manobras Orbitais (slingshot, air-breaking, ...) (qualitative level).
+	- TODO: Measuring G. https://en.wikipedia.org/wiki/Cavendish_experiment
+	- TODO: Principio de equivalencia. Gravity and non-inertial frames. Impossible to distinguish (That is, grav charge = inertial mass).
+	- TODO: Dark matter
+	- TODO: Calc: Gravity field of ring
+
+
+Referenciais não-inerciais
+	- Principio de equivalencia
+		- Transformar non-inertial frame of reference in an inertial frame of reference
+		- Aceleração adicional due to transfer. Non-inertial forces.
+		- Note: Aceleração é constante para todos os objetos, independente de sua massa
+		- Example: Accelerating ship
+		- Relação entre Aceleração gravitacional e principio de equivalencia
+		- Note: Reason: Principio de equivalencia entre carga gravitacional e massa inercial
+		- Theorem: Impossivel distinguir entre aceleração gravitacional and accelerating reference frame
+	- Example: Free-Falling reference frame under gravity field
+		- Formal Definition: Free-fall
+		- Example: Elevator free-falling
+		- Example: Satellite in orbit
+		- Aplicação da lei fundamental da dinamica in free-falling frame
+		- Note: Aceleração inercial igual e oposta à free-falling one
+		- Note: All external forces cancelling out non-inertial ones
+		- Aplicação do principio de equivalencia: No gravity at all
+		- Application: Zero-G airplane. Raise (2g gravity). Fall. (0g gravity).
+		- Curious: Erro de Julio Verne
+	- Referenciais não inerciais em rotação
+	- TODO: Reference in rotation: Força centrífuga. Força de Coriolis.
+	- TODO: Gravidade rotativa, etc, etc, etc
+	- TODO: Pendulo de Focault
+
+
+The end! Now you can go to:
+	- Fisica 02
+	- Fisica 02 and Fisica 03

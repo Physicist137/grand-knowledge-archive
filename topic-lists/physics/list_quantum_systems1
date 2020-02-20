@@ -1,0 +1,287 @@
+TITLE: Quantum Systems: 1D Systems.
+	- Pre-requisitives: Quantum Mechanics 00.
+	- Co-requisitives: Quantum Mechanics 01.
+
+
+The Zero Potential
+	- Note: Quantum particle at rest or moving at constant momentum.
+	- Time independent Schrodinger Equation for zero potential
+	- Complete Solution of time-independent equation
+		- Calc: Eigenvalue of momentum operator in first solution
+		- Calc: Eigenvalue of momentum operator in second solution
+	- Wavefunction
+		- Full wavefunction of quantum particle in zero potential
+		- Note: Travelling wave either fowarding or backward.
+		- Calc: Valor esperado do momento para first/second solution.
+	- TODO: Err...
+
+
+The Step Potencial
+	- Descrição do potencial
+		- Region 01: Potencial para x>0.
+		- Region 02: Potencial para x<0.
+	- Energy smaller than potential
+		- Discuss: Classical prediction of step potential
+		- Calc: Solution of Schrodinger equation for region 01.
+			- Note: Onda movendo-se foward or backward.
+		- Calc: Solution of Schrodinger Equation for region 02.
+			- Note: Exponential attenuation rises up.
+			- Note: Termo de exponenciação crescente has no physical meaning.
+			- Calc: "Skin depth" of this particle
+		- Remmember: Eigenfuntions requirements
+			- Finiteness, continuity, single valuedness
+			- Applies to eigenfunction and its first derivative
+		- Imposing eigenfunctions conditions
+			- Finiteness: Exponential growing term must be zero.
+			- Single valuedness: already satisfied.
+			- Continuity: Equações de condição de continuidade for eigenstate
+			- Continuity: Equações de condição de continuidade for derivative of eigenstate
+			- Calc: Amplitudes of the eigenfunctions.
+	- Full solution of step potential
+		- Coeficients of all amplitudes
+		- Note: One amplitude got free
+		- Note: Amplitude shall be determined by normalizaton of probability density
+		- Complete solution of the eigenfunctions
+		- Complete wavefunction of quantum particle in step potential
+	- Reflection coeficient. Or: Reflectance.
+		- Definition
+		- Reflection coeficient of the step potential
+		- Note: There is 100% chance particle will be reflected by such potential
+	- Wavefunction in region 01.
+		- Remember: Exponential complexa em função de senos e cossenos
+		- Calc: Eigenfunction in terms of cossines and sines
+		- Calc: Wavefunction with sines and cossines.
+		- Note: stationary wave in region 01.
+		- Location of nodes do not change in time.
+	- Wavefunction in region 02
+		- Note: Exponential atenuation
+		- Calc: Probability density in region 02
+		- Note: There is still probability the particle will be found there!
+		- Note: Classical prediction: Would be impossible to find particle there...
+		- Note: Imaginary momentum
+		- Def: Classically excluded region
+	- Step potential: Energy greater than the potential
+		- The ṕotential. Region 01 and 02.
+		- Discuss: classical Prediction.
+		- Calc: Solution of Schrodinger equation for region 01.
+		- Calc: Solution of Schrodinger equation for region 02.
+		- Calc: Finiteness of the eigenfunction
+		- Calc: Continuity of eigenfunction and its first derivative
+	- Solution of the step potential
+		- Calc: Coeficients for region 01.
+		- Calc: Coeficients for region 02.
+		- Eigenfunction of the step potential
+		- Wavefunction of the step potential
+	- Reflection and transmission
+		- Def: Reflectance (with the speeds).
+		- Def: Transmitance (with the speeds).
+		- Calc: Reflection coeficient.
+		- Note: Non-null reflection coeficient. What????.
+		- Calc: Transmission coeficient.
+		- Note: Transmitance + reflectance is 1.
+		- Plot: Reflectance in function of E/V0
+	- Making experiment one particle at the time
+		- Does T% of the particle goes and R% is reflected?
+		- Particle is either transmitted or reflected.
+		- For a large number, this will become averages.
+	- Decreasing step potential
+		- The potential.
+		- Calc: Solution of Schrodinger Equations.
+		- Calc: finiteness and continuity of eigenfunctions
+		- Calc: Amplitude coeficients of eigenfunctions
+		- Calc: Eigenfuntion of the step potential
+		- Calc: Wavefunction of the step potential
+		- Note: full reciprocity of a increasing potential
+		- Calc: Transmitance and reflectances
+	- Example: Conduction electron near surface of metal
+		- TODO. 
+	- Example: Nuclear fission
+		- Info: Neutron most enter the nucleous to induce nuclear fission
+		- Info: Emitted neutron from nuclear fisson has rougly 5MeV of kinetic energy.
+		- As entering nucleous: Decreasing potential with energy ~50MeV
+		- Calc: Probability the neutron will be absorbed by the nucleous
+		- Note: Probability that nuclear fission will be induced.
+		- Validity: Potential fall smaller than de brougli wavelength (which may not be true)
+
+
+The Barrier Potential
+	- Description of the potential
+		- Potential for 0 < x < a.
+		- Potential for x < 0 and x > a.
+		- Thickness of the barrier.
+		- Region 01, 02 and 03.
+	- Classical Prediction
+		- Energy smaller than the barrier: Particle will be reflected.
+		- Energy greater than the barrier: Particle will be transmited.
+	- Energy Smaller than the barrier
+		- Calc: Eigenfunctions for region 01, 02, 03.
+		- Note: Eigenfunctions for region 02 are real exponentials (not imaginary).
+		- Calc: Finiteness condition for the eigenfunctions.
+		- Calc: Continuity condition for the eigenfunctions.
+		- Calc: Contiunity condition for the derivative of eigenfunctions.
+		- Calc: Amplitudes of the eigenfunctions.
+		- Calc: Full eigenstate solution
+	- Penetration of particle thru the barrier
+		- Calc: Transmitance of the particle thru the barrier
+		- Calc: Approximation of transmitace to large exponents
+		- Calc: Medida da opacidade da barreira de potencial
+		- Phenomena: Barrier penetration. Quantum Tunneling.
+		- The particle is said to tunnel through the barrier.
+	- Energy greater than the barrier
+		- Calc: Eigenfunctions for region 01, 02, 03.
+		- Note: All eigenfunctions are oscilatory (imaginary exponents).
+		- Calc: Finiteness condition for the eigenfunctions.
+		- Calc: Continuity condition for the eigenfunctions.
+		- Calc: Contiunity condition for the derivative of eigenfunctions.
+		- Calc: Amplitudes of the eigenfunctions.
+		- Calc: Full eigenstate solution
+	- Penetration of particle thru the barrier
+		- Calc: Transmitance of the particle thru the barrier
+		- Calc: Medida da opacidade da barreira de potencial
+		- Note: 100% transmission of particles with integral or half-integral de broughi wavelength
+		- Note: Destructive interference between reflections
+		- Curious: Ramsauer Effect.
+			- Scattering of electrons in noble gases.
+			- Electron at certain energy passes thru noble gas as if they were not there.
+			- Null reflection.
+	- Tunneling thru the barrier
+		- Plot: Reflectance of particle in function of E/V0.
+		- Plot: Transmitance of particle in function of E/V0.
+	- Electromagnetic Analogy
+		- Equations fo propagation of electromagnetic radiation
+			- The electromagnetic wave equation
+			- Propagation with definite frequence
+			- The Helmholtz Equation (only spatial)
+		- The Time-Independent schrodinger Equation
+			- Remember: its a "type" of helmholtz equation too
+			- Comparisom with the electromagnetic case
+		- Identical Equations: Relation of the refractive index with quantum data
+	 	- Conclusion: All Quantum phenomena so far can be saw with EM radiation
+	 	- Analogy: EM Radiation and step potential (reflection of EM radiation from surface)
+	 	- Analogy: EM Radiation and barrier potential
+	 	- Frustrated internal reflection.
+	- TODO: Probability density in all regions. Plots.
+	- TODO: Rate of decay assuming barrier potential.
+	- TODO: Approximating any potential. 
+		- TODO: Green's function. 
+		- TODO: Real rate of radioactive decay (inverse potential). Experimental results.
+	- TODO: Other examples
+		- Qualitative: Tunneling frequence of NH3 molecule. Its potential. Energy levels.
+		- Qualitative: Tunnel diode (oscilation at frequences of 10^11).
+
+
+The Infinite Well Potential
+	- TODO: Infinite well potential
+	- TODO: To calc: Zero point energy
+
+
+The Finite Well Potential
+	- TODO: Finite well potential
+	- TODO: To calc: Zero point energy
+
+
+The Harmonic Oscilator
+	- TODO: Full calculations
+	- TODO: Zero Point energy. Planck postulate in error.
+
+
+The inverse central potential
+	- TODO: Hydrogen atom =).
+
+
+Magnetic Dipole moments
+	- Orbital magnetic moment
+		- Consider: Bohr atom model
+		- Calc: Current circualing atom (I = e/T)
+		- Calc: Orbital magnetic dipole
+		- Calc: Orbital angular mometum
+		- Calc: Ratio between magnetic dipole and angular momentum
+	- General Formula for the ratio
+		- orbital g factor
+		- Def: Bohr magneton
+		- Vector relation: Orbital magnetic dipole proportional to orbital angular momentum
+	- Quantization of orbital magnetic moment
+		- Rememebr: Quantization of angular momentum
+		- Quantization of magnitude of orbital magnetic moment
+		- Quantization of z-direction of orbital angular momentum
+	- Aplication of external magnetic field
+		- Remember: Torque experienced by dipole
+		- Remember: Potential energy associated
+		- Note: Precession of the magnetic dipole moment. Larmor Precession
+		- Calc: Larmor frequence
+	- Stern-Gerlach experiment
+		- Experimental set up
+			- Oven with given temperature
+			- Colimator (colimating the atomic beam)
+			- Magnet (large non-uniform magnet)
+			- Detection plate
+		- Classical prediction
+			- Atom beam has random orientation of the magnetic dipole moment
+			- Continuous deflection of the atoms deteted by the plate
+		- Quantum prediction
+			- Atom beam has quantized orientation of the magnetic dipole moment
+			- Remember: Quantization relation of the magnetic dipole moment directed to external magnetic field
+			- Prediction: When quantum number orbital angular momentum is zero.
+			- Prediction: When quantum number orbital angular momentum is one. etc
+			- Set up: Oven is of low enough temperature to shoot only l <= 1.
+		- Experiment
+			- Two discrete regions not located in the center.
+			- As you can cleary see.. classical prediction was wrong.
+			- BUT, our quantum prediction was wrong too....
+		- This cleary needs fix.
+	- Intrisinc magnetic dipole moment
+		- Postulate: Intristic magnetic moment quantum numbers.
+		- Making it fit the experimental data.
+		- Intristic anglar momentum.
+		- Def: Spin
+		- Calc: spin g-factor.
+	- Source of spin
+		- Manually inserting the spin into Schrodinger Quantum Mechanics
+		- Dirac calculations of relativistic quantum mechanics: Spin arises naturally
+		- Conclusion: Spin exists because world is relativistic.
+		- Conclusion: yet another triumph for relativety theory.
+	- Spin-orbit interaction
+		- Moving electron generates magnetic field that makes nucleous move (hard to see)
+		- Frame of electron: Moving nucleous generates magnetic field on electron.
+		- Magnetic field acted upon electron
+			- Calc: Elemento de corrente
+			- Calc: Campo magnético. Biot-savart law.
+			- Calc: CAmpo magnético em função de campo elétrico agindo sobre elétron
+			- Calc: Campo magnético em função de gradiente de potencial
+			- Calc: Campo magnético em função de momento angular orbital
+		- Spin-orbit interaction energy
+			- TODO: Relativistic calculations from a frame to other.
+			- Calc: Spin-orbit interaction energy in function of magnetic field
+			- Calc: Spin-orbit interaction energy in function of orbital angular momentum
+			- Thomas Precession
+		- Spin-orbit interaction for hydrogen atom
+			- Numerical calc: Energy of the interaction
+			- Numerical calc: Magnetic field upon electron
+			- Note: n=2, l=1, ratio of energy splitting (Interaction) by main energy E2
+			- Source of fine structure of hydrogen spectral lines
+	- Total angular momentum
+		- Orbital angular momentum
+		- Intrinsic angular momentum (spin).
+		- Def: Total angular momentum
+		- Quantum numbers
+			- Magnitude of angular momentum
+			- Z-direction of angular momentum
+			- Relation of orbital/spin quantum numbers
+
+
+Identical Particles
+	- TODO
+	- Example: Helium Particle.
+
+
+Hartree-Fock Theory
+	- TODO.
+	
+
+
+
+
+TODO: X-Ray Excitations
+TODO: Optical Excitations
+TODO: Vibration Spectra (to calc natural/ressonance frequences.. etc).
+TODO: Rotational Spectra

@@ -1,0 +1,28 @@
+TITLE: Machine 04: Thermodynamical Machines.
+	- Pre-requisitive: Thermodynamics 02, Fluid 01.
+	- Co-requisitive: None.
+
+
+TODO: Engines in general.
+TODO: Cycles in general. https://en.wikipedia.org/wiki/Thermodynamic_cycle#Well-known_thermodynamic_cycles
+TODO: Carnot Cycle. Carnot Engine. Carnot Refrigerator. Implementation of an engine.
+TODO: Rankine Engine. Rankine Cycle. Old trains. Implementation: Construction, operation, scalability. Reversibility.
+
+TODO: Stirling Engine. Stirling Cycle. Implementation: Alpha, Beta, Gamma. Reversibility.
+TODO: Regenerative cooling. Heat "storage".
+TODO: Rhombic Drive. Balancing. https://en.wikipedia.org/wiki/Rhombic_drive
+TODO: Reverse operation. Heat Pump. Cryocooler.
+
+TODO: Combustion: Jet Engine, Diesel Engine, Gasoline Engine, ....
+TODO: Turbine. Taking kinetic energy. Taking enthalptic energy. Airplane turbines.
+TODO: Airplane turbines, Jet Turbines, Supersonic turbines. Supersonic cycles.
+
+
+TODO: Heat Pumps.
+TODO: Refrigeration. Air Conditioning. Cooler.
+TODO: Cryogenics. Cryocooler. Air liquifier.
+TODO: Magnetic Cooling.
+
+
+http://www.explainthatstuff.com/jetengine.html
+http://www.explainthatstuff.com/how-stirling-engines-work.html

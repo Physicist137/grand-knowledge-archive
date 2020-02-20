@@ -1,0 +1,41 @@
+TITLE: Algorithms
+	- Pre-requisitives: Elementary Algebra
+	- Co-requisitives: Pre-Calculus
+
+
+Basic introduction and Fundamentals
+	- What is an algorithm
+	- Example: Insertion sort
+		- Description
+		- Visual representation
+		- Pseudo-code
+		- C++ code
+	- Analysis of Algorithms
+		- Objective
+			- Two algorithms for same goal..
+			- Comparisom of algorithms
+			- Which/when/why algorith A is more efficient than B?
+		- Variables of the analysis
+			- Input size: Example: Sort, Multiply, 
+			- Running time: Steps
+	- Analysis of the Insert sort
+		- Instruction i is executed in time c_i
+		- Best Case Scenario
+			- Already sorted array
+			-  Affine function of input
+			- Calc: Parameters of the affine function
+		- Worse Case Scenario
+			- Reversed sorted array
+			- Quadratic function of input
+			- Calc: Parameters of quadratic function
+		- Average Case Scenario
+			- Half-Sorted Away
+			- Quadratic function of input
+			- Calc: Parameters of quadratic function
+			- Note: As bad as worse case scenario
+		- Growth order
+		- Big-Oh notation
+	- Design of algorithms
+		- Incremental Approuch
+		- Divide-and-conquer approuch
+		- Merge Sort Algorithm

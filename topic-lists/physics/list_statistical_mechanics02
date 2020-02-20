@@ -1,0 +1,56 @@
+TITLE: Stat Mechanics 02: Quantum Statistics.
+	- Pre-requisitive: Statistical Mechanics 01, Formal Quantum Mechanics 01.
+	- Co-requisitive: Probability 02
+	- Recommended: Formal Quantum Mechanics 02.
+
+
+Microcanonical ensemble.
+	- TODO: Density matrix.
+	- TODO: Example: Two Level System.
+	- TODO: Example: Harmonic Oscilator.
+
+
+Canonical Ensemble.
+	- TODO: Density matrix.
+	- TODO: Example: Two Level System.
+	- TODO: Example: Harmonic Oscilator.
+
+
+Grand Canonical Ensemble.
+	- TODO: Density matrix.
+	- TODO: Example.
+
+
+Canonical Ensemble of Quantum Particles.
+	- Two particles with three energy levels.
+		- Maxwell-Boltzmann Statistics. Degeneracy level of each state. Partition Function.
+		- Bose-Einstein Statistics. Degeneracy level of each state. Partition function.
+		- Fermi-Dirac Statistics. Degeneracy level of each state. Partition function.
+	- Two particles with N energy levels.
+		- Maxwell-Boltzmann Statistics. Degeneracy level of each state. Partition Function.
+		- Bose-Einstein Statistics. Degeneracy level of each state. Partition function.
+		- Fermi-Dirac Statistics. Degeneracy level of each state. Partition function.
+	- Question: How to deal with the most general case?
+
+
+Quantum Ideal Gas in the Microcanonical Ensemble.
+	- TODO: Couting of Microstates for MB, BE, FD cases.
+	- TODO: Boltzmann Entropy.
+	- TODO: Equation of state.
+
+
+Quantum Ideal Gas in the Canonical Ensemble
+	- TODO: Statistical Weight Factors (degeneracies) at the ensemble, for MB, BE, FD.
+	- TODO: The canonical partition function for each case: MB, BE, FD.
+	- TODO: The Grand Canonical partition function for each case: MB, BE, FD.
+	- TODO: The q-potential. The average number of particles. The average energy.
+	- TODO: Mean occupation number.
+	- TODO: Probability there are n particles in energy level e, at MB, BE, FD.
+
+
+Ideal Bose Systems.
+	- TODO.
+
+
+Ideal Fermi Systems.
+	- TODO.

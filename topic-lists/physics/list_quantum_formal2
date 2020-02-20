@@ -1,0 +1,212 @@
+TITLE: Formal Quantum Mechanics 02: Quantum Dynamics.
+	- Pre-requisitives: Formal QM 01.
+	- Co-requisitives: 
+
+
+
+Schrodinger Picture
+	- Quantum Dynamics
+		- What are the dynamics of a quantum system?
+		- How it evolves as time passes?
+		- Notation for state at time t and time t0.
+	- Time in quantum Mechanics
+		- Time is NOT an operator in the same sense of position/momentum.
+		- Time is a parameter.
+		- In Relativistic QM, the 4-position becoems parameters.
+	- The Time Evolution Operator
+		- Def: Time Evolution operator. Postulating its existance.
+		- Impose: It is an unitary operator. Reason: We want conservation of probability!
+		- Impose: Time operator has a composition property. Time at t0-->t1-->t2. It seems only reasonable..
+		- Impose: Limit when time difference passage is zero, then time evolution operator is identity.
+	- The infinitesimal time evolution operator
+		- Construction of the infinitesimal-time evolution operator
+		- Note: The operator in each must be hermitian.
+		- Note: Same procedure as building the infinitesimal translation operator.
+		- Note: In classical physics, the hamiltonian is the generator of time evolution/symmetry.
+		- Assumption: Inserting the hamiltonian as the generator operator in the time evolution operator.
+		- Note: This hbar again.. is this the same hbar as the translation operator?
+	- The Schrodinger Equation
+		- Calc: Using composition property to arrive at an differential equation for the time evolution operator.
+		- Calc: The differential equator of the time evolution operator: Schrodinger Equation!
+		- Calc: Applying an quantum state on both sides of the time evolution operator equation.
+		- Calc: The Schrodinger Equation for the dynamics of a quantum system.
+		- Note: We have *derived* schrodinger equation, instead of postulating it.
+	- The Finite-Time evolution operator for time-independent hamiltonian.
+		- Calc: Solving the time evolution operaator equation.
+		- Calc: The explicit form of the time evolution operator, for finite time passage.
+		- Calc: Checking with direct substitution using exponential series.
+		- Calc: Way 02: N infinitesimal compositions. Then let N->inf.
+	- The Finite-Time evolution oeprator for time-dependent commuting hamiltonian
+		- Assume: Hamiltonian at all different times commute with all other times.
+		- Calc: Solving the time evolution operaator equation.
+		- Calc: The explicit form of the time evolution operator, for finite time passage.
+		- Calc: Checking with direct substitution using exponential series.
+	- Evolution of systems with time-independent hamiltonian
+		- Calc: The eigenvalue of the time evolution operator for energy eigenkets.
+		- Calc: Time Evolution of a quantum system starting with an energy eigenket.
+		- Calc: Time evolution operator coeficients in energy eigenbase (use completeness twice).
+		- Calc: Time evolution of a general quantum state (linear combination of eigenkets).
+	- Evolution of expectation value with time-independent hamiltonian
+		- Note: The observable in question need not to commute with the hamiltonian.
+		- Calc: Time evolution of the expectation value over energy eigenket.
+		- Calc: Time evolution of the expectation value over general quantum system (Linear combination of eigenkets).
+		- Calc: Angular Frequency of the oscilating terms of the expected value of general quantum system.
+		- Def: Stationary State.
+		- Def: Non-Stationary State.
+		- Note: Energy eigenstates are stationary states.
+		- Example: Spin Precession over uniform magnetic field.
+
+
+Heisenberg Picture
+	- Schrodinger vs Heisenberg
+		- Schrodinger: The Quantum state changes as time evolves. Observables remains the same.
+		- Heisenberg: The observables changes as time evolves. Quantum state remains the same.
+		- Note: Equivalent point of views.
+	- The Heisenberg Picture
+		- Inner product of two arbitary quantum states.
+		- Time evolution of the inner product in the Schrodinger Picture: It doesn't evolve.
+		- Time evolution of <beta|X|alpha> in the Schrodinger picture for general observable X.
+		- Note: Look as how the operator X changes.
+		- Def: The Heisenberg time evolution of the observabler X, with state kets unchanged.
+	- Example: Heisenberg approach for the translator operator
+		- Recall: The infinitesimal translation operator.
+		- Calc: Change of infinitesimal translation operator and eigenkets in Schrodinger picture.
+		- Calc: Change of infinitesimal translation operator and eigenkets in Heisenberg picture.
+		- Calc: Expectation value of position in the Schrodinger Picture.
+		- Calc: Expectation value of position in the Heisenberg Picture.
+		- Note: Expectation values are the same. As they should.
+	- Evolution of observables in systems with time-independent hamiltonian.
+		- The relation for Heisenberg and Schrodinger observables
+		- Note: as t=0 (or t=t0), the observables at both picture are identical, as they should.
+		- Calc: The Heisenberg and Schrodinger pictures of the hamiltonian operator itself.
+	- Heisenberg Equation of Motion
+		- Assume: The observable under schrodinger picture does not depend on time.
+		- Calc: Time derivative of observable in heisenberg picture.
+		- Calc: Make proper substitutions using the time evolutor operator equation.
+		- Calc: The time derivative equals a commutator.
+		- Calc: simplifying the commutator given hamiltonian commutes with time evolution operator.
+		- Heisenberg Equation of Motion!
+		- Note: The hamiltonian is evidently a constant of motion.
+		- Note: Relation with classical case in poisson bracket.
+	- Example: Free Particle
+		- Proof: [xi, F(p)] = ih dF/dpi, if F is an polynomial (or in more extreme, power series).
+		- Proof: [pi, G(x)] = -ih dG/dxi, if F is an polynomial (or in more extreme, power series).
+		- Assume: Free particle Hamiltonian.
+		- Calc: The derivative of the momentum operator. Note: Constant of motion. Momentum conserves.
+		- Calc: The derivative of the position operator.
+		- Calc: Solution of the position operator in heisenberg picture.
+		- Note: Position operator at different instantes of time does not commute!
+		- Calc: Commutator [xi(t), xi(0)].
+		- Calc: Uncertainty relation of xi(t) and xi(0).
+		- Note: As time passes, the free particle position becomes more and more uncertain.
+	- Example: Particle under potential dependent on position.
+		- Assume: General Hamiltonian: potential dependent on position and kinetic term.
+		- Calc: Time derivative of momentum operator.
+		- Calc: Time derivative of position operator.
+		- Calc: Second time derivative of position operator.
+		- Note: Quantum mechanical analog of Newton's second law in operator form under heisenberg picture.
+	- Ehrenfest Theorem
+		- Calc: Apply Heisenberg state ket (which does not move with time) at both sides.
+		- Ehrenfest Theorem proved!
+		- Note: Has been proved under the general scope of quantum mechanics.
+		- Note: Henceforth, is also valid for pure quantum phenomena, such as: Spin, etc.
+		- Note: The above thing couldn't be proved with Schrodinger wave mechanics.
+		- Note: Ehrenfest Theorem is nice!
+	- TODO: Base kets and transition amplitudes
+	- TODO: Table comparing Heisenberg and Schrodinger, as with: State ket, base ket, observable.
+
+
+Interaction Picture. 
+	- TODO. https://en.wikipedia.org/wiki/Interaction_picture.
+
+
+Evolution of Mixed States.
+	- TODO: https://en.wikipedia.org/wiki/Density_matrix#The_von_Neumann_equation_for_time_evolution
+	- TODO: Von Neumann Equation of Motion: In Schrodinger Picture. In Heisenberg Picture.
+	- TODO: Equivalence between Von Neumann Equation and Schrodinger Equation.
+
+
+Propagators
+	- Formal Definition
+		- Propagator in the language of the wavefunctions.
+		- Note: The propagator is an integral kernel K(x, t, x', t0).
+		- Note: Integration variables over x'.
+	- Calculation of the propagator
+		- Recall: Time evolution of general quantum state in schrodinger picture
+		- Calc: Insertion of completude relation of the energy eigenstates.
+		- Calc: Multiplication by 3D position eigenbra on the left.
+		- Note: Projection of quantum state into energy eigenbra
+			- Note: This is one of the terms we got
+			- Calc: Completude relation of position eigenkets (recall: It is an integral completude)
+			- Calc: substitution of the values in terms of the known wavefunctions.
+			- Note: Energy eigenstates. The wavefunction at t=t0.
+			- Note: Projection is simply expansion coeficients of the energy eigenstates
+		- Calc: Calculation of the integral kernel.
+		- Calc: Expression of the propagator of a general quantum system in ket-notation.
+		- Calc: Expression of the propagator of a general quantum system in wavefunction notation.
+	- Properties of the propagator
+		- Note: Limit of the propagator as t->t0 yields dirac delta of position.
+		- Calc: Solving eigenstate completude by replacing energy exponent into hamiltonian operator.
+		- Calc: Yielding propagator as a sandwich into position kets and bra.
+	- Wavefunction interpretation of the propagator
+		- Wavefunction interpretation
+		- Calc: The wavefunction at t=t0 of general quantum system calculated by the propagator.
+		- Note: Propagator can be put to be the wavefunction of the system if particle is completely localized at t=t0.
+		- TODO: Green's function of Time dependent schrodinger equation.
+	- Connection of propagator with canonical partition function
+		- Calc: Integral over space of propagator with x=x', and t0=0.
+		- Calc: Substitution of proper beta to yield canonical partition function..
+		- Note: It is a function G(t).
+		- Calc: Laplace-Fourier transform of the G-Function, yielding function G(E).
+		- Calc: Integration of the transform by considering E as having imaginary part. Let imaginary part tend to zero.
+		- Calc: The integrated result of laplace-Fourier transform of the G-Function.
+		- Note: Energy spectrum are poles in complex E-Plane.
+		- Note: If one needs to study energy spectrum of physical system, then measuring G(E) function is a great way to do so.
+	- Propagator of an one-dimensional free quantum particle.
+		- Calc: Momentum ket-space: Eigenvalue of the momentum operator. Eigenvalue of the hamiltonian operator.
+		- Note: We have a continuous energy specrum.
+		- Calc: Derive the propagator of quantum system over continuum energy spectrum (energy completeness identity).
+		- Calc: The Propagator of a free particle. Recall: Projection of momentum ket over position bra <x|p>.
+		- Calc: Integration (completing squares). 
+		- Calc: Integrated expression of the propagator of an one-dimensional free particle.
+		- Example: Evolution of a initially free localized particle using the propagator.
+		- Example: Evolution of a initially gaussian wavepacket using the propagator.
+	- Propagator interpretation as an transition amplitude
+		- Recall: Propagator
+		- Calc: Re-appearing the hamiltonian operator. Propagator as transition amplitude.
+		- TODO: Heisenberg interpretaiton.
+
+
+Propagator of the Harmonic Oscilator
+	- TODO: Doing it using special functions property.
+	- TODO: Doing it using creation and annihilation operators.
+
+
+Feynman Path Integrals.
+	- Composition property
+		- Dealing space and time coordinates more symmetrically.
+		- Completeness relation of ket |x,t>
+		- Composition property of the transition amplitudes.
+		- Recall: Transition amplitudes are another way writing the propagator.
+	- Infinitesimal time Evolution.
+		- Note: To figure out time evolutino one needs to derive the quantum propagator of the system.
+		- Note: Propagators are hard to calculate. What if we want infinitesimal time evolution?
+		- Objective: To figure out transition amplitude for infinitesimal time evolution
+		- Objective: To derive the quantum propagator from the infinitesimal transition amplitudes.
+	
+	- Feynman Path Integrals
+		- Application N times of the composition property
+		- 
+
+
+
+Feynman Path Integrals.
+	- TODO: Motivation of Path Integrals. Checking using Schrodinger Equation.
+	- TODO: Path Integral formulation of quantum mechanics. Space-time approach.
+	- TODO: Rigorous derivation of Feymann Path integral.
+	- TODO: Propagator of Harmonic oscilation from Feymann Path Integrals.
+
+
+
+TODO: Phase space: https://en.wikipedia.org/wiki/Phase_space_formulation
+TODO: Phase space for mixed state: https://en.wikipedia.org/wiki/Density_matrix#%22Quantum_Liouville%22,_Moyal's_equation

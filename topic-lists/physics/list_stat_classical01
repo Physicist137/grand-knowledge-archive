@@ -1,0 +1,51 @@
+TITLE: Classical Statistics 01: Foundations and Ensembles.
+	- Pre-requisitive: Statistical Mechanics 01.
+	- Co-requisitive: None.
+	- Recommended: None.
+
+
+
+TODO: Fundamentals.
+TODO: Ergodic Hypothesis. Poincarre Theorem.
+TODO: https://physics.stackexchange.com/questions/27402/what-are-the-justifying-foundations-of-statistical-mechanics-without-appealing-t
+TODO: Generalized coordinates. Phase space density. Liouvilli Theorem.
+
+
+TODO: The NVE Ensemble: Microcanonical Ensemble. Boltzmann Entropy. Shannon Entropy.
+TODO: Thermodynamics from the microcanonical ensemble.
+
+TODO: The NVT Ensemble: Canonical Ensemble. Partition Function. Shannon Entropy.
+TODO: Connection of partition function and helmholtz free energy
+TODO: Thermodynamics from the canonical ensemble
+TODO: Canonical entropy. Proving F = E - TS, only using stat definitions of F, E, S.
+TODO: https://physics.stackexchange.com/a/392486/57094
+TODO: Energy flutuations.
+TODO: Equipartition theorem. Virial Theorem.
+
+TODO: The uVT Ensemble: Grand Canonical Ensemble. Grand Partition Function. Shannon Entropy.
+TODO: Connection of grand partition  unction and the grand potential.
+TODO: Thermodynamics from the grand canonical ensemble
+TODO: Energy flutuations. Particle number flutuations.
+TODO: Thermodynamics frmo the grand canonical ensemble
+
+TODO: The NPT Ensemble: Isothermal–isobaric ensemble (Gibbs Ensemble).
+TODO: Connection with the Gibbs partition function and (gibbs free energy?)
+TODO: Gibbs Partition Function. Shannon Entropy.
+TODO: Energy flutuations. Volume flutuations.
+TODO: Thermodynamics from the gibbs ensemble.
+
+TODO: The uPT Pseudo-Ensemble.
+TODO: https://physics.stackexchange.com/questions/26873/mu-p-t-pseudo-ensemble-why-is-it-not-a-proper-thermodynamic-ensemble?rq=1
+
+TODO: The NPH Ensemble: Isoenthalpic-isobaric ensemble
+TODO: The NPH Partition Function. Shannon Entropy.
+TODO: Connection with the NPH Partition function and ...?
+TODO: NPH Flutuations.
+TODO: Thermodynamics from the NPH ensemble.
+
+
+TODO: Recovering kinetic theory from statistical mechanics. Kinetic theory results.
+
+
+APPLICATIONS:
+TODO: Multiparticle Systems. Chemical Potential. Thermodynamic potentials.

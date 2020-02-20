@@ -1,0 +1,104 @@
+TITLE: Quantum System 03: Electromagnetic Fields.
+	- Pre-requisitives: Qantum Mechanics 02.
+	- Co-requisitives: None.
+	- Note: Analogo a Mecanica Classica 01.
+
+
+Magnetic Ressonance
+	- Experimental Set up
+		- Set-Up: Spin-1/2 particle at rest in static strong magnetic field
+		- Set-Up: Turn on an perturbative RF Field transversal to static magnetic field of some frequency.
+	- Assumptions
+		- Assumption: RF Field has faar larger wavelength of the system (no need to treat it as a wave).
+		- Assumption: RF Field treated as simply EM static oscilative field.
+		- Note: Electric parts of RF field does not concern us (title is magnetic ressonance after all!)
+		- Note: Spin-1/2 will precess around static magnetic field with a larmour frequency (Larmour Precession).
+		- Note: Transversal RF Field might induce spin transition.
+	- Magnetic Ressonance
+		- The magnetic Field.
+		- Calc: The total hamiltonian of the system
+		- Calc: The hamiltonian matrix
+			- Calc: In function of the pauli spin matrices
+			- Calc: The 2x2 hamiltonian (of the time-dependent part).
+			- Calc: The 2x2 hamiltonian (of the static magnetic field) (notice some complex exponentials!)
+			- Calc: The total hamitlonian matrix (all parts).
+		- Calc: The time-dependent schrodinger Equation (matrix form).
+		- Calc: Two-Coupled Linear First order ODE.
+		- Calc: Uncouple both terms of the ODE (Second linear ODE).
+		- Calc: General Solution for an initial spin state (a_0  b_0).
+		- Note: The Flopping Frequency.
+		- Note: Transition frequency is the larmour frequency.
+		- Note: Minimum floppping frequency is a "larmour frequency" associated to the RF field.
+	- Transition from spin-up to spin-down.
+		- Assume: Measurement is made and the particle is initially in spin up (or down) state.
+		- Assume: Immediately after, the RF field is turned on.
+		- Calc: Coeficients a particle initially in spin-up state.
+		- Calc: The transition probability from spin up to spin down state (initially at up).
+		- Calc: The maximum transition probability. The time where there is maximum transition probability.
+		- Calc: The ressonance curve for a quantum transition from spin-up to spin-down state.
+		- Calc: The ressonance frequency
+		- Plot: The ressonance curve
+		- Calc: Full width at half maximum (FWHM) of the ressonance curve.
+		- Calc: The "quality factor" of the ressonance curve.
+		- Note: The ressonance frequency is precisily the larmour frequency (interesting isn't it?)
+	- Transition from spin-down to spin-up
+		- Calc: Coeficients of a particle initially in spin-down state
+		- Calc: The transition probability from spin up to spin down state (initially at up).
+		- Calc: The maximum transition probability. The time where there is maximum transition probability.
+		- Calc: The ressonance curve for a quantum transition from spin-up to spin-down state.
+		- Calc: Full width at half maximum (FWHM) of the ressonance curve.
+		- Calc: The "quality factor" of the ressonance curve.
+	- Measuring the g-factor of a proton
+		- Set-Up: A proton is at rest, with external field of 1T (Don't ask me how one suceeded in doing this).
+		- Set-Up: An 400MHz RF Field where magnetic peaks at 1 micro tesla.
+		- Set-Up: The static field is slowly changed, until ressonance is found at 0.23T.
+		- Calc: The proton gyromagnetic ratio.
+		- Calc: The proton g-factor.
+	- TODO: Nuclear Magnetic Ressonance. Measuring g-factor.
+	- TODO: NMR Spectroscopy. NMR Spectrometer.
+		- TODO: Electronic Shielding. NMR in molecules: Eg: Methanol (H3COH).
+		- https://www.slideshare.net/Oatsmith/13-nuclear-magnetic-resonance-spectroscopy-wade-7th
+		- TODO: https://image.slidesharecdn.com/13-nuclearmagneticresonancespectroscopy-wade7th-140409022252-phpapp01/95/13-nuclear-magnetic-resonance-spectroscopy-wade-7th-13-638.jpg?cb=1397010756
+
+
+Spin-s particle in B-Field.
+	- TODO: Uniform B-Field. After done: Try spin-1. Then Spin-3/2. Just to see the differences.
+	- TODO: Non-Uniform B-Field. Stern-Gerlach Experiment of spin-s particle
+	- TODO: Oscilating B-Field.
+	- TODO: Probability Current: https://en.wikipedia.org/wiki/Probability_current#Spin-s_particle_in_an_electromagnetic_field
+
+
+Electromagnetic Field
+	- TODO: Maxwell Equation in potetial form.
+	- TODO: Lagrangian Description.
+	- TODO: Hamiltonian Description.
+	- TODO: Schrodinger quantization (canonical momentum <--> -ih nabla).
+
+
+Aharonov-Bohm Effect
+	- Also called: AB-Effect
+	- TODO: All the calculations.
+	- TODO: Magnetrometers.
+	- TODO: Electric Analog of Bohm-Aharonov.
+
+
+Particle in Magnetic Field.
+	- TODO.
+
+
+Particle in Electromagnetic Field.
+	- TODO.
+
+
+Particle Accelerators
+	- TODO: Quantum Formulas. Enhenfest. Comparisom with classical Formulas.
+	- TODO: Associated quantum error from uncertainty (standard deviation), and the degree of deviation from classical formulas.
+
+
+TODO: To talk about a particle of spin-s in EM Field
+TODO: Example: Quantum Cyclotron Motion. Landau levels. Particle accelerators. =).
+TODO: Eg.: Particle accelerators. Syncrotons.
+TODO: Special Case: Spin-1/2 particle in EM Field.
+
+
+https://physics.stackexchange.com/questions/17628/quantum-computing-qubit-creation-entanglement?rq=1

@@ -1,0 +1,27 @@
+TITLE: Quantum Optics 01: Introduction and Crude Calculations.
+	- Pre-requisitives: Quantum Mechanics 07.
+	- Co-requisitives: None.
+
+
+TODO: Dipole moment operator. Interaction hamiltonian.
+TODO: Electric Dipole Interactions: Atomic Dipole, Molecular Dipole, Vibration Spectrum, Rotational Spectrum (Polar Molecules).
+TODO: Eg: Quantum Rigid Rotor.
+
+
+TODO: Perturbation Theory: Time dependent interaction hamiltonian. Solution. Approximation. Transition probability.
+TODO: Cossine interaction hamiltonian. Transition probability. Ressonance curve. FWHM.
+TODO: Pulse modulated cossine interaction hamiltonian. Transition probability. Ressonance curve. FWHM. Dependance of FWHM at pulse duration. N pulses.
+TODO: Fermi-Golden's Rule. Quantum jumps to the continuum. Transition probability. Note: Linear dependence with time. Transition rate. 
+TODO: Validity domain of Fermi Golden Rule: FWHM and frequency, time of the pulses, Strength of hamiltonian (matrix elements)
+
+TODO: Eg.: Hydrogen case. Calculation of the perturbative interaction hamiltonian matrix. Inducing quantum transitions in hydrogen. Inducing ionization.
+TODO: Eg.: Other gases. Inducing quantum transitions (and, or ionizations).
+
+
+TODO: Two-Level atom. Cossine interaction hamiltonian. Rotating Wave Approximation. Rabi Frequency. Ressonance Curve. FWHM.
+TODO: Pulse modulated cossine interaction hamiltonian over two-level atom under rotating wave approximation. Rabi Frequency. Ressonance Curve. FWHM.
+
+
+
+
+TODO: https://en.wikipedia.org/wiki/Rotational_spectroscopy

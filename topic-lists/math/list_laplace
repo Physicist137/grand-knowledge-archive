@@ -1,0 +1,19 @@
+Title: Laplace Transforms
+	- Pre-requisitive: Calculus 01
+	- Co-requisities: Complex 01
+
+
+Transformada de Laplace
+	- Formal Definition
+	- Example: Transformada para f(t) = 1
+		- Note: s > 0
+		- Note: t >= 0
+	- Example: Transformada de f(t) = e^(at)
+	- Example: Transformada de f(t) = e^(iwt)
+		- Transformada do seno
+		- Transformada do cosseno
+	- Example: Transformada de f(t) = e^at cos(wt)
+		- Usar integrais complexas
+		- Extrapolar e^at sin(wt)
+	- Example: Transformada de f(t) = t, para 0<t<1 e 1 para t>1
+	- Theorem: Linearidade da transformada de Laplace

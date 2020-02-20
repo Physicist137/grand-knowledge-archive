@@ -1,0 +1,91 @@
+TITLE: Vector Calculus
+	- Pre-requisitive: Calculus 04
+	- Co-requisitive: Linear Algebra
+
+
+
+
+TODO: Regular More detailed stuff
+TODO: finish with introduction to analysis (banach spaces, ...)
+
+======================================== This is R^n analysis ==============
+Introduction/Revision to Topology
+	- Importancia de Intervalos
+		- Example: Teorema do Valor intermediario
+		- Example: Teorema do Valor Médio
+			- What happens when tiramos hipotese de intervalo?
+			- What will be "intervalo" em R^n?
+	- Formal Definition: Normas
+		- |x| >= 0
+		- |x| = 0  <==> x = 0
+			- Def: Seminormas
+		- |ax| = |a| |x|
+		- Desigualdade triangular
+		- Def: Normas equivalentes
+	- Norma Euclidiana
+		- Is indeed uma norma
+			- Proof of (1), (2) and (3) properties da norma
+			- Desigualdade de Cauchy-Swchartz
+			- Desigualdade triangular
+		- Produto interno
+			- Valida para qualquer espaço vetorial
+			- Uso em R^n
+	- Espaço topologico: Bola
+		- Def: Bola aberta
+		- Def: Bola Fechada
+		- Def: Contorno da bola
+		- Def: Espaço Topologico convexo
+		- Theorem: Bola aberta é convexa
+			- Note: Não depende de qual é a normal
+			- A general result
+		- Formato da bola
+	- Outros espaços normados
+		- Def: Norma máxima
+		- Bola de norma máxima
+			- Formato geométrico
+			- Proof: |x|m <= |x|
+			- Note: desenhos enganam
+		- Prop: Norma máxima e euclidiana são equivalentes
+			- Constante de equivalencia
+
+
+Sequencias e Séries
+	- Def: Sequencia em R^n
+	- Def: Sequencia convergente em L
+	- Theorem: Sequencia é convergente se cada elemento do vetor converge
+
+
+
+
+OLD =================================
+Naive Topology: Multi-dimensional set theory
+	- Def: Open n-Ball
+	- Def: Interior point
+	- Def: Dominio conexo
+	- Def: Open Set
+		- Real interval
+		- Cartesian product of two open sets
+	- Def: Exterior and boundary
+	- Def: Exterior point
+	- Def: Closed Set
+	- Def: Clopen sets
+	- Def: Ponto de acumulação
+		- Intuition: Limits can come with any direction now
+		- Intuition: All limits point must be acumulation
+
+Limite e Continuidade multidimensional
+	- Def: Scalar Field
+	- Def: Vector Field
+		- Def: Components of the vector field
+	- Def: Continuidade
+	- Def: Limite
+		- Prova: Limite da soma é soma dos limites
+		- Prova: Limite de produto por escalar, é produto dos escalares dos limites
+		- Prova: Limite de produto escalar, é produto escalar dos limites
+		- Prova: Limite do modulo, é modulo do limite.
+	- Teorema: Relação entre limite-continuidade
+		- Theorem: Campo vetorial é continuo se cada componente for continuo
+		- Colorario: Continuidade da função identidade
+		- Teorema: Continuidade de transformações lineares
+		- Teorema: Continuidade de composição de função
+

@@ -1,0 +1,357 @@
+TITLE: Probability 00: Naive Probability.
+	- Pre-requisitive: Naive Set Theory.
+	- Co-requisitive: None.
+
+
+TODO: Probabilidade da uniao de eventos arbitrarios.
+TODO: Probability that a system will not fail.
+
+
+Axioms of Probability
+	- Formal Definitions
+		- Def: Outcome
+		- Def: Sample Space
+		- Def: Sample point
+		- Def: Event
+		- Example: Tossing a 4-sided dice
+		- Example: Tossing two 4-sided dice.
+	- The Probability Axioms
+		- Def: Probability: Function mapping from sample space to R (a measure).
+		- Axiom 01: Não-negatividade
+		- Axiom 02: Normalização
+		- Axiom 03: Aditividade (2 terms)
+	- Natural Properties
+		- Probabilidade do conjunto vazio
+		- Probabilidade de união de n eventos disjuntos
+		- Theorem: Probabilidade de evento sempre é entre 0 e 1.
+	- Example: Fair 6-sided dice
+		- Calc: Probability of each point in sample space
+		- Event: Result will be odd (or even). Compute probability.
+		- Event: Result will be 5 or 6. Compute probability.
+		- Event: Result won't be 5 or 6. Compute probability.
+	- Theorem: Discrete Probability Law
+		- Sample space discreto com N elementos
+		- Probability of event em função of probability of sample points
+		- Note: This is known as discrete probability law.
+	- Theorem: Discrete Uniform Probability Law
+		- Sample Space discreto com N elementos.
+		- Assumption: Uniformidade na probabilidade de cada elemento do sample space
+		- Probabilidade de evento com n elementos do sample space
+		- Probability of event em função de numero de elementos dos conjuntos
+	- Example: Single experiment: Three toss of coin.
+		- Identificando sample space
+		- Event: Second toss will be head. Compute probability.
+		- Event: Contains at least one head. Compute probability.
+		- Event: Exactly 2 heads occur. Compute probability.
+		- Event: Contains at least two heads. Compute probability.
+	- Example: Experiment: Jogar dois dados X, Y, de 4 lados each
+		- Representação gráfica: Grid. Probabilidade: Ponto na grade.
+		- Representação gráfica: tree. Probabilidade: Path on the tree.
+		- Assumption: Every possible outcome has same probability.
+		- Calc: P(two points)
+		- Calc: P({X = 1}) = P({(X,Y) | X=1})
+		- Calc: P(min(X,Y)=2)
+	- Probabilidade de conjunto infinito contável
+		- Set: P(n) = 2^(-n)
+		- Calc: P(n is par)
+		- Note: Is that right?
+		- Calc: P(n is impar)
+		- Countable Aditivity Axiom: Sequencia de eventos
+	- Inequação de Boole
+		- Note: Todos os pontos do sample space são eventos disjuntos
+		- Note: Axioma de aditividade sendo aplicado naturalmente de sample points.
+		- Theorem: Probabilidade de evento é soma das probabilidade de sample points.
+		- Inequação de Boole: Probabilidade da união de dois eventos não-disjuntos
+		- Exact equation: Probabilidade da união de dois eventos não-disjuntos
+		- Analogy for additivity axiom: Mass
+	- Probabilidade de interseção e união de eventos
+		- Remember: Probabilidade da união de dois eventos arbitrarios
+		- Calc: Probabilidade da interseção de dois eventos arbitrarios
+		- Calc: Soma da probabilidade dos eventos em função de união e intersecção.
+		- Note: It all makes sense.
+	- Problem: Probability of P(HH...HT) in fair coin.
+		- Infinitetly many countable sample space
+		- Compute Probability P(T), P(HT), P(HHT), ...
+		- What would be the summation of all probabilities?
+		- Note: Why does this happens?
+
+
+TODO: Probability and combinatorics
+	- TODO: Example incentivating combinatorics. Word counting.
+	- TODO: Counting principles.
+	- TODO: Simple permutations.
+	- TODO: Circular permutations.
+	- TODO: Combinations. Binomial coeficients. Pascal Triangle. Stifel relation. Binomial Theorem.
+	- TODO: Partitions.
+	- TODO: Example: Birthday problem: Room of N people. Probability 2 of them will have same birthday?
+	
+
+Math Base: Quick Highly-incomplete review of combinatorics.
+	- Principio de contagem
+		- Escrita da contagem com árvores
+		- Each layer with constant number of possibilities
+	- Definition: k-Permutations and permutations
+		- Formal Defnition: Number of possible k-tuple from n-element set
+		- Formal Definition: Permutation
+	- Combinations
+		- Formal Defnition: Number of possible k-element subsets from n-element set
+		- Escrita de uma permutação usando combinação.
+		- Calc: Probability of event number
+		- Note: Probability of sample space must be 1.
+		- Binomial Formula.
+		- Special case: p=1/2 of binonimal formula.
+	- Binomial Theorem
+		- Algebric combination of polynomial summation
+		- Theorem: Binomial Theorem
+		- Corolary: (1+x)^n.
+		- Special Case: x=1.
+	- Partitions
+		- Formal Definition: Number of possible partitions of different sizes from n-element set
+		- Escrita de partições em função de combinações.
+		- Def: Multinomial Coeficient
+		- Simplificação de partições
+
+
+Some Probability problems
+	- Problem: Fair single dice probability. Sample space: {1, 2, 3, 4, 5, 6}. Odd/even events probability.
+	- Problem: Two dice probability. Sample space: {2, 3, 4, ..., 11, 12}. Odd/even events probability.
+	- Problem: Birthday problem: Probability of two people in a room sharing birthday.
+	- Problem: Poker problem: Probability of players getting a pair of cards.
+
+
+Probabilidade Binomial
+	- Problem: Qual a probabilidade que em 6 jogadas de dados, temos sempre numeros diferentes?
+	- Example: 6 tosses of unfair coin.
+		- P(H) = p. Independent event.
+		- Calc: Probabilidade de P(HTTHHH)
+		- Calc: Probabilidade de P(HHTTHH)
+		- Note: Same probability.
+	- Generalization: Sequencia de n lançamentos
+		- Probabilidade da sequencia de n lançamentos
+		- Calc: P(k heads)
+		- Calc: P(k tails)
+	- Problem: Coin Tossing Problem
+		P(H) = p. Independent.
+		- Event B: 3 out of 10 tosses were heads
+		- Event A: First tosses are heads.
+		- Compute: P(A|B)
+		- Computing: |B| and |A inter B|.
+	- Partition Problem
+		- Partição de 52 cartas de baralho para 4 players.
+		- Compute: Probability to get 4 aces each.
+	- System reliability probability
+		- System has n-identical pieces. Only works if at least k of them works.
+		- Calc: Probability of system failure.
+		- Calc: Probability of system is operational.
+	- Example: Power station
+		- City has n power stations. Failure probability is pi.
+		- Calc: At least 1 plant can supply the city. Probability of black-out in the city.
+		- Calc: At least 2 plants can supply the city. Probability of black-out in the city.
+		- Calc: At least k plants can supply the city. Probability of black-out in the city.
+
+
+Probabilidade Condicional
+	- Intuitive calculation of conditioning
+		- Equaly likely dice.
+		- Compute: P(6 outcome | even outcome)
+	- Motivation for definition
+		- Condicionamento: B occured
+		- Opt 01: Probabilidade da intersecção with new normalization: New sample space.
+		- Opt 02: Manter proporção entre probabilidades
+	- Formal Definition
+		- Definition
+		- Def: P(A|B)
+		- Note: Simetria entre P(A inter B) = P(B inter A)
+		- Calc: P(A|B) / P(B|A)
+		- Intuition: For P(A|B), B is now the sample space
+	- Theorem: Conditional probability is a probability
+		- Must satisfy all probability axioms (def of probability)
+		- Nonnegativity (trivial).
+		- Normalization: P(sample | B) = 1.
+		- Aditivity: P(A u B | C) = P(A|C) + P(B|C) (for disjoint sets A,B).
+	- Since is probability, properties is inherited
+		- Proof: Inequação de Boole para probabilidade condicional.
+		- Equação para inequação de boole, para probabilidade condicional
+		- Discrete Probability Law.
+		- Discrete Uniform Probability Law.
+	- Propriedades exclusivas
+		- Compute: P(B|B) = 1. As expected.
+		- Compute: P(A|sample) = P(A). As expected.
+		- Note: Probabilidade condicional é indefinido se P(B) = 0. As expected.
+		- Intuition: P(A|B), B is now new "sample space".
+	- Example: Three sucessive coin tosses
+		- Condition: 1st toss is head
+		- Calc: Probability of having more H than T.
+	- Example: Experiment: Jogar dois dados X, Y, de 4 lados each
+		- Assumption: Every possible outcome has same probability. B = min(X,Y)
+		- Calc: P(M=1 | B)
+		- Calc: P(M=2 | B)
+		- Calc: P(min(X,Y)=2)
+		- Intuition: Probabilidade condicional
+	- Example: Radar detector
+		- Event A: Airplane is flying above
+		- Event B: Something register on radar screen
+		- Specs: P(A)=0.05. P(B|Ac) = 0.10. P(B|A) = 0.99.
+		- Montando árvore de probabilidade
+			- Paths: Probabilities
+			- Leak: Events.
+		- Compute: P(Ac int B)
+		- Compute: P(A int Bc)
+		- Question: Is this a reliable and nice radar? Would you buy it?
+	- Probabilidade condicional de interseções
+		- Visualização in decision tree
+			- Prove: P(A int B) = P(A) P(B|A).
+			- Prove: P(A int B) = P(B) P(A|B).
+			- Note: Moving in foward/backward in the tree
+		- Conditional tree
+			- Note: Foward: P(A int B | C) = P(A|C) P(B|A int C).
+			- Note: Backward: P(A int B | C) = P(B|C) P(A|B int C).
+			- Proof: Foward formula.
+			- Proof: Backward formula.
+	- Regra da multiplicação
+		- Theorem: P(A int B int C) = P(A) P(B|A) P(C | A int B)
+		- Intuition: Calculo de probabilidade de caminhos de tree
+		- Generalização para n eventos
+	- Total Probability Theorem: P(B) = sum P(Ai) P(B|Ai)
+		- Proof for n=2. Divisão de sample em A e A'.
+		- Partição de sample space em conjuntos disjuntos Ai.
+		- Proof of the theorem
+		- Note: Media ponderada de probabilidade condicional em cada partição.
+		- Visualização em eventos (conjuntos).
+		- Visualização no tree
+	- Bayes' Rules
+		- Prior Probabilities: P(Ai)
+		- Know: P(B|Ai).
+		- Calc: P(Ai|B) em função de P(B|Ai) e P(B)
+		- Calc: P(Ai|B) em função de P(B|Ai) e P(Ai)
+		- Note: Cause --> Effect. P(B|Ai).
+		- Note: Effect --> Cause. Inference! P(Ai|B)
+	- Example: Back to radar detection.
+		- Event A: Airplane is flying above
+		- Event B: Something register on radar screen
+		- Identifying cause and effect.
+		- Specs: P(A)=0.05. P(B|Ac) = 0.10. P(B|A) = 0.99.
+		- Tree de eventos
+		- General Inference: Given effect what was probability of cause?
+		- Inference: Given radar register something, probability has plane on skies?
+		- Question: Is this a reliable and nice radar? Would you buy it?
+		- Note: Non-intuitive phenomena may appear, as you can see.
+	- Example: 95%-correct test for desease detection.
+		- Patiente has desease, test result positive in 95%.
+		- Patiente has not desease, test result negative in 95%.
+		- It's a rare desease. 0.1% of proboability random guy has it.
+		- Inference: Given tested positive, probability has the desease?
+		- Question: Is this a reliable test?
+	- The Example: Monty Hall Problem
+		- Description of the problem.
+		- What is the best tactic to employ?
+		- Calculations.
+		- Intuition: Exageration: 100 doors.
+
+
+Eventos Independentes
+	- Example: Jogada de moeda. P(H) = p. P(T) = 1-p.
+		- Fazendo árvore de probabilidade
+		- Identificar probabilidades condicionais (branch of the tree)
+		- Calc: P(THT).
+		- Calc: P(1 head)
+		- Calc Intuitively: P(First toss is H | 1 head)
+		- Calc: P(First toss is H | 1 head)
+		- Note: Intuition is ok
+		- Note: Jogada antes não alterou o que aconteceria depois
+	- Formal Definition: Independency
+		- Def: P(B|A) = P(B)
+			- Interpretation of def.
+			- Note: Def makes no sense if P(A) = 0
+		- Formal Def: P(A inter B) = P(A)P(B)
+			- Note: Def now makes sense if P(A) = 0.
+			- Proof: P(A inter B) = P(A)P(B) ==> P(B|A) = P(B)
+		- Note: If A is independent of B ==> B is independent of A. Symmetry!
+	- Example: Coin and rain.
+		- Probability of Heads, Tails, and Rain, NotRain.
+		- Visualization in a tree. Identify conditional probabilities.
+		- Note: Independent events.
+	- Example: Eventos disjuntos
+		- Intuition: Is this dependent or independent?
+		- Formally: Is this depedent or independent?
+			- Using def 1
+			- Using formal def
+		- Note: Case of definitly dependence
+	- Visualization: Quando eventos são independentes
+		- Visually: Desenho de eventos
+		- Visually: Desenho de árvore de probabilidade
+	- Theorem: A, B independentes <==> A, Bc independentes.
+	- Independencia condicional entre dois eventos
+		- Conditional events are probability. So...
+		- Formal definition
+		- Equivalent Definition usando regra da multiplicação
+			- P(A | B int C) = P(A|C)
+		- Discussion of what is going on in both definitions
+		- Comparison with non-conditional independency
+	- Conditioning may affect independency
+		- Visually: Desenho de eventos
+		- Assume: Conjuntos A, B independentes.
+		- Eventos ainda será independentes se forem condicionados a C?
+	- Example: Chosing and tossing coins
+		- Visualização usando árvore de probabilidade
+		- Is events independent?
+		- Is event independent conditionally we know the coin A/B ?
+		- Intuition: P(toss 11 = H)
+		- Formally: P(toss 11 = H)
+		- Intuition: P(toss 11 = H | first 10 are head)
+		- Formally: P(toss 11 = H | first 10 are head)
+	- Mutual and pairwise independency
+		- Motivation (visualizing tree) of independence of n events.
+		- Formal Definition: Mutual independency between n events. (Or simply independence)
+		- Formal Definition: Pairwise independency between n events.
+		- Theorem: Pairwise Independency does not imply Mutual Independency
+		- Theorem: Mutual Independency ==> Pairwise independency (by definition, trivial)
+
+
+Discrete Random Variables
+	- Example: Intuitive Definition
+	- Formal Definition and Notation
+	- Simple Example of Random Variables
+		- Altura de alunos
+		- Iteração de função (de random Variable)
+		- Note: The Notation :)
+	- Função Massa de Probabilidade: Probability Mass Function (PMF)
+		- Formal Definition
+		- Example: P(H) = p. X = Number of coin tosses until first head
+			- Calculating X for different outcomes
+			- Note: X is cleary a random variable
+			- Calc: Função massa de probabilidade
+			- Grafico de barras da função massa de probabilidade
+			- Def: PMF Geométrica
+		- Example: Two Independent rolls of a fair tetrahedral die
+			- F: Outcome in first throw
+			- S: Outcome in second Throw
+			- X = min(F, S)
+			- Note: F, S, X are cleary random variables
+			- Calc: Px(2)
+			- Grafico de barras da função massa de probabilidade
+		- Example: Coin Tossing problem: Probabilidade binomial
+			- X = Having k heads/tails in the outcome
+			- Função massa de probabilidade
+			- Grafico de barras da função massa de probabilidade
+	- Expectation. Expected Value.
+		- Intuition: Example: Following game: P(x) = probability of getting x dollars
+			- P(1) = 1/6.  P(2) = 1/2.  P(4) = 1/3.
+			- On average, how many will you receive playing n times?
+			- Note: Calculation we just did, in formal way is...
+		- Formal Definition of Expectation (Expected Value)
+		- Interpretation: Center of Mass
+
+
+TODO: Culmulative discrete distribution.
+TODO: Some discrete probability distributions. Bernoulli, Geometric, Binomial, Poisson, Hypergeometric.
+TODO: Multivariable discrete distributions.
+TODO: https://en.wikipedia.org/wiki/Logistic_distribution
+
+TODO: Continuous distributions. Continuous random variables. Average. Variance. Chebyshev's Inequality.
+TODO: Cumulative probability distribution. Transformation frmo one distribution to another.
+TODO: Normal, Chi-Squared, Chi, etc.
+TODO: Continuous Multivariable distributions.
+
+TODO: Law of large numbers.
+TODO: Central limit theorem.

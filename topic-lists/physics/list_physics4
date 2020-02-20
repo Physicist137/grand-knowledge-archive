@@ -1,0 +1,99 @@
+TITLE: Física 04: Optica electromagnética básico introdutorio
+	- Pre-requisitives: Fisica 02A, Fisica 03.
+	- Co-requisitives: Calculus 04
+
+
+Objectives: 
+	1) Introduce EM Optics: Interference, Diffraction. Lightly.
+	2) Prepare the ground for Quantum Mechanics. Leave taste of "want to know"
+		- Theorem: Atomic configuration with static electrons is impossible.			( Teorema de Earnshaw )
+		- Theorem: Atomic configuration with non-static electrons is impossible.		( Electromagnetic irradiation )
+		- How is that possible? How electrons is configured on atoms?????????
+	3) Prepare the ground of Relativity. Leave taste of "want to know".
+		- Energy has inertia. Light is energy. EM energy propages with c!! What if we move to another frame?
+		- Ask: How works the relativity between EM phenomena? [dar exemplos de assimetrias]
+		- Ask: EVERY wave equation has a priviligied reference frame: The media. What about EM wave? Has it? It can propagate even in vacuum!
+
+
+Interferencia da Luz
+	- Campo eletrico de luz monocromatica plana
+		- Representação real
+		- Representação complexa
+		- Amplitude da onda e fase de onda
+		- Velocidade de fase e velocidade da luz
+		- Numero de onda e comprimento de onda
+		- Frequencia e periodo
+		- Numero de onda reduzido e comprimento de onda no vácuo
+	- Campo eletrico de luz monocromatica esferica
+		- Representação real
+		- Representação complexa
+		- Amplitude da onda e fase de onda
+		- fase=cte ==> Formato da onda
+	- Interferencia de ondas monocromaticas
+		- Onda com amplitude arbitraria. Função amplitude complexa.
+		- Intensidade média de uma onda
+		- Intensidade média resultante
+		- Interferencia construtiva: Valor da diferença de fase e valor de intensidade
+		- Interferencia destrutiva: Valor da diferença de fase e valor de intensidade
+		- Special case: Duas ondas tem mesma intensidade
+		- Note: Corpuscular theory cease to work at this point
+	- Experimento de Young
+		- Descrição do experimento
+		- Interferencia de ondas esfericas
+			- Note: Distancia enter aberturas << distancia enter anterparos
+			- Calc: r1 e r2 em função de "angulo medio" dos raios de luz e horizontal
+			- Note: Substituir denominadores por R holds
+			- Note: Substituir expoentes por R doesn't hold.
+			- Calc: Intensidade resultante em função das amplitudes
+			- Calc: Diferença de fase aproximada em função de r1 e r2
+			- Calc: Intensidade resultante em função da intensidade resultante para uma unica fenda aberta
+			- Simplificação trigonometrica: I' = 4Icos^2(phase/2)
+		- Franjas de Interferencia
+			- Intensidade em função da defasagem
+			- Condição de interferencia construtiva e destrutiva em função de r1 e r2
+			- Espaçamento angular entre dois mínimos e dois máximos (plugar real values to see)
+			- Note: "Centro é sempre brilhante"
+			- Note: É possivel calcular comprimento de cada cor com espaçamento angular entre máximos/mínimos
+			- Precisão da medida do comprimento de onda de cada cor
+		- Intensidade e conservação de energia
+			- Note: Duas fendas. Intensidade é o dobro da que devia ser. Contradiction?
+			- Calc: Intensidade média devido as duas fendas
+			- Note: Houve apenas redistribuição da intensidade
+	- Interferencia em laminas delgadas
+
+
+
+
+Optica Geométrica
+Optica Eletromagnetica
+
+
+
+
+POSSIBLE ORDER:
+Optica Geometrica.
+Interferencia da luz
+Difração da luz
+Dielectric Materials
+Modelos microscopicos de condução
+Magnetic Materials
+Maxwell Equations in Media
+Polarization of light in media
+
+
+ANOTHER POSSIBLE ORDER:
+Dielectric Materials
+Modelos microscopicos de condução
+Magnetic Materials
+Maxwell Equations in Media
+Optica Geometrica
+Interferencia da luz
+Difração da luz
+Polarização da luz em meios
+
+
+AFTER PHYSICS 04, CAN GO TO:
+	Eletromagnetism 01
+	Optics
+	Relativity 01
+	Quantum Physics 01

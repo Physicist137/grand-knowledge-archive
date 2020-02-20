@@ -1,0 +1,505 @@
+TITLE: Differential Geometry 02: Extrinsic Geometry of 3D Surfaces
+	- Pre-requisitive: Differential Geometry 01.
+	- Co-requisitive: 
+
+
+Regular Surfaces Intuition
+	- Parameterized surface
+		- Def: Parameterized surface of class Ck. phi: U --> R3. U is simply connected subset of R2.
+		- Def: Parameters of the surface
+		- Def: Differential
+		- Def: Parameterized regular surface of class Ck (posto do diferencial é max) (diff injetivo).
+	- Regular Surface
+		- Def: Regular surface of class Ck.
+		- Def: Chart (carta). Local coordinate system. 
+		- Def: Coordinated Neighbohood.
+		- Def: Local Coordinates
+		- Def: Atlas.
+	- Tangent vectors
+		- Def: Tangent vector of a surface (tangent vector of curve immersed on surface)
+		- Def: Coordinated Curves
+		- Calc: Tangent vector in point p relating first coordinated curve
+		- Calc: Tangent vector in point p relating second coordinated curve
+	- TODO: Surfaces with f(x, y, z) = cte.
+	- TODO: Certain theorems relating surfaces.
+	- Example: Plot of f: R2 --> R. 
+		- Parameterization. 
+		- Check regularity. 
+		- Tangent vectors.
+	- Example: Revolution Surface
+		- Revolution surface from parameterized regular curve I-->R2. 
+		- Parameterization R x I. 
+		- Check regularity. Determinant calculation.
+		- Tangent vectors.
+		- Def: Meridians (coordinated curves u=cte).
+		- Def: Paralels (coordinated curves v=cte).
+	- Example: Plane. The simplest one.
+		- Calc: Parameterization of a plane
+		- Check if/when surface is regular
+		- Calc: Tangent Vectors
+
+
+
+Parameterization of Sphere
+	- S^2 Sphere
+		- Def: S^n sphere
+		- Equation of surface f(x, y, z) = c.
+		- Two sphere looks like: https://upload.wikimedia.org/wikipedia/commons/0/08/Sphere_wireframe.svg
+	- S^2 Sphere: Parameterization construction
+		- Construction: Def: Polar and Azimuthal Angles
+		- Description of a point in the surface of sphere
+		- Construction of the parameterization of the sphere.
+	- S^2 Sphere: Hemisphere Parameterization
+		- Calc: Superior and Inferior Hemisphere parameterization (positive/negative z-axis).
+		- Calc: x-axis Hemisphere parameterization
+		- Calc: y-axis Hemisphere parameterization
+		- Note: This set is an atlas
+	- S^2 Sphere: Revolution surface
+		- Parameterization of half circunference curve
+		- Rotation around z-axis: Parameterization of sphere
+		- Calc: Tangent Vectors
+		- Check if/when surface is regular
+		- Note: Its not regular surface
+		- Calc: Rotation around other axis
+	- S^2 Sphere: Stereographic projection
+		- Def: Stereographic projection from a point over sphere
+		- Calc: Parameterization of Stereographic projection from north pole
+		- Calc: Parameterization of Stereographic projection from south pole
+		- Note: Both parameterizations form an atlas
+	- TODO: Other projections. PRos and cons of each projection.
+	- TODO: Relate to Mapa Mundi.
+
+
+
+Examples of parameterization of surfaces
+	- Ellipsoid
+		- Looks like: https://upload.wikimedia.org/wikipedia/commons/3/33/Ellipsoide.svg
+		- Surface Cartesian Equation
+		- Calc: Construction from "azimuthal and polar" angles.
+		- Calc: North Hemisphere Parameterization
+		- Calc: Stereographic projection
+		- Calc: Conditions for revolution surface. Oblate/Prolate Spheroid.
+	- Elliptic Paraboloid
+		- Surface Cartesian Equation
+		- Calc: Parameterization (as plot of function).
+	- Hyperboloid of two sheets
+		- Looks like: https://upload.wikimedia.org/wikipedia/commons/0/08/Sphere_wireframe.svg
+		- Calc: Cartesian Equation
+		- Calc: Parameterization directly from cartesian equation (two of them for positive/negative z-axis)
+	- Hyperboloid of one sheet
+		- Looks like: https://upload.wikimedia.org/wikipedia/commons/0/08/Sphere_wireframe.svg
+		- Cartesian
+			- Calc: Cartesian Equation
+			- Calc: Parameterization directly from cartesian equation (two of them for positive/negative z-axis)
+		- Elliptic Cuts
+			- Note: Cutting hyperboloid in given height, produces ellipse
+			- Calc: The equation of the elipse produced by the cut
+			- Calc: Parameterization of ellipti curve produced by the cut
+			- Calc: Parameterization of the hyperboloid of one sheet from several elliptical cuts at parameter h
+			- Calc: Check Regularity. Tangent Vectors.
+			- Note: Its a regular parameterized surface
+		- TODO: Paremeterization with cosh/sinh.
+	- Torus
+		- Looks Like: https://upload.wikimedia.org/wikipedia/commons/4/47/Torus.svg
+		- Calc: Construction of a parameterization
+		- Calc: Cartesian Equation (from parameterization).
+	- Catenoid
+		- Calc: Revolution surface: Rotation of a Catenary
+		- Looks like: https://upload.wikimedia.org/wikipedia/commons/5/5d/Catenoid.svg
+	- TODO: Mobius Streep
+
+
+
+Review in Differential Calculus (optional).
+	- TODO: Multivariable Calculus
+	- TODO: Differential of a function. Linear application. Associated Matrix form in canonical base of Rn and Rm.
+	- TODO: Taylor Formula.
+	- TODO: Chain Rule. Involving Differentials.
+	- TODO: Homomorphisms. Difeomorphisms.
+	- TODO: F: Rn --> RN: dF_p injective <==> (dF_w(0) = 0 ==> w = 0) <==> Jacobian matrix of F in p has rank n <==> Jacobian in p is non-null.
+	- Inverse Function Theorem
+		- Enunciation of the theorem.
+		- Note: Differential dF_p needs to be injective (maximum rank).
+	- Implicit Function Theorem
+		- Enunciation of the theorem.
+		- Note: There exists open set with inverse functions
+		- Note: Partial derivatives are known.
+
+
+
+Regular Surfaces
+	- Regular Parameterized Surface
+		- Formal Definition: Regular Parameterized Surface.
+			- Application X: U --> R3, U\subset R2, U open. X differentiable Cinf class.
+			- The differential dX is injecture for all U.
+		- Def: Parameters of the surface (u,v).
+		- Def: Trace of the surface
+	- Rigorous definition of regular surface (a weaker def).
+		- Let surface S\in R3. For any point p\in S, there exists open set V\in R3, st:
+		- There exists application X: U --> S\inter V. U\in R2 open set. X Differentiable Cinf class.
+		- X homeomorphism: Bijective, and continuous inverse.
+		- X is differentiable Cinf.
+		- For any point q\in U, differential dXq is injective.
+	- Theorem: It is equivalent, for a point q\in U:
+		- dX is injective.
+		- Jacobiab matrix of X in q has rank 2.
+		- The vectors dX(e1) and dx(e2) are LI (ie, Xu and Xv)
+		- Cross product Xu and Xv is non-null.
+		- Note: Injectivity is related to the tangent vectors
+	- Local coordinates
+		- Def: Coordinated curves of X
+		- Def: Local coordinate system
+		- Def: Coordinated Neighbohood.
+	- Proposition: The plot of f(u, v), f differentiable function, is regular parameterized surface.
+		- Writing the set of the plot of f(u,v).
+		- Calc: The trivial parameterization for it
+		- Check: If there exist sopen set V\in R3 for every point p\in S.
+		- Check: If X is differentiable (Cinf).
+		- Check: X is surjective.
+		- Check: X is injective.
+		- Check: Inverse X^-1 is continuous (since it is restriction of continuous map (x,y,z)-->(x,y)).
+		- Calc: Injective differential dX: 
+			- Way 01: The jacobian matrix. The rank of the jacobian matrix.
+			- Way 02: Cross products of Xu and Xv.
+	- Proposition: If (f(u), 0, g(u)) regular curve, then revolution is regular parameterized surface
+		- Calc: The trivial parameterization for it
+		- Calc: The partial derivatives Xu, Xv.
+		- Calc: The cross product Xu, Xv. Note: Its non-null.
+	- Reparameterization of a surface
+		- Reparameterization function h between two domains U and U'
+		- Calc: Function Y that moves from U' to surface (ie, X o h).
+		- Calc: Regularity: Cross product Yu' and Yv'. Condition for regularity
+		- Note: Jacobian matrix of the h function needs to have non-null determinant.
+	- Theorem: Reparameterization Function
+		- If: h: U'\in R2 --> U differentiable, with non-null jacobian determinant, h(U') = U
+		- Then: Y = X o h is a regular parameterized surface, with same trace as X.
+		- Note: Reparameterization function need not to be injective. Eg: h(u,v) = (e^u cosv, e^u sin v).
+	- Proposition: Regular parameterized surface is locally a plot of a function
+		- Recall: Jacobian of surface parametrization has maximum rank. Thus, determinant of sub-block is non-null
+		- Definition of a function F: R2 --> R2 with non-null determinant takes from the sub-block.
+		- Application of inverse function theorem: Existance of open vicinity, st F^-1 exists and is differentiable.
+		- Calc: Reparameterization Y = X o F^-1 is plot of differentiable function (call it h = F^-1 is wish).
+		- Note: Plot of a differentiable function.
+	- Proposition: Reparameterization to the plot of a function
+		- If: X parameterized surface. For each q\in U, there exists open set V and reparameterization h.
+		- St: Trace of Y = X o h is the plot of differentiable function.
+	- TODO: Two local systems. Going from one to another.
+
+
+
+Tangent Plane and Normal Vector
+	- Def: Curve immersed in a surface
+		- Assume: Parameterized regular surface
+		- Def: Curved immersed on surface
+		- Construction of a parameterized curve immersed on surface, from parameterized curve
+		- Note: Curve is simply draw in local coordinate system
+	- Tangent Vector
+		- Def: Tangent Vector of a surface in a point p (if there exists curve ...).
+		- Eg.: Coordinated curves (ie, the simplest case =D).
+	- Theorem: All tangent vectors form a vector space
+		- Step 01: Given a tangent vector v, prove cv is a tangent vector, for any c\in R.
+		- Step 02: Given two tangent vectors, prove v+w is tangent vector
+		- Note: They form a vector space over R.
+	- Tangent Vector Space in point p
+		- Def: Tangent Vector space in point p.
+		- Notation of Tangent Vector Space.
+		- Calc: Generators of the tangent plane come from coordinated curves
+			- Calc: Generators written as a partial derivative
+			- Calc: Generators written when surface differential is applied into local basis {e1, e2}.
+		- Proof: The basis of the tangent vector space are its generators (generators are LI).
+		- Proof: The dimension of the tangent vector space is 2
+	- Theorem: Xu and Xv form a basis of the tangent vector space.
+		- Step 01: TqS is subset of [Xu, Xv]. To take vector from TqS and show its in [Xu, Xv].
+		- Step 02: [Xu, Xv] is subset of TqS. To take trivial coordinated lines, and sum them up.
+		- Step 03: Xu and Xv are LI. (After all, surface is regular).
+		- Conclusion: [{Xu, Xv}] = TqS, dim TqS = 2.
+	- Tangent Plane
+		- Note: Since Vector space has dimension 2, it has associated plane
+		- Note: This plane is immersed in the 3D space
+		- Note: All vectors tangent to the plane, are tangent to the surface
+		- Def: The tangent plane of a surface in apoint p
+		- Calc: Calculation of the parameterization of the tangent plane of a surface in point p
+	- Normal Vector
+		- Def: Normal Vector to a point of the surface
+		- Calc: The normal vector
+		- Calc: Unitary Normal Vector
+	- Example: The S^2 sphere
+		- Calc: The tangent vector space in a point.
+		- Calc: The tangent plane in a point
+		- Calc: The normal unitary vector in a point
+	- Gaussian Normal Application
+		- Formal Definition: Application from domain U to S2 sphere.
+		- Takes (u,v) and outputs normal unitary vector.
+	- Reparameterization of a surface
+		- Calc: The tangent vectors Yu' and Yv' in reparameterized surface
+		- Calc: The tangent vector space in TqY. Relation with TqX.
+		- Calc: The cross product of Tangent vectors. Change in sign due to determinant of jacobian of reparameterization.
+		- Proposition: Reparameterization does not alter the tangent vector space
+		- Proposition: Reparameterization does not alter the gauss normal application (except for a signal change).
+	- TODO: Orientation of surfaces.
+	- TODO: Show grad F is normal to the surface F(x, y, z) = c.
+
+
+
+Length and Area
+	- TODO: To calulate the length of urves in the surface. To show is invariant under reparameterization.
+	- TODO: To calulate the area of a surfae. To show area is invariant under reparameterization.
+	- TODO: To calculate angle between tangent vectors.
+	- TODO: To calculate area of a torus. To note its simply (2pia)(2pir). Coincidence?
+	- TODO: To calculate the surface area and volumed of: Closed planar curve, where plan is being dragged: An (open/closed) curve st its tangent vector is always in the direction at the plan).
+
+
+
+Mapping between surfaces
+	- TODO: Application F between two surfaces. Definition of differentiability of the application.
+	- TODO: Mapping the tangent vectors by means of the application between the surfaces. Relation to the differential of the application dF.
+	- TODO: Isometric maps. Isometric surfaces.
+
+
+
+First Fundamental Form
+	- Formal Definition
+		- Application: I: TqX --> R
+		- Takes tangent vector and outputs its length.
+	- Tangent vector as linear combination
+		- Recall: Tangent vector is linear combination of principal tangent vectors
+		- Calc: The first fundamental form in a general vector (linear combination of).
+		- Note: Also called: First quadratic Form
+		- Calc: Coeficients of the First Fundamental Form
+		- Calc: Expressing in matrix form
+	- Induction of a bilinear form
+		- First Fundamental Form as a bilinear form I: TqX x TqX --> R
+		- Takes two tangent vectors w, z and outputs <w, z>
+		- Calc: Expressing both tangent vectors a linear combination of principal tangent vectors.
+		- Calc: First fundamental form expressed as a quadratic form
+		- Calc: First fundamental form in matrix form
+		- Def: Matrix representation of the First Fundamental Form
+	- Matrix representation of the First Fundamental Form
+		- Formal Definition
+		- Proof: Terms E, G are positive.
+		- Proof: Its a symmetric matrix.
+		- Proof: The determinant is greater than zero (and never is zero).
+	- The First Fundamental Form as bilinear symmetric form <,>
+		- Proof: Its bilinear.
+		- Proof: Its positive definite.
+		- Proof: Its symmetric.
+		- Note: The matrix representation can change if the base changes
+		- Note: The First Fundamental Form as defined (application) never changes. Independent of the base.
+	- Examples: Calculating the Matrix representation of first fundamental form
+		- Calc: A plane: Orthornormal generators, that passes thru p0.
+		- Calc: A cylinder of radius 1.
+		- Calc: A cylinder with radius r.
+		- Calc: A sphere centered at the origin, with radius r.
+		- Calc: Helicoide. (Extension of a line connecting rotation axis of helice curve)
+		- Calc: A general revolution surface.
+	- Reparameterization of a surface
+		- Proof: Invariance of the first fundamental form.
+			- Recall: Tangent Vector space is invariant under surface reparameterization
+			- Note: Since tangent plane is the same, so will be the first fundamental form.
+			- Note: Easy proof right?
+		- Note: The representation matrix can change its coeficients.
+		- Calc: Calculation of the representation matrix in a new reparameterization. (Ie, of coeficients E, F, G).
+			- Consider: Reparameterization function h: U --> U'.
+			- Calc: The transformation between the tangent spaces: TqS --> Tq'S'.
+			- Calc: The transformation between the coordinates of tangent vectors.
+			- Note: its simply dh (Jacobian of the reparameterization function).
+			- Calc: The calculation of the first fundamental form in both ways, making relation between tangent vectors
+			- Calc: How representation matrix transforms under reparameterization of the surface
+		- Calc: The determinant of the representation matrix in the new reparameteization.
+	- Length and area
+		- Calc: Length of a curve contained in the surface, in function of the first fundamental form
+		- Calc: Area of a domain of the surface, in function of the first fundamental form
+		- Calc: Angle between tangent vectors, in function of the first fundamental form
+		- Note: Its important since, reparameterization leaves first fundamental form invariant.
+		- Note: Area, Length and angles are thus left invariant under reparameterization.
+	
+
+
+Isometric Surfaces
+	- TODO: Isometric Surfaces. Existence of isometry.
+	- TODO: Isometry of surfaces of different charts.
+	- TODO: Relation of first fundamental form between isometric surfaces.
+	- TODO: Isometry under a different domain of parameterization. 
+	- TODO: Isometry identification only looking at domain (and first fundamental form).
+	- TODO: Example: Cylinder and piece of plane.
+
+
+
+Second Fundamental Form
+	- Motivation
+		- Note: We took a curve contained in surface, and its first derivative motivated the first form
+		- Note: Perhaps.. the second derivative might say as something?
+		- Calc: First derivative of a curve contained in surface (note: The principal tangent vectors).
+		- Calc: Second derivative of a curve contained in the surface
+		- Note: One piece of it, is tangent to the surface
+		- Note: Another piece of it, is independent on the curve chosen.
+		- Note: Perhaps we could explore the curve-independent part
+		- Calc: Taking inner product with the normal vector yields only curve-independent parts
+	- The Second Fundamental Form
+		- Formal Definition: IIq: TqS --> R
+		- Calc: The coeficients of the second fundamental form: e, f, g.
+		- Calc: Second fundamental form in matrix form
+		- Calc: Second fundamental form as a quadratic form
+	- Induction of a bilinear form
+		- Second Fundamental Form as a bilinear form IIq: TqX x TqX --> R
+		- Takes two tangent vectors w, z and outputs IIq(w, z)
+		- Calc: Second fundamental form expressed as a quadratic form
+		- Calc: Second fundamental form in matrix form
+		- Def: Matrix representation of the First Fundamental Form
+	- TODO: The Second Fundamental Form as bilinear symmetric form <,>
+		- Proof: Its a bilinear form
+		- Proof: Its a symmetric form
+		- Question: Is it positive definite?
+		- Note: The plan yields surface with null second form (hence not positive definite).
+	- TODO: Reparameterization of a surface
+	- TODO: Determinant. Geometrical Meaning.
+	- TODO: Relation with first. Weingarten Operator (or shape operator).
+	- TODO: Interpretation of Weingarten operator: Gauss application (from surface to S2) (The derivative I think).
+	- Examples: Calculating the Matrix representation of second fundamental form
+		- Calc: A plane: Orthornormal generators, that passes thru p0.
+		- Calc: A cylinder of radius 1.
+		- Calc: A cylinder with radius r.
+		- Calc: A sphere centered at the origin, with radius r.
+		- Calc: Helicoide. (Extension of a line connecting rotation axis of helice curve)
+		- Calc: A general revolution surface.
+	- Geometrical interpretation of the second fundamental form
+		- Let: arc length parameterized curve contained in surface.
+		- Calc: The second fundamental form in the unitary tangent vector of the curve
+		- Calc: Using Frenet Equations for the second derivative of the curve
+		- Note: Second fundamental form is related to the curvature of the curve.
+		- Note: Second form does not depends on the chosen curvature
+		- Note: Perhaps then, this is somehow a curvature of the surface itself?
+
+
+
+Curvature of Surfaces
+	- Normal Curvature in a given direction
+		- Note: The direction and normal surface form a plan
+		- Note: Intersection of the plan with surface forms a curve
+		- Formal Definition: Normal Curvature in a given direction: k: TqS --> R.
+		- Note: Its only dependent on direction, not on magnitude
+	- Calculation of the Normal curvature
+		- Let: Intersection curve be parameterized by arc length
+		- Calc: Normal curvature for unitary vector equals +- the second fundamental form
+		- Note: As second form is bilinear, multiply by scalar (Ie, length of the non-unitary vector).
+		- Calc: The normal curvature for any non-null vector in the tangent space
+		- Calc: Normal curvature dependent on second and first fundamental form only.
+	- Examples of normal curvatures:
+		- To calc: Tangent vectors, Normal Vector, Second derivatives, First and second coeficients.
+		- To calc: First and second forms (in quadratic, form tangent w = aXu + bXv). Normal Curvature as defined.
+		- For a sphere. Note: For all directions, normal curvature is the same. Constant normal curvature
+		- For a cylinder. Note: As expected: A direction gives zero curvature, and for another, 1/r curvature.
+		- For a hyperbolic paraboloid at the cell point.
+	- Principal Curvatures
+		- Recall: Curvature depends only on direction. Hence, can be defined from S2 --> R.
+		- Intuition: There most exist directions in which curvature is max/min (assuming it is not cte).
+		- Formal Definition: Principal Curvatures. Principal Directions.
+		- Calc: Normal Curvature written in direction of components (a, b) (depending on first and second forms).
+		- Calc: Necessary conditions for maximality (partial derivatives for a, b) are zero.
+		- Calc: The equations for principal curvature (depending on a12, b12 and principal curvature k12).
+		- Calc: Equations for principal curvature in matrix form, to find out (a12, b12).
+		- Note: Identification of first and second fundamental forms component matrix.
+		- Note: For nontrivial solution (what we want), matrix must be nonsingular, determinant must be zero.
+		- Calc: Transforming this problem into a eigenvalue problem.
+		- Note: Algorithm for finding: Principal curvatures, and then, principal directions.
+		- Note: Principal directions are eigenvectors of the weingartten operator with associated principal curvature as eigenvalue.
+	- Principal Directions
+		- TODO: Prove that: (k2-k1)<w1, w2> = 0. That is, principal directions are orthogonal if k is not cte
+		- TODO: Also prove they are orthogonal exploring linear algebra: The matrix is symmetric in the eigenproblem.
+	- Euler Formula
+		- Inserting a direction separated by angle theta from principal directions (since the form orthogonal coordinate system)
+		- Calc: Second fundamental form of this new direction, w = cos(theta)w1 + sin(theta)w2
+		- Recall: Second fundamental form is quadratic bilinear.
+		- Note: What we actually need to calc is II(w1, w2).
+		- Calc: Compute II(w1, w2) relating to first fundamental form by means of weingartten operator
+		- Note: Recall as w1, w2 ar eprincipal, its eigenvector of weingartten operator
+		- Note: Recall that w1, w2 are orthogonal. Hence, firsdt fundamental form is zero.
+		- Note: Second fundamental form of orthogonal principal vectors are zero.
+		- Proof: Euler Formula (Relating curvature in a direction separated by theta from principal curvatures).
+	- Mean Curvature and Gauss Curvature
+		- Formal Definition: Mean Curvature
+		- Formal Definition: Gauss Curvature
+		- Note: Mean and gauss curvature are coeficients of the polynimal in which principal curvatures are root of.
+		- Note: If we can build a polynomial in which principal curvatures are roots, we can find explicit formulas for them..
+		- Note: But wait.. we can!! Recall: Necessary condition for being principal curvature requies matrix to be nonsingular.
+		- Calc: The determinant of the matrix for principal curvature for eigenproblem. Note: Principal curvatures are roots.
+		- Calc: The coeficients for characteristic polynomial
+		- Calc: Explicit formula for mean and gauss curvature
+		- Note: Gauss curvature is the ratio of the determinants of second and first fundamental form
+	- Curvatures under reparameterization
+		- Recall: Reparameterization only causes signal shift into the normal curvature 
+		- Recall: Signal shift comes from determinant of the jacobian matrix of the reparameterization.
+		- Note: Principal curvatures only gain signal shift
+		- Note: Mean curvature only gain signal shift.
+		- Note: Gauss curvature is invariant under reparameterization (not even a signal shift!)
+	- TODO: Curvature under isometric transformations.
+	- TODO: Conservation of curvature (assuming it starts as cte) (isometric transformations) (pizza eating!)
+	- TODO: Curvature in an direction. Gaussian Curvature. Principal Directions. Solving an eigenvalue problem and system to find curvature and directions. Principal vectors are orthogonal.
+
+
+Revolution Surfaces
+	- TODO: Curve in xz. Curve in xy. Revolution surface from regualr curve. To prove its regular surface
+	- TODO: To calc first fundamental form. To calc second fundamental form. And coeficients. Determinant of them.
+	- TODO: To calc Gaussian curvature. To calc the mean curvature. To calc the principal curvatures. To calc the principal curvature directions.
+	- TODO: To calc all data again, assuming regular curve is arc length parameterized.
+	- TODO: Pseudo-Sphere: Revolution of Tractrix (sin t, 0, cost + log(tg(t/2))), 0 < t < pi/2. Has cte gaussian curvature -1.
+	- TODO: Revolution surfaces with zero mean curvature.
+	- TODO: Revolution surfaces with constant gauss curvature.
+
+
+Implicit Surfaces
+	- TODO: To define: Surface defined by Implicit function F(x, y, z) = c.
+	- TODO: To prove its regular surface
+	- TODO: Gradient is Normal Vector (by trivial proof, and by implicit function theorem).
+	- TODO: To calc first fundamental form. To calc second fundamental form. And coeficients. Determinant of them.
+	- TODO: To calc Gaussian curvature. To calc the mean curvature. To calc the principal curvatures. To calc the principal curvature directions.
+	- TODO: To calc all data again, assuming regular curve is arc length parameterized.
+
+
+Plot of a function
+	- TODO: To prove its regular surface
+	- TODO: To calc first fundamental form. To calc second fundamental form. And coeficients. Determinant of them.
+	- TODO: To calc Gaussian curvature. To calc the mean curvature. To calc the principal curvatures. To calc the principal curvature directions.
+	- TODO: To calc all data again, assuming regular curve is arc length parameterized.
+
+
+
+Classification of points in a surface
+	- TODO: Elliptic, Hyperbolic, Parabolic and Planar points. Interpretation.
+	- TODO: Soem propositions in each
+	- TODO: Umbilical points. Vicinity of non-unbilical points. Non-umbilical condition: H² - K > 0.
+
+
+
+Principal Coordinate System
+	- TODO: Principal lines (curvature lines). Determinant to find the principal curves (Just take kn and substitute in the other).
+	- TODO: Olinde Rodrigues Theorem.
+	- TODO: In vicinity of non-umbilical point, there exists two principal curves (orthogonal to each other ofc since they are principal curves....).
+	- TODO: Principal coordinate system. Curvature lines (principal lines). Principal parameterization.
+	- TODO: First, Second fundamental form in principal coordinate system. Gaussian Curvature.
+	- TODO: Reparemterization to principal coordinate system.
+	- TODO: Example: Helicoide.
+
+
+Assymptotic Coordinate System
+	- TODO: Assymptotic direction. Existance of assymptoptic direction in types of points (Hyperbolic, Parabolic, Elliptic, Planar).
+	- TODO: Assymptotic lines. Equation for assymptotic lines. (Just simply second fundamental form in quadratic form).
+	- TODO: On vicinity of hyperbolic point, there exists two assymptotic curves.
+	- TODO: Assymptoptic Coordinate System.
+	- TODO: First, Second fundamental form in Assymptotic coordinate system. Gaussian Curvature.
+	- TODO: Reparemterization to assymptotic coordinate system.
+	- TODO: Example: Helicoide.
+
+
+Mobile Coordinate System
+	- Xu, Xv, N, coordinate system.
+	- TODO: Derivatives of each vectors.
+	- TODO: Christoffel symbols (without compact notation of indexes) (that's right! One by one!). Their calculations. DEpendence only in First fundamental form.
+	- TODO: Relations for b coeficients (relating derivatives of normal vectors).
+
+
+Geodesics Curves
+	- TODO:
+
+
+

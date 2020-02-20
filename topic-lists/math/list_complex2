@@ -1,0 +1,485 @@
+Title: Complex 02: Complex Calculus
+	- Pre-Requisitives: Complex 01, Calculus 02.
+	- Co-Requisitive: None
+
+
+Regiões no Plano complexo. TODO: To complete.
+	- Def: Vizinhança do plano complexo: Bola centrada em z0
+	- Def: Vizinhança deletada do plano complexo: Exclusão de z0 na bola
+	- Def: Ponto interior de um conjunto: Vizinhança contem pontos apenas do conjunto.
+	- Def: Ponto exterior de um conjunto: Vizinhança tem todos os pontos não pertencentes ao conjunto.
+	- Def: Ponto da fronteira de um conjunto
+	- Example: Bola centrada na origem do plano complexo
+		- Show: Conjuntos dos pontos interiores à bola
+		- Show: Conjuntos dos pontos exteriores à bola
+		- Show: Conjuntos dos pontos na fronteira da bola
+	- Continuidade complexa
+		- Formal Definition
+		- Theorem: Continuidade da soma de funções
+		- Theorem: Continuidade do produto de funções
+		- Theorem: Continuidade da composição de funções
+
+
+Limite de funções complexas
+	- Limite Intuition
+	- Formal Definiton
+		- Definition writing
+		- Limite writing
+		- Visualization of the definition
+	- Theorem: Unicidade do valor do limite
+	- Theorem: Limite complexo é equivalente a limite de componentes
+		- Foward Theorem: Limite complexo é limite de componentes.
+		- Backward theorem: Componente de limites é limite complexo
+	- Propriedades dos limites
+		- Theorem: Limite das somas é soma dos limites
+		- Theorem: Limite dos Produtos é igual a produto dos limites
+		- Theorem: Limite da divisão é divisão dos limites
+		- Note: Direct proof by transforming them in real-valued limits
+	- Alguns exemplos
+		- lim z->0 conj(z)^2 / z. To use epsilon-delta proof.
+		- TODO: More.
+	- Limites infinitos. Limites em pontos infinitos.
+		- Def: Neighborhood at infinity.
+		- Formal Definition: Finite limits at infinity point
+		- Formal Definition: Infinite limits at finite point
+		- Formal Definition: Infinite limits at infinite point.
+		- Theorem: lim z->z0 f(z) = inf  <==> lim z->z0 1/f(z) = 0
+		- Theorem: lim z->inf f(z) = w0  <==> lim z->0 f(1/z) = w0
+		- Theorem: lim z->inf f(z) = inf <==> lim z->inf 1/f(1/z) = 0
+	- Continuidade
+		- Escrita da definição de cotninuidade usando limites
+	- TODO: Limite do modulo.
+
+
+Derivadas de funções complexas
+	- Derivadas
+		- Formal Definition
+		- Def: Função é diferenciavel em ponto z
+		- Corolary: Unicidade do valor da derivada
+		- Theorem: Função diferenciavel em ponto P ==> Função é continua em ponto P
+	- Exemplos de derivada
+		- Example: Derivada de f(z) = z²
+		- Example: Derivada do conjugado de um numero
+			- Aproximação do limite pelo eixo real
+			- Aproximação do limite pelo eixo imaginario
+		- Example: Derivada do quadrado do módulo
+		- Example: Derivada do modulo
+		- Calc: Derivada de função constante
+		- Calc: Derivada de z^n
+	- Regras de diferenciação
+		- Derivada da soma de duas funções
+		- Derivada do produto de duas funções
+		- Derivada da divisão de duas funções
+		- Regra da Cadeia
+		- Example: Derivada de polinomio
+	- Example: Exponential function e^z
+	- Example: Logarithmic function log z
+		- Derivative of main branch
+		- Derivative of other branchs.
+		- Non existance of derivative in the cut line of the chosen branch.
+	- Example: The power function z^c, c\in C.
+		- Writing power function as exponential and logarithmic function.
+		- Choosing the cut line and branches of the power function.
+		- Derivative of the power function in a branch.
+		- Main branch of the power function. Derivative of the power function.
+	- TODO: Example: Trigonometric functions.
+	- TODO: Example: Hyperbolic Functions.
+	- TODO: Example: Inverse trigonometric/hyperbolic functions.
+
+
+
+Cauchy-Riemann Equations
+	- Necessary differentiability condition: Cauchy-Riemann Equations
+		- Escrita do limite em representação complexa retangular
+		- Calc: Limite tendendo a zero horizontalmente (eixo real)
+		- Calc: Derivada da função em termos de derivadas parciais (tendencia no eixo real)
+		- Calc: Limite tendendo a zero verticalmente (eixo imaginario)
+		- Calc: Derivada da função em termos de derivadas parciais (tendencia no eixo imaginario)
+		- Theorem: Cauchy-Rimeann Equations satisfied ==> Derivative exists
+		- Example: Verification at f(z) = z^2.
+		- Example: Verification at f(z) = |z|^2
+	- Suficient differentiability condition (TODO)
+		- Satisfability of Cauchy-Riemann Equations
+		- Existance and continuity of first order partial derivatives
+		- TODO: Proof.
+		- Example: Exponential function
+	- Coordenadas polares
+		- Regra da cadeia das derivadas parciais para coordenadas polares
+		- Writing and comparisom: ur, vr, utheta, vtheta
+		- Equações de Riemann-Cauchy em coordenadas polares
+		- Derivada de função complexa com tendencia no eixo real em coordenadas polares
+		- Derivada de função complexa com tendencia no eixo imaginario em coordenadas polares
+		- Derivada de função complexa em função das derivadas parciais com respeito apenas a r.
+		- Derivada de função complexa em função das derivadas parciais com respeito apenas a theta.
+		- Suficient differentiability condition in polar coordinates
+	- Exemplos de derivadas de funções complexas
+		- Note: Every every number, is complex.
+		- Derivada da função exponencial de base e
+		- Derivada da função logaritmo
+		- Derivada da função potencia
+		- Derivada da função exponencial de base arbitraria complexa
+		- Derivada da função seno e cosseno (de numero complexo of course)
+		- Derivada da função tangente e cotagente
+		- Derivada da função secante e cossecante
+		- Derivada do seno e cosseno hiperbolicos
+		- Derivada de todas as funções hiperbolicas
+		- Derivadas da funções trigonométricas inversas
+		- Derivadas das funções hiperbólicas inversas
+		- Prova da Identidade de Euler usando derivada
+
+
+Analytic/Holomorphic Functions
+	- Funções Holomórficas
+		- Def: Analytic/Holomorphic function in an open set: Has derivative in each point in set.
+		- Def: Alayytic/holomorphic in point z0: Analytic in open vicinity of z0.
+		- Example: f(z) = 1/z is analytic in all non-null point in C.
+		- Example: f(z) = |z|² is *not* analytic in all points in C (even if f' exists in z=0).
+		- Def: Entire function
+		- Def: Singularity. Singular point.
+		- Def: Branch of multi-valued complex function (e.g.: Logarithm)
+		- Def: Principal branch
+		- Note: Any polynomial function is an entire analytic function
+	- Theorem: f'(z)=0 everywhere in D, then f(z) is constant in D
+		- Partial Derivatives and use of Cauchy Riemann Equations
+		- Calc: Gradient vector
+		- Calc: Directional derivative in arbitrary direction inside D
+		- Conclusion: f(z) is constant.
+	- Harmonic Functions
+		- Formal Definition
+		- Examples: Electrostatic potential must be harmonic. Etc examples.
+		- Two-Dimensional Laplace differential Equation
+			- Rectangular Coordinates
+			- Spherical coordinates
+		- Theorem: Function is analytic in D ==> Function is harmonic in D
+			- Proof: Trivial application of Cauchy-Riemann Equations.
+			- Spherical and cartesian coordinates.
+	- TODO: Uniquely determined analytic functions
+	- TODO: Reflection Principle
+
+
+Integrals of function from variables real to complex variables.
+	- Escrita: Separação de parte real e imaginaria
+	- Calc: Derivada da função
+	- Calc: Derivada do produto da função e constnate complexa
+	- Teorema do Valor Intermediario (TVI)
+		- Enunciado do teorema for real-valued functions
+		- Consider: w(t) = e^it.
+		- Compute: w(2pi) - w(0).
+		- Note: A counter example. Theorem is no longer valid for complex
+		- What we do now??! Integral is heavily based on such theorem. We are ruined!! =(
+	- Integrais Definidas
+		- Formal Definition
+		- Note: From Def: Parte real da integral é integral da parte real
+		- Note: from Def: Parte imaginaria da integral é integral da parte imaginaria
+		- Note: Yes. Eh uma def tosca. But what you expected us to do without TVI?
+	- Teorema fundamental do calculo for such definite integrals
+
+
+Line Integrals in Complex Plane
+	- Contornos no plano complexo
+		- Def: Arc. A limited curve in complex plane.
+		- Def: Regular arc: Non-null tangent vector.
+		- Def: Simple arc: Do not cross itself.
+		- Def: Simple closed curve: Only initial/final values coincidence.
+		- Examples of arcs
+			- Clockwise Unit circunference centered at zero.
+			- Counter-clockwise unit circunference centered at zero.
+			- Arbitrary centered circunference
+		- Calc: Reparametrização de um arco
+		- Def: Differentiable arc
+		- Calc: Length of an arc
+		- Calc: Length of reparametrized arc
+			- With respect to the new parameter
+			- With respect to the old parameter
+		- Def: Unit tangent complex number (unit tangent vector)
+		- Def: Smooth Arc. Continuous tangent complex number.
+		- Def: Contour. Piecewise smooth arcs together.
+		- Def: Simple contour. Simple closed contour.
+	- Contour Integrals
+		- Formal Definition
+		- Note: Its simply a line integral
+		- Property: Contour integral of sum of functions
+		- Property: Contour integral of product of function with constant.
+		- Property: Contour integral of reversed countour.
+		- Property: Line integral of sum of countourns.
+		- Example: Line integral of complex conjugate over half of unit circle
+		- Example: Line integral over triangle of some function
+		- Example: Line integral of affine function
+			- General parametrization
+			- Evaluation of line integral in function of parameter
+			- Note: Its a derivative of the curve
+			- Evaluation of the integral over any path
+			- Note: Dependencia apenas dos pontos finais e iniciais
+		- Upper Bounds
+			- Lemma: Modulo de integral é menor igual que integral do módulo
+				- Assume: integral evaluates to certain complex number in polar form
+				- Solve for r. Take the real part
+			- Theorem: If |f(z)| is limited by M, Modulo of line integral of f(z) is limited by M*curvelength
+
+
+Complex Integration
+	- Theorem: If one is true, so are all others (either all is true, or none is)
+		- A complex continuous function has an antiderivative in domain D
+		- Contour integral of any path always give the same value: Final-Initial poitns.
+		- Contour integral arround any closed path is zero.
+	- Proof of the theorem. Note: Suficient to prove: A ==> B ==> C ==> A.
+		- Contour integration over smooth arcs
+		- Contour integration over non-smooth arcs (summation)
+		- Integration over closed path is zero
+		- The rest.
+	- TODO: Defining complex integral as a riemann sum.
+	- Example: Closed integral of 1/z²
+		- Step 01: Anti-derivative exists in every point of the domain.
+		- Step 02: Dependence only on initial and final conditions.
+		- Step 03: Evaluation of the integral. Zero.
+	- Example: Closed integral of 1/z
+		- Step 01: Anti-derivative exists, except in the line of cut.
+		- Step 02: Evaluating by separating the path and choosing two branches for well behaved anti-derivative.
+		- Step 03: Evaluating the integrals. Closed integral non zero.
+
+
+Closed Contour Integral
+	- Cauchy-Goursat Theorem
+		- Assume: Complex function is analytic at points in the simple closed contour
+		- Assume: Complex function is analytic at interior points of simple closed contour
+		- Theorem: Integral over simple closed contour of analytic function is zero
+	- Proof: Using Green's Theorem
+		- Escrita da integral de contorno
+		- Escrita usando funções na parte real e imaginaria
+		- Escrita da integral usando funções da parte real/imaginaria
+		- Escrita da integral retirando diferenciais de tempo
+		- Remember: Teorema de Green.
+		- Application of Green's Theorem
+		- Application of Cauchy-Riemann Equations
+		- Zero integral proved. :).
+		- Note: Using Green's theorem we also require continuity of f'(z) in the region and interior.
+ 	- TODO: Proof: Original Cauchy-Goursat Theorem?
+	- Simply connected domains
+		- Formal Definition: Simply connected domains
+			- Definition using lines
+			- Perhaps: Definition used closed contour
+		- Note: Any closed contour in domain relies within itself
+		- Example: Set of points interior to a simpel closed contour
+		- Note: There is no limitations if it will intersect itself or not
+		- Formal Definition: Multiply connected domains: Non-Simply connected.
+	- Theorem: Function is analytic over simply connected domain ==> Zero integral for any closed path
+		- Note: Generalization. Before was considered simple closed curve. Now is any.
+		- Proof: If curve is simple closed contour that intersects itself finite number of times
+			- Note: Finite number of simple closed contour
+			- Note: Cauchy-Goursat Theorem garants zero integral over them
+		- Proof: If curve is simple closed contour that intersects itself infinite number of times
+		- Example: Function with singularities outside disk (ie, a simply connected domain)
+			- Integral over any closed path is zero
+			- Note: No need to calculate the itnegral to find out. Just check domain.
+		- Corolary: Existance of antiderivative everywhere in function with simply connected domain
+		- Corolary of corolary: Entire functions always has antiderivatives
+ 	- Theorem: Closed integral over multiply connected domain
+ 		- Assume: Simple closed contour C directed counterclockwise
+ 		- Assume: n simple closed contours Ck clockwise-directed
+ 		- Assume: All Ck are disjoint, and interiors has no point in common
+ 		- Assume: Analytic function in points interior to C and exterior to each Ck
+ 		- Theorem: Sum of integral over C and integral over all Ck is zero
+ 		- Proof: n+1 Polygon lines connecting each curve Ck and C.
+ 		- Proof: Exterior curves
+	- Corolary: Principle of deformation of paths
+		- Theorem: Equality of closed integrals in multiply connected domain
+		- Assume: Simple closed contours C1 and C2, where C1 interior to C2.
+		- Assume: Function f is analytic in the region in between the curves
+		- Proof of the corolary
+		- Note: C1 continuously deformed into C2
+		- Note: Deformation only passes thru analytic points
+		- Note: Consequence: Same value of closed integral
+	- Example: Closed integral of 1/z
+		- Simple closed path: Unit circunference
+		- Evaluation of the closed integral
+		- Note: Non-zero result
+		- Note: Non-Analytic point in z=0.
+		- Note: Multiply connected domain
+		- Note: Corolary of deformation of path is valid.
+
+
+Cauchy Integral Formula
+	- Translação do caminho
+		- Consider: Arbitrary circunference contour centered at zero and at z0
+		- Proof: Igualdade das integrais f(z) and f(z-z0) em C e C0.
+	- Cauchy Integral formula
+		- Show: Cauchy Integral formula
+		- Assume: Function f analytic everywhere in simple closed contour C
+		- Assume: Contour Cr: Circunference of radious r inside C centered at z0
+		- Application of the corolary of deformation of path
+		- Calc: Escrita da integral 1/z translated to z0
+		- Proof: Integral formula
+	- Extension to Cauchy Integral formula: Derivative of analytic function
+		- Show: Derivative of function written in form of Cauchy Integral
+		- Escrita de diferença finita na forma da integral de cauchy
+		- Manipulação matemática
+		- Proof.
+	- TODO: Second derivative of analytic function in Cauchy Integeral form
+	- TODO: n-derivative of analytic function in Cauchy integral form
+	- Theorem: If a f(z) is analytic in point P, then f'(z) is analytic in P.
+		- Remember: Def of analytic
+		- Possibility of considering a simple closed circular contour
+		- Note: Second derivative existance given by cauchy-integral
+		- Note: Existance of prime derivative and its analyticity
+		- Corolary: If f(z) is analytic, all its derivatives is analytic
+		- Corolary: If f(z) is analytic, component functions has continuous partial derivatives
+	- Theorem: Closed integral zero implies analytic function
+		- Assume: Continuous complex function on domain D
+		- Theorem: Zero integral for every closed contour in D ==> Is analytic function
+		- Note: Function has antiderivative in the domain
+		- Note: Antiderivative is analytic ==> Function is analytic
+	- Theorem: Cauchy Inequality
+		- Assume: Function f(z) is analytic inside and on a circle radius R centered at z0
+		- Assume: |f(z)| is limited anywhere in the circle. Maximum value: M.
+		- Theorem: Módulo do enésimo valor da derivada de z0 é limitado por n!M/R^n
+		- Proof: Enésima derivada in cauchy-integral form. Valor em módulo.
+	- Theorem: Liouville's Theorem
+		- Theorem: If function f(z) is entire and bounded, then f(z) is constant in complex plan
+		- Bound for the 1st derivative
+		- Note: R is any arbitrary value, since f(z) is entire.
+		- Note: This proves the theorem.
+	- Theorem: Any polynomial of degree >=1, has at least one zero.
+		- Proof: assume not ==> Division inverse is entire as well.
+		- Escrita do polinomio: P(z) = (an + w)z^n
+		- Proof of the theorem
+	- Theorem: Fundamental Theorem of Algebra
+		- Using the theorem: Any polynomial of degree >=1, has at least one zero.
+		- Factor out the polynomium with the root.
+		- Use the theorem again in the new polynomium. =).
+	- TODO: Maximum modulus principle. Lemmas, the theorem, and the corolaries.
+
+
+TODO: Analytic-Type proofs of the FUndamental Theorem of Algebra
+	- https://en.wikipedia.org/wiki/Fundamental_theorem_of_algebra
+
+
+Small Series Review
+	- Formal Definitions
+		- Def: Sequencia
+		- Def: Limite de sequencia
+		- Def: Sequencia convergente
+		- Def: Sequencia divergente
+	- Sequence theorems
+		- Theorem: Limite de sequencia complexa é limite sequencia de parte real e imaginaria
+		- Theorem: Limite de soma, multiplicação e divisão de sequencias complexas
+	- Séries complexas
+		- Def: Sequencia de somas parciais
+		- Def: Séries
+		- Theorem: Convergencia da série complexa <==> Convergencia parte real e imaginaria
+		- Theorem: Convergencia da série ==> Limite da sequencia é zero
+		- Def: Convergencia absoluta
+		- Theorem: Convergencia absoluta ==> Convergencia
+		- Def: Remainders
+		- Theorem: Convergencia da série ==> Remainders tends to zero
+
+
+Complex Power Series
+	- Formal Definition
+		- Power series centered at z0
+		- Def: Remainder of a power series
+	- Theorem: Absolute convergence of Power Series
+		- Assume: Power Series centered at z0. It converges at z=z1.
+		- Then: Absolutely converges at any z inside circunference in z1.
+		- Proof: Note: Coeficients are bounded.
+		- Proof: Absolute convergence of the series. Done.
+	- Definitions of convergence
+		- Remember: Def: Convergencia absoluta
+		- Def: Circle of convergence of a power series
+			- Note: Every point inside converges
+			- Note: Every point outside diverges
+		- Def: Uniform convergence
+			- Remember: Def: Remainder of a series
+			- Note: Limite at infinity of remainder is zero
+			- Remember: Limite defintiion
+			- Dependence of number only dependent of episilon, independent of point
+	- Theorem: Uniform convergence of power series
+		- Assume: z1 is point inside circle of convergence of power series centered at z0
+		- Theorem: Series is uniformly convergent inside and in border of circunference in z1
+		- Note: Absolute convergence
+		- Calc: Remainder of the series
+	- Theorem: Power series is continuous for any point inside circle of convergence
+		- Series in function of partial sum sequence and remainders
+		- Remember: Uniform convergence theorem.
+		- TODO
+	- Theorem: Power series integration theorem
+		- Assume: Let arbitrary contour C be interior to circle of convergence of power series S(z).
+		- Assune: Let any function g(z) be continuous on C.
+		- Assume: Let new series K(z) be g(z)S(z).
+		- Theorem: Integral of series K is series of integral of terms of K
+			- Proof: Writing integral of series K from partiam sum sequence and remainders
+			- Proof: Remember: Uniform convergence theorem.
+			- Proof: Infinite limit. Proved.
+			- Obvious Corolary: Integral of power series is series of integrals term by term
+		- Corolary: Integral of power series over any path is zero
+			- Power function is entire
+			- Gauss-Goursat Theorem
+		- Corolary: Power Series S is analytic on each point inside circle of convergence
+			- TODO
+	- Theorem: A power series can be differentiated term by term
+		- Chosing function for cauchy-integral form of derivative
+		- Using previous theorem. Proved.
+	- Multiplication of Power Series
+		- Calc: Zeroth, First, Second and Third terms of the sereis multiplication
+		- Leibniz's General Rule
+		- Cauchy Product
+
+		
+
+Taylor Expansion
+	- Maclaurin Series (optional)
+		- Assume: Complex analytic function f in arbitrary disk centered at z0
+		- Theorem: f then has a power series representation (Mauclarin series)
+	- Proof of Maclaurin Series
+		- First: Proving Maclaurin series. Then shift to prove taylor theorem.
+		- Remember: 1/(s-z) represented by geometrical series and its remainder
+		- Cauchy Integral representation of f in terms of geometrical series
+		- Note: A cauchy-integral for n-th derivative of point zero
+		- Note: Remainder of the geometrical series in cauchy-integral form
+		- Upper Bound of moduli of remainder in cauchy integral form
+		- Note: Limite of remainder goes to zero
+		- Note: Mauclaurin series proved.
+	- Taylor Theorem
+		- Assume: Complex analytic function f in arbitrary disk centered at z0
+		- Theorem: f then has a power series representation (taylor series)
+	- Proof 01: Taylor Theorem
+		- Pick one: Foward or reverse. 
+		- Taylor series rerepsentation
+		- Writing nth derivative as cauchy-integral form
+		- Solving geometrical series
+		- Note: Cauchy-integral representation of function itself
+		- https://en.wikipedia.org/wiki/Taylor%27s_theorem#Taylor.27s_theorem_in_complex_analysis
+	- Proof 02: Taylor Theorem.
+		- Step 01: Let g(z) = f(z + z0).
+		- Step 02: Prove analicty region of g
+		- Step 03: Build Mauclaurin series of g
+		- Step 04: Variable substitution. Taylor expansion of f.
+	- Examples of Taylor series
+		- Exponencial of complex number
+		- Maclaurin series of trigonometric functions
+		- Maclaurin series of hyperbolic functions
+		- Maclaurin series of 1/(1-z)
+		- Comparisom with real taylor expansion (real and imaginary part)
+	- Theorem: If power series converges to function f, then its a taylor series of f
+		- Note: Equivalence of writing the function
+
+
+
+Laurent Expansion
+	- Laurent Theorem
+		- Assume: Complex function analytic throughout annular domain D centered between outer C2 and inner C1
+		- Assume: Let D be centered at z0. Let z be a point in the domain.
+		- Theorem: Laurent representation of f(z) and its coeficients.
+			- Proof of Laurent Theorem
+			- Proof: Using Cauchy-Goursat Theorem on multiply connected domain on curves C2 and C1 involving f(z)
+			- Proof: Writing Laurent expansion. Solving Geometrical Series. Arriving in integral form.
+			- Note: Representation of function itself from Cauchy-Goursat Theorem on multiply connected domain
+		- Representation of Laurent Series
+			- Note: Possibilidade de escrita de n=-inf até -1
+			- Note: Junção com a série de Taylor
+			- Note: Escrita da série de Laurent with single coeficient de -inf a +inf.
+			- Note: Calc: Laurent coeficients.
+		- Examples and applications of Laurent series
+			- Example: Mauclaurin series for e^z. Substitution: z <-- 1/z. Note: A laurent expansion
+			- Note: First term of laurent expansion of e^(1/z). Its closed curve integral is one.
+			- Calc: Closed integral of e^(1/z). Note: Trivial using laurent expansion coeficients.
+

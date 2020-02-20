@@ -1,0 +1,28 @@
+TITLE: Formal Quantum Mechanics 03: Angular Momentum.
+	- Pre-requisitives: Formal QM 02.
+	- Co-requisitives: 
+
+
+TODO: Classical Rotations. Infinitesimal rotations.
+TODO: Infinitesimal rotation operator. The rotation generator operator J. Finite rotation operator.
+TODO: Commutation relations of the rotation generator operator J.
+TODO: Eg.: Spin-1/2 system. Spin operators are rotation generators. Pauli spin matrices. 4pi and 2pi rotations.
+
+TODO: SO(3),SU(2) and Euler Rotatios.
+
+TODO: Eigenvalues and eigenstates of J² and Jz. Ladder operators. Maximum/minimum vlaues
+TODO: Introduction of j and m. Range of m. j as integer or semi-integer.
+TODO: Normalization of the Jz, J² and J+- eigenkets. Matrix representation of such operators.
+TODO: Matrix representations of Jx, Jy using J+-.
+
+TODO: Representation of the rotation operators. Wigner Functions.
+TODO: (2j+1)-dimensional irreducible representation of the rotation operator D(R)
+TODO: Rotation representations D(R) form a group.
+TODO: The middle matrix. Eg.: Spin-1 case.
+TODO: Other methods to calculate the middle matrix (non avaiable in sakurai) (3.5.57).
+
+TODO: Orbital Angular Momentum.
+TODO: Lx, Ly, Lz, L+, L-, L^2, operators in the wavefunctions.
+TODO: Recovering spherical harmonics eigenfunctions from algebraic means.
+
+TODO: Addition of Angular momentum. Methods of addition.

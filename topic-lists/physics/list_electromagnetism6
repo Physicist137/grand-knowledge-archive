@@ -1,0 +1,546 @@
+TITLE: Eletromagnetism 07: Teoria microscopica classica do eletromagnetismo. Aplicações da teoria EM.
+	- Pre-requisitives: Electromagnetism 03
+	- Co-requisitives: Kinetic Theory 01.
+
+
+Materiais Dielétricos
+	- Campo molecular em um dielétrico
+		- Formal Definition (responsavel pela polarização de molecula)
+		- Fonte do campo molecular: Campo externo e as outras moleculas polarizadas.
+		- Pequena cavidade esférica circulando ponto no campo molecular
+		- Restante do dielétrico: Tratamento continuo
+		- Assumption: Não há carga volumétrica polarizada (vetor polarização uniforme)
+		- Calc: Campo molecular em função de outros campos
+			- Campo elétrico externo
+			- Campo despolaraizante gerado por superficie do dielétrico
+			- Campo devido a carga de polarização na cavidade
+			- Campo devido a dipolos interior à cavidade
+		- Calc: Campo elétrico despolarizante em função do vetor polarização
+		- Campo elétrico macroscópico dentro do material dielétrico
+			- Campo macroscopico em função dos campos aprensetados antes
+			- Continuidade normal do campo D na interface dielétrico-vacuo
+		- Calc: Campo gerado por carga de polarização na cavidade
+			- Cavidade descrita em coordenadas esféricas.
+			- Campo dE gerado por carga de polarização na cavidade
+			- Densidade superficial de carga em coordenadas esféricas
+			- Note: Its easier to calculate se direçao k for tomada como direção de polarização
+			- Integração do campo.
+			- Campo em função do vetor de polarização
+		- Calc: Campo devido a dipolos interior à cavidade
+			- Note: Sem correlação na posição dos dipolos (random). Say: Gas, liquid.
+			- Note: Materiais isotrópicos (lattice cubico de dipolos)
+			- Note: Materiais anisotrópicos (non null field).
+		- Campo molecular
+			- Calc: Campo molecular em função de campo externo e vetor polarização
+			- Calc: Campo molecular em função de campo interno e vetor polarização
+	- Polarizibilidade molecular
+		- Momento de dipolo de molecula por unidade de campo polarizante
+		- Densidade volumétrica no numero de moléculas (N moleculas por unidade de volume)
+		- Calc: Vetor de polarização
+		- Polarização em função da constante dielétrica e campo elétrico	
+			- Note: Assumindo material isotrópico.
+			- Note: Equivalente a assumir a relação constitutiva
+			- Rememmber: Susceptibilidade eletrica. Relação entre E e P.
+			- Remmember: Permeabilidade elétrica. Relação entre D e E.
+			- Remember: Constante dielétrica <==> Permeabilidade elétrica relativa.
+		- Polarizibilidade molecular
+		- Equação de Clausius-Mossotti
+	- Tipos de moléculas em um dielétrico
+		- Dielétrico com presença e ausencia de campo polarizante
+		- Def: Moleculas polares
+		- Def: Moleculas não polares
+		- Example: Moleculares apolares
+		- Example: Moleculas polares
+	- Moleculas apolares: Modelo simples de dipolos induzidos
+		- Simplest molecule: Molécula monoatômica
+		- Propriedades: Raio atomico e número atomico
+		- Assumption: Nuvem eletrônica esfericamente distribuida
+		- Calc: Carga da nuvem eletrônica
+		- Atomo colocado em um campo polarizante molecular
+		- Calc: Deslocamento relativo do núcleo à nuvem eletrônica
+		- Calc: Sentido do deslocamento
+		- Calc: Força restauradora elétrica no átomo
+		- Calc: Sentido da força restauradora
+		- Calc: Dipolo atomico induzido
+		- Calc: Polarizibilidade atômica
+		- Note: Possivel calcular raio atômico a partir de grandezas medidas experimentalmente
+	- Moleculas apolares: Dipolo induzido em molecula diatomica identica
+		- Tratamento separado de átomos
+		- Soma das polarizibilidades
+	- Moleculas polares
+		- Átomos diferentes ligados
+		- Dipolos não alinhados ==> Vetor polarização é zero
+		- Campo eletrico externo
+			- Alinhamento de dipolos
+			- Saturação do vetor de polarização com aumento do campo elétrico
+			- Contribuição dipolar induzida
+		- Distribução de Boltzmann para os dipolos permanentes
+			- Energia potencial de dipolo em campo polarizante
+			- Integração completa da distribuição de Boltzmann sobre angulo sólido
+		- Calc: Momento de dipolo efetivo médio de molecula dipolar
+			- Calc: Média do momento de dipolo de uma molecula na direção do campo
+			- Integração completa da media sob distribuição de bolzmann
+			- Note: Saturação do dipolo efetivo médio
+		- Aproximação linear (para temperaturas ordinarias)
+			- Termo linear da aproximação do dipolo efetivo
+			- Calc: Polarizibilidade orientacional (alihamento de dipolos permanentes)
+			- Note: Polarizibilidade de deformação (indução de dipolos)
+			- Polarizibilidade molecular total (sum of both)
+			- Equação de Langevin-Debye.
+		- Expansão de potências.
+			- Expansão do momento de dipolo efetivo
+			- Note: Valores do campo externo tal que aproximação linear falha.
+	- Ferroeletricidade: Polarização permanente
+		- Some cases: Polarização proporcional a E
+			- Campo interno tende a zero ==> Campo molecular polarizante tende a zero
+			- Campo externo nulo ==> Campo molecular nulo
+			- Conclusion: Polarização não pernanente
+		- Campo interno nulo ==> Existencia de campo molecular
+		- Calc: Campo molecular com campo interno nulo com existencia de polarização
+		- Condição de polarização permanente
+		- Materiais ferroeletricos (analogo a ferromagnetico)
+		- Ponto de Curie
+		- Example: Titanato de bario: BaTiO3
+		- Note: Mas e sobre o campo despolarizante?
+		- Não existe campo despolarizante em material ferroelétrico
+
+
+Condução em materiais
+	- Teoria geral de condução
+		- Particula livre, carga q, massa m, sujeita a campo eletrico
+		- Equação de movimento no vacuo
+		- Equação de movimento em um meio
+		- Velocidade da particula em função do campo eletrico no caso estacionario
+		- Solução da equação de movimento da particula em um meio para velocidade inicial nula
+		- Solução da equação de movimento da particula em um meio para velocidade inicial qualquer
+		- Solução da equação de movimento da particula em meio para velocidade inicial qualquer em campo zero.
+		- Note: Constante de tempo (tempo de relaxação).
+		- Calc: Velocidade em função do campo e da constante de tempo
+		- Note: Def do vetor densidade de corrente para unico portador de carga
+		- Calc: Vetor densidade de corrente em função do campo eletrico
+		- Calc: Condutividade do material para um unico portador de carga
+		- Calc: Condutividade do material para varios portadores diferentes de carga
+	- Colisões de elétrons
+		- Assume: Tempo médio de colisão. Velocidade liquida média.
+		- Calc: Perda de momento em uma colisão.
+		- Calc: TAxa de perda de momento.
+		- Calc: Taxa de ganho de momento (qE).
+		- Note: No regime estacionario, tais taxa são iguais. =).
+		- Note: Tempo de relaxação é o tempo médio de colisão.
+		- Note: Em bons condutoresm constante de tempo proporcional a periodo de colisão entre cargas e meio
+		- Def: Livre percurso médio dos eletrons
+			- Velocidade térmica dos eletrons
+			- Velocidade térmica >>> Velocidade de deslocamento
+			- Note: That's why constante de tempo é independente do campo elétrico impresso
+	- Teoria microscopica de condução: em metais
+		- Propriedades da condução em metal
+			- Constante de tempo de colisão
+			- Constante de tempo de dissipação de excesso de densidade de carga
+			- They are equal!
+			- Grande densidade de portadores de carga
+			- Baixo constante de tempo
+			- Vetor densidade de corrente de um metal
+			- Condutividade de um metal
+			- Def: Mobilidade de um eletron
+		- Velocidade térmica
+			- Metal é eletrostaticamente neutro em media
+			- Grandes variações de potencial na ordem de 1 angstrom
+			- Consideração com propriedade ondulatoria dos eletrons
+			- Quantum Result: Cristal perfeito, potencial periódico 3D, onda eletronica não realiza colisão
+			- Tempo de colisão em cristal perfeito é infinito
+		- Conclusion: Condutividade finita vem de imperfeições da estrutura periodica perfeita
+			- Impurezas
+			- Imperfeições termicamente induzidas
+			- Movimento térmico de átomos neutros do cristal
+		- Regra de Matthiessen
+			- Contribuição independente de impurezas e imperfeições termicamente induzidas
+			- Soma das resistividades do material
+			- Seção reta de espalhamento proporcional a amplitude de vibração ==> Proporcional a maxima energia potencial
+			- Energia potencial maxima é energia cinética maxima proporcional a kbT
+			- Resistividade proporcional à temperatura
+			- Def: Coeficiende de temperatura da resistencia
+		- Resistividade de ligas de metais
+			- Note: Ligas tem resistividade sempre maior que seus metais separados
+			- Draw: Grafico aproximado da resistividade da liga com diferentes percentagens de concentração atomica
+	- TODO: Dominio de validade.
+	- TODO: Discussão (quick): Teorias quânticas de condução.
+
+
+Materiais Magnéticos
+	- Campo magnético molecular
+		- Formal Definition
+		- Note: Analogo ao campo elétrico molecular
+		- Note: Procedimento de calculo analogo ao campo eletrico molecular
+		- Pequena cavidade esférica circulando ponto no campo molecular
+		- Calc: Campo H macroscopico. Integrando em todas as fontes de H.
+			- Correntes de transporte
+			- Densidade de dipolos magnéticos
+		- Assumption: Magnetização uniforme. Não há densidade volumetrica dipolar magnética.
+		- Campo H molecular
+			- Contribuição do campo H macroscopico na cavidade
+			- Contribuição do polo superficial da cavidade
+			- Contribuição dos dipolos magnéticos no interior da cavidade
+		- Calc: Contribuição de dipolo superficial
+		- Calc: Controbuição dos dipolos magnéticos no interior da cavidade
+	- Teoria microscopica do diamagnetismo
+		- Tratamento classico
+		- Warning: Classical Physics
+			- Modelo atomico não condizente with quantum flutuations
+			- Solução da equação de Schrodinger para órbita do eletron
+			- Hold as good approximation
+		- Orbita circular do eletron ao redor do átomo
+		- Orbita do eletron com força eletrica sem presença de campo magnético
+		- Sem presença de campo magnetico
+			- Força eletrica em função da frequencia angular
+			- Calc: Frequencia angular sem presença de campo magnético
+		- Presença de campo magnetico
+			- Calc: Frequencia angular com presença de campo magnetico
+			- Calc: Percentagem dw/w por unidade de campo magnético
+			- Calc: Desigualdade da percentagem dw/w por unidade de campo magnetico
+			- Note: Variação de frequencia angular pequena comparada com frequencia angular
+			- Calc: Variação da frequencia angular do eletron
+			- Def: Frequencia de Larmor
+		- Força eletromotriz induzida na corrente atomica
+			- Campo magnetico em processo de ligar
+			- Calc: Variação de fluxo magnetico através da orbita
+			- Espiras eletronicas (revoluções feitas durante variação do campo magnetico)
+			- Calc: Força eletromotriz induzida
+			- Energia fornecida ao eletron (Variação de energia cinética)
+			- Calc: Variação da frequencia angular
+			- Note: Agreement com a frequencia de Larmor
+			- Note: Diamagnetismo ==> Lei de Lenz ocorrendo em escala atomica
+		- Susceptibilidade magnética e vetor de magnetização
+			- Calc: Variação de momento magnético
+			- Calc: Vetor de magnetização
+			- Calc: Susceptibilidade diamagnética
+			- Note: Diamagnetismo está presente em todos os tipos de matéria
+	- Materiais paramagneticos
+		- Dipolo magnetico permanente de molecula
+			- Soma dos dipolos permanentes dos átomos
+			- Note: Molecula magneticamente "polar"
+		- Note: It is not that simple
+			- Quantização discreta de cada momento orbital
+			- Dois eletrons não podem ocupar um mesmo estado quantico
+			- Flutuações térmicas
+		- Note: Situação analoga a moelculas polares em campo elétrico
+		- Função de Langevin TODO
+		- Vetor de magnetização do material TODO
+		- Susceptibilidade paramagnética
+		- Show: Expressão completa da magnetização de material não-ferromagnetico
+	- Materiais ferromagneticos TODO
+		- Teoria de Pierre Weiss
+
+
+Teoria de Drude-Lorentz
+	- Equação de movimento
+		- Assume: Onda eletromagnética passando
+		- Assume: Elétrons ligado a átomo. Força restauradora.
+		- Força elétrica e magnética em um átomo.
+		- Considerações magnéticas
+			- Note: Força magnética é c vezes mais fraca q força elétrica
+			- Also: Força magnética não realiza trabalho
+			- Ignore it
+		- Equação de movimento para a força elétrica
+		- Campo elétrico molecular.
+	- Modelo de condução AC
+		- Equação de oscilador armotecido unidimensional
+		- Remmember: Frequencia natural de oscilação (dependente de massa/raio da molecula)
+		- Remmember: Fator de amortecimento (inverso do tepo médio de colisão)
+		- Remmember: Campo molecular em função de campo interno e vetor polarização (com novo parametro)
+		- Caso especial: Elétrons livres (metal). Sem frequencia natural.
+	- Parametro de ligação entre campo molecular e vetor polarização
+		- Remmember: Meio dielétrico isotrópico não-polar: Parametro é 1/3.
+		- Remmember: Meio condutor. Metal: Parametro é zero.
+		- Calc: Parametro para meio dielétrico isotrópico polar (contribuição polar apenas)
+		- Calc: Parametro com contribuição polar e contribuição de indução de dipolos.
+	- Campo molecular variavel no tempo
+		- Equação de onda para campo molecular
+		- Assumption: Comprimento de onda muito maior que amplitude de deslocamento da molecula
+		- Note: Aproximação k nulo. CAmpo molecular apenas varia no tempo (e não no espaço).
+	- Amplitude de oscilação
+		- Calc: Amplitude complexa de oscilação
+		- Calc: Densidade de polarização complexa
+		- Ligação entre campo molecular e campo interno
+		- Substituição: LIgação entre propriedades eletromagnétiacs macroscopicas com dados microscopicos
+		- Def: Frequencia de plasma
+		- Relação entre constante dielétrica e propriedades microscopicas
+	- Várias Moleculas/Particulas de propriedades diferentes
+		- Soma das relações
+		- Relação entre constante dielétrica e propriedades microscopicas
+	- Determinação das propriedades eletromagnéticas macroscopicas
+		- Constante dielétrica. Permeabilidade elétrica.
+		- Constantes ópticas
+		- Densidade de corrente de condução
+		- Condutividade
+		- Propriedades para meio dielétrico (constante dielétrica/optica e condutividade).
+		- Propriedades para meio condutor (constante dielétrica/optica e condutividade).
+
+
+Introdução básica: Física de plasma: Teoria orbital.
+	- Aproximações usadas
+		- Orbital Theory. Microscopical Theory. Domain of validity.
+		- Equilibrium theory. Statisical Theory. Domain of validity.
+		- MHD Theory. Macroscopical Theory. Domain of validity.
+	- Particula carregada em campo magnético uniforme
+		- Força magnética não realiza trabalho. Energia cinética total conservada.
+		- Energia cinética perpendicular (T - T||)
+		- Aceleração centripeta (força de Lorentz)
+		- Calc: Raio da orbita. Raio de Larmor.
+		- Calc: Momento magnético da particula
+		- Calc: Momento magnético em função de energia cinética perpendicular e campo
+	- Campos elétricos e magnéticos uniformes ortogonais
+		- Composição de velocidades. Def: Velocidade de deslocamento.
+		- Força de Lorentz. Definir velocidade de deslocamento st there is no force.
+		- Deslocamento com velocidade constante.
+	- Campo magnético não uniforme
+		- Campo magnético não uniforme com componente cilidrica polar nula
+		- Calc: Força de Lorentz
+		- Calc: Componente axial da força de Lorentz (componente Z)
+		- Componente radial do campo magnético em função do componente z
+			- Apprx: Gradiente de campo magnético em direção z praticamente constante
+			- Divergente nulo do campo magnético
+			- Relação entre componente r e z.
+		- Força exercida sobre particula na direção axial (z).
+			- Em função de velociade, carga, etc.
+			- Em função do momento magnético da particula
+			- Note: Força é exercida contra o gradiente de campo magnético em Z
+			- Note: Força empurra a particula para a parte mais fraca do campo magnético
+		- Energia paralela da particula
+			- Força axial em função de momento magnético
+			- Adicionando o fator integrante
+			- Energia cinética paralela.
+			- "Potencial" axial magnético efetivo.
+			- "Energia axial"
+			- Calc: Ponto de parada.
+		- Energia paralela à particula (way 2)
+			- Remember: Momento magnético dependente de energia cinética perpendicular
+			- Energia cinética paralela: Total - perpendicular
+			- Derivando os dois lados.
+			- Note: Momento magnético é uma constante de movimento
+		- Descrição do movimento
+			- Particula penetra espaço
+			- Velocidade da direção v diminui. Velocidade perpendicular aumenta.
+			- Refletida para a região de fraco campo magnético
+	- Espelho magnético
+		- Definição e aplicações
+			- Região com campo magnético não uniforme, com crescimento linear
+			- Confinamento de plasma: Dois espelhos magnéticos. =).
+		- Condição de reflexão no espelho
+			- Remember: Momento magnético é constante de movimento
+			- Relação entre energia/campo na região centra e no ponto de reflexão
+			- Condição de reflexão (energia cinética)
+			- Condiçao de reflexão (angulo com sentido do campo)
+			- Example: Campo no espelho 10x que campo central. Qual o angulo de escape?
+			- Example: Campo no espelho 100x que campo central. QUal o angulo de escape?
+		- Regime de plasma no equilibrio
+			- Distribuição isotrópica de velocidade
+			- Eventualmente, haverão angulos de escape (colisões).
+			- Escape de todo o plasma
+	- Blindagem de plasma
+		- Distribuição de Boltzmann-Maxwell
+		- Assume: Um potential eh introduzido numa região de plasma (say.. a spherical charge)
+		- Def: Potencial de plasma
+		- Def: Densidade de íons e elétrons no plasma (longe da região de potencial induzido)
+		- Calc: Densidade de elétrons. Distribuição de Maxwell Boltzmann.
+		- Calc: Densidade de ions. Distribuição de Maxwel-Boltzmann.
+		- Calc: Densidade total de carga (Note: hyperbolic sine)
+		- Calc: Laplaciano do potencial induzido (igual á densidade de carga)
+		- Note: Equação diferencial parcial não linear.
+		- Apprx: Plasma de alta temperaura ==> Baixo valor do seno hiperbolico ==> Primeira ordem.
+		- Note: Equação de Poisson (Auto-função do operador laplaciano)
+		- Solução da equação de Poisson.
+		- Def: Distancia de blindagem de Debye
+		- Note: Plasma irá blindar completamente potencial induzido a algunas distancias de debye
+	- Frequencia de plasma
+		- Assume: Eletrons no plasma se deslocam (não-termamente) a uma dada distancia.
+		- Assume: All electrons do the same. 1D problem.
+		- Calc: Carga em cada elemento de volume produzido por deslocamento de elétrons
+		- Calc: Campo elétrico produzido pelo deslocamento de elétrons
+		- Calc: Força do elétron
+		- Note: Cada elétron fará oscilação harmônica simples
+		- Calc: Frequencia de plasma
+		- Note: Dependente da massa (cada comp diferente terá frequencia)
+		- Note: Ondas de comprimento infinito (Todo o plasma se movimenta junto)
+
+
+Introdução básica: Física de plasma: Teoria hidromagnética (MHD).
+	- Equações hidromagnéticas (MHD Equations).
+		- Calc: Densidade de força em um fluido (gradient of pressure)
+		- Calc: Densidade de força de Lorentz
+		- Calc: Densidade total de força plasma fluidico.
+		- Remember: Plasma shelds itself from E-fields. Ignorar força elétrica.
+		- Calc: Pressão magnética no plasma.
+			- Note: Densidade de energia magnética é a pressão magnética
+			- Note: Pressão magnética não resulta na densidade de força magnética total
+		- Equação de Euler para fluido (aplicação da 2nd lei de newton)
+		- Equação da continuidade
+		- Lei de Ohm generalizada (corrente em função de campos elétricos e magnéticos)
+	- Efeito Pinch
+		- Assume: Descarga de corrente em formato clindrico (direção axial Z)
+		- Remember: Lei circuitral de Ampere
+		- Calc: Intensidade de corrente da descarga
+		- Calc: Campo magnético azimutal (em função do raio) gerado pela descarga de corrente
+		- Calc: Variação radial do campo magnético azimutal gerado pela descarga de corrente
+		- Calc: Densidade de força magnética (em função do raio) (em função de J e B)
+		- Calc: Densidade de força magnética em função do campo magnético apenas
+		- Calc: Pressão magnética radial gerado pela descarga de corrente
+			- Assume: Estamos muito perto da descarga (mas não na região de corrente)
+			- Remember: Componente tangencial de campo magnético não penetra região de alta condutividade
+			- Note: Pressão magnética perto da descarga é muito menor que longe da descarga
+			- Note: Termo integral sem contribuição na região de descarga
+			- Note: Plasma será atraido para a região da descarga de corrente
+		- Temperatura da região de descarga de corrente
+			- Calc: Relação entre pressão magnética e intensidade total de corrente na descarga
+			- Remmember: Pressão de gas ideal (dependente de temperatura)
+			- Calc: Relação entre intensidade de corrente e temperatura na região da descarga
+		- Perturbações do caminho da corrente
+			- Raior maior/menor de corrente: Menor/maior pressão magnética.
+			- Pequena deformação no caminho da corrente: Maior/menor pressão magnética
+		- Examples of Pinch
+			- Raio/Relampago. Core-Temperature: 50000K.
+			- Tempestade Solar.
+		- Note: Corrente pode ser induzida para aumentar temperatura em dada região. MTO UTIL!
+			- Calc: Corrente necessaria para induzir fusão termonuclear.
+			- Data: Temperatura de fusão: 10^8K.
+			- Assume: Densidade de plasma: 10^21 particuals de plasma por metro cubico.
+			- Assume: Area da região de corrente: 0.04 metros quadrados.
+	- Ondas Hidromagnéticas de Alfven
+		- Occurence: Plasma sob influencia de campo magnético constante
+		- Assume: Infinite plasma (3D). Cte magnetic field in z-direction.
+		- Assume: Retangulo imaginario movente. Velocidade: Direção positiva y.
+		- Note: Dentro do retangulo: Cargas tenderão a se separar. Força quantitativa.
+		- Note: Linhas de corrente dentro e fora do quadrado.
+		- Note: Produção de campo magnético por linhas de corrente
+			- Note: Contra o movimento (dentro do quadrado)
+			- Note: A favor do movimento (fora do quadrado)
+		- Note: Efeito será reptido acima e abaixo (eixo Z) do quadrado
+		- Note: Propagação de onda no eixo Z.
+	- Equações 1D das ondas de Alfven
+		- Let: Campo gerado por corrente. Campo uniforme. (separate).
+		- Calc: Lei diferencial de ampere (4th maxwell equation)
+		- Calc: Equações de Euler do fluido
+		- Calc: Equações combinadas (euler + 4th maxwell)
+		- Calc: Lei de Ohm generalizada
+		- Calc: Lei de Faraday (3th maxwell equation)
+		- Calc: Eliminar velocidade e campo elétrico. Juntar todas as equações
+		- Calc: Equação de onda de Alfven. 
+			- Calc: Velocidade de propagação da onda de Alfven
+			- Note: Velocidade é não-relativistica. (afinal usamos non-relativistic second newton law)
+			- Note: Termo de terceira ordem some para condutividade infinita de plasma
+		- Solução geral: Guess: Amortecimento (B = b exp(az - iwt)).
+		- Solução geral: Onda magnética amortecida
+		- Calc: Amortecimento da onda de Alfven
+
+
+Introdução básica: Supercondutividade: Teoria eletromagnética
+	- Supercondutividade
+		- Resfriar certo material ==> Observar resistencia cair abruptamente
+		- Onnes (1991): Resistencia eh 10^-12 vezes a resistencia normal
+		- MIT (Recent): Corrente induzida em anel supercondutor não variou em 1 ano.
+		- Indeed: Zero resistance. (Not veeery small resistance... Its ZERO resistance).
+	- Transição termodinamica para fase supercondutora
+		- Assume: Material supercondutor (resfriado, no H-Field)
+		- Aquecer material ==> Perda de suas propriedades supercondutoras
+		- Impor campo magnético ==> Perda de suas propriedades supercondutoras
+		- Def: Temperatura critica. Campo H-Crítico.
+		- Diagrama HT de transição termodinamica de fase supercondutora
+	- Previsão de Maxwell para material com condutividade infinita
+		- Condutividade infinita ==> Existencia de corrente sem campo elétrico
+		- Inexistencia de campo elétrico ==> Sem variação de campo magnético
+		- Conclusion: Fluxo magnético não pode variar dentro de supercondutor
+	- Fenomenos supercondutivos
+		- Experiment: Campo magnético dentro de supercondutor é sempre zero (23 years later...)
+		- As you can see... bad maxwell predition (apesar de estar certa).
+		- Efeito meissener
+		- Conclusion: Supercondutor não eh simplesmente condutividade infinita. There is more...
+		- Conclusion: Condutividade perfeita. Diamagnetismo perfeito. Constante diamagnética.
+	- Tipos de supercondutores
+		- Supercondutor do tipo I: Campo crítico. Temperatura crítica.
+		- Supercondutor do tipo II:
+			- Penetração parcial de campo magnético quando H > Hc1
+			- Perda de supercondutividade quando H > Hc2 > Hc1
+			- Efeito Meissener parcial
+	- Propriedades eletromagnéticas de material diamagnético e condutor perfeito
+		- Approuch 01: Campo B nulo apenas.
+			- Campos H e M são opostos
+			- Correntes de magnetização fluem dentro do supercondutor
+			- Correntes sueprficiais de magnetização fluem na superficie do supercondutor
+		- Approuch 02: Campo B, H, M são nulos
+			- Correntes reais de transporte dentro do supercondutor
+			- Correntes superficiais de transporte na superficie
+		- Note: As duas formas são equivalentes
+			- Unicos campos mediveis: J e B.
+			- Thus: Impossivel diferenciar correntes de transporte e magnetização
+			- Thus: Incapaz de medir campo M dentro do supercondutor
+			- Thus: Ambas são equivalentes: Mesmos valores de campo J e B.
+	- Exemplo: Esfera supercondutora imersa em campo magnético (Approuch 01)
+		- Condições de campo no exterior
+		- Condições de campo no interior
+		- Condições de campo na fronteira
+		- Potencial escalar (no exterior, e no interior) do campo H existe
+		- Remember: Solução geral da eq. de laplace para potencial escalar de campo H
+		- Calc: Aplicação das condições de fronteira
+		- Calc: Solução da equação de Laplace
+		- Calc: Campo magnético em toda a região do espaço
+		- Calc: Campo H no interior. Campo M no interior.
+		- Calc: Densidade de corrente de magnetização no interior.
+		- Calc: Correntes de magnetização de superficie
+	- Exemplo: Esfera condutora imersa em campo magnético (Approuch 02)
+		- Condições de campo no exterior, interior, fronteira.
+		- Calc: Aplicação das condições de fronteira
+		- Calc: Solução da equação de Laplace
+		- Calc: Campo magnético em toda a região do espaço
+		- Calc: Correntes de transporte de superficie
+	- Note: Inexistencia de densidade de corrente dentro do material supercondutor
+		- Note: Campo magnético dentro é zero.
+		- Note: 4th equação de maxwell ==> Densidade de corrente é zero
+		- Note: Corrente total sempre será corrente superficial
+	- Exemplo: Cilindro infinito supercondutor com corrente axial no interior
+		- Calc: Campo B.
+		- Calc: Campo H. Campo M.
+		- Calc: Corrente de magnetização superficial
+		- Calcular tudo de novo. This time, using approuch 02.
+
+
+Introdução básica: Supercondutividade: Teoria de London
+	- Exclusão de variaçao de fluxo por condutor perfeito
+		- Lei de Newton para portador de carga em condutor perfeito por campo E externo
+		- Calc: Usar o vetor densidade de corrente
+		- Calc: Expressão dependente apenas de variação de fluxo magnético
+		- Example: Condutor perfeito em x>0. Solução da equação.
+		- Calc: Profundidade de penetração da variação de campo magnético
+		- Note: Comprimento de penetração ~ 1e-8, com valores usuais (1 eletron por átomo).
+	- Exclusão de fluxo por supercondutor
+		- We want: Exclusão de fluxo magnético para material supercondutor
+		- Solution: Exponencial com profundidade de penetração de London
+		- Equation: Autofunção do operador laplaciano (D²B = 1/l² B)
+		- Remember: 4th maxwell equation. Take rotational on both sides.
+		- Postulate de london: Equação de corrente envolvendo campo magnético
+	- Equações de London
+		- 1st London Equation: Super-corrente em função de campo elétrico (variação de corrente)
+		- 2nd London Equation: Super-corrente em função de campo magnético (rotacional)
+		- Primeira equação de London em função de potencial vetor magnético
+		- Segunda equação de London em função de potencial vetor magnético
+		- Note: Both equations are equal
+		- Equação de London: relaçao entre corente e potencial vetor magnético
+		- Profundidade de penetração de London (from perfect conductivity equation).
+	- Confirmação experimental
+		- Objeto de razão volume/area razoavelmente grande
+		- Verificação de penetração de campo magnético em supercondutor
+		- Profundidade de penetração experimentalmente calculada (dependente da temperatura).
+	- TODO: Esfera condutora imersa em campo magnético.
+	- TODO: Cilindro supercondutor imerso em campo magnético.
+	- TODO: Levitação magnética (por supercondutores). Estabilidade.
+	- TODO: Flux Pinning. Quantum Locking. https://en.wikipedia.org/wiki/Flux_pinning
+
+
+TODO: Dispersão optica de materiais
+TODO: EHD Theory.
+TODO: Termodinamica de materiais ferromagnéticos. (sure?)
+TODO: Termodinamica de gases paramagnéticos (sure?). Calc: Heat capacities, ...
+
+
+TO THINK: Assuming all microscopic stuff gets out of here.. then:
+	1) Superconductivity.
+	2) Plasma Physics.
+	3) EHD Theory?

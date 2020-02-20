@@ -1,0 +1,345 @@
+TITLE: Introduction to Atomic Theory 01: From Alchemists to Bohr
+	- Pre-requisitives: Fisica 03.
+	- Co-requisitives: Quantum Mechanics 00.
+	- Recommended: Classical Mechanics 02.
+
+
+The atom of the Alchemists and Chemists
+	- The greeks! Escolas atomicas.
+	- Leis macroscopicas estelecidas (18th century)
+		- Lavosier Law: Conservação da massa em reação quimica
+		- Proust Law: Proporções definidas elemento-massa
+	- Modelo Atômico de dalton (18th century) (published 1808~1810)
+		- Explicação microscopica atômica das duas leis: Modelo de Dalton
+			- Átomo maciço indivisivel
+			- Elementos quimicos são átomos.
+		- Elementos quimicos (different atoms)
+			- Hydrogen
+			- Oxygen
+			- Table of them. Atom draw.
+		- Example: Tin Oxide
+			- Tin Oxide I and Tin Oxide II.
+			- Explanation of those two laws
+			- Explanation using dalton theory.
+	- Refinando o Modelo de Dalton (1811)
+		- Avogadro laws.
+		- Natureza diatomica de vários "elementos" quimicos
+		- Water is H2O (avogadro), not HO (dalton).
+		- Redefinition of elements: atom
+	- TODO: Avogadro experiments and the mol
+	- Contribuições quantitativas de Avogadro
+		- The mol
+		- Def: Massa molar atômica
+		- Calc: Massa aproximada de um único átomo. (ordem de grandeza)
+		- Calc: Raio aproximado de um átomo (ordem de grandeza)
+		- Calc: Volume aproximado de um átomo (ordem de grandeza)
+		- Note: We now have: Massa e tamanho de um átomo. =).
+	- What a beautiful world..... Until Thomsom descobre o eletron.......
+
+
+
+Atomic Emission Spectrum (1880~1890)
+	- Spectroscopy of chemical elements.
+	- Experimental apparatus
+		- Electrical discharge passes thru gas chamber (gas in question)
+		- Atoms are excited, and de-excite by producing electromagnetic radiation
+		- EM emission is colimated by slit
+		- Colimated EM emission passes thru prism (or difracting grating)
+		- Then: Light goes to photographic plate (as a line (because of the slit))
+	- Emission lines
+		- Show: Emission line of Helium atom.
+		- Show: Emission line of Oxygen atom.
+		- Show: Emission line of Nitrogen atom.
+		- Note: Discrete emissions of energy
+		- Note: Very contrasting with continuous emission of heated blackbody surface
+		- Note: Every element has its emission lines (like a fingerprint!)
+	- Balmer experiments: The Hydrogen atom
+		- Show: Emission line of Hydrogen atom
+		- Data: Emission lines of the hydrogen atom
+		- Sequence of converging lines
+		- The value of the convergence: 3645.6A.
+		- Balmer series
+		- Balmer Formula (1885)
+	- Hydrogen series. Math sequences of lines.
+		- Lyman Series: Ultraviolet.
+		- Balmer: Visible and near ultraviolet
+		- Etc..
+		- Def: Rydberg constant.
+		- Experimental value: R = 10967757.6 pm 1.2 1/meter.
+		- Note: Rydberg constant percentage of error due to measurement.
+		- Note: Pretty precise, isn't it?
+	- Família dos metais alcalinos
+		- Emissão consistente e previsivel
+		- Sequencias de linhas
+		- Rydberg constant for each element
+		- Constants for a series
+	- Observations of Rydberg constant
+		- Almost the same for all elements
+		- Slight increase proportional to atomic weight
+
+
+
+Cathodic Rays (1870~1897)
+	- TODO: Thermoionic Emission
+	- TODO: Tubos de raios catodicos: Shadow casting.
+	- TODO: Tubos de raios catódicos: Glow. Less pressure ==> More glow.
+	- TODO: Hard vacuum achived
+	- TODO: Experiment for the charge of the cathodic rays
+	- TODO: Experiment for the charge-to-mass ratio
+	- TODO: Experiment: Charge of electron
+	- TODO: The size of the electron (Thomsom 1897)
+		- TODO: Electron propagating thru air.
+		- TODO: Atenuation of the electron beam due to the air. Probability. Free Mean Path.
+		- TODO: Atenuation constant. Note: It travels FAAR FARTHER than the smallest atom known (hydrogen!)
+		- TODO: Estimate the size of the electron (ie, its cross-section).
+		- Name is given: Electron.
+	- Conclusions
+		- This particles has smaller mass than the smallest atom known! (hydrogen)!
+		- This particles are faaar smaller than smallest atom known! (hydrogen)!
+
+
+
+Other preliminaries (1890~1900)
+	- X-Ray discovery
+		- Cathod Ray Machine, again. But nicer this time.
+		- 100kV high DC Voltage in vacuum tube
+		- Electrons start from cathode, are accelerated by 100kV, and hit anode.
+		- Placements of photographic plates around.
+		- Emission of unknown type of radiation when electrons hit the anode (or the glass wall).
+		- Detection of such radiation (photographic plates)
+		- Call it: X-Rays =).
+	- Further X-Ray study
+		- Colimation of X-ray beam.
+		- Beam placed in magnetic and electrostatic fields.
+		- Conclusion: These X-Rays are neutral (non-charged).
+	- Rutherford experiments (published 1899).
+		- Fluorescence: Uranium exposed to photographic plate
+		- Discovery of yet two unknown radiation. One positive charged, other negatively charged.
+		- Call: Alpha Particles (the positive charged ones).
+		- Call: Beta Particles (the negative charged ones).
+	- Becquerel experiments (1900)
+		- Experiment: Charge sign of a beta particle (its negative!)
+		- Experiment: mass to charge ratio of beta particle
+		- Experimental values: Same of the electrons!!!!
+		- Conclusion: Perhaps beta particles are electrons?
+
+
+Thomsom Atomic Model (1904)
+	- JJ Thompson discovers the electron! (1897)
+		- Physicist and chemist
+		- He knew the current electromagnetic theory (Maxwell Equations).
+	- Descoberta do Elétron (by JJ Thomsom)
+		- Tubos de raios catódicos
+		- Experiment: Ratio charge-mass of electron
+		- Robert Milikan Experiments: Charge of electron
+	- Motivation to Thomsom Atomic Theory
+		- Electrons are negatively charged (as proved earlier).
+		- Atoms are neutral! (as everyone knows).
+		- The electron of cathode tube from thermoioni emission came from somewhere.....
+		- Also, again, the electron from beta emission has to come from somewhere...
+		- Later justifications
+			- (1905) Remember: Photoelectric effect. The electron has to come from somewhere....
+			- (1913) Remember: Compton Effect. The electron again has to come from somewhere....
+			- Note: Low and Mid energy physics experiments seems to indicate there is an electron in the atom.
+		- Measuring the estimated number of electrons in an atom. Roughly: chemcial atomic weight / 2.
+	- Thomson atomic theory (1904)
+		- Proposal: The atom is made of electrons
+		- Problem: Electron has negative charge. Atom is wide known neutral
+		- Proposal: The atom is made of electrons, spreaded in a positive mass/cloud/whatever
+		- Math Model: Spherical distribution of positive charge (volumetric charge density).
+		- Plum pudding model
+	- Explicação de emissão de radiação usando modelo de Thomson
+		- Radiação eletromagnética de objetos aquecidos (black body radiation)
+		- Átomo com elétrons em niveis de energia maiores ==> Vibração de elétrons
+		- Teoria eletromagnética clássica. Emissão de radiação de átomos.
+		- Atomo em baixa energia: Életrons estáticos
+		- Nota: Quantitative agreement is lacking.
+	- Física do Modelo de Thomsom: The Hydrogen Atom
+		- 1 electron inside a positive charge density
+			- Warning: At the time, charge of positive cloud of hydrogen atom was not known.
+		- Potencial eletrostático sofrido por elétron em Átomo de Thomsom.
+			- Calc: Campo elétrico e potencial fora da densidade de carga positiva
+			- Calc: Campo elétrico e potencial dentro da densidade de carga positiva. Lei de Gauss.
+			- Calc: Força sofrida por elétron dentro da densidade de carga positiva.
+		- Dinamica 1D do elétron no átomo de Thomsom
+			- Calc: Equação diferencial do elétron
+			- Note: Movimento harmonico simples sendo executado por elétron (passa pelo centro)
+			- Calc: Frequencia e comprimento de onda (radiação eletromagnética emitida por vibração)
+			- Aplicação numérica para átomo de hidrogenio. Comprimento de onda da radiação emitida
+			- Note: Perda de energia por emissão de radiação (Larmor formula)
+			- Note: Damped differential equation.
+		- Dinamica 3D do elétron no átomo de Thomsom
+			- Calc: Potencial efetivo
+			- Calc: Órbita do Elétron
+			- Calc: Energia de escape da região de densidade de carga
+			- Calc: Energia de ionização
+			- Calc: Momento angular
+		- Calc: Energia de Ionização do àtomo de Hidrogenio
+		- Calc: Frequencia de emissão de radiação do Átomo de Thomsom
+		- Calc: Wavelenth da emissão de radiação
+		- Calc: Superposição de oscilações harmonicas nos eixos tridimensionais do àtomo de Thomsom
+		- Calc: Frequencia e comprimento de onda de emissão de radiação de Átomo de Thomsom tridimensional
+		- Note: Frequencia/wavelength depende do raio do átomo
+		- Note: Electron will spiral in until become static at center (lowest energy state).
+		- Calc: Intensidade da radiação emitida com respeito ao tempo.
+		- Calc: Tempo da emissão de radiação (em função of initial kinetic energy)
+		- Note: Disagrees with experiment... =(.
+	- Explanations
+		- Explains ionization of neutral atoms by strong electric fields (high voltages) (say... 100kV)
+		- Explains where the electron comes from, in several other experiments.
+	- Perguntas não respondidas do modelo de Thomsom
+		- A densidade de carga positiva deve ser igual à massa do átomo (electrons barely has mass). How can it be?
+		- O que exatamente é essa densidade de carga positiva?
+
+
+Rutherford-Royds Experiment (1907)
+	- Authors: Ernest Rtheford, Thomas Royds.
+	- Objective: What are Alpha Rays?
+	- Experimental Set-Up
+		- Source of Alpha Rays in vacuum sealed compartment
+		- Very thin layer of glass inside.
+	- The experiment
+		- Alpha rays hit the thin layer of glass
+		- Trapping alpha particles in the glass (in large numbers I shall add)
+		- To cause electric spark inside the vacuum tube (or maybe cathod rays).
+		- Electrons combined with the positive alpha particles and combined. Gas is formed.
+		- Studying emission spetrum of the produced gas. ITS HELIUM!
+	- The conclusion
+		- Alpha particles are simply ionized atoms of helium.
+		- Note: Qualitatevely at least, Thomsom Atomic Model is again proven correct.
+
+
+Modelo Atomico de Rutherford (1911)
+	- Warning: Physics (big calcs) starts here. Take your sits. Prepare yourselves. =).
+	- Events leading to discovery...
+		- Era uma vez dois alunos de Rutherford desocupados
+		- Rutheford: Go measure the scattering of alpha particles by gold foil! (1909)
+		- Analysis of experimental data made by Rutherford (1911)
+	- Description of Rutherford's experimental equipment
+		- Alpha particle spontaneously emitted by radioactive source
+		- Alpha particle: Doubly ionized (thomsom) atom of helium.
+		- Colimation of the alpha beam.
+		- Beam targeting thin foil of a given substance.
+		- Microscope with ZnS crystal. Alpha particle hit in ZnS: light flash.
+		- Measured quantity: Number of light flashes per unit time in given scattering angle.
+	- Espalhamento de particulas alpha por electron
+		- Conservação do momentum linear
+		- Conservação da energia cinética (colisão perfeitamente elástica)
+		- Calc: Deflexão de particula alpha causada por um elétron
+		- Numerical calc: Angulo de deflexão
+		- Note: Ridiculously small angle.
+	- Espalhamento de particulas alpha na região positiva
+		- TODO.
+	- TODO: Full cross-sectional calculations with Thomsom potential of atom. Note it won't match. Verify if we need to go relativistic.
+	- TODO: Inverse scattering problem for given angular distribution of alpha particles. Find inverse potential.
+	- TODO: Calculate differential cross section and total cross section of inverse potential.
+	- TODO: Based on the calculations, propose the rutheford model
+		- TODO: qualitaively explain emission of radiation
+		- TODO: Show how to calculate charge of nucleous. Show charge / elmentary charge equals chemical atomic number.
+		- TODO: Limits of the size of the atomic nucleous
+	- Nuclear Penetration
+		- Calc: Distancia de aproximação máxima da particula alpha (head on collision)
+		- Correção do espalhamento de rutheford para átomos leves (no calc).
+		- Desvios da predição de espalhamento de Rutheford para átomos leves.
+		- Estimation: Tamanho do núcleo do átomo, baseado nos desvios do espalhamento de Rutheford.
+	- Visão qualitativa do modelo de Rutherford
+		- Átomo tem massa concentrado no nucleo de dimensões na ordem de 10^-14 m.
+		- Nucleo tem carga Ze, Z numero atômico, e carga elementar do elétron.
+		- Eletrons estão do lado de fora, empty space. Z eletrons with charge Ze.
+		- Elétrons orbitam nucleo atomico.
+		- Emissão de radiação da orbita eletrônica, e subsequente colapso do átomo.
+		- Átomos de Rutheford são instáveis. Um dia se desintegra. Hm.. We need numbers.
+	- Rutherford Hydrogen Atom
+		- Calc: Ionization Energy of the hydrogen (Comparisom with thomsom, rutheford and experimental value).
+		- Calc: Potencial e campo eletrico sofrido pelo eletron
+		- Calc: Frequencia do eletron
+		- Calc: Energia da orbita do eletron
+		- Calc: Estabilidade to átomo de hidrogenio. 
+		- Calc: Tempo para colapso do átomo de hidrogenio
+		- Note: Tempo de vida do hidrogenio is in HUUUUGE disagrement of real life.
+	- Estability of all atoms
+		- Remmeber: Earshall Theorem
+		- Calc: Estimated Time for atomic collapse.
+		- Question: Can we justify this by saying that the colapsed atom is what exists in real world?
+	- Conclusions
+		- ALL atoms are unstable and shouldn't exist! What a nice model.....
+		- Nevertheless, this atomic model is in best agreement with experiments so far (ie, less-worse agreement).
+
+
+Modelo Atomico de Bohr (1913).
+	- Motivation of the Bohr Atom
+		- Priority Number 01: To keep the Rutheford atom from collapsing.
+		- Planck Quantization formula: E = hf.
+		- Borrowing the photon concept from Einstein (1905).
+	- Bohr's Reasoning
+		- If Energy can be quantized, why not angular momentum?
+		- Assume: Quantization of angular momentum: L = n hbar (hbar proportionality constant) (to be determined later).
+		- Note: if n=0, the atom is collapsed. Hence, exclude that possibility
+		- Note: n=1 is the smallestp ossible value.
+		- Note: Eletron cannot emit radiation: n=1 is minimum. If it does, L is not quantized (contradiction to hypothesis).
+	- Quantization of Angular momentum
+		- Recall: E = hf, and f = 1/T.
+		- Intuition for L = nh/2pi (hbar = h/2pi).
+		- TODO: More rigorous calculation for quantization of angular momentum.
+	- Bohr's Atomic Model
+		- Several electrons in circular orbit around the nucleous (charge Ze).
+		- Calc: Centrifugal Force equals potential electrostatic energy
+		- Calc: Application of quantization of angular momentum
+		- Calc: The radius of the atoms (bohr radius)
+		- Calc: The energy of the atoms (bohr energy) (from potential energy).
+		- Note: Energy, radius and orbits are quantized.
+		- Camadas Atomicas: K, L, M, N, ...
+	- Emissão de Radiação de átomos
+		- Electrons passing de uma camada para outra
+		- Emission of a photon of light by delta E = hf (Einstein sense of photon)
+		- Frequency of atomic emission.
+		- Spectrum of atoms
+	- Bohr's Hydrogen Atom
+		- Calc: Radius of the hydrogen atom
+		- Calc: Energy Levels of the Hydrogen atom
+		- Calc: Ionization energy of the hydrogen atom
+		- Calc: Spectral Lines of the hydrogen atom.
+		- Calc: Rydberg constant from the spectral lines.
+		- Calc: Reproduction of Balmer Formula
+		- Note: FULL agreemental with the highly-precisely-already-measured rydberg constant.
+		- Note: FULL experimental agreement with Balmer Spectral Sequence
+		- Note: Experimental agreement of predicted ionization energy
+		- FANTASTIC! Everything is in experimental agreement!! EVERYTHING!!!!
+	- Bohr's Helium Atom
+		- Calc: Radius of the helium atom
+		- Calc: Energy levels of the helium atom
+		- Calc: Ionization energy of helium (experimental: -24.587eV)
+		- Calc: Percentage of error from Bohr's ionization energy and experimental value.
+		- Note: BAAAD disagreeement.
+		- Experimental spectral lines in huuge disagrement as well.
+	- Alkaline Metals
+		- Calc: Ionization energy for Lithium using bohr (experimental: -520.2 kJ/mol)
+		- Calc: Ionization energy for sodium using bohr (experimental: -496kJ/mol)
+		- Calc: Percentage of error from Bohr's ionization energy and experimental value.
+		- Note: Hmm.. not bad..
+		- Question: Why Bohr's atom model works for alkaline metals?
+	- Conclusions
+		- Explains hydrogen in amazing detail and correctness.
+		- Fails to explain the helium. Fails all other atoms as well. 
+		- Reason: Didn't consider repulsion between electrons!
+		- Only works for hydrogen!
+
+
+Átomo de Schrodinger
+	- TODO: Schrodinger Equation
+	- TODO: Schrodinger Equation for any atom.
+	- TODO: Explain hydrogen nice, and explain ALL atoms niice. Yay!
+
+
+Experimental datapage
+	- https://en.wikipedia.org/wiki/Molar_ionization_energies_of_the_elements
+	- https://en.wikipedia.org/wiki/Ionization_energies_of_the_elements_(data_page)
+
+
+Multielectron atoms
+Molecular Physics
+TODO: Insert ionization energies as part of experiments from the atom.
+
+TO predict: Ferromagnetic? Diamagnetic? paramagnetic? Good electrical conductor? Good heat conductor? etc.
+
+

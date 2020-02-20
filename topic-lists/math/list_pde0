@@ -1,0 +1,61 @@
+TITLE: PDE 00: Introduction to Partial Differential Equations
+	- Pre-requisitive: Calculus 02, Calculus 03.
+	- Co-requisitive:
+
+
+Equação do Calor unidimensional
+	- Assumptions
+		- Assume: Barra cilíndrica condutora de calor isolada lateralmente
+		- Assume: Barra não está isolada apenas nas extremidades
+	- Fourier Law
+		- Def: Taxa de transferencia de calor
+		- Descrição da Lei de Fourier
+	- Absorção de calor por conservação de energia
+		- Def: Fluxo de calor
+		- Calc: Taxa de calor sendo absorvido em região (x, x+delta x) da barra.
+		- Calc: Taxa de calor sendo absorvido em região (x, x+delta x) da barra.
+		- Calc: Calor total sendo absorvido em região (a, b) da barra.
+		- Calc: Aplicação do teorema fundamental do calculo (second integral)
+	- Absorção de calor por aumento de temperatura
+		- Remember: Q = mcdT (massa e calor especifico)
+		- Calc: Taxa de calor sendo absorvido em região (x, x+delta x) da barra.
+		- Calc: Taxa de calor sendo absorvido em região (x, x+delta x) da barra.
+		- Calc: Calor total sendo absorvido em região (a, b) da barra.
+		- Calc: Aplicação do teorema fundamental do calculo (second integral)
+	- Equação do calor
+		- Note: Metodos diferentes para calor total sendo absorvido
+		- Calc: Equação do calor na barra
+		- Def: Difusividade térmica do material
+	- Equações gerais do calor
+		- Assume: Condutividade e calor específico dependentes da posição
+		- Calc: Calor total sendo absorvido usando conservação de energia
+		- Calc: Calor total sendo absorvido usando aumento de temperatura
+		- Calc: Equação do calor
+	- Equação geral do calor com fonte
+		- Assume: Densidade de quantidade de calor gerada por unidade de tempo
+		- Calc: Calor total sendo absorvido usando conservação de energia
+		- Calc: Equação do calor com fonte
+		- Note: Se quantidade gerada é negativa ==> Destruction of heat.
+	- Condições de contorno
+		- Case: Extremidades com temperatura conhecida T(t).
+		- Case: Extremidades com fluxo de calor conhecido
+		- Case: Extremidades com temperatura constante
+		- Case: Extremidades isoladas (fluxo de calor nulo)
+		- Case: Both :).
+		- Conditions: Dirichlet Condition, Neumann Condition, Robin condition
+	- Condição inicial
+		- Distribuição de temperatura inicial
+		- Note: Its a function.
+	- Solução da equação do calor
+		- Assumption: Solução é separável
+		- Note: Duas ODEs para resolver. Simples.
+		- Solução da ODE com condição de contorno da PDE
+		- Solução da outra ODE
+		- Solução formal da equação do calor
+		- Note: TERRIBLE! What about the inicial condition? Terrible... almost useless...
+		- Hope: Linear combinations.
+		- Note: Less terrible, but terrible. =(.
+		- Hope: Infinite linear combinations...
+
+
+Série de Fourier

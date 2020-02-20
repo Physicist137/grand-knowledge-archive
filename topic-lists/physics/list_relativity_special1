@@ -1,0 +1,669 @@
+TITLE: Special Relativity 01: Construction and experimental basis.
+	- Pre-requisitive: Fisica 04
+	- Co-requisitive: 
+
+
+Principio de Relatividade de Galileu
+	- http://upload.wikimedia.org/wikipedia/commons/f/f0/Physicsdomains.svg
+		- You may think Relativity 01 course like Physics 01 course :).
+	- Formal Definitions
+		- Def: Reference frame
+		- Def: Referencial inercial
+		- Def: Spacetime event
+		- Example: Event: Collision.
+	- Transformações de Galileu for moving S' frame
+		- Origem O e O' dos referenciais
+		- Equations de S para S'
+		- Equations de S' para S
+		- Note: Simplificações sem perda de generalidade
+		- Note: Intuition agreement
+		- What about the time? Aditional time equation.
+	- Generalização vetorial da transformação de galileu
+		- Equations de S para S'
+		- Equations de S' para S
+		- Equações para o tempo
+	- Intervalos absolutos para todos os referenciais inerciais
+		- Consider: Two particles moving. Referenciais: S e S'.
+		- Intervalos de espaço
+		- Intervalos de tempo
+		- Theorem: Invariância da distancia de duas particulas em S e S'
+	- Equações de transformação de velocidade para S e S'
+		- Medição de velocidade em S
+		- Medição de velocidade em S'
+		- Note: d/dt === d/dt'
+		- Theorem: Velocity addition
+		- Transformação de velocidades
+		- Example: Airplane/Air/Ground.
+	- Equações de transformação de acelerações para S e S'
+		- Medição de aceleração em S
+		- Medição de aceleração em S'
+		- Componentes da aceleração não afetadas
+	- Equações de transformações de outros observáveis
+		- Medição do momentum linear em S e S'
+		- Medição do momentum angular em S e S'
+		- Mediçao da energia cinética em S e S'
+		- Medição de potencial em S e S'
+	- Invariancia das Leis de Newton em referenciais inerciais
+		- Strong Third Law: Particle interacts in pairs, equal forces, line between.
+		- Note: Majority magnitude depends only on distance
+		- Theorem: Forças centrais invariantes por transformação de galileu
+			- Potencial e campo central
+			- Remember: distancia entre particulas não altera
+			- Proof: Invariancia de pU/px.
+			- Forças são identicas em dois referenciais
+			- Corolary: massas inerciais são invariantes em campos centrais
+			- Corolary: Equações de movimento invariantes em campos centrais
+			- Corolary: Equações de movimentos invariantes em campos centrais
+			- Corolary: Não existe referencial absoluto. Invalid question: what is your speed?
+		- Teoremas de conservação são válidos entre referenciais inerciais
+			- Conservação do momentum em S <==> Conservação do momentum em S'
+			- Conservação de energia mecanica em S <==> Conservação de energia mecanica em S'
+		- Consequences
+			- Inertial frames ==> Same laws ==> Impossible to differentiate the frames
+			- Note: Moviment is always relative to something else
+			- Note: No such thing as absolute frame of reference
+
+
+Relatividade de Galileu dos fenomenos eletromagnéticos
+	- Transformação dos operadores diferenciais em S'
+		- Consider: Campo eletromagnético arbitrario em referencial S
+		- Consider: Referencial inercial S' movendo-se em relação a S
+		- Calc: Transformação do operador gradiente de S para S'
+		- Calc: Transformação do operador da derivada parcial de tempo de S para S'
+		- Reescrita das equações de Maxwell em S'
+	- Conservação da carga elétrica
+		- Invariancia da carga elétrica em mudança de referencial inercial
+		- Remember: Definição do vetor densidade de corrente
+		- Transformação de galileu do vetor densidade de corrente
+	- Transformação de galileu do campo eletromagnético
+		- Note: Força independente da aceleração ==> Forças em S' e S iguais (Relatividade de Galileu)
+		- Remember: Definições de campo elétrico e magnético vem da força de Lorentz
+		- Escrita da força de Lorentz em termos do campo eletromagnético em S e S'
+		- Calc: Campo magnético em S'
+		- Calc: Campo elétrico em S'
+		- Note: O campo eletromagnético em S' é diferente em S
+	- Equações de Maxwell em S'
+		- Magnetic Gauss Law.
+			- Remember: Divergence of the magnetic field
+			- Note: Its a gallilean invariant
+			- Meaning: No magnetic monopoles on S'
+		- Electromagnetic Induction Law.
+			- Remember: Rotational of the electric field.
+			- Note: It is a gallilean invariant
+			- Meaning: Reciprocidade entre:
+				- Circuito em movimento em um campo magnético estacionário
+				- Circuito estático em campo magnético se movendo (variando no tempo)
+				- Remember: That was indeed the case in electromagnetic induction
+			- Note: Assimetricidade de relatividade da indução eletromagnética.
+				- Mudança de referenciais levam a assimetriais na explicação de fenomeno
+				- Fenomeno dependente apenas de movimento relativo.
+		- Electric Gauss Law
+			- Remember: Divergencia do campo elétrico
+			- Note: Its not a gallilean invariant. =(. 
+			- Tudo estava indo tão bem.... =(
+			- Condição para invariancia de galileu
+			- Meaning: Err..
+		- Lei de Ampere revisada por Maxwell
+			- Remember: Rotacional do campo magnético
+			- Note: Its CLEARY not gallilean invariant. =C
+			- Meaning: ERR.. What does it means?!
+			- Condição para invariancia de galileu
+		- Note: Maxwell equations is non-invariant under inertial reference frame
+		- Consequence: Inertial frames ==> Different laws ==> Possible to differentiate the frames
+		- Question: Odd. What exactly is going on here?
+	- Perhaps: Maxwell displacement current issue
+		- Remember: It was a polite guess que deu certo
+		- Reescrita das equações de Maxwell sem o termo de deslocamento de corrente
+		- Note: Equação da continuidade in a fatal flaw (well...)
+		- Note: Current density vector is now gallilean invariant
+		- Condição para equação de maxwell ser gallilean invariant
+		- Note: That doesn't happen either... Still problematic....
+	- Velocidade da Luz
+		- Equação de onda eletromagnética
+		- Note: Equação de onda eletromagnética vem exatamente do caso acima
+		- Note: Velocidade da luz dependente apenas das caracteristicas elétricas e magnéticas do meio
+		- Note: Analogy with sound waves. Air has privilegied reference frame.
+		- Note: BUT... light propagates on vacuum... Now what??
+		- Question: What if I am in a different frame of reference in vacuum? What happens then?
+		- Question: The speed of light what is relative to what??
+	- In summary.... In the relativity of the electromagnetism, we learned that:
+		- Its possible to differentiate between inertial frames. HOW ODD...
+		- Gauss Law and Ampere Law varies under inertial frames of reference.
+		- The speed of light propagates in vaccum. But must be relative to something. How odd....
+		- We need fixing.... All is wrong! ALL IS WRONG! Cruel life.
+
+
+Luminiferous Aether Theory
+	- Sound wave analogy
+		- Sound Wave Equation
+		- Note: Sound speed only depends on the characteristic of the medium
+		- Note: There is a single privilegied reference frame: The air
+		- Calc: Speed of sound relative to an observer
+	- Claims of the Luminiferous Aether Theory
+		- Gallilean relativity is correct. Newtonian Physics is correct.
+		- The Maxwell Equations is correct.
+		- Maxwell equations only valid in Aether Reference frame (priviligied frame)
+		- Conclusion: Speed of light relative to aether frame of reference
+		- Note: Just like sound waves.
+	- Michelson and Morley Experiment
+		- Draw: Interferometro de Michelson-Morley
+		- Assumption: Velocidade do ether relativo ao laboratorio eh ortogonal a um dos espelhos
+		- Calc: Tempo de ida e volta da luz ao longo de um eixo
+		- Calc: Tempo de ida e volta da luz ao longo do outro eixo
+		- Calc: Diferença de caminho óptico
+		- Note: Figura de interferencia formando na imagem
+		- Now: Rotation of the experimental table by 90 degree
+		- Calc: Diferença de caminho óptico of the rotated table
+		- Note: Rotated and non-rotated table exibit different optical path differences.
+			- Aether wind unnafected by the table rotation
+			- Interference image will change. Fringe Shift
+		- Calc: Fringe shift resultante da rotação
+		- Relação entre fringe shift and speed of aether
+	- Experimental result of Michelson-Morley aether drift detection experiment
+		- To calc: Expected fringe shift of each one.
+		- Note: Earth Orbital Motion
+		- (1881) Michelson 01: Table Axis: 1.2m. Light: Yellow. Fringe: <0.02.
+		- (1887) Michelson 02: Table Axis: 11m. Light: Yellow. Fringe: <0.01.
+		- (1930) Joos 01: Table Axis: 21m. Light: Yellow. Fringe: <0.02
+		- https://en.wikipedia.org/wiki/Michelson%E2%80%93Morley_experiment#Subsequent_experiments
+		- Note: Its a null result! NULL result! NULL!
+	- Perhaps: Lorentz-Fitzgerald contraction
+		- Contraction of object in direction of motion of Aether
+		- Note: Immediately explains null result of Michelson-Morley Experiment.
+		- Note: Experiment com braços de tamanhos diferentes ==> Non-Null result of fringe shift
+		- Kennedy-Thorndike experiment: 16cm axis difference of Micheson-Morley interferometer
+		- Experimental Result: No fringe shit found.
+		- And now we say goodbye to Lorentz-Fitzgerald contraction hypothesis and throw it on trash.
+	- Perhaps: Aether-Drag Hypothesis (by Earth)
+		- Bodies drags aether with itself. (Perhaps massive bodies, more aether. who knows?)
+		- Note: Immediately explains null result of Michelson-Morley Experiment. Again.
+		- Note: Immediately explains null result of Kennedy-Thorndike Experiment.
+		- Problem: Stellar Aberration
+			- Estrelas parecem fazerem orbitas circulares. ALL OF THEM. Diametro: 41 secs arc.
+			- Explanation: Moving Earth seing static stars. Aberration of light.
+			- Assume: Star directly ahead telescope. Telescope moving (with Earth).
+			- Calc: Tilt angle of telescope to compensate aberration
+			- Note: 21 secs arc. Excellent agreement with experimentation
+		- Consequences of Stellar Aberration
+			- Aether-Drag ==> No Stellar Aberration.
+			- Presence of Stellar Aberration ==> Earth moves thru aether
+			- Ie: No Aether-Drag <==> Stellar Aberration.
+			- The end of Aether-Drag Hypothesis
+			- https://upload.wikimedia.org/wikipedia/commons/8/81/Stellar_aberration_versus_the_dragged_aether.gif
+		- Fizeau Experiment.
+			- Fresnel Drag Coeficient
+			- Propagação da luz em um meio movente
+			- Calc: Tempo de ida da luz com agua in foward direction.
+			- Calc: Tempo de ida da luz com agua in reverse direction.
+			- Experimental Result: Fringe Shift: 0.23.
+			- Calc: Experimental drag coeficient
+			- Note: Much slower than Drag-Aether predictions.
+	- Summary of Experiments
+		- Micheson-Morley Experiment: No aether drift detected.
+		- Kennedy-Thorndike Experiment: No Lorentz-Fitzgerald contraction.
+		- Stellar Aberration Phenomena: No Aether-Drag.
+		- Fizeau Experiment. Fresnel Drag Coeficient. There is Aether-Drag, but slower than predicted.
+	- Only Possible Explanation
+		- Aether Theory is wrong ==> Gallilean relativity and Maxwell Equations can't be both right
+		- Shocking result... Shocking indeed........ You should be shocked!!!!!! BE shocked!!!!!!!!
+		- At mean time, while you are shocked, question Remains: What is speed of light relative to?
+
+
+Emission Theory
+	- Claim of Emission Theory
+		- Question Remains: What is speed of light relative to?
+		- Claim: Speed of light is relative to its source.
+		- Note: One need to modify Maxwell Equations to make it valid.
+		- Note: It says then, Maxwell Equations are wrong.
+		- Note: Explains null result of Micheson-Morley Experiment
+		- Note: Explains null result of Kennedy-Thorndike Experiment
+		- Note: Consistent with stellar Aberration phenomena
+		- Note: Consistent with Fizeau Experiment
+		- Yay! We have a good start... :).
+	- What about light reflecting in a moving mirror?
+		- Source Emission Theory:     Remains c relative to the source. (Acceptable)
+		- Ballistic Emission Theory:  Becomes c relative to the mirror. (Nice)
+		- New Source Emission Theory: Becomes c relative to mirror image of source. (Odd)
+		- All we have to do is find out who is right. =).
+	- Michelson-Morley Experiment using sunlight (TODO IT?)
+	- De Sitter Binary Star observations
+		- Orbiting over the center of mass
+		- Assume: circular Orbits. http://upload.wikimedia.org/wikipedia/commons/9/9a/SitterKonstanz.png
+		- Calc: Speed of light emitted by star moving foward and backward relative to Earth
+		- Note: Moving foward arrives first than moving backwards.
+		- https://upload.wikimedia.org/wikipedia/commons/f/f3/De_Sitter_argument_against_emission_theory.gif
+		- One should observe eccentricities in their orbit.
+		- Experimental Result: No eccentricities ever found.
+		- De Sitter Conclusion: k < 2e-3
+		- Conclusion: All emission theories wrong!! Who would thought?!
+	- Conclusion of De Sitter observations
+		- Speed of light is independent of the source
+		- Maxwell Equations are right! Which means...
+		- The problem most be with gallilean transformations (ODDDDD.....)
+
+
+Einstein's Special Relativity Theory
+	- Claims of Special Relativity Theory
+		- Principle of Relativity
+			- Todas as leis da física são válidas em referencias inerciais
+			- Note: No prefered inertial frame of reference exists
+			- Note: There is only relative motion..
+		- Velocidade da luz é constante para todo referencial inercial
+			- Note: This alone crashes down gallilean transformation
+	- Motivation of the claims
+		- Einstein wanted a simple symmetric theory
+			- Eg.: Relative motion between magnet and wire ring.
+			- Aether was the source of assymetric explanations
+		- Einstein wanted his light-quanta theory to be consistent
+			- Photoelectric effect explained by Einstein
+			- Light having corpuscular behaviour
+	- Experimentation Background
+		- Note: Explains null result of Micheson-Morley Experiment
+		- Note: Explains null result of Kennedy-Thorndike Experiment
+		- Note: Consistent with stellar Aberration phenomena
+		- Note: Consistent with Fizeau Experiment
+		- Note: Consistent with De Sitter Binary Star observations
+		- Yay! We have a good start... Again......   Dejavu with line 222?
+		- Note: So far, no experimental result against it has been found
+	- Transformação de Lorentz
+		- Remember: We found galillean transformations were incorrect
+		- Transformação de S para S' como funções gerais de coordenadas em S.
+		- Assumption: Espaço homogeneo e tempo isotrópico
+			- Same experiment will have same results anywhere in space
+			- Same experiment will have same results anywhere in time
+			- Show: Forma funcional deve ser linear
+			- Transformações devem ser lineares
+			- Escrita da transformação em forma matricial
+		- Initial value considerations
+			- Tempo t=t'=0 quando as origens são coincidentes
+			- Velocidade entre S' e S apenas na direção x
+			- Note: A lot coeficients elliminated
+		- Principio da relatividade
+			- Medidas de comprimento no eixo y e z
+			- Com velocidade nula, S e S' devem medir mesmo comprimento
+			- Com velocidade não nula, com S e S' na mesma posição, devem medir o mesmo comprimento
+			- Coeficients de transformação y' e z'.
+			- Also: x'=0 ==> x=vt
+		- Principio da constancia da velocidade da luz
+			- Show: All linear transformations so far
+			- When S' coincides with S, light pulse.
+				- Note: Onda esférica em S e S' com velocidade c
+				- Calc: Equação da esfera em S e S'
+			- Substituição das equações
+			- Show: Lorentz Transformations (solve: a11 --> a44 --> a41).
+		- Inversão de para obter S usando S'
+			- Calc: To make the inversion.
+			- Note: Velocidade: v --> -v
+			- Equações de Lorentz inversas
+		- Limite de baixa velocidade em comparação com c	
+			- Note: Transformação de Galileu
+			- As it should be
+	- Lorentz Factor
+		- Formal Definition
+		- Escrita das transformações de Lorentz usando o fator de Lorentz
+		- Plot: Lorentz factor in function of velocity
+		- Calc: Lorentz factor at low speeds
+		- Calc: Lorentz factor at high speed (and at speed of light)
+		- Note: Lorentz factor at higher speeds then light becomes imaginary
+		- Def: Reciprocal of Lorentz Factor. Plot it.
+		- Calc: Taylor Approximation for Lorentz Factor
+	- Relativistic Phenomena: Length Contraction
+		- Consider: Objeto de tamanho L em repouso em S'
+		- Consider: S' viajando com velocidade v em relação a S
+		- Overall: Objeto de tamanhao L viajando com velocidade v em relação a S
+		- Calc: Size of object in relation to its coordinate in S'
+		- Calc: Length of object seeing from S. Ie, Length of moving object
+		- Calc: Factor of contraction of the object
+		- Note: Length contraction happens in the direction of motion of object
+		- Def: Proper Length
+	- Relavitistic Phenomena: Time dilation
+		- Consider: Clock at rest in frame S'. Frame S' with v speed with respect to S.
+		- Calc: Time elapsed by object at the frame of object itself.
+		- Calc: Time elapsed by object at frame S (our frame observing the clock)
+		- Calc: Factor of time dilation
+		- Def: Proper time
+	- Relativistic Phenomena: Time dilation position dependent
+		- Consider: Two clocks at different position at rest in frame S'
+		- Consider: Frame S' moving with v speed with respect to S. We are attached to S-frame.
+		- Calc: Time dilation from both clocks.
+		- Note: Clocks out of syncronization
+	- Insight over time dilation
+		- Consider: Moving train with laser inside. Shots, hits mirror, heads back.
+		- Consider: Frame attached to train. Frame outside where train moves with speed v.
+		- Calc: Tempo que leva para luz viajar para observador dentro do trem
+		- Calc: Tempo que leva para luz viajar para observador fora do trem
+		- Calc: Fator de dilatação do tempo
+		- Note: Its indeed the time dilation factor with calculated before
+	- Insight over Length contraction
+		- Direct consequence of time dilation
+		- Length Contraction factor
+	- Insight over clock syncronization (Simultaneidade de eventos)
+		- Consider: Two clocks A,B at rest with separation L' at frame S'
+		- Consider: Bulb at rest with S. S' moving with respect to S at v speed.
+		- Consider: Flashlight when bulb is at midpoint of two clocks
+		- Consider: When A,B see flashlight, they set their clocks into t'=0. (Syncronization)
+		- Calculations in S' Frame of reference
+			- Light reached A,B simultaneously.
+			- Note: A and B set their clocks to zero simultaneously
+			- Note: Clocks nicely syncronized. :).
+		- Calculations in S frame of reference:
+			- Calc: Contraction factor of distance separating clocks
+			- Calc: Light reached A, then B. Note: Clocks non-syncronized.
+			- Note: A set his clock t'= 0 before B did so.
+			- Calc: DIfference in time between A and B
+			- Note: Time dilation position dependent
+	- TODO: Insight of phase difference delay
+
+
+Relativistic Kinematics
+	- Einstein Speed summation theorem
+		- Remember: Gallilean composition of velocities
+		- Consider: S frame is ground. S' is train moving with respect to ground.
+		- Consider: Passager moves with respect to S' inside train
+		- Calc: Speed of passage relative to ground
+		- Note: Velocity composition for low speeds
+		- Note: Light pulse relative to ground using composition velocity formula
+		- Note: Velocidade composta sempre menor que velocidade da luz
+	- Fresnel drag coeficients
+		- Composição de velocidades: 
+			- Speed of water relative to apparatus
+			- Speed of light relative to water
+		- Calc: Velocity of light relative to apparatus
+		- Calc: Low water speed approximation
+		- Note: Fresnel drag coeficient!
+	- Diferenciais relativisticos
+		- Calc: Pequena variação de espaço relativistico
+		- Calc: Pequena variação de tempo relativistico
+		- Calc: Velocidade relativistica
+		- Note: Einstein speed composition theorem!
+		- Calc: Transformação inversas
+	- Transformação de velocidade perpendicular ao movimento
+		- Calc: Pequena variação de espaço relativistico
+		- Remember: Pequena variação de tempo
+		- Calc: Velocidade relativistica perpendicular
+		- Note: Velocity composition for low speeds
+		- Note: Light pulse relative to ground using composition velocity formula
+		- Note: Velocidade composta sempre menor que velocidade da luz
+		- Calc: Transformações inversas
+	- TODO: Quantidade invariante (c²t² - r² = c²T²)
+	- TODO: Transformação de velocidades em duas dimensões
+	- Transformação do fator de Lorentz
+		- Motivation: Some properties may depend on Lorentz factor of object speed in some frame S
+		- Consider: Particle with speed u' in S', and u in S. S' moves with v relative to S.
+		- From Def: Lorentz Factor for speed u in S
+		- Remember: Transformação de velocidades
+		- Calc: Transformação de 1-u2/c2
+		- Calc: Transformação do fator de Lorentz de S para S'
+		- Calc: Transformação do reciproco do Fator de Lorentz
+	- Derivada no tempo do fator de Lorentz
+		- Calc: Derivada do fator de Lorentz
+		- Calc: Derivada em função do fator de Lorentz
+		- Note: Diferencial do fator de Lorentz em função de diferencial de velocidade
+	- Aceleração relativistica
+		- Calc: Aceleração da componente em direção ao movimento do referencial
+		- Calc: Aceleração da componente perpendicular ao movimento do referencial
+		- Note: Relativistic acceleration depends on the frame of reference (unlike gallilean one)
+		- Note: Limite da aceleração para baixas velocidades
+		- Note: Light pulse relative to ground
+	- TODO: To put rotation?
+
+
+Relativistic Dynamics
+	- Second Newton's Law
+		- Note: Invariant under gallilean transformation.
+		- Note: Non-Invariant under Lorentz transformation
+		- Conclusion: Laws of Mechanics needs to be fixed.
+	- Third Newton Law
+		- Action at a distance. Simultaneity of action-reaction forces
+		- Relativity: Simultaneity is relative
+		- This law must die in the relativistic context (but in contact forces)
+	- Conservação newtoniana do momento angular
+		- Colisão entre duas particulas
+		- Calc: Momento inicial e final
+		- Calc: Mudança de referencial inercial. Novas velocidades relativisticas.
+		- Calc: Momento inicial e final no novo referencial.
+		- Note: Momentum does not conserve!
+		- However: Conservation of momentum is a valid law of physics (Principle of Relativity)
+	- Relativistic Linear Momentum (TODO: FIXME)
+		- Consider: Colisão completamente inelástica entre duas particulas de (massas iguais?)
+		- Frame S: Mass center. Frame S': Uma das particulas está em repouso
+		- Impose: Conservation of linear momentum
+			- Conclusion: Mass is not equal
+			- Perhaps: Mass varies with speed as well. Why not?
+		- Impose: Conservation of the relativistic mass
+		- Calc: Relativistic Mass
+		- Def: Relativistic Mass
+			- Def: Proper mass
+			- Note: Massa relativistica de corpo em repouso
+			- Note: Massa relativistica de corpo aproximando velocidade da luz
+		- Def: Relativistic Linear Momentum
+			- Calc: Momento linear no limite de baixa velocidade
+			- Calc: Momento linear próximo à velocidade da luz
+	- Transformação da massa relativistica
+		- Note: Transformação do fator de Lorentz
+		- Calc: Transformação da massa relativistica (optional)
+		- Display: Transformação da massa relativistica
+	- TODO: Quantidade invariante (c²m² - p² = c²m_0²)
+	- Força Relativistica
+		- Generalização da Segunda Lei de Newton
+		- Calc: Força
+		- Note: Força dependente da velocidade
+		- Note: Correct equation for high-speed electron in EM-Field
+	- Aceleração de particula submetida à força
+		- Calc: Variação da massa (Usando equação da energia total)
+		- Calc: Variação da massa em função de força e velocidade
+		- Calc: Força relativistica
+		- Calc: Aceleração
+		- Note: Aceleração não é paralela à força
+		- Special case: Força paralela à velocidade
+			- Example: Charge accelerated from rest by uniform electric field
+			- Escrita da força
+			- Def: Massa longitudinal
+		- Special Case: força perpendicular à velocidade
+			- Example: Charge in magnetic field
+			- Escrita da força
+			- Def: Massa transversal
+	- Example: Accelerating charge from rest using Electric Field.
+		- Calc: Acceleration of the charge
+		- Calc: Velocity of the charge in a given time t
+		- Calc: Distance charge moved in a given time t
+		- Calc: Approximation: Everything for a large t
+		- Calc: Approximation: When can we use non-relativistic approximation
+	- Example: Charge moving in magnetic field
+		- Calc: Angular frequence of the charge
+		- Calc: Relativistic corrected orbital radius for high speed electron in magnetic field
+	- TODO: Transformação de força
+
+
+Trabalho e Energia Relativistica
+	- Teorema do Trabalho-Energia relativistico
+		- Calc: Trabalho realizado por for;a *resultante* ao longo de caminho
+		- Calc: Integrate result by parts. Got an easy integral to solve.
+		- Calc: The relativistic energy-work theorem!
+		- Recall: Definition of kinetic energy
+			- Recall: Energy work theorem in non-relativistic conditions.
+			- Calc: Derivation of galilean energy work theorem.
+			- Calc: Setting initial speed to zero yields def of kinetic energy
+		- Calc: Yield initial speed to zero in relativistic work-energy theorem.
+		- Def: Relativistic kinetic energy (in function of lorentz factor).
+		- Note: Infinite aount of work is required to accelerate the particle to c.
+		- Note: Kinetic energy is proportional to variation of inertial mass.
+	- Checking galilean equivalent in the low speed limit
+		- Recall: Relativistic kinetic energy.
+		- Calc: Taylor expansion of kinetic energy (in the low speed limit).
+		- Note: We retrieve galilean kinetic energy.
+		- Note: Second order correction has (v/c)^2 factor.
+	- Equivalencia massa-energia
+		- Consider: Same mass. Collision. Completely innelastic.
+		- S': Mass center frame.  S: One of particles is at rest.
+		- Calc: Massa relativistica da particula em movimento em S
+			- Em função de sua velocidade
+			- Em função das variaveis de S'
+		- Calc: Conservação de momento linear relativistico em S
+		- Calc: Passagem para as variaveis de S'
+		- Calc: Relação entre massas de repouso em S'
+		- Note: Massa de repouso não foi conversada.
+		- Note: Massa de repouso final is slightly higher!
+		- Note: Collision was inelastic ==> Kinetic energy converted to heat or internal energy
+		- Calc: Variação da massa de repouso
+		- Calc: Energia cinética relativistica total do sistema antes da colisão em S'
+		- Conclusion: Energia interna extra foi transformada em inercia!!
+		- Conclusion: Massa e energia são equivalentes
+		- Conclusion: Conservação de massa relativistica ==> Conservação de energia relativistica.
+	- Behold: E = mc2
+		- Recall: Energy-Work Theorem.
+		- Note: There's a term m0 c2 just for the only unique purpose to garantee E(0) = 0.
+		- Note: We already energy being transformed into (relativistic) mass.
+		- Note: Can't we do this better?
+		- Def: Energia Total. Invariante relativistico.
+		- Def: Rest Energy
+		- https://en.wikipedia.org/wiki/Mass%E2%80%93energy_equivalence#Background
+		- Relação com energia total e energia cinética
+		- Calc: Energia total de corpo em repouso
+		- Calc: Energia total de corpo em movimento
+	- Relação enter energia total, energia cinética e momentum linear
+		- TODO
+		- Relação geometrica em um triangulo de pitagoras
+		- TODO: Note: Massa zero ==> Velocidade da luz
+	- Variação de energia e momentum
+		- Calc: Energia em função do momentum
+		- Calc: Derivada da energia em função do momentum
+		- Note: It gives the speed!
+	- Transformação de energia e momento
+		- Remember: Transformação do Fator de Lorentz
+		- Calc: Transformação de momento na posição paralela ao movimento
+		- Calc: Transformação de momento na posição perpendicular ao movimento
+		- Calc: Transformação de energia
+		- Calc: Transformações inversas
+		- Note: Transformação da massa é consequencia direta da transformação da energia
+		- Note: Energy and momentum are somewhat connected
+	- TODO: Transformação de força e potencia
+	- TODO: Potential Energy Theorem. W = -delta V.
+	- TODO: Total Energy of a system  E = mc2 + V. Energy as dynamical invariant.
+
+
+TODO: Relativistic collisions.
+	- TODO: Ellastic collisions.
+	- TODO: Collision with annihilation of matter and creation of photons.
+	- TODO: Collision with creation of matter (destruction of photons).
+	- TODO: Innelastic Collision.
+	- TODO: Coeficient of restitution.
+	- TODO: Relativistic Rocket Equation.
+
+
+Relatividade dos fenomenos eletromagnéticos
+	- Example: Moving charge
+		- Consider: Charges moves with speed v
+		- Note: It will create a magnetic force.
+		- Frame S': Charge is at rest.
+		- Note: It won't create a magnetic force.
+		- Note: Frames S and S' are inertial. Para onde foi a força magnética?
+	- Example: Cube with charge
+		- Calc: Charge and charge density in rest frame
+		- Calc: Current density vector in rest frame
+		- Calc: Charge density of cubic moving frame
+		- Calc: Current density vector in moving frame
+	- Densidade de carga e densidade de corrente
+		- Def: Relativistic definition of charge density
+		- Def: Rest charge density
+		- Def: Relativistic definition of current density vector
+		- Note: Charge density grows with speed
+		- Note: Analogia entre momento e massa
+		- Remember: Expressão invariante de tempo e espaço
+		- Remember: Expressão invariante de momento e massa
+		- Calc: Expressão invariante de densidade de carga e corrente
+	- Transformação da densidade de carga e corrente
+		- Note: Densidade de corrente e carga transformam como momento e massa
+		- Calc: Equação de transformação do vetor densidade de corrente para movimento in x only.
+		- Calc: Equação de transformação da densidade de carga
+		- Calc: Relações inversas
+	- Example: Current carrying wire
+		- Consider: In rest frame of current-carrying-wire:
+			- Electrons move with drift velocity.
+			- Protons are at rest
+			- Charge density: zero
+		- Frame S: Rest frame of wire. 
+			- Calc: Positive charge density
+			- Calc: Negative charge density
+			- Calc: Charge density
+			- Calc: Positive current density
+			- Calc: Negative current density
+			- Calc: Current density
+		- Frame S': Moving frame of wire with arbitrary speed
+			- Calc: Current density
+			- Note: Nothing out of ordinary on the current
+			- Calc: Positive charge density
+			- Calc: Negative charge density
+			- Calc: Charge density
+			- Note: Net charge is not zero. Net charge is positive!
+			- Note: Wire is positively charged.
+		- Electromagnetic Field in the frames
+			- Note: No electric field on S Frame
+			- Note: Magnetic field on S frame
+			- Note: Electric Field on S' Frame
+			- Note: Magnetic field on S' Frame
+		- Question: How do an electromagnetic field transform?
+	- Transformation of the Electromagnetic Field
+		- Consider
+			- Charge in instantaneous rest at S' Frame
+			- Charge in instanteous speed v at S Frame
+			- Frames moving in x direction only
+		- Transforação do campo elétrico
+			- Calc: Component x of electric force in S
+			- Calc: Component x of electric force in S'
+			- Calc: Transformation for x-component of electric field
+			- Calc: Do the same. Transformation for y-component of electric field
+			- Calc: Do the same. Transformation for z-component of electric field
+			- Calc: Transformation of electric field parallel to motion direction
+			- Calc: Transformation of electric field perpendicular to motion direction
+			- Calc: Inverse transformations
+		- Transformação do campo magnético
+			- S': Particle moving with velocity in y-direction.
+			- S: Relative Velocity of frame in x-direction with respect to S'
+			- Calc: Force components in the S' Frame of reference
+			- Calc: Force components in the S frame of reference
+			- Calc: General force transformation equations
+			- Calc: Transformation of the magnetic field components
+			- Calc: Transfomration of the magnetic field parallel to motion
+			- Calc: Transformation of the magnetic field perpendicular to motion
+			- Calc: Inverse transformations
+	- TODO: Examples
+	- TODO: Lorentz-Invariance of Maxwell Equations
+
+
+Doppler Effect
+	- TODO: 
+
+
+
+TODO: Doppler Effect, and aberration
+TODO: Show invariance of wave equation (use x0 = ict and have it a laplace equation).
+TODO: Lorentz invariance of wave equation, and Maxwell Equations
+TODO: Corrections to Electromagnetism: Electrodynamics! :).
+
+
+TODO: To talk about aparent velocity. And to calc it.
+TODO: Transverse Apparent Velocity. https://en.wikipedia.org/wiki/Superluminal_motion
+TODO: Motion under potential.
+TODO: To calc fresnel drag coeficient using electromagnetic theory before the relativistic calculation
+TODO: A taste in non-inertial frame of reference? (Just like physics 01)
+TODO: A taste in relativistic spacetime geometry and metric?
+
+TODO: Einstein's Theory
+	- Confirmation of Time-Dilation:  http://en.wikipedia.org/wiki/Ives%E2%80%93Stilwell_experiment
+
+The end! Now you has been liberated to learn:
+	- Relativity 02
+	
+	
+
+
+PERHAPS FOR RELATIVITY:
+	- Relativity 01: Construction and experimental basis.
+	- Relativity 02: Relativity of one particle (analogous to Mechanics 01). Covariant formulation ofc. Apparent velocity. Etc.
+	- Relativity 03: Two-Body Problem and N-Body problem and continuum. (analgous to Mechanics 02, 03, 04).
+
+
+PERHAPS FOR GR:
+	- GR 01: One-Body problem in GR. (Analogous to Mechanics 01).
+	- GR 02: Two-Body Problem in GR. (Analogous to Mechanics 02).

@@ -1,0 +1,65 @@
+Title: Geometria Analitica 02: Tres dimensões.
+	- Pre-requisitive: Geometria Analitica 01, Vector Algebra.
+	- Co-requisitive: 
+
+
+Retas e planos
+	- Equações da reta
+		- Equação vetorial
+		- Equação paramétrica
+		- Equação simétrica
+		- Equação geral
+	- Plano
+		- Definition
+		- Def: Vetor normal ao plano
+		- Def: Vetor coplanar ao plano
+		- Equação vetorial do Plano
+			- Combinação linear de vetores coplanares
+			- Encontrando vetor normal ao plano
+		- Equação paramétrica do Plano
+		- Equação Geral do Plano
+			- Vetor normal ao plano
+			- Encontrando ponto pertencente ao plano
+			- Inclinações das retas de intersecção do plano com eixos
+	- Posições relativas plano-plano
+	- Posições relativas plano-reta
+	- Posições relativas reta-reta
+	- Angulos
+		- Angulo entre duas retas
+		- Angulo entre dois planos
+		- Angulo entre reta e plano
+	- Distancia
+		- Distancia entre pontos
+		- Distancia entre ponto-plano
+		- Distanca entre ponto-reta
+		- Distancia entre reta-plano
+		- Distancia entre duas retas
+
+
+Superfícies Quádricas
+	- Superfícies Quádricas
+		- Definição
+		- Quadricas cêntricas
+			- Ellipsoides
+			- Hiperboloides de uma flha
+			- Hipérboloides de duas folhas
+		- Quadricas não centricas
+			- Paraboloide Eliptico
+			- Paraboloide Hiperbólico
+	- Superficies Esféricas
+		- Definição
+		- Equação
+	- Superficie Cilindrica
+		- Definição
+		- Equação da superficie
+
+
+Geometria Analitica Mulidimensional: Dimensão n (R^n)
+	- Equação de reta
+	- Equação de plano
+	- Equação de espaço...?
+	- Equação de hiperespaço...?
+
+
+
+http://sites.csn.edu/istewart/mathweb/math127/polar_equ/polar_equ.htm

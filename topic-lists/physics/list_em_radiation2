@@ -1,0 +1,161 @@
+TITLE: Radiação Eletromagnética 02: Propagação em interfaces
+	- Pre-requisitives: Radiaçao Eletromagnetica 01.
+	- Co-requisitives: 
+
+
+Reflexão e Refração
+	- TODO: To derive reflective and refractive waves
+	- TODO: To derive reflective angle from EM Laws.
+	- TODO: To derive snell law from EM Laws.
+
+
+Incidencia Normal de onda EM sobre interface não-condutora e não-magnética
+	- Incidencia normal de onda EM linearmente polarizada em meios não condutores e não-magnéticos.
+		- Assume: Duas interfaces. Vetor de propagação de onda diferentes.
+		- Objetivo: Encotrar a magnitude do campo elétrico da onda refletida e transmitida.
+		- Relações entre campo incidente e campo refletido/transmitido.
+			- Eixo de propagação da onda eletromagnética. Eixo do campo elétrico.
+			- Onda do campo elétrico incidente, refletido e transmitido
+			- Onda do campo magnético incidente, refletido e transmitido
+			- Condição de contorno: Continuidade das componentes tangenciais do campo E e H.
+			- Relação entre amplitude da onda elétrica transmitida/refletida em relação à incidente
+			- Def: Coeficientes de Fresnel
+		- Energia refletida e transmitida
+			- Fluxo de energia por unidade de area: Modulo do vetor de Poynting para onda incidente
+			- Fluxo médio de energia no tempo por unidade de área da onda incidente, refletida e transmitida.
+			- Def: Reflectancia e transmitancia
+			- Expressão da conservação de energia na interface envolvendo a reflectancia e transmitancia
+			- Note: Energia não é absorvida pelo material
+		- Exemplos
+			- Example: Interface ar-vidro. Calc: Reflectancia. Transmitancia (valores numericos).
+			- Example: Interface ar-agua. Calc: Reflectancia. transmitancia. (Valores numericos).
+	- TODO: Coeficientes de fresnel
+		- Relação entre os campos E.
+		- Relação entre os campos B.
+		- Relação entre os campos H.
+	- Incidencia normal de onda EM elipticamente polarizada em meio não condutor e não-magnético.
+		- Onda do campo elétrico incidente, refletido e transmitido
+		- Condições de contorno para os dois eixos do campo elétrico
+		- Coeficientes de fresnel para os dois eixos.
+		- Reflectancia e transmitancia. Note: validade por componente da polarização
+		- Conservação de energia. Validade por componente da polarização.
+
+
+
+Interface não-condutora
+	- Situação
+		- Set: Origem do sistema cartesiano pertence à interface.
+		- Display: Campo elétrico incidente/transmitido/refletido
+		- Def: Vetor normal à interface (n).
+		- Def: Plano de incidencia (k x n). Plano dos raios de luz;
+		- Def: Campo E: Polarização p, paralela ao plano de incidencia.
+		- Def: Campo E: Polarização s, perpendicular ao plano de incidencia. (senkrecht).
+		- Visualização dos raios de luz, da polarização s-p, e da interface.
+		- Objective: Achar grandezas de transmssão/reflexão a partir da incidencia
+	- Condições na interface
+		- Condition: Fases do campo E iguais em todos os pontos da interface
+		- Show: r = -n x (n x r).
+		- Condição para fases iguais em função do vetor normal à interface
+		- Note: Lei de reflexão
+		- Note: Lei de Snell-Descartes-
+		- Note: Oh! We derived such laws from purely EM equations.
+		- Note: Lei da reflexão e snell não dependem das condições de contorno de campos EM
+	- Condições de contorno
+		- Show: n x (n x E) = (n * E)n - E
+			- Note: Componente normal à interface
+			- Note: componente tangencial à interface
+		- Condição de contorno para componente tangencial do campo E
+		- Condição de contorno para componente tangencial do campo B
+		- Remember: Campo B em função de campo E.
+		- Segunda condição de contorno em função de E. Expansão dos produtos triplos.
+	- Coeficientes de Fresnel para polarização s
+		- Primeira codição (codição em E)
+			- Produto vetorial por n na condição E.
+			- Note: Vetor normal da interface é perpendicular à direção de polarização s
+			- Equação para E
+		- Segunda condição (condição em B)
+			- Transformando condição de B em função de E
+			- Simplificação dos produtos triplos em produtos escalares
+			- Note: Vetor normal da interface é perpendicular à direção de polarização s
+			- Utilizar as condições a interface: Lei de reflexão
+		- Solução do sistema de equações (vetoriais)
+		- Calc: Coeficiente de fresnel de reflexão
+		- Calc: coeficiente de fresnel de transmissão
+	- Coeficientes de Fresnel para polarização p
+		- Note: Os produtos escalares do produto vetorial triplo não é mais zero. =(.
+		- Note: Campo E está p-polarizado ==> Campo B está s-polarizado.
+		- Condição em E. Transformar em função de B. Cortar os produtoes escalares.
+		- Condição em B. Produto vetorial em n. Cortar produto escalar.
+		- Solução do sistema de equações (vetoriais)
+		- Calc: Coeficiente de fresnel de reflexão
+		- Calc: coeficiente de fresnel de transmissão
+	- Redução para incidencia normal
+		- Incidencia normal
+			- Calc: Angulo de reflexão
+			- Calc: Angulo de trasmissão (lei de snell)
+		- Calc: Coeficiente de fresnel de reflexão em incidencia normal para polarização p e s
+		- Calc: Coeficiente de fresnel de transmissão em incidencia normal para polarização p e s
+		- Note: Coeficiente de reflexão em p é oposto ao coeficiente de reflexão em s.
+	- Coeficientes de fresnel dependentes apenas de angulo de incidencia
+		- Lei de snell: Isolar angulo de transmissão
+		- Substituição nos coeficientes de fresnel
+	- Reflectância e Transmitância
+		- Def: Reflectância (direção normal à interface da média do vetor de Poynting)
+		- Def: Transmitância
+		- Calc: Reflectância para polarização s
+		- Calc: Reflectância para polarização p
+		- Calc: Transmitância para polarização s
+		- Calc: Transmitância para polarização p
+	- Coeficientes de Fresnel usando soma/subtração de arcos
+		- TODO. (Sem depender do indice de refração as well).
+	- Casos de Reflectancia nula
+		- Case 01: Angulo de incidencia = Angulo de transmissão
+			- Note: Somente possivel se indice de refração dos dois meios forem iguais
+			- Note: Meios oticamente indistinguiveis.
+		- Case 02: Angulode incidencia + Angulo de transmissão = 90 degree
+			- Note: tangente 90 é inf ==> Coeficiente de fresnel de reflexão polarização p é zero
+			- Calc: Angulo de incidencia tal que isso acontece
+			- Def: Angulo de Brewster
+	- Angulo de Brewster
+		- Polarização paralela ao plano incidente é completamente transmitida
+		- Toda onda refletida tem polarização s
+		- Note: Eh uma maneira de conseguir polarizar a luz na direção s
+		- Note: Uso em sistemas opticos para destruir luz de reflexão (lentes polaroides)
+		- Exemplos do angulo de Brewster
+			- Calc: O angulo de Brewster para interface ar-agua
+			- Calc: O angulo de Brewster para interface ar-vidro
+			- Question: Qual direção do filtro polarizador devo usar para ver melhor o interior da agua?
+			- Question: Qual filtro polarizador devo usar para ver melhor o interior do vidro?
+	- Casos de reflectância total
+		- Note: Se um dos angulos (reflexão/transmissão) for 90 degree.
+		- Def: Angulo crítico
+		- Note: Condição de existencia do angulo crítico
+		- Note: Angulo critico imaginario
+		- Fenomeno de reflexão total
+
+
+Interface condutora perfeita
+	- TODO: Eixos XYZ.
+	- TODO: Lei de snell complexa
+	- TODO: Incidencia obliqua
+	- TODO: Carga superficial na interface
+	- TODO: Corrente superficial na interface (same as H).
+	- TODO: Incidencia normal (as small warm up).
+
+
+Interface condutora
+	- TODO: Reflexão normal e transmissão normal.
+	- TODO: Reflexão obliqua? Transmissão obliqua?
+	- TODO: Refletividade. (falar que alem de penetration depth, there is reflectivity).
+
+
+
+TODO: Reflexão, Transmissão, Refração, Propagação, Radar.
+TODO: Radiation Pressure. Absorption. Reflection. Compression. https://en.wikipedia.org/wiki/Radiation_pressure. Radiation stresses?
+TODO: Calculations of a solar sail. Calculations of a laser sail.
+TODO: https://en.wikipedia.org/wiki/Faraday_effect
+TODO: https://en.wikipedia.org/wiki/Crookes_radiometer
+TODO: https://en.wikipedia.org/wiki/Radiation_pressure#Compression_in_a_uniform_radiation_field
+TODO: Fresnel Drag Coeficient calculation?
+
+

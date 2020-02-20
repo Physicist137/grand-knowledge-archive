@@ -1,0 +1,200 @@
+TITLE: Integration 01
+	- Pre-requisitives: Calculus 01.
+	- Co-requisitives: Calculus 02, Sequences and Series.
+
+
+Math Base: Sequences and generating functions
+	- Sequencias
+		- Formal Definition
+		- Recurrence relations
+	- Generating Functions
+		- Generating polynomial (finite sequences).
+		- Generating functions (infinite sequences).
+		- Example: Sequence: an = 1.
+		- Example: Sequence: an = (-1)^n.
+	- Example: Fibonatti Sequence
+		- Definition by recurrence
+		- Calc: Generating function.
+	- Exaple: D{n+1} = n(D{n} + D{n-1}).
+	- TODO: Product of summations
+	- TODO: Factorials. Stirling approximation.
+	- TODO: Solving recurrencies. Fibonatti, etc.
+
+
+Binomial Coeficient
+	- Brace yourself! Simple math starts now.
+	- Formal Definition
+		- Expansion of (a+b)^n
+		- Proof: Using counting principle.
+		- Proof: Using induction.
+		- Calc: Formula of the binomial coeficient using factorials
+		- Calc: Formula of the binomial coeficient using multiplication
+		- Note: n, k non-negative integer.
+	- Properties and identities
+		- Identity: (n k) = (n-1 k) + (n-1 k-1).
+		- Note: (n 0) = (n n) = 1.
+		- Symmetry: (n k) = (n n-k).
+		- Proof: By induction
+	- Generating polynomial of binomial sequence
+		- Calc: The generating polynomial
+		- Note: Follows directly from the definition
+		- Note: (n 0) = 1 (from the generating function).
+		- Note: 
+	- Identities using generating polynomial
+		- Proof: sum over k of (n k)
+		- Proof: sum over k of k(n k)
+		- Proof: sum over k of k^2 (n k)
+	- Identidade geral k^p (n k).
+		- Proof: sum over k of k^p (n k)
+		- Note: We used p times operator x d/dx
+		- Calc: Forma geral da soma: 2^(n-p) * Polynomial in n of degree p.
+		- Question: What can we say about this polynomial?
+	- Identities using generating polynomial
+		- Objective: Work with  (2n+1 2k).
+		- Calc: Generating polynomial of (2n+1 2k).
+		- Proof: sum over of (2n+1 2k)
+		- Proof: sum over k of k(2n+1 2k)
+		- Proof: sum over k of k^2 (2n+1 2k)
+		- Proof: sum over k of k^p (2n+1 2k)
+	- Vandermonde's identity
+		- Proof: Product of two polynomials with degree m, n.
+		- Product of generating functions of the binomial coeficient
+		- Proof: Vandermonde's identity
+	- TODO: Central binomial coeficients. Definition. Factorial writing. Properties. Assymptoptics.
+	- TODO: Generating function.
+	- TODO: Series involving central binomial coeficients.
+
+
+Pochhammer symbol
+	- Formal Definition
+		- Also called: Ascending factorial symbol.
+		- Remmember: Binomial coeficient using multiplication
+		- Calc: Binomial coeficient using Pochhammer symbol.
+		- Note: n non-negative integer. x is real.
+		- Note: Pochhamer of (1)_n is n!
+	- Rising and falling factorials
+		- Formal Definition: Rising factorial
+		- Formal Definition: Falling factorial.
+	- Writing a rising factorial as falling factorial
+		- Proof: Starting from the other hand
+		- Proof: Opposite argument
+		- Note: Joining the two.
+	- Ratio of Pochhamer symbols
+		- Case where n>=m and n<= m.
+		- Ratio of ascending factorials
+		- Ratio of descending factorial
+	- Pochhamer dimidiation formula
+		- (x)_2n
+		- Writing Pochhamer symbol of 2n as productory
+		- Rewriting productory to multiply two by two
+		- Rewriting productory for both terms become close to Pochhamer symbols (divide by 2)
+		- Pochhamer even-dimidiation formula
+		- Pochhamer odd-dimidiation formula (x)_{2n+1}.
+	- Pochhamer duplication formula
+		- (2x)_n. But to be easier, let: (2x)_2n
+		- Writing Pochhamer symbol as productory
+		- Rewrite to appear more pochhamer symbols.
+		- Pochhamer duplication formula. Substitute n <-- n/2.
+		- Pochhamer even-duplication formula.
+		- Pochhamer odd-duplication formula
+	- Falling factorial formulas
+		- Descending factorial even-dimidiation formula
+		- Descending factorial odd-dimidiation formula
+		- Descending factorial even-duplication formula
+		- Descending factorial odd-duplication formula
+	- Derivative of pochhamer symbols.
+		- Write pochammer symbols as productory
+		- Use product rule with first pochhamer symbol (separating from the rest).
+		- Use product rule with remaining productory symbol (separating from the rest).
+		- Arrive in general formula. General derivative of Pochhamer symbols.
+		- Note: Its a sum of pochhamer symbols with one term lacking.
+		- Rewrite as single full productory (with the summation dividing so term will lack).
+		- Rewrite productory as pochhamer symbols.
+		- Derivative of pochhamer symbols
+	- TODO: Pochhamer symbol of addition
+	- Generating function of Pochhamer symbols
+		- Writing Pochhamer symbols as ordinary polynomial (summation).
+		- Finding recursive relations of the coeficients of the polynomial.
+		- Finding initial value relations of coeficients.
+		- The Pochhammer generating function
+	- Descending Factorial Generating function
+		- Writing descending factorial as ordinary polynomial
+		- Def: Signed stirling numbers of first kind.
+		- Finding recursive relations of the signed stirling numbers of first kind.
+		- Finding evaluation of some signed stirling numbers of first kind. (the start ofc).
+		- Relation between stirling numbers and "pochhamer" numbers.
+	- TODO: Alternating Series.
+
+
+
+USEFUL LINKS:
+	- http://math.stackexchange.com/questions/179389/product-of-polynomials
+	- http://mathworld.wolfram.com/PochhammerSymbol.html
+	- https://en.wikipedia.org/wiki/Central_binomial_coefficient
+	- http://math.stackexchange.com/a/551391/169193
+
+
+TODO: https://en.wikipedia.org/wiki/Wallis_product
+TODO: Bernouli numbers? =D.
+TODO: Polynomial Integrals. Partial Fraction.
+TODO: Quartic Integrals.
+TODO: Cubic Integrals.
+TODO: Radical Integrals.
+
+TODO: Reducing integrands to infinite sums of rational functions (P/Q, P, Q polynomials).
+TODO: Integration of such functions.
+
+
+
+
+
+
+http://math.stackexchange.com/questions/2050966/evaluate-int-0-infty-fracex-1xexex1dx
+
+
+There is an alternative way:
+$$
+\int_0^\infty\frac{e^x - 1}{xe^x(e^x+1)}dx = 
+\int_0^\infty\frac{\tanh(x/2)}{xe^x}dx = 
+\int_0^\infty\frac{1}{x}e^{-x}\tanh\left(\frac{x}{2}\right)dx = 
+$$
+
+Which we can invoke laplace transform:
+$$
+\mathcal{L}\left\{\frac{g(x)}{x}\right\}(s) = \int_s^\infty \mathcal{L}\left\{g(x)\right\}(s)ds = \int_0^\infty\frac{g(x)}{x}e^{-sx}dx\\
+\int_0^\infty\frac{1}{x}e^{-x}\tanh\left(\frac{x}{2}\right)dx = 
+\int_1^\infty\mathcal{L}\left\{\tanh\left(\frac{x}{2}\right)\right\}(s)ds
+$$
+
+Of course,
+$$
+\mathcal{L}\left\{\tanh\left(\frac{x}{2}\right)\right\}(s) = 
+\int_0^\infty\tanh\left(\frac{x}{2}\right)e^{-sx}dx = 
+\int_0^1\frac{1-x}{1+x} x^{s-1}dx = 
+\int_0^1\left[\frac{x^{s-1}}{1+x}-\frac{x^s}{1+x}\right]dx
+$$
+
+Now we can factor out the polynomal:
+$$
+(1+x)(x^{s-1} - x^{s-2} + x^{s-3} + \cdots) = x^s + 1 \quad\implies\quad
+\frac{x^s}{1+x} = \frac{1}{1+x}+\sum_{n=0}^{s-1}(-1)^{n+s} x^n
+$$
+
+That is,
+$$
+\int_0^1\left[\frac{x^{s-1}}{1+x}-\frac{x^s}{1+x}\right]dx = 
+\int_0^1\left[\frac{1}{1+x}+\sum_{n=0}^{s-2}(-1)^{n+s-1} x^n
+- \frac{1}{1+x}-\sum_{n=0}^{s-1}(-1)^{n+s} x^n\right] \\
+\int_0^1\left[\sum_{n=0}^{s-2}(-1)^{n+s-1} x^n - \sum_{n=0}^{s-1}(-1)^{n+s} x^n\right] = 
+\int_0^1\left[\sum_{n=0}^{s-2}(-1)^{n+s-1} x^n - \sum_{n=0}^{s-2}(-1)^{n+s} x^n - x^{s-1}\right]\\
+\int_0^1\left[\sum_{n=0}^{s-2}\left((-1)^{n+s-1} + (-1)^{n+s}\right) x^n - x^{s-1}\right] = 
+\int_0^1 x^{s-1}dx = \left[\frac{1}{s}x^s\right]_0^1 = \frac{1}{s}
+$$
+
+Then, the integral we want evaluates to:
+$$
+\int_0^\infty\frac{1}{x}e^{-x}\tanh\left(\frac{x}{2}\right)dx = 
+\int_1^\infty\int_0^1\frac{1-x}{1+x} x^{s-1}dxds = 
+\int_1^\infty\frac{1}{s}ds = 
+\left[\frac{-1}{s^2}\right]_1^\infty = 1
+$$

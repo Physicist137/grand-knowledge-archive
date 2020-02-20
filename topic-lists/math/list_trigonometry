@@ -1,0 +1,78 @@
+Title: Trigonometria
+	- Pre-requisitives: Geometria Euclidiana Plana Básica
+	- Co-requisitives: Pre-Calculus
+
+Ciclo Trigonométrico
+	- Definition in cartesian plan
+	- Def: Sin e cosseno de um angulo
+		- Parametrização de um circulo
+	- Cosseno como co-função de seno
+	- calc: sin30 and cos30
+	- calc: sin60 and cos60
+	- calc: sin45 and cos45
+	- Def: Tangente de um angulo
+	- Funções trigonometricas
+		- Def: Função seno. Dominio e Imagem.
+		- Def: Função cosseno. Dominio e Imagem.
+		- Def: Função tangente. Dominio e Imagem.
+		- Grafico de sen, cos, tg
+	- Calculando tangente em função de sin, cos
+	- Quadrantes do ciclo trigonométrico
+	- Identidade fundamental trigonometrica
+	- Explorando simetria
+		- Redução ao primeiro quadrante
+			- Simetria em relação aos eixos ordenados (sin, cos)
+			- Simetria em relação à origem (tg)
+			- Simetria em relação ao eixo x (cos, sin)
+		- Seno como função impar
+		- Cosseno como função par
+		- Tangente como função impar
+	- Soma de arcos
+		- Soma de arco no seno/cosseno
+		- Diferença de arco no seno/cosseno
+		- Soma de arco na tangente
+		- Diferença de arco na tangente
+		- Seno, cosseno e tangente do arco duplo
+		- sin(a+b+c), cos(a+b+c)
+	- Transformação soma-produto
+		- sin+sin
+		- sin-sin
+		- cos+cos
+		- sin-cos
+	- Transformação produto-soma
+		- cos*cos
+		- sin*sin
+		- sin*cos
+		- tan*tan
+	- Redução de potencia
+		- cos²
+		- sin²
+	- Extensão de funções
+		- Def: secante
+		- Def: cossecante
+		- Def: cotangente
+		- Identidade fundamental trigonometrico
+	- Ciclo trigonometrico: all functions
+
+
+Equações trigonometricas
+	- Periodicidade do ciclo trigonometrico
+		- Arcos que representam mesmo ponto no ciclo
+		- Def: Arco principal
+		- Redução ao arco principal
+	- Equação do tipo: sinx = sina
+	- Equação do tipo: cosx = cosa
+	- Equação do tipo: tgx = tga
+	- Equação do tipo: sinx = a
+	- Inequações trigonométricas
+	- Problem: sinx = a solution.
+
+
+Funções trigonométricas inversas
+	- Def: arcsin function
+	- Def: arccos function
+	- Def: arctg function
+
+
+End Trigonometry! Now you can go to:
+	- Vector Algebra.

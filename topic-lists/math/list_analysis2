@@ -1,0 +1,138 @@
+TITLE: Analysis 02: Real Sequences and Series.
+	- Pre-Requisitive: Analysis 01.
+	- Co-Requisitive: None.
+
+
+Formal Definition of Sequences
+	- Sequences
+		- Formal Definition: Function f: N --> R.
+		- nth term of the sequence.
+		- Note: Function need not to be injective
+		- Def: The set x(N) of all numbers of the sequence. (It may be a finite set ofc).
+	- Some definitions
+		- Def: Monotonic Sequences
+		- Def: Increasing sequence. Decreasing sequence.
+		- Def: Non-Decreasing sequence. Non-Increasing sequence.
+		- Def: Bounded frmo above. Bounded from below (limitada superiormente/inferiormente).
+		- Def: Bounded sequence: Ie, Bounded from above and from below. Equivalently, |xn| <= C, all n.
+		- Def: Non Bounded sequence.
+		- Def: Subsequence of a sequence.
+		- Question: Can sequence be non-increasing and non-decreasing simultaneously?
+	- Some trivial properties
+		- Note: All non-decreasing sequences are bounded from below.
+		- Note: All incerasing/decreasing/nondecreasing/nonincreasing sequences are monotonic.
+		- Note: If subsequence of monotonic sequence xn is bounded (from above/below) ==> xn is bounded (from above/below)
+	- Examples of sequence
+		- Eg: The constant sequence (say xn=1). Note: Its monotonic, non-decreasing, non-increasing.
+		- Eg: xn = n. Note: Its bounded from below. Unbounded from above. Its monotonic increasing.
+		- Eg: Alternating sequence (1, 0, 1, 0, ...). Note: Bounded.
+		- Eg: Harmonic sequence (xn = 1/n). Note: Monotonic decreasing, bounded.
+		- Eg: (1, 0, 3, 0, 5, 0, 7, 0, ...). Bounded from below. Non monotonic.
+		- Eg: Power sequence (xn = a^n).
+	- Some exercises:
+		- Eg: xn = (1 + 1/n)^n. Show: Its bounded from below and above. Its monotonic.
+		- Eg: xn = nsqrt(n). Show: Its bounded from below and above. Its monotonic.
+		- Eg: xn = 1 + 1/1! + 1/2! + ... + 1/n!. Show: Its monotonic. Its bounded from below and above.
+
+
+
+Limit of a Sequence
+	- Formal Definition
+		- Write: Lim xn = a (as n->inf ofc).
+		- Say: Sequence converges to a.
+		- The definition (epsilon-delta).
+		- Intution to the definition of limit
+		- Note: If lim xn = a, any interval (a-e, a+e) will have all x(N), except finite number of n indexes.
+	- Simple properties of the limit
+		- Theorem: The limit is unique: If lim xn = a  and  lim xn = b, then a = b.
+		- Theorem: If sequence converges to a limit, then every subsequence also converges to this limit.
+		- Corolary: If sequence converges to a limit, the sequence x_{n+k}, fixed k, converges to same limit.
+		- Theorem: Every convergent sequence is bounded. (Note: Reciprocal isn't true. Example of this?)
+		- Theorem: Every monotonic bounded sequence is convergent. (Note: What if its non-increasing?)
+		- Corolary: If monotonic sequence (xn) has convergent subsequence, then (xn) is convergent.
+		- Eg.: Calculate limit (if exists) of: xn = n. xn = 1/n. Alternating sequence. Power Sequence.
+	- Arithmetic properties of limits
+		- Theorem: If lim xn = 0, and (yn) is bounded sequence, then lim xn yn = 0 (if even lim yn doesn't exist).
+		- Theorem: If lim xn = a  and lim yn = b, then:
+			1) lim (xn + yn) = a + b = lim xn + lim yn.
+			2) lim (xn * yn) = a * b
+			3) If b!= 0, then: lim (xn / yn) = a / b
+		- Eg: Compute lim sin(nx)/n, x\in R.
+	- Signal Theorems
+		- Theorem: If lim xn = a > 0, there exists n0\in N st if n > n0 ==> xn > 0.
+		- Corolary: If xn, yn are convergent, if xn <= yn, then lim xn <= yn.
+		- Corolary: If xn, yn are convergent, if xn < yn, then lim xn <= yn. (Note: lim didn't replace to <).
+		- Corolary: The same thing, but with >= and >.
+		- Corolary: If xn <= yn <= zn, and lim xn = lim yn = a, then lim zn = a. (Same thing for <, >, >=).
+	- TODO: Examples using these theorems.
+	- TODO: Examples involving euler number e.
+	- Infinite limit
+		- Formal Definition
+		- Say: Sequence diverges to +-inf.
+		- Writes: lim xn = +-inf.
+	- Properties of infinite limits
+		- Theorem: If lim xn = inf, and yn is bounded from below, then lim (xn + yn) = inf.
+		- Theorem: If lim xn = inf, if there exists c>0 st yn > c, then lim (xn yn) = inf.
+		- Theorem: If xn>0. Then: lim xn = 0 <==> lim 1/xn = inf.
+		- Theorem: if xn>0, yn>0: If there exist c>0 st xn>c:
+			- If lim xn = 0, then: lim xn/yn = inf.
+			- If (xn) bounded, lim yn=inf, then lim xn/yn = 0.
+		- Note: if lim xn = inf, and lim yn = -inf, one can say nothing about lim (xn + yn).
+
+
+
+Cauchy Sequences
+	- Formal Definition.
+	- Imporatnt Theorems
+		- Lema: All Cauchy sequences are bounded.
+		- Lema: All If cauchy sequence has subsequence converging to a, then sequence converges to a.
+		- Theorem: All real cauchy sequences converges.
+	- TODO: Sucessuve approximations. Relation to Cauchy Sequences.
+	- TODO: Square root sucessive approximations.
+
+
+
+Continued Fractions.
+	- TODO.
+	- TODO: Generalized Continued Fractions.
+
+
+
+Numerical Series
+	- Formal Definition
+		- Def: Partial Sum sequence
+		- Def: Series.
+	- Theorem: If sum an is convergent series, then lim an = 0.
+	- Note: Reciprocal is false
+		- Def: Harmonic series
+		- Proof: Harmonic series diverges (limit is inf).
+	- Other examples
+		- Eg: sum 1/[n(n+1)].
+		- Eg: Alternating series: sum (-1)^n
+	- Other properties
+		- Theorem: Series sum an converges (starting with n=1) <==> Series sum an converges (starting with n=n0)
+		- Theorem: If an>=0, Series sum an converges <==> partial sum sequence is bounded.
+	- Absolute convergence.
+		- Def: Absolute convergent series.
+		- Eg: Geometrical series.
+		- Theorem: Every absolutely convergent series are convergent (note: Reciprocal isn't true! Example?)
+	- Series convergence criteria
+		- Theorem: Comparation criteria
+		- Note: Power series are absolutely convergent.
+		- Theorem: Cauchy Criteria.
+		- Theorem: Root Test.
+			- Comparisom with power series term by term.
+			- The ratio test: where sqrtn(an) < 1 for every n
+			- The ratio test: lim sqrtn(an) < 1.
+		- Theorem: Ratio Test
+			- Comparisom with power series term by term.
+			- Comparisom Term by term
+			- Comparisom with limits.
+	- TODO: Some examples.
+	- Dirichlet Theorem
+		- Theorem: Dirichlet Theorem.
+		- Corolary: Abel Criterion
+		- Corolary: Leibniz Criterion.
+	
+
+TODO: Bolzano-Weierstrass Theorem.

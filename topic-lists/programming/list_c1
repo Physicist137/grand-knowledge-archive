@@ -1,0 +1,17 @@
+TITLE: C Programming
+	- Pre-requisitives: C/C++ Introduction to Programming
+	- Co-Requisitives: None.
+	
+
+TODO: Qualifier: const, static, extern, volatile, restricted, auto, register.
+TODO: Memory managment: malloc, free, calloc, realloc.
+TODO: Data Structure. Operator ->.
+TODO: String: strcat, strchr, strcmp, strcpy, strlen, ...
+TODO: Other Library: Math, ctype, time
+TODO: File IO and Streams: File pointer, flush, printf, scanf, puts, fgets, stdout, stdin, etc..
+TODO: Error Handling: assert, stdarg, errno, signal.
+TODO: Pre-processor: Macros. Writing complicated defines. #pragma, #warning, #error, ...
+
+
+TODO: Writing assembly in C.
+TODO: Unix Networking.

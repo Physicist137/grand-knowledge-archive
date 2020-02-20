@@ -1,0 +1,23 @@
+TITLE: Integration 02
+	- Pre-requisitives: Integration 01
+	- Co-requisitives:
+
+
+https://en.wikipedia.org/wiki/List_of_mathematical_functions
+https://en.wikipedia.org/wiki/Laplace_transform#Evaluating_integrals_over_the_positive_real_axis
+https://en.wikipedia.org/wiki/Laplace_transform#Evaluating_improper_integrals
+
+TODO: fi-integrals. That is, sinx/x, cosx/x, expx/x, logx/x.
+TODO: Logarithmic Integral Functions. https://en.wikipedia.org/wiki/Logarithmic_integral_function
+
+TODO: Gamma Function. Def, Bohr–Mollerup theorem, Stirling approximation, Legendre Duplication, Euler Reflection, Incomplete Gamma, Beta Function.
+TODO: Complex gamma: singularities, residues, minima. Duplication, Euler Reflection. Beta Function.
+TODO: Log-Gamma Function. Integrations with it: https://en.wikipedia.org/wiki/Gamma_function#Properties_2
+TODO: Digamma function. Relation with log-Gamma. Reflection. Complex. Weierstrass factorization theorem. Series. https://en.wikipedia.org/wiki/Polygamma_function#Series_representation
+TODO: Trigamma functions, reflection, complex. Polygamma Functions. https://en.wikipedia.org/wiki/Trigamma_function. https://en.wikipedia.org/wiki/Polygamma_function.
+
+
+TODO: Elliptic Integrals. Jacobi elliptic functions
+
+
+PERHAPS: Theta Functions.

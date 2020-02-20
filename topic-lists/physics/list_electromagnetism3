@@ -1,0 +1,157 @@
+TITLE: Electromagnetism 03: Campos eletromagnéticos variaveis.
+	- Pre-requisitives: Electromagnetism 02, Continuum 00.
+	- Co-requisitives: 
+
+
+Indução Eletromagnetica
+	- Motivation: O novo termo magnético na força de Lorentz
+		- Remember: Força de Lorentz
+		- Calc: Trabalho por unidade de carga da força de Lorentz
+		- Def: Força eletromotriz
+		- Example: Circuito em movimento submerso em campo magnetico
+		- Note: Impossivel gerar uma força eletromotriz com campo eletrostatico ou magnetostaticos
+	- Lei de Lenz
+		- Descrição da lei de lenz
+		- Note: This is a complete experimental law
+		- Note: Law cannot be deduced from what we saw so far
+		- Note: Lei de Lenz eh mais geral
+		- Example: Campo magnético variavel
+		- Question: Is then Lorentz force incomplete?
+	- Equações eletromagneticas incorporando lei de lenz
+		- Forma local
+		- Forma integral
+	- Problema de assimetria na relatividade da teoria eletromagnetica
+		- Example: Circuito movente em campo magnético
+		- Calc: EMF no referencial fixo no campo magnetico
+		- Calc: EMF no referencial fixo do fio
+		- They are the same!
+		- This is a problem....... (by the way.. solution: Electrodynamics Theory)
+	- Auto indutancia
+		- Remember: Campo magnetico gerado por corrente
+		- Note: Esse campo magnetico também poderá gerar FEM
+		- Assumption: Circuito estacionario rigido
+		- Calc: Fluxo magnético gerado por corrente
+		- Def: Auto indutancia. Unidade SI.
+		- Def: Auto indutancia incremental
+		- Calc: FEM em função da auto indutancia
+		- Note: Invalid para varios circuitos. (Um irá induzir o outro)
+	- Example: Auto indutancia de circuito toroidal
+		- Campo magnetico gerado por circuito toroidal de N espiras
+		- Calc: Fluxo magnetico em 1 espira
+		- Calc: Fluxo magnetico em N espiras
+		- Calc: Auto indutancia
+	- Indutancia mutua
+		- n circuitos indutivos
+		- Fluxo que atravessa um dos circuitos (circuito i)
+		- FEM induzida no circuito i
+		- Chain Rule: Variação de fluxo por causa da corrente
+		- Def: Indutancia mutua entre circuito i e circuito j.
+		- Note: Auto indutancias estão inclusas as well.
+		- Calc: Auto indutancia do circuito indice i
+	- Example: Dois enrolamentos de fio em unico toroide
+		- Corrente no primeiro circuito
+			- Fluxo no primeiro circuito
+			- Fluxo no segundo circuito
+		- Calc: Todos os coeficientes das indutancias mutuas e auto indutancias
+		- Coeficiende de acoplamento indutivo
+	- Formula de Neumann
+		- Assumption: Circuitos indutivos estacionarios rigidos em meio linear
+		- Calc: FLuxo magnetico em um dos circuitos
+		- Note: Rotacional, e teorema de stokes
+		- Formula de Neumann para fluxo magnetico
+		- Formula de Neumann para indutancia mutua
+		- Formula de Neumann para auto indutancia
+		- Note: É uma matriz simétrica
+	- Associação de indutores
+		- Indutancia pura is hard to get. Acrescimo de resistores.
+		- Todas associações com presença de indutancia mutua.
+		- Associação em série. Indutancia equivalente.
+		- Usando coeficiende de acoplamento indutivo
+		- Associação em paralelo. Resistencia desprezivel. Indutancia equivalente.
+	- Equação geral dos transformadores de 1 entrada e 1 saída
+		- TODO: ntrodução de Indutancia mutua. Correlação entre as tensões
+		- TODO: Equação do transformador ideal
+		- TODO: Introdução de um nucleo em forma de E para fazer transformador não-ideal de propósito
+	- Outros transformadores
+		- 1 entrada e 2 saídas. Note: Two driving circuits.
+		- 2 entradas e 1 saída. Note: Modulador.
+
+
+Circuitos de variação lenta
+	- Variação lenta
+		- Leis de Maxwell
+		- Variação de termo de deslocamento elétrico quase nulo
+	- Circuitos RL e RLC em DC
+		- Solução para aumento abrupto de tensão: Ligar circuito
+		- Solução para decrescimo abrupto de tensão: Desligar circuito
+		- Solução estacionarias. Note: Inductor can be ignored.
+	- Circuitos em tensão alternada
+		- Note: Tensão DC é caso especial
+		- Equação diferencial complexa. Partes reais e complexa são iguais.
+	- Circuito RLC em AC
+		- Equação diferencial
+		- Calc: Impedancia do circuito AC
+		- Note: Resistencia. Reatancia. Reatancia indutiva e capacitiva.
+		- Solução geral
+	- Circuitos em paralelo
+		- Impedancia equivalente em serie
+		- Impedancia equivalente em paralelo
+		- Calc: Impedancia de circuito LC em paralelo
+	- Considerações de potencia
+		- Def: Potencia instantanea
+		- Calc: Potencia media
+		- Def: Fator de potencia
+		- Def: Tensão efetiva. Corrente efetiva.
+	- Circuitos mutualmente indutivos
+		- Remember: Força eletromotriz de indutancia mutua pura
+		- Consider: Circuito com indutancia mutua em paralelo
+		- Equação dos ramos paralelos pela lei de Kirchhoff
+		- Calc: Solução das intensidades de corrente
+		- Calc: Corrente total
+	- Transformadores
+		- Desenho esquematico de um transformador
+		- Equação de transformador usando lei de Kirchhoff
+		- Calc: Solução das intensidades de corrente do sistema
+		- Def: Transformador ideal. Potencial totalmente transferida.
+		- Def: Razão de transformação de transformador ideal.
+		- Calc: Razão de transformação de transformador ideal.
+		- Note: Transformador de impedancia com razão de transformação 1/a²
+	- TODO: Mixing this with magnetic circuits
+	- TODO: Definition of Q-Factor. Calculation of Q-Factor in oscilators.
+
+
+
+Energia Magnética.
+	- TODO: Energia magnética de circuitos indutivos (acoplados)
+	- TODO: Densidade de energia magnética
+	- TODO: Energia magnética. Forças e torques sobre circuitos.
+	- TODO: Pressão magnética. Estresses magnéticos. Stress-Tensor.
+	- TODO: Stress Tensor (pressures and stresses) in magnetized materials and magnetic materials.
+	- TODO: Perda de energia por ciclo de histerese. Energia magnética convertida em calor.
+	- TODO: Termodinamica do ferroelétrico. Diagrama BH. Espaço de fase: BHT.
+	- TODO: Example: Energy in solenoid. Pressures and stresses. Stress-Tensor.
+	- TODO: Hysteresis losses
+
+
+
+TODO: Energy stuff. Relation to force/torque. Necessary energy to magnetize. 
+TODO: Energy of hyteresis. Hysteresis models (e.g.: The square one, the hyperbolic tangent one, ...)
+TODO: Magnetization dynamics. https://en.wikipedia.org/wiki/Magnetization_dynamics.
+TODO: Work of magnetization. Thermodynamics. 
+
+
+
+
+TODO: Dielectric heating.
+TODO: Pinch. Can crushing. https://en.wikipedia.org/wiki/Pinch_(plasma_physics)#Crushing_cans_with_the_pinch_effect
+TODO: EM Forming. https://en.wikipedia.org/wiki/Electromagnetic_forming.
+	- Discharge of capacitor bank. Current oscilation. Oscilation frequence.
+	- Induction of current in metalic workpiece.
+	- https://upload.wikimedia.org/wikipedia/commons/6/60/Electromagnetic_Forming_01.png
+TODO: Levitation by time varying fields. (Induced current).
+TODO: Energy stuff. Relation to force/torque. Necessary energy to polarize/magnetize.
+TODO: Def de Correntes superficiais. Few calcs with it. Condição do campo H com presença de correntes superficiais.
+TODO: Diffusion equation. Power lost by eddy currents. Prove lamination. https://en.wikipedia.org/wiki/Eddy_current
+TODO: Actual calculation of dampening caused by magnetic field in moving material. (Free fall example: terminal velocity).
+
+

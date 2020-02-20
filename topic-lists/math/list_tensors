@@ -1,0 +1,148 @@
+TITLE: Math for Physics: Tensors, Differential Forms, Variational Principles.
+	- Pre-requisitives: Vector Calculus, Linear Algebra.
+	- Co-requisitives: Mecânica Clássica I, Riemmanian Geometry
+
+
+Affine Tensors
+	- Transformação ortogonal em espaço euclidiano 3D
+		- Assumption: Sistemas ortonormais S1, S2 com origem comuns.
+		- Vetores das direções do eixos em cada sistema
+		- Note: Vetores mutualmente ortogonais: Relação using Kronecker Delta
+		- Relação linear entre dois sistemas ortonormais. Interpretação geométrica.
+		- Relação de ortogonalidade da matriz de transformação
+			- Note: Relação entre Inversa e Transposta da matriz de transformação ortogonal
+			- Note: Determinante da matriz de transformação orotogonal
+			- Note: Transformação entre eixos ortonormais ==> Transformação ortogonal
+		- Theorem: Transformação ortogonal em eixo ortornormal ==> Eixo ortornormal relacionado.
+		- Relação inversa entre os dois sistemas ortornormais. Interpretação geométrica.
+	- Grupo ortogonal
+		- Consider: Sistema S3 ortornormal na mesma origem que S1 e S2
+		- Relação entre matriz de transformação em S3 para S1 e S2
+		- Theorem: Multiplicação de duas matrizes ortogonais é matriz ortogonal
+		- Note: Associatividade de matrizes ortogonais é existente
+		- Note: Existencia de elemento identidade
+		- Note: Existencia de inversa para cada elemento
+		- Formal Definition: Grupo Ortogonal (transformações ortogonais em E3)
+	- Transformation law between coordinates of the point P
+		- Escrita de um vetor geral apontando para P nas bases S1 e S2
+		- Calc: Transformações das coordenadas do ponto
+		- Calc: Transformação inversa das coordenadas do ponto
+		- Note: Mesma transformação para as bases
+		- Remember: Notation: Change to bar-notation. If haven't, do it now.
+	- Affine vectors on E3
+		- Formal Definition: Set of quantities as components of affine vector.
+		- Note: Transformações devem ser ortogonais. Must be E3-vectors.
+		- Note: Vector def is independent of its length.
+		- Proof: Length invariance under orthogonal transformations
+		- Conclusion: Length of vector independent of choice of basis (as expected)
+		
+		
+
+
+Note: Def of affine tensors dependent on ORTHOGONAL transformations.
+
+
+
+https://www.youtube.com/watch?v=FxRdNj0_8JU
+http://io9.com/new-test-suggests-nasas-impossible-em-drive-will-work-1701188933
+http://space.io9.com/a-new-thruster-pushes-against-virtual-particles-or-1615361369/1615513781/+rtgonzalez
+http://en.wikipedia.org/wiki/EmDrive
+
+Prove or disprove: Orthogonal Transformation implies in orthogonal vector basis.
+
+Let two vector basis be: $\mathbf e_i$ and $\mathbf f_i$. They both relate to each other by the following transformation:
+$$
+\mathbf f_i = \sum_j a_{ij}\mathbf e_j
+$$
+
+That is, a linear relation. It is quite trivial to prove:
+$$
+\left\{ 
+  \begin{array}{l l}
+    \mathbf e_i\cdot\mathbf e_j = \delta_{ij} & \\
+    \mathbf f_i\cdot\mathbf f_j = \delta_{ij} & 
+\end{array} \right.
+\quad\Longrightarrow\quad
+\sum_k a_{ik}a_{jk} = \delta_{ij}\quad\quad\mbox{ or }\quad\quad
+aa^T = I
+$$
+
+Where $I$ is the identity matrix and in components $(I)_{ij} = \delta_{ij}$. Which means, $a$ has to be an orthogonal matrix. Is there a way to prove/disprove otherwise? That is, prove/disprove:
+$$
+\sum_k a_{ik}a_{jk} = \delta_{ij}\quad\quad\mbox{ or }\quad\quad
+aa^T = I
+\quad\Longrightarrow\quad
+\left\{ 
+  \begin{array}{l l}
+    \mathbf e_i\cdot\mathbf e_j = \delta_{ij} & \\
+    \mathbf f_i\cdot\mathbf f_j = \delta_{ij} & 
+\end{array} \right.
+$$
+
+Tensor Algebra on Manifolds
+	- Bad Def: Differential Manifolds
+	- Conjuntos vizinhos e mudança de coordenadas entre eles
+	- Def generalization: (r,s)-type Tensor.
+		- Numero de quantidade representadas do tensor
+		- Ordem do tensor
+		- Existencia de inversa
+	- Special Cases consequences from definition
+		- Ordinary covariant vector
+		- Ordinary contravariant vector
+		- Mixed (1,1) tensor.
+		- Kronecker delta tensor
+		- Note: (0,0) tensor is simply scalar
+	- Tensor Addition
+	- Tensor Multiplication
+		- Type of the multiplicated tensor
+		- Example
+	- Tensor Contraction
+		- Definition of contraction
+		- From (r,s) to (r-1,s-1)
+		- Note: Has to be this way to get Kronecker Tensor.
+		- Note: Contradiction of (1,1)-tensor is scalar. 
+			- General Example
+			- Example: Kronecker contraction.
+		- Example: Multiplication of (2,0) tensor and 2 covariant vectors.
+			- Transformation law of the new (2,2)-type Tensor.
+			- Contraction of indexes
+			- Contraction again of indexes
+			- Note: Result is scalar/invariant.
+			- Note: T' = T (contracted twice T, of course).
+		- Some examples
+	- Tensor Symmetry
+		- Formal Definition: Symetric Tensors
+		- Formal Definition: Anti-symetric tensors
+		- Example: Kronecker Delta Tensor.
+	- Symmetrization of tensors
+		- Constructing symetric tensor from (0,2)-tensor
+		- Constructing anti-ymetric tensor from (0,2)-tensor
+		- Generalling constructing symmetric tensor from general tensor
+		- Generalling constructing symmetric tensor from general tensor
+		- Note: Any tensor can be written with it's symmetric and anti-symmetric parts.
+		- Notation: Symmetric part of a tensor
+		- Notation: Anti-symmetric part of a tensor
+	- Quoetient Theorem
+		- Componentes * contravariant vensor = scalar ==> Componentes is a covariant vector
+		- Note: Vetor contravariente deve ser arbitrario como hipotese para teorema
+		- Quotient theorem for second rank contravariant tensors
+
+
+Tensor Fields and Their derivatives
+	- Formal Definition
+		- Example: Scalar fields and gradient fields
+		- Example: Vector field
+		- Generalization: Tensor Fields
+		- Def: Tensor of class Cp
+	- Theorem: Differential of scalar field is scalar
+		- Differential of scalar field
+		- Note: Gradient fields is covariant vector
+		- Note: Positional differential forms contravariant vector
+		- Conclusion: Differential of scalar field is scalar
+	- Contravariant vector field
+		- Derivative of the vector field
+		- Note: It is NOT a tensor field
+		- Condition for it's derivative be a tensor field
+		- Calc: Diferential of a vector field (multiply by dxk)
+		- Note: Diferential of vector field is NOT a tensorial field
+		- Note: Conditionally for be tensor field also applies in it's differential (obviously)

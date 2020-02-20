@@ -1,0 +1,11 @@
+TITLE: Matrix Algebra II.
+	- Pre-Requisitive: Matrix Algebra I.
+	- Co-Requisitive: None.
+
+
+
+MATRIX ONLY:
+TODO: Decomposição de matrizes: (LU, QR, Shur, Cholesky, singular).
+TODO: Falar de mudança de base das coordenadas de vetores em transformações lineares (or not...)
+TODO: Diagonization. Orthogonalization. Symmetrization. Separation into symmetric and anti-symmetric parts.
+TODO: Matrix in C. Hermitian Matrixes. Self

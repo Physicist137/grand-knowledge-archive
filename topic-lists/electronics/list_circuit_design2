@@ -1,0 +1,32 @@
+TITLE: Circuit Design 02: RLC Circuit Design.
+	- Pre-requisitive: Design 01, Circuits 03.
+	- Co-requisitive: None
+
+
+TODO: Passive filters: RC, RL, LC, RLC.
+TODO: High pass, Low pass, Band pass, Band stop.
+TODO: First, Second, Third, Nth order filtersd.
+
+TODO: Network Filters. https://en.wikipedia.org/wiki/Network_synthesis_filters
+TODO: Butterworth filter. https://en.wikipedia.org/wiki/Butterworth_filter
+TODO: Chebyshev filter. https://en.wikipedia.org/wiki/Chebyshev_filter
+TODO: Elliptic (Cauter) Filter. https://en.wikipedia.org/wiki/Elliptic_filter
+TODO: Gaussian Filter
+TODO: Optimum Legendre Filter
+TODO: Linkwitz-Riley Filter
+
+TODO: Image Impedance Filter. https://en.wikipedia.org/wiki/Composite_image_filter
+TODO: k-filter. m-filter. Etc.
+
+
+
+TODO: Using ressonance and thevenin to increase voltage (just an idea) (do all necessary calculations).
+
+
+MAYBE THIS IS POWER ELECTRONICS:
+	TODO: Passive integrators, differentiators (Using capacitors)
+	TODO: Magnetic mixers... etc.
+	TODO: Laplace transform. Transfer functions (that will require calc 01 and complex 01 (to do this?))
+
+
+WARNING: No op-amps allowed. Op-amped circuits shall go to Analog Electronics.

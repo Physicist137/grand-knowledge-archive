@@ -1,0 +1,64 @@
+Title: Real Analysis
+	- Pre-requisitive: Calculus (until end of integration)
+	- Co-requisitive: Calculus (from end of integration)
+
+Field axioms and implications
+	- What is analysis
+	- Natural Number system
+	- Integer number system
+	- Rational number system
+	- Real number system
+		- Def: sqrt2 is number whose square is 2
+		- Inability to express sqrt2
+		- Why should it exist?
+	- Estrutura algebrica
+	- Field axioms
+		- A1) For any a, b, there's a + b and a + b = b + a
+		- A2) (a + b) + c = a + (b + c)
+		- A3) Unique neutral element
+		- A4) Unique associated opposite element
+		- M1) Comutatividade
+		- M2) Associatividade
+		- M3) Unique neutral element
+		- M4) Unique associated opposite element
+		- AM1) (a + b)c = ac + bc
+	- Estrutura ordenada
+		- O1) a = b  or  a < b  or  a > b is true
+		- O2) a < b and b < c ==> a < c
+		- O3) a < b ==> a + c < b + c
+		- O4) a < b and c > 0 ==> ac < bc
+	- Exercises
+		- Prove que: ad + bc < ac + bd se a < b and c < d
+		- Prove que n² >= n para todo n natural
+		- Prove the arithmetic-geometric mean inequality: sqrt(ab) <= (a+b)/2, for a,b>0 real.
+	- Cotas de subconjuntos reais
+		- Def: Cota inferior e superior (upper bound/lower bound)
+		- Def: Maximos e minimos
+		- Def: Supremum e infimos (least uppter bound/greatest lower bound)
+		- Example: set [0, 1] and (0, 1)
+		- Axioma da completude
+	- Theorem: Propriedade de arquimedes: N nao tem cota superior
+		- Corolary: Given any real x, there's natural n such that n > x
+		- Corolary: Given any real positive x, y, there's natural n such that nx > y 
+			- no matter how x is small or y is large
+		- Corolary: Given any real positive x
+		- Is core calculus assumption correct?
+			- There's infinitesimal number dx "just next to zero"?
+	- Estrutura métrica em R
+		- def: Valor absoluto (modulo)
+		- Propriedades modulares
+	- Rational Density
+		- Def: Dense set over R
+		- Theorem: Rational set is dense over R
+			- Application: Working with rationals (easier)
+
+Sequencias
+	- Formal Definition
+	- Examples
+		- Arithmetic Progression (recursive, explicit and list form)
+		- Geometric Progression
+	- Limits of sequence intuition
+		- Newton formula
+		- Approximating sqrt2
+		- Quote: Is there a way to have infinite precision in sqrt2 ?
+		- Formal statement for infinition precision

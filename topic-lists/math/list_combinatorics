@@ -1,0 +1,62 @@
+Title: Naive Combinatorics
+	- Requirements: None
+	- Co-Requisitives: None
+
+Using Notation
+	- Somatório
+		- Property: aS = Sa
+		- Property: Sa + Sb = S(a+b)
+		- Property: SjSiaij = SiSjaij
+		- Property: S(an - a(n-1))
+	- Produtorio
+		- Property: aP = Pa
+		- Property: Pa * Pb = P(ab)
+		- Property: PjPi aij = PiPj aij
+
+Função Fatorial
+	- Definition
+	- Forma analitica
+	- Forma recursiva
+	- Equações fatoriais
+
+Tree Analysis
+	- Def: Árvore
+	- Displaying all possible stuffs in trees
+	- Property: Ramos se dividem igualmente
+	- Contagem dos ramos
+		- Ramos principais
+		- Ramos secundarios
+	- Contagem das folhas
+	- Principio fundamental da contagem
+		- Intuition
+		- Enunciado formal
+
+Contagem de eventos
+	- Problemas com repetição
+	- Problemas sem repetição
+	- Problemas com preferencia
+	- Problem: Mistura de receita.
+	- Desprezo de ordem
+		- Calculo de contagem
+		- Problem: Anagramas
+	- Agrupamentos matematicos
+		- Def: Arranjo
+		- Calc: Arranjo
+		- Def: Permutação
+		- Calc: Permutação
+		- Def: Combinação
+		- Calc: Combinação
+
+Numeros binomiais
+	- Formal definition
+	- Def: Numerador e denominador binomial
+	- Theorem: (n p) = (n n-p)
+	- Def: Binomial complementar
+	- Stifel Theorem: (n p) + (n p+1) = (n+1 p+1)
+	- Triangulo de pascal
+	- Somatorios binomiais
+		- Theorem: Soma da enésima linha
+		- Theorem: Soma de coluna
+		- Theorem: Soma da diagonal
+	- Binomial Theorem: Produtos notaveis
+

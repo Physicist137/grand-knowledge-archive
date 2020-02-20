@@ -1,0 +1,220 @@
+TITLE: Quantum Mechanics 04: System of two quantum particles. Scattering State.
+	- Pre-requisitives: Quantum Mechanics 03.
+	- Co-requisitives: Relativity 01
+	- Note: Analogo a Mecanica Classica 02.
+
+
+Recalling Scattering
+	- Classical Scattering Parameters.
+		- Def: Scattering Center.
+		- Def: Impact parameter.
+		- Def: Scattering Angle.
+	- Classical Scattering
+		- Proportionally between beam dsigma and scattering diff solid angle.
+		- Def: Differential Scattering Cross-Section.
+		- Calc: Differential cross section in terms of impact parameter and scattering angle.
+		- Def: Total Cross Section
+	- Scattering of a beam
+		- Intensity/Luminosity: Number of incident particles per unit area per unit time.
+		- Calc: The number of particles dN entering an area dsigma.
+		- Calc: The number of particles dN scattering into solid angle dSigma.
+		- Calc: The differential cross section in function of the intensity.
+		- Note: Interpretation of the differential cross section in a scattered beam
+	- Example: Hard Sphere Scattering
+		- Calc: Impact Parameter
+		- Calc: Differential Cross Section
+		- Calc: Total Cross Section.
+		- Note: Exactly what we expect.
+	- Example: Rutheford Scattering (Optional)
+		- Recall: Excentricity of hyperbolic the orbit (depending on impact parameter)
+		- Calc: Impact Paramater depending on orbital angle
+		- Calc: Impact Parameter depending on scattering angle
+		- Calc: Differential Cross Section.
+		- Calc: Total Cross Section
+		- Note: One cannot "escape" coulombic potential.
+	- Quantum Scattering
+		- Incident Planar Wave
+		- Scattered Spherical Wave.
+		- Def: Scattering Amplitude
+		- Calc: Probability dP of indicident particle travelling at speed v, thru dsigma in time dt.
+		- Calc: Probability dP of scattered particle into solid angle dSigma.
+		- Calc: Differential Cross Section.
+		- Note: Relation between the differential cross section and scattering amplitude
+		- Note: THis scattering approximation is only valid far from the scattering center (Question: why?)
+		- Note: This scattering approximation is only valid for central potentials (Question: why?)
+
+
+
+Partial Wave Analysis
+	- Scattering Regions
+		- Recall: Schrodinger Equation in Spherical Coordinates.
+		- Def: Scattering Region.
+		- Def: Intermediate Region. (centrifugal term not negligible).
+		- Def: Radiation zone. (kr >> 1).
+		- Def: Interior/Exterior region. (Exterior: Radiation zone + intermediate region).
+	- Solution in the radiation zone
+		- Solving radial TISE for the radiation zone.
+		- Note: Incoming spherical wave must not exist (coeficient zero).
+		- Calc: The radial wavefunction
+		- Note: This approuch shows more rigorously the hypothesis of quantum scattering stated previously!
+	- Solution in the Intermediate Region
+		- Calc: Solution in the intermediate region (spherical bessel/neumann functions).
+		- Calc: Linear combination in an attempt analogy to complex exponentials (spherical hankel functions).
+			- Note: spherical hankel functions of first kind (in terms of x): Wave to the left.
+			- Note: spherical hankel functions of second kind (in terms of x): Wave to the right.
+			- Note: Excluding incoming radial wave ==> Coeficients of hankel functions second kind is zero.
+		- The wavefunction in the intermediate region (infinite sum l,m) over radial wavefunction and spherical harmonics
+		- Spherical Symmetry
+			- Note: Spherical symmetry ==> Independence on phi ==> m=0 (if m!=0, there won't be spherical symmetry).
+			- Calc: Spherical Harmonics for m=0.
+			- Note: There only appears Legendre Polynomials.
+		- Calc: Assymptoptics of the Hankel Functions as kr >> 1. Substitution in the wavefunction.
+		- Note: The wavefunction is precisily in the form specified for quantum scattering.
+		- Calc: The scattering amplitude
+		- Def: Partial Wave amplitudes
+		- Calc: The scattering amplitude in terms of the partial wave amplitudes
+		- Calc: The differential cross section in terms of the partial wave amplitudes
+		- Calc: The total cross-section in terms of the partial wave amplitudes
+	- Connecting with the potential
+		- Note: e^{ikz} satisfies TISE for V=0.
+		- Note: For V=0, general solution in spherical coordinates (a summation).
+		- Note: we need to write e^{ikz} terms in spherical coordinates.
+		- Calc: e^{ikz} in terms of spherical waves (Rayleigh formula).
+		- Calc: The wavefunction in the exterior region entirely in spherical coordinates
+		- Note: Dependence on spherical bessel functions and spherical hankel functions of first kind.
+		- Note: Sherical harmonics contribute only with legendre polynomials.
+		- Note: To connect to potential, now all we need, is solve for the interior region (scattering region).
+	- Partial Wave Phase Shifts
+		- TODO: Exploring conservation of angular momentum and conservation of probability.
+	- Example: Quantum Hard Sphere Scattering
+		- Quantum Hard Sphere: Infinite Spherical Well Potential of radius a, where potential inside is infinite.
+		- Recall: The general solution we found earlier.
+		- Calc: Boundary conditions
+		- Calc: The partial wave amplitudes.
+		- Calc: The total cross section. Note: Not very iluminating, isn't it?
+		- Assume: Approximation: ka << 1 (wavelength of the waves is far larger than spherical well radius).
+		- Calc: Total cross section using assymptotic approximations of spherical bessel and hankel functions.
+		- Calc: As ka<<1, neglect higher power terms in the series.
+		- Note: Cross section is 4 times the expected in classical scattering.
+		- Note: Cross section is precisily the surface area of the sphere.
+		- Note: This happened due to approximation of ka << 1 (long wavelength apprx).
+		- Note: The longwavelength waves interact with whole sphere surface.
+
+
+
+Born Approximation
+	- Integral form of Schrodinger Equation
+		- Calc: Re-writing TISE as to appear inhomogeneous Helmholtz Equation
+		- Note: The inhomogeneous factor depends on the wavefunction itself.
+		- Calc: Green's Function. Delta function as inhomogeneous solution.
+		- Calc: Solution of TISE using Green's function (trivial integral).
+		- Note: THis is indeed the solution (make substitution into the diff equation).
+		- Note: Objective: We need to calculate this green's function.
+	- Green's Function
+		- Calc: Green's Function as a fourier transform of some other function g
+		- Calc: Substituting into the delta equation (that green's function satisfies).
+		- Calc: The fourier integrand g, of green's function.
+		- Calc: The Green's Function as an integral.
+		- Calc: Solving the polar and azimuthal integrals.
+		- Calc: The radial integral.
+		- Calc: Writing the sin as complex exponentials.
+		- Calc: Cauchy Integral Formula. Evaluating the two integrals.
+		- Calc: The gren's function.
+		- Note: One can add green's function with any solution to homogeneous helmholtz equation.
+	- Integral form of Schrodinger Equation
+		- Calc: Using the green's function as the solution
+		- Calc: Integral form of Schridinger Equation
+		- Note: Its completely equivalent to TISE.
+		- Note: it is NOT a solution to TISE. Question: Why?
+		- Note: Psi_0 satisfies free particle equation (Helmholtz Equation).
+	- The Scattering Problem
+		- Assumption: Localized potential around the scattering center (r0=0). (that is, far from it, V drops to zero).
+		- Assumption: We want to calculate the wavefunctions far away from scattering center.
+		- Calc: Writing |r-r0| with this approximations in mind.
+		- Calc: Rewriting integral form of TISE
+		- Calc: The scattering amplitude
+		- Note: So far no approximation was made, besides scattering approximations.
+	- The Born Approximation.
+		- Assumption: Approximate: Weak Potential Approximation.
+		- Then: Wavefunction is approximately free particle.
+		- Calc: Insertion of Born Approximation into the scattering amplitude
+		- Note: The term in the exponential indicates momentum transfer in the process.
+		- Calc: Approximate for low energy (loong wavelength) scattering (exponential term is cte).
+		- Calc: Born approximated scattering amplitude for any-Energy spherical potential
+	- The Born Approximation (Weak Energy) Scattering Amplitude
+		- General Amplitude (Any potential, any energy).
+		- Low Energy Scattering Amplitude.
+		- Central potential scattering amplitude.
+	- Example: Low Energy Quantum Soft Sphere Scattering
+		- Quantum Soft Sphere: Finite spherical well potential of radius a, where potential inside is greater than outside.
+		- Assume: Low energy particles (long wavelength approximation).
+		- Calc: The low energy born approximated scattering amplitude
+		- Calc: The differential cross section
+		- Calc: The total cross section.
+		- Note: Differential Cross section is independent of the azimuthal angle.
+	- Example: Quantum Soft Scattering
+		- Calc: Scattering Amplitude
+		- Calc: Differential Cross Section
+		- Calc: Total Cross section.
+		- Note: Low energy limit goes to the previous calculated low energy scattering amplitude.
+	- Example: Yukawa Scattering
+		- Calc: Scattering Amplitude
+		- Calc: Differential Cross Section
+		- Calc: Total Cross section.
+	- Example: Rutheford Scattering
+		- Note: We can calculate this from previous Yukawa Scattering.
+		- Calc: Scattering Amplitude
+		- Calc: Differential Cross Section
+		- Calc: Total Cross section.
+		- Note: Quantum Rutheford Scattering gives same result as classical scattering
+		- Note: Curious: QFT Rutheford scattering also gives same result as classical scattering.
+	- Born Series
+		- Recall: Born Approximation Formula.
+		- Calc: Picard Iterations.
+		- Calc: The general exact expression of TISE for arbitrary potential under scattering approximations.
+		- Note: This is named: Born Series.
+		- Calc: The general exact expression for the scattering amplitude
+			- Note: Zeroth order: No scattering happened.
+			- Note: First order: The Born Formula.
+			- Note: Second order: There has been "two" quicks.
+		- Example: Calc: Second order correction for low energy soft-sphere scattering.
+
+
+
+
+TODO: Quantum Scattering. Cross Sections, etc.
+TODO: Quantum Hard-Sphere scattering.
+TODO: Quantum Harmonic Scattering.
+TODO: Quantum Coulombic Scattering.
+
+TODO: Quantum Inverse scattering problem.
+
+TODO: In analogy to classical mechanics: scattering.
+TODO: Two-Identical Particles. Collisions.
+
+
+
+PERHAPS TO MAKE A FULL LIST ONLY WITH EM FIELDS AND QUANTUM PARTICLES.
+TODO: Particle in electromagnetic Field. (Maybe even using dirac equation).
+TODO: Dipole radiation.
+TODO: Acceleration of electrons. Emission of radiation by acceleration.
+TODO: Nucleous-Electron Scattering. (Quantum plasma!). Released radiation. https://en.wikipedia.org/wiki/Bremsstrahlung
+TODO: Electron beam exciting hydrogen atom. Excitation of states. (spark into hydrogen gas!).
+
+
+IS IT POSSIBLE WITH PHOTNOS? (PROBABLY VERY LIKELY NOT).
+TODO: Electron-Photon Scattering. Solve everything. Wavefunction and etc. Later to note: Its comptom scattering. Derive comptom formula. (This seems probably impossible).
+TODO: Photon-Nucleous Scattering.
+
+
+
+TODO: OTher Things
+	- The nice double slit experiment.
+
+TODO: At the end, give a light to the postulates of quantum mechanics, and how could one fully mathly formalize it.
+
+
+http://chem.libretexts.org/Textbook_Maps/Physical_and_Theoretical_Chemistry_Textbook_Maps/Map%3A_Physical_Chemistry_(McQuarrie_and_Simon)/05._The_Harmonic_Oscillator_and_the_Rigid_Rotator%3A_Two_Spectroscopic_Models/5.9%3A_The_Rigid_Rotator_is_a_Model_for_a_Rotating_Diatomic_Molecule
+
+
+http://chem.libretexts.org/Textbook_Maps/Physical_and_Theoretical_Chemistry_Textbook_Maps/Map%3A_Physical_Chemistry_(McQuarrie_and_Simon)

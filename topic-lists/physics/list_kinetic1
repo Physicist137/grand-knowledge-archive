@@ -1,0 +1,185 @@
+TITLE: Kinetic Theory 01:
+	- Pre-requisitive: Probability 00, Fisica 02.
+	- Co-requisitive: Thermodynamics 02, Continuum 00.
+	- Recommended: Fluid Dynamics 01.
+
+
+A gas System: Many many particles
+	- Solving newton law for every particle
+		- Too much particles. Order of mol.
+		- Too much information. All needlessly.
+	- Sensitivity with initial conditions
+		- Exponential deviation of solutions
+		- Chaos.
+	- Example: Jogo de sinuca
+		- Calc: Deflection due to gravitational field of person of ball
+		- Calc: Angular deflection before first collision.
+		- Calc: Angular deflection in the first collision.
+		- Calc: Angular deflection in the second collision.
+		- Calc: Angular deflection in the nth collision.
+		- Calc: Number of collisions to form appreciable deflection
+	- Extension: Sensitivity of a gas
+		- Calc: Deflection due to very small additional force/pertubation
+		- Calc: Angular deflection in the nth collision.
+		- Calc: Number of collisions to form appreciable deflection
+		- Note: Also: Gas particles move faast (as we will see).
+		- Note: Also: TOO many collisions: ~10^9 collisions/second.
+	- Total energy and internal energy
+		- Def: Total energy of the gas. Sum of all kinetic.
+		- Calc: Expectation value of total energy. N * average kinetic of one particle.
+		- Def: Mean Internal Energy of the gas: N * average kinetic of one particle.
+	- Energy Flutuations
+		- Calc: Mean square energy flutuation
+		- Calc: Mean square energy flutuation as compared to internal energy
+		- Note: Error is proportional to inverse of square root of N
+		- Proof: <v^4>  >=  <v^2>^2
+	- TODO: Probability of finding N particles in a volume V.-
+	- TODO: Particle number flutuation.
+	- Pressure in a container
+		- Def: Probability distribution of velocity in a gas
+		- Calc: Conservation of momentum: A particle hitting the wall.
+		- Note: Velocity gets its opposite value normal to container wall.
+		- Calc: Number of particles that actually hits the wall
+		- Calc and def: Differential particle flux.
+		- Calc: Total linear momentum transfered to the wall.
+		- Recall: Pressure definition
+		- Calc: Total Pressure in the wall (th integrals)
+		- Calc: Total pressure in function of mean velocity_x squared
+	- Pressure in isotropic distribution
+		- Isotropic distribution condition: No preferential direction
+		- Calc: Pressure in function of mean velocity squared.
+		- Calc: Pressure in function of internal energy.
+	- Estimative of mean velocity squared
+		- Recall: Calculation of speed of sound
+		- Calc: Speed of sound in isotropic gas
+			- Calc: Enthalpy of isotropic gas
+			- Calc: Heat capacity at constant pressure
+			- Calc: Heat capacity at constant volume
+			- Calc: Adiabatic constant
+			- Calc: Speed of sound
+		- Note: Speed of sound proportional to root mean square of velocity.
+	- TODO: Dalton law. Partial Pressures.
+
+
+
+Classical Isotropic Ideal Gas in Equilibrium
+	- Conditions for ideal gas
+		- Particles do not interact (except ballistically).
+		- Particles are point mass
+		- Particles are classical (no quantumness).
+		- Particles are non-relativistic
+	- Maxwell Distribution of velocities for isotropic ideal classical gas.
+		- Def: Isotropic ideal classical gas.
+		- Assumption: Mirror symmetry: Argument dependend on square of each velocity xyz.
+		- Assumption: Velocity xyz are independent random variables.
+		- The distribution function
+			- Uniqueness of functions g(v^2) = g(vx^2 + vy^2 + v^2) = h(vx)^2 h(vy^2) h(vz^2)
+			- Relationship between g and h.
+			- The form of the distribution function
+		- Finding the constants
+			- Integration over all velocities is 1. (Its a probability after all!).
+			- Some velocity in function of the second parameter
+			- Def: Thermal Velocity
+		- Maxwell Distribution of velocity
+			- Calc: Expected value of the velocity. Note: its zero.
+			- Calc: Second moment of the velocity distribution
+			- Calc: n-moment of the velocity distribution
+			- Calc: Standard deviation of the velocity.
+			- Calc: Maxwell distribution of momentum
+	- Equation of State
+		- Pressure of a maxwell-distributed gas (in function of thermal velocity).
+		- Recall: Equation of state of ideal gas (the one with the temperature).
+		- Calc: Relationship of thermal velocity and temperature
+		- Note: Temperature is proportional to the "kinetic energy" with thermal velocity.
+		- Calc: Thermal velocity in function of temperature.
+		- Calc: Maxwell Velocity distribution with the temperature
+	- Other thermodynamical quantities
+		- Calc: Internal energy in function of temperature
+		- Calc: Enthalpy in function of temperature
+		- Calc: Heat capacity at constant volume
+		- Calc: Heat capacity at constant pressure
+		- Calc: Adiabatic constant
+	- Maxwell distribution of speed
+		- Calc: Maxwell distribution of velocities into spherical coordinates
+		- Calc: Isotropy: Spherical distribution independs of azimuthal and polar velocities.
+		- Calc: Distribution of speeds (the polar and azimuthal integrations done).
+		- Calc: Maxwell Distribution of speed
+		- Note: Its a chi-distribution.
+		- Central tendency of speed
+			- Calc: Expected value of speed. (note: Non-Null!).
+			- Calc: Modal value of speed.
+			- Calc: Median value of speed.
+			- Comparisom with thermal velocity
+			- Comparisom with root quadratic mean velocity: sqrt(<v^2>).
+		- Speed deviation
+			- Calc: Second moment of speed.
+			- Calc: Variance of speed.
+			- Calc: Standard deviation of speed.
+	- Maxwell distribution of energy
+		- Calc: Maxwell distribution of energy
+		- Note: Its a chi-squared distribution
+		- Calc: Expected value of energy. Comparison with internal energy.
+		- Calc: Second moment of energy.
+		- Calc: Variance and standard deviation of energy
+	- Validity of the classical isotropic ideal gas
+		- Non-Relativistic Limit.
+			- Energy much smaller than relativistic total energy (rest energy).
+			- Calc: Temperature limit for the relativistic gas usage.
+		- Limit of no-quantum correlation
+			- Recall: Uncertaintiy principle.
+			- Note: Variation of momentum (m * thermal_velocity).
+			- Variation of position (in the uncertainty)
+				- Calc: Amount of particle per unit volume
+				- Calc: Volume space avaiable per unit particle.
+				- Calc: Approximate distance between particles.
+			- Application of uncertainty principle
+			- Quantum limit.
+				- The density requried for the quantum limit.
+				- Degeneration temperature.
+		- Validity of the model
+			- Temperature for relativistic limit.
+			- Densities and temeprature for quantum limit.
+		
+
+Effusion of isotropic ideal gas
+	- TODO: Effusion calculations
+	- TODO: Angular distribution. Speed distribution. Speed average. Rate of particles.
+	- TODO: Gas escaping thru hole of general size. Time-scale for gas-density to decrease. 
+	- TODO: Explosive decompression. Momentum gained (thrust). (Anotar SGA episode and time index =D).
+
+
+Collision and diffusion of isotropic ideal gas
+	- TODO: Collision rate. Free mean path. Attenuation of a beam (free mean path).
+	- TODO: Diffusion. Continuity equation. (free mean path, viscosity, PT-dependent).
+	- TODO: Brownian motion.
+	- TODO: To calc: Amount of time photon takes to travel from sun's interior to exterior.
+
+
+
+
+TODO: https://en.wikipedia.org/wiki/Senftleben%E2%80%93Beenakker_effect
+TODO? https://en.wikipedia.org/wiki/Thermal_Hall_effect
+
+----------------
+TODO: Relativistic Ideal gas. Ultra-relativistic limit.
+TODO: Distribution of velocity v. Distribution of speed |v|. Distribution of lorentz factor gamma.
+TODO: Non-relativistic limit from relativistic ideal gas. https://en.wikipedia.org/wiki/Maxwell%E2%80%93J%C3%BCttner_distribution
+----------------
+
+TODO: Gás de Fótons
+TODO: Gases under potential. (First: bare z-gravity. Then.. general potential).
+TODO: Maxwell distribution (without boltzmann).
+TODO: Transport Equations.
+TODO: Interpretation of: Viscosity, Heat flow, Heat capacity, ...
+TODO: Maybe intr to boltzmann distribution.
+
+TODO: Several particles. Chemical potential. Equilibrium.
+
+
+
+
+
+DUVS OF A1:
+	- 1.10: The internal energy should be N * <E>. If 1.10 is true, would conflict 1.9 by same reason.
+	- 1.12: You are actually calculating the variance of the random variable E. The 2-moment of E is calculated wrongly...
+	- 3.2: Can it be done in cartesian coordinates? Results I've found wasn't good.

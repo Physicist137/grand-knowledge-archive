@@ -1,0 +1,26 @@
+TITLE: Continuum Mechanics 01: Continuum Theory.
+	- Pre-requisitives: Calculus 04, Fisica 02.
+	- Co-requisitives: 
+
+
+Formal Definitions
+	- The Material Body
+		- Def: Material Body. Abstract Compact measurable set (infinite size) of material elements.
+		- Def: Material particles/points. An element of the material body set.
+		- Restriction: There must exist an one-to-one correspondence between the material body and a subset of R3.
+	- Configuration of the material Body
+		- Def: Configuration: Mapping B --> E3, indicating position occupied by each element of B.
+		- Def: Reference configuration (say.. at time t=0).
+		- Def: Present configuration (at an time t).
+	- Motion of material body
+		- Mapping: E3 x R --> E3 from reference confifuration to prevent configuration.
+		- Domain: Image of the reference configuration mapping cartesian R (time coordinate).
+		- Image: Euclidean Espace E3.
+		- Note: Motion must be continuously differentiable in finite regions (or whole body) st motion is invertible.
+		- Note: Inverse garanteed by implicit Function Theorem.
+		- Drawing of the mappings and sets. Sets: Material Body, Reference Configuration, Present Configuration.
+	- Physical Intuition
+		- Inversion of such functions: Axiom of continuity.
+		- Consequence: Matter is indestructible: Finite volume cannot be deformed to zero/infinite volume.
+		- Consequence: Matter is impenetrable. One portion of matter cannot penetrate into other.
+		- Note: There exists physical phenomena where this axiom is violated: Cutting, Tearing, Propagation of Cracks, etc.

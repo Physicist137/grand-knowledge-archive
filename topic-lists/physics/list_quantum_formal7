@@ -1,0 +1,44 @@
+TITLE: Formal Quantum Mechanics 07: Scattering Theory.
+	- Pre-requisitives: Formal QM 02.
+	- Co-requisitives: 
+
+
+TODO: Scattering by Green's Function. First Order. Second order.
+TODO: Scattering amplitude. Differential cross section. The total cross section. Interpretation.
+
+TODO: Born Approximation. That is: First order approximation.
+TODO: Scattering amplitude. Differential cross section. The total cross section. Interpretation.
+TODO: Eg.: Electron scattered by shielded atom. Then by unshielded atom.
+TODO: Eg.: Electron scattered by coulombic continuous uniform charge density. (3D-Fourier transform). Special case: Dirac delta.
+TODO: Eg.: Mapping the atom by scattering.
+
+
+TODO: Partial Wave analysis.
+TODO: Partial Wave decomposition for a central potential. Legendre Functions.
+TODO: Getting the radial equation. ASsymptoptic forms for large r. Spherical Bessel/Neumann.
+TODO: Rayleigh plane wave expansion. Coeficients.
+TODO: The Wavefunction in partial wave decomposition. 
+TODO: Interpretation: Decomposition into waves with definite angular momentum.
+TODO: The scattering amplitude by partial wave decompositon. Scattering phase shift.
+TODO: Differential Cross Section by partial decomposition.
+TODO: Total Cross Section. Optical Theorem.
+TODO: Determination of the scattering phase shifts.
+
+TODO: Hard sphere scattering.
+TODO: Low energy scattering.
+TODO: Ressonance.
+
+HIGHLY RELEVANT LINKS:
+http://farside.ph.utexas.edu/teaching/qmech/Quantum/node131.html
+http://farside.ph.utexas.edu/teaching/qmech/Quantum/node132.html
+http://farside.ph.utexas.edu/teaching/qmech/Quantum/node133.html
+http://farside.ph.utexas.edu/teaching/qmech/Quantum/node134.html
+http://farside.ph.utexas.edu/teaching/qmech/Quantum/node135.html
+http://farside.ph.utexas.edu/teaching/qmech/Quantum/node136.html
+http://farside.ph.utexas.edu/teaching/qmech/Quantum/node137.html
+http://farside.ph.utexas.edu/teaching/qmech/Quantum/node138.html
+https://physics.stackexchange.com/questions/8132/phase-shifts-in-scattering-theory
+
+
+
+TODO: Spin scattering.

@@ -1,0 +1,114 @@
+TITLE: Fisica 02b: Introduction to: Fluids, Thermodynamics and Gases.
+	- Pre-requisitive: Fisica 01
+	- Co-requisitive: Calculus 03.
+
+
+Estática de Fluidos
+	- Forças Normais
+	- Forças Tangenciais (Forças de cisalhamento)
+	- Diferneça entre sólidos e liquidos
+		- Forças Tangenciais em sólidos
+		- Forças Tangenciais em liquidos
+		- Capacidade de fluir/escoar
+	- Densidade de um fluido
+		- Formal Definition
+		- Def: Infinitesimo Físico
+	- Forças em um fluido
+		- Fluido em equilibrio: 
+			- Força resultante em cada porção de fluido anula-se
+			- Nao pode haver forças tangenciais
+		- Forças volumétricas
+			- Formal Defintiion
+			- Forças proporcionais à porção de volume
+			- Examples: Gravidade, Forças Elétricas (fluido carregado), Forças centrifugas
+		- Forças Superficiais
+			- Forças interatomicas de curto alcance
+			- Proporcional á área de superficie
+			- Vetor unitario normal à superficie
+			- Formal Definition: Pressão em um ponto
+			- Pressão em interior de fluido nao depende do vetor normal (depende apenas da posição)
+	- Equilibrio de fluido num campo de forças
+		- Contribuição das forças superficiais
+		- Def: Densidade volumétrica de força
+		- Força de porção de fluido em função da densidade de força
+		- Theorem: Densidade de força volumétrica é gradiente de pressão
+		- Corolary: Variação de pressão com gravidade
+	- Aproximação de incompressibilidade em liquidos
+		- Data: 1atm --> 100atm de agua aumenta densidade em 0.5%.
+		- Apprx: Fluidos são imcompressíveis
+	- Densidade de energia potencial e pressão
+		- Restriction: Força volumétrica é conservativa
+		- Energia potencial da força conservativa, e densidade de energia potencial
+		- Theorem: Pressão é oposto densidade de energia potencial+cte
+		- Corolary: Superficies isobáricas são superficies equipotenciais
+		- Corolary: Superficie de um liquido no campo gravitacional é superficie equipotencial do mesmo
+			- Superficie esférica de oceanos
+			- Superficie de copo de agua
+		- Lei de Steven: Pressão de um fluido aumenta linearmente com profundidade
+	- Example: Liquido em recipiente em rotação
+		- Liquido se movimentará com o recipiente
+		- Ligação em um refernecial nao inercial que gira junto com liquido
+		- Campo de forças volumétrica no referencial não inercial (gravity + centrifuga)
+		- Aplication: Espelho parabólico de mercúrio
+	- Application: Prensa Hidraulica
+		- Pressão é a mesma em pontos de altura iguais
+		- "Multiplicador" de forças
+	- Application: Vasos comunicantes
+		- Liquidos de densidade diferentes
+		- Pontos de mesma pressão
+		- Razão das alturas é razão das densidades
+	- Application: Medição de pressão atmosférica
+		- Manometro de mercurio/agua/whatever
+		- Calc: Altura máxima da agua em manometro
+		- Calc: Altura maxima de mercurio
+		- Experiment: Medições de pressão atmosferica
+	- Principio de Arquimedes
+		- Corpo cilindrico submerso em fluido
+		- Diferneça de pressão entre pontos extremos do corpo cilindrico
+		- Força do liquido exercida sobre o corpo cilindrico
+		- Def: Força empuxo
+			- Formal Definition
+			- Peso de agua deslocada pelo corpo
+			- Def: Centro de empuxo
+		- Coroa de (ouro?) de Herão
+	- Equilibrio de corpos flutuantes
+		- Posição de equilibrio (E == P)
+		- Torque provocado por empuxo e peso
+		- Def: Metacentro
+		- Equilibrio estável e instável de um corpo flutuante
+	- Paradoxo hidrostático
+		- Força da água sobre parede de recipientes
+		- Mesma força para varios volumes de agua
+		- Balança disagrees....
+		- Explanation do paradoxo hidrostático
+	- Variação da pressão atmosférica com a altitude
+
+
+Dinamida de Fluidos
+	- Method 01: Descrever movimento de fluidos
+		- Idealizar fluido como varias particulas individuais
+		- Achar a equação da trajetória de todas elas
+		- bad method..
+	- Method 02:  Descrever movimento de fluidos
+		- Definir um campo de velocidades para descrever fluido
+		- Campo de velocidades v(r, t)
+		- Def: Linhas de corrente
+		- Nicer Method
+	- Escoamento estacionario
+		- Formal Definition
+		- Boa aproximação para escoamento de agua em baixas velocidades
+		- Linhas de corrente coincidem com trajetórias
+		- Linhas de corrente não podem se cruzar
+	- Equação da Continuidade em caso de escoamento estacionario
+		- Conservação da massa
+		- Corolary para fluidos incompressíveis
+		- Equação da continuidade
+		- Def: Vazão
+		- Curious: Equação da continuidade pode ser aplicada em transito de carros
+	- TODO: Equação da continuidade em escoamento não-estacionário
+
+
+
+
+TODO: Falar sobre relatividade ondulatoria e referencial preferencial. Calcular grandezas ondulatorias em outros referenciais.
+TODO: Optica geométrica

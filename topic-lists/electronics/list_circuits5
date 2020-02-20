@@ -1,0 +1,28 @@
+TITLE: Circuits 04: Non-Linear Circuits.
+	- Pre-requisitive: Circuits 03, Calculus 01.
+	- Co-requisitive: None
+
+
+TODO: Ficticious component D, st: i_D = a * exp(b*v_D); (note: has active and passive regions). 
+TODO: Model of a diode. Analysing circuits with diodes and resistors and sources.
+TODO: Diodes, resistors, capacitors, inductors. Example: Retification.
+
+
+-----------------
+TODO: Little bit of intr of basic semiconductor physics.
+
+TODO: Model of a diode
+TODO: Diode Cascade. Voltage multiplier.
+
+TODO: Model of a transistor
+TODO: Amplification using a transistor.
+
+
+TO CONSIDER: Remove this.
+	- This is not circuits. Its just electronic components.
+	- To perhaps make a new course for electronic components
+
+
+ELECTRONIC COMPONENTS:
+	- Solid State: Diode, Zener Diode, Transistor, FET, MOSFET, etc etc.
+	- Valve: Electronic Valve, Diode Valve, Triode, Pentrode, etc, etc.

@@ -1,0 +1,207 @@
+TITLE: Radiação Eletromagnética 01: Propagação livre
+	- Pre-requisitives: Electromagnetism 03.
+	- Co-requisitives: 
+
+
+Propagação de ondas eletromagnéticas monocromáticas planas em meio dielétrico
+	- Ondas planas monocromáticas
+		- Formal Definition
+		- Função de onda geral de onda plana
+		- Escrita em forma complexa
+		- Fase da onda plana
+		- Def: Vetor de propagação. Direção de propagação da onda
+	- Ondas eletromagnéticas em meio dielétrico não carregado
+		- Plug: Campo elétrico de onda monocromática plana
+		- Amplitudes vetoriais complexas do campo eletromagnético
+		- Derivadas com relação ao tempo
+		- Derivadas com relação ao espaço
+		- Simplificação: Operador de derivada parcial de tempo
+		- Simplificação: Operador gradiente
+	- Equações de Maxwell para onda eletromagnética plana monocromática em meio dielétrico não carregado
+		- Equações de Maxwell para esse caso
+		- Reescrita das equações de Maxwell com simplificação dos operadores diferenciais
+			- Note: Exponenciais periodicas cancelam-se
+		- Reescrita das equações de Maxwell para meios isotrópicos lineares
+		- Conclusion: Campos E e B são perpendiculares ao vetor de propagação ==> Onda transversal
+		- Conclusion: Campos E e B são perpendiculares entre si
+		- Conclusion: Vetores E, B, e vetor de propagação formam base vetorial ortogonal positivamente orientada
+		- Relação entre modulo do vetor de propagação com a frequencia angular
+		- Def: Relação de dispersão transversal
+			- Relação entre módulo do vetor de propagação com constantes conhecidas
+			- Note: Indice de refração
+		- Campo magnético em função de vetor unitario de propagação e campo elétrico
+			- Calc: Onda magnética em função da onda elétrica
+			- Note: Vacuo: Campo elétrico e c vezes maior que campo magnético
+	- Polarização de onda eletromagnética: Meio dielétrico não carregado
+		- Amplitudes vetoriais complexas de E,B como componentes complexos de vetores base reais
+		- Define: Um dos vetores unitarios da base como direção de propagação da onda EM
+		- Escolha conveniente dos angulos de fase da amplitude complexa do campo elétrico (ie, forma polar).
+		- Example: Oscilação do campo E na origem do sistema de coordenadas
+			- Special case: Oscilação em fase (angulo de fase é zero)
+			- Special case: Oscilação com fase tau/2
+			- Special case: Oscilação com fase tau/4
+		- Def: Polarização linear
+		- Def: Polarização elíptica à direita
+		- Def: Polarização elíptica à esquerda
+		- Def: Polarização circular
+		- Calc: Campo E da onda eletromagnética polarizada. (A parte real, ofc).
+		- Calc: Campo B de onda eletromagnética polarizada. (A parte real, ofc).
+		- Calc: Campo D da onda eletromagnética polarizada. (A parte real, ofc).
+		- Calc: Campo H de onda eletromagnética polarizada. (A parte real, ofc).
+	- TODO: Tratamento em eixo generico xyz
+		- TODO: Tratamento em eixo generico
+		- TODO: Rotação para eixo com elipse não rotacionada. Angulo de rotação.
+		- TODO: Parametros de Stokes
+	- TODO: Impedancia do meio. Naturally appearing from E, H comparisom.
+	- TODO: Impedancia do espaço livre. EH Fields.
+	- Densidade de energia da onda eletromagnética
+		- Calc: Densidade de energia eletromagnética em um ponto (r, t).
+			- Calc: Quadrado do campo E na onda eletromagnética polarizada.
+			- Calc: Quadrado do campo B na onda eletromagnética polarizada.
+			- Note: Contribuição elétrica com a densidade de energia
+			- Note: Contribuição magnética com a densidade de energia
+		- Densidade de energia média
+			- Calc: Densidade de energia média
+			- Note: Contribuição elétrica com a densidade de energia
+			- Note: Contribuição magnética com a densidade de energia
+			- Note: Contribuições elétricas e magnéticas iguais
+			- Calc: Densidade de energia em função do campo elétrico
+			- Calc: Densidade de energia em função do campo magnético
+	- Fluxo de energia da onda eletromagnética
+		- Calc: Fluxo de energia eletromagnética por unidade de area em ponto (r, t).
+			- Calc: Vetor de Poynting
+			- Note: Direção do vetor é a mesma da propagação da onda
+		- Calc: Fluxo de energia médio (Média do vetor de Poynting).
+		- Calc: Magnitude do fluxo de energia em função do campo elétrico
+		- Calc: Magnitude do fluxo de energia em função do campo magnético
+		- Calc: Vetor de Poynting em função da densidade de energia
+	- Relação entre fluxo e densidade de energia
+		- Expressão do vetor de poynting em função do vetor velocidade da onda
+			- Note: Expressão extremamente análoga ao vetor densidade de corrente
+			- Analogy: Densidade de "corrente de energia" com tal velocidade
+		- Dependencia temporal do vetor de Poynting (e da densidade de energia)
+			- Caso geral
+			- Special case: Onda circularmente polarizada
+			- Special case: Onda linearmente polarizada
+	- Média do quadrado da amplitude dos campos
+		- Assume: Dois campos escalares quaisquer, a, b.
+		- Calc: Média do produto da parte real de a com parte real de b
+		- Calc: Parte real de produto de conjugado complexo de a com b.
+		- Comparisom: First is 1/2 of second.
+		- Note: Média do quadrado do campo E. Média do quadrado do campo B.
+		- Note: Easier to calculate energy density.
+
+
+Propagação de ondas eletromagnéticas monocromáticas planas em meio condutor
+	- Ondas planas monocromáticas em meios condutores
+		- Assumption: Meio condutor não carregado isotropicamente linear sem distribuição de corrente
+		- Equações de Maxwell para esse meio
+		- Equações de Maxwell para uma onda plana monocromática nesse meio
+		- Manipulação para deixar parecido com expressão do caso não condutor
+		- Def: Constante dielétrica complexa
+		- Calc: Relação de dispersão transversal
+	- Def: Indice de refração complexo
+		- Note: Dispersão transversal ou frequencia angular devem ser numeros complexos
+		- Note: Se frequencia angular for numero complexo
+		- Thus: We chose: Dispersão transversal complexa
+		- Def: Constantes ópticas
+	- Numero de onda complexo (k).
+		- Calc: Parte imaginaria do numero de onda
+		- Calc: Parte real do numero de onda
+		- Assumption: Parte real e imaginaria do vetor de onda tem direção de propagação
+			- Note: Restrição
+			- OBS: Isso nem sempre é verdade
+		- Escrita do campo elétrico com o vetor de propagação complexo
+		- Substituição da dispersão transversal complexa
+		- Note: Termo de amortecimento/atenuação da onda eletromagnética no meio
+	- Profundidade de penetração
+		- Def: Constante de atenuação
+		- Def: Profundidade de atenuação
+		- Calc: Profundidade de atenuação completa
+		- Calc: Simplificação: Profundidade de atenuação (por na forma sqrt(1 + sqrt(1 + ...)).
+	- Velocidade da onda eletromagnética
+		- Calc: Velocidade em função do numero de onda
+		- Calc: Velocidade em função das grandezas eletromagnéticas do material
+	- Aproximação de bom condutor
+		- Calc: Parte imaginaria do numero de onda
+		- Calc: Parte real do nunmero de onda
+		- Calc: Profundidade de penetração para um bom condutor
+		- Calc: Velocidade de fase para um bom condutor
+		- Calc: Constantes ópticas para bom condutor
+		- Note: Maior frequencia ==> Maior atenuação. Maior velocidade de propagação.
+		- Note: Maior condutividade ==> Menor atenuação. Menor velocidade de propagaçao.
+		- Note: Altissima frequencia ==> Altissima atenuação. Example: Raios gamma
+			- Note: Needs tons and tons of chumbo para tentar talvez se defender um pouco.
+			- Question: What is happening?
+			- Validade da teoria eletromagnética: Photoelectric (~ultraviolet). Sodio: Yellow!!
+	- Aproximação de mal condutor
+		- Calc: Parte imaginaria do numero de onda
+		- Calc: Profundidade de penetração para um bom condutor
+		- Note: Impedancia do meio
+		- Calc: Parte real do numero de onda
+		- Calc: Velocidade de fase para um bom condutor
+		- Note: Correção do numero de onda e da velocidade de fase de dielétrico perfeito.
+		- Calc: Constantes ópticas
+	- Examplos: To calc: Velocidade de fase, profundidade de penetração, constantes ópticas.
+		- Ar. g ~ 1e-15.
+		- Agua ultra pura. g ~ 1e-6.
+		- Agua filtrada. g ~ 1e-3. Recebendo transmissões em aquario/piscina/etc.
+		- Agua do mar. g ~ 5. Comunicação com submarinos.
+		- Cobre. g ~ 1e7.
+	- Casos especiais das constantes ópticas
+		- Parte real muito menor que parte imaginaria ==> Material transparente
+		- Parte real muito maior que parte imaginaria ==> Material opaco
+		- Parte real comparavel com parte imaginaria
+		- Note: Essas propriedades dependem da frequencia da onda eletromagnética
+	- Relação entre as constantes ópticas, condutividade e constante dielétrica
+		- Calc: Constante dielétrica complexa (parte real e imaginaria) em função das constantes opiticas
+		- Calc: Constante dielétrica e condutividade em função das constantes ópticas
+		- Note: O interessante é saber justamente o inverso
+		- Calc: Constantes ópticas em função da constante dielétrica complexa
+		- Calc: Constantes ópticas em função da condutividade e constante dielétrica do material
+		- Special Case: Propagação em bom isolante em baixas frequencias (e.g. frequencia cc, ac 60Hz, ...)
+	- Calc: Profundidade de atenuação em função da condutividade e comprimento de onda
+		- Expressão analítica para profundidade de atenuação
+		- Aproximações da profundidade de atenuação para casos especiais
+			- Componente imaginaria da permissividade elétrica relativa muito menor que componente real. Parte real maior que zero.
+			- Componente imaginaria da permissividade elétrica relativa muito maior que componente real. Parte real menor que zero.
+			- Componente imaginaria da permissividade elétrica relativa muito maior que componente real.
+			- Case 2: Metais na parte superior do infravermelho.
+			- Case 3: Metais na frequencia de microondas ou menor.
+		- Note: Profundidade infinita (atenuação zero) em condutor para baixas frequencias
+			- Corrente continua: Campo elétrico e densidade de corrente uniformes
+			- Aproximadamente igual para corrente AC de 60Hz
+			- Note: Atenuação aumenta conforme frequencia aumenta
+		- Example: Atenuação de onda eletromagnética (de radio) no mar
+			- Condutividade da água do mar: 3e7 S/m.
+			- Calc: Profundidade de atenuação
+
+
+Propagação de ondas eletromagnéticas monocromáticas não-planas
+	- Onda plana
+		- Remember: Equação de onda eletromagnética
+		- Note: Cada componente do campo E satisfaz a eq de onda escalar
+		- Note: Valor do campo é o mesmo em um dado plano
+	- Onda Esférica em dielétrico
+		- Def: Valor do campo não varia em casca esferica
+		- Assume: Uma onda esférica. Note: Satisfaz equação de onda
+		- Laplaciano em coordenadas esféricas. Note: Dependencias polares/azimutais são nulas.
+		- Calc: Equação de onda esférica transformada em eq de onda 1D em função de r phi
+		- Calc: Função de onda esférica
+		- Note: Onda esférica decai de amplitude com a distancia
+	- Aproximação de onads planas para grande distancia
+		- Calc: Variação do valor de onda esférica em função da distancia
+		- Note: As r >> vt, onda esférica pode ser aproximada por plana
+		- Calc: Amplitude da onda plana aproximada para caso esférico
+	- TODO: Por onda esferica em meio condutor as well.
+	- TODO: Onda cilidnrica (really necessary?)
+
+
+
+
+
+TODO: Propagação de ondas esféricas.
+TODO: Poyting, Energia, Potencia
+TODO: Radiation pressure/stresses thru the dielectric.
+
+

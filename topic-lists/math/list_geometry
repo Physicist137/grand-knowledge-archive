@@ -1,0 +1,123 @@
+Title: Geometria Euclidiana Plana Básica
+	- Pre-requisitives: None
+	- Co-requisitives: None
+
+
+
+Definições Básicas
+	- Def: Retas
+	- Def: Semi-retas 
+	- Def: Segmento de retas 
+
+
+Ângulos
+	- Circunferencia intuition 
+	- Def: Angulo 
+	- Medida de um angulo 
+		- Rads 
+		- Graus 
+		- Grados 
+	- Ponto interior de um angulo 
+	- Setor Angular 
+	- Def: Angulo Agudo (< 90) 
+	- Def: Angulo reto ( =90) 
+	- Def: Angulo obtuso (> 90) 
+	- Bissetriz de um Angulo 
+	- Def: Retas paralelas entre si  
+	- Def: Retas perpendiculares entre si  
+	- Def: Retas tranversais entre si  
+	- Def: Retas concorrentes  
+	- Problema: Angulos entre retas paralelas cortadas por tranversal 
+
+Triângulos
+	- Definition 
+	- Def: Angulos internos 
+	- Def: Angulos externos 
+	- Classificação quanto ao lado 
+		- Def: Triangulo escaleno 
+		- Def: Triangulo isósceles 
+		- Def: triangulo equilátero 
+	- Classificação quanto aos angulos 
+		- Def: Triangulo retângulo 
+		- Def: Triangulo acutângulo 
+		- Def: Triangulo obtusângulo 
+	- Teorema: Soma dos angulos internos 
+	- Teorema: Medida de angulo externo 
+	- Teorema: Soma dos angulos externos 
+
+Quadriláteros
+	- Def: Quadrilatero  
+	- Def: Quadriatero convexo  
+	- Def: Quadrilatero concavo  
+ 	- Trapezio: isosceles, escaleno, retangulo
+ 	- Paralelogramo: Losango, Retangulo, Quadrado
+
+Angulos na Circunferencia
+	- Def: Circunferencia 
+	- Def: Circulo 
+	- Elementos de Circunferencia 
+		- Def: Raio 
+		- Def: Diametro 
+		- Def: Corda 
+		- Def: Arco 
+		- Def: Semi-circunferencia 
+	- Posição relativa ponto-circunferencia
+		- Ponto interno  
+		- Ponto externo  
+		- Ponto pertencente  
+	- Posição relativa reta-circunferencia
+		- Reta Externa
+		- Reta tangente
+		- Reta secante
+		- Teorema: Reta de tangencia é perpendicular ao raio
+	- Angulo Central
+	- Angulo inscrito
+		- Teorema: Medida do angulo inscrito é metade do seu arco
+		- Triangulo retangulo
+	- Angulo de vertice interno
+	- Angulo de vertice externo
+
+Triangulos Semelhantes
+	- Definition: Dois angulos iguais
+	- Teorema Fundamental de Semelhança
+	- Teorema de Tales
+	- Teorema da Bissetriz Interna
+	- Teorema: Triangulos semelhantes ==> Lados proporcionais
+	- Teorema: Dois lados proporcionais, angulo entre eles iguais ==> Triangulo semelhante
+	- Teorema: Lados proporcionais ==> Triangulos semelhantes
+	- Nota: Lados proporcionais <==> Triangulos semelhantes
+
+Relações Métricas no Triangulo Retângulo
+	- Def: Cateto, hipotenusa
+	- Teorema dos triangulos retângulos semelhantes
+	- Teorema: Quadrado do cateto é produto de sua projeção e hipotenusa
+	- Teorema: Quadrado da altura da hipotenusa é produto das projeções dos catetos
+	- Teorema: Produto dos catetos é produto da hipotenusa e altura relativa a ela
+	- THE THEOREM: Teorema de Pitágoras: Soma dos quadrados do cateto é quadrado da hipotenusa
+	- Teorema: Soma dos quadrados do cateto é quadrado da hipotenusa <==> Triangulo Retangulo
+	- Quote: Is there a way to relate the angle with it's side?
+
+Relações Trigonométricas do Triangulo
+	- Relações no triangulo retângulo
+		- Seno: Cateto oposto e hipotenusa
+		- Cosseno: Cateto adjacente e hipotenusa
+		- Tangente: Relação entre os catetos
+		- How calculate sin and cos and tg
+			- Experimental method
+			- Valores tabelados
+	- Lei dos senos
+	- Lei dos cossenos
+	
+Calculo de Áreas
+	- Intuition
+	- Def: Área de um retangulo
+	- Calc: Área de um triangulo retângulo
+	- Calc: Área de triangulo qualquer
+	- Calc: Área do trapézio
+	- Calc: Área de paralelogramo
+	- Calc: Área de losango
+	- Calc: Área de uma circunferencia
+
+The end. Now you can learn: 
+	- Geometria Analitica
+	- Trigonometry

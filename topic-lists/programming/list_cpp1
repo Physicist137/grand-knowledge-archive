@@ -1,0 +1,76 @@
+TITLE: C++ Programming 01
+	- Pre-requisitives: C/C++ Basic Programming
+	- Co-Requisitives: None.
+
+
+C++ Extesions: References, Exceptions, namespaces, function overload, std::move, etc.
+Basic STL. Teaching reading references.
+	- TODO: Strings. Some functions involving strings, etc.
+	- TODO: Error flag in cin and cout. Allowance of while(cin>>x)
+	- TODO: Vectors. Size, size_type, Search, push, pop, emplace, etc. Vector iterators.
+	- TODO: Stream. Stringstream. Manipulators: <iomanip>, setprecision, etc.
+	- TODO: Algorithm: <algorithm>. sort, max, etc.
+	- TODO: Pair.
+	- TODO: Files. fstream.
+
+
+Generic Functions
+	- TODO: Template functions.
+	- TODO: Using iterators. Implement find and some <algorithm> functions.
+	- TODO: Template specialization.
+
+
+Basic Classes
+	- TODO: User-Defined Types. Definition of class. Declaration of class.
+	- TODO: Protection labels: Private, public.
+	- TODO: Member Functions. Const member functions. Definition, declaration Generic ones.
+	- TODO: The keyword this.
+	- TODO: Constructor. Constructor initializer list. 
+	- TODO: Copy Constructor. 
+	- TODO: Destructor.
+	- TODO: Template classes.
+	- TODO: Operators: +, -, *, /, +=, etc.
+	- TODO: Conversion constructor. Explicit Keyword.
+	- TODO: Friend functions. Friend classes.
+
+
+Class Inheritance
+	- TODO: Inheritance of classes. Base/Parent and derived/child class.
+	- TODO: Protection: Public, protected, private keywords. Relation to inheritance.
+	- TODO: Dynamic Biding. Virtual Functions. Virtual destructors. Memory alocation.
+	- TODO: Abstract Base class.
+
+
+Basic Template
+STL. Manipulators, list, hash, map, ..., streams.
+Metaprogramming
+
+
+
+
+STL: String and Vector
+	- String library
+		- Declaration.
+		- push_back() function
+		- pop_back() function
+		- operator += function
+		- clear() function
+		- string::size_type
+	- Vector<> library
+		- Declaration. Type of the elements of vector.
+		- push_back() function
+		- pop_back() function
+		- clear() function
+		- size function
+		- vector<>::size_type
+		- typedef usage (optional)
+		- cpp reference internet page
+		- Exercise: Median-grade program (sort function)
+	- Stream Library (duv: To really insert this here?)I ca
+		- istream and cin
+		- ostream and cout
+		- stringstream
+		- TODO: Functions using stream (also: overloading of functions)
+		- TODO: Stream error buffer
+		- TODO: <<, >> operators.
+		- TODO: Function to read the grades

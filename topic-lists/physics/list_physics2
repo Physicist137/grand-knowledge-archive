@@ -1,0 +1,799 @@
+TITLE: Fisica 02 (Basic: Oscilações, Ondas, Hidrodinamica, Termodinamica, Som, Mecanica Estatistica)
+	- Pre-requisitive: Fisica 01
+	- Co-requisitive: Complex Algebra, Calculus 02b, Calculus 03.
+	- Average: 2min por topico
+
+TIRE ME DAQUI:
+	- http://dlmf.nist.gov/19.2
+	- http://en.wikipedia.org/wiki/Continuous_graph
+
+
+TODO: Perhaps to divide physics 2 between 3 files for greater precision on later on pre-requisitives:
+	1) Fisica 2: Oscilations and waves
+	2) Fisica 2: Thermodynamics, Fluids and Gases.
+	3) Fisica 2: Sound Waves. Light?.
+
+
+Oscilações Mecânicas
+	- Why "mechanical"?
+		- Oscilações de carater mecanico
+		- Oscilações eletromagnéticas
+	- Def: Vibrações localizadas (non-propagantes)
+		- Example: Sistema massa mola
+		- Example: Vibração do ar (sound wave)
+	- Gráfico de potencial U(x)
+		- Note: Grau de liberdade: 1
+		- Plotando grafico da força
+		- Identificando onde força igual a zero
+		- Identificando onde força é maxima/minima local
+		- Def: Equilibrio estável
+		- Def: Equilibrio instável
+		- Def: Equilibrio indiferente
+		- Identificação de locais com possivel oscilação
+			- Qualitative: Porque oscila
+			- Intuition: Montanha
+			- Def: Poço de potencial
+			- Tendencia do movimento (com dissipação)
+		- Identificação de locais com impossibilidade de oscilações
+			- Qualitative: Porque oscila
+			- Intuition: Montanha
+			- Tendencia do movimento (com dissipação)
+		- Analise da vizinhança no ponto de equilibrio estável
+			- Aproximação linear da força
+			- Aproximação parabólica do potencial
+			- Dominio de validade da lei de hookie
+		- Potencial molecular de Lennard-Jones
+			- Modelo molecular: 2 graus de liberdade
+			- Molecula -- mola -- molecula
+			- Fornecimento de energia ao sistema
+				- Amplitude de vibração
+				- Dissociação
+			- Calc: Distancia x de equilibrio estável
+		- Potencial atomico de Morse
+			- Modelo: 2 graus de liberdade
+				- Note: Satisfaz Schrodinger equations
+				- Note: Oscilações quânticas
+			- Átomo -- mola -- Átomo
+			- Fornecimento de energia ao sistema
+				- Amplitude de vibração
+				- Energia de Dissociação
+			- Calc: Distancia x de equilibrio estável
+	- Aproximação parabólica da curva de Lennard-Jones e de Morse
+		- Morse Potential: http://upload.wikimedia.org/wikipedia/commons/7/7a/Morse-potential.png
+		- Linearidade da força perto dos pontos de equilibrio
+		- Aproximação parabólica no ponto de equlibrio estável
+		- Comparisom: Modelo parabólico e curva de Lennard-Jones
+		- Calc: Constante k da força
+		- Calc: Diferença das áreas
+		- Calc: Percentagem de erro
+	- Oscilador Harmonico
+		- Linearização da força no ponto de equilibrio estavel
+		- Dominio de validade
+			- Eq. físicas tem dominio de validade
+			- Validade do OHS
+			- Explicar fenomeno fora do dominio could be fatal
+			- Ajustes não lineares para ampliar dominio de validade
+		- Note: Existe um ponto de equilibrio
+		- Intuition: em todos os pontos há oscilações
+		- Intuition: Com dissipação, t->inf, particula estará no ponto de equilibrio
+		- Objective: Tratamento dos casos mais simples de simples
+			- Oscilador Harmonico Simples (OHS)
+			- Mecanica Geral
+			- Avoiding Chaos
+		- What would be posição em função do tempo?
+
+
+Oscilador Harmonico Simples (not that simple as you can probably see.... (200 topics))
+	- Lei de Hookie
+		- Escrita
+		- Energia potencial da lei de Hookie
+	- Calc: Posição do objeto em função do tempo
+		- As expected: is periodic
+		- Parametros: Amplitude e angulo de fase
+	- Dominio de validade da Lei de Hookie
+	- Amplitude do OHS
+		- Máximos valores de x
+		- Máximos valores de x'
+		- Máximos valors de x''
+		- Máximo valor do momento linear
+	- Período de oscilação
+		- Calculation
+		- Interpretação de sqrt(k/m)
+		- Escrita da freq angular (w)
+		- Frequencia de oscilação ((f) or (v))
+	- Frequencia angular
+		- Analogia: Projeção x do Movimento circular
+			- Def: Vetor girante do OHS
+			- Velocidade Angular
+			- Angulo inicial (de fase)
+			- Interpretação de sqrt(k/m)
+			- Dimensão de sqrt(k/m)
+		- Freq escrita em função de F, x, m
+		- Interpretation: Força restauradora por unidade de massa e deslocamento
+		- Interpretation: What happens with higher/lower angular frequency?
+	- Quadraturas do OHS
+		- Formal Definition: Quadratura
+		- Proof: x e x' estão em quadratura
+		- Proof: x' e x'' estão em quadratura
+	- Equação Diferencial do oscilador harmonico simples (ODE do OHS =D)
+		- Escrita da ODE
+		- Solução por combinação linear de sin/cos(wt)
+		- Proof: Solução encontrada é solução geral
+		- Constantes de condição inicial: a, b
+		- Constantes de condição inicial: A, phi
+		- Relação entre a,b  e  A,phi
+			- Projeções do vetor inicial da analogia do MCU
+			- Amplitude em relação a a,b
+			- Amplitude representa raio da circunferencia
+				- Oscilações no eixo X e Y são equivalentes
+				- Solução com seno é solução geral da ODE
+			- Calculo do seno e cosseno do angulo de fase em função de a,b
+		- Constantes atreladas a condição inicial
+	- Problema de condição inicial da ODE
+		- Given x and x' initial (initial t)
+			- Calc: Amplitude
+			- Calc: Angulo de fase
+		- Analysis: Se x' = 0
+			- Valor da amplitude
+			- Valor do angulo de fase
+		- Analysis: Se x = 0
+		- Note: Relação eliptica
+	- Espaço de Fase do OHS
+		- Formal Definition
+			- Curva: Diagrama de fase (or phase plot)
+		- Condições iniciais tem relação eliptica
+		- Lugar geométrico do momento e posição
+		- Interpretation: Angulo de fase
+			- Angulo inicial no espaço de fase
+			- Also: Angulo inicial na analogia movimento circular
+			- Note: That's why is called phase angle
+		- Equações x e x' são parametrizações de elipses
+		- Equações x e mx' parametrizam elipses
+		- Movimentação dentro do espaço de fase
+		- Interpretation: Distancia dos eixos elipticos de x e x'
+			- Distancia do eixo X
+			- Distancia do eixo Y
+			- Formato do plot diz informações sobre w, A
+				- Elipses com x >> y
+				- Elipses com y >> x
+			- Caso especial: Circunferencia
+				- What means when plot seems like circunference?
+				- Relação w, A
+			- Área do plot
+		- Interpretation: Distancias dos eixos elipticos do espaço de fase
+			- Distancia do eixo X
+			- Distancia do eixo Y
+			- Formato do diagrama diz informações sobre w, A
+			- Formato do diagrama diz informações sobre w, A
+				- Elipses com x >> y
+				- Elipses com y >> x
+			- Caso especial: Circunferencia
+				- What means when diagrama de fase seems like circunference?
+				- Relação w, A
+			- Área do diagrama de fase
+		- Equivalencia de Interpretação entre x e x' e diagrama de fase
+			- Comparação quando x >> y or viceversa
+			- Comparação com caso se aproximando de circunferencia
+			- Comparação de áreas
+	- Energia do Oscilador harmonico simples
+		- Sistema isolado e conservativo
+			- Calc: Energia mecânica do OHS
+			- Calc: Energia cinética do OHS
+			- Calc: Energia potencial do OHS
+		- Energia em função do tempo
+	 		- Plot: Energia cinética em função do tempo
+	 		- Plot: Energia potencial em função do tempo
+	 	 	- Soma das energias é constante
+	 	- Energia em função da posição
+	 		- Plot: Energia potencial em função da posição
+	 		- Plot: Energia cinética em função da posição
+	 		- Soma das energias é constante
+	 		- Calc: Posição onde amplitude se reduz à metade
+	 	- Energia Potencial Média
+	 		- Calculation
+	 		- Relação com energia mecanica
+		- Energia Cinética Média
+	 		- Calculation
+	 		- Relação com energia mecanica
+	 		- Relação com energia potencial médica
+	 	- Relação energética do OHS
+	 	- Note: Proporção da área do diagrama de fase e energia mecanica
+	 	- Remember: Dominio de validade of ALL of this
+	- Example: Pendulo de Torção
+		- Equação diferencial do pendulo
+		- Periodo do pendulo de torção
+	- Example: Pendulo Simples
+		- Analise das forças
+			- Direção tangencial
+			- Direção normal
+		- Equação Diferencial do pendulo simples
+			- Note: Non-linear differential equation
+			- Aproximação para pequenos angulos
+			- Periodo para pequenos angulos
+		- Energia Potencial do Pendulo Simples
+			- Trabalho da força para mover o pendulo para angulo qualquer
+			- Calculo da energia potencial
+			- Ponto de equilibrio instável
+			- Ponto de equilibrio estável
+				- Visualização da aproximação parabolica para pequenos angulos
+				- Faixa de validade da aproximação para pequenos angulos
+				- Integração de erro da aproximação
+			- Analise: Onde há oscilação
+				- Diferentes fornecimentos de energia mecanica (E = CTE)
+				- Analise de oscilação
+		- Calc: Onde a tração é máxima
+		- Calc: Energia cinética do pendulo simples
+		- Periodo do pendulo simples
+			- Aproximação para pequenos angulos
+			- Resolvendo para qualquer angulo
+	- Example: Pendulo Físico
+		- Analise de forças
+		- Equação diferencia do pendulo físico
+		- Energia potencial do pendulo físico
+		- Example: Oscilando uma barra linear
+			- Momento de inercia da barra
+			- Periodo do pendulo
+			- Existe um minimo no periodo?
+			- What happens when braço de alavanca goes to zero?
+		- For small angles approximation
+			- Def: Centro de oscilação (same period of pendulo simples)
+			- Def: Raio de giração (same inertia moment of pendulo simples)
+			- Calculando momento de inercia de anything experimentalmente
+		- Centro de oscilação para qualquer angulo
+			- Se angulo constante, resultado anterior holds
+			- Se angulo não constantes, infinitos centros de oscilação
+			- Makes no sense
+			- Good for experimental approximation
+	- Example: Oscilador vertical imerso em campo gravitacional
+		- Method 01: Math method
+			- Verificar lei fundamental da dinamica
+			- Resolver equação diferencial
+		- Method 02: Physical Method
+			- Verificar ponto de equilibrio estável
+			- OHS em torno do ponto de equilibrio
+		- Curva de energia potencial
+		- Curva de energia cinética
+	- Example: Problema de dois corpos
+		- Dois corpos ligados por mola
+		- Note: Sistema de dois graus de liberdade
+		- Equação diferencial acoplada
+		- Redução a equação diferencial unica
+		- Periodo de oscilação
+		- Equação geral do movimento de cada particula
+		- Análise do espaço de fase
+	- Superposição de OHS
+		- Estudo da variação de amplitude e fase (frequencia angular constante)
+			- Soma vetorial de dois vetores girantes
+			- Equação do tipo OHS com amplitude e fase resultante
+			- Periodo de oscilação remains
+		- Estudo da variação de frequencia angular
+			- Simple example
+			- Superposição é periódica?
+				- Quando será periodica?
+				- Quando não será?
+			- Argumentation: Relação racional de periodicidade da superposição
+			- Equação da superposição (case phi = 0, cte amplitude)
+				- Frequencia angular média
+				- Diferença de frequencia angular
+			- Special case: Batimentos
+				- Função de contorno do batimento
+				- Amplitude variavel no tempo
+				- Calc: Frequencia do batimento
+		- Caso de superposição geral
+			- Possible curves: Circles, Ellpses, ...
+			- Def: Curvas de Lissajous
+			- Note: Se fase é pi/2 ==> x=cos, y=sin.
+			- Draw: Fase: pi/2, Ratio a/b = 1/2
+			- Draw: Fase: pi/2, Ratio a/b = 3/2
+			- Draw: Fase: pi/2, Ratio a/b = 3/4
+			- Draw: Fase: pi/2, Ratio a/b = 5/4
+	
+
+Amortecimento e Oscilações Amortecidas
+	- Equação diferencial
+		- Def: Força de resistencia do ar
+		- Def: Fator de amortecimento
+		- Escrita de equação diferencial complexa
+		- Solução geral da equação diferencial
+			- Note: Quando haverá oscilação?
+			- Note: Quando não haverá oscilação?
+		- Note: Fator de amortecimento é caracteristica aerodinamica e do meio
+	- 1 caso: Amortecimento subcritico
+		- Solução geral da equação
+			- Note: Solução oscilatória
+			- Solução por superposição de senos e cossenos
+			- Solução por amplitude e angulo de fase
+			- Check: Verificar what happens com amortecimento nulo
+		- Condições iniciais
+			- Given velocidade e posição inicial
+			- Interpretar a amplitude e constante de fase
+		- Verificação do espaço de fase
+			- Existencia de atratores (plot)
+			- Intuition: Posição do atrator do espaço de fase
+			- Calc: Posição do atrator do espaço de fase
+		- Análise Energética
+			- Calc: Potencia
+			- Energia Cinética
+			- Energia potencial
+			- Energia mecanica média
+				- Energia mecanica sendo dissipada
+				- Calc: Em função da energia inicial
+				- Potencia media em função de energia média
+			- Interpretação para fator de amortecimento
+				- Decrescimo relativo de energia media por unidade de tempo
+				- Def: Tempo de decaimento
+			- Plot: Real energy and average energy
+		- TODO: Fator de qualidade
+	- 2 caso: Amortecimento supercritico
+		- Solução geral da equação
+		- Condições iniciais
+		- Verificação do espaço de fase
+		- Relação das curvas com o fator de amortecimento
+		- Def: Tempo de decaimento
+		- Interpretação física da constante de tempo
+	- 3 caso: Amortecimento critico
+		- Solução geral da equação e condições iniciais
+		- Região criticamente amortecida
+			- Aproximação supercrítica para limite de amortecimento crítico
+			- Aproximação subcrítica para limite de amortecimento crítico
+		- Note: Volta ao equilibrio mais rapidamente
+	- Example: Mola de carro
+		- Amortecimento subcritico
+		- Amortecimento supercritico
+		- Amortecimento critico
+		- Qual regime você quer para as molas de seu carro?
+	- Intuição dos tipos de amortecimento
+		- Amortecimento subcritico: Meio praticamente não amortecido
+		- Amortecimento supercritico: Meio muito amortecido
+		- Amortecimento critico: Non-oscilating middle.
+
+
+Oscilações Forçadas Amortecidas
+	- Equação Diferencial Real
+	- Equação Diferencial complexa
+		- Propor solução Ce^(iwt)
+		- Solução particular da equação
+		- Encontrando constante C
+	- Solução Geral de oscilador forçado
+		- Def: Solução transiente
+		- Def: Solução estacionaria
+		- Interpretation: Excitação externa força sistema a vibrar na mesma frequencia que ela
+	- Amplitude na Solução estacionária
+		- Amplitude de oscilação
+		- Identificação de pontos de máximo ou mínimo
+		- Identificação de pontos de inflexão
+		- Fenomeno de ressonancia
+		- Def: Pico de ressonancia
+		- Plotage da amplitude
+	- Curva de ressonancia
+		- Formal Definition
+		- Calc: Valor de frequencia externa para amplitude máxima
+			- Def: Ressonancia de amplitude
+			- Calc: Ressonancia de amplitude em função de frequencia natural
+			- Calc: Ressonancia de amplitude em função de frequencia (damped, não externa).
+			- Def: Pico de ressonancia
+		- Calc: Valor de frequencia externa para energia cinética máxima
+			- Def: Ressonancia cinética
+			- Note: Igual à frequencia natural
+		- Aproximação na vizinhança do pico de ressonancia
+			- Achando amplitude de ressonancia
+			- Achando constante de fase da solução
+		- Semilargura de pico da ressonancia
+			- Formal Definition
+				- A(w)^2 interpretation (proporcional à energia)
+				- A(w) definition (proporcional à amplitude (obvio))
+			- Calc: Frequencias extremas da semilargura de pico
+			- Calc: Distancia da semilargura de pico de ressonancia
+			- Interpretation: Fator de amortecimento em oscilações forçadas
+		- Assimetricidade da curva de ressonancia
+			- Limites em infinito e em zero
+			- Formal proof de assimetricidade
+			- Inclinação no limite de baixas frequencias
+		- Fator de qualidade
+			- Calc: Ganho de amplitude na ressonancia no limite de baixas frequencias
+			- Relação com fator de qualidade
+			- Relação com a semi-largura do pico de ressonancia
+			- Relação com tempo de decaimento da oscilação livre
+	- Balanço de Energia
+		- Potencia do sistema
+			- Potencia média do sistema com calculo anterior
+			- Potencia média do sistema na solução estacionaria
+			- Interpretation: Energia dissipada sendo injetada por força externa
+		- Potencia média da força externa
+			- Calculation
+			- Achando ponto de potencia máxima
+			- Aproximação para vizinhança do pico de ressonancia
+		- Energia média armazenada pelo oscilador
+		- Fator de qualidade de oscilador forçado
+	- OBS: Equações forçadas não amortecidas
+		- Solução transiente não mais transiente
+		- Curva de ressonancia
+		- Curva da constante de fase
+		- Solução ressonante
+
+
+Oscilações acopladas
+	- Objective: Tratamento de Sistemas com 2 particulas e 3 molas
+	- Pendulos acoplados por mola, massas iguais
+		- Equações diferenciais acopladas
+		- Soma e diferneça das equações
+		- Introdução às coordenadas normais (q)
+		- Solução geral nas coordenadas normais
+			- Quando os A = 0.
+			- Def: Modos normais de vibração
+			- Note: 2 modos normais de vibração
+		- Solução Geral de movimento de cada massa
+			- Note: 4 constantes de integração
+			- Note: 2 graus de liberdade
+			- Analogo: n graus de liberdade ==> 2n constantes de integração
+			- Note: Superposição de oscilador harmonicos
+			- Is there a way to ocorrer batimentos?
+		- Condição inicial: Mover apenas uma das molas
+			- Solução geral da equação de movimento de cada massa
+			- Superpondo as soluções em produto de cossenos
+			- Note: Se k/m é pequeno, então ocorre batimentos
+			- Note: Posições das massas estão em quadratura
+			- Interpretation: Uma mola excita fazendo oscilação forçada na outra
+			- Transferencia de energia de uma massa para outra, pela mola
+	- Vibração longitudinal de molas
+		- Equações diferenciais acopladas
+		- Desacoplamento das equações diferenciais
+			- Coordenadas normais
+			- Modos normais de vibração
+			- Question: Quais os modos normais de sistemas com mais graus de liberdade?
+		- Solução geral de movimento de cada massa
+	- Vibração transversal de corpos presos por mola (inexiste g)
+		- Equações diferenciais acopladas
+		- Desacoplamento das equações diferenciais
+		- Modos normais de vibração
+	- Vibração transversal com mais corpos
+		- Modos normais de vibração para 2 corpos
+		- Modos normais de vibração para 3 corpos
+		- Modos normais de vibração para 4 corpos
+		- Limite para infinitos corpos: modelando corda
+			- Intuition: 1o harmonico
+			- Intuition: 2o harmonico
+			- Intuition: no harmonico
+	- TODO: To prove wave equation with infinity accoplated oscilators
+
+
+Ondas Unidimensionais
+	- Definition of waves
+	- Def: Ondas longitudinais
+	- Def: Ondas transversais
+	- Função generica de onda unidimensional (derivação por referencial preso à onda, e referencial na origem)
+		- Intuition: Função "viajante"
+		- Velocidade de propagação da onda
+	- Função generica de onda unidimensional (derivação por shift de função)
+		- Intuition: Função "viajante"
+		- Composição de funções
+	- Elementos da função de onda unidimensional
+		- Def: Perfil da onda
+		- Def: "Oscilação" de elemento de onda
+		- Direção de propagação da onda
+	- Equação de onda unidimensional
+		- Derivação da equação parcial da onda
+		- Identificação do termo de velocidade de propagação
+		- Objective: Estudar fenomeno fisico ondulatorio e tentar chegar na eq. de onda
+			- Determinar velocidade da onda
+			- Note: There's no approximations so far!
+		- Curious: Equação de onda tridimensional (sem demonstração)
+	- Solução Geral da equação de onda unidimensional
+		- Substituição das derivadas pelos termos de onda
+		- Solução geral de d'alambert
+
+
+Ondas Harmonicas Unidimensionais
+	- Definition
+	- Função de onda harmonica
+	- Periodos temporais e espaciais
+		- interpretation: Frequencia angular da onda (w)
+		- Interpretaion: Numero de onda (k)
+		- Periodo temporal da onda
+		- Periodo espacial da onda
+		- Frequencia da onda (oscilações por segundo)
+		- Frequencia espacial (ondas por metro)
+		- Relação: lambda * f = v
+		- Interpretação da velocidade da onda
+		- Interpretação no desenho da onda
+	- Def: Fase da onda (argumento do cosseno)
+	- Def: Constante de fase
+	- Interferencia: Ondas no mesmo sentido e frequencias iguais
+		- Método do vetor girante
+		- Amplitude da onda resultante
+		- Intensidade da onda resultante
+		- Note: Intensidade mínima e intensidade máxima
+		- Case: Ondas de intensidades iguais
+			- Def: Interferencia construtiva
+			- Def: Interferencia destrutitva
+		- New phenomena!
+	- Interferencia: Ondas Estacionarias
+		- Case: Interferencia de ondas identicas em sentidos opostos
+		- Superposição de ondas não propagante (argumentos independem de x-vt)
+		- Question: Solução não propagante satisfaz equação de onda?
+		- Interpretation: Descrição do comportamento de ondas estacionarias
+		- Simulation: Ondas estacionarias
+		- Note: Energia confinada na onda não propagante
+		- Note: What happens se existe diferença de fase?
+	- Interferencia: Mesma direção e frequencias diferentes
+		- Função de onda resultante
+		- Amplitude da onda a(x,t)
+		- Special case: Batimentos
+		- Def: Velocidade de grupo
+		- Def: Velocidade de fase
+		
+		
+Ondas mecanicas em cordas tracionadas
+	- Posição de equilibrio de corda (sem onda)
+	- Densidade linear de massa da corda
+	- Onda gerada em corda
+	- Cordas Vibrantes
+	- Analise do infinitésimo físico em uma corda
+		- Tensões verticais e horizontais
+		- Equação da segunda lei de newton para movimento transversal
+		- Equação de onda unidimensional em corda tracionada
+		- Velocidade de onda na corda
+	- Analise energetica
+		- Potencia instantanea da onda P(x, t)
+		- Calc: Potencia media
+		- Def: Intensidade de onda unidimensional
+		- Calc: Energia cinética de infinitésimo físico da corda
+		- Calc: Densidade linear de energia cinética na corda
+		- Calc: Densidade linear média de energia cinética
+		- Calc: Densidade linear média de energia mecanica
+		- Calc: Potencia média transportada (em função da velocidade)
+	- Reflexão de ondas numa corda
+		- Reflexão em extremidade fixa
+			- Condições de contorno: Impor condição em equação de onda
+			- Descobrir resultado geral
+			- Analogo: Ondas de velocidades e sentidos opostos viajam na corda
+			- Interpretação física: 3a lei de newton
+		- Reflexão em extremidade livre
+			- Impor condição em equação de onda
+			- Descobrir resultado geral
+	- Modos normais de vibração: Corda presa a um extremo
+		- Condições de contorno
+		- Equação Unidimensional de Helmholtz
+		- Solução geral da equação de helmholtz considerando condições de contorno
+		- Possiveis numeros de onda discretos
+		- Frequencia angular dos modos normais de vibração
+		- Função de onda
+		- Equação das cordas vibrantes
+		- Note: Discretização das frequencias dos modos normais
+
+
+Estática de Fluidos
+	- Forças Normais
+	- Forças Tangenciais (Forças de cisalhamento)
+	- Diferneça entre sólidos e liquidos
+		- Forças Tangenciais em sólidos
+		- Forças Tangenciais em liquidos
+		- Capacidade de fluir/escoar
+	- Densidade de um fluido
+		- Formal Definition
+		- Def: Infinitesimo Físico
+	- Forças em um fluido
+		- Fluido em equilibrio: 
+			- Força resultante em cada porção de fluido anula-se
+			- Nao pode haver forças tangenciais
+		- Forças volumétricas
+			- Formal Defintiion
+			- Forças proporcionais à porção de volume
+			- Examples: Gravidade, Forças Elétricas (fluido carregado), Forças centrifugas
+		- Forças Superficiais
+			- Forças interatomicas de curto alcance
+			- Proporcional á área de superficie
+			- Vetor unitario normal à superficie
+			- Formal Definition: Pressão em um ponto
+			- Pressão em interior de fluido nao depende do vetor normal (depende apenas da posição)
+	- Equilibrio de fluido num campo de forças
+		- Contribuição das forças superficiais
+		- Def: Densidade volumétrica de força
+		- Força de porção de fluido em função da densidade de força
+		- Theorem: Densidade de força volumétrica é gradiente de pressão
+		- Corolary: Variação de pressão com gravidade
+	- Aproximação de incompressibilidade em liquidos
+		- Data: 1atm --> 100atm de agua aumenta densidade em 0.5%.
+		- Apprx: Fluidos são imcompressíveis
+	- Densidade de energia potencial e pressão
+		- Restriction: Força volumétrica é conservativa
+		- Energia potencial da força conservativa, e densidade de energia potencial
+		- Theorem: Pressão é oposto densidade de energia potencial+cte
+		- Corolary: Superficies isobáricas são superficies equipotenciais
+		- Corolary: Superficie de um liquido no campo gravitacional é superficie equipotencial do mesmo
+			- Superficie esférica de oceanos
+			- Superficie de copo de agua
+		- Lei de Steven: Pressão de um fluido aumenta linearmente com profundidade
+	- Example: Liquido em recipiente em rotação
+		- Liquido se movimentará com o recipiente
+		- Ligação em um refernecial nao inercial que gira junto com liquido
+		- Campo de forças volumétrica no referencial não inercial (gravity + centrifuga)
+		- Aplication: Espelho parabólico de mercúrio
+	- Application: Prensa Hidraulica
+		- Pressão é a mesma em pontos de altura iguais
+		- "Multiplicador" de forças
+	- Application: Vasos comunicantes
+		- Liquidos de densidade diferentes
+		- Pontos de mesma pressão
+		- Razão das alturas é razão das densidades
+	- Application: Medição de pressão atmosférica
+		- Manometro de mercurio/agua/whatever
+		- Calc: Altura máxima da agua em manometro
+		- Calc: Altura maxima de mercurio
+		- Experiment: Medições de pressão atmosferica
+	- Principio de Arquimedes
+		- Corpo cilindrico submerso em fluido
+		- Diferneça de pressão entre pontos extremos do corpo cilindrico
+		- Força do liquido exercida sobre o corpo cilindrico
+		- Def: Força empuxo
+			- Formal Definition
+			- Peso de agua deslocada pelo corpo
+			- Def: Centro de empuxo
+		- Coroa de (ouro?) de Herão
+	- Equilibrio de corpos flutuantes
+		- Posição de equilibrio (E == P)
+		- Torque provocado por empuxo e peso
+		- Def: Metacentro
+		- Equilibrio estável e instável de um corpo flutuante
+	- Paradoxo hidrostático
+		- Força da água sobre parede de recipientes
+		- Mesma força para varios volumes de agua
+		- Balança disagrees....
+		- Explanation do paradoxo hidrostático
+	- Variação da pressão atmosférica com a altitude
+
+
+Dinamida de Fluidos
+	- Method 01: Descrever movimento de fluidos
+		- Idealizar fluido como varias particulas individuais
+		- Achar a equação da trajetória de todas elas
+		- bad method..
+	- Method 02:  Descrever movimento de fluidos
+		- Definir um campo de velocidades para descrever fluido
+		- Campo de velocidades v(r, t)
+		- Def: Linhas de corrente
+		- Nicer Method
+	- Escoamento estacionario
+		- Formal Definition
+		- Boa aproximação para escoamento de agua em baixas velocidades
+		- Linhas de corrente coincidem com trajetórias
+		- Linhas de corrente não podem se cruzar
+	- Equação da Continuidade em caso de escoamento estacionario
+		- Conservação da massa
+		- Corolary para fluidos incompressíveis
+		- Equação da continuidade
+		- Def: Vazão
+		- Curious: Equação da continuidade pode ser aplicada em transito de carros
+	- TODO: Equação da continuidade em escoamento não-estacionário
+
+
+Teoria Cinética dos Gases
+	- Tratamento newtoniano would be hard
+		- Quantidade de particulas
+		- Numero total de graus de liberdade
+		- Numero de equações (= numero de graus de liberdade)
+	- Def: Hipoteses de um gás ideial
+		1) Numero muito grande de particulas idênticas
+		2) Dimensões de cada particula são desprezíveis quando comparadas com a distancia média entre partículas
+		3) Isotropia na distribuição da velocidade
+		4) Potencial desprezíveis entre colisões (Aproximação de movimento balístico)
+		5) Em média as colisões são elásticas
+	- Teoria cinética de pressão
+		- Calc: Variação de momentum quando particula de gás bate em parede
+		- Separar particulas em grupos de velocidade (N grupos)
+			- Grupos de particulas com velocidades iguais
+			- Densidade de particulas com velocidade v1
+			- Calc: Densidade total de particulas
+		- Transferencia de momento de grupo em colisão de partículas com a parede
+			- Elemento de área da parede e versor normal (n = i for instance)
+			- Colisão de particulas de certo grupo no elemento de área da parede
+			- Calc: Momento transferido pelo grupo 1 que colidi
+		- Calculo da pressão
+			- Calc: Força de colisão da particula de grupo
+			- Calc: Pressão de grupo
+			- Calc: Pressão total de um gás com restrição das velocidades que colidem
+			- Calc: Pressão total de um gás
+		- Pressão do gás em função de sua velocidade quadrática média em um eixo
+		- Pressão do gás em função de sua velocidade quadrática média
+		- Pressão do gás em função da massa do gás e seu volume
+		- Pressão do gás em fumção da densidade do gás
+			- Relação entre pressão e densidade do gás
+			- Note: Quanto maior a densidade do gás, maior a pressão
+		- Pressão proporcional à densidade de energia cinética média do gás
+
+
+Termodinamica Básica Introdutória (TODO)
+
+
+Ondas Sonoras
+	- Example: Bater de um bongo
+		- Variação de pressão ==> Deslocamento de ar
+		- Deslocamento de ar ==> Mudança de densidade
+		- Mudança de densidade ==> Variação de pressão
+		- Efeito propagante
+	- Relação quantitativa entre densidade e pressao
+		- Variação percentual de volume
+		- Modulo de compressibilidade do fluido
+		- Modulo de elasticidade volumétrica
+		- Variação de densidade do fluido
+		- Modulo de elasticidade em função de variação de pressão e variação de densidade
+		- Aproximação usando diferenciais
+			- Apprx: Variação de volume muito menor que volume de equilibrio (same with pressure)
+			- Apprx: Escrita usando derivadas parciais
+		- Processo Isotermico
+		- Processo Adiabático
+	- Relação quantitativa entre deslocamento e densidade
+		- Restriction: Onda unidimensional em tubo cilindro de secção tranversal A
+		- Volume em uma faixa antes do deslocamento
+		- Volume depois do deslocamento
+		- Variação percentual de volume
+		- Variação da densidade
+	- Relação quantitativa entre pressão e deslocamento
+		- Força do lado esquerdo em função de onda de pressão
+		- Força do lado direito em função de onda de pressão
+		- Usando segunda lei de newton
+		- Relação entre deslocamento e pressão
+	- Equação de onda do som
+		- Deslocamento de fluido produz variação na densidade
+		- Variação de densidade produz variação de pressão
+		- Equação de onda de deslocamento de fluido
+		- Equação de onda de pressão
+		- Equação de onda de densidade de fluido
+	- Velocidade do som
+		- Velocidade da onda de deslocamento
+		- Velocidade da onda de pressão
+		- Velocidade da onda de densidade
+		- Equação da velocidade do som em um fluido qualquer
+		- Calc: Velocidade do som no ar para processo isotérmico
+		- Calc: Velocidade do som no ar para processo adiabático
+			- Em função da pressão e densidade atmosferica
+			- Em função da temperatura e massa molecular
+		- Calc: Velocidade do som na água
+	- Dados numericos de ondas sonoras
+		- Frequencia audivel
+		- Comprimento de onda da frequencia audivel
+		- Note: Comprimento de onda sonora é da mesma ordem que dimensões macroscopicas tipicos
+	- Ondas sonoras harmonicas unidimensionais
+		- Onda de deslocamento
+		- Onda de variação de pressão
+			- Amplitude da onda de variação de pressão
+			- Zonas de compressão
+			- Zonas de expansão
+		- Note: Onda de deslocamento e de variação de pressão estão em quadratura
+		- Intensidade da onda sonora
+			- Onda de Potencia
+			- Potencia media
+			- Intensidade da onda sonora em função da amplitude de deslocamento
+			- Intensidade da onda sonora em função da amplitude de pressão
+			- Note: Intensidade é proporcional ao quadrado da amplitude das ondas
+	- Audição humana
+		- Intervalo da frequencia audivel
+		- Limiar da intensidade sonora audivel (10e-12 W/m^2)
+			- Calc: Amplitude da onda de pressão com limiar de intensidade sonora audivel
+			- Calc: Amplitude de deslocamento associada ao "limiar" da amplitude de pressão audivel
+			- Note: Timpano consegue detectar deslocamentos de ar menores que diametro atômico (OOH)
+		- Limiar de sensação dolorosa (1 W/m^2)
+			- Calc: Amplitude de pressão (em atm too)
+			- Calc: Amplitude de deslocamento
+		- Nivel de intensidade sonora
+			- Explanation of why
+			- Formal Definition
+			- Unidade de medida: beis
+			- Limiar audivel e doloroso em termos de nivel de intensidade sonora
+		- Qualidades distinguidas em um som
+			- Intensidade do som
+			- Altura do som
+			- Timbre do som
+	- TODO: TO FINISH (Doppler effect, Hyugens stuff, etc)
+	- TODO: Propagation in Medium. Mudança de referencial. Referencial privilegiado.
+
+
+Introdução a Noções de Mecânica Estatística Básica (TODO)
+
+
+TODO: Falar sobre relatividade ondulatoria e referencial preferencial. Calcular grandezas ondulatorias em outros referenciais.
+TODO: Optica geométrica
+
+The end! Now you can go to:
+	- Fisica 03
+	- Mecanica Classica 01

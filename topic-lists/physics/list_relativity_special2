@@ -1,0 +1,140 @@
+TITLE: Special Relativity 02: Relativistic Formalism.
+	- Pre-requisitive: Special Relativity 01
+	- Co-requisitive: 
+
+
+Galilean Space-Time diagram.
+	- Events
+		- Formal Definition
+		- Trajectory in spacetime
+	- Reference Frames
+		- Moving reference frame on top of 'stopped' reference frame.
+		- Geometrical construction.
+		- Calc: Angle of tilting of time axis.
+		- Calc: Angle of tilting of x-axis (zero!)
+		- Calc: Galilean transformations.
+	- Casuality considerations
+		- The past region: A half-plane.
+		- The present region: a horizontal line.
+		- The future region: a half-plane.
+		- For a given observer, all events are either in past, present or future.
+	- Light paths.
+		- Sublight diagrams.
+		- Light diagrams.
+		- Faster-than-light diagrams.
+	- Examples.
+
+
+Relativistic Space Time Diagram.
+	- The axioms.
+		- (1) Principle of relativity. No experiment can measure absolule velocity.
+		- (2) Universality of speed of light. All experiments in all inertial frames will agree into the same speed of light.
+		- Note: Axiom (1) + universality of time forms galilean relativity.
+		- Note: Axiom (1) and (2) forms Einstein's relativity.
+	- Space Time Diagrams.
+		- (x, t), (ct, x), (t, x/c).
+		- Note: A light path ALWAYS has an angle of 45 degree in every frame.
+	- Construction of the space time diagrams.
+		- Experimental Set up.
+			- O bar is stationary.
+			- Event E: Emission of a lightray from c tbar = -a.
+			- Event P: Lightray is reflected at xbar=a.
+			- Event R: Lightray is received at c tbar = a.
+			- Drawing of space time diagram of observer O bar.
+			- Objective: What does O bar frame looks like from O frame>
+		- The O-Frame spacetime diagram.
+			- Assume: O-bar is moving from O-frame at a speed v.
+			- Draw: The tbar axis (that is, all points where xbar=0)
+			- Draw: The points c tbar=-a, and c tbar=a.
+			- Draw: The path of emitted lightray. Extrapolate.
+			- Draw: The path of received lightray. Extrapolate.
+			- Draw: The x-bar axis of O-bar.
+			- Note: X-bar is no longer parallel with x-frame, as with galilean.
+		- Angles.
+			- Calc: Angle between t-bar and t-frame.
+			- Calc: Angle between the x-bar and x-frame.
+			- Note: The angles are the same.
+	- TODO: Einstein syncronization procedure.
+	- The geometry of simultaneity.
+		- Simultaneity in galilean spacetime.
+		- Simultaneity in relativistic spacetime.
+	- Invariant interval.
+		- Linear Quadratic Function.
+		- Coeficients of the linear transformation.
+		- Invariance of the interval.
+		- Note: Time and spaces are differentiated by the sign.
+		- Note: Easy generalization for more time or more space coordinates.
+	- Consequences of the invariant interval.
+		- Calc: Time dilation formula. Proper time.
+		- Calc: Length contraction formula. Proper length.
+	- Sign notation
+		- (-+++)-sign notation of the invariant interval.
+		- (---+)-sign notation of the invariant interval.
+	- Invariant Hyperbolae
+		- TODO.
+	- Lorentz Transformations.
+		- Linear transformation.
+		- t-bar and x-bar axis.
+		- Putting light-ray events. Scaling of the usual galilean ones.
+		- Using invariance of time interval. 
+		- Lorentz Transformations.
+	- Consequences of Lorentz Transformations.
+		- Calc: Derivation of time dilation formula.
+		- Calc: Derivation of length contraction formula.
+		- Calc: Derivation of Einstein's velocity addition formula.
+	- Events in a spacetime diagram.
+		- Def: Spacelike event. Events unreachable by observer. Def in terms of interval sign.
+		- Def: Timelike event. Events reachable by observer. Def in terms of interval sign.
+		- Def: Lightlike event. Events reachable by light. Def in terms of interval sign.
+	- Causality in the spacetime.
+		- Def: The lightcone.
+		- Def: The future region.
+		- Def: The now/present region.
+		- Def: The past region.
+		- Def: The elsewhere region.
+		- Note: In galilean, now-region was a line. In relativity, now-region is a single unique point, the event itself.
+		- Note: In galilean, there's only past/now/future. In relativity, there's past/now/future/elsewhere.
+		- Note: Two observers might disagree with what is past, and what is future, and what is now.
+	- Paradox: The Twin Paradox.
+		- TODO: Spacetime diagram.
+	- Paradox: Car inside garage.
+
+TODO: Rapidity. 
+TODO: Lorentz Transformation in terms of hyperbolic trigonometry.
+TODO: 
+
+Relativistic Spacetime Diagram.
+	- TODO: Reference frames. Geometric construction. Symmetry.
+	- TODO: x0 = ct. Angle between the frames.
+	- TODO: Simultaneity lines (lines of events happening at same time for given reference frame).
+	- TODO: Causality region: Light cone. Trajectory within the lightcone. Trajectories ooutside lightcone impossible: impossible to reach such events.
+	- TODO: Casually disconnected region. Visualizing time-travel to past (in case of FTL signal).
+	- TODO: Spacelike (x>t), timelike (t>x), lightlike events (x=t).
+	- TODO: Symmetry of the tilting angles. Calc: Tilting angle of x-axis and ct-axis for moving reference frame.
+	- TODO: Derivation of lorentz contraction, time dilation (using the geometric angle). General Lorentz Transformations.
+	- TODO: Derivation of doppler shift from the spacetime diagram.
+	- TODO: Derivation of velocity addition formula from the spacetime diagram.
+	- TODO: Derivation of Lorentz transformation sfrom the spacetime diagram.
+	- TODO: Car inside garage paradox. Space time diagram.
+	- TODO: Twin paradox visualized in the spacetime diagram.
+	- TODO.
+
+
+Minkowski Spacetime
+	- TODO: Spacetime diagram. Plots in the spacetime digram.
+	- TODO: Distance between two points. Proper time. Scalar Product.
+	- TODO: Spacetime metric. Metric tensor. +--- convention and -+++ convention.
+	- TODO: Measuring the distance of a trajectory in minkowski spacetime.
+	- TODO: Four-position. Four-velocity. Four-acceleration.
+
+
+
+TODO: Multidimensional spacetime (n space coordinates, m time coordinates).
+
+TODO: Minkowski spacetime. Diagrams.
+TODO: 4-velocity. 4-momentum. Etc. Relativistic kinematics. 
+TODO: Minkowski spacetime/metric/etc. Lorentz boosts.
+TODO: Acceleration. =). Rotating systems. =).
+TODO: Electrodynamics: 4-current-density. 4-everything. EM Field Strengh Tensor. EM Stress-Energy-Momentum tensor. Maxwell Laws.
+TODO: Relativistic Fluids and Continuum. Stress-Energy-Momentum tensor of fluids.
+TODO: Relativistic Kinetic Theory (using 4-stuff always).

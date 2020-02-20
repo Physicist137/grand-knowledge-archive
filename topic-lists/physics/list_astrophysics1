@@ -1,0 +1,67 @@
+TITLE: Astrophysics 01: Planetary Physics.
+	- Pre-requisitives: Vide a lista longa a baixo.
+	- Co-Requisitives: None.
+
+
+PRE-REQUISITIVES:
+	- Electromagnetism 01, 02, 03, 04, 05. (Maxwell, EM Radiation, Scattering, Plasma).
+	- Classical Mechanics 02, 03, 04 (Central motion, Rigid Body, ..)
+	- Continuum Mechanics 00, 01.
+	- Kinetic Theory 01.
+	- Gravity 01. (Perhaps??).
+
+
+OTHER PERHAPS PRE-REQUISITIVES:
+	- Quantum Mechanics 00. (ionosphere..).
+	- Plasma Physics 01. Van-Alley radiation belts. Etc.
+
+
+
+
+TODO: THE DYNAMICS OF IT:
+	- Properties: Mass. Size. 
+	- Orbit: Two-Body. Three-body stability. Etc.
+	- Rotation: Rotation. Tilt. Etc.
+	- Tides: Tidal forces. Tidal Torques. Tidal locking.
+	- Dissipations: Err..
+
+
+TODO: THE FORMATION OF IT:
+	- Formation Theories
+	- Gas giants. Types of planets.
+	- Planetary rings.
+
+
+TODO: THE OUTSIDE OF IT:
+	- Interplanetary Medium: Solar wind, etc
+	- Planetary Magnetosphere or Magnetic Field: generation, plasma motion, particle motion.
+	- Meterotits/Comets/Asteroids
+	- Natural satellites. Moons, etc. Affects on the planet. Tides.
+	- Planetary Rings. Moon-ring interaction.
+
+
+TODO: THE ATMOSPHERE OF IT:
+	- Composition: Chemical reactons, spectra, defense (aurora, etc).
+	- Meteorology
+	- Energy Transport in atmosphere.
+	- Atmospheric escape.
+
+
+TODO: THE SURFACE OF IT:
+	- Main Atmosphere: Flows, chemical reactions, clouds, meteorology, etc.
+	- Surface: Composition, etc, etc.
+	- Transport Energy: Solar heating, heat flow, 
+	- Tides: Newton tides. Tidal Equation. Laplace Tides (the correct one).
+
+
+TODO: THE INTERIOR OF IT:
+	- Heat Sources: Tidal Heating. Radioactive Decay. Meteorites. https://en.wikipedia.org/wiki/Geothermal_gradient
+	- Plate Tectonics
+	- Composition of interior
+	- Generation of Magnetic field: Dynamo theory, etc.
+	- Planetary core. Source of energy of heating in core.
+
+
+TODO: https://en.wikipedia.org/wiki/Theory_of_tides
+	- This is the correct theory of tides
+	- To explain newton's error. http://physics.stackexchange.com/questions/121830/does-earth-really-have-two-high-tide-bulges-on-opposite-sides?rq=1

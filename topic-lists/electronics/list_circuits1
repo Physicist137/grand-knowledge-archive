@@ -1,0 +1,156 @@
+TITLE: Circuits 01: Linear Resistive Circuits
+	- Pre-requisitive: Matrix Algebra 01.
+	- Co-requisitive: None.
+
+
+Linear Resistive Circuits
+	- Def: Current.
+	- Def: Voltage Difference (DDP).
+	- Def: Power (Watts).
+		- Def: Energy per second
+		- Calculation of electrical power. V*I.
+	- The Resistor
+		- Relationship between voltage difference and current.
+		- Ohm Law.
+		- Def: Resistance of a resistor
+		- Def: Conductance of a resistor
+		- Dissipated Power of a resistor in function of current.
+		- Dissipated Power of a resistor in function of voltage.
+	- The Voltage Source
+		- Voltage independent of current.
+		- Example of voltage sources: Batteries, Tomadas, etc.
+	The current source
+		- Current independent of voltage.
+		- Example of current source: Solar panels, etc.
+		- Why is solar panel a current source?
+	- The Wire
+		- An element with no resistance.
+		- Thus: There is no voltage drop between any two points of wire.
+	- The lack of wire
+		- An element with infinite resistance.
+		- Thus: There is no current.
+	- An example: Circuit such that demonstrates:
+		- The relativity of voltage. Voltage relative to what?
+		- The Voltage difference between every component.
+		- Note: The voltage between two components (series) is sum of their DDPs.
+		- The currents.
+	- Contradictory situations
+		- A closed circuit with a voltage source.
+		- An open circuit with a current source.
+	- The IV characteristics
+		- Defintion: IV-Curve.
+		- Active and passive areas
+	- The IV characteristics of some elements
+		- Resistor.
+		- Voltage source.
+		- Current Source.
+		- Wire
+		- No wire.
+
+
+Simple circuits
+	- Resistor-Voltage-Source circuit
+		- Drawing the circuit
+		- Calc: The voltage difference between the battery.
+		- Calc: The voltage difference between the resistor.
+		- Calc: The current that is passing thru the wire.
+		- Calc: The power dissipated by the resistor.
+		- What happens if we increase resistance?
+		- What happens if we decrease resistance?
+		- When there will be risk of fire and overheating?
+		- Note: Increasing resistance --> Aprouching open circuit.
+		- Note: Decreasing resistance --> Aprouching short circuit.
+		- Which is bad? Open circuit or short circuit?
+	- Resistor-Current-Source circuit
+		- Drawing the circuit
+		- Calc: The current that is passing thru the wire.
+		- Calc: The voltage difference between the resistor.
+		- Calc: The voltage difference between the current source.
+		- Calc: The power dissipated by the resistor.
+		- What happens if we increase resistance?
+		- What happens if we decrease resistance?
+		- When there will be risk of fire and overheating?
+		- Note: Increasing resistance --> Aprouching open circuit.
+		- Note: Decreasing resistance --> Aprouching short circuit.
+		- Which is bad? Open circuit or short circuit?
+	- Resistor-Source Circuit and reality
+		- Tomada de alguma casa
+		- Is it voltage source or current source?
+		- Danger in: Short circuit? or Open Circuit? What exactly happens?
+		- Dissipation is in form of heat: Temperature increase. Fire!
+	- Battery-Battery-Resistor Circuit
+		- Calc: The voltage difference between the batteries
+		- Calc: The voltage difference between the resistor.
+		- Calc: The current that is passing thru the wire.
+		- Calc: The power dissipated by the resistor.
+	- Battery-Resistor-Resistor circuit
+		- Calc: The voltage difference between the batteries
+		- Calc: The voltage difference between the resistors.
+		- Calc: The voltage difference between each resistor.
+		- Calc: The current that is passing thru the wire.
+		- Calc: The power dissipated by each resistor.
+
+
+The Laws of circuits
+	- Kirchoff Laws
+		- Circuit Convention: Current flows from higher voltage to lower voltage.
+		- Note: Reason of convention: Power v*i consumed becomes positive.
+		- Kirchoff Voltage Law (KVL).
+		- Kirchoff Current Law (KCL).
+	- Association in series
+		- Application of KVL.
+		- Note: System behaves as if there were one resistor of which resistance?
+		- Def: Equivalent Resistance
+		- Equivalent resistance of association in series.
+	- Association in parallel
+		- Application of KCL.
+		- Note: System behaves as if there were one resistor of which resistance?
+		- Equivalent resistance of association in parallel
+		- Equivalent conductance of association in parallel.
+
+
+Method: Systematic Application of KCL and KVL and IV.
+	- TODO.
+
+
+Method: The Node Method
+	- Remember this one! QUite important.
+	- TODO.
+
+
+Method: The Matrix Method.
+	- TODO.
+
+
+Superposition principle
+	- TODO: Superposition
+	- TODO: Method to solve it.
+	- TODO: Enhancing with series/parallel
+
+
+Thevenin and Norton Theorem
+	- TODO: Proving. Thevenin Theorem
+	- TODO: Transforming a thevenin circuit into norton circuit
+	- TODO: Norton Theorem.
+	- TODO: Examples.
+	- TODO: One port network
+
+
+Method: Thevenin Method
+	- 
+
+
+Method: Intuitive Quiick Methods
+	- TODO: Associations in series/parallel
+	- TODO: Immediately realising values of current and tension.
+	- TODO.
+
+
+	
+
+TODO: Dependent sources. Amplifiers.
+TODO: Op-Amps (how to build it) (usage).
+
+TODO: Basic diods? Basic Transistors?
+
+TODO: Delta-Y association (Beyound parallel, series).

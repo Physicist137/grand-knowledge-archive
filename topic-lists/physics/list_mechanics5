@@ -1,0 +1,197 @@
+TITLE: Classical Mechanics 05: Intr Lagrangian and Hamiltonian Mechanics.
+	- Pre-requisitive: Classical Mechanics 04.
+	- Co-requisitive: None
+
+
+Possible sources: MIT
+
+
+Coordenadas Generalizadas e Mecanica Lagrangiana
+	- Def: Espaço de Configurações
+		- Estado mecânico de uma particula
+		- Estado do sistema
+		- Graus de liberdade do sistema
+	- Def: Coordenadas Generalizadas
+	- Propriedades das coordenadas generalizadas
+		- Ligação entre coordenadas cartesianas e generalizadas
+		- Def: Velocidade generalizada
+		- Calc: Velocidade generalizada em função das velocidades cartesianas
+		- Note: Derivada parcial da velocidade generalizada e cartesiana é posição gen. e cartesiana.
+	- Def: Momento generalizado
+		- Formal Definition
+		- Verificar em coordenadas cartesianas
+		- Verificar em coordenadas esféricas
+		- Note: Makes sense
+		- Curious: Calcular derivada parcial da energia cinetica com coordenadas generalizadas
+	- Def: Força Generalizada
+		- Principio do trabalho virtual
+		- Partir do trabalho cartesiano
+		- Trabalho generalizado
+	- Energia potencial generalizada
+		- Escrita do potencial "comum"
+		- Calc: Energia potencial generalizada em função das forças generalizadas
+	- Calc: Variação do momento generalizado
+		- Em função de coordenadas cartesianas
+		- Em funçao da força generalizada e coordenadas generalizadas
+		- Em funçao da força generalizada e energia cinética (simpler)
+	- Equação da dinamica de Lagrange
+		- Força generalizada em função de energia cinética
+		- Equação de movimento envolvendo energia cinética e potencial
+		- Calc: Equação de Lagrange
+		- Def: Lagrangiano do sistema
+		- Note: Formulação energética da mecanica clássica
+	- Lagrange Mechanics and Newtonian Mechanics
+		- Proof: Equivalencia com Mecanica Newtoniana
+		- Proof: Equivalencia com Mecanica Newtoniana de Rotação
+		- Note: Equivalent mechanics! It must yeld the same result. Hence, it is now a new theory of mechanics.
+		- Note: Não existe forças e vetores (formulação energética da mecanica clássica)
+		- Energia é grandeza escalar: Lagrangiano do sistema invariante a transformações ortogonais
+	- Exemplos Simples: Achar lagrangiano do sistema e equações de movimento
+		- Queda livre de um corpo sob campo gravitacional constante
+		- Oscilador Harmonico simples
+		- Maquina de Atwood
+	- Example: Mass under gravity, constrained in cone, with a half-angle of alpha.
+		- Calc: Find the constraint in question (cylindrical coordinates).
+		- Calc: Expression of speed squared (try use cylindrical coordinates).
+		- Calc: The Lagrangian of the system
+		- Calc: Lagrange equations for theta: Conservation of angular momentum
+		- Calc: Lagrange equations for the radius.
+		- Calc: The motion of the particle: Solution for the radius.
+		- Calc: The motion of the particle: Solution for theta (nasty integral) (keep it in function of the integral).
+		- Optional: Calculate the integral for theta.
+	- Example: Pendulo simples attached to rotating rim
+		- Expressão da energia cinética e do potencial
+		- Expressão do lagrangiano do sistema
+		- Equação de movimento
+	- Example: Pendulo duplo
+		- Expressão da energia cinética e do potencial
+		- Expressão do lagrangiano do sistema
+		- Note: Momento angular não é conservado na ausencia de potencial externo
+			- Note: Conservação em pendulo simples
+			- Calc: Torque no pendulo duplo
+		- Equação de movimento do pendulo duplo
+		- Note: Quanto demoraria resolver com pendulo duplo?
+	- Example: Pendulo em trilhos
+		- Expressão do lagrangiano do sistema
+		- Note: Momento do carro é conservado
+		- Equação de movimento do pendulo em trilhos
+	- Example: Pendulo com mola
+		- Expressão da energia cinética e do potencial
+		- Expressão do lagrangiano do sistema
+		- Equação de movimento
+
+
+Math Base: Calculo Variacional
+	- Problem: Determinar função y tal que minimiza/maximiza integral
+		- Intuition: Funcional Integral
+		- Função y = y(x). y(a, x) = y(x) + a*n(x)
+		- Objective: a deve ser ponto extremo
+	- Condições a serem satisfeitas
+		- Curvas devem ter pontos iniciais e finais fixos
+		- Consequence: Condição para n(x
+	- Example: y(a, x) = x + a sinx,  f = (dy/dx)^2
+		- Desenho de curvas
+		- Resolvendo a função
+		- Determinando o funcional
+		- Determinando valor de alpha
+	- Equação de Euler
+		- Minimização/Maximização do funcional
+		- Calculation: Equação de Euler
+		- Note: Independencia de alpha
+	- Example: Brachistochrone Problem
+		- Determinação da curva que minimiza tempo em campo de forças constante
+		- Aplicação da equação de Euler
+		- Equação paramétrica da curva
+		- Curva: Cicloide
+	- Example: Achar curva que minimiza área de revolução sobre eixo x.
+		- Aplicação da Equação de Euler
+		- Curva: Catenária
+	- Segunda forma da Equação de Euler
+		- Derivada total df/dx
+		- Calc: Eq. de Euler na segunda forma
+		- Special case: Se f não depende de x explicitamente
+	- Example: Find geodesic over cilinder
+		- Métrica da superficie cilíndrica
+		- Calc: Equação da geodésica
+	- Example: Find geodesic over sphere
+		- Metrica na superficie de esfera
+		- Equação da geodésica
+		- Note: Intersecção entre plano que passa no centro
+	- Funções de várias variáveis dependentes
+		- Funcional para várias funções
+		- Equações de Euler
+	- Equações de Euler com restrições
+		- Restrição g(y, z; x)
+		- Calc: Equação de Euler com restrições
+		- Multiplicadores indeterminados de Lagrange
+	- TODO: Problema Isoperimétrico (Dido problem)
+	- TODO: Delta-Notation. Virtual displacement.
+
+
+Constraint Problems in Lagrangian Mechanics
+	- TODO: Inserting the lagrangian as a variational problem. Definition of action. Hamilton's principle.
+	- TODO: Lagrange Equations with explicit constraints
+	- TODO: Example: Ball Rolling in inclined plan (todo: with and without explicit constraints).
+	- TODO: Example: Particle on top of hemisphere. Find eq of motion. Find forces of constraint. Find angle at which ball will fall off.
+	- TODO: Example: Mass under gravity, constrained in cone, with a half-angle of alpha. (do with explicit constraints).
+	- Benefits of Lagrangian Mechanics
+		- Allows calculations of constraint forces easily
+		- Allows calculations of constrained systems
+		- Everything is scalar. Not dealing with three quantities (vector).
+
+
+Hamiltonian Mechanics
+	- Teorema de Conservação de Momento generalizado
+		- Escrita do momento generalizado em função do lagrangiano do sistema
+		- Note: Invariancia do lagrangiano com mudança de coordenadas generalizadas
+		- Example: Conservação de momento linear: Invariancia do lagrangiano por translação de coordenadas
+		- Example: Conservação do momento angular: Invariancia do lagrangiano por rotação de coordenadas
+	- Theorem: Expressão da energia cinética em função das velocidades generalizadas
+		- Usando expressão de coordenadas retangulares
+		- Calc: x^2 em função das velocidades generalizadas
+		- Calc: Energia cinética em função das velocidades generalizadas
+		- Special Case: Independencia explicita do tempo nas coordenadas generalizadas
+			- Some terms will zerate
+			- Energia cinética é função quadrática homogenea
+		- Note: Still in special case:
+			- Note: Diferenciando energia cinética com respeito a velocidades generalizadas
+			- Note: Expressão da energia cinética em função de suas próprias derivadas parciais
+	- Teorema de Conservação de Energia ==> Lagrangiano do sistema independe do tempo explicitamente
+		- Assumption: Lagrangiano não tem dependencia explicita com o tempo
+		- Derivada total do tempo do lagrangiano do sistema
+		- Usando equação de Lagrange
+		- Usando expressão da energia cinética em função de suas proprias derivadas parciais (previous result).
+		- Conservação da energia total
+	- TODO: Legendre Transform of the Lagrangian Function (The Hamiltonian).
+	- TODO: Show when hamiltonian is total energy
+
+
+Lagrangian Function of Newton Systems.
+	- TODO: Lagrangian of: Polias, Atwood, Plano inclinado, 
+	- TODO: Oscilators, Circuits, Orbital Dynamics.
+
+
+Lagrangian Function of Two-Body System.
+	- TODO: Introduce to R and r vector variables. Lagrangian written in such.
+	- TODO: Lagrangian in spherical coordinates. The lagrange equation for all spherical variables.
+	- TODO: Integration of all spherical variables (first phi, obviously) (then theta) (then r) (find integration constants of each coordinate).
+	- TODO: Join everything together in r-coordinate. Effective lagrangian. Lagrangian equations of motion of the effective lagrangian.
+	- TODO: The Legendre transform of the effective lagrangian: The effective hamiltonian. Time variation of the effective hamiltonian.
+
+
+TODO: Central potentials, Scattering, Ridig bodies, Coupled Systems, Continuous Systems.
+TODO: To solve all previous systems using lagrange formalism.
+TODO: Espaço de fase generalizado (eg.: espaço x,p.  Espaço theta-angularmomentum, etc).
+TODO: Equivalent lagrangians
+TODO: Hamiltonian Mechanics. Canonical Equations of Motion. Note: They are uncoupled, and first order. =D.
+TODO: Hamiltonian of: Polias, Atwood, Plano Inclinado, Oscilators, Circuits, Orbital Dynamics, Central potentials, Scattering, Ridig bodies, Coupled Systems, Continuous Systems.
+TODO: To solve all previous systems using hamiltonian formalism.
+TODO: Solving a general linear system with hamiltonian. General Solution.
+TODO: Some hamiltonian chaos.
+
+TODO: Movimento amortecido and resistive forces (treatment under hamiltonian and lagrangian formalism).
+TODO: Movimento de particula carregada em campo magnético. Lagrangian and hamiltonian formalism.
+TODO: Movimento de particula em campo eletromagnético. Lagrangians and hamiltonian formalism.
+TODO: Relativistic particle. Lagrangian and Hamiltonian.
+
+

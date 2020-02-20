@@ -1,0 +1,230 @@
+TITLE: Calculus 02B: Differential Surface Calculus
+	- Pre-Requisitive: Calculus 01, Geometria Analítica 02.
+	- Co-Requisitive: Algebra Linear 01.
+
+
+Limite e Continuidade de superficies
+	- Def: Superficie
+	- Def: Grafico de superficie
+	- Examples
+		- Point in space
+		- Esfera e Ellipsoide
+		- Others
+	- Def: Continuidade de superficies
+	- Def: Limite
+		- Example: Show lim (x, y) --> (1, 2) of (3x+2y) = 7
+		- Theorem: Limites tirados de diferentes direções given diferentes valores ==> Não existe
+			- Example: (x,y)->(0,0) of 2xy / (x^2+y^2) inexists (y=0 and x=0 produces different limits)
+			- Example: (x,y)->(0,0) of xy² / (x^2+y^4)
+		- Limites unidimensionais
+			- lim (x,y)-->(x0,y0) of (ax+b)
+			- lim (x,y)-->(x0,y0) of (ay+b)
+		- Prova: Limite da soma é soma dos limites
+		- Prova: Limite de produto por escalar, é produto dos escalares dos limites
+		- Prova: Limite de produto por escalar, é produto por escalar dos limites
+		- Prova: Limite do modulo, é modulo do limite.
+		- Prova: Limite de produto por função, é produto do limite das funções
+		- Prova: Limite da potencia é potencia do limite
+		- Redução para primeira dimensão
+			- Example: lim (x,y)->(2,1) of (xy + x^5 sqrn(3) + 4)
+			- Example: lim (x,y)->(2,0) of sqrt(x^2+y^2)
+			- More examples
+		- Theorem: lim fog(x,y) = f( lim g(x,y) ),  f: R-->R,  g: R^n --> R
+			- lim ln(...),   lim sin(...)
+			- More composition examples
+		- Theorem: Se f(x,y)=0 e g(x,y) eh limitado ==> lim f*g = 0
+			- Example: lim->0 (x²y)/(x^2 + y^2),  use: f=x, g=rest
+			- More examples
+	- Teorema: Relação entre limite-continuidade
+		- Teorema: Se lim f(x,y) = f(p) ==> Função continua
+		- Teorema: Continuidade de transformações lineares
+		- Teorema: Continuidade de composição de função
+
+
+Derivadas em superficies
+	- Problem: Reta tangente de curvas originadas de intersecção entre superficies
+		- Example: Paraboloide z = 16-x²-y² no plano y=2
+		- Redução a derivadas de valores reais
+		- Solution of the problem
+	- Def: Derivadas parciais
+		- Example: 2xy/(3x²+5y²) for (x,y) != (0,0).  0 if (x,y)=(0,0)
+		- Existencia de derivadas parciais em todos os pontos
+	- Interpretação geométrica
+		- Coeficiente angular de reta tangente de curvas de intersecção
+		- Example: Find reta tangente z = 6 - x²-y² com plano x=2 em (a, b, c)
+	- Plano Tangente à Superficie
+		- Remember: Aproximação de primeira ordem a uma função near x0
+		- Retas tangentes de intersecção com plano x=x0
+		- Retas tangentes de intersecção com plano y=y0
+		- Retas tangentes pertencentes a plano tangente
+		- Equação Geral do Plano Tangente
+		- Vetor normal do plano Tangente	
+		- Equação Vetorial do Plano Tangente
+		- Example: Plano tangente em z = x^2+y^2 em (0,0)
+			- Calculo do Plano
+			- Paraboloide de revolução: visualização
+			- Plotting
+		- Example: Inexistencia de plano tangente em z = sqrt(x^2+y^2) em (0,0)
+			- Analysis: "Quina" em (0,0)
+			- Plotting: "Quina" em (0,0)
+	- Diferenciabilidade
+		- Intuition: Aproximação por plano tangente, works
+		- Formal Definition
+			- Def: Diferenciabilidade em um ponto
+			- Def: Diferenciabilidade na função
+		- Theorem: Função diferenciavel em (x0, y0) ==> Continua em (x0,y0)
+			- Example: Verifique se f(x, y) = x^2 + y^2 eh diferenciavel
+			- Example: Verifique se f(x,y) = sqrt(x^2+y^2) eh diferenciavel na origem
+		- Theorem: Teorema do Valor Médio
+		- Theorem: Continuidade das derivadas parciais em conjunto aberto A ==> Continuidade de f
+			- Example: Verifique se f(x, y) = x^2 + y^2 eh diferenciavel
+			- Example: Verifique se f(x,y) = sqrt(x^2+y^2) eh diferenciavel na origem
+	- Regra da Cadeia
+		- Composição de função R-->R² e R²-->R
+			- Função composta sendo R-->R
+			- Visualizando dominio-imagem
+			- Qual a derivada?
+		- Theorem: Regra da Cadeia
+			- Proof Using TVM
+			- Example: Passagem para coordenadas polares
+		 - Composição de campo escalar por curva qualquer
+		 	- Visualização do dominio-imagem
+		 	- Proof using TVM
+		 	- Examples
+	- Vetor Gradiente
+		- Reescrita do plano tangente como produto escalar de dois vetores
+		- Def: Vetor Gradiente
+			- grad f(x0,y0) eh vetor aplicado no ponto (x0,y0)
+		- Reescrita da regra da cadeia com vetor gradiente
+			- R-->R² e R²-->R em u: R-->R
+			- Caso geral holds too
+		- Def: Curvas de nivel
+			- Intuição de curvas de nivel
+			- Linhas com mesmo "potencial" (altura, etc, etc, whatever)
+			- Examples
+		- Theorem: Vetor gradiente é ortogonal à curva de nivel
+		- Coeficiente Angular do Vetor Gradiente
+	- Derivada Direcional
+		- Formal Definition
+		- Intuition: Derivada da curva interceptada por plano em direção especificada
+		- Parametrização do movimento de viagem
+			- Derivada constante e igual a versor (dr/ds = u)
+			- Viagem em linha reta
+			- Parametrização da curva
+		- Calc: Derivada direcional
+		- Theorem: Direção de maior crescimento é direção do vetor gradiente
+			- Módulo da derivada direcional
+			- Note: Cosseno do vetor gradiente e do versor direcional
+		- Theorem: Direção de maior decrescimento é direção oposta do vetor gradiente
+		- Theorem: Direção de nenhum crescimento é direção do vetor tangente à curva de nivel (obvious right?)
+	- Diferencial
+		- Analogia com diferencial de uma variavel
+		- Definition
+		- Aproximação com plano tangente
+		- Calculo do diferencial
+			- Nota: Eh uma transformação linear
+			- Call it T(h, k)
+		- Escrita diferencial
+		- Aplicações
+	- Derivada dy/dx de função implicita
+		- Curva F(x,y) = 0
+			- Calc: Coeficiente angular da curva
+			- Calc: Coeficiente Angular de uma curva de nivel
+			- Proof: Indeed gradiente é ortogonal à curva de nivel
+			- Examples
+		- Função implicita z = f(x,y) em F(x,y,z) = 0
+			- Calc: dz/dx e dz/dy
+			- Examples
+		- Funções y(x) e z(x) em sistema F(x,y,z) = 0 e G(x,y,z) = 0
+			- Calculando dy/dx com matriz de escalonamento
+			- Calculando dy/dx com regra de crammer
+			- Calculando dz/dx
+		- Determinantes jacobianos
+			- Definition: f1,f2,f3,...,fn
+			- Escrita de dy/f,fdx e dz/dx com determinantes jacobinanos
+			- Example: Cone x^2+y^2=z^2 com plano y=2-x
+				- Intersecção eh curva (x, y(x), z(x))
+				- Derivadas y' e z'
+			- Example: Unit-Sphere com plano z=k
+				- Analise de existencia de solução em relação a k
+				- Analise geometrica da curva formada pela intesecção
+				- Calculo das derivadas y' e z'
+				- Analise algebrica da curva formada pela intersecção
+		- Funções x(u,v) e y(u,v) em sistema F(x,y,u,v)=0 e G(x,y,u,v)=0
+			- v constante: derivando em relação a u
+			- Solução do sistema por regrea de crammer
+			- Calculando dx/du e dx/dv
+			- Calculando dy/du e dy/dv
+	- Derivadas de segunda ordem
+		- Definition
+		- Example: Escruta das derivadas parciais 2nd ordem de f(x,y)
+		- Example: f(x,y) = x^2 y^3 + x^4 y
+		- Example: f(x,y) = cos(xy)
+		- Nota: In all examples dxdy = dydx
+		- Simetria das derivadas de segunda ordem: Teorema de Schwartz
+		- Derivadas de ordem superior a 2
+		- Regra da cadeia
+			- h(t) = f(x(t), y(t)). Calculation: h''(t)
+			- Examples
+	- Derivadas de ordem superior
+		- Definition
+		- Example: Prove that dy²dx = dxdy²
+		- Exploring symmetry
+
+
+Aplicações de derivadas em superficies
+	- Paraboloide Aproximador
+		- Equação do Plano tangente
+			- Equação Geral
+			- Vetor normal
+		- P(x,y) = Ax² + Bxy + Cy² + Dx + Ey + F
+			- Calculation
+			- Condição para paraboloide hiperbolico
+			- Condição para paraboloide eliptico
+			- Condição para paraboloide parabólico
+			- Análise local da curva
+	- Maximos e Minimos de superfícies
+		- Def: Max, Min global
+		- Def: Max, Min local
+		- Example: Find global minima f(x,y) = x^2+y^2+5
+		- Theorem: Max/Min local ==> Vetor gradiente nulo
+			- Reduzindo a problema de uma variavel
+			- Derivadas parciais nulas
+			- Corolary: Vetor gradiente não nulo ==> Not max/min local
+			- Examples: Calculando pontos criticos
+		- Analise local com paraboloide aproximador
+			- Identificando maximos locais
+			- Identificando minimos locais
+			- Identificando pontos de sela
+			- Condição para maximo e minimo local
+			- Introdução a matriz hessiana e determinante
+			- Determinante hessiano da superficie
+		- Examples and Problems
+	- Multiplicadores de Lagrange
+		- Problem: max f(x,y) restrito a g(x,y)=0
+			- Interpretação Geométrica
+			- Explanation of lagrange method
+			- Função de Lagrange
+				- L(x, y, v) = f(x,y)-v*g(x,y)
+				- Gradiente da função de lagrange é nulo
+			- Example: Area de retang ABCD, com A(0,0) e C sobre x+2y=20
+				- Desenho geométrico
+				- Calc: System lagrangian
+				- Refazendo sem multiplicadores de lagrange
+		- Problem: max f(x,y,z) restrito a g(x,y,z)=0
+			- Descrição dos multiplicadores
+			- Calc: Função de lagrange
+			- Example: Ponto do plano 2x+y+3z=0 mais perto de (0,0)
+		- Problem: função de 3 variaveis e 2 restrições
+			- Descrição dos multiplicadores
+			- Calc: Função de lagrange
+			- Example: Ponto da reta x+y+z=2 e x+3y+2z=12 nearest (0,0)
+		- Generalization: função de m variaveis e n restrições
+	- Taylor expansion
+		- Plano tangente
+		- Paraboloide aproximador
+			- Escrita Cartesiana
+			- Escrita matricial
+		- Aproximação de terceira ordem
+		- Aproximação de enésima ordem
+		- Séries de taylor para superfícies

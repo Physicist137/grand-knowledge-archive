@@ -1,0 +1,319 @@
+TITLE: Optics 01: Fundamentos de Ótica Geométrica
+	- Pre-requisitives: Geometria Analítica, Algebra Vetorial
+	- Co-requisitives: None
+
+
+Óptica Geométrica
+	- Lei de propagação retilinea da luz. Note: This is an empirical law. Just happens.
+	- Lei da reflexão
+		- Def: Plano de incidencia
+			- Vetor do raio incidente
+			- Vetor normal à superficie do ponto de incidencia.
+		- Relação entre angulo de incidencia e angulo de reflexão. (Iguais).
+		- Note: This is an empirical law. Just happens.
+	- Lei da refração
+		- Def: Raio transmitido. Raio incidente.
+		- Plano de incidencia do raio transmitido
+		- Relação entre angulo de incidencia e angulo de refração. (Proporcional ao seno).
+		- Note: This is an empirical law. Just happens.
+	- Principio de Huygens
+		- Objecive: Find explanations. Why happens this way?
+		- Ether: Meio elastico de propagação da luz
+		- Luz: Pertubarções em pulsos no ether capaz de gerar outras perturbações.
+		- Enunciado do principio de Huygens
+			- Def: Wavelet
+			- Note: Calc: Raio de cada wavelet
+		- "Proof": Propagação retilinea da luz
+			- Frente de onda plana
+			- Frente de onda circular
+			- Falha: Propagação da luz em uma abertura
+			- Note: Raios "saindo" are ignored.
+			- Note: Raios propagaram "foward" only.
+		- Proof: Lei da reflexão a partir do principio de Huygens
+			- 3 raios luz incidentes batem em superficie refletura
+			- Desenho das wavelets de raio ct
+			- Calc: Relação entre angulo de incidencia e reflexão
+		- Proof: Lei da refração a partir do principio de Huygens
+			- 3 raios luz incidentes batem em superficie refratora
+			- Only condition: Velocidade da luz diferente nas duas superficies
+			- Def: Indice de refração
+			- Desenho das wavelets
+			- Calc: Lei de Snell
+	- Principio de Fermat
+		- Principio de Hero: Caminho mais curto de um ponto A até B
+		- Note: Principio de Hero falha na refração
+		- Principio de Fermat: Menor tempo percorrido
+		- Proof: Lei da propagaço retilinea a partir do principio de Fermat
+		- Proof: Lei da reflexão a partir do principio de Fermat
+		- Proof: Lei da refração a partir do principio de Fermat
+		- Quote: What about pontos A,B em focos de elipse refletora?
+	- Principio da reversibilidade
+		- Lei Empirica
+		- Prova do principio da reversibilidade com principio de Huygens
+		- Prova do principio da reversibilidade com principio de Fermat
+	- Tipos de reflexões
+		- Def: Reflexão Especular
+		- Def: Reflexão Difusa
+		- Note: Lei de reflexão é obedecida localmente
+		- Irregularidades microscopicas no meio
+	- Geometria analítica na reflexão especular de um único raio por plano xy
+		- Versor direção do raio incidente R
+		- Plano da superficie especular de reflexão
+			- Plano xy
+			- Calc: Equação do plano
+			- Calc: Versor nornal ao plano
+			- Calc: Escrita vetorial de todos os pontos do plano
+		- Plano de incidencia
+			- Calc: Escrita vetorial de todos os pontos do plano
+			- Calc: Versor normal ao plano de incidencia
+			- Calc: Equação do plano de incidencia
+		- Raio refletido
+			- Rule 01: Devem pertencer ao mesmo plano de incidencia
+			- Calc: Escrita de todos os raios percententes ao plano de incidencia
+			- Rule 02: Angulo de reflexão igual ao angulo de incidencia
+			- Calc: Produto escalar entre raio indicente/refletido com normal do plano de superficie é igual
+			- Result: Equação do raio refletido
+			- Note: It makes sense to be this way
+		- Resultado intuitivo
+			- Raios no plano de incidencia
+			- Reflexão na componente z
+	- Reflexão por uma "quina". "Corner Reflector".
+		- Calc: Reflexão de raio (x,y,z) com superficie y=0
+		- Calc: Reflexão de raio (x, y, z) com superficie x=0
+		- Calc: Reflexão em z=0, then y=0, then x=0.
+		- Note: Raio refletido é paralelo ao raio incidente
+	- Imagens em espelhos
+		- Ponto localizado próximo a um espelho.
+		- Observador visualizando imagem
+		- Note: What observer will see
+		- Note: Lei da reflexão: Pares de triangulos iguais
+		- Corpo extenso. "Inversão" de corpo extenso.
+	- Refração por um plano
+		- Objeto pontual S
+		- Refração de raios. Observador em outro meio.
+			- Note: Imagem S' formada acima de S
+			- Note: Intersecção não unica de raios
+		- Aproximação com pequenos angulos
+			- Angulos com a normal pequenos. Aproximação seno->tangente.
+			- Aplicação da lei de Snell Descartes
+			- Calc: Profundidade (vertical) aparente do objeto
+		- Note: This happens in a pool.
+		- Calc: Meio ar-água (like in a pool).
+	- Reflexão total interna
+		- Calc: Angulo com normal sendo 90 graus (Angulo de incidencia critico)
+		- Angulos maiores que incidencia critico: Reflexão total
+		- Note: Isso não ocorre em meio mais refringente para menos refringente.
+
+
+Imagem e sistemas ópticos
+	- Optical System
+		- Real Optical Space (RS). Ponto de objeto real: R.
+		- Optical System
+		- Imaging optical space (IS). Ponto do objeto imagem: I.
+		- Note: Principio da reversibilidade: RS<-->IS
+		- Note: Principio de fermat ==> All rays R<-->I are isochronous
+		- Def: Isochronous rays.
+	- Superfícies Cartesianas
+		- Formal Definition
+			- Superficies cartesianas de reflexão
+			- Superficies cartesianas de refração
+		- Equação geral de superficie cartesiana de reflexão
+			- Superficie de refração P(x, y). Pontos R, I.
+			- Calc: Tempo levado para a viagem R-->I por dois caminhos ( +trivial path)
+			- Calc: Relação entre o ponto P e R, I em termos de distancia: e.g.: d(P,R).
+				- Pontos R, I, com imagem I real.
+				- Pontos R, I, com imagem I virtual.
+				- Pontos R, I, com imagem no infinito.
+			- Note: Conic surfaces!
+		- Equação geral de superficie cartesiana de refração
+			- Superficie de refração P(x, y). Pontos R, I.
+			- Calc: Tempo levado para a viagem R-->I por dois caminhos ( +trivial path)
+			- Calc: Reescrita em termos das coordenadas x,y.
+			- Calc: Expressão da constante em termos de variaveis conhecidas
+	- Reflexão em uma superficie esférica
+		- Def: Centro de curvatura
+		- Def: Espelho concavo
+		- Def: Espelho convexo
+		- Reflexão em superficie esférica convexa
+			- Construção geométrica de um raio refletido (+trivial one)
+			- Relação entre angulos internos e externos do triangulo
+			- Relação entre distancia do objeto ao vértice, e imagem ao vértice
+		- Reflexão em superficie esférica côncava
+			- Construção geométrica de um raio refletido (+trivial one)
+			- Relação entre angulos internos e externos do triangulo
+			- Relação entre distancia do objeto ao vértice, e imagem ao vértice
+		- Convenção de sinal
+			- Positive distances: Real object/image.
+			- Convex mirror has positive radii.
+			- Calc: Formula unica para espelhos concavos e convexos
+		- Caso Especial: Espelho plano
+			- Superficie esférica refletora no limite de espelho plano
+			- Note: Distancias de objeto/imagem iguais (as it should be).
+			- Note: Negative sign: Real Object <==> virtual image. Virtual object <==> Real image.
+		- Caso Especial: Objeto no infinito: Raios incidentes paralelos entre si
+			- Calc: Distancia da imagem do objeto
+			- Def: Distancia focal
+			- Show: Equação do espelho esférico em função da distancia focal
+		- Magnificação de corpo extenso por espelho esférico
+			- Consider: Raio da ponta do objeto em direção ao centro de curvatura
+			- Consider: Raio da ponta do objeto em direção ao vértice do espelho
+			- Calc: Intersecção entre os dois raios
+			- Calc: Relação entre tamanho do objeto e da imagem.
+			- Def: Magnificação lateral
+		- Convenção de sinal para Magnificação lateral
+			- Convenção: Positive: Imagem Non-Inverted.
+			- Negative: Imagem Inverted.
+			- Aplicando convenção de sinal para magnificação lateral
+			- Formulação geral da magnificação lateral
+	- Refração em superfície esférica
+		- Consider: Superficie refratora esferica concava. Separa meios n1, n2.
+		- Remember: Lei de Snell
+		- Relação de angulo interno/externo em triangulo CPO e CPI.
+		- Aproximação paraxial: primeira ordem. Formula para superficie refratora.
+		- Formula para superficie refratora com convenção de sinal.
+		- Special Case: Limite para superficie refratora plana.
+		- Special case: Objeto no infinito. Raios paralelos.
+		- Magnificação lateral.
+	- Equação da lente fina
+		- Lentes finas
+			- Equações para lentes in medium (2 times refraction of spherical surface)
+			- Relação entre objetos/imagem das duas equações. Zero thickness Approximation.
+			- Equação da lente fina
+			- Lensmaker's equation (Eq. dos fabricantes de lente)
+				- Distancia focal da lente fina
+				- Calc: Caso especial para lente imersa em ar.
+			- Note: Lente convergente ==> Delays passage of light in middle ==> Thicker in middle ==> Lente convexa
+			- Calc: Magnificação lateral.
+		- Vergencia e poder de refratividade
+			- Remember: Thin-Lens equation
+			- Note: 1/s é curvatura do raio de luz indicente na lente centrada no objeto
+			- Note: Quanto maior a diferença de curvatura, a lente é mais "forte"
+			- Def: Vergencia
+			- Def: Poder de refratividade
+			- Def: Diopter
+	- Distancia focal equivalente: Thin-lenses placed together
+		- Remember: Equações das lentes finas
+		- Calc: Distancia focal equivalente de duas lentes juntas
+		- Calc: Poder de refratividade equivalente de duas lentes juntas
+		- Calc: Distancia focal de n lentes juntas
+		- Calc: Poder de refratividade de n lentes juntas
+	- Equação newtoniana da lente fina
+		- Posição de objeto/imagem expresso relativos ao foco
+		- Calc: Magnificação
+		- CAlc: Equação da lente fina
+		- Note: its simpler.. :).
+	- Equação da lente espessa
+		- Equações para refraçao entre os dois meios
+		- Relação entre objetos/imagem das duas equações. Real thickness consideration.
+		- Equação da lente espessa ainda em função de objeto/imagem intermediarios
+		- Equação da lente espessa
+		- Special case: Lente imersa no ar
+		- Special case: Objeto no infinito
+		- Special case: Limite de lente fina
+	- TODO: Cardinal points.
+	- Exemplos de sistemas opticos
+		- Example: 2 lentes finas separadas por distancia fixa.
+		- Example: 2 lentes espessas separadas por distancia fixa.
+		- Example: Màquina fotográfica: 6~8 thick/thin lens system
+		- http://kho.unis.no/News/images/Mechanics_NORUSCAII.jpg
+		- Note: Calculations only grow and GROOOOW quickly and mercelessly when system complexity increases just a bit.
+			- (optional) Calc: Consideração aproximada com volume de conta and amount of calculations
+			- (optional) Estimar papel gasto in the calculations.
+		- Note: We NEED a better method
+
+
+Métodos matriciais de óptica geométrica paraxial
+	- Descrição do método matricial	
+		- Localizar angulação e altura de um raio de luz
+		- Transformações lineares do valor inicial
+	- Ray-Transfer matrix (matriz de translação).
+		- Consider: Propagação retilinea de raio de luz.
+		- Coordenadas de altura de um raio movendo-se com determinada angulação
+		- Raio de luz percorre distancia L
+		- Calc: Novas coordenadas do raio de luz
+		- Calc: Aproximação paraxial das coordenadas do raio de luz
+		- Calc: Descrição matricial das coordenadas do raio de luz
+	- Refraction matrix.
+		- Consider: Mudança de meio de raio de luz por superficie esférica refratora
+		- Coordenadas de altura e angulação inicial de raio de luz
+		- Note: Não há mudança de altura durante a refração
+		- Calc: Mudança de angulação durante refração.
+		- Relação entre angulos com normal (refraction) e angulação (we want).
+		- Aplicação da forma paraxial da lei de snell.
+		- Note: Convenção de sinal
+		- Calc: Refraction matrix para superficie esférica refratora
+		- Special case: Matriz de refração para interface plana
+	- Reclection Matrix
+		- Consider: Reflexão de raio de luz por superficie esférica refletora especular
+		- Lei da reflexão.
+		- Calc: Matriz de reflexão
+		- Special case: Matriz de reflexão de espelho plano
+	- Construction of the Lens matrix
+		- Consider: Raio de luz em lente
+		- Refraction matrix and ray-transfer matrix
+		- Calc: Thin lens matrix. Note: Em função do foco.
+		- Calc: Thick lens matrix
+	- Optical System Matrix
+		- Angulação e altura final do sistema em função dos iniciais
+		- Escrita em termos lineares
+		- Study Case: First element null.
+			- Note: Raios paralelos com certa angulação. Draw it.
+			- Output plan: Second focal plan. 
+		- Study Case: Second element null.
+			- Note: Raio de ponto fixo leva a outro ponto fixo. Draw it.
+			- Plano conjugado
+			- Note: Magnificação de corpo extenso
+		- Study Case: Third element null.
+			- Note: Parallel ray input ==> Parallel ray output. Draw it.
+			- Called: Telescopic system
+			- Note: Magnificação angular de raio de luz
+		- Study Case: Fourth element null.
+			- Note: Raios em altura fixa e angulação varíavel. Draw it.
+			- Input plan: First focal plan.
+	- Theorem: Determinant of the optical system matrix
+		- Calc: Determinant of ray-transfer matrix
+		- Calc: Determinant of refraction matrix
+		- Calc: Determinant of reflection matrix
+		- Proof: Determinant of optical system matrix
+	- TODO: Cardinal points and matrix elements.
+
+
+Ray Aberration
+	- Definition
+		- Optical System
+		- Paraxial spherical wave front
+		- Actual aspherical wave front
+		- Def: Longitudinal Aberration
+		- Def: Lateral aberration
+		- Note: Blurred image.
+	- Refração por interface esférica
+		- Draw: Raio arbitrario sendo refratado de P para imagem I
+		- First order approximation: Fermat principle holds.
+		- Third order approximation: Fermat principle doesn't hold...
+		- Def: Aberration. Optical path difference: PQI, PVI.
+	- Calculo da aberração em-eixo por refração de interface esférica convexa. C.
+		- Calc: Aberration (its def under the example)
+		- Calc: Length at first medium com variaveis conhecidas e angulo com o raio
+		- Calc: Length at second medium com variaveis conhecidas e angulo com o raio
+		- Aproximação de terceira ordem do cosseno do angulo
+		- BIG CALC: Aberração em função de variáveis conhecidas e altura do raio
+		- Note: by def of aberration, it should be zero in the actual scenario (fermat principle)
+		- Note: Equação paraxial da refração. 
+		- Note: Only second order aberration approximation is zero (paraxial approximation)
+		- Note: Aberração de terceira ordem é proporcional à quarta potencia da altura
+
+
+TODO: Precise calculations (no approximations!)
+TODO: Ray Tracing. General surfaces. Etc.
+
+TODO: Optical instruments: Cameras
+TODO: Optical instruments: Microscopes
+TODO: Optical instruments: Telescopes
+TODO: Optics of the eye
+
+TODO: Trajetória da luz em meio inomogeneo 
+	- Moises 04. Analogia optico-mecanica. Principio de fermat para a mecanica.
+	- http://www.scielo.br/scielo.php?script=sci_arttext&pid=S1806-11172007000200006
+	- Calc: Atmosphere (estimate refraction index, calculate path of light). Atmospheric aberration.
+	- Other examples: Miragem, etc.
+	- Calculations: Adaptive Optics (Natural and Artificial (laser guided))

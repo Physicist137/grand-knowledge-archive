@@ -1,0 +1,189 @@
+TITLE:  Calculus 02C. Integral Surface Calculus
+	- Pre-requisitive: Calculus 02B.
+	- Co-requisitive: Linear Algebra 01.
+
+
+Integrais Duplas
+	- Formal Definition
+		- Divisão de Região R em quadriculados
+		- Numerando and summing then all
+		- Representando integral dupla (PUT THIS HERE?)
+	- Interpretação Geométrica: Volume sobre superficie f(x, y)
+	- Propriedades da integral dupla
+		- Integral da soma de funções
+		- Integral do produto por escalar
+		- Integral da união de regiões
+		- Theorem: se f(x,y) > 0 for all (x,y) in R ==> integral f > 0
+		- Corolary: se f(x,y) > g(x,y) for all (x,y) in R ==> integral f > integral g
+	- Calculo de Integrais duplas
+		- Type 1 region: f1(x) < y < f2(x) and a < x < b, f1, f2 continuas em [a,b]
+			- Integral iterada
+			- Single integral de A(x)
+			- Integral definida de A(x) como volume
+		- Type 2 region
+		- Example: z = x+y em região delimitada por y=x² e y=2x
+			- Identificação da região delimitadora
+			- Desenho da região delimitadora
+			- Integrando em região de tipo 1
+			- Integrando em região de tipo 2
+		- Example: integral 0 a 1  integral 4x a 4 e^(-y^2) dydx
+			- Note: Tipo 1 não tem solução analitica
+			- Identificando região
+			- Invertendo descrição da região
+			- Integrando em tipo 2
+		- Example: inverter ordem de integração e desenho geométrico da região
+			- integral dupla [2, -2] [sqrt(4-x^2), -sqrt(4-x^2)] f(x, y) dydx
+			- Região circular
+			- Exemplificando f(x,y)
+		- Example: Volume de elipsoide eliptico
+	- Mudança de variaveis na integral dupla
+		- Mudança de variavel
+		- Modulo do determinante da matriz jacobiana
+		- Validade da mudança:
+			- f é continua
+			- R e R' são finitas e do tipo I ou II
+			- determinante jacobiano diferente de zero
+			- determinante se anula em pontos finitos em R'
+		- Mudança por coordenadas polares
+			- Calculo do determinante da matriz jacobiana
+			- Integral dupla
+			- Visualização grafica: Mudança de variavel
+				- Região R formadas por retangulos de area
+				- Região R' formados por "retangulos polares"
+				- Calculo geometrico justificando jacobiano
+				- Intuition: Determinante da matriz jacobiana
+			- Example: Região circulo de raio 2, iint sqrt(x^2+y^2)dA
+				- Desenho geométrico de R
+				- Desenho geométrico de R'
+				- Calculo da integral
+		- Outras mudanças de variaveis
+			- Example: iint (x-2)^2 + (y-2)^2 dA, com R: (x-2)^2 + (y-2)^2 <= 4
+			- TODO: Insert more
+	- Volumes de sólidos
+		- Volume de paraboloide de revolução
+			- Example: Volume de h(x,y) = 4 - 2x² - 2y² acima do plano xy
+			- Paraboloide virado para baixo
+			- Paraboloide virado para cima (rotating liquid)
+		- Volume de paraboloide eliptico
+			- Example: h(x,y) = 4 - 2x^2 - y^2 acima do plano xy
+			- Mudança de coordenada para circunferencia
+			- Mudança de coordenada para polar
+			- Volume de paraboloide eliptico qualquer
+	- Área sobre superficie plana
+		- Região do tipo I
+			- f1(x) < y < f2(x)
+			- Coincide com integral simples
+		- Região do tipo II
+		- Example: x=y² e x+y=3
+		- What's different then?
+			- Aplicação do jacobiano
+			- Mudança de coordenadas
+		- Área de circunferencia
+		- Área de elipse
+	- Teorema de Green (duas dimensões)
+		- Warning: Valid para dominios simplesmente conexos
+		- Corolary: Área de regiões planas delimitadas por caminhos
+			- Formula 01  (xdy)
+			- Formula 02  (-ydx)
+			- Formula 01+02 (average)
+			- More...
+		- Example: Calcular área de elipse usando integrais de linha
+
+
+Integração e parametrização de superfícies
+	- Surface as f(x,y,z)=0
+		- Example: sphere
+		- Cartesian form is limited
+		- Curvas na forma cartesiana e paramétrica
+		- How to use parametric power in surfaces?
+	- Representação vetorial de superficies
+		- Parametrizaçao vetorial de superficies
+		- Example: S: (u, v, u^2+1)
+	- Equações vetoriais de algumas supercicies
+		- Parametrizando uma esfera de raio r
+			- Região paramétrica
+			- Coordenadas esféricas
+		- Parametrizando um cilindro
+		- Parametrizando um cone
+		- Parametrização de paraboloide de revolução
+			- Expressão cartesiana e parametrização
+			- Outra parametrização: circunferencia
+		- Parametrizando superficie toroidal
+			- Example: Bote salva vidas (http://en.wikipedia.org/wiki/Lifebuoy)
+			- Parametrization
+	- Curvas coordenadas
+		- Fixando parametro v: u-curva
+		- Fixando parametro u: v-curva
+		- Example: Curvas coordenadas da esfera
+		- Example: Curvas coordenadas de cilindro
+		- Example: Curvas coordenadas de torus
+		- Example: Curvas coordenadas de paraboloide de revolução
+		- Curvas pertendem à superficie
+	- Plano tangente e vetor normal
+		- Reta tangente à u-curva e v-curva
+			- Intuition: Plano tangente à superficie
+			- Intuition: Vetor normal à superficie
+			- Note: Escrita mais natural do vetor normal e plano tangente
+		- Equação vetorial da reta normal à superficie
+		- Equação vetorial do plano tangente à superficie
+	- Orientação de superficies
+		- Existe versor normal a S que varia de forma continua na superficie
+		- Determinação do versor normal a um ponto
+	- Área de uma superficie
+		- Intuition: Área de paralelogramo
+		- Formula de área
+		- Example: Área de superficie esférica
+		- Area sob parametrização (x,y,z(x,y))
+	- Integral de superficie de campo escalar
+		- Formal Def: int_S fds = int_R f(r(u,v))|uxv|dudv
+		- Integral sob parametrização (x,y,z(x,y))
+		- Example: f(x,y,z) = z - x^2 + xy^2-1, S: (u, v, u^2+1), 0<u<2, 0<v<5
+		- Property: Integral de S = S1 U S2 é soma das integrais
+		- Calculando uxv em termos de determinantes jacobianos
+		- More examples
+		- Note: Campo escalar f=1
+	- Integral de superficie de campo vetorial
+		- Intuition
+		- Elemento vetorial de área ds
+		- Calculation and definition
+		- Example: f = (x,y,z), S: Superficie exterior de esfera
+		- Example: f = (x,y,0), S: Superficie exterior de sólido x^2+y^2 <= 9, 0<z<4
+		- Notation: Desenvolvendo produto escalar within the integral
+		- Theorem: Integral sob campo vetorial é igual a integral sob campo escalar da componente na direção normal à superficie
+		- Equivalencia tridimensional da integral dupla e integral de superficie
+			- Intuition: Formula de área é mudança de coordenada parametrica tres vezes (tres eixos)
+			- Determinantes jacobianos nos planos xy, xz, yz para parametros uv
+			- Mudança de parametrização da integral dupla
+			- Generalização da integral dupla
+	- Teorema de Stokes
+
+
+Integrais Triplas
+	- Formal Definition
+	- Propriedades
+		- Multiplicação por escalar
+		- Soma de funções
+		- Região T = união de regiões
+	- Calculo de integrais duplas
+		- Type I: Volume delimitado por z1(x,y) e z2(x,y)
+		- Type II: Volume delimitado por y1(x,z) e y2(x,z)
+		- Type III: Volume delimitado por x1(y,z) e x2(y,z)
+		- Example: iiint xdv, T is x^2+y^2=25, x+y+z=8, z=0
+		- Example: iiint dv, T é delimitada x^2+y^2+z^2=4, x^2+y^2=3z
+	- Mudança de variaveis em integrais triplas
+		- Matriz jacobiana e determinante
+		- Integral tripla com mudança
+		- Example: Mudança para coordenadas cilindricas
+		- Example: Mudança para coordenadas esféricas
+		- Example: iiint xdV onde T x^2+y^2+z^2 <= a^2
+		- Example: iiint dV onde T x^2+y^2+z^2 <= a^2
+	- Calculo de Volume
+		- Intuição e interpretação
+		- Some examples
+
+
+Integração e parametrização de sólidos
+	- TODO: Parametrização de sólidos
+	- TODO: Integrais sobre sólidos.
+	- TODO: 
+

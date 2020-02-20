@@ -1,0 +1,211 @@
+TITLE: Quantum Mechanics 08: Measurement.
+	- Pre-requisitives: Quantum Mechanics 03.
+	- Co-requisitives:
+	- Recommended: Quantum Mechanics 07 (Zeno).
+
+
+
+The Measurement Problem
+	- Questions
+		- What is a measurement?
+		- What happens at a measurement?
+		- Recall: Theory: Measurement is the application of hermitian operator into quantum state.
+		- Recall: Measured value is one of its eigenvalues.
+	- The physicists position
+		- Realist Viewpoint: The particle has always had the property that we masured.
+		- Orthodox Viewpoint: Measurement forces system to take a stand. Creating attribute was not there previously.
+		- Agnostic Viewpoint: Its metaphysics. Can't be proven which. Lets ignore it.
+	- Spin state (spin up and spin down).
+		- Assume: Measurement of Sz of an unknown quantum system yields hbar/2 (measured spin up).
+		- Realistic Viewpoint: The spin has always been spin up. Hence why you measured it.
+		- Orthodox Viewpoint: Measurement has forced the system to decide to be in spin up.
+		- Agnostic Viewpoint: Why do we care? The theory is OK with experiment. Lets move on!
+	- The Realist Viewpoint.
+		- QM is incomplete. Only gives probability.
+		- Hidden variable Theory.
+	- Orthodox Viewpoint.
+		- Wavefunction becomes known after measurement.
+		- Def: Collapse of the wavefunction
+		- Wavefunction becomes an specific eigenstate (or eigen-vector-space in case of degenerate eigenvalue).
+		- Note: TISE and TDSE are deterministic equations. QM is deterministic. However:
+		- Note: Measurement makes time evolution non-deterministic. (Hence our theory is non-deterministic).
+		- Problem: Why do the nature care if we peak?
+
+
+EPR Paradox
+	- Named: Einstein-Podolsky-Rosen Paradox.
+	- There is also: EPRB: Version of EPR made by David Bohm.
+	- Pi Meson decay
+		- Neutron Pi Meson: No charge, no spin.
+		- Decays into: An electron and a position (charged, and spin-1/2).
+		- Center of mass frame: Pi meson in rest. Electron-positon pair goes to opposite directions.
+	- The spin state of the system
+		- Pi meson has spin zero.
+		- Conservation of spin: Electron-positron pair must have total spin zero.
+		- Conclusion: Electron-Positron pair are in the singlet state
+		- And wait a second.. they go into opposite directions!
+	- Spin detectors for the electron and positon pair (say.. Stern-Gerlach Machines)
+		- At first: Spin detectors might not be aligned.
+		- Assume: Spin detectors measuring parallel spin direction
+		- Then: If electron is measured in spin up, then positron must be measured in spin down.
+		- Then: If positron is measured in spin down, then electron must be measured in spin up.
+		- Experiment: Full agreement with experiment.
+	- Problems with the Orthodox View
+		- If the measurement *causes* the collapse, then they will decide states upon first measurement.
+		- What if: Separating the experiments far apart.
+			- Assume: No superluminar travel (the collapse takes time to arrive) (locality).
+			- Then: When electron is measured, there is no time (speed of light) to transmit that info to fellow positron.
+			- Then: One should measure sometimes both in spin up, or maybe both in spin down. (Violation of conservation of angular momentum).
+			- This is NOT in experimental agreement.
+		- Orthodox View in trouble.
+	- Locality and causality.
+		- Def: Locality.
+		- Def: Causality.
+		- If Orthodox view: Then there is Locality XOR causality.
+		- Note: One cannot have both locality nor both causality.
+		- Note: Relativity is already well established!
+		- Note: As you know, superluminal signals implies time travel possibility.
+	- Relativistic Frames of Reference
+		- In different frames, detectors can measure first.
+		- Frame A: Electron is detected with spin up before positron is measured.
+		- Frame B: Positron is detected with spin down before electron is measured.
+		- Orthodox View cleary in trouble
+	- Conclusion
+		- By view of the EPRB paradox, Orthodox view is very wrong.
+
+
+Bell's Theorem and Bell's Inequalities
+	- Observation of many pi-meson decays.
+		- Note: Either electron is measured in spin up or spin down.
+		- Note: Either positron is measured in spin up or spin down.
+		- Note: Data table with the values of spin (in units of hbar/2 ofc).
+		- Note: Evaluation of the product of the measured spins.
+	- Average of the product of the spins
+		- Calc: Average of the products of parallel detectors
+		- Calc: Average of the products of antiparallel detectors
+		- Calc: Average of the products of detectors in orientations a, b.
+	- Bell's Inequalities
+		- Assume: A hidden variable theory with hidden variable lambda.
+		- Note: Lambda can vary at will with one pion decay to the other. We do not control it.
+		- There exists A(a, lambda) function giving electron measurement. B(b, lambda) for positron.
+		- Note: Experiment indicates: A, B can only takes +1 or -1.
+		- Note: Aligned/Parallel detectors ==> Results perfectly anti-correlated (A = -B).
+		- Calc: Average of the product of the measurement. (assumption of a hidden variable density distribution).
+		- Calc: Writing average with only in terms of A.
+		- Calc: P(a, b) - P(a, c).
+		- Calc: Bell's Inequalities.
+	- Bell's Theorem
+		- Inequality relating ANY local hidden variable to the averages.
+		- Assume: a,b orthogonal, c,a makes 45degree. c,b makes ofc 45 degree.
+		- Calc: Bell's Inequalities for that special case.
+		- Calc: Quantum prediction for the average of products.
+		- Note: They are incompatible.
+		- THE THEOREM: All local hidden variables theories are INCOMPATIBLE with quantum mechanics.
+	- Conclusion of bell's Theorem:
+		- Either hidden variable is correct, or quantum mechanics is correct
+		- Note: Realistic and and orthodox views are rather correct or not.
+		- Note: Agnostic view is no longer acceptable
+		- Note: Bell provided experimental set up for answering that question
+	- Experiments of Bell's Inequalities
+		- Full agreement with QM.
+		- ERRRRR................................ How can that be?
+	- Conclusions of Bell's Experiment
+		- Experimental Conclusion: Nature is fundamentally non-local: Wavefunction superluminal collapse.
+		- Experimental Conclusion: Orthodox View is experimentally correct.
+		- Note: Collapse of entangled system leads to no superluminal information propagation
+		- Note: Despites nonlocal, collapse is not noncausal. (AT LEAST!! WHAT IF NOT? WOULD BE A DISASTER!)
+		- Question: Can I transmit information by means of state collapse?
+		- The core of why this happens: The positron and electrons spins are said to be "entangled"
+
+
+Quantum Entanglment
+	- Two Level System
+		- Recall: A quantum system will be in linear combination of two levels
+		- Recall: Both levels are orthonormal.
+		- Assume: Two quantum particles in a two-level system.
+		- Combined quantum state: Tensor product of the states.
+		- Calc: The combined quantum state
+	- Two-Particle Entangled State
+		- Formal Definition: Cannot be expressed as tensor product of two one-particle states.
+		- Note: Hence, we cannot talk about state of each particle.
+		- Theorem: alpha|ab> + beta|ba> cannot be expressed as |psi(a)>|psi(b)>, for any one-particle state
+		- Note: A quantum system in state alpha|ab> + beta|ba> is said to be "entangled" (both particles are entangled).
+	- Examples of Entanglet States
+		- The Singlet State
+		- The Bell State
+	- Comunication via entanglment
+		- Question: Can one comunicate via entanglment?
+		- Note: Entaglment collapse is superluminal. Superluminal comunication!
+		- Relativity: could be used to sent signals to the past!
+		- Question: Can one comunicate via entanglment?
+	- I CAN! Consider:
+		- Assume: Entangled quantum system (say.. something in bell state) (or kaon decay electron-positron pair).
+		- Assume: We give the two particles, to Alice and Bob. (Say..: Alice gets the electron, Bob gets the positron).
+		- Note: It is nice to notice the electron and the positron lifetimes are infinite. [smile].
+		- If Alice wants to transmit "yes" superluminally to Bob, Alice measures the electron spin.
+		- If Alice wants to transmit "no" superluminally to Bob, Alice won't measure the electron spin.
+		- Bob End: Produce a copy of positron state to several other positrons. Measure them up!
+		- Note: An "yes" or "no" has been transmitted, superluminally, via quantum entanglment. WHAAAAT?
+	- TODO: No Cloning Theorem
+
+
+
+Measurement: Collapse of a Quantum State
+	- Yes.. What is a measurement?
+	- Note: Measurement causes nonlocal collapse of the quantum state. It is thus important to know what exactly is a measure..
+	- Schrodinger's Cat
+		- Assume: Radioactive portion is inserted into box. Decay happens very slow.
+		- Assume: If photodetectors detects decay, then brokes a container of poison and cat dies.
+		- After an hour.. how is the cat? Quantum Prediction: Its in a superposition between alive and dead.
+		- If we measure... (open the box), we will collapse the wavefunction, and known in which state the cat will be.
+		- This is NONSENSE, Schrodinger Argued. Evidently cat is either dead or alive (realist view (already proven wrong!)).
+		- "I don’t like it (quantum mechanics) and I’m sorry I ever had anything to do with it. [flip to biology]" - Erwin Schrodinger.
+	- Effects on measurement in a transition
+		- Recall: Transition probability is proportional to t (since transition rate is constant).
+		- Calc: Probability system has not decayed (its in upper state) after a time t.
+		- Calc: Probability system has not decayed (its in upper state) after a time 2t.
+		- Note: Measuring the syste, collapses the wavefunction, and process restarts all over again.
+		- Calc: Probability system has not decayed after a measure in t, and a measure in 2t (ie, t and later t).
+		- Note: Its approximately the same.
+	- Effects on fast measurement in a transition
+		- Recall: Probability of transition of incoherent perturbation of a frequence distribution of EM energy density.
+		- Note: The result of dependence proportional t comes because we assume integral is peaked.
+		- Note: At very small time, this doesn't happen.
+		- Calc: Expansion for sin^2.
+		- Calc: Probability of a transition for veery fast t. (Note: Its quadratic).
+		- Calc: Probability system is measured in upper state (not decayed) after time t.
+		- Calc: Probability system is measured in upper state (not decayed) after time 2t.
+		- Calc: Probability system is measured in upper state (not decayed) after measurement in time t and 2t.
+		- Note: The act of measurement changed the transition probability.
+		- Calc: Probability of measuring system in upper state after n equally spaced at time-t measurements.
+		- Calc: What if n->inf? What happens then?
+	- Quantum Zeno Effect
+		- Also called: Watched Pot Phenomenon! (not much to do with zeno..).
+		- Watched Pot Phenomenon: A watched pot never boils! And a watched particle never decays!!
+		- Question: What is continuous observations?
+		- Question: Is a cloud chamber continuous observations?
+		- Note: Particle do decay in a clould chamber.
+		- Zeno Paradox Experiments.
+	- Conclusion
+		- Er... Is there one? We seems to have clouded even more what is a measurement.
+		- Question: What is a measurement?
+		- Question: What is the mechanism of collapse of a quantum state?
+		- Note: These are open problems.
+
+
+
+Quantum Mechanics Axioms
+	- Finally!
+		- Finally, we can now have the axioms of QM, and finally, start to build a theory for it.
+		- Yep! You heard right there. I said **start** to build a theory of Quantum Mechanics.
+		- This starts in list: Formal Quantum Mechanics 01.
+	- Sketch of the axioms of Quantum Mechanics
+		- Measurement is application of hermitian operator. (We already knew).
+		- Measured value is its eigenvalue. (We already knew).
+		- Measurement collapses the quantum state to an eigenstate (This one is new!)
+	- Question: How to deal with the wavefunction per say?
+	- Question: How to deal with probability density?
+	- Question: How to unify wavefunction and spin? They are both QM after all..
+
+
+

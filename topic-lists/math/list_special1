@@ -1,0 +1,65 @@
+TITLE: Special Functions 01:
+	- Pre-requisitive: Integration 02.
+	- Co-requisitive: Integration 03.
+
+
+http://dlmf.nist.gov/7
+http://dlmf.nist.gov/8
+http://dlmf.nist.gov/9
+http://dlmf.nist.gov/10
+...
+
+
+
+Bessel Differential Equation ==> Frobenius Method: Bessel Functions ==> Bessel Definition (using gamma) (ie, chosing nice a0).
+ ==> Relations d/dx(xv Jv) = xv Jv-1 and d/dx(Jv/xv) = -Jv+1/xv ==> Relations of Jv, Jv-1, Jv' ==> Bessel Differential Equation.
+Thus: All above items are equivalent. =).
+----
+Integer m: Jm(x) = (-1)^n Jm(x).
+Calc: Jv(0)
+Generating Function <==> Bessel Relations Jv, Jv-1, Jv' (which ofc, <==> Bessel Functions).
+----
+Properties: Using generating Function: Discrete Convolution, Sum of all bessels, Sum of square of bessels, etc.
+Inequalities: |J0(x)| <= 1,  |Jm(x)| <= 1/sqrt2
+----
+Calc: Wroskian. Linear Independence between Jv, J(-v), v non integer. (wroskian).
+----
+Orthogonality. Integration of Bessel Function. Integration of square of bessel function.
+Assymptoptic expansion.
+Rodrigues Formula.
+Integral Representation.
+----
+Jacobi-Anger Expansion.
+----
+-----
+----
+Spherical Bessel Functions.
+Neumann Functions. Relation to Bessel Functions.
+Wroskian calc: Linear independence between Bessel Functions and Neumann Functions.
+Spherical Neumann Functions. Relation to Bessel Functions.
+Cylindrical Harmonics.
+Modified Bessel/Neumann Functions. Bessel Functions of Second Kind.
+Hankel Functions.
+----
+Complex Bessel Function. Analytic Continuation.
+Modified Bessel Functions.
+Modified Neumann Functions.
+----
+Airy Functions. Relation to Bessel Functions. Integral Representations. Assymptotic Sums. Complex Airy Functions.
+----
+Fourier-Bessel Series.
+Hankel Transform. https://en.wikipedia.org/wiki/Hankel_transform. Inverse existance/unicity.
+Building up Hankel Transform Table.
+----
+Laplace Transform of Bessel Functions.
+Fourier Transform of Bessel Functions.
+Other transforms of bessel functions.
+---
+Maybe: Lommel Polynomials. Bessel Recurrence relation. https://en.wikipedia.org/wiki/Lommel_polynomial.
+Maybe: Neumann Polynomials. Expansion in terms of bessel Functions. https://en.wikipedia.org/wiki/Neumann_polynomial
+Maybe: Bessel Polynomials. Bessel Filter. https://en.wikipedia.org/wiki/Bessel_polynomials. https://en.wikipedia.org/wiki/Bessel_filter.
+---
+Maybe: Lommel Functions. Lommen Differential Equation. https://en.wikipedia.org/wiki/Lommel_function
+Maybe: Struve Functions. Struve Differential Equation. https://en.wikipedia.org/wiki/Struve_function
+---
+Very Maybe: https://en.wikipedia.org/wiki/Anger_function

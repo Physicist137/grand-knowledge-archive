@@ -1,0 +1,176 @@
+TITLE:  Basic Introduction to ODE (Ordinary Differential Equations)
+	- Pre-requisitive: Calculus 01.
+	- Co-requisitive: Linear Algebra (2nd order)
+
+Sequences
+	- Intuition: Sequences
+	- Def: Sequences
+		- Exemplos de sequencias
+			- Def por termo geral
+			- Def recursiva
+		- Intuição: limite da seq
+		- Limite real (comparison)
+	- Def: Limite de sequencia
+		- Limite de 1/n
+	- Def: Divergencia a inf
+	- Def: Divergencia a -inf
+	- Limites infinitos
+	- Propriedades de sequencia e limites
+		- Limite da soma é soma dos limites
+		- Limite do produto é produto dos limites
+	- Teorema do confronto
+	- Teorema da composição de sequencia: se lim an = L, e se f continua ==> lim f(an) = f(L)
+	- Teorema da Função continua: lim f(x) = L  ==> lim f(n) = L
+	- Teorema: lim |an| = 0    ==>  lim an = 0
+	- Def: Sequencia Crescente
+	- Def: Sequencia decrescente
+	- Def: Sequencia Monótona
+	- Def: Sequencia limitada
+	- Teorema: Se seq é monótona e limitada ==> limite existe
+	- Teorema: Se limite=L existe para seq >= 0 ==> L >= 0
+	- Corolario: Se limites existem, an <= bn   ==>  lim an <= lim bn
+	- Teorema: Se lim a2k = lim a(2k+1) = L  ==> lim an = L
+
+Séries
+	- Intuition: Series e seq parcial
+	- Def: Série
+	- Def: Soma parcial da série
+	- Teste da Divergência
+	- Nice Examples
+		- an = 1/(n(n+1))
+		- an = x^(n-1), |x| < 1
+		- an = (n+1) / n
+		- an = (-1)^n
+		- an = 1/n
+	- Propriedades de séries:
+		- Se sum an converge  ==>  sum h an  =  h sum an
+		- Se sum an diverge   ==>  sum h an  diverge
+		- Se sum an, sum bn converge  ==> sum (an + bn) = sum an + sum
+		- Se sum an e bn divergem  ==/==> sum(an + bn) diverge
+	- Theorem: Teste de comparação
+	- Teorema da razão
+	- Teorema da raiz
+
+
+Equação diff ordinaria de primeira ordem
+	- Intuition definition
+	- Intuitive examples
+		- y' = y
+	- Definitions
+		- Def: Função linear
+		- Def: Operador
+		- Def: Operador linear
+		- Def: Operador diferencial
+		- Def: Operador diferencial ordinario
+		- Def: Ordem do operador diferencial
+		- Def: Equação diferencial ordinaria (ODE)
+		- Def: ODE Linear
+		- Def: ODE Linear Homogenea
+		- Def: ODE Linear não homogenea
+	- Equation y' = y
+		- Soluções
+		- Solução Geral
+		- Proof: Unicidade da solução
+	- Examples
+		- y' = yx
+		- y' = -x/y
+		- y' = f(x)y
+		- y' = f(x) (y^2 + 1)
+	- ODE linear homogenea: formato e solução geral
+	- ODE linear não homogenea
+		- Formato geral
+		- Fator Integrante
+		- Solução Geral
+	- ODE e integral definida
+		- Problema de Valor inicial (IVP)
+		- Proof: Unicidade da solução geral em ODE linear
+		- Solução Geral de IVP em ODE linear
+	- Interpretação Geometrica
+		- Slope fields
+	- ODE separaveis: formato e solução geral.
+	- ODE de Bernoulli: formato e solução geral.
+	- ODE de Ricatti: formato e solução geral
+	- ODE de coef. Homogeneos
+		- Def: Função homogenea de 1 variavel.
+		- Def: Função homogenea de 2 variaveis.
+		- Def: Função homogenea de n variaveis.
+		- Def: Grau de homogeneidade
+		- Formato Geral
+		- Solução Geral
+	- ODE exata
+		- Função potencial
+		- Formato Geral
+		- Condições de exaticidade
+			- Derivada total de f
+			- Derivada de segunda ordem de f (dxdy)
+		- Solução Geral
+			- Proof: g'(y) da integração independe de x.
+			- Achando função potencial f
+			- General Solution
+		- Fator integrante exato
+			- Proof: Separavel é exata
+			- Proof: Linear homogenea ==> separável ==> exata
+			- Proof: Linear não homogenea com integrante é exata
+			- Intution: Fator integrante da linear não homogenea
+			- Definition
+			- Como calcular
+			- Solução geral com fator integrante exato
+	- ODE de segunda ordem
+		- Redução à primeira ordem
+		- Solução geral
+	- Equaçao Geral de qualquer ODE
+		- Solução Geral
+	- Curvas ortogonais
+		- Definition
+		- Calculation
+		- Example: y = cx
+
+Equação diferencial ordinaria de segunda ordem
+	- Escrita geral de ODE linear
+	- Example: y'' = y
+		- Some solutions
+		- Como verificar se temos solução geral
+	- Def: Independencia linear de funções
+	- Def: Dependencia linear de funções
+	- Solução como espaço vetorial
+		- Dimensão do espaço vetorial
+		- Matriz Wroskiana
+		- Determinante da matriz Wroskiana
+	- ODE Linear homogenea
+		- AChar solução geral given particular solution
+		- Y = k(x)y(x)
+	- ODE Linear homogenea de coeficientes constantes
+		- Assumir solução y = e^pt
+		- Polinomio caracteristico e raizes
+			- Raizes reais e diferentes
+			- Raizes reais e iguais
+			- Raizes complexas não reais
+	- ODE Linear não-homogenea de coeficientes constantes
+		- Theorem: Solução geral da homonenea + particular da nao homonenea
+		- Theorem: Existe solução particular y = c1(x)p1(x) + c2(x)p2(x) com p1 e p2 soluções LI da homonenea
+			- Determinando c1 e c2
+			- Checando independencia linear
+		- Solução geral da equação linear nao homonenea de coeff constantes
+	- ODE de Euler-Cauchy: x^2y'' + xpy' + qy = 0
+		- Substituição x = e^t
+		- Solução geral
+	- Solução de equações lineares usando séries de potencia
+		- Example: y' + y = 0
+		- Example: y'' + xy = 0
+		- Example: x^2 y'' + 4xy' + 2y = ln(1+x)
+		- Example: 4xy'' - 2y' + 9x^2 y = 0
+		- Generalização
+	- Transformadas de Laplace
+		- Formal Definition
+		- Dominio de convergencia da transformada
+		- Theorem: Transformada é operador linear
+		- Theorem: Existencia de inversa
+		- Example: Transformada de y = 1
+		- Example: Transformada de y = t
+		- Example: Transformada de y = t^2
+		- Example: Transformada de y = e^(at)
+		- Example: Transformada de y = t^n
+		- Calc: Transformada da derivada de y
+		- O poder da transformada de laplace nas ODEs
+			- Derivatives --> Multiplications
+			- Example: y'' + y = 0

@@ -1,0 +1,121 @@
+TITLE: Matematica Discreta Básica
+	- Pre-requisitives: NONE
+	- Co-requisitives: NONE
+
+
+Naive Mathematical Logic.
+	- Definições de logica
+		- Def: Valor: Verdadeiro/Falso.
+		- Def: Sentença.
+		- Def: Negação. Its symbol.
+		- Intuition: Implicação. Note: No regard if first sentence is true or not.
+	- Definitions exemplares
+		- Def: Numero Natural
+		- Def: Numero par. Numero impar.
+		- Def: Numero racional. Numero irracional.
+	- Sentenças verdadeiras (Theorems)
+		- Proof: Soma de dois pares, é um numero par.
+		- Proof: Soma de dois impares, é um numero par.
+		- Proof: Multiplicação (por 2) de numero impar, é um numero par.
+		- Proof: Quadrado de numero par é numero par.
+		- Proof: Quadrado de numero ímpar é numero impar.
+	- Fully definition of some mathematical object
+		- Example: Def: Tres pontos A,B,C são colineares sse passa uma reta pelos tres pontos.
+		- Note: To be fully identified.. you need to know def of dot, and reta.
+		- Try out: Def: Reta.
+		- Try out: Def: Ponto. (or more).
+		- Note: No way to define mathematical entity.
+	- Münchhausen trilemma
+		- Infinite regression of definitions
+		- Circular definitions (no definition at all...)
+		- Axiomatic Argument
+
+
+
+Logica Matematica Clássica Proposicional
+	- Metodo axiomatico da matematica
+		- Example: Geometria Plana Euclidiana
+			- Axiom 01: "To draw a straight line from any point to any point."
+			- Axiom 02: "To produce [extend] a finite straight line continuously in a straight line."
+			- Axiom 03: "To describe a circle with any centre and distance [radius]."
+			- Axiom 04: "That all right angles are equal to one another."
+			- Axiom 05: The parallel postulate.
+		- Subsituição do nomes das coisas não altera
+		- Then, what holds it together and making sense? Logic!
+	- Axiomas da logica classica
+		- Axiom 01: Principio da identidade
+		- Axiom 02: Principio da não-contradição.
+		- Axiom 03: Principio do meio-excluído
+		- Curious: Existem logicas contraditivas (logicas paraconssistentes)
+	- Principio do meio excluido
+		- Questionamentos: Some cases, one might not say if it is true or not.
+		- Aplicação: Prova: existe a^b racional, tal que a, b seja irracional
+	- Axiomas da Igualdade matematica
+		- Axioma 01: Reflexividade
+		- Axioma 02: Simetria
+		- Axioma 03: Transitividade
+		- Axioma 04: Substituição por iguais
+	- Linguagem da lógica
+		- Def: Linguagem da logica proprosicional classica
+			- Simbolos de proposição
+			- Simbolos logicos ou conectivos
+			- Simbolos auxiliares (parenteses)
+		- Conectivos unarios
+		- Conectivos binarios
+		- Note: Sequencias de simbolos podem ser colocadas arbitrariamente.
+		- Note: We need a "grammar".....!
+	- Def: L-Formulas.
+		- Def: L-Formula ou L-Sentença
+		- Def: Formulas Atômicas.
+		- Def: Formulas compostas/complexas.
+		- Example: Demonstrar que certa sequencia de simbolos eh uma L-formula
+		- Example: Demonstrar que certa sequencia de simbolos NAO eh uma L-formula
+	- Tabelas verdade dos conectivos lógicos.
+		- Negação (conectivo unario)
+		- Conjunção (conectivo binario). AND.
+		- Disjunção (conectivo binario). OR.
+		- Implicação (conectivo binario).
+	- Exemplos: Tabelas verdades. Força bruta. (Optional).
+		- Possiveis valores para A, B.
+		- Valores !A e !B
+		- Todas as combinações AND para A, B, !A, !B
+		- Todas as combinações OR para A, B, !A, !B
+		- Note: Comparar com A --> B.
+		- Note: Comparar com B --> A.
+		- Note: Comparar com !(A --> B).
+		- Note: Comparar com !(B --> A).
+		- Note: Comparar com A <--> B.
+	- Conectivo de equivalencia logica
+		- Def: Equivalencia logica
+		- Tabela verdade da equivalencia logica
+		- Note: Equivalencia ocorre quando há o mesmo valor verdade
+	- Tautologias, contradições e L-formulas satisfatíveis
+		- Def: Tautologia
+		- Def: Contradição
+		- Def: Satisfatível
+		- Example: Tautologia
+		- Example: Contradição
+	- Equivalencia e implicação lógica
+		- Def: Implicancia lógica entre L-Formulas (A ==> B. A implica logicamente em B).
+		- Def: L-Formulas logicamente equivalentes (A <==> B). A e B são logicamente equivalentes.
+	- Theorem: Negação de implicação
+		- !(p --> q)
+		- !p --> !q
+		- !q --> !p
+		- Note: Verificar quais são iguais
+		- {!(p --> q)} <--> {!q --> !p}
+		- Note: Logicamente equivalentes.
+		- Theorem: !(p --> q)  <==>  !q --> !p
+		- Theorem: !(p --> q)  <==>  !q --> !p
+	- Métodos de provas matemáticas
+		- Prova por contraposição
+		- Prova por contradição
+		- Example: Proof: se a^2 é par, então a é par
+			- Prova por contraposição
+			- Prova por contradição
+
+
+Naive Set Theory (TODO)
+Combinatorics (TODO)
+
+TODO: https://en.wikipedia.org/wiki/Inclusion%E2%80%93exclusion_principle

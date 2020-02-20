@@ -1,0 +1,316 @@
+TITLE: Calculus 01: Real-Variable Calculus
+	- Pre-Requisitive: Pre-Calculus, Elementary Algebra, Trigonometry.
+	- Co-Requisitive: None
+
+Continuidade de funções em R
+	- Intuição de Continuidade
+	- Definição Formal
+		- Note: Continuidade é definida para um ponto
+		- Def: Função continua
+	- Prova: Função constante é continua
+	- Prova: Função linear é continua
+	- Prova: Função afim é continua
+	- Prova: Função x² é continua
+	- Prova: Função x³ é continua
+	- Prova: Função x^n é continua
+	- Prova: Função exponencial é continua
+	- Teorema: Soma de continuas é continua
+	- Teorema: Produto de continuas é continua
+	- Corolario: Todo polinomio é continuo
+	- Teorema: Composição de continuas é continua
+	- Def: Função continua por partes
+
+
+Limites de funções
+	- Intuição de limite
+	- Definição formal
+	- Teorema: Unicidade do valor do Limite
+	- Teorema: Relação entre limite e continuidade
+	- Propriedades dos limites
+		- Theorem: Limite das somas é soma dos limites
+		- Theorem: Limite dos Produtos é igual a produto dos limites
+		- Theorem: Limite da divisão é divisão dos limites
+		- Conservação do Sinal
+	- Limites Laterais
+		- Intuição
+		- Definiçao: Limite lateral à esquerda
+		- Definição: Limite lateral à direita
+	- Limite da função composta
+	- Teorema do Confronto
+	- Limite fundamental trigonométrico
+	- Limites no Infinito
+		- Intuição
+		- Definição formal
+		- Examples
+		- Interpretação Geométria: Assintota Horizontal
+	- Limites Infinitos
+		- Intuição
+		- Definição formal
+		- Examples
+		- Interpretação Geométria: Assintota Vertical
+	- Limite de Sequência
+		- Def: Sequencia
+		- Intuition
+		- Definition
+		- Examples
+	- Propriedade do supremo
+		- Def: Maximo de A
+		- Def: Minimo de A
+		- Def: Cota superior
+		- Def: Cota inferior
+		- Def: Supremo de A
+		- Def: Ínfimo
+		- Numeros reais: Propriedade do supremo
+		- Propriedade de arquimedes
+	- Teorema do Anulamento
+	- Teorema do Valor Intermediario
+	- Corolário: Teorema de Weierstrass
+	- Limite Fundamental Exponencial
+		- Prova: Sequencia S: (1 + 1/n)^n converge
+		- Prova: Limite de S.
+		- Definition: Logaritmo natural
+		- Examples
+
+
+Derivadas e técnicas de derivação
+	- Intuition
+	- Formal Definition
+		- Reta secante
+		- Aproximações da reta tangente
+		- http://upload.wikimedia.org/wikipedia/commons/3/34/Sec2tan.gif
+	- Examples: Calculating inclination
+		- Numerical examples: x^2
+		- Calculating tangent lines
+		- Analytical examples
+	- Example: Calculo geral da reta tangente
+	- Proof: Função modular não derivável em p=0
+	- Derivada de x^n
+	- Derivada root_n(x)
+	- Derivada da função exponencial
+	- Derivada da função logaritmica
+	- Derivada das funções trigonométricas
+		- Derivada do seno e cosseno
+		- Derivada da tangente
+		- Derivada da secante
+		- Derivada da cotangente e cossecancte
+	- Teorema: Derivabilidade ==> Continuidade
+	- Técnicas de Derivação
+		- Derivada da soma
+		- Derivada do Produto por escalar
+		- Regra do Produto
+		- Regra do Quociente
+	- TODO: Regra de Leibniz
+		- TODO: https://en.wikipedia.org/wiki/General_Leibniz_rule
+	- Regra da cadeia: Derivada da composta
+		- Derivada da função inversa
+			- Caso Geral
+			- Caso trigonométrico
+			- Is 1/(dy/dx) = dx/dy ?
+		- Example: Prove that differentiable even functions has f'(0) = 0
+	- Derivada das funções trigonométricas hiperbólicas
+		- Derivada do seno e cosseno
+		- Derivada da tangente
+		- Derivada da secante
+		- Derivada da cotangente e cossecancte
+	- Derivadas de Ordem Superior
+		- Formal Definition
+		- Derivada de zerezima ordem. Primeira ordem.
+		- Derivada de segunda ordem.
+	- Diferencial
+		- Interpretação dos d's
+		- Aproximações de funções
+		- Application: Calculo numerico
+		- Note: This is not formal!
+	- Example: Derivada de f(x)^g(x).
+	- Derivada de função implicita
+	- Quociente Diferencial
+	- Aplicações
+		- Reta tangente de função
+		- Reta tangente de cônicas
+		- Reta normal
+	- Teorema de Rolle
+	- Teorema do Valor Médio (TVM)
+	- Teorema de Cauchy
+		- Note: Try out identity function
+		- Note: Generalization of TVM
+
+
+Aplicações da Derivada
+	- Analise do gráfico de funções
+		- Intervalos de crescimento e decrescimento
+			- Theorem: f' > 0 para x interior I ==> f crescente em I
+			- Theorem: f' < 0 para x interior I ==> f decrescente em I
+		- Concavidade da função
+			- Theorem: f'' > 0 para x interior I ==> f concavidade para cima
+			- Theorem: f'' < 0 para x interior I ==> f concavidade para baixo
+		- Máximos e Mínimos
+			- Def: Máx, Mín global
+			- Def: Máx, mín local
+			- Theorem: Max,Min local ==> f'=0
+				- Corolary: f'(x) != 0 ==> not max or min local
+				- Def: Local optima  (ou ponto critico)
+				- Examples: x^2, x^3
+			- Theorem: f'(p) = 0 e f''(p) > 0 ==> p é minimo local
+			- Theorem: f'(p) = 0 e f''(p) < 0 ==> p é maximo local
+		- Assíntota de Funções
+			- General definition
+			- Coeficiente angular
+			- Coeficiente linear
+			- Example: Assíntota de hiperboles
+		- Esboço gráfico de funções
+			- Análise de Intervalos de Crescimento e decrescimento
+			- Análise de Concavidade e pontos de inflexão
+			- Análise de assintotas horizontais e verticais
+			- Esboço Gráfico
+	- Regra de L'Hospital
+		- 1a regra: 0/0 case
+		- 2a regra: inf/inf case
+		- Be careful: It might be a circular reasoning!
+		- Eg: Lim x->0 sin x / x. How to prove [sin x]' = cos x?
+	- TODO: Teorema da função inversa: https://en.wikipedia.org/wiki/Inverse_function_theorem
+	- TODO: Theorem: if f'(x) > 0 for all x ==> f is injective.
+	- TODO: Theorem: if f'(x) < 0 for all x ==> f is injective.
+	- Polinomio de Taylor
+		- Objective: Aproximação de funções
+		- Revision: Def: Fatorial
+		- Calc: reta tangente T de função f
+		- Nota: f(x) = T(x) + E(x), E: erro
+		- Calc: E(x) / (x-x0)
+		- Nota: lim E(x) / (x-x0) = 0
+			- Interpretation: E(x)-->0 faster
+			- Theorem: Unicidade da função afim com tal propriedade
+			- Corolary: T é a melhor aproximação local
+			- Nota: T(x0) = f(x0)  and  T'(x0) = f'(x0)
+		- Expressão do erro e sua derivada
+			- Isolando erro e calculando derivada
+			- Nota: E(x0) = E'(x0) = 0
+			- Aplicação do Teorema de Cauchy
+			- Expressão do erro envolvendo segunda derivada
+		- Polinomio aproximador com expressão do erro
+			- Example: calc ln(1,003) e o erro cometido
+			- Example: sqrt(3.9) e o erro cometido
+		- Polinomio de Taylor de ordem 2
+			- Calc: Função tal que f(x0) = T(x0),  f'(x0) = T'(x0),  f''(x0) = T''(x0)
+			- Calc: lim E(x) / (x-x0)^2  =  0
+				- Theorem: Unicidade de polinomio de grau 2 com tal propriedade
+				- Corolary: T é melhor aproximação local de ordem 2
+			- Expressando erro
+				- Aplicação do teorema de Cauchy
+				- Erro em funçao de terceira derivada
+			- Examples e calculo de erro cometido
+		- Polinomio de Taylor de ordem 3
+			- Calculation
+			- Calc: lim E(x) / (x-x0)^3 = 0
+			- Expressando erro em função de quarta derivada
+			- Example: Local optima analysis caso f' = 0 e f'' = 0
+			- Exemplos de aproximação
+		- Polinomio de Taylor de enésima ordem
+			- Calculation
+			- Calc: lim E(x) / (x-x0)^n = 0
+			- Resto de Lagrange
+			- Graphing: Funções aproximadas por polinomio de Taylor
+			- Examples
+
+
+Integral e Técnicas de Integração
+	- Definição: Integral Indefinida
+	- Mudança de Variável na Integral
+	- Integrais Imediatas
+		- Integral de Polinomios
+		- Integral de funções trigonométricas (sin, cos, sec²)
+		- Integral de 1/x
+		- Integral de x^b, for b cte.
+	- Tecnica: Integral da forma f(g(x)) g'(x)
+		- Example: x cos(x^2)
+		- Example: e^(ax)
+		- Interpretação com diferenciais
+			- Substituição em u, du
+			- Tratar diferenciais as numbers
+			- Note: This is WRONG and not formal
+		- Example: cosx sin^b x
+		- Example: a/(1 + x)
+		- Example: ax / (1 + x^2)
+	- Tecnica: Integração por partes
+		- Formal Calculation
+		- Intuition com diferenciais
+		- Integral do produto de funções
+		- Relação entre integral de função e integral da inversa
+		- Example: xcosx
+		- Example: Funções trigonometricas inversas
+		- Example: e^x cosx
+		- Example: x lnx
+		- Example: sec x
+		- Example: sec^3 x
+	- Tecnica: Mudança de variaveis
+		- Formal Calculation
+		- Example: sqrt(1-x^2)
+		- Example: sqrt(degree 2 polinomio)
+	- Tecnica: Frações parciais
+		- Polinomio com lower degree no numerador
+			- Raizes no denominador diferentes
+			- Raizes iguais
+		- Polinomio com degree superior
+			- Divisão de polinomios
+			- Transform into lower degree
+	- Integrais de produtos de seno e cosseno
+	- Integrais de potencia de seno e cosseno
+	- Integrais de solução não elementar
+		- Algoritmos com funções aproximadoras
+			- Integral de e^(x^2) de 0 a 1 com erro menor que E
+			- Integral de e^(-x^2) de 0 a 1 com erro menor que E
+
+
+Aplicações de Integral
+	- Soma de Riemann
+		- Partição de Intervalo
+		- Def: Área de gráficos
+		- Limite da soma de Riemann
+		- Primeiro Teorema Fundamental do Calculo
+		- Integral de Riemann
+	- Theorem: 1o Teorema Fundamental do Calculo
+	- Definição: Integral Definida
+	- Propriedades da Integral Definida
+		- Integral da soma
+		- Integral do produto por escalar
+		- Conservação do Sinal
+		- Integral de partições sequenciais
+	- Calculo de Areas
+		- Area de circunferencia
+		- Area de ellipse
+		- Area de parabola
+		- Area de Hiperbole
+	- Interpretação de Área de funções trigonometricas
+		- Relação de area
+		- Generalization: Other trigonometric functions
+		- Calculo das funções trigonométricas circulares (normal ones)
+		- Calculo das funções trigonométricas hiperbólicas
+		- Calculo de funções trigonométricas parabolicas
+		- Calculo de funções trigonométricas ellipticas
+		- Generalização de funções trigonometricas
+	- Volume de sólido de rotação
+		- Eixo X
+		- Eixo Y
+		- Eixo qualquer
+	- Example de calculos de volume
+		- Paraboloide de revolução
+		- Hiperboloide de revolução
+		- Elipsoide de revolução
+	- Área da superficie de Revolução
+		- Area de superficie da esfera
+		- Area de superficie da elipsoide de revolução
+		- Area de superficie de paraboloide de revolução
+		- Area de superficie de hiperboloide de revolução
+	- Comprimento de Gráfico de Função
+		- Comprimento de circunferencia
+		- Comprimento de Elipse
+		- Comprimento de Parabola
+	- Comprimento de Curva em forma paramétrica
+	- Área de curvas em coordenadas polares
+		- Area de circunferencia
+		- Area de conica em geral
+		- Area de cardioide
+	- Comprimento de Curvas em coordenadas polares
+		- Comprimento de circunferencia
+		- Comprimento de conica em geral
+	- Centro de Massa
+	- Teorema de Papus

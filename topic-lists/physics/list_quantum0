@@ -1,0 +1,474 @@
+TITLE: Quantum Mechanics 00: Early Quantum Theory: Matter and radiation.
+	- Pre-requisitives: None?
+	- Co-requisitives: Relativity 01, Fisica 03
+	- Recommended co-requisitive: Atomic Theory 01.
+
+
+
+Physics of the 19th century (TODO)
+	- Newtonian Mechanics
+	- Lagrangian / Hamiltonian Formalism
+	- Electromagnetism
+	- Unexplained phenomena
+		- BlackBody Radiation
+		- Photoelectric effect
+		- Bright line spectra of elements
+	- TODO: Falas such as: "physics is fully complete =)"
+
+
+Thermal Radiation
+	- Remember: Thermal equilibrium
+		- Def: BlackBody.
+		- Def: GrayBody.
+		- Emission/absorption of radiation. Relation with temperature
+		- Thermodynamic equilibrium. Consequences to emission/absorption.
+	- Remember: Thermal Radiant Exitance
+		- Stefan-Boltzmann Law.
+		- Stefan-Boltzmant constant value.
+		- Example: Calc: Radiant Exitance of sun
+		- Example: Calc: Power radiated by 1cm² of solar surface.
+	- Spectral Radiance
+		- Distribution of electromagnetic spectrum of thermal radiation
+		- This is our objective!
+	- BlackBody Radiation
+		- Radiation released by heaten cavity
+		- Note: Meets the def of blackbody radiation! =).
+		- Def: Cavity Radiation
+		- Relação: Energy density inside cavity. Radiant power released by orificio.
+	- Cavidade unidimensional.  |   |
+		- Assumption: Cavidade em equilibrio térmico
+		- Note: Ondas eletromagnéticas dentro da cavidade unidimensional.
+		- Equação de onda eletromagnética
+		- Solução da equação de onda eletromagnética na cavidade
+		- Note: Equilibrio térmico ==> Condição de fronteira: Nós nas paredes
+		- Note: Padrão de ondas estacionário
+		- Calc: Discretização dos comprimentos de onda presentes na cavidade
+		- Calc: Numero dos valores permitidos de frequencia entre v e Delta v.
+	- Cavidade cúbica tridimensional
+		- Assumption: Cavidade em equilibrio térmico
+		- Note: Nós nas paredes. Padrão de ondas estacionário.
+		- Função da onda
+			- Direção especificada por cossenos diretores
+			- Separação de eixos: x, y, z.
+		- Calc: Numero dos valores permitidos de frequencia entre v e Delta v.
+		- TODO: More details
+	- Formula de Rayleigh-Jeans para radiação de corpo negro
+		- Aplicação do teorema de equipartição de energia
+		- Energia total média de cada onda estacionária
+		- Calc: Densidade de energia eletromagnética na cavidade
+	- Radiância espectral
+		- Plot: Radiancia espectral de Rayleigh-Jeans
+		- Plot: Experimental results.
+		- Hmm.... We have a problem.
+		- This is a catastrophe! 
+			- Worse prediction of physics, in the epoch.
+			- Ultraviolet catastrophe.
+		- Conclusion: There is a hole somewhere in:
+			- Classical Electromagnetism OR
+			- Classical Thermodynamics OR
+			- Classical Statistical Mechanics.
+		- An catastrophe indeed...!
+
+
+Modelo Quântico da Radiação Térmica
+	- Theory usage
+		- Wave Equation of Electromagnetism.. hmm... That can't be wrong! It even survived relativity!!
+		- Stefan-Boltzmann of classical thermodynamics.. hmm... It has full experimental support!!
+		- Energy equipartition of classical statistical mechanics. hmmmmmm...... será?
+	- Talvez: Violação da lei de equipartição de energia
+		- Maybe... Just maybe... A energia não se divide de maneira uniforme
+		- Experimental curve: Frequencias baixas: Não há violação da equipartição de energia.
+		- Experimental curve: Frequencias altas: Energy zeros out.. Hmmm CLEARY violation of equipartition.
+		- Experiment suggests that: Energia é dependente da frequencia
+	- TODO: Dig further in on statistical mechanics theorems that led to equipartition of energy
+	- TODO: Curve-fit experimental results and came up with planck's law (the way plancks initially did it)
+		- TODO: Curve fit
+		- Well... Out of desperation, planck decided to curve fit. (What a shame on him!)
+		- Now... can we derive it theoretically?
+	- Discretização de energia
+		- Out of desperation, lets assume energy is discrete (obviously it isn't!!) to see if works.
+		- Pacotes discretos de energia Delta E.
+			- Delta E << kT ==> Discretização de energia irrelevante. Aproximação continua works.
+			- Delta E ~ kT ==> Média de energia é menor que kT
+			- Delta E >> kT ==> Média de energia é zero.
+		- OHH! Just what we wanted! Theeen... theeeeeeen...........
+			- Delta E é monotonicamente dependente da frequencia somehow...
+			- What about trying the most simple relation? E = hf? (h some proportionality constant)
+			- Calc: Colocar energia E = hf na distribuição de probabilidade de energia de Boltzmann
+			- Calc: Valor médio da energia para cada frequencia de onda estacionária
+			- Calc: Densidade de energia eletromagnética na cavidade
+			- Calc: Radiância espectral emitida pelo ofifício da cavidade
+			- Note: NICELY fits experimental curve. Hmm... Odd....
+		- Definitions
+			- Estados Quanticos: Niveis de energia discretos
+			- Número Quântico: Unidade inteira de discretização da energia
+			- Planck's constant. Measured value: 6.67 * 10^-34 on this experiment.
+	- Radiant Exitance from Planck's Law
+		- Calc: Integração da densidade de energia espectral da cavidade.
+		- Calc: Densidade de energia total da cavidade.
+		- Calc: Densidade de energia da cavidade
+		- Calc: Constante de proporcionalidade para a radiância (TODO).
+		- Calc: Radiância espectral de Planck.
+		- Calc: Integração da radiancia espectral de Planck
+		- Calc: Potencia radiante
+		- Calc: Valor teórico da constante de Stefan-Boltzmann
+		- Check: Valor teórico with experimental value. OH! FITS!
+	- Relação temperatura-máximo comprimento de onda
+		- Derivação da Lei de Planck
+		- Wien's displacement law
+		- Theoretical equality of viewn's displacement constant
+		- Calc: Máximo da densidade de energia eletromagnética espectral na cavidade
+		- Calc: Relação linear
+		- Hm.. Can we do the same for Stefan-Boltzmann? Lets try!
+	- Rayleigh-Jeans Flaws
+		- Integração da radiancia espectral. Cleary WRONG.
+		- Wien's displacement law
+		- Note: Wrong predictions with experiments and classical thermodynamics
+	- Expansão da Formula de Planck
+		- Calc: Expansão de Taylor para a Formula de Planck
+		- Note: Baixa frequencia ==> Distribuição de Rayleigh-Jeans está OK.
+		- Note: Alta Frequencia ==> Rayleigh-Jeans falha.
+		- Note: Baixa Frequencia (high wavelength) ==> Classical Physics Holds
+		- Note: High Frequence (low wavelength) ==> Classical Physics cracks
+		- Calc: Frequencia/wavelength such that classical physics begins to crack
+		- Question: Será que é sempre assim?
+	- Radiância espectral
+		- Equação de conversão para frequencia e comprimento de onda
+		- Calc: Radiancia espectral em função da frequencia
+		- Calc: Radiancia espectral em função do comprimento de onda
+		- Calc: Lei de deslocamento de Wien para comprimento de onda
+		- Calc: Lei de deslocamento de Wien para frequencia
+		- Calc: Produto entre frequencia máxima e comprimento de onda máximo
+		- Question: Why does this happens? How to interpret this?
+		- Calc: Comprimeto de onda esperado da distribuição.
+	- Exercise: A terra e o sol.
+		- Por luz do sol em um prisma.
+			- Espectro da radiancia solar
+			- http://i.stack.imgur.com/4G9nb.gif
+			- http://www.bentham.co.uk/images/Systems/SolarIrradianceSpectrum.jpg
+			- http://www.ferro.com/NR/rdonlyres/1A4C445E-856B-4A39-9050-8F9E2E7E9951/4420/chart1.jpg
+			- http://www.intechopen.com/source/html/42202/media/image3.png
+		- Calc: Qual a temperatura do sol?
+		- Calc: Qual a distancia entre a terra e o sol? Qual a radiância solar total na Terra?
+		- Calc: Quanto de energia um painel solar 30% refletivo com 25% de eficiencia dará em um dia?
+		- Calc: Qual seria a temperatura da Terra, se não existisse o efeito estufa? (Temperatura virtual da Terra).
+		- Calc: Qual o raio interno/externo da faixa de zona habitavel para o nosso sistema solar?
+	- Outros exercicios
+		- Calc: Qual o comprimento de onda com máxima radiância emitido pelo corpo humano?
+		- Calc: Qual o comprimento de onda da radiação cósmica de fundo? Qual faixa do espectro?
+		- Calc: Qual a densidade de energia eletromagnética da radiação cósmica de fundo?
+		- Calc: Qual a temperatura da corona solar (2.8nm)? Astrofisica de raios X.
+	- Aplicações
+		- Termometria por medição de radiação
+		- Determinação de temperatura de estrelas
+
+
+Efeito Fotoelétrico (explained 1905).
+	- Descoberta histórica (1887).
+		- Experimento de Hertz para teoria de Maxwell de propagação eletromagnética da luz
+		- Geração de onda eletromagnética
+		- Faísca era gerada mais rapida com presença de luz ultravioleta. How odd..
+	- Aparelho para medição do efeito fotoelétrico
+		- Camara a vacuo com duas placas de metal de mesmo material
+		- Measurements: Gerador de tensão. Amperímetro.
+	- Dados Experimentais
+		- Plot: Applied potential difference x Intensidade da corrente medida
+			- Case 1: Placa A sendo irradiada com intensidade I
+			- Case 2: Placa A sendo irradiada com intensidade I/2
+			- Def: Stopping potential.
+			- Calc: Energia cinética do fotoeletron mais rápido arrancado. (with stoppiung potential).
+		- Plot: Stopping potential x Frequencia da radiação emitida
+			- Cut off frequence
+			- Variação linear da frequencia ==> Variação linear of stopping potential
+		- Well... We have a problem... actually.. three problems
+	- Problem 01: Amplitude do vetor campo elétrico
+		- Intensidade maior da luz ==> Maior amplitude do vetor campo elétrico
+		- ==> Maior a energia de oscilação do elétron ==> Maior sua energia cinética
+		- Experiment: Energia cinética máxima independente da intensidade da luz
+	- Problem 02: Cut off frequence
+		- Qualquer frequencia da luz under enough intensity ==> Oscilação do elétron
+		- ==> Energia sendo transferida ==> Efeito fotoelétrico
+		- Provided of course, light is intense enough to give the enough energy to it.
+		- Experiment: There is a cut off frequence... No matter how strong we shine the light...
+	- Problem 03: Where is the lag time?
+		- Potencia luminosa sobre superficie incidente é uniforme em toda a área
+		- Eletron está confinado em átomo. Àrea is pretty small.
+		- Think with me here...
+			- Given: Energy to remove electron out of potassium surface: 2.1eV
+			- Given: Taxa de energia transferida por luz de 1W. Atom radius: 1A.
+			- Calc: Target Area
+			- Calc: Potencia incidente over our atom
+			- Calc: How much time to conseguir atingir a energia de ejeção do elétron?
+		- Best Classical Physics Scenario: Time: 0.01 secs.
+		- Experimentation result: Delay time < 10^-9 secs.
+	- Small Discussion (desabafo).
+		- Well.. Now we only used EM... How can that be?? EM sounds cleary wrong.
+		- There was a hole in statistical mechanics before... but now in EM????
+		- But... only EM survived relativistic revolution! Thus, how can EM be wrong??
+		- Maybe full physics is wrong =(. Or... you are imagining such experiments and becoming crazy.
+	- Einstein Thinking of the Photoelectric Effect
+		- Planck's Formula: Why E = nhf on the blackbody? Perhaps... That's a property of EM light!
+		- Leaving energy state nhf to energy state (n-1)hf liberates EM radiation of hf (photon).
+		- Localized radiation with hf of energy.
+		- Electron in atom receives incoming localized hf of energy
+		- Kinetic energy of electron. Work required to eject it.
+		- Calc: Máximum kinetic energy of the electron.
+		- Def: Work Function.
+	 	- Note: Problem 01, 02, 03 naturally solved.
+	 	- Calc: Einstein's theoretical value of the stopping potential
+	 	- Einstein's Theory: Quantization of Electromagnetic Radiation into photons
+	 	- Planck Reacted in his famous phrase: "Seriously, seriously guys? E = hf?"
+	- Wait.. that sounds like light is particle.... ITS A WAVE! Er.. Its a wave, right?
+		- Given: The value of the intensity of the light
+		- Calc: Potencia radiante incidente sob superficie (placa)
+		- Calc: Quantidade de fótons incidente sob superficie
+		- Note: Same intensity: The higher the frequence, the lower the amount of photons
+		- Note: Phenomena is dealing with the action of individual photons!
+		- Note: For radiowaves and low frequence waves, we have HUGE amount of photons
+		- Einstein reasoning: Huge amount of photons ==> Statistical Behaviour: Difraction, interference.
+	- Einstein Theory
+		- Quantization of Electromagnetic wave. E = hf.
+		- Photon energy is always hf, not 2hf, nor 3hf, neither nhf. Simply hf.
+		- Cavity Radiation: n photons with frequence f.. hmm nhf.
+		- Note: Baixa frequencia de luz ==> Efeito fotoelétrico inexistente ==> Classical Physics holds.
+		- Note: Once again quantum phenomena happened at relativity high frequence
+	- Experimental Verification:
+		- Milikan: [read einstein paper] That's nonsense! I'll prove its nonsense.
+		- Several experiments peformed by milikan on photoelectric effect. 10 years of tries. (Nobel Prize btw)
+		- "Me vejo obrigado a confirmar its full experimental verification" - Milikan
+		- Einstein won Nobel Prize too, for this.
+	- Why did it happen?
+		- Photoelectric-range frequence
+			- Calc: Energia da fóton da frequencia de corte
+			- Calc: Conversão da energia para eletron-volt
+			- https://en.wikipedia.org/wiki/Electromagnetic_spectrum
+			- Note: É da mesma ordem de grandeza que energia de ionização de átomos!
+		- Checkins
+			- Check: Energia de ionização do sódio
+			- Check: Frequencia fotoelétrica de corte do sódio
+		- Discussion: Smaller frequence
+			- Nenhuma energia dessa magnitude no átomo
+			- Predictions of classical electromagnetic theory
+	- Discussão: Yet higher photon energies
+		- Question: O que acontece quando há fótons incidentes de energia mais alta?
+		- Question: Photo electric effect still happens?
+		- Question: Is there something else that happens?
+
+
+Efeito Comptom (explained 1923)
+	- Experimental Description
+		- Raios-X incidentes sobre um alvo. Espalhamento de fótons.
+		- Measured: Pico de fótons de mesma frequencia in all angles.
+		- Measured: Pico de fótons de wavelenth maior, em direntes angulos. Compton Shift
+		- Measured: Compton shift independente do material.
+	- Teoria eletromagnética clássica
+		- Radiação eletromagnética incidente sobre o alvo
+		- Effect: Oscilação de elétrons livres (or in atoms) with the frequence of incoming radiation
+		- Effect: Emissão de radiação pelos elétrons oscilantes (como pequenas antenas)
+		- Conclusion: Why in the world was measured different wavelenth? It shouldnt!
+	- Teoria quântica de radiação
+		- Compton model: There is no such thing as EM radiation over target. There is only photons.
+		- Único fóton de energia E = hv colide com elétrons em átomos
+		- Transferencia de energia do foton para o átom, such that, scattered photoh has lower energy
+		- Since E=hv, lower energy photons ==> Higher wavelentgh. Compton Shift. As measured.
+	- Previsão Quântica do efeito compton
+		- Consideração: Elétron inicialmente em repouso sendo atingido por fóton
+		- Consideração: Energia do fóton é muito maior que energia de ionização
+			- Elétron é ejetado a altas velocidades
+			- Possibilidade de desconsiderar what electron was doing previously
+			- Small calc: Velocidade de ejeção de elétron
+			- Hmm... Precisaremos fazer a conta relativistica
+		- Descrição da colisão
+			- Inicio: Elétron parado, com fóton incidente se aproximando
+			- Fim: Elétron ejetado com certo angulo, com fóton espalhado com outro angulo.
+		- Objective: Find compton shift relative to angle.
+		- Calc: Conservação do momentum
+		- Calc: Conservação da energia relativística (elastic colision)
+		- Calc: Compton Equation
+			- Def: Compton Wavelength
+			- Def: Compton Shift
+			- Note: Compton shift independe do wavelength do fóton incidente
+		- Note: Receveid experimental confirmation
+		- Question: Porque existe medida de pico de fótons com mesmo wavelenth incidente?
+	- Colisão with whole atom
+		- Possibility: Fóton colide com elétron altamente ligado ao átomo
+		- Colisão é considerada com o átomo inteiro
+		- Calc: Compton Shift usando átomo como target (instead of electron)
+		- Note: Agora sim.. full experimental data explained. =).
+	- Classical Preedictions at low wavelength
+		- Rayleigh scattering
+		- Compton scattering as generalization of Rayleigh
+		- Note: And yet again, classical theory breaks down for lower wavelenths
+		- Note: If h->0, we have classical prediction
+	- Calculations discussions
+		- Note: We mixed wave-particle variables during calculation
+		- E,p: PArticle variables. Wavelength-frequence, wave variables.
+		- Experiment: Was also measured electron recoil, further confirming theory
+
+
+Outras interações entre radiação-matéria
+	- Produção de raios-X
+		- Descrição
+			- Elétrons acelerados em câmara à vacuo
+			- Elétrons colidem in a target
+		- Descrição experimental
+			- Data: Relative intensity vs. Wavelength for each electron energy
+			- Note: THere is a minimum wavelength, in the distribution, dependent of electron energy
+		- Modelo quântico
+			- Desvio do elétron por átomo carregado produzindo fótons
+			- Espalhamento Bremsstrahlung.
+			- Calc: Comprimento de onda mínimo
+			- Note: Há *criação* de um fóton in this case (not absorption, nor scattering).
+	- Produção de par matéria-antimatéria
+		- Descrição: Colisão de fóton de alta energia com átomo
+		- Result: Produção de par elétron-pósitron
+		- Leis de conservação: Energia, Momentum, Carga
+		- Condições de produção de par elétron-pósitron
+			- Calc: Energia mínima do fóton
+			- Calc: Wavelength mínino do fóton
+		- Energia negativa de dirac
+			- Vacuum is negative-energy electron sea
+			- Passagem de energia negativa para positiva
+			- Electron creation, hole creation.
+			- Pósitron. =).
+		- Condições de produção de par próton-antipróton
+			- Calc: Energia mínima do fóton
+			- Calc: Wavelength mínino do fóton
+	- Aniquilação de par matéria-antimatéria
+		- Colisão de matéroa e anti-matéria
+		- Leis de conservação: Energia, Momentum, Carga
+			- Dois fótons produzidos por colisão (likely)
+			- Três fótons produzidos por colisão (not so likely)
+		- Calc: Energia liberada pelos fótons
+		- Curious: Positronium
+		- Frames de referencia
+			- Aniquilação em frame com positronium estacionario
+			- Aniquilação em frame com positrionium movendo-se
+			- Calc: Comprimento de onda in each case (different mass)
+			- Note: Mesmo resultado que efeito doppler
+		- Calc: Energia liberada por colisão proton-antiproton
+	- Atenuação de radiação por matéria
+		- Efeito fotoelétrico (processo de baixa energia)
+		- Efeito Comptom (processo de energia média)
+		- Produçã elétron-pósitron (processo de alta energia)
+		- Plot rascunho: Cross section per atom vs. photon energy
+		- Calc: Atenuação por parede de matéria muito fina
+		- Calc: Atenuação por parede de matéria de comprimento arbitrário
+
+
+Borh Model
+	- Before: The Thomsom Atom
+	- TODO: Summary of bohr model. Quantization of angular momentum.
+	- TODO: Raias do hidrogenio.
+	- TODO: Relativistic corrections. Fine structure of hydrogen.
+	
+
+Regra de Quantização de Sommefeld
+	- TODO: Sommefeld quantization rule. Phase Space considerations.
+	- TODO: Relativistic corrections to bohr atom. Note: The degeneracy vanishes.
+	- TODO: Queda de bolinha de ping pong (energy fully conserved). Tratamento quântico.
+	- TODO: Note: Limited to systems with some periodicity in phase space.
+
+
+Ondas de Matéria de de Brougli
+	- Hipotese de de Brougli
+		- Wave-particle duality of radiation applys also to mater.
+		- Note: Universe is made of matter and radiation.
+		- His hypothesis indicated a nice symmetry of universe
+	- de Brougli Equations
+		- Energia de uma onda de matéria
+		- Momentum de uma onda de matéria
+		- Note: Velocidade da onda de matéria inicialmente desconhecida (not necessarily c)
+		- Em função da velocidade e massa: Non-relativistic case.
+		- Em função da velocidade e massa: Relativistic case.
+		- Calc: Velocidade de fase da onda de de brougli (calculo geral)
+		- Calc: Velocidade de fase da onda de de brougli (caso não relativistico)
+		- Calc: Velocidade de fase da onda de de brougli (caso relativistico)
+		- Note: Velocidade de fase é sempre superluminal (in the relativistic case)
+	- Velocidade de uma particula
+		- Simple superposition
+			- Calc: Superposition of two de brougli waves
+			- Calc: Velocidade de grupo da superposição
+		- Caso Geral
+			- Infinitely many waves in superposition
+			- Calc: Velocidade não-relativistica de grupo da onda
+			- Calc: Velocidade relativistica de grupo da onda
+		- Conclusion: Everything is wave. Existance is waving.
+	- de Brougli hypothesis and everyday life
+		- Calc: de Brougli wavelength of a basketball matter-wave of m=1Kg and v=1m/s.
+		- Calc: de Brougly wavelength of electron matter-wave with 100eV kinetic energy.
+		- Predominancia de comportamento de ondas de matéria
+			- Remember: Optica geometrica and Optica Física (optica electromagnetica)
+			- Condition for Wave-like predominance. E.g.: Radio-wave matter-wave.
+			- Condition for Particle-like predominance. E.g.: Basket ball matterwave.
+		- Not received well in scientific comunity
+	- TODO: Difração de Bragg.
+	- TODO: Difração de Bragg, one electron at the time. =).
+	- TODO: Ligação entre densidade de fótons e intensidade clássica de luz
+	- Testing de Brougli hypothesis
+		- X-Ray scattering by cristal. Find: Crystal spacing.
+		- Electron scattering by this same crystal. Interference pattern found.
+	- Other experiments
+		- Estermann, Stern, Frisch: Hydrogen Molecular beams, and atomic beams
+		- Fermi, Zinn, Marshall: Slow neutrons
+		- As you cleary see, fully confirmed. Odd isn't it?
+	- Example: Neutron Diffraction.
+		- Consider: Neutron beam with energy E is fired in very thin atomic lattice.
+		- Calc: Expression of maximum angles for the neutron beam
+		- Question: What shall happen if energy is too higher?
+		- Question: What shall happen if energy is too low?
+		- Calc: What's length of atomic lattice if 0.08eV neutrons get maximum angle of 30 degree?
+
+
+Teoria Ondulatória de Schrodinger
+	- TODO: Tentar escrever funções de onda para a onda de matéria
+	- TODO: Uma equação de onda para as ondas de matéria.
+	- TODO: Interpretação de Bohr para as funções de onda.
+	- TODO: Valores esperados/médios
+	- TODO: Associação de variaveis (momento/energia) com operadores.
+	- TODO: Separação. Time-Independent Schrodinger Equation
+	- TODO: Analise qualitativa da equação de Schrodinger
+		- Como serão as soluções
+		- Condições de quantização
+
+
+Double Slit Experiment
+	- TODO: Calculate double slit for marbles. Do experiment.
+	- TODO: Calculate double slit for waves. Do experiment.
+	- TODO: Make experiment for doble slit. Well... How odd.
+	- TODO: Make electrons to come ONE AT THE TIME. (After all.. who knows what electrons are doing?)
+	- TODO: Try to calculate double slit with schrodinger wavetheory.
+	- TODO: Ask: Which way electron pass? Lets peak! (shine photons to ahave a collision).
+	- TODO: To face it. Its wierder than we thought... we need a new approuch...... A new theory..................
+
+
+
+TO DECIDE: To merge quantum1a with atomic theory 01?
+TO DECIDE: To insert schrodinger theory here? or in quantum1b?
+TO THINK: To insert all calculations in the potentials? (ie, harmonic, and inverse one)
+
+TODO: Full of it: https://en.wikipedia.org/wiki/Electron#Discovery
+TODO: Falar sobre descoberta de elementos radioativos
+TODO: Experiment to show as respectivas cargas das radiações alpha, beta, gamma
+TODO: Experiment to show alpha radiation is just double ionized helium atom
+TODO: Experiment to show mass of electron
+TODO: Cloud chamber
+
+
+MAYBE:
+	- Electron double slit experiment ==> Uncertainty principle.
+	- Matter behaviour of radiation ==> Photon interpretation of average of square electric field
+	- Wave behaviour of matter ==> Related with matter behavior of radiation, square of wavefunction.
+
+
+TO CONSIDER:
+	- Ondas de Matéria depois de Atomic Structure. (then one can introduce the wavefunction and their meaning, and group velocity, etc).
+		- State de Brougli equations.
+		- Present electron diffraction. Agreement with theory.
+		- Argue for uncertainty principle using thought experiment (measuring by interacting with the system)
+		- Measuring by interacting with the quantum system: Examplify by double slit experiment.
+		- Argue about uncertainty principle from the wavefunction of matter waves.
+	- Is there other consideration?
+
+
+https://en.wikipedia.org/wiki/Quantum_LC_circuit

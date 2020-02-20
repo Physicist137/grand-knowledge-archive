@@ -1,0 +1,40 @@
+Title: Elementary Algebra 02: 
+	- Pre-requisitives: Elementary Algebra 01
+	- Co-requisitives: Calculus 00, Complex 01.
+
+
+TODO: Cubic Equation
+	- Depressed Cubic. Conversion to depressed quartic.
+	- Trigonometric Solution. https://en.wikipedia.org/wiki/Cubic_function#Trigonometric_solution_for_three_real_roots
+	- Hyperbolic Solution
+	- Lagrange Method of roots
+	- Trigonometric Solution (all three roots).
+TODO: Quartic Equation?
+	- Depressed quartic. Conversion to depressed quartic.
+	- 
+TODO: Resolver infinity coisas: sqrt(1 + sqrt(1 + sqrt(1 + ...))) = ??
+TODO: Continued Fractions
+TODO: Engel Expansion
+TODO: Pierce Expansion.
+TODO: Lambert W-Function. Its complex def as well.
+
+
+
+
+
+The End!
+Now you can go to:
+	- Calculus: Integrais e aplicações
+	- Complex Algebra (needs little bit more pre-requisitives)
+
+
+OLD. VERY OLD: VEEERY OLD:
+TODO: Factor Theorem. https://en.wikipedia.org/wiki/Factor_theorem
+TODO: Fundamental Theorem of Algebra.
+TODO: Fractals in the complex plane. (maybe... =D).
+TODO: Polynomials
+	- Properties of roots: https://en.wikipedia.org/wiki/Properties_of_polynomial_roots
+	- Rational Root Theorem: https://en.wikipedia.org/wiki/Rational_root_theorem
+	- Gauss-Lucas Theorem. https://en.wikipedia.org/wiki/Gauss%E2%80%93Lucas_theorem
+	- Stability of roots.
+

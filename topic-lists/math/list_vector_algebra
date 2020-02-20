@@ -1,0 +1,173 @@
+TITLE: Algebra Vetorial
+	- Pre-requisitives: Trigonometria
+	- Co-requisitives: None I think...
+
+
+Intuition: Visão espacial tridimensional
+	- Eixos cartesianos [done]
+	- Pontos no R^3 [done]
+	- Visualização de retas em diferentes inclinações [skip]
+	- Visualização de planos em difrentes inclinações [skip]
+
+
+Definição e propriedades de vetores
+	- Revision: Segmentos de reta entre dois pontos [DONE]
+	- Def: Segmentos orientados [DONE]
+	- Def: Equipolencia entre segmentos orientados [DONE]
+	- Formal Defintion of vectors [DONE]
+		- Interpretação: Ponto de começo is irrelevant  [DONE]
+		- Igualdade de vetores [DONE]
+		- Note: Igualdade de vetores != Igualdade de segmentos orientados [DONE]
+	- Elementos de um vetor [DONE]
+		- Direção de um vetor [DONE]
+		- Sentido de um vetor [DONE]
+		- Modulo de um vetor [DONE]
+	- Comparação de vetores e simbologia [DONE]
+		- Def: Vetores iguais [DONE]
+		- Def: Vetores opostos [DONE]
+		- Def: Vetores perpendiculares [DONE]
+		- Def: Vetores paralelos [DONE]
+	- Módulo de um vetor [DONE]
+		- Formal Definition [DONE]
+		- Simbolo de modulo de vetor [DONE]
+		- Interpretação: Length of the vector [DONE]
+		- Proof: 1 dimensional vector [DONE]
+		- Proof: 2 dimensional vector [DONE]
+		- Proof: 3 dimensional vector [DONE]
+
+
+Algebra Vetorial
+	- Def: Soma de ponto por um vetor [DONE]
+		- Interpretação geometrica [DONE]
+		- Interpretação algebrica [DONE]
+		- Prop: P + 0 = P [DONE]
+		- Prop: (A-v)+v = A [DONE]
+		- Prop: A+v = B+v ==> A=B [DONE]
+		- Prop: A+v = A+u ==> v=u [DONE]
+		- Prop: A+AB = B [DONE]
+	- Soma de dois vetores [DONE]
+		- Regra do paralelogramo [DONE]
+		- Formal Def: Soma de dois vetores [DONE]
+		- Interpretação geometrica [DONE]
+		- Soma algebrica de vetores [DONE]
+		- Prop: Comutatividade [DONE]
+		- Prop: Associatividade na soma [DONE]
+		- Prop: Elemento neutro [DONE]
+		- Prop: Elemento oposto [DONE]
+	- Produto de numero real por um vetor [DONE]
+		- Formal Def: |w| = |a||v|, e w paralelo a v [DONE]
+		- Interpretação geometrica [DONE]
+		- Produto algebrico [DONE]
+		- Prop: a(bv) = (ab)v [DONE]
+		- Prop: a(u+v) = au + av [DONE]
+		- Prop: (a+b)v = av + bv [DONE]
+		- Prop: 1v = v [DONE]
+	- Versores canonicos [DONE]
+		- Representação de vetor qualquer com versores canonico [DONE]
+		- Algebra vetorial com versores canonicos [DONE]
+
+
+Combinação linear e bases vetoriais
+	- Combinação linear entre vetores
+		- Formal Definition
+		- Vetores paralelos como combinação linear
+		- Def: Vetores colineares
+		- Def: Vetores coplanares
+		- Intuition: "Varredura" na linha de combinação de vetor unico
+		- Intuition: "Varredura" em um plano de combinação de dois vetores
+		- Theorem: Dois vetores u, v são colineares <==> u = kv, k = cte, para ÚNICO k.
+		- Theorem: Tres vetores são coplanares <==> um pode ser escrito como combinação do outro
+	- Dependencia e independencia linear
+		- Definition: v é dependente se for nulo
+		- Def: dois vetores são dependentes se são paralelos
+		- Def: tres vetores são dependentes se são coplanares
+		- Theorem: Se v1 e v2 são LD <==> São colineares
+		- Theorem: Se v1, v2 são LI, e dado v coplanar <==> Existe unica combinação linear em v
+		- Theorem: Existe uma unica combinação linear igual a v, dos vetores v1, v2, v3
+	- Base Vetorial
+		- Formal Defintion: Base de vetores
+		- Example: Base para conjunto de vetores paralelos a v
+		- Example: base para conjunto de vetores coplanares a v1, v2
+		- Example: Pase para conjunto de vetores no R^3
+		- Def: Base ortogonal
+		- Def: base normal
+		- Def: Base ortonormal
+		- Def: Coordenadas de um vetor numa base
+		- Def: Base canonica ortonormal
+	- Exntensão de operações vetoriais com coordenadas de um vetor
+		- Theorem: Soma de dois vetores em base não canonica é soma de suas coordenadas
+		- Theorem: Multiplicação de vetor por escalar em base não canonica é multiplicação de suas coordenadas
+		- Theorem: Vetores paralelos em base nao canonica é combinação linear
+	- Quando 3 vetores são linearmente dependentes
+
+
+Produto escalar entre vetores
+	- Projeção de um vetor na direção de um versor
+		- Calculation
+		- Properties
+	- Objective: Melhor descrever projeções
+	- Formal Definition: Produto escalar entre dois vetores
+		- Interpretação geometrica
+		- Note: Vetores perpendiculares ==> Produto nulo
+	- Escrita de projeções com produto escalar
+		- Projeção de vetor na direção de versor
+		- Projeção de vetor na direção de vetor
+		- Example: Triangulos
+	- Propriedades do produto escalar
+		- Comutatividade do produto escalar
+		- Produto escalar nulo <==> Vetores nulos ou perpendiculares
+		- Produto escalar por ele mesmo é o modulo do vetor
+		- Distribuição do produto escalar na soma
+	- Formal Definition: Ortogonalidade entre dois vetores
+	- Re-definition: Simbolo de ortogonalidade
+	- Expressão cartesiana do produto escalar
+		- Escrita dos vetores como combinação de versores da base canonica
+		- Aproveitando propriedade distributiva
+		- Expressão cartesiana do produto escalar
+		- Note: Modulo de vetor é produto escalar por ele mesmo
+		- Note: Quando dois vetores são ortogonais
+	- Cossenos diretores entre um vetor
+		- Def: Angulos diretores
+		- Def: Cossenos diretores
+		- Propriedade dos cossenos diretores
+	- Extensão de cossenos diretores para diferentes bases
+		- Angulos diretores de bases diferentes
+		- Propriedade dos cossenos diretores continuam as mesmas?
+
+
+Produto Vetorial entre dois vetores
+	- Def: Bases vetoriais positivas
+	- Def: Bases vetoriais negativas
+	- Objective: Vetor ortogonal a outros dois vetores
+	- Formal Definition: Produto vetorial
+		- Interpretation: Área de paralelogramo
+		- Base {u, v, uxv} positiva
+		- Note: Área de um triangulo
+	- Produto vetorial dos versores canonicos
+	- Propriedade do produto vetorial
+		- |uxv| = |vxu|
+		- Não comutatividade do produto vetorial: uxv = -vxu
+		- Propriedade distributiva
+	- Expressão cartesiana do produto vetorial
+	- Examples
+
+
+Propriedades entre produtos escalares e vetoriais e produtos triplos
+	- Produto triplo vetorial
+		- Formal Definition
+		- Identidade: A x (B x C) = B(A*C) - C*(A*B)
+		- Note: Parentes são cruciais. A x B x C is not well defined.
+	- Def: Produto triplo
+		- Formal Definition
+		- Escrita na forma de determinante
+		- Propriedade cíclica
+		- Propriedade anticomutativa
+	- Solução geral da equação: c = A * X.
+		- Note: Infinitas soluções possiveis
+		- Expressão das soluções
+	- Solução geral da equação: c = A x X
+		- Note: Infinitas soluções possiveis
+		- Expressão das soluções
+	- Solução geral da equação: c = A * X  and  c = A x X
+		- Expressão da solução
+		- Note: Unicidade da solução

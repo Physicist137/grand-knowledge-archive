@@ -1,0 +1,6 @@
+TITLE: C++ Programming 02: C++ Abstraction
+	- Pre-requisitives: C++ Basic Programming
+	- Co-Requisitives: None.
+
+Classes. Construction, Copy, Move, Overloading. Inheritance
+MetaProgramming. Templates, generic, specalization, instantiation, hierarchies, metaprogramming.

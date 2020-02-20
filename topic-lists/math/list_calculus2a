@@ -1,0 +1,159 @@
+TITLE: Calculus 02A: CAlculo diferencial e integral em curvas
+	- Pre-Requisitive: Calculus 01, Algebra Vetorial.
+	- Co-Requisitive: 
+
+
+Funções vetoriais
+	- Definition
+	- Operação com funções vetoriais (soma, produto)
+	- Continuidade vetorial
+		- Def: Continuidade de funções vetoriais
+		- Theorem: Continuidade das componentes <==> Continuidade da função vetorial
+		- Importação de continuidade em R
+	- Limite de funções vetoriais
+		- Def: Limite de funções vetoriais
+		- Theorem: Componentes do limite é limite das componentes
+		- Theorem: Limite da soma é soma do limite
+		- Theorem: Limite do produto de função escalar é produto do limite de função escalar
+		- Theorem: Limite do produto escalar é produto escalar dos limites.
+		- Theorem: Limite do produto vetorial é produto vetorial dos limites.
+	- Curvas
+		- Definition
+		- Representação parametrica
+		- Def: Curva plana e curvas reversas (nao planas)
+		- Def: Curva aberta e curva fechada
+		- Def: Curva simples (r(a) = r(b) ==> a = b (except nos extremos))
+		- Composição não altera a curva
+	- Example: Reta
+	- Example: Circunferencia
+		- Equação vetorial
+		- Equação cartesiana
+		- Nota: Perda de "sentido" na equação cartesiana
+	- Example: Elipse
+		- Equação vetorial
+		- Equação cartesiana
+		- Nota: Perda de "sentido" na equação cartesiana
+	- Example: Hélice circular
+	- Example: Cicloide
+	- Example: Hipocicloide
+		- Equação geral
+		- Numero de cuspides
+		- Caso particular: r = R/4
+			- Equação vetorial
+			- Eq. Vetorial com cubos trigonometricos
+			- Equação cartesiana
+
+
+Derivação em curvas
+	- Derivada de funções vetoriais
+		- Definition
+		- Interpretação geométrica
+		- Derivada da soma
+		- Derivada do produto escalar
+		- Derivada do produto vetorial
+		- Derivada do produto de função escalar e função vetorial
+		- Regra da cadeia
+		- Derivadas de ordem superior
+	- Curvas suaves
+		- Def: Pontos angulosos
+		- Def: Curva suave
+	- Orientação da curva
+		- Intuition and Definition
+		- Def: Curva C e -C
+	- Reparametrização de curvas
+		- Example: y = 5x+2 no plano z=2
+			- Não unicidade da parametrização
+			- Outras parametrizações
+			- Nota: Reparametrizações são composições de parametrizações
+		- Reparametrização geral de curva qualquer
+			- Composição paramétrica
+			- Curvas identicas. Speed irá variar
+			- Calculo da velocidade vetorial de reparametrizações
+	- Theorem: f e f' são ortogonais se |f| is cte
+	- Comprimento de uma curva/arco
+		- Calculation
+		- Example: Circunference
+		- Example: Ellipse
+		- Note: Comprimento is always positive
+		- Example: Comprimento de helice circular
+	- Versor tangente à curva
+		- Separar velocidade usando regra da cadeia
+		- Calc: Vetor unitario tangente
+		- Proof: Velocidade tem direção tangente à curva
+		- Intuition: Usar diferenciais (delta) e aproximações
+	- Vetor normal e binormal à curva
+		- Def: Vetor normal à curva
+		- Theorem: Vetor tangente e vetor normal são ortogonais
+		- Calc: Versor normal à curva
+		- Def: Vetor e versor binormal
+	- Função comprimento de arco
+		- Definition
+		- Example: Comprimento de setor circular
+		- Example: Espira espaçada de p
+		- Example: Helice circular de raio R espaçada de p
+	- Reparametrização em comprimento de arco
+		- Definition
+		- Calculation
+		- Example: Reparametrização em circunferencia
+		- Example: Reparametrização de (e^t cost, e^t sint)
+		- Theorem: Se |r'| = 1  ==> t é parametro de comprimento de arco
+			- Conseq: Verificar se curva está parametrizada por comprimento de arco
+			- Example: TODO
+		- Theorem: se t é parametro de comprimento de arco ==> |r'| = 1
+		- Intuition of |r'| = 1 always
+	- Curvatura de curva
+		- Intuition
+		- Formal definition
+		- Analise de curvatura
+			- Escrita em termos do vetor unitario da velocidade
+			- Curvas contidas em R2: Escrita em termos do angulo polar
+		- Example: Curvatura em cada ponto de circunferencia
+	- Curvatura orientada da curva
+		- Vetor normal reparametrizado em comprimento de arco
+		- Vetor normal escrito como: c(s) * N(s), N: versor normal
+		- Note: Ligação entre curvatura e c(s).
+		- Definition: Curvatura orientada
+
+
+Integral de Linha
+	- Integral de linha sobre campo escalar
+		- Formal Definition
+			- Integration path
+			- Scalar Field
+		- Calculation
+		- Intuition: http://upload.wikimedia.org/wikipedia/commons/4/42/Line_integral_of_scalar_field.gif
+		- Example: f(x,y) = x+2y, C: semi-circunferencia r=3
+		- Propriedades
+			- Multiplicação por escalar
+			- Soma de funções
+			- Integral do caminho inverso (int_C = int_{-C})
+		- More examples
+	- Integral de linha sobre campo vetorial
+		- Intuition: http://upload.wikimedia.org/wikipedia/commons/b/b0/Line_integral_of_vector_field.gif
+		- Intuition: Trabalho de uma força
+		- Definition and calculation
+		- Propriedades
+			- Multiplicação por escalar
+			- Soma de campo vetorial
+			- Integral do caminho inverso (int_C = -int_{-C})
+		- Examples
+		- Theorem: Redução para campo escalar da componente do vetor tangente: int Tds
+		- Corolary: Caminho com vetores perpendiculares, integral is zero
+		- More examples
+		- Representação: int f1dx + f2dy + f3dz
+	- Integrais de linha de caminho fechado
+		- Intuition: Tendencia de circulação do campo vetorial
+		- Lot of examples
+	- Independencia do caminho de intengração
+		- Example: F = (x^2, y^2) com varios caminhos de integração em pontos fixos
+		- Def: Campo vetorial conservativo 
+		- Def: Função potencial
+		- Theorem: Se existe função potencial de campo vetorial, então integral de linha independe de caminho
+			- Corolary: Integral fechada de campo vetorial que admite função potencial é zero
+			- Example: Verifique se F = (e^(x+y)+1, e^(x+y)) é conservativo
+		- Theorem: Verificação de campo conservativo tirando derivadas parciais
+			- Example: Verifique se F = (e^(x+y)+1, e^(x+y)) é conservativo
+			- More examples
+	- TODO: Comprimento de curva
+
+

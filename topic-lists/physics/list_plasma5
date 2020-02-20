@@ -1,0 +1,20 @@
+TITLE: Plasma Physics 05: General Plasma Phenomena.
+	- Pre-requisitive: Plasma 04.
+	- Co-requisitive: 
+
+
+GENERAL MODELLING OF PLASMA:
+https://en.wikipedia.org/wiki/Plasma_modeling
+Boltzmann Transport Equations. https://en.wikipedia.org/wiki/Boltzmann_equation
+Vlasov Equation. https://en.wikipedia.org/wiki/Vlasov_equation
+Fokker-Planck Equation. https://en.wikipedia.org/wiki/Fokker%E2%80%93Planck_equation
+Gyrokinetic Equations. https://en.wikipedia.org/wiki/Gyrokinetics
+
+
+OTHER THINGS:
+TODO: Relativistic distributions. All the way until relativistic Fokker-Planck Equations.
+TODO: Bremsstrahlung losses in a plasmas.
+
+
+CONNECTION WITH OTHER MODELS:
+TODO: Taking veolcity moments of kinetic equations, to connect with the fluid equations.

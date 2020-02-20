@@ -1,0 +1,247 @@
+TITLE: Quantum Mechanics 03: System of two quantum particles. Bound State.
+	- Pre-requisitives: Quantum Mechanics 02.
+	- Note: Analogo a Mecanica Classica 02.
+
+
+The Quantum Two-Body Problem
+	- TODO: Presentation of full equation (6 variables). Radial potential V(r1-r2). (not to be confused with central V(|r2-r1|).
+	- TODO: Chosing center of mass. Separate eqation in an interaction wavefunction and center of mass wavefunction.
+	- TODO: Center of mass wavefunction is same of free path.
+	- TODO: Assume a full central potential V(|r1-r2|).
+	- TODO: Separating radial from angles (R from Y). Arrive in equation for R. Note: Equation for Y is solved already!
+
+
+Separation of the Angular Equation.
+	- TODO: Separate the Y.
+	- TODO: Solve for phi. Show orthogonality of the solution. To note m must be only integer (so solutions are physically acceptable).
+	- TODO: Orthogonality of the polar solution.
+	- TODO: Normalization for the polar solution.
+	- TODO: Come up with equation only for theta.
+
+
+The Azimuthal Solution
+	- TODO: Simplify m=0. Substitution x=cos(theta). Power series. Solve. Realize convergence is if |x|<1. 
+	- TODO: Truncation to allow x=1 too! (so that solutions will be physically acceptable). Then k=l(l+1), l integer. Polynomial Solution.
+	- TODO: Solve with general m. Spherical Harmonics Formula.
+	- TODO: Orthogonality of legendre polynomial
+
+
+The Spherical Harmonics.
+	- TODO: To note: Y part is the same no matter what potential is!
+	- TODO: To make a polar plot of associated legendre polynomial (does it looks familiar??)
+	- TODO: Orthogonality of the azimuthal solution.
+	- TODO: Normalization of the entire wavefunction.
+	- TODO: Choice of parameters: Separate normalization of each solution.
+	- TODO: Normalization of polar and azimuthal solution.
+	- TODO: To write down full solution of spherical harmonics.
+
+
+The Central Potential Wavefunction
+	- TODO: To arrive in the radial equation (incentivated from normalization) (ie, u(r) = r R(r)).
+	- TODO: Normalization of the radial wavefunction u. To write the full wavefunction.
+	- Example: Particle with l=0 on infinite spherical potential well
+		- Calc: Solve the radial wavefunction
+		- Calc: Get the R(r) function. Note: as r->0, cossine term blows up. Unnaceptable.
+		- Calc: Contour condition. Energy levels.
+		- Calc: Normalization constant from the radial contribution
+		- Calc: Normalized spherical harmonics for l=0 and m=0 (simply 1/sqrt(4pi) ofc).
+		- Calc: Full wavefunction for l=0 and m=0.
+	- Examples of central potentials
+		- The infinite spherical well (for general nlm state).
+		- Spherical potential well (step, hole, etc).
+		- Proton-Electron system (coulombic potential).
+		- Note: This is a Hydrogen Atom!!! Lets solve it? =D.
+
+
+Alternative derivation  using hermitian operators:
+	- TODO: Radial momentum: https://physics.stackexchange.com/a/9353/57094
+	- TODO: [constructon in messiah].
+	
+
+
+The Hydrogen Atom
+	- The Radial Wavefunction
+		- The Coulomb potential
+		- The Radial equation
+		- Calc: Substitution of variable: rho = kr
+	- Assymptoptic case: Infinite case
+		- Calc: Radial equation for infinite assymptoptc
+		- Calc: Solution to the radial equation for large rho.
+		- Note: One solution is non-normalizable.
+	- ASsymptoptic case: Zero case
+		- Calc: Radial equation for zero assymptoptc
+		- Note: Soluion must be a power term. rho^p.
+		- Calc: Two linearly independent solutions
+		- Calc: Solution to the radial equation for small rho.
+		- Note: One solution is non-normalizable.
+		- Postulate new solution by multiplying them. Show they are compatible.
+	- The General radial solution as power series
+		- Calc: First derivative of above solution
+		- Calc: Second derivative of above solution
+		- Calc: The radial equation for above solution
+		- Calc: Solving by taylor series
+		- Calc: Analysis of series behaviour at larger rho
+		- Calc: Series truncation
+		- Def: Principal quantum number
+		- Calc: Energies of the hydrogem atom
+		- Note: They match bohr atom energy spectrum
+	- Ground state of Hydrogen
+		- Calc: Normalization constanat of the radial wavefunctiom
+		- Calc: Spherical Harmonics for the ground state
+		- Calc: The hydrogen wavefunction in the ground state
+		- Calc: Expected value for <r> (note: Its not bohr radius!)
+		- Calc: Expected value for <r^2>
+		- Calc: Variance and standard deviation of radius.
+	- The general radial solution (on here? sure?)
+		- TODO: Associated laguerre polynomial.
+		- TODO: Laguerre polynomial.
+		- TODO: Normalization and orthogonality.
+		- TODO: Range of all quantum numbers in terms of each others.
+	- The wavefunction solution
+		- The Full hydrogen wavefunction.
+		- Note: Not so pretty huh?
+		- Calc: Orthogonality of the wavefunctions.
+	- TODO: Some radial wavefunctions. 
+	- TODO: In terms of bohr radius: Average <r>. Second moment <r^2>. Var(r). Stddev(r). (in each nlm state).
+	- TODO: The General probability density.
+	- TODO: Some probability densities. Some plots.
+	- TODO: Spectrum of hydrogen.
+
+
+Orbital Angular Momentum.
+	- TODO.
+
+
+Total Angular Momentum.
+	- TODO: J = L + S.
+
+
+Total Spin of two spin-1/2 particles.
+	- Eg.: Electron and proton (hydrogen) in the ground state. What is the spin of the atom itself?
+	- Total Spin Operator
+		- Def: Total Spin Operator (sum of spin of particle 1, and spin of particle 2.
+		- Def: Total Spin Ladder Operator (sum of spin ladder operator of particle 1 and 2).
+		- Def: Total Squared Spin Operator S^2 = (S1 + S2)^2. 
+	- Addition of spin
+		- 4 possibilities: A combination of spin up and spin down for each particle.
+		- Note: Basis of the space. A state can be a linear combination of these 4 states
+		- Calc: Application of total spin operator Sz in state x1 x2 (separable state).
+		- Note: Quantum number m for spin simply adds.
+		- Calc: Total magnetic quantum number for all 4 basis of the spin.
+		- Note: There are two states m=0. Why?
+	- Lowering operator from up-up.
+		- Assume: Start with both particles in spin up state
+		- Calc: Apply Total spin lowering operator in spin up-up state
+		- Calc: Normalization of the resultant state
+		- Calc: Apply total spin lowering operator again.
+		- Calc: Normalization of such state
+		- Note: We reached the last one, with three states
+		- Note: We shall later show, this are s=1 spin states.
+		- Def: The triplet state (s=1). |1 1>, |1 0>, |1 -1>
+		- Note: Its called triplet for obvious reason.
+	- The only state left...
+		- The Singlet state |0 0>. This is state for s=0.
+		- Note: Applying raising and lowering ladder operator yields zero.
+		- Def: The singlet state (s=0) |0 0>.
+		- Note: Its called triplet for obvious reason.
+	- The total spin quantum number
+		- Objective: We shall apply S^2 operator to find out the values of the spin.
+		- Up-up state
+			- Calc: Eigenvalue of S1*S2 on up-up state
+			- Calc: Eigenvalue of S^2 on up-up state.
+			- Calc: Eigenvalue of Sz on up-up state.
+			- Note: Eigenvalue is 2hbar. Hence, s=1.
+			- Note: Up-Up state is simply s=1 and m=1. |1 1>
+		- Up-Down State
+			- Calc: Lowering operator on up-up state
+			- Calc: Eigenvalue of S1*S2
+			- Calc: Eigenvalue of S^2
+			- Calc: Eigenvalue of Sz.
+			- Note: This state is s=1 and m=0. |1 0>
+		- Down-Down State
+			- Calc: Lowering operator again
+			- Calc: Eigenvalue of S1*S2
+			- Calc: Eigenvalue of S^2
+			- Calc: Eigenvalue of Sz.
+			- Note: This state is s=1 and m=-1. |1 -1>
+		- The state that left
+			- Calc: Lowering operator again
+			- Calc: Eigenvalue of S1*S2
+			- Calc: Eigenvalue of S^2
+			- Calc: Eigenvalue of Sz.
+			- Note: This state is s=0 and m=0. |0 0>
+		- Note: Total spin resulted in three states with s=1. (m = -1, 0, 1).
+		- Note: Total spin resulted in one state with s=0. (m = 0).
+		- Note: This satisfies the conditions that m increases by one unit from -s to s.
+	- Triplet and Singlet States
+		- Def: Triplet States (states with s=1).
+		- Def: Singlet state (state with s=0).
+		- Note: its called singlet and triplet for obvious reason.
+		- Note: Spin (ie, quantum number s) must NOT be confused with quantum number m.
+	- Example: Quarks
+		- Info: Spin of all quarks is 1/2.
+		- Calc: Possible spins for baryons (three quark system) (protons, neutrons).
+		- Calc: Possible spins for mesons (quark-antiquark pair) (pions, kaons).
+
+
+Stern-Gerlach Experiment for Spin-1/2.
+	- TODO: Spin-1/2 uncharged particle in non-uniform B-Field.
+	- TODO: Description of the Stern-Gerlach Apparatus
+		- How to measure: Use a Sterl-Gerlach Apparatus to separate beam and measure it!
+		- How to prepare initial state: Use a Stern-Gerlach Apparatus to separate beam and select an initial state =D.
+		- Eg.: Silver atom beam coming from hot oven by effusion (angular momentum cancels out, leaving valence electron 1/2).
+		- Eg.: How hard is it to cause a deviation in a neutron beam?
+	- TODO: The quantum description (a time dependent hamiltonian) (frame moves with the beam).
+	- TODO: Solution of the problem. The state of the emergent beam (out of the Stern-Gerlach apparatus).
+	- TODO: Separating Sz. Separating Sx. Measuring Sz again (this type of kidding).
+
+
+
+System of two spin-1/2 particles.
+	- TODO: Spin-1/2 Matrix. Total, particle 1, particle 2: S^2, Sz, Sx, Sy, S+, S-.
+	- TODO: Commutator.
+	- TODO: Probabilities. OPerations with it.
+
+
+System of two spin-s particles.
+	- TODO: Construting the coeficients.
+	- TODO: Clebsh-Gordan Coeficients. Probabilities.
+
+
+
+TODO: Spin. Total spin of two-particles. Spin-1/2 Matrix. Generalization of spin-s matrix.
+TODO: Sum of angular momentum/spin for 2 particles. Total Angular momentum J. Clebsch-Gordan Coeficients.
+
+
+
+
+TODO: Muonic Hydrogen Atom (proton + muon).
+TODO: Anti-hydrogen atom (Anti-proton and anti-electron). Note: Identical thing.
+
+
+
+
+
+PERHAPS TO MAKE A FULL LIST ONLY WITH EM FIELDS AND QUANTUM PARTICLES.
+TODO: Particle in electromagnetic Field. (Maybe even using dirac equation).
+TODO: Dipole radiation.
+TODO: Acceleration of electrons. Emission of radiation by acceleration.
+TODO: Nucleous-Electron Scattering. (Quantum plasma!). Released radiation. https://en.wikipedia.org/wiki/Bremsstrahlung
+TODO: Electron-Photon Scattering. Solve everything. Wavefunction and etc. Later to note: Its comptom scattering. Derive comptom formula.
+TODO: Photon-Nucleous Scattering.
+TODO: Electron beam exciting hydrogen atom. Excitation of states. (spark into hydrogen gas!).
+TODO: 
+
+
+
+
+TODO: OTher Things
+	- The nice double slit experiment.
+
+TODO: At the end, give a light to the postulates of quantum mechanics, and how could one fully mathly formalize it.
+
+
+http://chem.libretexts.org/Textbook_Maps/Physical_and_Theoretical_Chemistry_Textbook_Maps/Map%3A_Physical_Chemistry_(McQuarrie_and_Simon)/05._The_Harmonic_Oscillator_and_the_Rigid_Rotator%3A_Two_Spectroscopic_Models/5.9%3A_The_Rigid_Rotator_is_a_Model_for_a_Rotating_Diatomic_Molecule
+
+
+http://chem.libretexts.org/Textbook_Maps/Physical_and_Theoretical_Chemistry_Textbook_Maps/Map%3A_Physical_Chemistry_(McQuarrie_and_Simon)

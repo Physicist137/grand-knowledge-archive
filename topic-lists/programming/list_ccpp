@@ -1,0 +1,335 @@
+TITLE: C/C++ Introduction to Programming
+	- Pre-requisitives: None.
+	- Co-Requisitives: None.
+
+
+My First Useless Program
+	- The include directive. Copy-paste file.
+	- The input/output library
+	- The Standard Library (C++)
+		- std namespace
+	- Output to console
+		- The printf function ( C )
+		- The console output stream ( C++ )
+	- Body of the program
+		- The main Function
+		- Returning from the function
+	- The compiler
+		- MiNGW/Clang compiler
+		- Versions: C++11, C++14, C++17  ( C++ )
+		- Compilation command
+	- The binary
+		- Pre-compilation process
+		- Compilation process
+		- The binary
+	- Execution of the program
+
+
+Built-in types and operators
+	- Def: Variable
+		- Memory alocated
+		- Name
+		- Type
+	- Types of integer variables
+		- Signed integer: Size, range
+		- Unsigned integer: Size, range
+	- Using a variable
+		- Def: Declaration of a variable
+		- Def: Definition of a variable
+		- Naming a variable
+			- Restriction: Language reserved words.
+			- Restriction: Cannot start with number.
+	- Input/output with variables
+		- Outputing a variable value to console
+		- Taking a variable value from console and storing it
+		- Program: Sum two values given by user
+	- Types of variables.
+		- Signed/unsigned integer. Size, Range, Precision.
+			- Mario 8bit processor.
+			- Ariana 5 Rocket.
+		- Floating point. Size, Range, Precision.
+		- Double Floating point. Size, Range, Precision.
+		- Character. Size, Range. ASCII Table.
+		- Bool. Size, Range. (C++).
+		- Overflow of variables. Rocket disaster.
+		- Implicit cast
+		- Explicit cast
+	- Variable existance
+		- Def: Variable scope.
+		- Def: Blocks. {}.
+		- Identation: Always indent in block.
+		- Creation and death of the variable.
+		- Global variables
+		- Local Variable
+	- Arithmetic operators
+		- Sum/Subtraction operator. Binary operator.
+		- Product/Division operator. Binary operator.
+		- Reminder operator. Binary operator.
+		- Incrementer/decrementer operator. Unary operator.
+	- Atribution operator
+		- Erases previous value
+		- Right-to-left property
+		- Chained attributions
+		- Abreviation attribion and arithmetic (+=, ..).
+	- Logical Value:
+		- 0 and not zero.   ( C ).
+		- true and false.   (C++).
+	- Relational operators
+		- Equal operator. Binary operator.
+		- Greater operators. Binary operator. (>=, >)
+		- Less operators. Binary operator. (<=, <).
+		- Different operator. Binary. (!=).
+	- Logical operators
+		- AND operator. C and C++ syntax.
+		- OR operator. C and C++ syntax.
+		- NOT operator. C and C++ syntax.
+		- Abreviation attribion
+	- Special operators
+		- The ? operator
+		- The sizeof operator
+		- The comma operator
+	- Type qualifiers
+		- Signed/Unsigned
+		- Short, Long, long long.
+		- const qualifier.
+	- Bitwise operators
+		- AND operator. &.
+		- OR operator. |.
+		- NOT operator. ~.
+		- XOR operator. ^.
+		- Bitwise left/right carriage/shift operator
+		- Abreviation attribion
+	- Literal Types
+		- Strings. String automatic concatenation.
+		- Integer. Float. Char. Bool.
+		- Integer: Binary Number, Hexadecimal Number.
+		- Floating: 124.f
+		- Double: 124.lf. 124.0.
+	- Useful characters
+		- \0 charactere
+		- \r charactere
+		- \n charactere
+		- Carriage return (linux vs windows) (windows notepad vs notepad++).
+		- \t charactere
+		- \" and \' charactere.
+		- \\ charactere.
+	- Non-Built in types (C++ only)
+		- std::string
+		- std::vector
+
+
+Flux Control in algorithms
+	- Conditions and expressions
+		- Def: Expression. Has a value.
+		- Def: Statment
+		- Def: Condition
+	- Operator precedence
+		- Arithmetical Operators.
+		- Parentesis.
+	- Algorithms
+		- Informal definition
+		- Code representation 
+		- Fluxogram representation
+		- Linear decision
+	- Flux Control Structures
+		- Linear Flux Control Structures
+		- Loop Flux Control Structures
+	- Linear Flux Control: If Structure
+		- If, else
+		- Chained ifs
+		- else if usage
+		- Fluxogram representation
+	- Linear Flux Control: Switch Structure
+		- Fluxogram form
+		- Code form
+		- Break keyword
+		- Default keyword
+	- Linear Flux Control: Goto structure:
+		- Fluxogram form
+		- Def: Label
+		- Making gotos.
+		- Never use it. Why?
+	- Loop Flux Control Structures: While structure
+		- Fluxogram representation
+		- If-goto equivalenct code
+		- Code form
+		- Break keyword
+		- Continue keyword
+		- Endless loops
+		- Useless loops (sleep). Wasting processor.
+	- Loop Flux Control Structures: Do-While structure
+		- Fluxogram form
+		- If-goto equivalenct code 
+		- Differencies of while structure
+	- Loop Flux Control Structures: For structure
+		- Fluxogram form
+		- If-goto equivalent code
+		- While equivalenct code
+		- Code form
+			- Init-statment
+			- Condition
+			- Expression
+		- Endless loops
+		- Useless loops
+		- Counters
+	- Loop Control Techniques
+		- Loop Invariant.
+
+
+Functions and Procedures
+	- Concept
+		- Return type of a function
+		- Name of a function
+		- Arguments of a function
+		- Body of a function
+		- Note: Void type
+	- Definition
+		- Def: Function.
+		- Def: Procedure.
+		- Def: Argument of a function
+		- Routine. Subroutine.
+		- Arguments are passed thru copy and paste.
+		- Scope of the arguments of a function.
+	- Declaration/definition
+		- Def: Declaration of functions
+		- Function prototypes (C term)
+		- Def: Definition of functons
+	- Innerworkings
+		- Call of a function
+		- Arguments are coppied
+		- Processing is take place
+		- Returning
+	- Recursion of functions
+		- How to use
+		- The danger of it.
+		- The amazing power of it.
+		- Use wisely.
+	- Default Argument
+		- Function with default argument
+		- Function with several default arguments.
+	- The main() function
+		- Arguments of main()
+		- Linux argument enviroment
+		- main() must be int type
+
+
+Array and pointers
+	- Vector concept
+	- Arrays
+		- Array declaration
+		- Array definition
+		- Array of ints
+		- Array of chars
+		- Oh! A string!
+		- Nicer way of writing strings.
+	- Output/input of string arrays ( C )
+		- Printing a string array on screen
+		- Inputing a string array on screen
+	- Overflow
+		- Overflow of arrays
+		- You are doing a memory unauthorized access. Bad.
+		- Unpredictable behaviour
+	- Matrixs (vector of vectors!)
+		- Integer matrix
+		- String vector
+	- Multidimensional arrays. Use it at your own risk.
+	- Pointers
+		- Warning: O ministerio da saude adverte: Uso de ponteiros pode causar terriveis dores de cabeça. (why?)
+		- Memory representation
+		- Definition of Pointer
+		- Declaration of pointers
+		- Warning: Before use, check if pointer is pointed to something
+			- Unpredictable behaviour
+			- Program crash.
+			- Kernel Panic.
+	- Pointer operators
+		- The * operator
+		- The & operator
+		- Incremeting/decrementing pointers
+		- Inequality operator in pointers (how far in memory)
+	- Pointer scope/existance
+		- The pointer scope (like any other variable).
+		- Bad managment of pointers.
+		- Crashing a program with bad pointer managment.
+		- Note: Pointers are unsafe.
+	- Alocation of Memory ( C )
+		- The stdlib.h file. Memory managment.
+		- Malloc Function. Returns pointer to memory of specified size.
+		- The Free function. Frees the memory.
+	- Allocation of Memory ( C++ ).
+		- Alocation with new operator.
+		- Alocation and Initialization with new operator.
+		- The delete operator.
+		- Deletion of single pointers.
+		- Deletion of arrays.
+	- Memory Leak
+		- Forgot to delete/free pointer/memory.
+		- It remains on memory until program finishes.
+	- Pointer arguments to functions
+		- Copy and paste of the pointer (not memory pointed to).
+		- Possbility to alter variables in function.
+	- Vector are pointers!
+		- Using pointers in flux controls
+		- Strings applications
+	- As function arguments
+		- Address of memory is coppied
+		- Access to variable content
+		- Variable modified out of scope via pointers
+		- Passing array by argument
+		- Passing string by argument
+	- Pointer of pointer
+		- Pointer is a variable, thus one can make a pointer of it
+		- Pointer of pointers. Draw. Representation of memoery.
+		- Pointer of pointer of pointers. =).
+		- Usage example: Pointer to vectors
+	- Memory Leak
+		- A pointer is not been deleted.
+
+
+Arbitrary Data Structure
+	- Structs: 
+		- Declaration, Definition, Usage.
+		- Inline initialization of structs (using {}).
+		- Pointers to structs
+		- Operator ->.
+	- Enum: Declaration, Definition.
+	- Union: Declaration, Definition.
+	- Typedef keyword.
+		- Eg.: typedef struct asd {};
+
+
+Compilation process
+	- The include pre-processing directive
+		- Include directive: Copy and paste.
+		- Including by ""
+		- Including by <>
+	- The define pre-processing directive
+		- Define directive
+		- Defining a value (like a variable)
+		- Defining a name
+		- Undef directive
+		- Ifdef/elif/else directive
+	- Compilation process
+		- Definition
+		- Assembly generated code
+		- Transformation of code in binary
+		- Compiling flag on compiler
+		- The .o file
+		- The .lib file
+	- Linking process
+		- Static linkage
+		- Dynamic Linkage
+		- Dynamic Library Linkage (dll) (windows)
+		- Static Library Linkage (.lib) (windows)
+	- The Binary
+		- Linking main() with static/dynamic libraries
+		- Producing the binary (.exe)
+	- Compilation of large project
+		- The header files (.h)(C)  (.hpp)(C++).
+		- The source files (.c)(C)  (.cpp)(C++).
+		- Compiling the code
+		- Linking the code
+		- Generating binaries
+	- Using pre-processing to avoid repetition from includes
+		- The Define Way.
+		- Pre-processing: pragma once

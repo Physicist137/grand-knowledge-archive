@@ -1,0 +1,57 @@
+Title: Set Theory 00: The very basic introduction.
+	- Requirements: None
+	- Co-Requisitives: None
+
+
+Número de chamada: 519.5 H194 (BIEx) 510.22 H194 (BIEx)
+
+
+ELEMENTS OF SET THEORY:
+TODO: Def of set. Def of element. Two and only two choices: Element either belong or does not belong to set.
+TODO: Sets are sets (Obviously). Elements are sets! Everything is a set.
+TODO: Sets define as list. Set defined by property.
+TODO: Def: Subset, superset, proper subset, proper superset. Equality of sets. Subset defined by property: {xeA : P(x)} is subset of A.
+TODO: Def: Union, interseton. Sequence of unions/intersections.
+TODO: Def: Disjoint set, universal set, complement set, difference set, Singleton.
+TODO: De Morgan Theorems.
+TODO: Associativity, comutativity, etc of all set relations.
+TODO: The power set.
+TODO: Sum of sets. Multiplication of sets.
+
+
+RELATIONS AND MAPPINGS:
+TODO: Def: Cartesian product.
+TODO: Def: Relation. Well-Defined relation.
+TODO: Def: Partial Orders. Total Orders. Well-Ordering. Induction.
+TODO: Well Ordering <==> Induction.
+TODO: Theorem: All natural numbers are even (proof by induction) (fail to apply n=1 case)
+TODO: Theorem: All horses are are the same color (proof by induction) (fail at n=2 case).
+
+
+FUNCTIONS AND MAPPINGS:
+TODO: Def: Well-Defined function, Domain set, Image set, Codomain set. (functions are relations! functions are sets!).
+TODO: Def: injective function, surjective function, bijective function.
+TODO: Function composition. Associativity. Non-commutativity.
+TODO: Def: Odd, Even, etc, etc. Linear Function. Permutation of a set. Identity map. Inverse map.
+
+
+EQUIVALENT RELATIONS AND CLASSES:
+TODO: Def: Equivalent Relations. (transitive, reflexive, symmetric).
+TODO: Def: Equivalent classes, Partitions, etc.
+
+
+CARDINALITY AND BIJECTIONS:
+TODO: Def: The natural numbers. Building naturals as sets. Building naturals as peano axioms.
+TODO: Integer numbers. Rational numbers.
+TODO: Def: Cardinality.
+TODO: Def: Countable Set. Uncontable Set. Enumerable Set. Non-Enumerable set. Dense Set.
+TODO: Bijection N <--> N^2.  Bijection N <--> Z <--> Q.
+TODO: No bijection of N <--> R.
+TODO: Cantor Diagonalization Argument.
+
+
+
+THE CONTINUUM AND TRANSFINITE:
+TODO: The continuum. Power set of N. Bijection with R.
+TODO: Transfinite numbers. Ordinal Numbers. Cardinal Numbers.
+TODO: Transfinite induction. Transfinite recursion Theorems.

@@ -1,0 +1,33 @@
+TITLE: Circuits 03: Single RLC Circuit in series.
+	- Pre-requisitive: Circuits 01  OR  Circuits 02  OR  Fisica 03b.
+	- Co-requisitive: Calculus 01, Complex 01.
+	- Recommended: Fisica 03b (highly recommended) (the circuit part at least).
+
+
+TODO: Physics Base: Capacitors, Capacitance. Energy stored. Energy density between plates. Time that takes to charge a capacitor.
+TODO: Physics Base: Inductors, Inductance. Energy stored. Danger in disconnecting high inductive loads.
+
+TODO: Math Base: Fourier series (time). Orthogonality. Coeficients. Term with only cossine. Complex fourier series. Relations.
+TODO: Example: Square Signals.
+
+TODO: Math Base: Fourier Transform (time).
+TODO: Math Base: Laplace Transform (time).
+
+TODO: Series RLC Circuits. Transient response. Homogeneous circuit. 
+TODO: Oscilation frequence. Overcritical/critical/undercritical damping. Time constant.
+
+TODO: Series RLC with senoidal source.
+TODO: Ressonance Curve. Ressonant frequence. Log-plot of it. Quality Factor.
+
+TODO: Series RLC with arbitrary periodic signal. Ressonant frequences. Ressonance curve. Log-Plot. Quality Factor.
+TODO: Series RLC with arbitrary non-periodic signal. Ressonance frequences. Ressonance curve.
+TODO: Frequence domain and time domain.
+TODO: Power. Real Power. Reactive Power. Apparent Power. Max power transfer. Effective current/voltage.
+
+TODO: Lumped element: Real inductor. (series: resistor and ideal inductor).
+TODO: Equivalent parallel resistor representation
+TODO: Quality factor of the inductor.
+
+TODO: Parallel RLC Circuit. Transient Response. Complete response. Time constant. Frequence.
+TODO: Forcing. Ressonance. Arbitrary signal.
+TODO: Association of RLC Circuits. What shall happen?

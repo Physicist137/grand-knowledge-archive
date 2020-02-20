@@ -1,0 +1,340 @@
+Title: Elementary Algebra 01
+	- Pre-requisitives: Nothing
+	- Co-requisitives: Calculus 00.
+
+
+Numerical Arithmetic
+	- Set of Natural Numbers
+		- Soma, multiplicação
+		- Set of Whole Numbers
+		- def: Variavel
+		- def: Expressão Algebrica
+		- def: Equação Algebrica
+		- def: Inequação Algebrica
+		- Expressões Algebricas em N
+			- Soma
+			- Def: Produto
+			- Def: Exponenciação
+			- Resolvendo equações
+			- Propriedade distributiva
+		- Exponenciação
+			- a^x b^x = (ab)^x
+			- a^(bc) = (a^b)^c
+			- a^x * a^y = a^(x+y)
+	- Numeros racionais
+		- Definição
+		- Numerador, Denominador
+		- Máximo divisor comum
+		- Def: Fração Irredutível
+		- Def: Numero Primo
+		- Divisão por zero
+		- Fatoração Prima
+		- Expressões Algebricas em Q
+			- a/a = 1
+			- Fatoração inteira e simplificação
+			- Produto de racionais
+			- Divisão é produto do inverso
+			- Divisão de racionais
+			- Soma de racionais
+		- Escrita decimal
+		- Propriedade distributiva
+		- Fatoração
+		- Resolvendo equações algebricas
+		- Exponenciação de racionais
+			- a^x / b^x = (a/b)^x
+			- a^x := a^-x
+			- a^x / a^y = a^(x-y)
+			- a^0 = 1, a!=0
+		- Radiciação
+			- Definition
+			- Property: root(ab) = root(a) root(b)
+			- Property: nroot(a) = a^(1/n)
+
+
+Equações e inequações exponenciais
+	- def: Função exponencial
+		- Dominio, Imagem
+		- Grafico
+	- def: Equaçoes exponenciais
+	- Propriedades
+		- Injetividade da função exponencial
+		- Theorem: x^a = x^b  <==>  a = b
+		- Extração de propriedades dos racionais, para reais
+			- a^m a^n = a^(m+n)
+			- a^m / a^n = a^(m-n)
+			- a^n * b^n = (ab)^n
+			- a^n / b^n = (a/b)^n
+			- (a^n)^m = a^(nm)
+	- Inequações exponenciais
+		- Theorem: x^a > x^b  <==> a > b
+		- Theorem: x^a < x^b  <==> a < b
+	- Exemplos: Equações e inequações exponenciais
+		- Bases iguais
+			- 2^(2x+4) = 128
+			- ...
+		- y = a^x problem. Who's x?
+			- 2^(x+5) = 20
+		- Needing more advancing tool: Logarithm
+
+
+Logaritmo e equações
+	- Def: Logarithm
+		- y = a^x problem is solved!
+		- Ironic: Problem not solved, by definition
+			- Apenas respondi a pergunta sem responde-la
+			- Math does it all time
+			- Cave properties
+	- Examples of Logarithm (def application)
+	- Decorrencias da definição
+		- log_a 1 = 0
+		- log_a a = 1
+		- log_a a^b = b
+		- a^(log_a N) = N
+	- Application examples
+		- 2^(1 + log_2 5)
+		- log_4sqrt2(0.125)
+	- Condição de existencia do logaritmo
+	- Propriedades do logaritmo
+		- log(NM) = logN + logM
+		- log(N/M) = logN - logM
+		- log(1/N) = -logN
+		- log(N^x) = x logN
+		- log nroot M = 1/n logM
+	- Theorem: Mudança de base
+		- log_a N = log_b N / log_b a
+	- Função logaritmica
+		- Dominio, imagem
+		- Inversa da função exponencial
+		- Grafico
+		- Função injetiva
+			- log a > log b  <==> a > b
+			- log a < log b  <==> a < b
+			- log a = log b  <==> a = b
+	- Resolvendo equações exponenciais com logaritmo
+
+
+Sistema de Equações Lineares
+	- Definition
+	- Examples
+	- Interpretação Geométrica
+		- Retas Transversais
+		- Retas paralelas
+		- Retas coincidentes
+	- Method: Resolver por soma de equações
+	- Method: Resolver por substituição
+
+
+Polinomios
+	- Definition
+	- def: Termo independente
+	- def: Grau de um polinomio
+	- def: Polinomio fatorado
+	- def: Equaçãol polinomial
+	- def: Solução da equação polinomial
+	- def: Igualdade de polinomio
+	- def: Raizes de um polinomio
+	- Grafico de um polinomio
+		- interception y axis
+		- interception x axis
+	- Fatoração do polinomio
+		- Calculo de raizes
+
+
+Polinomio de grau 1
+	- Grafico
+	- Solução de eq. polinomial
+	- Interpretação Geometrica
+		- Intersecção de retas com y=0
+		- Intersecção de retas quaisquer
+	- Inequações polinomiais de grau 1
+
+
+Polinomio de grau 2
+	- polinomio da forma y = x^2
+		- Função par: Interpretação Geometrica
+		- Distancia enter dois pontos de mesmo y.
+		- Eixo de simetria
+		- Ponto mínimo (Vertice)
+	- Translação sobre eixo y.
+		- Raizes simetricas
+		- Ponto minimo
+		- Raizes
+		- Simetria das raizes
+			- Vertice é media aritimetica das raizes
+	- Translação sobre eixo x
+		- Interseção em y
+	- Translação de eixo x, y
+		- Existencia de eixo de simetria
+		- Raizes
+		- Vertice é media aritimetica das raizes
+	- polinomio y = -x^2
+	- Equação geral polinomial do segundo grau
+		- Theorem: qualquer polinomio é translação de y=x^2 or y=-x^2
+		- Corolario: Simetria das raizes de polinomio de segundo grau
+	- Formulas de Vieta
+		- Comparação entre polinomio fatorado e não fatorado
+		- Soma das raizes (rel de vieta)
+		- Produto das raizes (rel de vieta)
+		- Calculo das coordenadas do vértice
+		- Calculo de raizes usando relações de vietta
+	- Solução geral da eq. polinomial
+		- Solução geral
+		- def: Discriminante
+		- Analise do discriminante
+			- Discriminante positivo
+			- Disicriminante nulo
+			- Discriminante negativo
+		- Naming: Formula de Bhaskara
+	- Interpretação Geometrica
+		- Interseção de retas com y = x^2
+		- Interseção de retas com y = -x^2
+		- Numero de interseções
+	- Inequações polinomiais de grau 2
+		- Metodo grafico
+		- Analise de sinal
+
+
+Extensões para polinomio de grau n
+	- Raizes nulas
+		- Redução de grau
+		- Multiplicidade das raizes
+	- Relações de Girard
+	- Def: Discriminante
+	- Def: multiplicidade das raizes
+	- Polinomios quadraticos
+	- y = x^4 - x^2 + 1
+		- Method: Solução por substituição
+		- Forma Geral.
+		- Solução geral	
+
+
+Quocientes de polinomios
+	- Definition
+	- Restrições em x
+	- Equações de quocientes de grau 1
+	- Inequações de quocientes de grau 1
+		- Solução de igualdade
+		- Analise de sinal
+		- Verificação de restrições
+	- 1/p, onde p tem grau 2
+		- Equações
+		- Inequações
+			- Solução da igualdade
+			- Analise de sinal
+			- Restrições em x
+	- Frações parciais e redução de grau em q/p
+		- q tem grau 0, p tem grau 2.
+		- q tem grau 1, p tem grau 2.
+		- q tem grau 2, p tem grau 2.
+		- q tem grau 2, p tem grau 1.
+
+
+Divisão de polinomios
+	- Def: Multiplicação de polinomios
+	- Def: Divisão de polinomios
+		- Def: Polinomio dividendo 
+		- Def: Polinomio divisor
+		- Def: Polinomio quociente (resultado)
+		- Def: Polinomio resto
+		- Verificação: quociente * divisor + resto = dividendo
+	- Algoritmo de Divisão
+	- Aplicação: Fatorar polinomios
+		- Exercise: Find all roots x^3 - 4x^2 - 7x + 10 = 0
+	- Frações parciais de grau superior
+
+
+TODO: Make it more complete. Talk about the useless number.
+Polinomio de Grau 3
+	- Formato Geral
+		- Relações enter as raizes e coeficientes
+	- polinomio p = x^3
+		- Função impar: Interpretação Geometrica
+		- Existe simetria?
+		- Inexistencia de ponto minimo
+		- Translação de p representa formato geral?
+	- Polinomio p = x^3 + bx
+		- Função impar?
+		- Translação de p representa formato geral?
+		- Pontos minimos (derivadas)
+		- Existe simetria?
+		- Raizes
+	- Translação em y: p = x^3 + bx + c
+		- Relações entre as raizes e coeficientes
+		- Solução Geral
+		- Calculo do discriminante
+		- Analise do discriminante
+	- Redução a translação em y
+		- Translação em x
+		- Redução
+	- TODO: Substitution for general cubic equation to x3 = ax + b.
+	- TODO: Vieta's Formulas for cubic equation. https://en.wikipedia.org/wiki/Vieta%27s_formulas
+	- TODO: Cardano's Method. https://en.wikipedia.org/wiki/Cubic_function#Cardano.27s_method
+	- TODO: Vieta's Substitution
+	- Main Cubic Solution Problem
+		- Try x^3 = -6x + 20
+		- Try x^3 = 15x + 4
+		- As you can see, this is a problem...
+			- Naive solution
+			- Needing more advancing tool
+	
+	
+Numeros Complexos (Basic Algebra)
+	- Def: Unidade imaginaria
+	- Escrita geral sobre R
+	- Plano de Argand-Gauss
+	- Interpretação de i (rotation)
+	- Operações complexas
+		- Def: Soma, Subtração
+		- Def: Multiplicação, Divisão
+		- Def: Conjugado
+		- Def: Argumento
+		- Def: Modulo complexo
+	- Coordenadas polares complexas
+	- THE THEOREM: Teorema fundamental da algebra elementar
+		- Examples: Fatorar: x^2 + 1
+		- More examples
+	- Main cubic solution problem has been solved
+		- Calculando: Try x^3 = 15x + 4
+		- Oh! now is easy!
+
+
+TODO: Diophantus–Fibonacci identity. https://en.wikipedia.org/wiki/Brahmagupta%E2%80%93Fibonacci_identity
+TODO: Inequations.
+TODO: Radical Equations (equations involving roots)
+TODO: Variables. Expressions. Distribuição. Fatoração. Produtos notaveis.
+TODO: Soma e difereça de potencias. https://en.wikipedia.org/wiki/Factorization#Sum.2Fdifference_of_two_nth_powers
+TODO: Binomial Theorem. Pascal Triangle.
+TODO: Plano cartesiano. Retas no plano cartesiano.
+TODO: Plots and functions
+
+TODO ABOUT SUMMATIONS:
+TODO: Easy manipulations: c sum ai = sum c ai. (sum ai) + (sum bi) = sum (ai + bi).
+TODO: General manipulations in sums. https://en.wikipedia.org/wiki/Summation#General_manipulations
+TODO: General manipulations in double sums. https://en.wikipedia.org/wiki/Summation#General_manipulations
+TODO: Summations of powers: sum i.  sum i^2.  sum i^3.
+TODO: Summations of exponents: sum a^i. sum i a^i.
+TODO: Binomial Theorem. (a+b)^n expressed in sum. Sums involving binomial coeficients.
+
+
+TODO ABOUT POLINOMIOS:
+TODO: Multiplicação e divisão de polinomios. Fatorização de polinomios.
+TODO: Fatorações relevantes: (1-x)(x^n + x^{n-1} + x^{n-2} + ... + x^2 + x + 1) = 1 + x^{n+1}.
+TODO: Fatorações relevantes: (1+x)(x^n - x^{n-1} + x^{n-2} - ... ...) and (1+x)(..).
+TODO: Quadratic equation. Plots. Forma fatorada. Vieta. Translações. Vértices. Raizes. Simetria nas raizes.
+TODO: Biqudratic equation: a x^4 + b x^2 + c = 0. Plots. Raizes.
+TODO: Vieta's formulas. General polynomial. https://en.wikipedia.org/wiki/Vieta%27s_formulas
+TODO: Cubic Equations: Vieta's Formulas. Cardano Method. Vieta's Substitution. Lagrange Method. Intr complex.
+
+TODO ABOUT OTHER STUFFS:
+TODO: Resolver infinity coisas: sqrt(1 + sqrt(1 + sqrt(1 + ...))) = ??
+TODO: TO THINK: Por naive seq e series?
+
+
+
+The End!
+Now you can go to:
+	- Elementary Algebra 02.
+	- Linear Algebra 01.
+	- Complex 01: Complex Algebra.
+	- Algebra 01: Group Theory.
+

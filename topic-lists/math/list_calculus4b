@@ -1,0 +1,28 @@
+TITLE: Calculus 04: Basic Vector Calculus em 3D
+	- Pre-Requisitive: Calculus 04a.
+	- Co-Requisitive: 
+	
+
+Calculo Vetorial em tres dimensões
+	- TODO: Divergence of vector field (using limit of integrals, and proving how to write differentially)
+	- TODO: Curl of vector field. (using limit of integrals, and proving how to write differentially)
+	- Differential operators.
+		- Formal Definition: Gradient operator
+		- Formal Definition: Divergence operator
+		- Formal Definition: Curl operator (rotacional).
+	- Regras entre os operadores
+		- Divergence/Rotational of gradient of scalar field.
+		- Divergence of rotational of vector field.
+		- Remmember: Gradient of two scalar fields.
+		- Gradient of dot product of two vector fields.
+		- Divergence/Rotational of scalar field times vector field.
+		- Divergence/Rotational of cross product of two vector fields.
+	- Few useful examples
+		- Divergence/Rotational of identity vector field (F(r) = r).
+		- Vector laplacian of identity vector field
+	- TODO: General field has a gradient part and a rotational part. Scalar and vector potentials fields.
+	- TODO: Gradient Theorem for line integrals
+	- TODO: Stokes Theorems (Generalization of Green theorem)
+	- TODO: Divergence Theorem
+	- TODO: Other integral vector theorems
+

@@ -1,0 +1,87 @@
+TITLE: Applied Electrodynamics 01: Electrostatics.
+	- Pre-requisitives: None.
+	- Co-requisitives: Classical Electrodynamics 01.
+
+
+MAYBE: Some topics optional. Others obligatory (assuming Spherical stuff will be moved towards here).
+
+Objectivies: Well..: Computational Methods, Coeficient of potentials, Energies, Stresses, Pressures, Fields, etc. Maybe electrostatic lenses, etc.
+Objectivies: Well..: Dielectrics, D-Fields, P-Fields, E-Fields.
+
+
+
+METHOD OF IMAGES: PUNCTUAL CHARGES NEAR CONDUCTORS:
+	- Charge near conducting plane, at some distance:
+		- Calc: The potential and electric fields.
+		- Calc: Surface-charge induced on the plane. Plot.
+		- Calc: Electrostatic pressure induced on the plane. Plot.
+		- Calc: Force between charge and plane: Using the electrostatic pressure in the plane.
+		- Calc: Force between charge and plane: Using the virtual charge.
+		- Calc: Potential energy between charge q and its image.
+		- Calc: Work required to remove charge q from its position to infinite. (note: It is different from potential energy..).
+		- Calc: Work required to remove an electron located at 1 angstron from a surface (express in electron-volt) (note: Approximately equal to work function of metals to rmove electrons).
+	- Charge near a 90 degree corner.
+		- Calc: The potential and electric fields.
+		- Calc: Surface-charge induced on the plane. Plot.
+		- Calc: Electrostatic pressure induced on the plane. Plot.
+		- Calc: Force between charge and plane: Using the electrostatic pressure in the plane.
+		- Calc: Force between charge and plane: Using the virtual charge.
+		- Calc: Potential energy between charge q and its image.
+		- Calc: Work required to remove charge q from its position to infinite. (note: It is different from potential energy..).
+		- Calc: Work required to remove an electron located at 1 angstron from a surface (express in electron-volt) (note: Approximately equal to work function of metals to rmove electrons).
+
+
+METHOD OF IMAGES: PONCTUAL CHARGES NEAR SPHERE:
+	- Charge outside/inside a grounded conducting sphere. (Kept at zero potential).
+		- Calc: The potential. The potential on the sphere.
+		- Calc: The surface-charged induced on the sphere. Plot.
+		- Calc: Electrostatic pressure on the sphre. Plot.
+		- Calc: Force between sphere and charge.
+	- Charge outside/inside an insulated charged conducting sphere.
+		- https://physics.stackexchange.com/questions/424229/problem-with-a-sphere-and-a-charge-outside
+		- Calc: The potential. The potential on the sphere.
+		- Calc: The surface-charged induced on the sphere. Plot.
+		- Calc: Electrostatic pressure on the sphre. Plot.
+		- Calc: Force between sphere and charge.
+		- Calc: Zero force point (Q >> q). Unstable equilibrium point. Image charge causes attraction.
+		- Calc: Work done to remove the charge from the surface (to pass the image charge attraction). Compare with work function of some metals.
+	- Charge outside/inside an insulated initially non-charged conducting sphere.
+		- Calc: The potential. The potential on the sphere.
+		- Calc: The surface-charged induced on the sphere. Plot.
+		- Calc: Electrostatic pressure on the sphre. Plot.
+		- Calc: Force between sphere and charge.
+		- Calc: Zero force point (Q >> q). Unstable equilibrium point. Image charge causes attraction.
+		- Calc: Work done to remove the charge from the surface (to pass the image charge attraction). Compare with work function of some metals.
+	- Charge outside/inside an grounded conducting sphere at fixed potential V.
+		- Calc: The potential. The potential on the sphere.
+		- Calc: The surface-charged induced on the sphere. Plot.
+		- Calc: Electrostatic pressure on the sphre. Plot.
+		- Calc: Zero force point (Q >> q). Unstable equilibrium point. Image charge causes attraction.
+		- Calc: Work done to remove the charge from the surface (to pass the image charge attraction). Compare with work function of some metals.
+		- Calc: Force between sphere and charge.
+	- Sphere in constant electric field.
+		- TODO.
+
+
+METHOD OF IMAGES: OTHER SOURCES:
+	- Electric dipole near conducting plane. https://en.wikipedia.org/wiki/Method_of_image_charges#Electric_dipole_moments
+		- Calc: The potential and electric fields.
+		- Calc: The surface-charge induced on the plane. Plot.
+		- Calc: The electrostatic pressure. Plot. The electrostatic shear stresses. The stress tensor.
+		- Calc: Force between charge and plane. Torque between charge and plan. (Using the image dipole, and using the stress tensor).
+		- Calc: Work required to remove the dipole from its position to infinite.
+
+
+CAPACITORS (WITH DIELECTRIC INSIDE OFC):
+	- https://en.wikipedia.org/wiki/Capacitance#Simple_systems
+	- Calculate: Electric Field, Polarization Density, D-Field.
+	- Calculate: Capacitance, Energy Density, Electrostatic Energy stored, pressures and stresses in each conductor, forces (if applies);
+	- Calculate: Capacitance per unit length (if applies), Capacitance per unit area (if applies).
+	- Type: Two concentric conducting spheres with radii a,b (b>a)
+	- Type: (Plane capacitor) Two large flat conducting sheets of area A, separated by distance d.
+	- Type: (Coaxial Cable) Two concentric conducting cylinders of length L larged compared with their radii (a,b) (b>a)
+		- Note: For fixed capacitance per unit length, and fixed outer-radius of inner conductor, the inner-radius of outer-conductor varies exponentially.
+		- Note: A slight chance in desired capacitance might lead to a HUGE change in the inner-radius of outer-conductor. Exploit this numerically.
+		- Comparisom between plane capacitor and coaxial cable (if both plane and cylinder are isometric, with d far smaller their radii).
+	- Type: (Two-Wire Transmission Line) Two long cylindrical conductors of radii a1, a2, parallel, separated by distance d, large compared with their radius.
+

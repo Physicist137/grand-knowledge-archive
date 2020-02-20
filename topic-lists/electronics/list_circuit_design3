@@ -1,0 +1,40 @@
+TITLE: Circuit Design 03: Nonlinear Circuit Design
+	- Pre-requisitive: Design 02, Component 01, Circuit 04.
+	- Co-requisitive: None
+
+
+TODO: Retification using diodes. Several types of retification. (ie, from AC to DC).
+TODO: Diode Cascade. Voltage multiplier. Walton-Craft multiplier. Multi-stage diode multipliers.
+TODO: Other diode applications.
+
+TODO: Amplification using transistors. Several amplifiers.
+TODO: Analysis of all amplifiers. Estability. Thermal stability.
+TODO: Logic gates
+TODO: Flip flops
+TODO: From flip-flops to multivibrators
+TODO: Schmitt trigger using multivibrator
+TODO: Oscilators. 
+	- TODO: Amplifying RLC Circuit. Maintaining oscilation. Crystal Oscilator.
+	- TODO: HartleyOscilator, ColpittsOscilator, https://en.wikipedia.org/wiki/Electronic_oscillator)
+	- TODO: https://en.wikipedia.org/wiki/Blocking_oscillator
+TODO: Arriving at the operational amplifiers
+	- TODO: Current mirrors
+	- TODO: Gain Stage (class A) (voltage amplifier)
+	- TODO: Voltage Level Shifter
+	- TODO: Differential Amplifier
+	- TODO: Combination to arrive in the op amp
+	- https://en.wikipedia.org/wiki/Operational_amplifier
+TODO: Using opamps
+	- TODO: Buffer circuit, inverting amplifier, non-inverting amplifier, differential amplifiers
+	- TODO: Summer, Subtractors, Differentiators, Integrators
+	- TODO: Schmitt Triggers, Mimic Hysteresis, multivibrators
+	- TODO: Active filters. Deploying generic transfer function to op amp response.
+	- TODO: Transforming signals.
+	- TODO: Analog to digital conversions. Digital to analog conversions.
+	- TODO: Precision retification, Voltage and current regulators, Voltage clamping, Oscilator.
+
+	- https://en.wikipedia.org/wiki/Operational_amplifier#Applications
+	- https://en.wikipedia.org/wiki/Operational_amplifier#Other_applications
+
+
+WARNING: No op-amps allowed. Op-amped circuits shall go to Analog Electronics.

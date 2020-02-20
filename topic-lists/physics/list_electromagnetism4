@@ -1,0 +1,224 @@
+TITLE: Electromagnetism 03: Equações de Maxwell.
+	- Pre-requisitives: Electromagnetism 02, Continuum 00.
+	- Co-requisitives: 
+
+
+A corrente de deslocamento
+	- TODO: http://physics.stackexchange.com/questions/74625/does-alternating-current-ac-require-a-complete-circuit
+	- TODO: http://physics.stackexchange.com/a/74999/57094
+	- TODO: https://i.stack.imgur.com/Jproe.png
+
+
+Equações de Maxwell
+	- All Electromagnetic equations so far
+		- Relação entre E,D. Meio linear.
+		- Relação entre H,B. Meio linear.
+		- Potencia elétrico e magnético
+		- Vetor de polarização e magnetização. Relação com os vetores de campo.
+		- Densidade volumétrica e superficial de carga polarizada
+		- Densidade volumétrica e superficial de dipolo magnetico
+		- Densidade volumétrica e superficial de corrente de magnetização
+		- Densidade volumétrica de energia e energia do campo eletromagnético
+		- Condutividade
+		- Conservação da carga
+		- Força de Lorentz
+		- Indução eletromagnética
+	- Contradição com capacitor sendo carregado
+		- Example: Capacitor sendo carregado
+		- Lei circuital de Ampere
+		- Uso de duas superficies: Explorar presença/ausencia de intersecção com corrente
+		- Note: A contradiction.
+	- Fixing contradiction: Corrente de deslocamento
+		- Note: Superficie fechada da corrente não é zero
+		- Acumulo de carga ocorrendo no capacitor
+		- Aplicando lei da conservação da carga (divergent theorem of closed current)
+		- Note: Divergente da lei circuitral local de Ampere incondizente com conservação de carga!
+		- Adicionar termo de deslocamento: Escrita da conservação da carga
+	- Equações de Maxwell: Equações de campo fundamentais
+		- Generalização da Lei de Ampere
+		- Lei de indução eletromagnetica
+		- Lei de Gauss
+		- Inexistencia de monopolos magnéticos
+	 	- Note: Todas outras equações eletromagneticas derivaveis dessas
+	- Condições de contorno em interface entre dois meios
+		- Condição normal para o campo B
+		- Condição normal para o campo H
+		- Condição tangencial para o campo E.
+		- Condição normal para o campo D
+		- Condição normal para o campo J
+			- Equação da continuidade
+			- Condição de contorno normal.
+		- Condição normal para o campo E em onda eletromagnética
+			- Uso das condições normais em D e J
+			- Relações constitutivas para E em D, J.
+			- Sistemas de equações para a condição normal em E
+		- Condição normal para o campo E em onda eletromagnética monocromática
+			- Special Case: Densidade superficial de carga nula
+			- Special Case: Condutividade dos dois materiais nulas
+			- Condição normal geral para campo E em onda eletromagnética
+		- Condição tangencial para campo H
+			- Escrita de B em função de H e M
+			- Densidade de corrente de magnetização
+			- Relação geral para o campo H
+		- Condição tangencial para o campo B
+			- Relação constitutiva de material linear entre B e H
+			- Relação geral
+	- Aplicação das equações de maxwell em potenciais
+		- Potencial magnético
+		- Aplicando 3a equação de maxwell
+		- Campo eletrico em função de potenciais
+		- Note: Potencial escalar no caso estático sem campo magnético é potencial eletrostático
+		- Note: Potencial escalar no caso de variação magnética constante é potencial eletrostático
+		- Note: Potencial escalar é generalização do potencial eletrostático
+		- Equação generalizada de Poisson no caso elétrico
+		- TODO: More
+
+
+Energia eletromagnética
+	- Equação de energia eletromagnetica
+		- Remember: Energia elétrica e energia magnética armazenada no campo
+		- Aplicando produto escalar nas equações de campo rotacionais
+	 	- Assumption: Meios isotropicos lineares
+	 	- Integração volumetrica em todo do meio
+	 	- Note: Uma das integrais é a soma da energia elétrica e magnética armazenada no campo
+	- Note: Equação válida para meios anisotrópicos lineares
+		- Relação E,D
+		- Def: Tensor de permeabilidade elétrica
+		- Tensor de permeabilidade é simétrico
+	- Example: Particula carregada deslocando com velocidade constante em campo EM
+		- Note: Particula sofre forças elétricas, forças magnéticas e forças mecanicas
+		- Calc: Força mecanica realizada na particula
+		- Taxa de trabalho realizado pela força mecanica sobre a particula (potencia)
+		- Note: Comparisom com a definição do vetor densidade de corrente
+		- Calc: Potencia mecanica realizada por unidade de volume
+	- Vetor de Poynting
+		- Def: Vetor de Poynting: S = E x H.
+	 	- Forma integral da conservação de energia eletromagnética
+	 	- Forma local da conservação de energia eletromagnética
+	 - Interpretação da forma local da equação de conservação de energia eletromagnética
+	 	- Remember: Equação da continuidade (conservação da carga elétrica)
+	 	- Note: Assume: No current. Then: Equação da continuidade de energia.
+	 	- Variação de densidade de energia eletromagnética
+	 	- Densidade de corrente de energia
+	 - Interpretação da forma integral da equação de conservação de energia eletromagnética
+	 	- Termo de fluxo de energia sobre uma superficie (entrada e saida de energia)
+	 	- Termo de energia armazenada na forma de campo elétromagnético
+	 	- Termo da energia dissipada por efeito Joule
+	 	- Indeed: Fluxo de energia constante ==> Variação linear de energia armazenada
+	- TODO: Poynting vector in DC circuit.
+		- https://en.wikipedia.org/wiki/File:Poynting_vectors_of_DC_circuit.svg
+		- https://en.wikipedia.org/wiki/Poynting_vector
+	- TODO: Poynting vector in charging/discharging capacitor.
+
+
+Campos variaveis no tempo
+	- TODO: Equação do transformador. Aproximação para transformador ideal.
+	- TODO: Variação senoidal (campo EM variavel). Equações de maxwell (forma complexa. Single frequence).
+	- TODO: Campo variavel em um dielétrico. FAtor de dissipação de potenia. (Note: Termo de polarização contribui para dissipação de potencia)
+	- TODO: Campo variavel em meio magnético.
+	- TODO: Campo variavel em meio condutor. =).
+	- TODO: Energia eletromagnética. Forces and torques from it.
+	- TODO: Pressues and stresses of materials. =).
+	- TODO: Tensor de estresse de maxwell. Maxwell-Stress-Tensor.
+
+
+Ondas de campo e ondas de potencial
+	- Equação de onda eletromagnetica
+		- Rotacionais da equações rotacionais eletricas e magneticas das eqs. de maxwell
+		- Equação de onda para o campo H
+		- Equação de onda para o campo E
+		- Calc: Velocidade de onda eletromagnetica
+		- Calc: Fator de amortecimento da onda eletromagnética
+		- Special case: Ondas eletromagnéticas no vacuo
+		- Special case: Ondas eletromagnéticas em dielétricos não magnéticos
+		- Special case: Ondas eletromagnéticas em condutores não magnéticos
+		- Note: Termo de deslocamento contribui com solução ondulatória
+		- Note: Termo de corrente de transporte contribui com amortecimento do campo
+		- Note: Sem correção de Maxwell, só haveria amortecimento. No waves
+	- Condições de contorno para ondas eletromagneticas em interface entre dois meios
+		- Condição para o campo B
+		- Condição para o campo E
+		- Condição para o campo D
+		- Condição para o campo J  (eq da continuidade)
+		- Materiais lineares isotrópicos
+			- Uso das relações entre D, E, J em função de E
+			- Condições de contorno para ondas eletromagnéticas
+			- Special case: Densidade superficial de carga nula
+			- Special case: Limite entre dois dielétricos
+		- TODO: Condição para campo H
+	- Onda de potencial magnético
+		- Campo eletrico em função de potenciais elétrico e magnético
+		- Tentativa de gerar equação de onda para potencial magnético
+		- Note: Condição de Lorentz: Condição do potencial magnético para a onda
+		- Onda de potencial magnético
+	- Onda de potencial elétrico
+		- Potencial elétrico
+		- Lei local de gauss
+		- Usando condição de Lorentz
+		- Onda de potencial elétrico
+	- Potencial retardado
+		- Equação de onda de potencial elétrico
+		- Assume: Carga pontual no centro. Carga controlável com passar do tempo
+		- Equação integral volumétrica nas proximidades do centro também a ser satisfeita
+		- Note: Simetria completamente esférica
+		- Passagem da equação de onda para coordenadas esféricas
+		- Solução geral da equação de onda de potencial
+		- Solução geral da equação integral. Carga no centro.
+		- Junção das soluções
+		- Def: Tempo retardado
+		- Def: Potencial elétrico retardado
+		- Note: Potencial satisfaz equação integral volumétrica com tempo retardado
+		- Calc: Potencial magnético retardado
+		- Interpretação física do potencial retardado
+	- Transformações de Calibre
+		- Note: Potencial magnético adicionado de campo gradiente não muda o campo magnético
+		- Objective: Manter constante o campo eletromagnético
+		- Calc: Manter constante o campo elétrico com soma de campo gradiente ao potencial magnético
+		- Formal Def: Transformação de calibre
+		- Transformação de calibre dos potenciais eletricos e magnéticos
+	- Imposição da condição de Lorentz
+		- Remember: Condição de Lorentz para onda de potencial
+		- Calc: Escolher transformação de calibre para impor condição de Lorentz
+		- Def: Sistema de Lorentz
+	- TODO: Equações de Jemifenko
+
+
+
+
+
+TODO: Condição eletrostatica/magnetostatica das eq de maxwell (static <==> To prevent field coupling!)
+TODO: Jemifenko Equations. https://en.wikipedia.org/wiki/Jefimenko%27s_equations
+	- Ie, generalization to Poisson law (for E Field).
+	- Ie, generalization to Biot-Savart law (for the B Field). (After all, no more stationary current is assumed).
+	- Retarded potentials.
+TODO: Maxwell Stress Tensor. https://en.wikipedia.org/wiki/Maxwell_stress_tensor
+	- https://en.wikipedia.org/wiki/Maxwell_stress_tensor
+	- To find the pressures exerced due to electromagnetic origin
+	- To find the stresses exerced due to electromagnetic origin
+	- https://en.wikipedia.org/wiki/Electromagnetic_forming
+TODO: Total force per unit volume
+	- https://en.wikipedia.org/wiki/Magnetic_tension_force
+	- Using variation of poyting vector and divergence of stress tensor. (momentum flux density)
+	- Like continuity equation! Conservation of momentum.
+
+TODO: Vetor de Hertz.
+TODO: Vetor Y. B = rot rot Y.
+
+TODO: https://en.wikipedia.org/wiki/Gauge_fixing#Coulomb_gauge
+	- Lorentz Gauge.
+	- Coulomb Gauge.
+	- Gauge Transformations. https://en.wikipedia.org/wiki/Gauge_theory#Classical_gauge_theory
+
+
+TODO: Some EM Quantities using EM potentials (B-Flux, voltage across loop, etc) (for instance: http://www.pa.msu.edu/~duxbury/courses/phy481/Fall2009/MidtermII-2009Solutions.pdf)
+TODO: Maxwell Equations only using EM Potentials (note: It reduces to two equations).
+TODO: Integral Maxwell Equations using EM Potentials.
+
+
+TODO: More about calibre and EM gauge?
+TODO: Relativity of electromagnetism perhaps? Indeed.
+TODO: Sistema de unidades no electromagnetismo classico. SI Units. Gaussian Units. Escrita of electromagnetism in unit-independent form.
+	- Unit-independent form: E-D-P, B-H-M, Lorentz force, Coulomb Law, Biot-Savart Law, Ampere Law, Maxwell equations.
+	- After Maxwell Equations. In fact, perhaps, after everything.
+	- https://en.wikipedia.org/wiki/Centimetre%E2%80%93gram%E2%80%93second_system_of_units#Alternate_derivations_of_CGS_units_in_electromagnetism
+

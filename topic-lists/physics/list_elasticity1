@@ -1,0 +1,83 @@
+TITLE: Elasticity: Elastic Solids in Equilibrium.
+	- Pre-Requisitives: Calculus 02, Physics 01, Linear Algebra 00.
+	- Co-Requisitives:
+
+
+Definition of a solid
+	- TODO.
+
+
+Attempting to get measurements of solids
+	- TODO: Restoring Torque. Coulomb experiment.
+	- TODO: Restoring Force. Young's Modulus.
+	- TODO: Microscopic attempt to compute Young's Modulus.
+
+
+Transformation in material objects
+	- TODO: Definition of a material object. Transformations. Displacement vector.
+	- TODO: Some transformation: Stretching, Shearing, Rotation.
+
+
+The Strain Tensor
+	- TODO: Getting length change by a transformation. The Strain Tensor.
+	- TODO: Examples: The strain tensor in stretching, shearing, rotation.
+	- TODO: Rotation of coordinates (orthogonal transformation). Transformed strain Tensor.
+	- TODO: Diagonalization. Principal strains (eigenvalues). Principal axis. Intuition of diagonal elements: simple stretching (no shear)
+	- TODO: 2D strain tensor: expression of the principal strain.
+	- TODO: 3D strain tensor: Characteristic polynomial. Coeficients. Strain Invariants: determinant, trace, and other. http://www.continuummechanics.org/principalstrain.html
+	- TODO: Strain invariants in function of the eigenvalues(principal strains). (e1 + e2 + e3, e1e2 + e1e3 + e2e3, e1e2e3).
+	- TODO: Volume an area changes.
+
+
+The Stress Tensor
+	- TODO: Forces in a solid: The Traction Vector. Surface/Contact forces. Volume/Body forces. Total Force in a solid.
+	- TODO: Cauchy Stress Theorem: There exists a tensor in which the traction vector relates with the normal. The Cauchy Stress Tensor.
+	- TODO: Cauchy Fundamental Lemma (Cauchy Reciprocal Theorem). Newton's third law. https://en.wikipedia.org/wiki/Cauchy_stress_tensor#Cauchy%E2%80%99s_fundamental_lemma
+	- TODO: Transformation of coordinates. Principal Stresses. Stress Invariants. Principal Axis.
+	- TODO: Maximum and minimum shear stresses.
+
+
+Equilibrium Equations
+	- TODO: The Equilibrium Equations (Cauchy First Law of motion).
+	- TODO: Cauchy Second Law of Motion (conservation of angular momentum). Symmetry of the stress tensor.
+	- TODO: Stress diag(-p, -p, -p). Equilibrium equations. Derivation of pressure. The Hydrostatic stress.
+	- TODO: The Stress Deviator Tensor (Deviatoric Stress Tensor). Deviator Tensor is traceless.
+	- TODO: Quick note: The Strain Deviator Tensor. (Deviatoric Strain Tensor).
+
+
+Constitutive Equations
+	- TODO: Linear Elasticity. Linear Strain. Cauchy Strain Tensor.
+	- TODO: General Linear Relation: The Stiffness Tensor (4-rank tensor).
+	- TODO: Hookean Isotropic Homogeneous Materials. Bulk Modulus. Shear Modulus.
+	- TODO: Example: Bar with vertical load (stress given). Compute strain. Note: There's non-null horizontal strains too!
+
+
+TODO: Poisson's Ratio. https://en.wikipedia.org/wiki/Poisson%27s_ratio
+TODO: Relation between Young's Modulus, Bulk Modulus, Poisson's Ratio, and Shear Modulus. https://en.wikipedia.org/wiki/Shear_modulus#Explanation
+TODO: Stiffness Tensor. Relation for isotropic material. https://en.wikipedia.org/wiki/Linear_elasticity#Anisotropic_homogeneous_media
+
+TODO: Simplec ompression.
+TODO: Simple torsion of a bar.
+TODO: General theory of torsion.
+
+TODO: Elastic energy.
+TODO: Elasticity equations from energy variational (Euler-Lagrange Equations).
+
+TODO: Solution for thin plates. Kirchoff-Love Plate equations. Kirchoff-Love Plate theory.
+TODO: Bending Modulus. Flexural Rigidity. https://en.wikipedia.org/wiki/Flexural_rigidity
+TODO: Derivation of Kirchoff-Love plate equations from energy (Euler-Lagrange Equations).
+TODO: Biharmonic solution.
+TODO: Circular Kirchhoff-Love plates: General Solution. Eg.: Cylindrical plate under gravity. Cylindrical plate under dirac delta. Maximum deformation.
+TODO: Large deflection of thin plate. Presence of stresses along the thickness. Föppl–von Kármán plate equations.
+
+TODO: Beams.
+
+
+MAYBE, TO INCLUDE:
+Momento Flertor. Esforco cortante. Etc.
+	- https://en.wikipedia.org/wiki/Bending_moment
+	- https://en.wikipedia.org/wiki/Shear_and_moment_diagram
+
+Bending Theories. Bending Equations.
+Structural Calculations.
+Photoelasticity: https://en.wikipedia.org/wiki/Photoelasticity

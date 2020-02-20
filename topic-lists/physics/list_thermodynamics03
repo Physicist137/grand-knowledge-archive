@@ -1,0 +1,62 @@
+TITLE: Thermodynamics 03: PVTN System
+	- Pre-requisitives: Thermodynamics 02.
+	- Co-requisitives: None
+
+
+
+TODO: First Law, Chemical Potential, Could be N (number of particles) or n (number of mols) as state variables.
+TODO: To point out: Chemical Potential is an generalized force, and N the generalized displacement. Associated work.
+TODO: Interpretation of the chemical potential as the first law states.
+TODO: Density per particle number (energy density, pressure density, volume density, etc).
+TODO: Thermodynamic Equilibrium: Thermal Equilibrium (equal temperatures), Mechanical Equilibrium (equal pressure), Chemical Equilibrium (equal chemical potential).
+
+TODO: Heat Capacities (with the chemical potential now... :D)
+TODO: Expansion coeficients and etc (with the chemical potential now.. :D)
+
+TODO: Multi-component species. Mixtures. First Law of Thermodynamics. Chemical Potentials of each specie. 
+TODO: Work and Energy. Internal Energy. Interpretation of each chemical potential.
+
+TODO: More than one type of particles. Work and internal energy.
+TODO: Second Law, Entropy, Entropy density, etc. Expressions of the entropy in certain systems.
+
+TODO: Thermodynamic Potentials: Internal Energy, Enthalpy, Helmholtz, Gibbs, Etc. Maxwell Relations. Note: All Legendre Transforms.
+TODO: Physical Interpretation of the chemical potential from above potentials.
+TODO: New Thermodynamic Potentials: Hill Energy, Ray Energy, Grand Potential, Guggenheim Function (Gibbs-Duhem Relation). note: Legendre transformations using chemical potential.
+TODO: Interpretation of above potentials.
+
+TODO: Chemical Reactions, Exothermic, Exorgonic, Activation Energy, etc.
+TODO: Chemical Equilibrium. Equilibrium constants. pKa. pH. Experimental determination of equilibrium constants.
+TODO: Equilibrium constants 
+
+TODO: Ideal Gas Chemical Reactions. Equilibrium constants (in terms of pressure, temperature, etc).
+TODO: Nernst's Equation. Thermal ionization. Ionization potential. Saha's Equation.
+TODO: Affinity. Standard Gibbs Function.
+TODO: Displacement of equilibrium.
+TODO: Heat Capacity of reacting gases.
+
+TODO: Other chemical systems.
+TODO: Other Applications: Hydrogen plasma equilibrium. Nuclear Reactions. Creation and anhinilation of particles.
+
+TODO: General Open Systems. Considering now a YXTN System. Y: Generalized Force, X: Generalized Displacament.
+TODO: First Law. Work and Heat.
+TODO: Potentials: Internal Energy, Enthalpy, Helmholtz Free Energy, Gibbs Free Energy, Grand Potential.
+TODO: Heat Capacity. Expansion stuff.
+TODO: Maxwell Relations.
+TODO: Like this: http://people.virginia.edu/~cas8m/classes/phys8310/2013/variables.pdf
+
+
+
+
+
+
+Open Systems (?)
+Pure Substancies
+Thermal Properties of Solids.
+Critical Phenomena
+Chemical Equilibrium
+Ideal Gas Reactions
+Heterogeneous Systems
+
+
+Sistema PVTHM =D.
+Sistemas quimicos

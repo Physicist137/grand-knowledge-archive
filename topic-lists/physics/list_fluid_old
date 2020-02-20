@@ -1,0 +1,46 @@
+TITLE: Fluid Dynamics 01
+	- Pre-requisitives: Fisica 01
+	- Co-requisitives: None
+
+
+Formal Definition of a Fluid
+	- Shear Stress in a bloco
+		- Imagine: Solid. Application of a shear stress.
+		- Forças de ação e reação no interior do bloco
+		- Propriedade: Rigidez
+		- Critical shear stress. Permanent plastic deformation.
+	- Formal Definition of a True Fluid: Null rigidite
+		- Not able to react with a minimal of shear stress
+		- Flowing
+		- Corolary: Fluid in mechanical equilibrium ==> Null shear stress everywhere.
+		- Example of fluids (on which fall on this approximation)
+	- Considerações e assumções
+		- Fluido Isotrópico. 
+		- Fluido Newtoniano. Linear relation of shear stress and deformation
+		- Classical Fluids. Not quantum fluids.
+		- Example: Water and air.
+		- Counter-example: Liquid Crystal display
+		- Counter-example: Egg whites.
+		- Counter-example: Liquid Helium
+	- Fluids: Gas vs. Liqudis
+		- Liquids cohere
+	- Grandezas caracterizando localmente um fluido (liquid or gas)
+		- Densidade
+		- Compressibilidade
+		- Viscosidade
+
+
+Modelamento matemático de um fluido
+	- Cubo infinitesimal em um fluido (ou sólido)
+		- Cubo está susceptivel a forças normais e de cisalhamento
+		- Ação e reação das forças normais (Normal stress components: Pressure).
+		- Ação e reação das forçhas de cisalhamento (Shear stress components).
+		- Components: Direção da força, direção do plano normal do cubo
+		- Formal def: Stress Tensor
+	- Properties of the stress tensor
+		- Intuition: Components of action-reaction normal stress are equal.
+		- Formal Proof: Components of action-reaction normal stress are equal.
+		- Intuition: Shear stress components are symmetric
+		- Formal Proof: Components of action-reaction shear sterss are equal
+		- Conclusion: Stress tensor is symmetric
+		- Note: 6 grandezas são necessárias for full description of stress tensor

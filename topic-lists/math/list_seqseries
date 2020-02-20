@@ -1,0 +1,53 @@
+TITLE: Sequences, Series.
+	- Pre-Requisitives: Calculus 01 (limits).
+	- Co-Requisitives: Calculus 01 (integrals).
+
+
+Sequences
+	- Intuition: Sequences
+	- Def: Sequences
+		- Exemplos de sequencias
+			- Def por termo geral
+			- Def recursiva
+		- Intuição: limite da seq
+		- Limite real (comparison)
+	- Intuição: Limite de sequencia
+	- Def: Limite de sequencia
+		- Limite de 1/n
+	- Def: Divergencia a inf
+	- Def: Divergencia a -inf
+	- Limites infinitos
+	- Propriedades de sequencia e limites
+		- Limite da soma é soma dos limites
+		- Limite do produto é produto dos limites
+	- Teorema do confronto
+	- Teorema da composição de série: se lim an = L, e se f continua ==> lim f(an) = f(L)
+	- Teorema da Função continua: lim f(x) = L  ==> lim f(n) = L
+	- Teorema da razão
+	- Teorema: lim |an| = 0    ==>  lim an = 0
+	- Def: Sequencia Crescente
+	- Def: Sequencia decrescente
+	- Def: Sequencia Monótona
+	- Def: Sequencia limitada
+	- Teorema: Se seq é monótona e limitada ==> limite existe
+	- Teorema: Se limite=L existe para seq >= 0 ==> L > 0
+	- Corolario: Se limites existem, an <= bn   ==>  lim an <= lim bn
+	- Teorema: Se lim a2k = lim a(2k+1) = L  ==> lim an = L
+
+Séries
+	- Intuition: Series e seq parcial
+	- Def: Série
+	- Def: Soma parcial da série
+	- Teste da Divergência
+	- Nice Examples
+		- an = 1/(n(n+1))
+		- an = x^(n-1), |x| < 1
+		- an = (n+1) / n
+		- an = (-1)^n
+		- an = 1/n
+	- Propriedades de séries:
+		- Se sum an converge  ==>  sum h an  =  h sum an
+		- Se sum an diverge   ==>  sum h an  diverge
+		- Se sum an, sum bn converge  ==> sum (an + bn) = sum an + sum
+		- Se sum an e bn divergem  ==/==> sum(an + bn) diverge
+	- Theorem: Teste de comparação

@@ -1,0 +1,377 @@
+TITLE: Plasma Physics 01: Plasma Orbital Theory.
+	- Pre-requisitive: Electromagnetism 03.
+	- Co-requisitive: Relativity 01.
+
+
+Quick introductory understanding of plasma
+	- What is Plasma?
+		- Free charged carriers
+		- No net charge
+	- Fourth state of matter
+		- Increasing temperature: Phase transitions
+		- Ionization energy
+			- Several substances/atoms
+			- Example: Hydrogen energy levels.
+			- Calc: Ionization energy of hydrogen.
+			- Calc: Radiation wavelength bombardment to ionize.
+		- Recall: Average energy per degree of freedom
+		- Calc: Approximate temperature to become plasma
+		- Ionization sources
+	- Net Charge neutrality
+		- Assume: Small sphere with charge inbalance inside plasma
+		- Calc: Net charge of sphere
+		- Calc: Potential from sphere to point outside it
+		- Calc: Temperature required to balance electric potential
+		- Note: Restoring forces appear to maintain electric neutrality
+	- Debye–Hückel equation
+		- Assume: Plasma potential (reference potential).
+		- Assume: Plasma where the ith specie has charge qi and mean concentration ni_0.
+		- Assume: Fixed volumetric charge density background where plasma is.
+		- Calc: Potential energy of particles in plasma
+		- Calc: Maxwell-Boltzmann distributon for charged carrier densities in the plasma.
+		- Note: Non-linear PDE.
+		- Calc: Approximation of high temperature plasma. Domain of validity.
+		- Calc: Approximation to neutral plasma (no net charge).
+		- Calc: The remaining poisson equation.
+		- Def: The Debye–Hückel equation
+		- Def: The Debye–Hückel length
+		- Intuition: Background charge density is shielded by the plasma with the Debye–Hückel length.
+	- Debye Shielding
+		- Calc: Solution of poisson equation for background potential as ponctual charge (delta function).
+		- Def: Debye Shielding length
+		- Def: Debye Sphere. Volume of the Debye Sphere.
+		- Example: Calc: Debye shielding length for hydrogen plasma at given temperature (say.. T=6000K).
+		- Example: Calc: Debye shielding length for plasma of an element atomic number Z.
+	- Plasma Frequency
+		- Assume: External small displacement of entirety of given specie in an neutral plasma (plane symmetry)
+		- Note: Sweeping away the plan catches more and more charges of this given specie.
+		- Note: One side will remain negative, and the other positive (given the plasma is neutral).
+		- Calc: Surface Charge density in the plane surface where the species were displaced.
+		- Calc: Electric field formed by the displacement.
+		- Calc: Apply newton's law to an individual displaced plasma particle of this specie (wanting to return!).
+		- Note: Harmonic Oscilation Equation. Solution of the Equation of motion.
+		- Def: Plasma (Angular) Frequency.
+		- Def: Plasma Frequency.
+		- Def: Plasma period.
+		- Note: Oscilation happens due to electrostatic origins.
+		- Note: Every different specie composing the plasma will have a different oscilation frequency.
+		- Def: Electron Plasma Frequency (Note: Fast oscilation).
+		- Def: Ion Plasma Frequency (Note: Slow oscilation).
+	- Criterions of plasma definition
+		- Dimensions is much greater than debye shielding length.
+		- Number of electrons is debye sphere be large
+		- Net Neutrality
+		- Collision frequency much smaller than plasma frequency (st oscilation is observed).
+		- Question: What happens if each criterion is not met?
+	- Examples of Plasma
+		- Solar Wind. Park/Archimidean spirals.
+		- Van-Alley Radiation belts. Magnetosphere.
+		- Ionosphere.
+	- Aplications
+		- Pinch machines. Nuclear Fusion.
+		- MHD Generator. MHD Pumps. MHD Drive (on submarines..).
+		- Plasma Propulsion.
+		- Solid State Plasmas (Free electrons and holes) (Quantum).
+
+
+
+Particula carregada em campo EM uniforme
+	- Conservação de energia
+		- Força de Lorentz
+		- Note: Termo de campo magnético desaparece
+		- Note: Campo B uniforme ==> Escrita de campo E com potencial
+		- Note: Variação temporal de potencial
+		- Energia de particula (invariante dinamico).
+	- Campo eletrostático uniforme
+		- Força de Lorentz
+		- Equação de movimento
+		- Solução (em termos de velocidade).
+		- Posição da particula.
+	- Campo magnético uniforme
+		- Assume: Campo magnético na direção Z.
+		- Equação de movimento
+		- Equação de movimento para cada coordenada
+		- Desacoplamento das equações de movimento
+		- Note: Equação de oscilador harmonico
+		- Solução da equação para velocidade (vx, vy, vz).
+		- Solução da equação para posição (x, y, z).
+		- Movimento no plano normal ao campo magnético
+			- Calc: Achar equação de circunferecia em (x, y).
+			- Show: Direção de movimento
+			- Note: Movimento é uma circunferencia
+			- Calc: Raio de giração.
+			- Calc: Frequencia de giração/cyclotron/larmour.
+		- Direção da orbita
+			- Note: Regra da mão direita não se aplica (q > 0).
+			- Note: Regra da mção direita se aplica (q < 0).
+			- Queston: Why is that?
+		- Valores numericos
+			- Frequencia de Larmour por unidade de campo magnético para o elétron.
+			- Frequencia de Larmour por unidade de campo magnético para um proton.
+		- Rigidez Magnética
+			- Momento linear por unidade de carga
+			- B-Field times radius
+		- Movimento total: Helice cilindrica
+	- Campo magnético uniforme: Solução vetorial
+		- Equação (vetorial) de movimento
+		- Separação da velocidade: Termo paralelo e termo perpendicuaçr
+		- Equação de movimento.
+		- Note: Equação para velocidade paralela é trivial
+		- Equação para velocidade perpendicular
+			- Em função de B.
+			- Def: Frequencia de Larmour vetorial
+			- Em função da frequencia vetorial
+		- Solução em termos vetoriais
+			- Def: Vetor posição st drc/dt = v_perpendicular
+			- Solução da equação
+			- Note: Velocidade absoluta e paralela é cte ==> Velocidade perpendicular é cte
+			- Note: Particula anda em um circunferencia no plano normal a B.
+	- Momento magnético
+		- Note: Particula anda em circunferencia no plano normal a B
+		- Note: Corrente associada ==> Gerando momento magnético
+		- Calc: Corrente associada ao movimento da particula
+		- Note: Corrente associada gera campo magnético sempre oposto ao B externo.
+		- Note: That's why direção da orbita não segue regra da mão direita (q > 0).
+		- Calc: Magnitude do momento magnético
+		- Calc: Magnitude do momento magnético (em função de carga, velocidade, raio).
+		- Calc: Magnitude do momento magnético (em função da energia cinetica perpendicular)
+		- Calc: Vetor momento magnético (em função da energia cinetica perpendicular)
+		- Calc: Momento magnético com sinal (na direção z apenas).
+	- Magnetization in colisionless plasma
+		- Colisionless plasma: Period between collisions >> Cylotron period.
+		- Calc: Magnetization vector of collisionless plasma
+		- Calc: Magnetization current of collisionless plasma
+		- Calc: Charge density associated with magnetization currents (continuity equation).
+		- Remmember: Magnetic susceptibility in magnetic materials (relação entre M e H).
+		- Note: Our relation between M and B is non-linear.
+		- Note: Plasma cannot be considered as magnetic material...
+	- Uniform Electromagnetic Field
+		- Equation of motion (component by component)
+		- Decoupling of equations of motion: Inhomogeneous harmonic oscillator.
+		- Solution to the equation of motion (vx, vy, vz)
+		- Position of particle (x, y, z).
+		- Note: Termo de velocidade dependente apenas dos campos E e B.
+		- Def: Drift velocity.
+	- Uniform Electromagnetic Field: Vector equations
+		- Equation of motion (vector form).
+		- Separação: Velocidade parapela e perpendicular. 
+		- Separação: Campo E paralelo e perpendicular.
+		- Separação: Velocidade perendicular dependente de velocidade perpendicular em outro frame + ve
+		- Equações de movimento da parte paralela
+		- Equações de movimento da parte perpendicular
+			- Usando Identidade: Ep = -Ep x B x B / B^2.
+			- Calc: Equação de movimento da parte perpendicular
+			- Calc: Equação de movimento da parte perpendicular no outro referencial
+		- Note: Definir the drift velocity such as term zero out to reduce problem to uniform B-Field.
+		- Def: Drift Velocity.
+		- Note: Identical situation for uniform B-Field in this other frame
+		- Calc: Passagem para frame normal. Drift velcity.
+		- Calc: Vetor de frequencia cyclotron.
+		- Calc: Solução geral vetorial (velocidade).
+		- Note: There is a drift velocity.
+	- Drift due to external uniform force
+		- Equation of motion
+		- Calc: The same process as before: Separation into parallel/perpendicular
+		- Calc: Drift velocity of external uniform force.
+		- Calc: Drift velocity due to gravity acceleration field g.
+		- Calc: Current density due to drift velocity caused by gravity field.
+		- Calc: Current density due to drift velocity caused by external force.
+		- Example: Earth Ionosphere. 
+			- Data: B-Field: 0.5e-4 tesla. Altitude: 300Km. electron density = ion density = 10^12 / m^3-
+			- Note: Earth B-Field is almost perpendicular to g-Field. Approximate to perpendicular. =).
+			- Calc: Drift velocity of electron in Earth's ionosphere due to gravity.
+			- Calc: Drift velocity of positive oxygen ion in Earth's ionosphere due to gravity.
+			- Calc: The net gravitational current density in ionosphere.
+			- Calc: The net gravitational current in the overall Earth's ionosphere.
+			- Note: The direction of the current.
+	- TODO: Pitch Angle.
+		- Def: Angle between velocity and B-Field.
+
+
+Particula relativistica carregada em campo EM uniforme
+	- Energy Conservation
+		- Calc: Derivative wrt time of lorentz factor (chain rule: wrt beta, wrt speed, wrt time)
+		- Calc: Write Newton's law (relativistic). Multiply by integrating factor v.
+		- Calc: Letting only lorentz factor derivative in the equation.
+		- Calc: Using relations involving lorentz factor and beta (also: write in form that equals one)
+		- Calc: The relativistic expression in terms of F*v. (one step foward: use potential energy).
+	- Particula em campo E
+		- Força de Lorentz.
+		- Equação de movimento (caso unidimensional).
+		- Calc: Integração direta
+		- Calc: Isolando a velocidade
+		- Calc: Velocidade de particula relativistica em campo E.
+		- Comparação da velocidade com caso não-relativistico.
+		- Calc: Posição da particula (Integration).
+	- Particle in B-Field
+		- Lorentz force in vector form
+		- Separation: Perpendicular and parallel velocity
+		- Calc: Equation of motion (in vector form)
+		- Note: Solution to parallel form: constant velocity (as before..).
+		- Calc: Solution of perpendicular equation of motion
+		- Def: Relativistic cyclotron frequency.
+		- Def: Relativistic gyroradius.
+		- Relativistic corrections from before. (rc = gamma rc0...).
+	- TODO: Particle in EM-Field, relativistic drift velocity
+		- TODO: Component by component. =).
+		- TODO: Parallel and perpendicular relativistic compositions https://en.wikipedia.org/wiki/Velocity-addition_formula
+		- TODO: Field strengh conditions for validity of the non-relativistic case.
+	- TODO: Relativistic drift by extrenal forces. Comparisom with non-relativistic case. 
+
+
+Termos da Particula carregada em campo magnético não-uniforme
+	- Perturbação de campo uniforme
+		- Remember: Gyroradius.
+		- Variation of magnetic field over larmur radius is too low (delta B << B)
+		- Tracking the motion of the guiding center
+	- Spatial Variation of Magnetic Field
+		- Dyad of B-Variation. Note: 9 components.
+		- 8 independent components: B-Field has no divergence
+		- No current condition
+			- Scalar Magnetic Potential
+			- Laplace equation for scalar magnetic potential
+		- Show: Divergence terms (terms of the divergence)
+		- Show: Gradient terms (dBz/d)
+		- Show: Curvature terms (d/dz)
+		- Show: Shear terms
+	- Divergence Terms
+		- Assume: B-Field in origin has only component z.
+		- Def: Magnetic Field lines.
+		- Equation of the magnetic field lines.
+		- Differential equation: ds x B = 0.
+		- Condition of the dx, dy, dz of the magnetic field lines.
+		- Calc: B-Fields in x,y direction. (Taylor expansion).
+		- Calc: dx/dz and dy/dz of the magnetic field lines.
+		- Note: Magnetic field lines diverges or converges
+		- Draw: Magnetic field with divergence terms only.
+	- Gradient Term
+		- Gradient in x-direction term.
+		- Draw: B-Field lines with gradient in x-direction.
+		- Equation of B with gradient in x-direction.
+		- Calc: Current of B-Field with gradient in x-direction.
+		- Note: Same consideration for y-direction.
+	- Curvature Term
+		- Curvature in x-direction term.
+		- Draw: B-Field lines with curvature in x-direction.
+		- Equation of B with curvature in x-direction.
+		- Calc: Current of B-Field with curvature in x-direction.
+		- Note: Current is opposite to one of gradient form
+		- Note: Same consideration for y-direction.
+	- Gradient, curvature and divergence term
+		- B-Field with curvature and gradient in x-direction having no current.
+		- Draw: B-Field lines with gradient and curvature in x-direction.
+		- Draw: B-Field lines with gradient, curvature and divergence term. (A 3D Draw)
+	- Shear Terms
+		- Shear terms.
+		- Draw: B-Field with shear.
+	- Equation of motion first-order approximated
+		- Assumption: Magnetic field in origin has only z-component
+		- Approximation: Difference of B-Fields is too low in one gyroradius.
+		- Taylor expansion of the magnetic field
+		- Equation of motion
+	- Coordenadas cilindricas
+		- Escrita de B em cilindrico e cartesiano. Relaçao entre componentes Bx, Br, etc.
+		- Escrita das derivadas parciais
+		- Calc: Divergence terms.
+		- Calc: Gradient terms.
+		- Calc: Curvature terms.
+		- Calc: Shear Terms.
+
+
+Particula carregada em campo magnético não-uniforme
+	- Average force over gyration period
+		- Assumption: Particle moves due to Zero-Order term only.
+			- First-order forces does not causes particle to move
+			- In reality: Small shift in orbit due to first-order term
+		- First order force
+			- Calc: First-order term of force of particle
+			- Calc: Partial derivative of magnetic field in r. (cylindrical).
+			- Calc: First-order term of force of particle in cylindrical coordinates
+			- Note: Field lines not curved ==> We can shift reference frame to go with particle
+			- Assume: Shift frame to move with particle (v parallel).
+			- Note: Now direction r has only x, y components.
+			- Calc: First order force in this reference frame
+		- The velocity
+			- Velocity in cylindrical coordinates
+			- If charge carrier has positive charge
+			- If charge carrier has negative charge
+			- Calc: First order force components (k and r).
+		- Parallel and perpendicular contribution
+			- Calc: Parallel contribution of first-order force
+			- Calc: Perpendicular contribution of first-order force.
+			- Calc: Parallel/Perpendicular contributions using magnetic moment.
+		- Calc: Average Parallel/Perpendicular contributions over gyration period
+		- Note: We shall ignore the orbit itself, and look to the guiding center.
+	- The parallel force
+		- Show: Divergence of B-Field in cylindrical coordinates (its zero!).
+		- Show: Br/r is approximately equal to dBr/dr
+		- Calc: Average over gyration period of each term of the divergence.
+		- Calc: The dBr/dr term in function of dBz/dz term.
+		- Note: Bz is approximately B (since there are small variations).
+		- Calc: Averaged parallel contribution using magnetic moment.
+		- Note: Parallel components of gradient of |B| contributes with the parallel average.
+	- The perpendicular force
+		- Calc: Circunferencial path in cylindrical coordinaes
+		- Calc: Calculation of the average of perpendicular term
+		- Note: Average of square sin/cos is 1/2. Other terms are zero.
+		- Note: Bz is approximately B (since there are small variations).
+		- Calc: Averaged perpendicular contribution
+		- Note: Perpendicular components of gradient of |B| controbites with perpendicular average.
+	- The total force
+		- Calc: Força total média (Contribuição perpendicular e paralela)
+		- Use: Identidade vetorial: (d x B) x B = (B * d)B - d(1/2 B^2).
+		- Calc: Força total média
+		- Calc: Força total média usando moento magnético vetorial.
+		- Note: First term is the force acting on magnetic dipole.
+	- Current drift and velocity drift
+		- Remmember: Drift velocity of a general external force
+		- Note: Parallel contribution will cause no drift. Only perpendicular one.
+		- Calc: Drift veolcity of the perpendicular force
+		- Note: Drift velocity depends on charge ==> There will be current
+		- Calc: Drift current density caused by perpendicular forc
+	- Adiabatic invariant from parallel acceleration
+		- Def: Adiabatic invariant: Stays constant under slow change.
+		- Note: Parallel force will cause parallel acceleration
+		- Calc: Multiply by v_parallel and identify energy.
+		- Calc: Flip to perpendicualr work by conservation of energy
+		- Calc: Derivative of magnetic moment (using d/dt(Wt B/B)).
+	- First Adiabatic Invariant
+		- The MAgnetic moment
+		- Calc: Magnetic flux over gyration orbit
+		- Note: Depends on the magnetic moment
+		- Note: Magnetic flux over gyration orbit is also an adiabatic invariant
+	- Magnetic Mirror Effect
+		- Particle will decrease parallel velocity under magnetic field convergence
+		- Note: Particle might be reflected back by magnetic field convergence
+		- Application: Trapping plasma particles
+		- Calc: Pitch angle limitations using first adiabatic invariant
+		- Calc: Minimum pitch angle for reflection
+		- Def: Mirror ratio
+		- Cone loss in magnetic mirrors
+	- Curvature Drift
+		- Consider: Non-linear coordinate system along magnetic field line
+		- Triedro de Fresnel: Tangent, Normal, Torsion.
+		- Calc: Centripetal force in direction normal to magnetic field line.
+		- Differential along tangent of magnetic field line (its the d-angle).
+		- Calc: dB/ds (tangent / arc line). Also: d/ds = B * nabla.
+		- Calc: Centripetal force using tangent versor
+		- Calc: Centripetal force using magnetic field itself
+		- Calc: Curvature drift caused by centripetal force
+		- Calc: Current drift caused by centripetal force
+	- Gradient-Curvature drift
+		- Gradient drift
+		- Curvature drift
+	- Example: Van Alley Radiation Belts
+		- Particle bounds back and forth between magnetic mirrors (Earth poles)
+		- Westward drift current of charged particles
+		- Ring Current.
+
+
+TODO: Time-Varying Fields.
+TODO: Guinding center complete motion.
+TODO: Larmor precession. https://en.wikipedia.org/wiki/Larmor_precession
+TODO: Perhaps: Quantum particles under EM Fields.
+TODO: Perhaps: Full relativistic consideration under EM Fields (space verying, time varying).
+
+
+

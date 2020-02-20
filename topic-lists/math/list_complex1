@@ -1,0 +1,495 @@
+Title: Complex 01: Complex Algebra
+	- Pre-Requisitives: Elementary Algebra
+	- Co-Requisitive: Calculus 00.
+	- Recommended: Co-requisitive in calculus 01 just to prove Euler Formula.
+
+
+
+***
+Multiplicação in matrix form.
+Multiplication in polar form.
+Several multiplication in polar form.
+Power in polar form. To point out: You can do with binomial theorem.... =D.
+Division in polar form.
+Inverse in polar form.
+Several inverses in polar form.
+Inverse of power in polar form.
+De moivre Theorem. (1+i)^1000. You can make binomial....... =D. [use de moivre theorem]
+z^n + z^-n = 2 cos n theta. To calc: cos^k(n x). To calc its integral.
+Formas no plano complexo. Eq de circulo. Elipses. Etc.
+Complex Functions. Escrita R2 --> R2. Mapping. 1/(z-z0) mapping. etc.
+***
+
+
+
+Definições Ingenuas do Numero complexo (TO DEL!!)
+	- Formal Vectorial Definition
+	- Expressão vetorial da unidade real
+	- Expressão vetorial da unidade imaginaria
+	- Base vetorial ortonormal complexa
+		- Escrita vetorial
+		- Escrita retangular
+	- Def: Escrita de numero complexo
+		- Escrita vetorial
+		- Escrita retangular
+	- Operações complexas
+		- Soma, Subtração
+		- Def: Multiplicação, Divisão
+			- Defintion
+			- Intuição algebrica
+			- Interpretação Algebrica da definição
+		- Def: Conjugado complexo
+		- Def: Modulo complexo
+		- Def: Modulo do numero/vetor
+	- Escrita complexa cartesiana
+	- Partes complexas
+		- Def: Re{z}
+		- Def: Im{z}
+	- Escrita polar de um numero complexo
+		- Plano complexo (Plano de Argand-Gauss)
+		- Conversão retangular-polar
+		- Modulo :)
+	- Question: Porque se chama "numero complexo"?
+
+
+Definições formais e Algebra Complexa
+	- Corpo complexo
+		- (C, +, *) é o corpo complexo
+		- Comutatividade e associatividade da soma. Existencia de elemento neutro.
+		- Comutatividade e associatividade do produto. Existencia de elemento neutro.
+	- Def: Soma de dois numeros complexos
+		- Definição da soma. 
+		- Escrita vetorial
+		- Escrita retangular
+		- Parte real de numero complexo: Re{z}.
+		- Parte imaginaria de numero complexo: Im{z}.
+		- Proof: Comutatividade e associatividade da soma.
+		- Calc: Elemento neutro da soma.
+		- Representação geométrica da soma de dois complexos.
+	- Def: Multiplicação de dois numeros complexos
+		- Definição de produto. (using i^2 = -1).
+		- Escrita vetorial
+		- Escrita retangular
+		- Escrita retangular
+		- Note: i^2 = -1
+		- Proof: Comutatividade e associatividade do produto.
+		- Calc: Elemento neutro do produto.
+		- Example: Multiplicação de varios complexos.
+	- Propriedades complexas algebricas básicas
+		- Calc: Inverso aditivo de numero complexo qualquer
+		- Calc: Inverso multiplicativo de numero complexo qualquer
+			- Calc: Inverso multiplicativo em forma polar
+			- Calc: Inverso multiplicativo em forma retangular
+			- Condição de existencia de inverso multiplicativo
+			- Numero complexo com inverso indefinido
+		- Corolary: Se produto de numeros é zero ==> Pelo menos um dos numeros é zero
+	- Divisão de dois números complexos
+		- Metodo: Retirar o "i" do denominador
+		- Multiplicação pelo conjugado complexo
+	- Conjugado de um numero complexo
+		- Formal Definition
+		- Escrita na forma retangular
+		- Few examples.
+	- Propriedades do conjugado
+		- Calc: Expressão da parte real de numero complexo usando seu conjugado
+		- Calc: Expressão da parte imaginaria de numero complexo usando seu conjugado
+		- Theorem: Conjugado do conjugado retorna ao proprio numero
+		- Note: Modulo do conjugado é modulo
+		- Theorem: Conjugado da soma é soma do conjugado
+		- Theorem: Conjugado do oposto é oposto do conjugado
+		- Theorem: Conjugado do produto é produto dos conjugados
+		- Theorem: Conjugado da divisão é divisão dos conjugados
+		- Corolary: Conjugado de potencia é potencia do conjugado.
+		- Theorem: Conjugado(z) = z  <==>  z é real.
+		- Calc: Escrevendo modulo de numero complexo em função do seu conjugado (potencia racional).
+		- Proof com conjugados: Modulo da multiplicação é multiplicação dos modulos
+	- Modulo de um numero complexo
+		- Formal Definition
+		- Interpretação geométrica (vetorial)
+		- Calculation usando os parametros retangulares
+		- Def: Numero complexo unitário
+		- Disitancia entre dois pontos no plano complexo
+		- Escrita do quadrado do modulo usando explicitamente função real e imaginaria do numero
+	- Propriedades do módulo
+		- Theorem: |z| = zz', onde z' é conjugado.
+		- Theorem: Modulo de conjugado de z é modulo de z
+		- Theorem: |z| >= Re{z}, para qualquer z complexo.
+		- Theorem: |z| >= Im{z}, para qualquer z complexo.
+		- Theorem: Modulo do produto é produto dos módulos.
+		- Theorem: Módulo da divisão é divisão dos módulos.
+		- Theorem: Desigualdade triangular: |z+w| <= |z| + |w|
+		- Corolary: Desigualdade triangular: |z-w| >= ||z| - |w||
+
+
+Manipulações Algebricas
+	TODO: Calcular inversa de 1/z by multiplyinh by conjugate on both sides.
+	TODO: Potencias de complexo. Calc: (1+i)^5. Binomial expansion.
+
+
+Forma Trigonométrica ou Polar de Numero complexo
+	- Coordenadas polares
+		- Escrita do numero em coordenadas polares
+		- Parte real e parte imaginaria em coordenadas polares
+	- Modulo e conjugado
+		- Conjugado na forma polar.
+		- Interpretação de conjugado: Angulo oposto.
+		- Modulo da forma polar. Trivial.
+	- Produto de complexos na forma polar
+		- Fazer produto como na forma retangular
+		- Cosseno e seno da soma
+		- Produto de complexos em forma polar
+	- Divisão de numeros complexos	
+		- Produto pelo inverso de outro complexo
+		- Cosseno e seno da diferença
+	- Interpretação geometrica do produto/divisão
+		- Dilatação/contração do modulo
+		- Rotação sobre um angulo
+	- Inversa de complexo na forma polar
+		- Inversa de um numero complexo
+		- Inversa na forma polar
+	- Argumento de um numero complexo
+		- Def: Argumento principal de numero complexo. 
+			- Between -pi and pi.
+			- Question: Why not between 0 and 2pi?
+		- Outros argumentos do numero complexo
+		- Proof: Escrita na forma polar incluindo todos os argumentos
+		- Theorem: Argumento de produto de complexos é soma dos argumentos
+		- Theorem: Argumento da divisão de complexos é diferença dos argumentos.
+	- Multiplos produtos: z1z2...zn
+		- Produto de tres numeros complexos na forma polar.
+		- Produto de n numeros complexos na forma polar.
+		- Potencia enésima de numero complexo, para n natural.
+		- Example: Calc: (1+i)^1000. (You can use binomial expansion if you wish..).
+	- Potencia de numero complexo
+		- Potencia enésima de numero complexo, para n natural.
+		- Potencia enésima de numero complexo, para -n natural, ie n < 0.
+		- Potencia enésima de numero complexo, para n inteiro.
+	- Formula de Moivre
+		- Expansão binomial para a enésima potencia em termos de seno e cosseno
+		- Example: Calc: expressão para cos(3x) e sin(3x).
+		- Example: Calc: expressão para cos(5x) e sin(5x).
+		- Expressão para cos(nx).
+		- Expressão para sin(nx).
+	- Processo inverso: Calculando cos^n em função de cos(nx).
+		- Why its important: Integrate cos^n(x) dx.
+		- Remember: Escrita polar de z^n
+		- Note: z^n + z^{-n} é 2cos(n theta).
+		- Note: z^1 + z^{-1} é 2cos(theta).
+		- Note: We can then calc: (z^1 + z^{-1})^n é 2^n cos^n(theta)
+		- Example: Calc: cos^2(x).
+		- Example: Calc: cos^3(x).
+		- Example: Calc: cos^4(x).
+		- Calc: Calc: cos^n(x).
+	- Raiz enésima de numero complexo
+		- Def: Solução na equação: w^n = z <==> w = sqrtn(z).
+		- Escrita na forma polar (usando formula de moivre).
+		- Solução do sistema de duas equações e duas incognitas
+			- Soma dos quadrados. Recuperar amplitudes.
+			- Divisão das duas equações. Recuperar tangente.
+			- Note: Periodo deve ser 2pi ao inves de pi, para o sistema ser verdade
+		- Note: Equação z^n = w existem n raizes.
+		- Expressão das n raizes de um numero complexo
+		- Example: Calc: Raiz cubica de -2 + 2i.
+	- Raizes enésimas da unidade
+		- Objective: Calc: sqrtn(1).
+		- Calc: Raizes eńesimas da unidade (Rn).
+		- Theorem: Módulo de todas as raizes é unidade.
+		- Theorem: R1^k = Rk.
+		- Theorem: Rk = R(k-1) * R1.
+		- Conclusion: Rk é obtido rodando R(k-1) com angulo 2pi/n.
+		- Interpretação geométrica: Poligono regular no plano complexo.
+
+
+Geometria dos Números Complexos
+	- Plano complexo (2D).
+		- Note: Cada numero complexo é um ponto no espaço 2D.
+		- Calc: Distancia entre dois pontos
+		- Calc: Angulo entre os pontos (z1 z z2).
+	- Circunferencia
+		- Equação da circunferencia em x, y. 2D.
+		- Equação complexa da circunferencia. (usando modulo).
+		- Circunferencia centrada em z0 de raio r.
+		- Equação usando conjugados.
+	- Elipse
+		- Remember: Equação da elipse em x, y. 2D.
+		- Remember: Definição da elipse (ponto focal).
+		- Elipse com focos em z0 e z1. =).
+			- Equação: |z-z0| + |z-z1| = r
+			- Condição: |z0-z1| > r
+		- Equação usando conjugados.
+	- Hipérbole
+		- Remember: Equação da hipérbole em x, y. 2D.
+		- Remember: Definição da hipérbole (ponto focal).
+		- Equação: |z-z0| - |z-z1| = r.
+		- Equação usando conjugados.
+	- Examples:
+		- TODO: Achar lugar geometrico de equações complexas.
+
+
+Funções Complexas
+	- Def: Função complexa f: A --> C, A contido em C.
+	- Def: Função complexa das partes reais e imaginaria
+		- f: B --> R^2, B contido em R^2.
+		- f(x, y) = ( u(x, y), v(x, y)).
+		- Se w = f(z), entao: x=Re{z}, u=Re{w}.
+		- Note: Interpretação como campos vetoriais em R^2.
+	- Propriedades de funções complexas
+		- Def: Função limitada
+		- Função periódica (periodo e periodo fundamental)
+		- Função par
+		- Função Impar
+		- Função Injetora
+		- Função Sobrejetora
+		- Função Bijetora
+	- Algumas funções complexas
+		- Função polinomial
+		- Função racional
+
+
+TODO: Polinomios complexos.
+TODO: Raizes de polinomios complexos.
+TODO: Se r é raiz complexa de polinomio com coeficientes reais, então conjugado de r também é raiz.
+TODO: Polinomio cubico.
+
+
+Demonstração da Formula de Euler (chose one..)
+	- A exponencial complexa: e^{ix}, x real. Quanto da?
+		- First of all.... If x=0, then it must equal to 1.
+		- Now... how much for x != 0?
+	- Proof 01: Serie de potecias para e^x, x real
+		- Remmember: Série de Taylor
+		- Derivada enésima de e^x
+		- Derivada em x=0
+		- Serie de Taylor de e^x em x=0
+		- Serie de Taylor para e^x
+	- Motivation: Serie de potecias para e^x, x real
+		- We want y' = y.
+		- Lets try y=1. But y'=0. But we need y'=1 since y=1.
+		- Simple! Try y=1+x. But y'=1. But we need y'=1+x.
+		- Simple! try y = 1+x+x²/2.
+		- Loop. Iteration.
+	- Proof 02: Serie de potecias para e^x, x real
+		- Try a generic power series to solve y' = y.
+		- Equação recursiva para os coeficientes da série
+		- Equação não-recursiva para os coeficientes da série
+		- Serie para e^x
+	- Proof 01: Formula de Euler
+		- Serie de potencia para e^x
+		- Serie de potencia para e^(ix)
+		- Separação da parte real e imaginaria
+		- We identify: sin and cossine power series
+		- Formula de Euler
+	- Proof 02: Formula de Euler
+		- Seja f: R --> C, f(t) = e^{-it)(cost + i sint), t real.
+		- Calc: Derivada de f
+		- Note: derivada é zero
+		- Então, f é constante
+		- Calc: Constante quando f(0).
+		- Formula de Euler.
+	- Proof 03: Formula de Euler
+		- Seja f: R --> C, f(t) = e^{it}, x real.
+		- Escreva h: R --> R^2, h(x, y) = (u(t), v(t)), u, v parte real e imagiaria de f
+		- Note: Derivando f(t) temos i e^it = i f(t).
+		- Equação diferencial acoplada para achar u(t) e v(t).
+		- Des-acoplando a equação diferencial
+		- Aplicando as condições iniciais
+		- Formula de Euler.
+	- Proof: Numero de Euler (limits)
+	- Proof: e^x expressa em limits
+	- Proof 04: Formula de Euler.
+		- limits. =).
+
+
+Função exponencial complexa
+	- Definition
+		- f: C --> C, f(z) = e^z
+		- Note: z = x+iy, then: f(z) = e^x e^{iy}.
+		- Usando a Formula de Euler.
+		- Definition: Função exponencial complexa
+		- Dominio: C. Imagem: C - {0}.
+	- Propriedades da função exponencial.
+		- Theorem: e^{z+w} = e^z e^w
+		- Theorem: e^{-z} = 1/e^z
+		- Theorem: |e^z| = Re{z}.
+		- Theorem: conj(e^z) = e^conj(z)
+		- Theorem: Função exponencial é periodica de periodo fundamental 2pi i.
+	- Formula de Euler e Identidade de Euler
+		- Formula de Euler. (z puramente imaginario).
+		- Identidade de Euler: z = i pi.
+		- Identidade "nova" de Euler: z = i tau. =).
+	- TODO: Forma polar e forma exopnencial.
+	- TODO: Identidade Trigonométrica de Lagrange
+
+
+
+Função exponencial complexa
+	- Escrita exponencial do numero complexo
+		- Manipulações de séries de Taylor (optional)
+		- Escrita exponencial de numero complexo
+			- Demonstração da formula de Euler
+			- Identidade de Euler
+			- Escrita exponencial de numero complexo qualquer
+		- Calc: Produto de dois complexos unitarios em forma exponencial
+			- Produto em forma polar
+			- Note: Formula de Euler não precisa ser conhecida para a prova do uso da forma exponencial
+			- Note: Indeed obedecem propriedades de produto envolvendo exponenciais reais
+		- Calc: Inverso do numero complexo
+		- Calc: Divisão de dois numeros complexos em forma exponencial
+			- Usando resultado acima
+			- Note: INdeed obedecen propriedades exponenciais reais
+		- De Moivre's formula
+			- Potencias com escrita exponencial
+			- Proof: (cosx + isinx)^n é cos(nx)+isin(nx)
+		- Calculando potencias com escrita exponencial
+			- Easier than retangular one
+	- Argumento em divisões e soma
+		- Argumento da multiplicação de numeros complexos
+		- Argumento da divisão de numeros complexos
+		- Multiplcar por numeros complexos unitarios
+		- Interpretation: rotation
+		- Interpretação Geométrica da multiplicação e divisão de numeros complexos
+
+
+Funções complexas elementares
+
+
+Funções elementares de variáveis complexas
+	- Exponential Function
+		- Calc: Modulo da função exponencial
+		- Calc: Argumento da função exponencial
+		- Calc: Parte real e imaginaria da função exponencial
+		- Propriedade: Soma de expoentes
+		- Note: Função exponencial pode ser negativa
+		- Note: Função exponencial nunca é zero in all complex plane
+		- Calc: Periodo da função exponencial
+	- Função Logarítmica
+		- Solution of: e^w = z
+		- Calc: Modulo da função exponencial
+		- Calc: Argumento da função exponencial
+		- Calc: Parte real e imaginaria da função exponencial
+		- Def: Valor principal da função logaritmica
+		- Escrita do logaritmo em função de modulo e argumento do numero complexo
+		- Property: Logaritmo do produto de dois numeros complexos
+			- Take the definition
+			- Note: Logaritmo do modulo de dois numeros complexos
+			- Note: Argumento do produto de dois numeros complexos
+		- Property: Logaritmo da divisão de dois numeros complexos
+		- Property: Logaritmo da exponencial de dois numeros complexos
+		- Property: Potencia n de numero complexo é exp(n log z)
+		- Property: Relação entre raiz enésima de numero complexo e logaritmo
+	- Expoentes complexos
+		- Power of complex number to another complex number
+		- Escrita usando exponencial e logaritmos
+		- Example: i^i
+		- Example: i^(-2i)
+		- Example: Principal value of (-i)^i
+		- Example: z1 = 1+i, z2 = 1-i, z3 = -1-i
+			- Comparisom: z1^i, z2^i and (z1z2)^i.
+			- Comparisom: z2^i, z3^i and (z2z3)^i.
+		- Property: z^a * z^b
+	- Funções Trigonométricas
+		- Remember: Formula de Euler
+		- Escrita: Função seno e cosseno em função de função exponencial complexa
+			- Note: Exponencials and trigonometry are not so distinct after all
+			- Note: Mind blowing... :)
+		- Def: Seno de numero complexo
+		- Def: Cosseno de numero complexo
+		- Note: Escrita da exponencial de numero complexo em função de seno e cosseno
+		- Propriedades algebricas do seno e cosseno complexos
+			- Seno e cosseno do oposto de numero complexo
+			- Seno e cosseno da soma de dois numeros complexos
+			- Consequence: Seno e cosseno do dobro do numero complexo
+			- Identidade fundamental trigonométrica complexa
+			- Periodos 2pi da função seno e cosseno complexa
+		- Propriedades funcionais e ligação com funções hiperbolicas reais
+			- Note: Seno e cosseno de numeros puramente imaginarios em função de seno e cosseno hiperbolicos
+			- Calc: Parte real e imaginaria do seno e cosseno em função de seno e cosseno hiperbolicos
+		- Calc: Quadrado do modulo do seno e cosseno
+		- Def: Tangente complexa e cotagente complexa
+		- Def: Secante complexa e cossecante complexa
+	- Funções trigonométricas inversas
+		- Inversão do seno: Escrita do arcoseno em função de logaritmo complexo
+		- Inversão do cosseno: Escrita do arcocosseno em função de logaritmo complexo
+		- Example: arcsin(-i)
+		- Calc: inversão da tangente em função de logaritmo complexo
+	- Funções hiperbólicas
+		- Def: Seno hiperbólico de numero complexo
+		- Def: Cosseno hiperbolico de numero complexo
+		- Calc: Relação entre cosseno complexo e cosseno hiperbolico complexo
+		- Calc: Relação entre seno complexo e seno hiperbolico complexo
+		- Calc: Seno e cosseno hiperbolico do oposto do numero complexo
+		- Calc: Identidade fundamental hiperbólica complexa
+		- Def: Tangente e cotangente hiperbolica complexa
+		- Def: Sectante e cossecante hiperbólica complexa
+	- TODO: We have also to put the following:
+	- TODO: Trigonometria de numeros complexos: Finding out cos(nx) e sin(nx)
+		- Uso de escrita exponencial
+		- Potencias de numeros complexos
+		- Note: Trigonometria com numeros complexos é mais simples
+	- TODO: Identidade Trigonométrica de Lagrange
+		- Find: 1+z+z^2+...+z^n
+		- Parte real
+		- Parte imaginaria
+		- Identidade Trigonométrica de Lagrange: Cosseno
+		- Identidade Trigonométrica de Lagrange: Seno
+	- TODO: Raizes de numeros complexos
+		- Calculo de raizes na forma exponencial
+		- Note: existem varias raizes ( n of them)
+		- Example: sqrt(4)
+	- TODO: Richer Trigonometry, Hyperbolic Trigonometry, Log, Exp, 
+
+
+TODO: Polynomial roots, Elementary Algebra, Trigonometry-Polynomials connection
+TODO: Identidades trigonométricas complexas. sin(a+bi), ... Hyperbolic trigonometric relations. Zeros and singularities.
+TODO: Logaritmo complexo. Ramos logarítimos. log(i²) \neq 2log(i), dependendo do ramo.
+TODO: Power function z^c, c\in C. Main branch. Other branches. Properties.
+TODO: Inverse trigonometric functions. Inverse hyperbolic functions.
+TODO: Explore Fundamental Theorem of Algebra. Roots of polynomials. Methods using trigonometry.
+TODO: Complex Pre-Calculus. Funções, etc, etc.
+
+
+
+========================================================================================
+Representação complexa polar e algebra elementar complexa
+	- Representaçãol polar
+	- Transforming it in power series
+		- Series absolutamente convergentes: Can algebrically manipulate
+		- Arriving in Euler Formula
+		- Representação de Euler
+	- Operations com representação de euler
+		- Multiplicando e dividindo com representação de Euler
+			- Argumentos somam/subtraem
+			- Interpretação geometrica da multiplicação
+		- Conjugado
+		- Representando unidade imaginaria
+	- Funções trigonométricas
+		- cos(ix) e sen(ix), x real
+		- cos(x) e sin(x), x real
+		- Comparação com funções trigonométricas hiperbólicas
+		- Relação de ligação trigonométrica circular-hiperbolica
+	- Exponencial complexa
+		- Teorema de Moivre
+			- z^n = r^n (cos(nx) + isin(nx))
+			- Example: n=2
+		- Estabelecimento de identidades trigonometricas com exponencial complexo
+			- Example: cos2x e sin2x
+			- Example: cos3x e sin3x
+			- Example: cosnx e sinnx
+		- Identidades de senos e cossenos complexos
+			- cos(a+bi)
+			- sin(a+bi)
+		- Calculando exponencial na forma complexa retangular
+	- Logaritmo Complexo
+		- Definition
+		- calc: ln(-1)
+	- Curvas complexas
+		- Example: |z| = 1
+		- Example: |z-z0| = 1
+		- Example: |z-i| = |z+i|
+		- Example: |z-z0| = |z1 - z2|
+		- Eq: Curva vetorial <==> Complexa
+	- Raizes de polinomios
+		- Raizes de numeros complexos
+		- Polinomios especiais
+			- Example: Raizes de (z+i)^7 + (z-1)^7 = 0
+			- Example: Raizes de x^3 + 7x^2 + 7x + 1

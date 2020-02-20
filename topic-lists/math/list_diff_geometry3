@@ -1,0 +1,67 @@
+TITLE: Differential Geometry 03: Intrinsic Geometry of 3D Surfaces
+	- Pre-requisitive: Differential Geometry 02.
+	- Co-requisitive: 
+
+
+TODO: Mobile reference frame (Note: it is not orthornormal, might not even be orthogonal). Note: They span entire space.
+TODO: Gauss Equations. Christoffel Symbols
+TODO: Christoffel Symbols. Calculation of Cristoffel Symbols dependent on the metric and its derivatives. Symbols dependent on the surface parameter only.
+TODO: Christoffel Symbols on: Plane, Cylinder, Etc.
+TODO: Christoffel Symbols of surface given by implicit function F(x, y, z) = c.
+TODO: Christoffel Symbols of revolution surface
+
+TODO: Geodesics. Curve must have normal vector to surface; They must be curves with cte speed. Pre-Geodesics.
+TODO: Equivalence between geodesics and minimization of length connecting two dots.
+TODO: Geodesic Equation.
+TODO: Using definition to elliminate curves that aren't geodesics. Symmetry. Shere, Torus, Revolution Surfaces, etc.
+
+TODO: Weingarten Equations. Derivative of normal vector.
+TODO: Gauss-Weingarten Equations. Analogous to Frenet Equations.
+TODO: Matrix Form.
+TODO: Application of Swartz Theorem. Compatibility Equation. Lax Pair
+
+TODO: Gauss Egregium Theorem.
+TODO: Writing Gaussian curvature as only dependent on first fundamental form.
+
+TODO: Gauss–Codazzi–Mainardi equations
+TODO: Fundamental Local Theorem of Surfaces.
+
+
+TODO: Gauss Theorem. Fundamental Local Theorem of Surfaces. Sphere rigidity theorem.  Other theorems.
+
+TODO: Semi-Geodesic Coordinate System. Mapping of the surface: Chosing a curve. Chosing geodesics pointing to perpendicular to curve.
+TODO: First and second family of curves. (second one are geodesics by construction).
+TODO: Show the coordinate system is orthogonal. The first fundamental form of a surface parameterized in semi-geodesic coordinate system. Depends on only one function.
+TODO: Gaussian curvature in this coordinate system (Using Egregium Gauss Theorem).
+TODO: Condition to be satisifed for the first curve to be a geodesics.
+TODO: Constant curvature surfaces (k>0, k=0, k<0).
+
+
+Constant and Zero Curvature Surfaces
+	- TODO: Characterization of all surfaces with constant gauss curvature: Sphere, Plane, Pseudo-Sphere.
+	- TODO: Characterization of all surfaces with zero mean curvature: Minimal curves. Relate with area being minimum.
+
+
+
+
+
+
+
+
+-------------------
+Se não entender algo, me avise.
+Essas duas(resto da 2 na próxima foto)
+Lista 3. Haverá aula dia 16.
+
+To send the notes
+Se não conseguir ler, me avise.
+"1-Provar que o cilindro e o cone são localmente isométricos"
+
+
+
+
+-------------------
+Riemannian Geometry						238 pages.
+General Relativity						276 pages.
+Linear Algebra Exterior Products		287 pages.
+

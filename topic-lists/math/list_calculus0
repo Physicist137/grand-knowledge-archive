@@ -1,0 +1,225 @@
+TITLE: Calculus 00: Pre-Calculus
+	- Pre-Requisitive: NONE
+	- Co-Requisitive: Elementary Algebra, Trigonometry.
+	- Note: This is in Discrete Math I.
+
+
+Princípios (não formais) da Lógica Clássica Proposicional
+	- Def: Proposição
+	- Axiomas da logica classica proposicional
+		- Axiom of identity: Whatever is, is
+		- Axion of noncontradiction: Nothing can both be and not be
+		- Axiom of excluded middle: Everything must either be or not be
+	- Logical operators
+		- NOT operator
+		- AND operator
+		- OR operator
+	- Def: Implicação
+		- Truth table
+		- Escrita como and-not-or
+	- Equivalencia
+	- Negating propositions
+		- Negated Equivalency
+		- Negated Implication
+	- Implications: Finding out if U is true of false
+		- U ==> T, then U is?
+		- T ==> U, then U is?
+		- U ==> F, then U is?
+		- F ==> U, then U is?
+	- Nonconstructive proof
+		- Using excluded middle axiom
+		- Example: Proof: Existe a^b racional, para a, b irracional.
+			- sqrt2 ^ sqrt2
+			- sqrt2 ^ sqrt2 ^ sqrt2
+	- Constructive Proof Theory
+		- "Standard" proof
+		- Proof by absurd
+		- Proof by induction
+
+
+Naive Set Theory
+	- Mathematical Object intuition
+	- Set and Element definition	
+		- Relation: Either element is, or not, in a set.
+		- Note: There is no order in a set.
+		- Writing: Listing all elements in the set.
+		- Writing: {x : P(x)}. Property satisfied by x.
+	- Propriedades de conjuntos
+		- Def: Conjuntos finitos/infinitos
+		- Def: Cardinalidade em conjuntos finitos.
+	- Relação de conjuntos
+		- Def: Subset. Proper subset. 
+		- Def: Superset. Proper superset.
+		- Def: Set Equality.
+	- Operações de conjuntos
+		- Def: Interseção 
+		- Def: União
+		- Def: Subtração de conjuntos
+		- Def: Conjunto complementar
+	- Produto Cartesiano
+		- Def: Par Ordenado
+		- Def: Produto cartesiano de dois conjuntos
+	- Plano cartesiano
+ 	- Induction curiosity
+ 		- Intuition: Sequential Dominoes Falling
+ 		- Sum of 1+2+...+n = n(n+1)/2
+ 		- Sum of 1*2 + 2*3 + ... + n(n+1) = n(n+1)(n+2)/3
+
+
+Funções reais a valores reais
+	- Definitions
+		- Def: Dominio
+		- Def: Contra-Dominio
+		- Def: Imagem
+	- Def: Grafico de uma função
+	- Tipos de Definição de funções
+		- Def analitica 
+		- Def recursiva 
+		- Def explicita 
+		- Def Implicita 
+	- General Examples and aplications
+		- Example: Function that takes a polygon and return number of sides
+		- Example: Function that takes people and return colors.
+		- Def: Função de valores reais a valores reais
+		- Intuition: como uma variavel varia em função de outra
+		- Application: Posição em função do tempo
+		- Interpretation: Function as machines (takes input, outputs output)
+	- Operação com funções
+		- Def: Igualdade de funções
+			- Theorem: x1 = x2 ==> f(x1) = f(x2)
+			- Is opposite valid?
+		- Soma de funções e teorema de comutatividade
+		- Produto de funções e teorema de comutatividade
+		- Divisão de funções
+	- Tipos de função
+		- Função limitada
+		- Função periódica (periodo e periodo fundamental)
+		- Função par
+		- Função Impar
+		- Função Injetora. (Statement by counterpositive too).
+		- Função Sobrejetora
+		- Função Bijetora
+	- Tipos de função por ordenação
+		- Assume: Existencia de uma ordem no dominio e contra-dominio.
+		- Função estrita
+			- Função estritamente crescente (>)
+			- Função estritamente decrescente (<)
+		- Função monótona
+			- Função monotonicamente crescente (>)
+			- Função monotonicamente decrescente (<)
+			- Função estritamente não-decrescente (<=)
+			- Função estritamente não-crescente (>=)
+		- Paridade de funções estritas
+
+
+Operações e comportamento de funções
+	- Composição de função
+		- Formal definition
+		- Interpretation: Funcion as machines
+	- Iteradas de uma função
+		- Def: Primeira iterada de f
+		- Def: Segunda iterada de f
+		- Def: Enesima iterada de f
+		- Iterada de f(x) = x^2
+			- Primeira, segunda iterada
+			- Enesima iterada
+			- Elevar a potencia n (são iguais?)
+		- Iteradas de f(x) = x^2+1
+	- Propriedades da composição
+		- Verificação e condição de existencia da comutatividade
+		- Verificação e condição de existencia da distributividade
+		- Verificação e condição de existencia da multiplicação por escalar
+		- Note: No properties at all
+		- Proposition: Associatividade da composição de funções
+		- Def: Função linear (Aplicação linear).
+	- Teoremas envolvendo funções
+		- Theorem: Função estrita ==> Função injetiva
+		- Theorem: se f, g é par ==> fog é par.
+		- Theorem: f, g injetiva <==> fog injetiva
+		- Theorem: f, g sobrejetiva <==> fog sobrejetiva
+		- Theorem: f, g bijetiva <==> fog bijetiva
+		- Theorem: Função estrita sobrejetiva ==> Existe inversa.
+	- Função identidade
+		- Formal Definition
+		- Note: Todas as iteradas são iguais
+		- Note: Função identidade satisfaz propriedades acima
+	- Inversão de funções
+		- Formal definition
+		- Condição de existencia
+		- Simetricidade em y = x
+		- Theorem: Inversa da inversa de f, é f
+		- Theorem: Composição de f com sua inversa
+		- Theorem: Inversa da composição é composição das inversas
+		- Calculation of inverse functions
+	- Translações e escalamento
+		- Translação vertical
+		- Translação horizontal
+		- Escalamento vertical (scaling)
+		- Escalamento horizontal
+		- Example: f(x) = x^2
+		- Example: Função cosseno
+		
+
+
+Exemplos de Funções
+	- Funções de R em R
+	- Função constante
+		- Note: Its a periodic function
+		- Note: Inexistencia do periodo fundamental
+	- Função identidade
+		- Note: Composição com identidade
+		- Note: Elemento neutro na operação de composição
+	- Função linear
+		- Note: Propriedade de linearidade
+		- Note: Combinação linear do input é combinação linear do output
+	- Função afim
+		- Coeficiente Angular
+		- Termo Independente
+		- Relação: Angulo e coeficiente da reta
+	- Função polinomial
+	- Função racional (p/q)
+	- Função exponencial
+	- Função Modular
+	- Funções trigonométricas
+		- Ciclo trigonométrico
+		- Definição: seno
+		- Definição: cosseno
+		- Definição: tangente
+		- Definição: secante
+		- Definição: cossecante
+		- Definição: cotangente
+	- Funções Trigonométricas Inversas
+	- Funções dadas de forma implicita
+	- Existencia de raizes
+		- Intervalos encaixantes
+		- Prova da existencia
+		- Theorem: Se uma raiz existir, será unica.
+	- Funções em R
+		- Calc: Descobrir dominio de f
+		- Calc: Ddescobrir imagem de f
+	- Estudo do sinal de funções
+	- Estudo de funções com modulo
+		- f(x) = |x|
+		- f(x) = |x|/x
+
+
+Math Base: Modulos
+	- Equações modulares
+	- Inequações modulares
+	- Propriedades do modulo
+		- Módulo de numbero é zero <==> numero é zero
+		- Módulo de numbero é menor igual a zero ==> numero é zero
+		- Produto dos modulos é modulo do produto
+		- Escrita de distancia usando modulo
+	- Theorem: Desigualdade triangular
+	- Corolarios da desigualdade triangular
+		- Modulo da diferença menor igual que soma dos modulos
+		- Modulo da diferença maior igual que diferença dos modulos
+		- Modulo da diferença maior igual que módulo da diferença dos modulos
+		- Reversed Triangle Inequality: Modulo da diferença de modulos é menor iguao que módulo da diferença
+	- Formal Definition
+		- absolute homogeneity 
+		- Desigualdade triangular
+		- Separate points (|v| = 0 ==> v = 0)
+	- Consequences of formal definition
+		- Theorem: Módulo é não-negativo

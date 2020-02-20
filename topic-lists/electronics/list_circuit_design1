@@ -1,0 +1,10 @@
+TITLE: Circuit Design 01: Resistive Circuit Design
+	- Pre-requisitive: Circuits 01
+	- Co-requisitive: None
+
+
+TODO: Explain we shall treat about generic signals. =).
+TODO: Voltage Dividers, etc. (of a generic signal, ofc).
+TODO: Voltage Multipliers, etc. (of a generic signal, ofc).
+
+WARNING: No op-amps allowed. Op-amped circuits shall go to Analog Electronics.

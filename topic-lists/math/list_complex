@@ -1,0 +1,181 @@
+Title: Complex 01: Complex Algebra
+	- Pre-Requisitives: Elementary Algebra
+	- Co-Requisitive: Vector Algebra (vectors)
+
+
+TODO: Separar em complex 01, 02, ... Por 01: Complex Algebra :)
+
+
+Definição de Numero complexo
+	- Formal Vectorial Definition
+	- Expressão vetorial da unidade real
+	- Expressão vetorial da unidade imaginaria
+	- Base vetorial ortonormal complexa
+		- Escrita vetorial
+		- Escrita retangular
+	- Def: Escrita retangular e vetorial
+	- Operações complexas
+		- Soma, Subtração
+		- Def: Multiplicação, Divisão
+			- Defintion
+			- Intuição algebrica
+			- Interpretação Algebrica da definição
+		- Def: Conjugado complexo
+		- Def: Modulo complexo
+		- Def: Modulo do numero/vetor
+	- Escrita complexa cartesiana
+	- Partes complexas
+		- Re{z} e calculation
+		- Im{z} e calculation
+	- Escrita polar de um numero complexo
+		- Plano de Argand-Gauss
+		- Conversão retangular-polar
+		- Modulo :)
+	- Quote: Porque se chama "numero complexo"?
+
+
+Algebra Complexa: Soma, multiplicação, Divisão
+	- Def: Soma de dois numeros complexos
+		- Escrita vetorial
+		- Escrita retangular
+		- Escrita polar
+			- Efeitos da soma no modulo do numero
+			- Efeitos da soma no argumento do numero
+	- Def: Multiplicação de dois numeros complexos
+		- Escrita vetorial
+		- Escrita polar
+		- Escrita retangular
+		- Note: i^2 = -1
+	- Propriedades complexas algebricas básicas
+		- Comutatividade da soma
+		- Elemento neutro aditivo
+		- Elemento neutro multiplicativo
+		- Inverso aditivo
+		- Theorem: Inverso multiplicativo
+			- Quando inverso é definido (denominador diferente de zero)
+			- Numero complexo com inverso indefinido
+		- Corolary: Se produto de numeros é zero ==> Pelo menos um dos numeros é zero
+	- Divisão de dois números complexos
+		- Metodo: Retirar o "i" do denominador
+		- Multiplicação pelo conjugado complexo
+	- Argumento de um numero complexo
+		- Argumento principal de numero complexo
+		- Outros argumentos do numero complexo
+	- Modulo de um numero complexo
+		- Formal Definition
+		- Interpretação geométrica
+		- Calculation
+		- Def: Numero complexo unitário
+		- Disitancia entre dois pontos no plano complexo
+		- Theorem: Inequação triangular
+	- Conjugado de um numero complexo
+		- Formal Definition
+		- Escrita na forma retangular
+		- Escrita na forma polar
+		- Calc: Expressão da parte real de numero complexo usando seu conjugado
+		- Calc: Expressão da parte imaginaria de numero complexo usando seu conjugado
+		- THeorem: Conjugado da soma é soma do conjugado
+		- Theorem: Conjugado do oposto é oposto do conjugado
+		- Theorem: Conjugado do produto é produto dos conjugados
+		- Theorem: Conjugado da divisão é divisão dos conjugados
+		- Calc: Escrevendo modulo de numero complexo em função do seu conjugado
+	- Escrita exponencial do numero complexo
+		- Manipulações de séries de Taylor (optional)
+		- Escrita exponencial de numero complexo
+		- Calc: Produto de dois complexos unitarios em forma exponencial
+			- Produto em forma polar
+			- Note: Indeed obedecem propriedades de produto envolvendo exponenciais reais
+		- Calc: Inverso de numero complexo
+		- Calc: Divisão de dois numeros complexos em forma exponencial
+			- Usando resultado acima
+			- Note: INdeed obedecen propriedades exponenciais reais
+		- De Moivre's formula
+			- Potencias com escrita exponencial
+			- Proof: (cosx + isinx)^n é cos(nx)+isin(nx)
+		- Calculando potencias com escrita exponencial
+			- Easier than retangular one
+	- Argumento em divisões e soma
+		- Argumento da multiplicação de numeros complexos
+		- Argumento da divisão de numeros complexos
+		- Multiplcar por numeros complexos unitarios
+		- Interpretation: rotation
+		- Interpretação Geométrica da multiplicação e divisão de numeros complexos
+	- Trigonometria: Finding out cos(nx) e sin(nx)
+		- Uso de escrita exponencial
+		- Potencias de numeros complexos
+		- Note: Trigonometria com numeros complexos é mais simples
+	- Identidade Trigonométrica de Lagrange
+		- Find: 1+z+z^2+...+z^n
+		- Parte real
+		- Parte imaginaria
+		- Identidades de lagrange
+	- Raizes de numeros complexos
+		- Calculo de raizes na forma exponencial
+		- Note: existem varias raizes ( n of them)
+		- Example: sqrt(4)
+
+
+Funções Analíticas
+	- Funções de variaveis complexas a variaveis complexas
+		- Escrita: w = f(z)
+		- Escrita: u + vi = f(x + iy)
+		- Escrita: f(z) = u(x,y) + i v(x,y)
+		- Example: f(z) = z^2
+		- Example: f(z) = |z|^2
+
+
+========================================================================================
+Representação complexa polar e algebra elementar complexa
+	- Representaçãol polar
+	- Transforming it in power series
+		- Series absolutamente convergentes: Can algebrically manipulate
+		- Arriving in Euler Formula
+		- Representação de Euler
+	- Operations com representação de euler
+		- Multiplicando e dividindo com representação de Euler
+			- Argumentos somam/subtraem
+			- Interpretação geometrica da multiplicação
+		- Conjugado
+		- Representando unidade imaginaria
+	- Funções trigonométricas
+		- cos(ix) e sen(ix), x real
+		- cos(x) e sin(x), x real
+		- Comparação com funções trigonométricas hiperbólicas
+		- Relação de ligação trigonométrica circular-hiperbolica
+	- Exponencial complexa
+		- Teorema de Moivre
+			- z^n = r^n (cos(nx) + isin(nx))
+			- Example: n=2
+		- Estabelecimento de identidades trigonometricas com exponencial complexo
+			- Example: cos2x e sin2x
+			- Example: cos3x e sin3x
+			- Example: cosnx e sinnx
+		- Identidades de senos e cossenos complexos
+			- cos(a+bi)
+			- sin(a+bi)
+		- Calculando exponencial na forma complexa retangular
+	- Logaritmo Complexo
+		- Definition
+		- calc: ln(-1)
+	- Curvas complexas
+		- Example: |z| = 1
+		- Example: |z-z0| = 1
+		- Example: |z-i| = |z+i|
+		- Example: |z-z0| = |z1 - z2|
+		- Eq: Curva vetorial <==> Complexa
+	- Raizes de polinomios
+		- Raizes de numeros complexos
+		- Polinomios especiais
+			- Example: Raizes de (z+i)^7 + (z-1)^7 = 0
+			- Example: Raizes de x^3 + 7x^2 + 7x + 1
+
+TODO: Polynomial roots, Elementary Algebra, Trigonometry-Polynomials connection
+TODO: Derivatives, integrais, diff operators, diff equations, ...
+TODO: linear algebra stuff, espectral complex theory
+TODO: Sequences and Series and connections (Fourier Sequences, Power Series)
+TODO: Complex diagrams, phase diagrams, e curvas complexas
+
+
+COMPLEX ANALYSIS (MAAAAYBE TODO (MAAYBE TOPUT HERE)):
+TODO: Complex fractals, fractal sets, complex topology (MAYBE INCLUDE THIS)
+TODO: Complex Functionals

@@ -1,0 +1,353 @@
+TITLE: Circuits 02: Lumped Abstraction Circuit.
+	- Pre-requisitive: None
+	- Co-requisitive: None
+
+
+Math Intuition: Calculus (optional)
+	- The derivative
+		- Instantaneous rate of change.
+		- Calculation of a derivative.
+	- The Definite Integral
+		- How to write it.
+		- The exact thing of what are we calculating in the integral.
+		- Plot: We are computing the area.
+	- The Line Integral
+		- Integral over a line. How to write it down.
+		- The exact thing of what we are calculating in this integral.
+		- Drawing.
+		- Example: What is the line integral which gives length of a curve?
+	- The Surface Integral
+		- Integral over a surface. How to write it down.
+		- The exact thing of what we are calculating in this integral.
+		- Drawing.
+		- Example: What is the surface integral which gives the area of a surface?
+		- Example: Calculating surface integral. (of a plan (or several plans)).
+	- The Volume Integral
+		- Integral over volume. How to write it down.
+		- The exact thing of what we are calculatingin this integral.
+		- Drawing.
+		- Example: What is the volume integral which gives volume?
+	- The fundamental 3D vector calculus theorems
+		- The gradient theorem.
+		- The rotational theorem.
+		- The divergence theorem.
+
+
+Physics Base: Laws of Electromagnetism (optional)
+	- The Fields
+		- Def: Electric Field Vector
+		- Def: Magnetic Field Vector.
+		- Lorentz Force.
+	- The current
+		- Def: Current Density Vector.
+		- Def: Conductivity.
+		- Note: Comparisom with fluid current density vector.
+	- The potential
+		- Potential difference of two points (integral).
+		- Electric field from potential (gradient).
+	- Visualizing electric field in resistive circuit
+		- Circuit: 2 batteries series, 2 resistor series
+		- The electric field in the batteries.
+		- The electric field in the resistors.
+		- The potential difference.
+	- Fluxes
+		- Def: Surface (in 3D space).
+		- Def: Electric Field Flux.
+		- Def: Magnetic Field Flux.
+		- Def: Current Density Flux.
+		- Note: Current I.
+	- Surfaces and contours.
+		- Def: Surface
+		- Def: Boundary/contour of a surface.
+		- Def: Closed surface
+		- Def: Volumetric spaces
+		- Def: Boundary/contour of volumetric space.
+		- Symbol representation of a boundary.
+	- Conservation of charge.
+		- Continuity Equation (integral form)
+		- Continuity Equation (using I and Q).
+	- Maxwell Equations
+		- Eq 01: E-Flux over closed surface is proportional to charge inside.
+		- Eq 02: B-Flux over closed surface is zero.
+		- Eq 03: E-line over closed line is variation of B-Flux crossing it.
+		- Eq 04: B-line over closed line.
+	- Example of usage of Maxwell Equations
+		- Developing a linear motor.
+		- Developing a rotational motor.
+		- Developing a rotational AC generator.
+	- Elements using maxwell laws
+		- Parallel Plate capacitor
+		- Resistor
+
+
+Physics Base: Circuit Variables
+	- Circuits
+		- EM Fields confined into restrict region
+		- Circuits with concentrated parameters.
+		- Circuits with non-concentrated parameters.
+	- Variables: Charge and energy
+	- Def: Corrente (dq/dt)
+		- Sentido da corrente
+		- Paralelo ao campo elétrico
+		- Also: Fluxo do vetor densidade de corrente sobre area.
+	- Def: Voltagem (dw/dq)
+		- Campo elétrico é gradiente do potencial
+		- Grandeza física é DDP
+		- Reference point: The ground
+	- Def: Power (dw/dt)
+		- Calc: Power em função da voltagem e intensidade
+		- Calc: Energia total transferida durante tempos t1 e t2
+	- Medidas de variaveis de circuito
+		- Current: In any point
+		- Voltage: Between two points (DDP)
+		- Power: Element or device
+
+
+Lumped Elements
+	- Lumped Matter Discipline.
+		- Assume: A circuit connecting a blackbox.
+		- Lumped Matter Discipline
+		- Note: What lumped means? Discrete. Discretization.
+		- Imposition: No net charge is built up in the blackbox (inside of element).
+		- Imposition: No magnetic flux passes thru circuit loop (outside of element).
+		- Imposition: The parameter is concentrated in the lumped element (discretization).
+		- Consequence: Current in is current out (stationary current).
+		- Consequence: Voltage different between two points is integral Edl.
+		- Note: Blackbox is a lumped element.
+	- Lumped Elements
+		- Formal Definition of a lumped element (one-port network).
+		- Examples: Lamp Bulbs, wire, batteries, etc.
+		- Examples: Diods, capacitors, resistors, inductors, etc.
+		- Example: Are lamp bulb a lumped element?
+		- Example: Is a wire a lumped element?
+		- Example: Is a switch a lumped element?
+		- Example: Is a battery a lumped element?
+		- Example: Is a solar panel a lumped element?
+		- Example: Is a diode a lumped element?
+		- Example: Is a resistor a lumped element?
+		- Example: Is a capacitor a lumped element?
+		- Example: Is an inductor a lumped element?
+		- Example: Is an antenna a lumped element?
+	- Abstraction Layer
+		- From nature (Maxwell Laws) to lumped elements.
+		- Note: Since its abstraction, you cannot predict everything.
+		- Example: Non-linear behaviour.
+		- Example: Fire, lights, smells, temperature increase, etc.
+	- Circuits
+		- Lumped elements connected
+		- Note: Its a graph.
+	- Ohm's Law and J, E vectors.
+		- Remmember: Voltage difference is integral Edl
+		- Remmember: Current density is nqv.
+		- Deriving Ohm's law from J and E vectors.
+		- Direction of current and voltage different in ohm's law.
+	- Convention of voltage and current
+		- Convention: Direction of current goes from +voltage to -voltage.
+		- Note: Convention results in power consumed being positive.
+		- Question: Is conventional current equal of real current J?
+		- Def: Associated Variable Discipline.
+	- Curva caracteristica de elementos
+		- Def: Curva caracteristica IV.
+		- Apply voltage, measure current.
+		- Quadrantes ativos e passivos na curva IV.
+		- Def: Elemento apenas passivo
+		- Def: Elemento ativo (pode ser passivo tb).
+		- Def: Resistance of lumped element.
+		- Def: Conductance of lumped element.
+		- Def: Differential resistance of lumped element.
+		- Def: Differential conductance of lumped element.
+		- Example: IV curve of ideal wire.
+		- Example: IV curve of open circuit.
+		- Example: IV curve of ideal diode.
+		- Example: IV curve of real didoe.
+		- Example: IV curve with negative differential resistance. (cubic-like).
+	- Linear Elements
+		- Def: Linear element
+		- IV Characteristics of linear element.
+		- Example: Resistor.
+
+
+Examples of Lumped Elements
+	- Element: Resistor
+		- Curva caracteristica i-v
+		- Note: Efeitos não lineares
+		- Resistor linear
+			- Linear curve
+			- Odd Symmetry arround origin
+			- Reverter voltagem reverte corrente
+		- Resistencia
+			- Def: Resistencia
+			- Def: Condutancia
+			- Note: Lei de Ohm
+		- Power associated from linear resistor
+			- R > 0 ==> P > 0
+			- Resistor sempre absorve/consume potencia
+	- Element: Switch
+		- Switch is a resistor with open/close.
+		- Curva caracteristica i-v quando fechado
+		- Curva caracteristica i-v quando aberto
+	- Element: Voltage sources
+		- Garantia de voltagem no matter what
+		- Example: Voltage source and paralel resistors
+		- Examples: Batteries, pilhas, etc.
+		- Note: elemento ativo
+		- Note: There cannot be short-circuits.
+	- Element: Current sources
+		- Garantia de corrente no matter what
+		- Example: Voltage source and series resistors
+		- Examples: Gerador solar, etc
+		- Note: elemento ativo
+		- Note: There cannot be open-circuits.
+	- Sources in real life
+		- Sources can be approximated to ideal in a given range
+		- Note: Conservação de energia. Power cannot exeed input
+		- Example: 1kW power supply with 2kW power output
+		- Note: Voltage drop to continue to supply given power.
+
+
+Lumped Circuit Abstraction (LCA)
+	- The abstraction: From Maxwell Equations to lumped circuit abstraction.
+	- Recall: Discipline.
+		- What it means? When one has a choice.....
+		- Associated Variable Discipline (current-voltage convention).
+		- Lumped Matter Discipline (working with lumped elements).
+	- Remmember: Lumped Matter Discipline
+		- Rate of change of magnetic flux outside lumped element.
+		- Rate of change of net charge inside lumped element.
+		- Note: Be careful with signals close to speed of light.
+	- Kirchhoff Current Law (KCL).
+		- Continuity Equation + Lumped Matter discipline
+		- Soma de correntes em um nodo
+		- Note: Aproximação para correntes estacionárias
+		- Note: Valid for any lumped element (not only resistors..).
+	- Kirchhoff Voltage Law (KVL).
+		- Third Maxwell Equation + Lumped Matter discipline
+		- Soma de diferença de potenciais em caminho fechado
+		- Note: Valid for any lumped element (not only resistors..).
+	- Association in series of lumped elements
+		- Equations of current
+		- Equations of voltages
+		- Whole association is new lumped element.
+		- IV-Characteristics of association. Plot.
+		- Note: Valid for any lumped element (not only resistors..).
+		- Association of n lumped elements in series.
+	- Association in parallel of lumped elements
+		- Equations of current
+		- Equations of voltages
+		- Whole association is new lumped element.
+		- IV-Characteristics of association. Plot.
+		- Note: Valid for any lumped element (not only resistors..).
+		- Association of n lumped elements in series.
+	- Aproximação de fontes de tensão reais (source + internal resistor).
+		- Description.
+		- TODO: Series of this new element (just checking as example).
+
+
+Exemplo: Fontes de tensão approx reais
+	- Real Voltage Source
+		- Internal dissipations.
+		- Approximation: Ideal Source + Internal resistor.
+		- Note: Resistance comes from internal losses (say.. conductivity of electrolyte).
+		- Adding load resistor
+	- Application of KVL in Real Voltage source.
+		- Chosing direction of current
+		- Determining direction of voltage drop.
+		- Calculating current. The current direction.
+	- IV Characteristics of real voltage source
+		- Ideal source + Internal resistor. Open circuit.
+		- Imposing the direction of voltage drop.
+		- We know: The real direction of current.
+		- Applying KVL into the (open) circuit (open voltage may be vab)
+		- Changing to real direction of current (so that current-voltage-drop convention is ok).
+		- The tension in function of current of real voltage source.
+		- IV plot of real voltage source.
+	- Real voltage source as lumped element.
+		- Real voltage source as lumped element (black-box).
+		- Connecting a load resistor to real voltage source.
+		- The voltage drop and chosing current direction.
+		- Applying KVL using IV-characteristic of real voltage source.
+		- The current and voltage in the load resistor.
+	- Properties of real voltage source
+		- Note: Voltage falls as current increases.
+		- Calc: Value of current where voltage is zero.
+		- Calc: Values of current where power is zero.
+		- Calc: Value of current where power is maximum.
+		- Calc: Value of the power when power is maximum.
+		- Plot: The power curve of the real voltage source.
+		- Note: The maximum power an real voltage source is able to deliver.
+	- Power in load resistor in real voltage source
+		- Calc: Power dissipated in load resistor (wanted).
+		- Calc: Power dissipated in internal resistor (unwanted).
+		- Calc: Condition for maximization of power dissipated in load resistor.
+		- Note: When resistances are equal...
+
+
+Fontes de corrente apprx reais
+	- TODO: Fonte de corrente real. Curva IV.
+	- TODO: Fonte de corrente equivalente à fonte de tensão
+	- TODO: Potencia transferida para resistor de carga
+
+
+Graph Theory (pitiful review).
+	- Def: Undirected Graph.
+		- Def: Node of a graph.
+		- Def: Undirected branch/Edge.
+	- Def: Directed Graph.
+		- Def: Node
+		- Def: Directed branch/Edge.
+	- Def: Malha de um graph.
+	- Def: Trees
+	- Def: Set of trees of a graph
+	- Relation in a tree: Number of nodes and number of edges/branchs.
+	- Def: Chords of a tree of a graph.
+	- Calc: Number of chords of a tree of a graph.
+	- Def: Planar graph. Unplanar graph.
+
+
+Independent Variables in Circuits
+	- Def: Circuits are graphs where every edge is one lumped element.
+	- Circuit of E edges and N nodes.
+	- What we want to find out.
+		- Find the values of all E currents.
+		- Find the values of all E voltage differences across nodes.
+		- Total: 2E values.
+	- IV Characteristics
+		- Each lumped element has IV characteristic curve. 
+		- From 2E incognites to E incognites (so far).
+	- Considering potential difference between nodes.
+		- Note: If we know voltages in tree of graph, we know all voltages of graph.
+		- Number of independent voltages: number of edges in the tree.
+		- Recall: Relation between number of edges and number of nodes in a tree.
+	- Considering currents in an edge.
+		- Note: If we know currents in all chords, then we know all currents in the graph.
+		- Number of independent currents: Number of chords in the tree.
+	- TODO: Example
+
+
+Methods to solve general circuits.
+	- Note: All this methods are general (any IV characteristics).
+	- Note: It is NOT needed linearity. One can solve ANY circuit with this.
+	- Example: Circuito de duas malhas, dois nos, duas fontes (each side), one resistor (middle).
+	- Example: Previous circuit, but with general lumped elements.
+	- Straightfoward method
+		- Write the IV function for all lumped elements.
+		- Write KCL for all nodes
+		- Write KVL for all loops.
+		- Solve it. =).
+	- Solve for voltages
+		- Chose: Arbitrary orientation of voltages in a circuit (graph).
+		- Note: Other voltages can be discovered in function of this one.
+		- Each voltage can be put in function of current in that edge.
+		- Applying KCL.
+		- Isolating the voltage.
+	- TODO: Solve for currents
+
+
+Linear Circuits
+	- Formal Definition: Linear Lumped Element
+		- Element with N inputs and 1 output.
+		- Homogenity property: f(ax, ay) = af(x, y).
+		- Superposition property: f(a+x, b+y) = f(x, y) + f(a, b).
+	- TODO: Matrix Method.
+	- TODO: Exploring superposition.
+	- TODO: Thevenin Theorem. Norton Theorem.

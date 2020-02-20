@@ -1,0 +1,38 @@
+TITLE: Analysis 03: Real Topology.
+	- Pre-Requisitive: Analysis 02.
+	- Co-Requisitive: None.
+
+
+Real Topology
+	- Intervals
+		- Def: The set [a, b].
+		- Def: The set (a, b).
+		- Def: The set [a, b) and (a, b].
+		- Def: The set [a, inf), (-inf, b].
+		- Def: The set (a, inf), (-inf, b).
+	- Interior points
+		- Formal Definition: Interior points.
+		- Formal Definition: Interiot set of a set.
+		- Equivalent: If a\in A is interior, there a1,a2 st a\in (a1, a2) subset of A.
+		- Intuition: if a is interior point, a vicinity of it is inside A.
+		- Theorem: int(A) is subset of A.
+		- Eg: Calc: int({x1, ..., xn}) = empty_set.
+		- Eg: Calc: int(a, b) = (a, b).
+		- Eg: Calc: int[a, b] = (a, b).
+	- Open Set
+		- Formal Definition: A is open iff int(A) = A.
+		- Theorem: If A1 and A2 are open ==> A1 inter A2 is open.
+		- Theorem: If A1 and A2 are open ==> A1 union A2 is open.
+		- Theorem: int(A inter B) = int(A) inter int(B)
+		- Theorem: int(A union B) = int(A) union int(B).
+		- Corolary: Intersection of finite open sets are open
+		- Corolary: Union of finite open sets are open.
+		- Note: Intersection of infinite open sets might not be open. 
+		- Eg.: {0} = Inter (-1/n, 1/n) for all n\in N. To use arquimedean property.
+		- Eg.: [a,b] = Inter (a-1/n, b+1/n).
+
+
+TODO: Pontos aderentes. Fecho de um conjunto. Closed sets.
+TODO: Acumulation Points. Few other theorems. Density of a set.
+TODO: Conjuntos compactos. Borel-Lebesgue Theorem.
+TODO: Bolzano-Weierstrass Theorem.

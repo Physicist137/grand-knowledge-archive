@@ -1,0 +1,153 @@
+TITLE: Classical Mechanics 03: Problema de N corpos
+	- Pre-requisitive: Classical Mechanics 01.
+	- Co-requisitive: None
+
+
+Sistema de várias partículas
+	- Sistema de n particulas
+		- Segunda Lei de Newton
+		- Forma fraca da Terceira Lei de Newton
+		- Forma forte da Terceira Lei de Newton
+		- Example: Movimento de particulas carregadas em campo magnético
+			- Obedece a lei fraca
+			- Não obedece a lei forte
+	- Centro de massa do sistema
+		- Formal Definition
+		- Calc: Centro de massa em sistema discreto de particulas
+		- Calc: Centro de massa em sistema continuo de partículas
+		- Example: Posição do centro de massa de meia bola
+	- Momento linear do sistema
+		- Calc: Momento linear total do sistema
+		- Calc: Momento linear em função do centro de massa
+		- Calc: Variação de momento linear (force)
+		- Special case: Variação do momento linear assumindo massas constantes
+		- Note: The same as single particle with mass M and position R.
+	- Forças no sistema
+		- Formal Def: Forças internas
+		- Formal Def: Forças externas
+		- Matriz das forças internas
+			- 3a lei de newton na forma forte
+			- Note: Matriz anti-simétrica
+			- Note: Diagonal principal tem componentes nulos
+		- Calc: Força total agindo sobre uma unica particula i
+		- Calc: The net force of the system
+		- Calc: Força total agindo sobre o sistema
+		- Segunda lei de Newton sobre o sistema
+	- Example: Falling chain
+		- Assume: Chain at U-format (presa nas extremidades A, B). There is gravity.
+		- Phenomena: Uma das extremidades cai.
+		- Calc: Tração do fio na outra extremidade
+		- Calc: Aceleração da extremidade que cai
+	- Momento angular do sistema
+		- Def: Sistema de coordenadas relativa ao centro de massa
+		- Momento angular de uma particula
+		- Expressão para o momento angular do sistema
+		- Note: Contribuição do momento angular do centro de massa with respect to origin
+		- Note: Contribuição do momento angular of each particle with respect to CM.
+	- Torque do sistema
+		- Derivada do momento angular
+		- Calc: Torque em função de coordenadas em CM e força de cada particula
+		- Calc: Torque em função de forças internas e forças externas
+		- Expressão do torque para a forma fraca da Terceira Lei de Newton
+		- Expressão do torque para a forma forte da Terceira Lei de Newton
+		- Note: Null external torque ==> Angular momentum conservation (strong 3rd law only)
+		- Note: Internal torque vanishes for internal central forces
+	- Example: Earth-Moon System
+		- Calc: Total Angular momentum of Earth-Moon system
+		- Note: Orbital motion arround center of mass
+		- Note: Rotation of planet and moon
+		- Note: Application more than once of those principles
+	- Example: Moving a space sitation with gyroscopes
+		- Calc: Gyroscope angular momentum
+		- Calc: Total angular momentum
+		- Calc: Rotation of space station with linear increase in angular momentum of gyroscope
+		- Calc: Rotation of space station with change in direction in angular momentum of gyroscope
+	- Energia cinética do sistema
+		- Def: Energia cinética do sistema
+		- Teorema da energia cinética
+			- Trabalho realizado pela força resultante
+			- The theorem itself: Trabalho é diferença da energia cinética no spontos
+		- Calc: Energia cinética com sistema de coordenadas relativo ao CM
+			- Note: Contribuição de energia cinética do CM with respect to origin
+			- Note: Contribuição de energia cinética of each particle with respect to CM
+		- Variação de energia cinética
+			- Calc: Variação da energia cinética do sistema
+			- Calc: Contribuições de energia cinética with respect to CM and origin
+			- Special case: Variação da energia cinética sob forças internas centrais
+	- Energia potencial e mecânica do sistema
+		- Energia potencial externa
+			- Formal Definition
+			- Remember: Variação da energia cinética do sistema
+			- Consider: Forças externas conservativas derivadas de potencial externo
+			- Calc: Variação da soma energia cinética e energia potencial externa do sistema
+		- Energia potencial interna
+			- Formal Definition
+			- Assumption: Forças internas conservativas
+			- Calc: Taxa de variação da energia potencial interna
+			- Calc: Energia potencial interna total do sistema
+		- Energia potencial total e energia mecanica
+			- Formal Definition
+			- Calc: Energia potencial total do sistema
+			- Calc: Energia mecanica do sistema
+	- Example: Colisão elaśtica
+	- TODO: Example 9.5, page 344
+
+
+Corpos Rígidos
+	- Formal Definition
+		- Sistema de particulas (all theorems from there applies)
+		- Vinculos de posição relativa.
+	- At any given time, we shall prove the following theorems:
+		- Theorem: There exists one pivot.
+		- Theorem: There exists a rotation axis which crosses the pivot.
+		- Theorem: All points in the rigid body moves perpendicular to rotation axis.
+		- Theorem: Velocity of any point in rigid body is proportional to distance from rotation axis.
+	- Theorem: There exists one pivot.
+		- Def: Pivot.
+		- TODO: Proof.
+	- Theorem: There exists a rotation axis which crosses the pivot.
+		- Def: Rotation axis: A line in which all points of the line are at rest with respect to pivot.
+		- TODO: proof.
+		- Def: Such a line is called: Rotation axis.
+	- Theorem: All points in the rigid body moves perpendicular to rotation axis.
+		- TODO: Proof.
+	- Theorem: Velocity of any point in rigid body is proportional to distance from rotation axis.
+		- TODO: Proof.
+		- TODO: Writing speed of any point.
+	- Equações de movimento lineares do corpo rigido
+		- Remember: Sistema de varias particulas
+		- Translação do centro de massa
+		- What about rotation?
+	- 
+
+
+Rigid Body Kinematics
+	- TODO: Angular Momentum. Definition of the inertia tensor.
+	- TODO: Kinetic Energy of a rigid Body.
+	- TODO: Change of coordinates
+	- TODO: Principal axis
+	- TODO: Parallel axis theorem.
+
+
+Rigid Body Dynamics
+	- TODO.
+	- TODO: Derive Euler Equations.
+	- TODO: Derive Euler Laws of motion. https://en.wikipedia.org/wiki/Euler's_laws_of_motion
+
+
+Rigid Body Free Rotation
+	- TODO.
+
+
+TODO: Virial Theorem
+TODO: Corpos Rígidos. Main Equations, Gyroscopes, etc. How to use gyroscopes (torque free (space station =D), and non-torque-free problems)
+TODO: Wierd things with corpos rigidos. 
+	- http://physics.stackexchange.com/questions/17504/why-does-this-object-periodically-turn-itself
+	- http://mathoverflow.net/questions/81960/the-dzhanibekov-effect-an-exercise-in-mechanics-or-fiction-explain-mathemat
+TODO: Sistemas continuous de várias particulas.
+TODO: Definir campos: N->inf (inf graus de liberdade). Continuum. Intr to classical field theory. Intr continuum matter. (maybe in mec 4?)
+
+
+
+
+

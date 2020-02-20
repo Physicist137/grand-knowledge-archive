@@ -1,0 +1,283 @@
+TITLE: Electromagnetism 02: Teoria magnetostática e materiais magnéticos.
+	- Pre-requisitives: Electromagnetism 01.
+	- Co-requisitives: Continuum 00.
+
+
+Campo magnetico estático
+	- Força elétrica entre duas cargas (repouso)
+	- Força experimental medida entre duas cargas (em movimento)
+	- Campo magnetico
+		- Def: Força magnética
+		- Def: Indução magnética
+		- Def: Força de Lorentz
+	- Comparação entre força magnetica e elétrica
+		- Calc: Fm/Fe. Note: Força magnetica é pequena se velocidade forem pequenas
+		- Note: Corrente de condução. Igual densidade de cargas positivas/negativas.
+		- Warning: Aproximações relativisticas de primeira ordem. Correct expressions will be shown
+		- Expressão da força magnetica em função do campo elétrico
+	- Interações magnéticas entre condutores
+		- Força dF em um elemento de corrente
+		- Força para condução de um portador de carga
+		- Força para condução de diferentes portadores de carga
+		- Calc: Força para intensidade de corrente uniforme
+		- Calc: Força para corrente e campo magnetico uniforme
+		- Calc: Força para corrente e campo magnetico uniforme em condutor fechado
+		- Calc: Torque para corrente e campo magnetico uniforme
+	- Lei de Biot e Savart
+		- Força magnetica entre dois loops de corrente
+		- Campo magnético gerado por fio de corrente
+		- Campo magnetico gerado por vetor densidade de corrente
+		- Theorem: O campo magnético é livre de divergencia
+	- Aplicações da Lei de biot e Savart (optional)
+		- Example: Campo magnetico em fio infinito
+		- Example: Campo magnetico em loop circular
+		- Example: Bobina de Helmholtz
+		- Example: N espiras circulares
+	- Leis locais do campo magnetostático
+		- Def: Campo Magnetostático. Correntes estacionarias
+		- Rotacional do campo magnetico
+		- Divergente do campo magnetico
+		- Forma diferencial da magnetostatica
+	- Leis integral do campo magnetico
+		- Aplicação do Teorema de Stokes
+		- Lei integral de Ampere
+		- Direct example: Campo magnetico em loop circular
+		- Direct example: Cabo coaxial
+	- Potencial vetor magnético
+		- Formal Definition
+		- Leis locais da magnetostática com vetor potencial magnético
+		- Guess: Forma integral explicita do vetor potencial magnético (remember poisson equation)
+		- Calc: Forma integral explicita do vetor potencial magnético em função da densidade de corrente
+		- Calc: Forma integral explicita do vetor potencial magnético em uma linha de corrente
+	- Expansão multipolar magnética
+		- Vetor potencial magnético
+		- Expansion in r'/r
+		- Note: Não existe termo de monopolo
+		- Def: Momento magnético
+		- Potencial vetor magnético em função do momento magnético
+		- CAmpo magnético em função do momento magnético
+		- Comparação entre campo elétrico e campo magnético
+		- Note: Redef: Momento de dipolo magnético
+	- Potencial escalar magnético
+		- Ausencia de densidade de corrente
+		- Def: Potencial escalar magnético
+		- Equação de Laplace (again)
+		- Calc: Potencial escalar magnético. TODO.
+		- TODO: To finish.
+	- Fluxo Magnético
+		- Formal Definition
+		- Theorem: Fluxo magnético em superfície fechada é nula
+	- Example: Circuito em formato de toroide. Calc Magnetic field. TODO.
+
+
+Propriedades Magnéticas da Matéria
+	- Matéria constituida de átomos
+		- Campo magnético afetado por presença de matéria
+		- Correntes macroscopicas
+			- Geradas por diferencia de potencial
+			- Há transporte de portadores de carga
+		- Correntes atomicas em circuitos fechados
+			- Geradas por movimentação de eletrons em átomos
+			- Não há transporte portadores de carga
+		- Note: Correntes macroscopicas geram campos magneticos, hence...
+		- Conclusion: Correntes atomicas geram campos magnéticos
+	- Vetor de magnetização
+		- Dipolo magnético de cada corrente atomica
+		- Def: Vetor de magnetização
+			- Volume small enough
+			- Volume big enough
+		- Note: Magnetização em estado desmagnetizado
+		- Note: Similar ao vetor de polarização no caso eletrostático
+		- Note: Magnetização depende do campo de indução magnético externo
+	- Densidade de corrente de magnetização
+		- Draw: Dois elementos de volume proximos magnetizados
+		- Escrita de magnetização em função de corrente circulante do 1st elemento de volume (comp x)
+		- Escrita de magnetização em função de corrente circulante do 2nd elemento de volume (comp x)
+		- Corrente liquida no eixo Z na região entre os dois elementos de volume (em y)
+		- Magnetização da componente y (escrita em função de corrente circulante)
+		- Corrente liquida no eixo Z na região entre dois elementos de volume (em x)
+		- Calc: Componente Z da corrente circulante
+		- Calc: Componente Z do vetor densidade de corrente
+		- Note: Transporte de corrente causado por correntes atomicas
+		- Def: Densidade de corrente de magnetização
+	- Densidade de corrente de magnetização volumétrica e superficial
+		- Calc: Vetor potencial magnetico por conta de material magnetizado
+		- Note: Contribuição da magnetização em superficie e volume
+		- Note: Densidade de corrente de magnetização
+		- Def: Densidade de corrente de magnetização superficial
+		- Vetor potencial magnético em função das densidades de corrente de magnetização
+	- Campo magnético gerado por material magnetizado
+		- Equações de campo local
+			- Rotacional de campo magnetico
+			- Note: Fenomenos de superficie são ignorados
+			- Calc: Campo magnetico por magnetização volumétrica
+		- Equações de campo integral
+			- Uso de identidades vetoriais (g x (F x G))
+			- Note: Campo magnético originado por duas expressões
+			- Calc: Campo magnético por magnetização volumétrica
+			- Calc: Campo magnético por magnetização superficial
+			- Note: Potencial escalar magnético
+		- Campo de indução magnética gerado por material magnetizado
+			- Full expression
+			- Note: Termo de magnetização volumétrica. Magnetização local.
+			- Note: Termo de magnetização superficial. Sem correntes ao redor
+			- Note: Campo indução magnética no vácuo. Integral de campo de dipolo distante
+	- Densidade de polo magnético
+		- Potencial escalar magnético
+		- Reescrita em integral de volume e superficie
+		- Remember: Mesma coisa feita com potencial eletrostático de polarização
+		- Def: Densidade volumétrica de polo magnético
+		- Def: Densidade superficial de polo mangético
+		- Expressão do campo indução magnético em função das densidades de polo
+		- Calc: Densidade de polo total
+	- Intensidade magnética
+		- Corrente convencional
+		- Correntes atomicas
+		- Expressão completa do campo indução magnético
+		- Note: Equação integral em B para forma funcional M = M(B). Terrible!
+		- Def: Vetor intensidade magnética
+	- Equações de campo
+		- Equações locais do campo B
+		- Note: Incluir todas as formas de corrente em B: Corrente de transporte e atomicas
+		- Equações locais do campo H
+		- Note: Fontes do campo-H são polos magnéticos
+		- Note: Campo H tem inicio e fim
+		- Equações integrais do campo B (contoro e superficie fechado)
+		- Equações integrais do campo H (contoro e superficie fechado)
+	- Materiais magnéticos isotrópicos lineares
+		- Relação funcional entre M e H
+		- Relação isotrópica linear
+		- Def: Susceptibilidade magnética
+		- Def: Permeabilidade magnética
+		- Def: Permeabilidade relativa
+		- Def: Materiais paramagnéticos
+		- Def: Materiais diamagnéticos
+	- Materiais ferromagnéticos
+		- Crescimento não linear da permeabilidade magnética
+		- Expressão da indução magnética em função de H e M
+		- Expressão da indução magnética em função da permeabilidade e H
+		- Curva de magnetização: Diagrama B-H
+		- Aumento monotonico da intensidade magnética para material inicialmente não magnetizado
+		- Def: Magnetização de saturação do material
+		- Decréscimo monotonico da intensidade magnética para material inicialmente magnetizado
+		- Def: Curva de Histerese
+		- Draw: Curva de histerese típica de material ferromagnetico
+	- Curva de Histerese de material ferromagnetico
+		- Magnetização permanente de material ferromagnético
+			- Aplicação de campo H. Magnetização de material magnético.
+			- Remoção de campo H. Desmagnetização incompleta
+		- Inversão do campo H.
+			- Inversão de campo H em material permanentemente magnetizado
+			- Magnetização nula. 
+			- Inversão da magnetização do material
+			- Magnetização inversa permanente
+		- Pontos da curva de histerese
+			- Def: Ponto de Retentividade/remanescencia magnética
+			- Def: Ponto coercividade magnética
+		- Analise do sinal da permeabilidade magnética curva de histerese
+			- Note: Quadrantes de sinal positivo da permeabilidade magnética
+			- Note: Quadrantes de sinal negativo da permeabilidade magnética
+	- Condição de contorno sobre os vetores de campo
+		- Comportamento dos vetores de campo em transição de materiais magnéticos
+		- Continuidade da componente normal do campo B
+		- Descontinuidade de H em densidade de corrente superficial de transporte
+	- Campo magnético no interior de material magnético com corrente de transporte inexistente
+		- Equações magnéticas fundamentais para tal problema
+		- Note: Campo H obtido por um potencial escalar
+		- Equação de laplace
+		- Material magnético linear
+		- Material uniformemente magnetizado
+	- Example: Bola (maciça) não magnetizada imersa em campo magnético homogeneo
+		- Note: Analogo a bola dielétrica em campo eletrico uniforme
+		- Solução por harmonicos zonais
+		- Potencial dentro e potencial fora da bola
+		- Condições de contorno para o potencial escalar H.
+		- Calc: Constantes a partir das condições de contorno
+		- Calc: Potencial dentro e fora da bola
+		- Calc: Campo magnético dentro e fora da bola
+		- Draw: Campo magnetico dentro e fora da bola  (optional)
+	- Example: Bola magnetizada uniformemente sem presença de campos magneticos externos
+		- Solução por harmonicos zonais
+		- Potencial dentro e potencial fora da bola
+		- Calc: Campo H dentro e fora da bola
+		- Note: Campo externo à bola vem de momento de dipolo unico computavel. Calc.
+		- Note: Campo interno à bola é um campo H desmagnetizante
+		- Note: Semelhante a campo despolarizante de dielétrico uniformemente polarizado
+		- Calc: Campo B dentro e fora da bola
+	- Circuitos de corrente em meios magnéticos. TODO.
+		- Example: Corrente circular em volta de material ferromagnetico
+		- Remember: Lei circuital de Ampere for H fields
+		- Componente tangencial do campo.
+
+
+Circuitos Magnéticos
+	- Formal Definition
+		- Def: Circuito
+		- Def: Circuito magnético
+		- Comparisom: Circuito elétrico
+	- Leis gerais do circuito magnético
+		- Força magnetomotriz
+		- Integração do campo H em circuito fechado
+		- Conservação do fluxo magnético
+		- Def: Relutancias
+			- Comparisom: Resistencia
+			- Comparisom: Definição de resistencia
+		- Analogo com caso elétrico: 
+			- Kirchoff law: Integration over H field.
+			- Conservation of current: Magnetic flux.
+			- Voltage: H*l.
+			- Current: Magnetic Flux.
+	- Associação de relutâncias
+		- Associação em série
+		- ASsociação em paralelo
+	- TODO: Circuitos magnéticos simples (toroide, etc)
+	- TODO: Circuitos magnéticos mais complicados (E-shape)
+	- TODO: Entreferro
+	- TODO: Circuitos em materiais ferromagnéticos
+	- TODO: Circuitos com ímãs permanentes
+	- TODO: Forças em circuitos magnéticos. Estresses e pressões.
+
+
+Energia Magnética (Campos Temporalmente Uniformes).
+	- TODO: Energia magnética de circuitos indutivos (acoplados)
+	- TODO: Densidade de energia magnética
+	- TODO: Energia magnética. Forças e torques sobre circuitos.
+	- TODO: Pressão magnética. Estresses magnéticos. Stress-Tensor.
+	- TODO: Stress Tensor (pressures and stresses) in magnetized materials and magnetic materials.
+
+
+TODO: Problemas de contorno envolvendo campos magnéticos
+	- To Calc: Meio não magnético. Maciço. Oco. Blindagem magnética?
+	- To Calc: Meio diamagnético. Maciço. Oco. Blindagem magnética? Levitação magnética?
+	- To calc: Meio paramagnético. Maciço. Oco. Blindagem magnética?
+	- To calc: Meio paramagnético. Maciço. Oco. Blindagem magnética?
+
+
+TODO: Spinning charged stff (say.. sphere). Magnetic Dipole. Gyromagnetic Ratio.
+TODO: Magnetic forces between currents (and current densities). Force per unit volume. Magnetic pressure.
+TODO: Stresses and pressures in a solenoid: Outward pressure and axial compression
+	- http://physics.stackexchange.com/questions/90671/axial-forces-on-a-solenoid-windings?rq=1
+TODO: Diamagnetic leviation. https://en.wikipedia.org/wiki/Magnetic_levitation
+TODO: Shielding from magnetic fields by metals.
+TODO: Electromagnetic pump (for molten metals). https://en.wikipedia.org/wiki/Electromagnetic_pump
+TODO: Barnet Effect. https://en.wikipedia.org/wiki/Barnett_effect  (maybe..., btw, is it quantum?)
+TODO: Einstein-De Haas Effect. https://en.wikipedia.org/wiki/Einstein%E2%80%93de_Haas_effect  (maybe..., btw, is it quantum?)
+TODO: Piezomagnetic materials. https://en.wikipedia.org/wiki/Piezomagnetism
+TODO: Magnetostriction. https://en.wikipedia.org/wiki/Magnetostriction
+TODO: Halbach arrays. https://en.wikipedia.org/wiki/Halbach_array
+TODO: Hall Effect. https://en.wikipedia.org/wiki/Hall_effect
+TODO: Galilean Transformation for the magnetic field. (change of galilean frames).
+
+MAYBE: Por a teoria microscopica aqui também? =). Its a distinct possibility. A nice idea.
+
+TODO: To point out that, Biot-Savart law is only valid for stationary current. If current is not stationary, generalization is the Jefimenko Equations.
+
+
+
+THE LIST: ERASE ME:
+	EM1: Electric field. Image Method. Laplace equation. Dielectric. Energy. Force/Torque. Electric pressure and stresses. Dielectric stress. Electric current. Circuits.
+	EM2: Magnetic Field. Magnetic materials. Magnetic circuits, Hystersis, heat conversion. Energy. Force/Torque. Magnetic pressure and stresses. Material stresses. Magnetic levitation, stability.
+	EM3: EM Induction. EM Circuits, oscilations. Maxwell Equations. Time-variable fields. Field and potential waves. Retarded potential. Gauge.
+	EM4: EM Waves. Propagation. Radiation.
+	EM5: Microscopic + applications.
+

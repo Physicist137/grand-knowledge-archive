@@ -1,0 +1,289 @@
+TITLE: Quantum Mechanics 02: System of one quantum particle in 3D.
+	- Pre-requisitives: Quantum Mechanics 01.
+	- Co-requisitives: None.
+	- Note: Analogo a Mecanica Classica 01.
+
+
+Three-Dimensional Quantum Mechanics
+	- Schrodinger Equation
+		- Momentum operator in x direction
+		- Momentum operator in y and z direction.
+		- The schrodinger Equation (operator relation using p)
+		- The Schrodinger Equation (partial diff equation).
+	- Conservation of normalization
+		- Recall: The 3D Schrodinger Equation
+		- Calc: The time variation of the probability density
+		- Calc: Time variation of probability density as a divergent (rotationless).
+		- Note: Its an continuity equation. The probability current
+		- Calc: Integration in overall space of the variation of probability density
+		- Calc: Integration in confined space of the variation of probability density
+		- Note: Probability is conserved (if in overall R3 space).
+		- Note: Flux of probability density (same way as, say, flux of B-Field).
+
+
+Three-Dimensional Quantum Mechanics
+	- TODO: Schrodinger Equation
+	- TODO: Conservation of normalization over time, given initial condition normalized.
+	- TODO: Time-Independent Schrodinger Equation
+	- TODO: Cannonical Commutation Relations.
+	- TODO: Momentum and position operators.
+	- TODO: Continuity Equation. Probability Currents. Probability current in terms of momentum operator.
+	- TODO: Show continuity equation considering a complex non-real potential.
+	- TODO: Ehrenfest Theorem in 3D.
+	- TODO: Virial Theorem.
+	- TODO: Momentum space wavefunction.
+	- TODO: Equivalence between Schrodinger Equation and EM Optics (n(x) <--> V(x)) (n refraction index).
+	- TODO: Degenerate Quantum States (as eg, rectangular box potential). Proof: There is no degenerate quantum states in 1 dimension.
+
+
+Gallilean Relativity
+	- TODO: Gallilean Invariance of Schrodinger Equation.
+	- TODO: Revisiting moving delta well.
+	- TODO: Revisiting travelling gaussian free particle.
+	- http://physics.stackexchange.com/questions/56024/galilean-invariance-of-the-schrodinger-equation
+
+
+Hilbert Space
+	- TODO: Hilbert space. Inner product. Bracket Formalism. Operators. Hermitian Conjugate. Etc.
+	- TODO: QM on it: Averages, uncertainties, etc, etc.
+	- TODO: Hilbert Basis. Complete space.
+	- TODO: Time-dependent Schrodinger Equation. Time independent equation (eigenvalue of hamiltonian).
+	- TODO: 3D Virial Theorem.
+
+
+Angular Momentum Algebra
+	- Angular Momentum operator
+		- Formal Definition: L = r x p.
+		- Angular momentum operator Lx, Ly, Lz.
+	- Angular Momentum Commutator relations
+		- Calc: All simultaneously [Li, Lj]
+			- Recall: Comunication relations for position and momentum: [pi, pj] = ih \delta_{ij}.
+			- Recall: Relation between levicivita symbols with kronecker delta.
+		- Calc: Canonical commutator relations for [Lx, Ly], [Ly, Lz], [Lz, Lx].
+		- Calc: Angular momentum and linear momentum commutator: [Li, pj].
+		- Calc: Angular momentum and position commutator: [Li, rj].
+		- Note: Lz and z commutes. Lz and pz commutes. But, pz and z does not commute!
+		- Note: No component of the angular momentum commutes.
+	- Square Total angular momentum operator
+		- Formal Definition: L^2.
+		- Commutator relations: [L^2, Li]. (also, to write in vector component [L^2, L]).
+		- Note: L^2 is compatible with each component of angular momentum operator.
+		- Note: L^2 commutes with all angular momentum components.
+	- Angular Momentum Ladder operator
+		- Assume: L^2 and Lz satisfies eigenstate relations with given function f.
+		- Define: L+- = Lx +- iLy.
+		- Calc: Comutation relations [Lx, L+-], [Ly, L+-], [Lz, L+-].
+		- Note: L+- comutes with L^2 (obviously).
+		- Proof: (L+-)f is eigenfunction of L^2 with same eigenvalue.
+		- Proof: (L+-)f is eigenfunction of Lz with eigenvalue increased by +-hbar.
+		- Note: L+- increases or decreases eigenvalue by hbar.
+		- Note: Ladder operator.
+	- TODO: Rotational Ehrenfest Theorem in 3D (Torque and angular momentum).
+	- Angular momentum operators
+		- Calc: Gradient in spherical coordinates
+		- Calc: Angular momentum vector operator
+		- Calc: Each component Lx, Ly, Lz in spherical coordinates.
+		- Calc: The ladder operators (in spherical coordinates).
+		- Calc: L+ L- and L- L+.
+		- Calc: The L^2 operator (in spherical coordinates).
+
+
+Angular Momentum Eigenfunctions
+	- TODO: Separation of variables
+	- TODO: Solve for phi. Show orthogonality of the solution. To note m must be only integer (so solutions are physically acceptable).
+	- TODO: Come up with equation only for theta.
+	- TODO: Simplify m=0. Substitution x=cos(theta). Power series. Solve. Realize convergence is if |x|<1. 
+	- TODO: Truncation to allow x=1 too! (so that solutions will be physically acceptable). Then k=l(l+1), l integer. Polynomial Solution.
+	- TODO: Solve with general m. Spherical Harmonics Formula.
+
+
+Angular Momentum Eigenvalues
+	- Eigenvalues of angular momentum operator
+		- Calc: Direct substitution of spherical harmonics and Lz operator (in spherical coordinates)
+		- Note: Eigenvalues of Lz are discrete, with chunks of hbar.
+		- Calc: Eigenvalues of the L^2 operator
+		- Note: This one is k=l(l+1) in hbar^2 chuncks
+	- Limiting value of z-component angular momentum
+		- Note: Since L^2 has eigenvalue specified, Lz eigenvalue must have a limit
+		- Calc: Force the limit: L+ ft = 0, where ft is top/superior limit. Assume L^2 and Lz eigenvalues for this.
+		- Calc: L+- L-+. In function also of L^2. Isolate L^2.
+		- Calc: Apply L^2 operator in the top-limiting eigenfunction to find its eigenvalue.
+		- Calc: Sameway, calculate eigenvalue of L^2 for the inferior limiting eigenfunction for z-component angular momentum.
+		- Calc: L^2 inferior and superior eigenfunctions must be identical. Ofc. Compute it.
+		- Note: Given l, then m will go from -l to l, by the ladder operator.
+		- Note: Algebraically: l isn't specified. Neither does m. (Can be integer, real, complex, etc).
+		- Note: However, algebraically: m ranges -l to l in integer steps ==> l is integer or half integer ==> m is integer or half integer.
+		- Note: However, analytically: as we saw, lm must be integer only, for acceptable physical solutions.
+		- Note: There exists 2l+1 possible different values of m.
+	- Angular momentum allowed values
+		- Draw: Diagram indicating Lz and L^2, and the vector draw of L.
+		- Note: L^2 eigenvalue is always greater than Lz.
+		- Note: z-component of angular momentum NEVER reachs its maximum. Odd isn't it?
+		- Question: Isn't it wrong? Why can't you rotate your axis, st now z-component is in maximum?
+	- Eigenvalues of ladder operators
+		- Note: We don't know the eigenvalues of L- and L+.
+		- Show: Lx and Ly are hermitian (as they should) (use inner product in hilbert space (integration rectangular)).
+		- Show: L+ hermitian conjugate is L-.
+		- Calc: L+ L-. To set in function of L^2 and Lz operators.
+		- Calc: L- L+. To set in function of L^2 and Lz operators.
+		- Calc: Hilbert inner product <L+ flm, L+ flm>. Then with L-.
+		- Calc: Eigenvalue of the L+- operators.
+
+
+
+Spin of particles.
+	- Stern-Gerlach Experiment.
+		- Particle effuses from oven to pass region of non-uniform magnetic field.
+		- Calc: Relation between particle angular momentum and magnetic dipole moment.
+		- Calc: The quantum prediction for Stern-Gerlach Experiment.
+		- Classical Prediction: Beam will disperse into wide area
+		- Quantum Prediction: Beam will separate into three components (of angular momentum) {-hbar, 0, hbar}
+		- Experimental result: Beam separates into two components {-hbar/2, +hbar/2}.
+		- What? What just happened?
+	- Fixing the issue
+		- Assume: Particle carries intrinstic non-removable angular momentum with themselves.
+		- Intrinsinc magnetic dipole moment
+		- Assume: s=1/2. Re-run quantm preduction: Beam will separate into two components (-hbar/2, +hbar/2).
+		- Yay! By the way, Def: Intrinstinc Angular momentum: Spin.
+	- Spin relations
+		- Spin commutation relations: [Sx, Sy], [Sy, Sz], [Sz, Sx].
+		- Spin eigenvalues of Sz and S^2 and S+-.
+		- Note: This time, there is no reason to exclude the possibility of half-integer values (unlike angular momentum).
+		- Note: Er.. Question: What are the eigenfunctions of spin?
+		- Note: Every particle has a value called spin. From our algebra, they range: s: 0, 1/2, 1, 3/2, ...., inf.
+		- Note: Spin of this particle is fixed (its intrinstic after all).
+	- Spin 1/2 operators.
+		- Note: Protons, neutrons, electrons, are spin-1/2 particles (to be proved later) (trust me for now).
+		- Note: From our algebra: Spin-1/2 particles can have two values of m_s: -1/2, +1/2. Then: Spin up. Spin down.
+		- State spin-up and spin-down as a vector: (1 0) or (0 1).
+		- Calc: S^2 operator from eigen-equations: S^2 applied in spin up vector, and spin down vector.
+		- Calc: Sz operator from eigen-equations: S\ applied to spin up vector and spin down vector.
+		- Calc: Spin ladder operators: From eigen-equatios: S+ applied in spin down, and S- applied in spin up.
+		- Calc: Sx and Sy operators (from S+ and S- operators).
+		- Def: Pauli Spin matrices. (x, y and z).
+		- Calc: Sz^2 and Sx^2 and Sy^2. Compare with S^2.
+		- Note: Sx, Sy, Sz, S^2 are hermitian (as they should be).
+		- Note: S+ and S- are not hermitian.
+	- Spin 1/2 System
+		- Calc: Normalization of the spin-1/2 system.
+		- Calc: Commutator relations of the spin-1/2 operators
+		- Calc: Average of the spins. <Sx>, <Sy>, <Sz>, <S^2>
+		- Calc: Uncertainty relations of the spins. Sx, Sy, Sz, S^2.
+		- Calc: Eg.: Probability of measuring spin up, and spin down, for given initial state (sloppy language)
+		- Calc: Eg.: Probability of measuring +hbar/2, and -hbar/2 if measured Sz, for given initial state (correct language!).
+		- Calc: Eigenvalues and eigenstates of Sx. Normalization of eigenstates. Probability of measuring one of the eigenvalues for Sx.
+		- Calc: Operator Sr, to measure spin angular momentum along arbitrary direction r.
+		- Calc: Eigenvalues and eigenvectors of Sr.
+	- Spin-s operators.
+		- Calc: Size of the spin-state vectors. Size of the spin-operator matrices.
+		- Calc: S^2 operator.
+		- Calc: Sz operator.
+		- Calc: S+ and S- operator.
+		- Calc: Sx and Sy operator.
+		- Calc: Pauli spin matrices for spin-s particle.
+	- Spin-s system.
+		- Calc: Normalization of the spin-s system.
+		- Calc: Commutator relations of the spin-s operators
+		- Calc: Average of the spins. <Sx>, <Sy>, <Sz>, <S^2>
+		- Calc: Uncertainty relations of the spins. Sx, Sy, Sz, S^2.
+		- Calc: Eg.: Probability of measuring a given spin for initial state (sloppy language)
+		- Calc: Eg.: Probability of measuring m_s hbar if measured Sz, for given initial state (correct language!).
+		- Calc: Operator Sr, to measure spin angular momentum along arbitrary direction r.
+		- Calc: Eigenvalues and eigenvectors of Sr.
+	- Some particles
+		- Spin 0: Mesons, etc
+		- Spin 1/2: Protons, Neutrons, Electrons, etc.
+		- Spin 1: Photons.
+		- Spin 3/2: 
+		- Spin 2: Gravitons (assuming they exist ofc).
+
+
+Spin-1/2 particle in magnetic Field
+	- Intrinsic Magnetic Dipole Moment
+		- Recall: Relation between angular momentum and magnetic dipole moment
+		- Note: Spin is just intrinsic angular momentum.
+		- Relation between spin and magnetic dipole moment for charged particle.
+		- Def: Gyromagnetic ratio (q/2m).
+		- Note: Electron has twice the predicted gyromagnetic ratio (to be proved later in relativistic QM) (trust me for now).
+	- Hamiltonian of the system
+		- Recall: Torque generated by a magnetic dipole in B-Field.
+		- Recall: Energy associated with the torque (the hamiltonian).
+		- Calc: The hamiltonian (depending on spin, B-Field and gyromagnetic ratio).
+		- Note: Particle is static (there is no force) (otherwise there should be kinetic energy term).
+		- Note: There is only torque. There is no forces.
+	- Static Particle
+		- Non-static ones would require a kinetic term that we shall ignore
+		- Recall: Spin-1/2 particles: Protons, Electrons, Neutrons, etc.
+		- Example: Electron at rest in Magnetic Field (it cannot be allowed to move).
+		- Example: A neutron in magnetic field (no charge, spin 1/2, there is magnetic moment).
+	- Spin-1/2 particle in uniform B-Field
+		- Assume: B-Field in direction k.
+		- Calc: The Hamiltonian operator
+		- Calc: The Hamiltonian Eigenstates and eigenvalues (eigenstates are spin up and down states).
+		- Show: The Time-dependent Schrodinger Equation (with this hamiltonian).
+		- Calc: The general solution of the time-dependent schrodinger equation.
+		- Note: General solution is just linear combination of eigenstates.
+		- Calc: Normalization of the system
+		- Calc: The initial state when t=0.
+	- Larmour Precession
+		- Calc: Average Value of <Sx>
+		- Calc: Average Value of <Sy>
+		- Calc: Average Value of <Sz>
+		- Note: <S> is titled at constant angle from z-axis, and precesses about the field.
+		- Def: Larmour precession: Precession of the <spin> vector around B-Field axis
+		- Calc: Larmour Precession Frequency
+		- Note: Exactly the classical result (as it should: Ehrenfest theorem applies to averages).
+	- Spin-1/2 particle in oscilating B-Field
+		- Eg.: Resting electron in oscilating B-Field.
+		- Objective: Compute minimum magnetic field required for a complete spin flip along x-axis.
+		- Calc: The hamiltonian operator
+		- Calc: The Schrodinger Time-Dependent Equation. Full solution.
+		- Calc: Initial condition: Particle initially totally in Sx+ state (+hbar/2).
+		- Calc: Quantum state of particle (along with basis of spin-up and down).
+		- Calc: Eigenvalues and eigenstates of the Sx operator
+		- Calc: The eigenstates of Sx ("spin left", "spin right"), in terms of spin up/down basis.
+		- Calc: Quantm state of the particle (in terms of Sx+ and Sx- basis).
+		- Calc: Probability of applying Sx and finding -hbar/2 (a spin complete flip) (use directly previous quantm state).
+		- Calc: Probability of applying Sx and finding -hbar/2 (a spin complete flip) (use quantm state as spin up/down).
+		- Calc: Average value of the Sx operator.
+		- Calc: The minimum magnetic field required for complete flip (from the probability).
+		- Calc: The minimum magnetic field required for complete flip (from the average Sx).
+		- Special Case: Mininum magnetic field required to flip spin of resting electron.
+		- Note: The higher the frequence, the higher the minimum magnetic field required. Why is that?
+
+
+
+
+
+
+-----------------------------------------------------------------------
+
+TODO: Analise da curva de potencial? Zonas proibidas? Zonas likely to tunnel? etc?
+
+TODO: To point out: Before schrodinger equation, we "mixed" quantum and classical physics
+	- Planck's law: The derive average radiance from classical electromagnetism (average poyinting vector) to calculate spectrial radiance.
+	- Photoelectric effect: The inclusion of the kinetic energy expression in classical form
+	- Comptom Effect: A classical elastic collision is calculated, with quantum-calculated energies
+	- Bohr's Atom: The inclusion of the kinetic energy expression in classical form (again).
+TODO: Explain those phenomena (and many others) from a purely quantum point of view.
+TODO: Symmetric barrier potential inside box. Transmission and reflection coeficients. Period/Frequence of tunneling. Chirality of molecules.
+
+
+
+
+TODO: Other Things
+	- The nice double slit experiment.
+
+TODO: At the end, give a light to the postulates of quantum mechanics, and how could one fully mathly formalize it.
+
+---
+TO THINK: TO have perturbation theory? Or maybe it may be quantum4? (shifting formal qnautm to quantum5 ofc).
+
+
+---------------------
+
+PERHAPS: Make a quantum 05? And shift formal quantum to 06? =D.
+http://www.physicspages.com/index-physics-quantum-mechanics/shankar-principles-of-quantum-mechanics/
+http://www.physicspages.com/2017/02/06/path-integral-formulation-of-quantum-mechanics-free-particle-propagator/
+http://www.physicspages.com/2017/02/07/free-particle-propagator-from-a-complete-path-integral/
+http://www.physicspages.com/2017/02/10/the-path-integral-is-equivalent-to-the-schrodinger-equation/

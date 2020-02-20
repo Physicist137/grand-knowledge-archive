@@ -1,0 +1,30 @@
+TITLE: Electromagnetism 06: Introdução à Eletrodinâmica
+	- Pre-requisitives: Electromagnetism 05.
+	- Co-requisitives: 
+
+
+TODO: A fresh reminder in: General EM wave equation em termos de potenciais.
+TODO: Equações de Maxwell em termos de potenciais. Explore the potentials. Gauge Freedom (coulomb/lorentz gauge).
+	- https://en.wikipedia.org/wiki/Mathematical_descriptions_of_the_electromagnetic_field#Maxwell.27s_equations_in_potential_formulation
+	- https://en.wikipedia.org/wiki/Mathematical_descriptions_of_the_electromagnetic_field#Potential_field_approach
+TODO: Relações de Causalidade. TO prove: Causality ==> Complex Susceptibility ==> That's why you heat up in the sun. Cool isn't it? Causality is good.
+TODO: Transformações de campo relativisticos. Apprx para regime galileano.
+TODO: Transformações relatvisticas para ondas. Doppler effect.
+TODO: Liénard–Wiechert potentials.
+
+TODO: Minkowski Spacetime. Metric. Four-Vectors. Four-Current-Density. 
+TODO: Tensor de campo eletromagnético. Transformação do tensor de campo eletromagnético.
+TODO: Writing Maxwells Equations with EM Field Strengh Tensor.
+TODO: Four-Force under charge q.
+TODO: EM 4-vector potential. Gauge transformations.
+TODO: Electromagnetic Stress-Energy-Momentum Tensor. Transformations.
+
+TODO: To make this really? Sounds little content to present....
+
+
+
+THIS CAME FROM PREVIOUS EM. TO INTEGRATE HERE.
+TODO: Liénard–Wiechert potential. Relativistic corrections. Relativistic limitation to Electromagnetism. (relativistic Generalization of Jemifenko Equations)
+TODO: Perhaps: Cherenkov radiation.
+TODO: Perhaps: Scattering/diffraction of EM waves? Rayleigh scattering.
+TODO: Talk about quantum limitations (black-body, Comptom scattering, etc).

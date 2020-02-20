@@ -1,0 +1,55 @@
+TITLE: Quantum Systems 05: Perturbation
+	- Pre-requisitives: Quantum Mechanics 04
+	- Co-requisitives: Quantum Mechanics 09
+
+
+Summary of the systems
+	- Time-Independent: Stark Effect, Van Der Walls Interaction
+	- Variational: Ground State Helium, Hydrogen Molecule Ion, Cross Shaped Potential (Quantum Dots).
+	- WKB Approximation: Gamow's Alpha Decay, Allowed energy of potential V(x) = a|x|^k, k positive. Tunneling in Stark Effect.
+	- Time-Dependent: Hamiltonian turning on/off, Rotating Wave Approximation (Rabi Frequency), Magnetic Ressonance, NMR, Allowed/Forbidden Transitions, EM Thermal Field.
+	- Adiabatic Approximation: 
+
+
+9.7, 9.11, 9.21
+
+
+Stark Effect
+	- TODO.
+
+
+Van Der Walls Interaction
+	- TODO.
+
+
+Ground State Helium
+	- TODO.
+
+
+Hydrogen Molecule Ion
+	- TODO.
+
+
+Cross Shaped Potential
+	- TODO.
+
+
+Gamow's Alpha Decay
+	- TODO.
+
+
+Power Potential
+	- TODO.
+
+
+Tunneling in Stark Effect
+	- TODO.
+
+
+
+Transitions in ambient thermal EM Field
+	- TODO.
+
+
+Spontaneous Emission Rate in Hydrogen
+	- TODO. 

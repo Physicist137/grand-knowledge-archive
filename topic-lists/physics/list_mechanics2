@@ -1,0 +1,519 @@
+TITLE: Classical Mechanics 02: Problema de dois Corpos
+	- Pre-requisitive: Classical Mechanics 01, Analytical Geometry 01.
+	- Co-requisitive: None
+
+
+Teoremas de conservação
+	- TODO: Conservação de momento linear. Centro de massa
+	- TODO: Substituição de variaveis. Vetor de posição relativo. Massa reduzida.
+	- TODO: Equações de Movimento com variaveis novas: R'' = 0. F = ur''.
+	- TODO: Momento linear total em funçao de R e r. Momento angular total em função de R e r.
+	- TODO: Energia cinética total em função de R e r.
+
+
+Collision between particles.
+	- What is a collision?
+		- Direct contact
+		- Interaction by forces
+		- Eg.: Slingshot manouver in a planet.
+	- Assume: Collision between two particles with mass m1, m2.
+		- The LAB Frame of reference (R frame).
+			- Initial velocity of m1 and m2 in the LAB frame (note: m2 has zero velocity).
+			- Draw the collision: Before and after
+			- Scattering angle of the first particle. (Usually measured in laboratory).
+		- The CM Frame of reference (R' frame)
+			- Initial Velocity of m1 and m2 in the CM Frame.
+			- Draw the collision: Before and after
+		- Calc: Apply momentum conservation in LAB Frame (vector form).
+		- Calc: Apply momentum conservation in CM Frame (vector form).
+	- Conservation of momentum
+		- Calc: Apply momentum conservation in x-coordinate in the LAB Frame
+		- Calc: Apply momentum conservation in y-coordinate in the LAB Frame
+		- Calc: The ratio between the sin of the scattering angles.
+		- Calc: Apply momentum conservation in x-coordinate in the CM Frame
+		- Calc: Apply momentum conservation in y-coordinate in the CM Frame
+		- Calc: The ratio of the masses relates to ratio of speeds before and speeds after.
+		- Calc: Final speed of the first particle in function of the scattering angles (and previous speeds).
+		- Calc: Final speed of the second particle in function of the scattering angles (and previous speeds).
+		- Calc: Scattering angles from the initial and final speeds.
+		- Calc: Relation between the frames of m1. Application of law of cossines.
+	- Information provided by conservation of momentum
+		- Note: Velocity can be any and alter at will and still conserve linear momentum.
+		- Note: Scattering angles can turn at will and still conserve linear momentum.
+		- Note: Scattering angles are provided from the nature of the force field interaction.
+		- Note: Final velocity are provided from if energy was conserved before and after collision.
+	- Kinetic Energy in between collisions.
+		- Def: Ellastic Collision: Kinetic energy conserves.
+		- Def: Inelastic Collision
+			- Kinetic energy does not conserve.
+			- Kinetic Energy from collision can go to another type of energy: Eg.: Internal Energy, Heat, Electric, etc.
+			- Vice versa too: Energy from other sources can turn into kinetic energy
+		- Def: Explosive collision (FInal kinetic energy is greater).
+		- Def: Partially inelastic collision (Final kinetic energy is smaller).
+		- Def: Perfectly inelastic collision (Final kinetic energy in CM Frame is zero).
+		- Note: If there exists a frame in which final kinetic energy is zero, then collision is perfectly inelastic, and it's CM Frame.
+
+
+Ellastic Collisions
+	- TODO.
+	- TODO: Conservation of energy ==> CM speeds before and after collision are equal.
+	- TODO: Kinematics of ellastic collisions.
+	- TODO: Example: Gravitational assist: Slingshot maneuver.
+
+
+Inelastic Collisions.
+	- TODO.
+	- TODO: Coeficient of restitution (ratio of the kinetic energies).
+	- TODO: Example: Throwing a ball. Coeficient of restitution from impact with ground.
+	- TODO: https://en.wikipedia.org/wiki/Coefficient_of_restitution#Predicting_from_material_properties
+	- TODO: Example: Gravitational assist: Aerobraking maneuver.
+	- TODO: Example: Canon.
+	- TODO: Example: Rocket Equation.
+
+
+Espalhamento por colisão
+	- Def: Target
+	- Uniform parallel particle beam impressed on target
+	- Number of particles per normal area per time
+	- Seção de choque da esfera
+		- Number of particles that strikes target per unit time
+		- Formal Definition
+		- Calc: Cross section area of sphere.
+	- Single particle considerations
+		- Def: Parâmetro de impacto
+		- Def: Angulo de espalhamento (angulo de desvio)
+		- Calc: Parametro de impacto em função do angulo de espalhamento
+	- Espalhamento de particulas
+		- Calc: Diferenciando parametro de impacto (scattered b+db, theta+d theta)
+		- Calc: Cross section of the incoming beam. Small element area.
+		- Calc: Taxa de particulas that crosses this area
+		- Note: Taxa de particulas emergentes com dado alcance angular
+	- Detecção de particulas
+		- Assume: Detector is place at specified angular position: Polar+Azimuthal, L away.
+		- Calc: Taxa de particulas que chegam ao detector
+		- Note: Uso do angulo sólido
+		- Note: Detector is L-away.
+	- Secção de choque diferencial
+		- Formal Definition: Differential cross section area
+		- Taxa de (particulas espalhadas por unidade de angulo solido) over (incoming particles per unit area)
+		- Calc: Secção de choque diferencial da esfera
+			- Note: Differential cross section is isotropic
+			- Note: Taxa de particulas que entram no detector independente da direção
+		- Relação integral entre seção de choque e seção de choque diferencial
+		- Calc: Secção de choque a partir da secção diferencial
+	- TODO: Espalhamento: LAB frame of reference. CM frame of reference.
+
+
+Forças Centrais
+	- Forças Centrais
+		- Formal Definition
+		- Theorem: Toda força central tem potencial (rotF)
+		- Def: Potencial Central
+	- Example: Isotropic harmonic oscilator
+		- Força central do oscilador harmonico isotrópico
+		- Equação de movimento vetorial.
+		- Equação de movimento em termos de componentes.
+		- Note: A different oscilator in each dimension.
+		- Solução geral
+	- Forças centrais em dois corpos
+		- Forças
+		- Potencial
+		- As equações de movimento (written in vector form)
+	- Coordenadas em termos do centro de massa
+		- Note: Sistema de dois corpos isolado ==> Conservação do momentum linear do sistema
+		- Note: Soma das forças é zero. Não há força externa.
+		- Soma das forças opostas. Equação de movimento (combinado). Centro de massa.
+		- Def: Centro de massa do sistema
+		- Equação do centro de massa do sistema
+		- Note: Centro de massa executa movimento inercial
+	- Movimento relativo entre os dois corpos
+		- Def: Vetor posição relativa
+		- Calc: Aceleração relativa entre os dois corpos
+		- Força relativa. Equação de movimento (combinado). Massa reduzida.
+		- Def: Massa reduzida do sistema
+		- Equação relativa do sistema
+	- Equação do sistema e solução
+		- Sistema de equações: Eq. relativa e Eq. centro de massa.
+		- Calc: Posição de corpo 01 em relação ao centro de massa e vetor posição relativa
+		- Calc: Posição de corpo 02 em relação ao centro de massa e vetor posição relativa
+	- Momento linear e angular
+		- Momento linear do sistema em função de R e r,
+		- Calc: Momento angular da particula 1 em função de R e r
+		- Calc: Momento angular da particula 2 em função de R e r
+		- Momento angular do sistema em função de R e r
+		- Note: Um termo desaparece do momento angular se for referencial do centro de massa
+	- Torque do sistema
+		- Derivando expressão do momento angular do sistema
+		- Note: Torque é zero se força é central
+		- Note: Momento angular se conserva em força central ==> Movimento ocorre em plano
+		- Careful: NOT valid para movimento de cargas elétricas
+	- Energia cinética
+		- Multiplcar eq do movimento em (x1, x2) por x1' e x2'
+		- Note: Existem termos cinéticos
+		- Calc: Energia cinética em função de força e vetor posição relativa
+		- Note: Não conservação da energia cinética em campo central.
+		- Obvious example: Queda livre
+		- Calc: Energia cinética em função do centro de massa e vetor posição relativa
+	- Energia Potencial
+		- Note: V depends on x. x depends on R and r.
+		- Potencial em função de r e R.
+		- Se sistema é isolado ==> Força não depende de CM ==> Termos dependentes zeram-se.
+		- Força em função do potencial (em r)
+		- Conservação de energia mecânica
+	- Note: Formalismo válido para um corpo fixo
+		- Campo de força central: Problema de dois corpos, um deles fixo.
+		- Existencia de potencial central
+		- Equações de movimento
+	- Approximation: Massa de um corpo muito maior que o outro
+		- Note: Centro de massa perto do objeto massivo
+		- Note: Referencial centro de massa apprx corpo massivo
+		- Note: Corpo massivo apprx imóvel
+		- Note: Massa reduzida aproximadamente massa menor
+		- Note: Potencial de particula massiva se torna unico potencial relevante
+
+
+Equação de Movimento e órbitas
+	- Potencial Central e simetria esférica
+		- Simetria esférica do potencial central
+			- Vetor posição relativa
+			- Escrita da força central
+			- Escrita do potencial central
+		- Mudança para coordenadas esféricas
+			- Note: Mudança é feita sob o vetor posição relativa
+			- Interpretation: Raio do sistema esférico.
+			- Interpretation: Angulo Polar do sistema esférico.
+			- Interpretation: Angulo Azimutal do sistema esférico.
+		- Calc: Velocidade e aceleração (derivadas parciais)
+		- Calc: Velocidade em coordenadas esféricas de todas as componentes
+		- Calc: Aceleração em coordenadas esféricas de todas as componentes
+	- Way 01: Equações gerais de movimento na forma esférica
+		- Calc: Potencial central
+		- Expressão do potencial em função coordenadas esféricas
+		- Expressão da aceleração em função coordenadas esféricas
+		- Substituição na equação de movimento relativo
+		- Note: Senos e cossenos formam bases independentes
+			- Calc: Wroskian Matrix
+			- Calc: Determinante da matriz wroskiana
+			- Bases independentes de espaço vetorial
+		- Equações de movimento para todas as componentes
+			- Note: Existem 4 equações de movimento
+			- Note: Uma das velocidades angulares deve zerar
+		- Redução para 2 equações de movimento
+			- Remember: Momento angular do sistema é conservado
+			- Implying: Movimento ocorre apenas em duas dimensões
+			- Zerating azimuthal angular velocity
+			- Note: Now there is 2 equações de movimento
+		- Redução para 1 equação de movimento
+			- Equação de angulo polar é totalmente derivavel em relação ao tempo
+			- Equação colocada na forma de derivada total
+			- Note: Quantidade conservada no movimento
+			- Note: Now there is 1 equation of motion left.
+	- Way 02: Equações gerais de movimento na forma esférica
+		- Explicitly calculate all three spherical versors (radial, polar, azimuthal)
+		- Vetor posição da particula (em função de modulo e versor radial)
+		- Velocidade da particula (derivada da posição)
+		- Aceleração da particula
+		- Relação entre versores angulares e radiais
+		- Escrita da lei fundamental da dinamica
+		- Equações gerais de movimento
+	- Way 03: Equações gerais de movimento na forma polar
+		- Note: Momento angular é conservado. Movimento ocorre apenas em um plano
+		- Calc: Versores polares (radial e polar)
+		- Vetor posição da particula (em função de modulo e versor radial)
+		- Calc: velocidade da particula
+		- Calc: Aceleração da particula
+		- Relação entre versores angulares e radiais
+		- Escrita da lei fundamental da dinamica
+		- Equações gerais de movimento
+	- Momento Angular do sistema
+		- Remember: Velocidade angular azimutal é zero.
+		- Update: Velocidades das componentes
+		- Remember: Momento angular do sistema
+		- Escolha: Referencial do centro de massa
+		- Calc: Momento angular do sistema (todas as componentes)
+		- Calc: Modulo do momentum angular
+		- Remember: Conservação do momento angular para forças centrais
+		- Escolha: Angulo azimutal tal que movimento ocorra em plano xy.
+		- Note: Momentum angular é constante
+		- Note: Relação entre quantidade conservada envolvendo angulo polar
+	- Redução para 1 equação de movimento
+		- Substituição do momento angular na equação de posição relativa
+		- Equação de movimento radial
+		- Calc: Segunda Lei de newton para força central.
+		- Calc: Equação de movimento radial para qualquer angulo azimutal.
+		- Calc: Segunda Lei de newton para força central para qualquer angulo azimutal.
+	- Energia radial do sistema
+		- Fator integrante da equação de movimento (r')
+		- Achando energia mecanica do sistema
+		- Note: Energia mecanica somente em termos de fatores radiais
+		- Energia radial do sistema
+	- Potencial efetivo
+		- Resolvendo quadratura
+		- Def: Potencial efetivo
+		- Trajetoria da particula
+		- Pontos de retorno
+		- Pontos de equilibrio
+		- Calc: Quadratura para periodo de oscilação entre pontos de retorno
+	- Orbita em campo central
+		- Formal Definition: Orbita
+		- Calc: dr/dphi em função de r' e phi'
+		- Remember: Momento Angular
+		- Remember: Velocidade em função da energia (quadratura)
+		- Quadratura para a orbita
+		- Substituição: u = 1/r
+	- Binet Equation
+		- Remember: Equação de movimento radial. Força.
+		- Substituição u = 1/r.
+		- Calc: Derivada de u sobre angulo polar. Em função de variaveis conhecidas.
+		- Calc: Segunda derivada de u sobre angulo polar. Em função de variáveis conhecidas
+		- Expressão da força com segunda derivada de u
+		- Equação diferencial da orbita em campo central
+	- Bertrand's theorem
+		- TODO.
+
+
+Examples of central potentials
+	- Potencial inverso repulsivo
+		- Example: Força eletrostática de Coulomb.
+		- Calc: Energia do sistema. 
+		- Potencial efetivo.
+			- Calc and draw the effective potential
+			- Note: Não existe ponto de mínimo
+			- Note: Função é monotonicamente decrescente de infinito até zero.
+		- Órbita por potencial inverso repulsivo
+			- Application of Binet Equation
+			- Note: Hyperbola
+			- Equação cartesiana reduzida da hipérbole
+			- Linhas assintóticas da orbita
+			- Calc: Distancia mais próxima entre as cargas
+	- Example: Força para orbita espiral logaritmica
+		- Orbita: r = ke^(a theta)
+		- Calc: Força central
+		- Solução da dinamica do problema
+		- Energia da orbita
+		- When is energy zero?
+	- Example: Força para orbita espiral linear
+		- Orbita: r = k theta
+		- Calc: Força central
+		- Energia da orbita
+	- Example: Força para orbita circular
+		- Orbita: r = cte.
+		- Calc: Força central
+		- Calc: Energia da orbita
+		- Note: Força centripeta :).
+	- Example: Força F = k/r^3
+		- Calc: Orbita
+		- Note: Orbitas espirais
+		- Calc: Condition for hyperbolic spiral
+		- Calc: Condition for epispiral
+		- Calc: Condition for Poinsot's spiral.
+		- Calc: Condition for straight line (pathological case).
+
+
+Potencial Harmônico Isotrópico
+	- Potencial Harmonico Isotrópico
+		- Def: Potencial harmonico
+		- Força central
+		- Solução em termos de componentes cartesianas
+		- Note: Movimento harmonico em cada direção, com mesma frequencia
+		- Note: Movimento elliptico
+	- Solução do Potencial Harmonico isotrópico
+		- Potencial Efetivo
+		- Draw: Grafico do potencial efetivo. Discuss it.
+			- Note: Once on it, there is no escape.
+			- Note: Não existe "velocidade de escape"
+		- Calc: Pontos de retorno do potencial
+		- Equilibrio estável
+			- Velocidade radial nula. Momento angular only.
+			- Calc: Raio para equilibrio estável
+			- Note: Null angular momentum ==> Null stable radious.
+		- Quadratura
+		- Equação de movimento
+	- TODO: Detalhar ainda mais (as done with kepler problem (excentricidade, orbitas, periodo, etc).
+	- TODO: Thomsom atom
+
+
+Problema de Kepler
+	- Potencial central inverso
+		- Valor de proporção para campo gravitacional
+		- Valor de proporção para campo eletrostático
+		- Note: Caso para potencial repulsivo e atrativo.
+		- Note: "Serve" para caso eletrostatico as well
+		- Draw: Potencial central inverso atrativo efetivo. Analyse oscilation areas, etc.
+		- Draw: Potencial central inverso repulsivo efetivo. Analyse oscilation areas, etc.
+	- Remember: Leis de Kepler
+		- 1) Orbita é elipse. Sol é um dos focos.
+		- 2) Vetor posição sol-planeta varre áreas iguais em tempos iguais
+		- 3) Periodo T é relaciado com semi eixo maior R, tal que: T^3 / R^2 = cte para todos os planetas
+		- Lets find out how true they are within newton scope!
+	- Análise do potencial
+		- Draw: Potencial efetivo
+			- Note: Potencial no infinito
+			- Note: Pontos de órbita instável. Energia positiva.
+			- Note: Pontos de oscilação. Orbita estável. Energia negativa.
+		- Valor do raio para órbita estável
+		- Pontos de retorno (valores máximo-mínimo do raio).
+		- Calc: Velocidade de escape. Em função da gravidade na superficie.
+	- Energia radial do sistema
+		- Energia mínima do sistema
+		- Energia necessária para movimento estável (órbita fechada)
+		- Energia mínima para movimento instável (órbita aberta)
+	- Orbita do movimento
+		- Solução da equação da orbita
+		- Note: Orbita em uma cônica
+		- Solução da quadratura
+		- Note: Excentricidade em função da energia
+	- Propriedades da orbita
+		- Condição para orbita circular
+		- Condição para orbita eliptica
+		- Condição para orbita parabólica
+		- Condição para órbita hiperbólica
+		- Energia Mecanica Mínima
+		- Note: Orbita circular ==> Energia mecânica é minima
+		- Note: Orbita parabólica ==> Energia mecânica é zero
+	- Propriedades da orbita eliptica
+		- Calc: Semi-eixo maior/menor da elipse em função da energia
+		- Calc: Semi-eixo maior/menor da elipse em função da eccentricidade
+	- Dinamica do movimento (orbita eliptica)
+		- Calc: Diferencial de área da orbita elliptica
+		- Calc: Variação da área do movimento. Note: Its constant.
+		- Calc: Periodo da orbita em função dos semi-eixos da elipse
+		- Calc: Periodo da orbita em função do semi-eixo maior da elipse
+	- Now.. Is Kepler laws valid?
+		- 1) Orbita é elipse. Sol é um dos focos.
+		- 2) Vetor posição sol-planeta varre áreas iguais em tempos iguais
+		- 3) Periodo T é relaciado com semi eixo maior R, tal que: T^3 / R^2 = cte para todos os planetas
+		- Note: 1) Orbita pode ser parabolica e hiperbolica as well.
+		- Note: 3) Lei incorreta, mas serve como boa aproximação para planet-sun.
+		- Calc: Valor correto da constante em 3
+	- Orbita hipérbolica
+		- Assume: Duas massas. Uma delas fixa, responsável pelo potencial.
+		- Calc: Equação reduzida cartesiana da órbita hiperbólica
+		- Condições iniciais da orbita
+			- Def: Parametro de impacto
+			- Note: Eixos assintóticos da orbita
+			- Note: Energia inicial do sistema.
+			- Note: Energia do sistema (não muda). :).
+			- Note: Momento angular do sistema em função do parâmetro de impacto
+		- Propriedades da orbita
+			- Semi-eixo real da elipse
+			- Semi-eixo imaginario da elipse
+			- Note: Semi-eixo imaginário é identico ao parâmetro de impacto
+		- Desvio de direção
+			- Note: Retas assintóticas
+			- Note: Infinite radius at the polar orbit equation
+			- Angulo de deflexão das particulas (do movimento original)
+			- Def: Angulo de espalhamento
+		- Relação entre angulo de espalhamento e parâmetro de impacto
+			- Calc: Excentricidade em função de angulo de espalhamento
+			- Calc: Semi-eixo maior em função de angulo de espalhamento (excentricidade)
+			- Calc: Semi-eixo menor em função de angulo de espalhamento
+			- Note: Parametro de impacto em função de angulo de espalhamento
+
+
+Revisiting Orbital Maneuvers
+	- TODO.
+
+
+Espalhamento por potencial
+	- Espalhamento de potencial central inverso
+		- Assume: Fixed punctual target with inverse central potential
+		- Note: Orbita de baixa excentricidade ==> Particle gets absorbed by target
+		- Note: Consideração de órbita hiperbólica
+		- Considerações iniciais
+			- Conservação de energia.
+			- Conservação de momento angular.
+		- Orbita hiperbolica
+			- Remember: Binet equation
+			- Iniciais: At phi=pi ==> u=0 and dr/dt = vi
+			- Calc: Equação da orbita
+		- Calc: Parametro de impacto em função de angulo de espalhamento
+		- Calc: Cross-section of incoming particle beam
+		- Calc: Seção de choque differencial
+		- Calc: Taxa de detecção de particulas em dada direção angular (polar, azimuthal)
+	- TODO: Espalhamento por potencial central arbitrário
+	- Espalhamento por várias particulas
+		- Assumptions and Objective
+			- Objective: Attenuation of beam of particles passing through matter
+			- Assume: Atomic density of matter (number of atoms per unit volume).
+			- Assume: Total cross-section area for scattering by single atom
+			- Assume: Fluxo do feixe de particulas dependente da profundidade
+		- Caminho livre
+			- Calc: Numero de átomos onde particula do feixe irá colidir in distance x
+			- Formal Definition: Free Mean Path (Caminho/Percurso livre médio)
+		- Profundidade de penetração do feixe de particulas
+			- Assume: Thin slice of dx thickness and area A.
+			- Method 01: Using flux of partivles
+				- Calc: Rate of incoming unscattered particles. Entering slice.
+				- Calc: Rate of outcoming unscatered particles. Getting out slice.
+				- Calc: Rate of collisions that occur within the slice (scattering)
+			- Method 02: Cross-section area
+				- Calc: Number of atoms within the slice
+				- Calc: Total cross-sectional area of the slice (assuming non-overlapping)
+				- Calc: Rate of collisions that occur within the slice (scatteriing(
+			- Note: Equação diferencial
+			- Calc: Fluxo de particulas dada profundidade
+			- Calc: Rate of collisions within the target at depth x
+			- Formal Definition: Profundidade de penetração do feixe de particulas
+			- Note: Particle beam decreases by 1/e factor within one mean free path
+			- Note: Profundidade de penetração == mean free path.
+		- Thin atomic layer
+			- Approximation: Dimensão do material muito menor que caminho médio livre
+			- Note: Its a thin layer (in atomic level)
+			- Calc: Approximation for rate of collisions within the target at depth x
+			- Note: Probabilidade de colisões múltiplas desprezivel
+			- Calc: Numero de particulas que chegam no detector
+			- Note: N times the single fixed target
+	- TODO: Maybe: Non-thin layer. (ie, random motion).
+
+
+Espalhamento de Rutherford
+	- TODO.
+
+
+
+Problema do espalhamento inverso
+	- TODO: General theory
+	- TODO: Fiding potential numerically.
+	- TODO: Example: Rutheford experiment
+		- Thin gold layer bombarded by alpha-particle beam
+		- Rate of particles in detector
+
+
+
+
+
+MAYBE: Talvez transferir scattering para mecanica 3. (afinal.. uma rede de particula são mais q duas. Here to talk only about scattering of two particles only).
+	- Maybe: To talk about atenuation and scattering by thin film. Free mean path.
+	- Then: Scattering by thick film. 
+TODO: Colisões de duas particulas. (TO insert before central forces (the beginning of all (hmm maybe not))) (maybe simply before scattering?) (maybe collision and scattering)
+TODO: Binet Equation. https://en.wikipedia.org/wiki/Classical_central-force_problem
+TODO: Estabilidade de orbitas. Analise do potencial 1/r^n. Analise do potencial r^n. Orbitas fechadas.
+TODO: Full topic just for harmonic oscilator, sameway there is a full topic just for kepler problem.
+TODO: Bertrand's theorem:  http://en.wikipedia.org/wiki/Bertrand%27s_theorem
+TODO: Perturbações nas orbitas
+TODO: Scattering by Central Potential
+TODO: Inverse Scattering Problem
+TODO: Problemas centrais com dissipação
+TODO: Problema não-centrais de cois corpos. Eg: Two Charges together (electric + magnetic forces)
+
+
+The radial equation of motion of a particle in a central force is:
+$$
+\ddot r - r\dot\phi^2 + \frac{1}{m}\frac{dV}{dr} = 0 \quad\Longrightarrow\quad
+F(r) = m\left(\ddot r - r\dot\phi^2\right)
+$$
+
+So, this is the force. But then, for a central force, we have its effective potential. And with it, we should be able to derive an effective force.
+$$
+V_{eff} = V(r) + \frac{h^2}{2mr^2} \quad\Longrightarrow\quad
+F_{eff} = F(r) - \frac{d}{dr}\left(\frac{h^2}{2mr^2}\right)
+$$
+
+Where $h$ is the angular momentum of the system. All I did was differentiate with respect to $r$. And therefore:
+$$
+F(r) = m\left(\ddot r + r\dot\phi^2\right) \quad\mbox{since}\quad
+h = mr^2\dot\phi
+$$
+
+Shouldn't the effective force give the force? Why isn't it?

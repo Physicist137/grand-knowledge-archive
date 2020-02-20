@@ -1,0 +1,11 @@
+TITLE: C++ STL
+	- Pre-requisitives: C++ Basic Programming
+	- Co-Requisitives: None.
+
+
+Containers, Algorithms, Iterators.
+Memory and Resources
+Utilities
+Regex
+Locales
+Threads

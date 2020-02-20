@@ -1,0 +1,142 @@
+TITLE: Fisica 02. Course C: Introduction to propagation of light? and sound.
+	- Pre-requisitive: Fisica 01. Fisica 02a, 02b.
+	- Co-requisitive: Calculus 02b, Calculus 03.
+	- Average: 2min por topico
+
+TODO: Thermal Expansion. On solids, expansion coeficients, etc.
+TODO: Heat to change temperature. Heat to change phase. Definitely to have something like this: https://www.youtube.com/watch?v=WU7TfO-iaK8
+TODO: Termodinamica Básica Introdutória. Perhaps: Temperature, heat, First Law. Second law? Entropy?
+TODO: Perfect gas. Internal energy.
+
+
+Teoria Cinética dos Gases
+	- Tratamento newtoniano would be hard
+		- Quantidade de particulas
+		- Numero total de graus de liberdade
+		- Numero de equações (= numero de graus de liberdade)
+	- Def: Hipoteses de um gás ideial
+		1) Numero muito grande de particulas idênticas
+		2) Dimensões de cada particula são desprezíveis quando comparadas com a distancia média entre partículas
+		3) Isotropia na distribuição da velocidade
+		4) Potencial desprezíveis entre colisões (Aproximação de movimento balístico)
+		5) Em média as colisões são elásticas
+	- Teoria cinética de pressão
+		- Calc: Variação de momentum quando particula de gás bate em parede
+		- Separar particulas em grupos de velocidade (N grupos)
+			- Grupos de particulas com velocidades iguais
+			- Densidade de particulas com velocidade v1
+			- Calc: Densidade total de particulas
+		- Transferencia de momento de grupo em colisão de partículas com a parede
+			- Elemento de área da parede e versor normal (n = i for instance)
+			- Colisão de particulas de certo grupo no elemento de área da parede
+			- Calc: Momento transferido pelo grupo 1 que colidi
+		- Calculo da pressão
+			- Calc: Força de colisão da particula de grupo
+			- Calc: Pressão de grupo
+			- Calc: Pressão total de um gás com restrição das velocidades que colidem
+			- Calc: Pressão total de um gás
+		- Pressão do gás em função de sua velocidade quadrática média em um eixo
+		- Pressão do gás em função de sua velocidade quadrática média
+		- Pressão do gás em função da massa do gás e seu volume
+		- Pressão do gás em fumção da densidade do gás
+			- Relação entre pressão e densidade do gás
+			- Note: Quanto maior a densidade do gás, maior a pressão
+		- Pressão proporcional à densidade de energia cinética média do gás
+
+Introdução a Noções de Mecânica Estatística Básica (TODO)
+
+
+Propagação do som
+	- Example: Bater de um bongo
+		- Variação de pressão ==> Deslocamento de ar
+		- Deslocamento de ar ==> Mudança de densidade
+		- Mudança de densidade ==> Variação de pressão
+		- Efeito propagante
+	- Relação quantitativa entre densidade e pressao
+		- Variação percentual de volume
+		- Modulo de compressibilidade do fluido
+		- Modulo de elasticidade volumétrica
+		- Variação de densidade do fluido
+		- Modulo de elasticidade em função de variação de pressão e variação de densidade
+		- Aproximação usando diferenciais
+			- Apprx: Variação de volume muito menor que volume de equilibrio (same with pressure)
+			- Apprx: Escrita usando derivadas parciais
+		- Processo Isotermico
+		- Processo Adiabático
+	- Relação quantitativa entre deslocamento e densidade
+		- Restriction: Onda unidimensional em tubo cilindro de secção tranversal A
+		- Volume em uma faixa antes do deslocamento
+		- Volume depois do deslocamento
+		- Variação percentual de volume
+		- Variação da densidade
+	- Relação quantitativa entre pressão e deslocamento
+		- Força do lado esquerdo em função de onda de pressão
+		- Força do lado direito em função de onda de pressão
+		- Usando segunda lei de newton
+		- Relação entre deslocamento e pressão
+	- Equação de onda do som
+		- Deslocamento de fluido produz variação na densidade
+		- Variação de densidade produz variação de pressão
+		- Equação de onda de deslocamento de fluido
+		- Equação de onda de pressão
+		- Equação de onda de densidade de fluido
+	- Velocidade do som
+		- Velocidade da onda de deslocamento
+		- Velocidade da onda de pressão
+		- Velocidade da onda de densidade
+		- Equação da velocidade do som em um fluido qualquer
+		- Calc: Velocidade do som no ar para processo isotérmico
+		- Calc: Velocidade do som no ar para processo adiabático
+			- Em função da pressão e densidade atmosferica
+			- Em função da temperatura e massa molecular
+		- Calc: Velocidade do som na água
+	- Dados numericos de ondas sonoras
+		- Frequencia audivel
+		- Comprimento de onda da frequencia audivel
+		- Note: Comprimento de onda sonora é da mesma ordem que dimensões macroscopicas tipicos
+	- Ondas sonoras harmonicas unidimensionais
+		- Onda de deslocamento
+		- Onda de variação de pressão
+			- Amplitude da onda de variação de pressão
+			- Zonas de compressão
+			- Zonas de expansão
+		- Note: Onda de deslocamento e de variação de pressão estão em quadratura
+		- Intensidade da onda sonora
+			- Onda de Potencia
+			- Potencia media
+			- Intensidade da onda sonora em função da amplitude de deslocamento
+			- Intensidade da onda sonora em função da amplitude de pressão
+			- Note: Intensidade é proporcional ao quadrado da amplitude das ondas
+	- Audição humana
+		- Intervalo da frequencia audivel
+		- Limiar da intensidade sonora audivel (10e-12 W/m^2)
+			- Calc: Amplitude da onda de pressão com limiar de intensidade sonora audivel
+			- Calc: Amplitude de deslocamento associada ao "limiar" da amplitude de pressão audivel
+			- Note: Timpano consegue detectar deslocamentos de ar menores que diametro atômico (OOH)
+		- Limiar de sensação dolorosa (1 W/m^2)
+			- Calc: Amplitude de pressão (em atm too)
+			- Calc: Amplitude de deslocamento
+		- Nivel de intensidade sonora
+			- Explanation of why
+			- Formal Definition
+			- Unidade de medida: beis
+			- Limiar audivel e doloroso em termos de nivel de intensidade sonora
+		- Qualidades distinguidas em um som
+			- Intensidade do som
+			- Altura do som
+			- Timbre do som
+	- TODO: TO FINISH (Doppler effect, Hyugens stuff, etc)
+	- TODO: Propagation in Medium. Mudança de referencial. Referencial privilegiado.
+	- TODO: Descrever procedimento experimental para medição da velocidade do som no ar.
+
+
+Introdução a Noções de Mecânica Estatística Básica (TODO)
+
+
+TODO: Juntar essa lista com fisica02b.
+TODO: Falar sobre relatividade ondulatoria e referencial preferencial. Calcular grandezas ondulatorias em outros referenciais.
+TODO: Optica geométrica
+
+The end! Now you can go to:
+	- Fisica 03
+	- Mecanica Classica 01

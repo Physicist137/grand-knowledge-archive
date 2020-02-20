@@ -1,0 +1,57 @@
+TITLE: Classical Mechanics 4: Oscilações Acopladas e Sistemas Continous
+	- Pre-requisitive: Classical Mechanics 01.
+	- Co-requisitive: None
+
+
+TODO: TO move this to Mechanics 03? (Then insert oscilações acopladas first, then sistema de varias particulas, then etc..).
+
+
+TODO: Coupled Oscilations. (show there is a torque involved) (examplify pendulos like this in buildigns (to stop vibrating)).
+	- TODO: Molas acopladas. Display the various ressonances involved. Modos normais.
+	- TODO: Pendulos acoplados.
+	- TODO: Analogy. Circuitos elétricos acoplados (capacitors/inductors in parallel/series).
+TODO: Sistemas continuous de várias particulas.
+TODO: Newtonian Gravity (falar tambem de forças de Marés)
+TODO: Referenciais não inerciais
+TOOD: Continuum matter. Sound waves. Wave equation. Show it: https://www.youtube.com/watch?v=wvJAgrUBF4w. MIcroondas gira por causa disso!
+TODO: Electromagnetism. Relativity.
+
+TODO: Electromagnetic field theory. Stress tensor. =).
+TODO: Gravidade. Stress tensor. Problema das marés. Formato dos planetas (fluid). Fluid under self gravity. Intr to plasmas.
+
+TOOD: Continuum matter. Sound waves. Wave equation. Show it: https://www.youtube.com/watch?v=wvJAgrUBF4w. MIcroondas gira por causa disso!
+TODO: Corpos deformaveis. Tensor de estresse. Few fluids.
+
+
+TODO: Perhaps:
+	- Mecanica 01: Mecanica Classica de particulas (Central Forces, Non-Inertial frames, Several Particles, Rigid Bodies)
+	- Mecanica 02: Mecanica Classica de campos e sistemas continuous (Gravity, EM, Waves)
+	- Mecanica 03: Formalismo Lagrangiano e Hamiltoniano. Chaos systems.
+
+
+TODO: Really toe xist? Maybe its better to put continuous system in Mechanics 03 (N-Body problem, in this case, N->inf) (on the other hand, mec 4 might be necessary)
+
+
+
+
+
+
+The radial equation of motion of a particle in a central force is:
+$$
+\ddot r - r\dot\phi^2 + \frac{1}{m}\frac{dV}{dr} = 0 \quad\Longrightarrow\quad
+F(r) = m\left(\ddot r - r\dot\phi^2\right)
+$$
+
+So, this is the force. But then, for a central force, we have its effective potential. And with it, we should be able to derive an effective force.
+$$
+V_{eff} = V(r) + \frac{h^2}{2mr^2} \quad\Longrightarrow\quad
+F_{eff} = F(r) - \frac{d}{dr}\left(\frac{h^2}{2mr^2}\right)
+$$
+
+Where $h$ is the angular momentum of the system. All I did was differentiate with respect to $r$. And therefore:
+$$
+F(r) = m\left(\ddot r + r\dot\phi^2\right) \quad\mbox{since}\quad
+h = mr^2\dot\phi
+$$
+
+Shouldn't the effective force give the force? Why isn't it?

@@ -1,0 +1,31 @@
+TITLE: Stat Mechanical Systems 01:
+	- Pre-requisitive: Quantum 02.
+	- Co-requisitive: Statistical Mechanics 01.
+
+
+
+Microcanonical Ensemble.
+	- TODO: Classical/quantum Harmonic Oscilator.
+	- TODO: Classical/quantum ideal gas.
+	- TODO: Classical/quantum extreme relativistic ideal gas.
+
+
+Canonical Ensemble: Other Examples.
+	- TODO: Example: Paramagnetic Solid. Energy. Dipole moment. Magnetization. Magnetic susceptibility. Magnetic heat Capacity.
+	- TODO: Example: Einstein Solid. https://en.wikipedia.org/wiki/Einstein_solid
+	- TODO: Example: Debye Solid. https://en.wikipedia.org/wiki/Debye_model
+	- TODO: Example: Magnetic Systems. Negative temperature.
+
+
+
+Canonical Ensemble: Ideal Gas
+	- TODO: Internal partition function (j(T)). Contribution from j(T) in: A, S, u, U, H, Cv, Cp
+	- TODO: Classical Rigid Rotor. Equipartition theorem application.
+	- TODO: Quantum Rigid Rotor. 
+		- Degenerencies: l-fold degeneracy. Nuclear spin degeneracy. Etc.
+		- High temperature apprx: Direct integral, Euler-Maclaurin Formula, characteristic rotational tempertature (below it Q-Effects are important). Mulholland's Formula.
+		- Low Temperature apprx: Keeping only a few terms in the partition function.
+	- TODO: Classical and Quantum integral vibrations. The internal partition function. Vibration from polyatomic mulecules.
+
+
+MOST HAVE: Einstein–de Haas effect, Contribution of magnetization by electron spin, and by electron angular momentum (in say.. iron).

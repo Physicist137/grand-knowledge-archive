@@ -1,0 +1,92 @@
+TITLE: Formal Quantum Mechanics 06: Approximation Methods.
+	- Pre-requisitives: Formal QM 02.
+	- Co-requisitives: 
+
+
+Time Independent Perturbation Theory
+	- Description of the problem
+		- Assume: Complete set of energy eigenstates, eigenvalues for given hamiltonian.
+		- Assume: Small perturbation operator is added to the problem.
+		- Objective: Can we approximate the eigenstates?
+	- Non-Degenerate First Order Perturbation Theory
+		- Assume: First order correction to the eigenstates and energy.
+		- Calc: Isolation of zeroth and first order terms. Two equations.
+		- Calc: Projection of first order equation into an eigenbra.
+		- Calc: Recall hamiltonian is hermitian, application into eigenbra, yielding energy eigenvalue.
+		- Calc: The first order energy correction. (by setting m=n).
+		- Calc: The first order projection eigenstate onto eigenbra (by setting m!= n).
+		- Calc: The first order corrected eigenstate (to use completeness closure).
+	- Non-Degenerate Second Order Perturbation Theory
+		- Assume: Second order correction to the eigenstates and energy.
+		- Calc: Isolation of zeroth, first and second order terms. Three equations.
+		- Note: First order equation is identical to the previous one (of first order theory).
+		- Calc: Projection of the second order equation into an eigenbra.
+		- Calc: The second order energy correction. (by setting m=n).
+			- Calc: The crude expression.
+			- Calc: Using the known values of first order eigenstates and energy.
+		- Calc: The second order project onto eigenbra (by setting m!=n).
+			- Calc: The crude expression.
+			- Calc: Using the known values calculated before (first and second energies) (first eigenstate).
+			- Calc: Simplify everything into a simple double summation.
+	- Degenerate First Order Perturbation
+		- Assume: |n,m> form complete eigenbasis. H|n,m> = En|n,m>. Degenerency into m. Orthonormality condition.
+		- Assume: {H,S} form complete set of commuting observables.  S|n,m> = m|n,m>.
+		- Assume: |psi_n> solution of H|psi_n> = En|psi_n>. Expressing as linear combination of m degenerancies.
+		- Calc: Normalization condition for |psi_n in terms of the linear combination coeficients.
+		- Calc: The First Order Equation.
+		- Calc: Projecting first order equation into <k,l| eigenbra.
+		- Calc: Restore a matrix equation from the coeficients at the |n,m> eigenbase.
+		- Calc: Notice: It is an eigenequation, where first-order-corrected energy is an eigenvalue.
+		- Calc: Characteristic polynomial which shall yield possible values for the first order energy.
+		- Note: Degeneracy has been broken by the solutions of the characteristic polynomials.
+		- Note: What happens if the perturbation operator commutes with the hamiltonian?
+
+
+
+Time Dependent Perturbation Theory
+	- Description of the problem.
+		- Assume: Complete set of energy eigenstates, eigenvalues for given hamiltonian.
+		- Assume: Small perturbation operator, dependent on time, is added to the problem.
+		- Objective: Can we approximate the eigenstates? Can we calculate transition probabilities?
+	- First Order Perturbation Theory
+		- Recall: Equation for Evolution of time in Schrodinger picture (ie, the schrodinger equation).
+		- Show: The time dependent wavefunction solution, with time dependent coeficients.
+		- Calc: Probability of finding system in stake k, at time t.
+		- Objective: To find such coeficients.
+		- Calc: Direct substitution into schrodinger Equation.
+		- Calc: First Order non-linear differential equation for the coeficients.
+		- Assume: System is initially in state |n>
+		- Calc: Picard zeroth iteration. The Zeroth order approximation.
+		- Calc: Picard first iteration. The First Order Approximation.
+		- Calc: Probability of transition from |n> to |k> by first order approximation
+		- Example: Step Perturbation. Calc: Transition Probability. Ressonance Curve.
+		- Example: Senoidal Perturbation. Calc: Transition Probability. Ressonance Curve.
+	- Second Order Perturbation Theory
+		- Calc: Picard Second Iteration.
+		- Calc: Probability of transition from |n> to |k> by second order.
+
+
+Quantum Dynamics: Interaction Picture
+	- TODO.
+
+
+Time Dependent Perturbation
+	- TODO: Interaction Picture.
+	- TODO: Dyson Series. Nth perturbation.
+	- TODO: Returning to Schrodinger picture. Projection onto <m| bra.
+	- TODO: Transition interpretation of each perturbative order. Feymann diagram.
+
+
+Sudden and Adiabatic Approximation
+	- TODO: The Sudden Approximation. Domain of validity.
+	- TODO: The Adiabatic Approximation. Domain of validity.
+
+
+Strong Perturbation.
+	- TODO: https://en.wikipedia.org/wiki/Perturbation_theory_(quantum_mechanics)#Strong_perturbation_theory
+
+
+TODO: WKB Method.
+TODO: Variational Methods.
+TODO: Self Consistent methods. (Say.. Hartree-Fock?). Atomic and molecular calculations.
+TODO: DFT.

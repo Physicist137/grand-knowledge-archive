@@ -1,0 +1,41 @@
+TITLE: Analysis 01: Numbers.
+	- Pre-Requisitive: Calculus 0.
+	- Co-Requisitive: None.
+
+
+TODO: Natural Number. Peano Axioms.
+TODO: Natural Arithmetic. Natural multiplications. Algebra of N.
+TODO: Order. The Number line.
+TODO: Equations: 3-x=5 cannot be solved. 3x=5 cannot be solved. x²=2 cannot be solved.
+
+TODO: Integer Numbers. Construction.
+TODO: Integer arithmetic. Integer multiplications. Integer divisibility. Algebra of Z.
+TODO: Order. The Number line.
+TODO: Equations: 3-x=5 can be solved. 3x=5 cannot be solved. x²=2 cannot be solved.
+
+TODO: Rational numbers. Equivalent class construction.
+TODO: Rational Topology. Its dense.
+TODO: Rational artihmetic. Well defined and Z-Extendable.
+TODO: Order. The Number line. Holes.
+TODO: Equations: 3-x=5 can be solved. 3x=5 can be solved. x²=2 cannot be solved.
+TODO: Upper bound. Least Upper Bound (LUB). Supremum under rational.
+TODO: Q has gaps: Not every bounded set has a supremum.
+
+TODO: Dedekind Cuts. Definition of the real set (the set of all cuts).
+TODO: Defining order of real numbers. Order by set inclusion.
+TODO: Definiting sum of real numbers. Constructing the zero (addition identity). Constructing addition inverse.
+TODO: Defining multiplication. Constructing the one (multiplicative identity). Constructing multiplative inverse.
+TODO: Defining LUB. Constructing the surpemum (union of all cuts). Completeness: if bounded, there's also a supremum.
+TODO: R contains Q as subfield.
+
+TODO: Archimedean property. There's a rational in between any two real numbers. Q is dense in R.
+TODO: Properties of the supremum.
+TODO: Real Topology. Acumulation points. Etc.
+TODO: Upper bound, lower bound. Infimum, Supremum. The Supremum Axiom. Completude Axiom.
+
+
+TODO: https://en.wikipedia.org/wiki/General_Leibniz_rule
+
+
+TODO: Sequences. Rational sequences. Cauchy Sequences.
+TODO: Real Number. The real Field. Real Sequences.

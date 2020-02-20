@@ -1,0 +1,666 @@
+TITLE: Fisica 03a: Eletrostática fenomenológico básico introdutório
+	- Pre-requisitive: Fisica 01, Calculus 02
+	- Co-requisitive: Calculus 04, Fisica 02
+
+
+History of Electricity (optional)
+	- Warning: Some (perhaps all) things here may be incorrect with current physics =).
+	- Animais Elétricos
+		- Ancient Egyptians: Protetores dos peixos do Nilo
+		- Choques. Believed to cure headache
+	- 600 BC: Mediterranean
+		- Magnetita: Capable of attracting other metals. No attrition.
+		- Amber: Become "magnetic" by attrition
+	- Atrito de ambar: "Unbalance of eletric fluid"
+		- Atrito de ambar com some materials
+		- Capaz de atrair pequenos objetos (fios de cabelo, etc)
+		- Lets postulate conservation of electric fluid :)
+	- 1600 AC: William Gilbert
+		- Diferença entre magnetita e ambar
+		- Magnetic and Electric difference (electrical disappear with heat, etc..)
+		- Electric force (name is his idea)
+		- Invention: Electroscope
+		- Diferença entre materiais
+			- Condutores (fluido eletrico pode fluir)
+			- Isolantes (fluido eletrico nao pode fluir)
+		- Transmissão da força eletrica usando condutores
+		- How cool! How can I magnify this effect?!? Is there a way to store it?
+	- Magnification attemps
+		- Spongy plant (mto leve) suspensa
+		- Atritar ambar and close in.
+		- Diferença entre varios materiais: Isolantes, condutores
+		- Quantidade de materiais: 1, 2, .. objects
+		- Shape of the materials matter: Large and thin.
+	- 18th century: Bejamim Franklin kite experiment
+		- Suspeita: Trovões são semelhante a transferencia de fluido eletrico
+		- Experiment: Pipa numa tempestade, com uma chave no meio. Tocar na chave.
+		- Experiment confirmed: Little shocks from the Key.
+	- 18th century: Alessandro Volta.
+		- Atrito de material isolante
+		- Contato com material condutor
+		- Transferencia ilimitada de fluido eletrico
+		- Whaaat is going on here? Where is conservation of fluid? [cry].
+		- Note: Similar event with "heat fluid"
+	- 18th century: Jarra/Garrafa de Leyden (Leyden Jar): Electric Fluid Storage
+		- Descrição da garrafa de Leyden
+			- Garrafa de vidro (Vidro eh isolante. Fluido eletrico não deve sair de dentro para fora)
+			- Fio preso na tampa, ligando o lado de fora ao lado dentro (to transfer fluid from outside to inside)
+			- Encher a garrafa com agua. (Its a electric FLUID. It must travel to water and be there! Obviously)
+			- Metal condutor na parte externa (after several tries, this seems to intensify the effect for whatever reason)
+		- Experimental result
+			- Multiple transfers and storage of electric fluid in the water.
+			- Each transfer more and more electric fluid stored in the water.
+		- Jar full with electric fluid. 
+			- Transfer of all the fluid stored. 
+			- Electric ray! (faísca).
+		- Sistemas unidades
+			- Electric fluid storagement: The Jar :)
+			- Jar defintion
+			- 1 jar, 2 jars, 5 jars, ...
+		- Note: Multiplas garragas de Leyden: Maior quantidade de fluido eletrico armazenado
+			- Soma da capacidade de armazenamento de fluido eletrico de cada garrafa.
+			- Obviously! Its a fluid! What else could be?
+			- Pessoas construiam objetos with several garrafas de Leyden (10, 20, ..., 100!)
+	- 18th century: Bejamim Franklin charge interpretation
+		- There is no electric fluid.
+		- Positive and negative charges.
+		- Comportamento de cargas em condutores e isolantes
+		- Explanation of the Alessandro Volta device
+		- Explanation of the Leyden Jar device
+		- Lets postulate conservation of charge!! :D. Happiness restored.
+
+
+Força Elétrica e Lei de Coulomb
+	- Forças Fundamentais
+		- Força gravitacional (done)
+		- Força eletromagnetica (about to)
+		- Força nuclear forte (not on basic physics)
+		- Força nuclear fraca (not on basic physics)
+	- Carga Elétrica
+		- Carga positiva e negativa
+		- Atração e repulsão de objetos
+	- Processos de Eletrização
+		- Eletrização por atrito
+		- Eletrização por contato
+		- Eletrização por indução eletrostatica
+		- Is charge created?
+		- Principio de conservação de cargas
+			- 16th century: Electrical fluid
+			- 18th century: Electron (as particle)
+			- 20th century: Quantum
+	- Condutores e isolantes
+		- Tendencia e reter carga
+		- Tendencia a transferir carga
+	- Condutores neutros
+		- Não carregados
+		- Atração de condutores neutros com condutores carregados
+	- Processos de detecção de carga
+		- Obvio: Atração eletrostatica de corpos
+			- One of them is charged
+			- Both is charged
+		- Obvio: Repulsão eletrostatica de corpos
+			- Both is charged
+		- Machine: Eletroscópio
+			- Funcionamento
+			- Teste com cargas positivas
+			- Teste com cargas negativas
+			- Nice: Detecção sem perda de carga
+	- Lei de coulomb
+		- Paralelo com força gravitacional
+		- Resultados gravitacionais valem
+		- Equivalent Theory
+		- Experiment: Balança de torção
+		- Experimental measures
+			- How measure inverse with r
+			- Measure ratio between charges
+			- Measuring with charge difference
+		- Note: 3rd newton law keeps valid
+		- Constante de proporcionalidade
+			- k = 1, CGS. Charge definition
+			- MKS. Usar CGS charge definition
+	- Principio de superposição
+		- Experimental measures
+		- Soma de forças
+		- Distribuição discreta de cargas
+		- Distribuição continua de cargas
+	- Carga Elementar
+		- Experimento de Rutheford. Charge-mass ratio.
+		- Experimento de Milikan. Charge of electron.
+		- Quantização de carga elétrica
+		- Quarks: Quantization Holds
+	- Example: Anel carregado uniformemente
+		- Calc: Força elétrica sobre carga localizada num ponto qualquer
+		- Big, isn't it?
+		- Particular case: Carga no ponto (0, 0, z) com anel: (cost, sint, 0).
+		- Note: Violation of charge quantization
+		- Holds as good approximation
+		- Argumento de simetria
+			- Recalc: Força elétrica sobre (0, 0, z) com anel (cost, sint, 0).
+			- Easier, isn't it?
+	- Example: Fio finito carregado
+		- General formal calculation
+		- Simmetry argumentation calculation
+		- Extension: Infinity wire
+
+
+Campo Eletrostático
+	- Motivação do uso do campo
+		- Remember: Força de Coulomb
+		- Question: How does the charge knows?
+		- Modificação do espaço pelo campo
+	- Attemping to formally define eletric field
+		- Modificação do espaço vazio
+		- Definir rigorosamente lim F/q
+		- Medição do campo eletrico
+		- Usar carga mto pequena
+	- Calculo do campo elétrico
+		- Campo elétrico de cargas puntiformes
+		- Campo elétrico de distribuição continua de cargas
+		- Example: Campo elétrico de um disco circular uniformemente carregado
+			- Example: Campo elétrico no eixo ortogonal central do disco
+			- Example: Campo elétrico de plano infinito
+			- Quando aproximação de plano infinito vale
+			- Erro aproximado em percentagem do plano infinito para discos finitos
+		- Example: Campo elétrico de esfera uniformemente carregada
+			- Calculating the formal way (and eventually giving up)
+			- Explorando simetria esférica
+				- Campo elétrico em linha radial em um dos eixos (z easier)
+				- Campo elétrico em qualquer ponto, por simetria
+			- Note: Analogo a carga pontual
+	- Linhas de Força do campo elétrico
+		- Formal Definition
+		- Revision: General Calculation for any vectorial field
+		- Calculando algumas linhas de força
+			- Example: Linhas de força com plano infinito
+			- Example: Linhas de força de campo elétrico com 1 carga puntiforme
+			- Analysis: Linhas de força de campo elétrico com 2 cargas diferentes (TODO MYSELF)
+		- Theorem: Duas linhas de força não podem se cruzar
+		- "Densidade" de linhas de força
+			- Maior concentração de linhas de força implica em campo vetorial mais intenso?
+			- Intuition: How to measure "densidade" das linhas?
+	- Campo elétrico de superficie retangular infinita
+		- Placa carregada infinita de comprimento a.
+		- Calc: Campo elétrico em um ponto de altura z deslocado do centro da placa
+		- Note: Campo elétrico para placa infinita
+		- Note: Campo elétrico para ponto muito perto da placa condutora
+		- Conclusion: Campo elétrico muito perto de superficie de condutor qualquer
+	- Fluxo do campo eletrostático para uma carga pontual
+		- Analogy: Analogia Hidrodinamica de fluxo de fluido
+		- Formal Definition
+		- Example: Fluxo eletrostatico de carga puntiforme
+		- Example: Fluxo eletrostatico fechado de carga não pertencente à esfera
+		- Theorem: Lei de Gauss
+			- Def: Superficie Gaussiana
+			- Intuition: Angulos sólidos em superficie gaussiana esferica
+			- Elemento de superficie esférica imediata para superficies geral
+			- Integração de superficie
+			- Gauss Law proof
+		- Interpretation: Carga é fonte do campo eletrico
+	- Fluxo do campo eletrostatico
+		- Fluxo de campo para n cargas pontuais
+		- Fluxo de campo para distribuição de cargas
+	- Aplicações da Lei de Gauss
+		- Calculo do campo eletrico com presença de simetria
+		- Example: Campo Elétrico de plano infinito
+		- Example: Campo elétrico de cilindro
+		- Example: Campo elétrico de carga puntiforme
+		- Example: Campo elétrico de esfera carregada
+			- Superficie gaussiana fora da esfera condutora
+				- Note: Esfera se comporta como carga pontual
+				- Campo elétrico em função da carga e raio
+				- Campo elétrico em função da densidade volumétrica de carga e "raio interno"
+			- Superficie gaussiana dentro da esfera condutora
+			- Intuition: Why internal field is zero?
+				- Argumento por angulo sólido
+				- Note: valido apenas porque eh r^2
+		- Teorema de Earnshaw
+		- Corolary: Elétrons não estão estaticamente distribuidos no átomo
+	- Campo Elétrico na superficie de um condutor
+		- Situação de equilibrio eletrostatico: Sem movimento
+		- No equilibrio, não haverá cargas no interior de condutor
+			- Intuitive because: Cargas querem distancia de uns aos outros
+			- Intuitive because: Campo elétrico nulo dentro do condutor
+			- Justificativa: Teorema de Earnshaw
+		- Camada de transição
+		- Campo elétrico deve ser normal à superficie
+		- Calc: Campo elétrico aproximado na superficie do condutor
+		- Note: Campo na superficie é dobro do campo de plano infinito. Why?
+	- Equação de Poisson
+		- Objective: Verificar presença de carga na vizinhança imediata de ponto imerso em campo eletrostático
+		- Calc: Fluxo de superficie gaussiana de volume infinitesimal
+		- Revision: Teorema da divergencia de campo vetorial
+		- Note: Fluxo do campo eletrostático
+		- Usar teorema da divergencia no fluxo do campo eletrostático
+		- Forma local da lei de Gauss: Equação de Poisson
+			- Fenomenologia: Campo eletrostático tem fonte: a carga elétrica
+			- Note: Se densidade de carga é nula ==> Sem campo elétrico
+			- Note: Confirming: No interior de meio condutor temos campo elétrico nulo ==> densidade de carga nula
+			- Def: Região de poço eletrostatico
+			- Def: Região de sorvedouro eletrostático
+		- Example: Divergencia de E = (x, y, z)
+		- Calc: Divergencia de campo eletrostatico formado por carga puntiforme
+			- Note: fonte de carga é a propria carga (div > 0)
+	- Curious: Campo elétrico na atmosfera da Terra (optional topic)
+		- Check: Campo elétrico na superficie e em alta atitude
+		- Calc: Densidade volumétrica média de carga na atmosfera
+
+
+Potencial Eletrostático
+	- Theorem: O campo elétrico é conservativo
+		- Função potencial do campo elétrico
+		- Energia potencial do campo elétrico
+		- Independencia do caminho
+		- Circulação da força elétrica
+	- Diferença de Potencial Eletrostático
+		- Formal Definition
+		- Unidade do potencial eletrostático (volt)
+		- Expressão da diferença de potencial eletrostatico
+	- Potencial Eletrostatico
+		- Convenção: Infinity has zero potential
+		- Formal Defintiion
+		- Expressão do potencial eletrostatico
+		- Def: Superficies equipotenciais
+		- Calc: Superficies equipotenciais de carga puntiforme
+	- Potencial em distribuição discreta de carga
+		- Calc: Potencial de carga puntiforme
+		- Calc: Potencial de duas cargas puntiformes
+		- Calc: potencial de n cargas puntiformes
+	- Potencial em distribuição continua de cargas
+		- Potencial sobre linha com densidade linear de carga
+		- Potencial sobre superficies
+		- Potencial sobre volumes no espaço
+	- Examples
+		- Anel carregado de forma uniforme
+		- Disco carregado uniformemente
+		- Cilindro circular condutor carregado
+		- Potencial de campo uniforme
+			- Be careful: Potencial diverge
+			- Calc: Diferneça de potencial
+		- Potencial de casca esférica
+	- Forma local do campo eletrostático
+		- Remember: Divergencia do campo elétrico: Equação de poisson
+		- Rotacional do Campo elétrico
+			- Potencial eletrostático é conservativo ==> Rotacional é zero
+			- Calc: Rotacional do campo eletrico
+		- Equações locais do campo elétrostático
+		- Equação de poisson em função do potencial
+			- Special case: Ponto onde não existe carga
+	- Energia Eletrostatica
+		- Formal Definition
+			- Montagem "pedaço por pedaço" de sistema discreto
+			- Energia necessaria para cada inserção de carga
+		- Calculation em cargas puntiformes (discretas)
+		- Calc: em distribuição continua de cargas
+
+
+Análise de Dipolos elétricos
+	- Def: Vetor momento de dipolo
+	- Potencial de Dipolo elétrico
+		- Calc: Potencial de cargas iguais afastados de l
+		- Calc: Aproximação do potencial para r >> l em ponto qualquer
+		- Special case: Aproximação do potencial para r >> l no eixo paralelo ao vetor momento de dipolo
+		- Note: Potencial cai em 1/r^2 instead 1/r. Why?
+	- Def: Dipolo puntiforme ( l->0, q->inf)
+	- Campo elétrico de dipolo puntiforme
+		- Calc: Campo eletrostatico do dipolo em todos os pontos
+		- Calc: Campo eletrostatico do dipolo no eixo paralelo ao vetor momento de dipolo
+		- Calc: Campo eletrostatico do dipolo no plano normal ao vetor momento de dipolo
+		- Linhas de força de um dipolo puntiforme
+		- Comparisom: Linhas de força de dipolo puntiforme e não puntiforme
+	- Dipolos na escala microscopica
+		- Example: Vetores momento de dipolo na molécula de água
+			- Momento de dipolo permanente
+			- Agua é molécula polar
+			- Estimative: Magnitude do vetor momento de dipolo resultante da água
+		- Example: Vetores momento de dipolo num átomo de hidrogenio
+			- Vetor momento de dipolo num átomo de hidrogenio: Null
+			- Polarização por campo eletrostatico externo
+	- Dupla camada
+		- Distribuição superficial de dipolos elétricos
+		- Def: Densidade superficial escalar de momento de dipolo
+		- Def: Densidade superficial vetorial de momento de dipolo
+		- Calc: Potencial do espaço de uma superficie distribuida com dipolos em dupla camada infinita
+			- Dipolos infinitesimais ==> Potenciais infinitesimais
+			- Integral de superficie
+			- Note: Seems like campo eletrico de disco infinito
+		- Descontinuidade do potencial através da dupla camada
+		- Intuition: Visão microscopica of what's going on na dupla camada
+	- Forças e torques sobre dipolos em campos elétricos externos
+		- Dipolos com cargas presas entre si
+		- Forças sobre o dipolo submerso em um campo eletrostatico
+		- Torque em função do vetor momento de dipolo
+			- Vetor momento de dipolo se alinha ao campo eletrico por ação do torque
+			- Note: Torque restaurador (tendencia ao alinhamento com campo)
+		- Energia potencial do campo eletrico externo sobre o dipolo
+			- Campo elétrico qualquer não uniforme E(r)
+			- Dipolo com cargas localizadas em r, e r+l
+			- Note: Não é o potencial produzido pelo dipolo
+			- Tratamento de l como infinitesimal ==> dipolo puntiforme
+			- Energia potencial do dipolo
+			- Note: Energia potencial constante para campo eletrico constante
+		- Força resultante sobre um dipolo imerso em campo eletrico externo
+			- Força em função do potencial
+			- Note: Força resultante sobre dipolo é nula para campo eletrico constante!
+				- Intuition: Desenho de forças em dipolo imerso em campo eletrico
+				- Note: Força resultante is indeed zero. 
+			- Força em função do momento de dipolo e campo externo
+			- Note: Dipolo tende a se deslocar no sentido do campo crescente
+				- Gradiente tem máximo aclive
+				- Força depende do campo elétrico e do momento de dipolo
+		- Explaining: Pente eletrizado atrai pedaços de papel
+
+
+Potencial de condutores (THE TOPIC!)
+	- Campo elétrico em ponto interno de um condutor
+	- Volume equipotencial do condutor
+		- Special Case: Superficie equipotencial do condutor
+		- Consequence: Campo elétrico sempre ortogonal à superficie
+	- What about superficie interna de condutor oco? There's charge?
+		- Fluxo de campo eletrostático de superficie coincidente com cavidade interna do condutor
+		- Consequence: Distribuição de cargas positivas e negativas sobre superficie
+		- Consequence: Absurdo: Não é superficie equipotencial
+		- Consequence: Campo elétrico na cavidade é nulo
+		- Phenomena: Blindagem eletrostática
+			- Cavidade de condutores blindam campos elétricos externos
+	- Question: E se houver cargas isoladas do condutor dentro da cavidade?
+		- Fluxo de campo eletrostático de superficie coincidente com cavidade interna do condutor
+		- Superficie da cavidade carregada
+		- Principio de conservaçao de carga: Superficie externa com mais carga
+		- Wait a minute.. we just "created" more eletrical charges!!!
+	- Gerador de Van de Graff (How to build one)
+		- Principio de funcionamento
+		- Metodos de eletrização da cavidade condutora interna
+			- Method 01: Esteira de atrito
+			- Method 02: Corrente elétrica
+		- Potencial externo aumenta conforme mais cargas chegam cavidade
+		- Curious: Potenciais facilmente atingem 10 a 20 milhões de volts na superficie externa do gerador
+		- Question: Porque gerador de van de graff não atinge infinity volts?
+		- Limitações: Rigidez dielétrica da atmosfera
+	- Contato entre condutores esféricos
+		- Unica superficie equipotencial
+		- Carga de cada esfera após contato
+		- Carga é inversamente proporcional ao raio de curvatura da esfera
+		- Infer: Carga é inversamente proporcional ao raio de curvatura da superficie
+	- Phenomena: Poder das pontas
+		- Potencial maior em regiões de menor curvatura ==> Maior concentração de carga
+		- But: Campo elétrico local da superficie é proporcional à densidade superficial de carga
+		- Consequence: Campo elétrico intenso em pontas
+		- Explaining: Para-raios
+	- Phenomena: Efeito corona
+		- Ionização de particulas por irradiação cósmica perto de uma ponta
+		- Aceleraçao de ións
+		- Colisão de íons e mais ionizações por colisão
+		- Luminosidade de descargas eletrostaticas por efeito corona
+
+
+Geradores e Máquinas Eletrostáticas. (TODO: Em ordem histórica)
+	- Objective: Build up voltage... (to million volt and foward!)
+	- TODO: Influence/friction machines
+	- TODO: Friction machines.
+	- TODO: Gerador de Van de Graff (friction)
+	- TODO: Cavallo Multiplier (1795)
+	- TODO: Kelvin Water Machine (1867)
+	- TODO: Holtz Machine (1864~1880)
+	- TODO: Wimshurst machine (1883)
+	- TODO: Bonetti Machine (1893) (http://www.coe.ufrj.br/~acmq/bonetti.html)
+	- TODO: Van de Graff Generator (1929)
+
+
+
+Capacitores e capacitância
+	- Capacitor Plano
+		- Placas planas paralelas entre si
+		- Aproximação de tamanho infinito ==> Campo elétrico uniforme
+			- Dominio de validade da aproximação
+		- Campo elétrico entre as placas
+		- Potencial elétrico entre as placas
+		- What happens quando aumentamos as placas?
+			- Maior diferencia de potencial com mesma carga
+			- Intuition: Capacitancia
+		- Formal Definition: Capacitancia
+			- Unidade: Farad
+			- Estimation: Para ter capacitor de 1 Farad, o que preciso ter?
+		- Capacitores: Armazenar energia em forma de campo eletrostático
+	- Capacitor Cilindrico
+		- Cilindros coaxiais infinitos carregados eletricamente
+		- Calc: Campo elétrico do cilindro. E = B/r.
+		- Potencial entre os cilindros
+		- Capacitancia do capacitor cilindrico
+		- Calc: Aproximação da capacitancia, caso distancia entre placas é pequena (muito menor que raios)
+		- Note: Aproximação equivale a capacitor plano "enrolado"
+	- Capacitor Esférico
+		- Esferas concentricas carregadas eletricamente
+		- Campo elétrico gerado por esferas
+		- Calc: Potecial elétrico
+		- Capacitancia de capacitor esférico
+		- Calc: Aproximação da capacitancia, caso distancia entre placas é pequena (muito menor que raios)
+		- Note: Aproximação equivale a capacitor plano "enrolado" também!
+	- Capacitancia de esfera única
+		- Limite: Esfera externa suficientemente afastada  (R->inf)
+		- Also: Calc: Capacitancia de esfera única
+		- Example: Planeta Terra
+			- Calc: Capacitancia do Planeta Terra
+			- Explaining: "Ligação Terra"
+	- Circuitos: Associação de capacitores
+		- Simbolo de um capacitor
+		- Associação em paralelo
+			- Intuition: "Unificar" capacitores
+			- Calc: Capacitância equivalente da associação
+			- Note: C > Max C_n
+		- Associação em série
+			- Polarizando um capacitor
+			- Cargas nos demais capacitores por indução
+			- Calc: Capacitância equivalente da associação em paralelo
+			- Note: C < Min C_n
+	- Energia eletrostática do capacitor
+		- Carga de capacitor por bateria
+		- Transferencia gradual de carga
+		- Energia eletrostatica armazenada pelo capacitor
+		- Capacitor plano
+			- Energia eletrostática em função da área e do potencial
+			- Energia eletrostática em função do campo e do volume
+			- Note: Densidade de energia eletrostática (por unidade de volume)
+		- Tratamento de capacitor da Esfera condutora
+			- Calc: Energia eletrostática armazenada
+			- Consequence: Potencial na superficie da esfera
+			- Consequence: Energia potencial das cargas distribuidas na superficie
+		- Verifying agreement: Esfera condutora
+			- Assuming density is valid: Densidade do campo
+			- Calc: Energia contida numa camada esferica de espessura dr
+			- Calc: Energia total do campo
+			- Note: It agrees!
+		- Is there a generalization?
+		- TODO: Voltage is J/C. Why? =).
+	- Expressão da energia eletrostática de sistema qualquer em função de campo
+		- Expressão da energia eletrostatica para distribuição continua
+		- Aplicando equação de Poisson
+		- Aplicação do teorema da divergencia
+	- Energia própria de puntiforme (eletron). Self-energy of electron.
+		- Calculo da energia
+			- Calc: Energia de distribuição esférica volumétrica
+			- Calc: Energia de distribuição esférica
+			- Note: Proporcionais a [expr]
+		- Energia relativistica de repolso do elétron (pontual?)
+		- Calc: Modelo esférico do eletron atribuindo toda massa à origem eletromagnética
+		- Def: Raio clássico do elétron
+	- Energia de N condutores carregados
+		- Densidade superficial de carga nos condutores
+		- Potencial dos condutores (superficial) é constante. May go out integration.
+		- Calc: Energia de N condutores carregados
+		- Special Case: Capacitor
+		- Note: Agreement com energia de capacitor
+	- Energia potencial de cargas submerso em campo eletrico externo
+		- Note: ausencia do 1/2
+	- Força Ponderomotriz sobre superficie de condutor
+		- Força sobre elemento de superficie provocado pelo resto da superficie
+		- Formal Definition: "Pressão" vetorial da superficie por efeitos elétricos
+			- Força ponderomotriz em função de densidade de carga
+			- Força ponderomotriz em função de campo elétrico
+			- Força ponderomoetriz em função de densidade de energia
+		- Example: Força de atração entre capacitor plano
+			- Trabalho realizado para deslocar placa de capacitor em distancia dx
+			- Força atrativa entre as placas
+
+
+Materiais Dielétricos (isolante)
+	- Note: Capacitores funcionam com a não-passagem de carga entre os condutores
+	- What happens quando se coloca material isolante entre capacitor?
+	- Experiment: Por material isolante entre capacitor
+		- Result: Diferneça de potencial entre placas cai
+		- Consequence: Aumento de capacitância do capacitor.
+		- Def: Constante dielétrica do isolante
+	- Explicando experimento
+		- Analisando redução da carga
+			- Redução de potencial ==> Redução do campo
+			- Without dieletric: Fluxo eletrico de superficie guassiana envolvendo placa
+			- With dieletric: Fluxo eletrico de superficie gaussiana envolvendo placa e dieletrico
+			- Conclusion: Carga na superficie gaussiana reduzido
+			- Aplicando principio da conservação de carga eletrica
+			- Note: Carga do capacitor continua identica, é a carga da superficie gaussiana que reduziu.
+		- Analisando redução de campo
+			- Without dieletric: Campo eletrico de capacitor
+			- With dieletric: Campo elétrico de capacitor
+			- Conclusion: Campo sofre descontinuidade dentro do material isolante
+			- Superficie gaussiana cilindrica pequena entre placa e dielétrico
+			- Calc: Densidade superficial de carga na parte superior e inferior da sup gaussiana
+			- Note: Efeito analogo ao de dipolos eletricos
+			- Polarização eletrica no material isolante (formação de dipolos eletricos)
+			- Densidade de carga polarizada na superficie do dielétrico
+	- Vetor de polarização dielétrica
+		- Fluxo de carga em elemento de superficie dentro do dielétrico
+		- Vetor de polarização é paralelo ao campo elétrico das placas do capacitor
+		- Vetor de polarização tem mesma direção do deslocamento de carga
+		- Relação com densidade de carga e o vetor de polarização dielétrica
+		- Carga em elemento de volume no dielétrico eh nulo (nao vale na superficie)
+		- Interpretação microscopica: Carga não compensada na superficie do dielétrico
+		- Cilindro polarizado: Vetor momento de dipolo
+		- Polarização dielétrica como densidade volumétrica do momento de dipolo no dielétrico
+	- Relação entre campo elétrico e vetor de polarização dielétrica
+		- Need: Valor do momento de dipolo criado pelo campo elétrico
+		- Modelo microscopico do dielétrico (Mecanica Quantica) ==> Não temos
+		- Campos tipicos: Pertubação muito pequena em relação a campos intra-atômicos
+			- Calc: Polarização de átomo de hidrogenio provocado por campo externo
+			- Calc: Distancia entre as cargas durante a polarização em função do campo.
+			- Calc: Qual o campo necessario para que momento de dipolo tenha l = 10^-5 raio?
+		- Proporcionalidade: Lei de Hookie
+			- Átomo de hidrogenio clássico
+			- Aproximação parabolica da curva de potencial para pequenas distancias
+			- Validade da aproximação e força linear
+		- Def: Susceptibilidade dielétrica do material. Note: Depende apenas do material.
+		- Relação entre constante dielétrica do material e sua susceptibilidade
+	- Equação de Poisson dentro de um meio dielétrico
+		- Polarização inomogenea de um dielétrico: Vetor polarização muda ponto a ponto
+			- Reason: Susceptibilidade e constante dielétrica pode variar ponto a ponto
+			- Campo elétrico muda ponto a ponto
+		- Not true anymore: Cargas de polarização aparecem apenas na superficie
+		- Calc: Carga total que sai de um volume dv dentro do dielétrico
+		- Principio da conservação de carga elétrica
+		- Densidade volumétrica de carga de polarização
+		- Equação de Poisson: Incluir densidade volumétrica de carga de polarização
+		- Equação de Poisson para meios dielétricos
+		- Def: Vetor deslocamento elétrico
+		- Note: Campo elétrico continua conservativo
+			- Vetor deslocamento elétrico conservatico
+			- Rotacional nulo
+		- Formulação local da eletrostática em meio qualquer
+	- Example: Capacitor com dois meios dieletricos dentro
+		- Calc: Densidade de carga de polarização e densidade de cargas livres
+		- Calc: Capacitância do capacitor
+		- Proof: Equivalencia a capacitância equivalente de associação em paralelo
+	- Energia aramzenada pelo material dielétrico
+		- Densidade de energia do campo elétrico dentro do material dieletrico
+		- Comparação com densidade de energia do campo no váculo
+		- Intuition: Parte da energia fornecida é gasta na polarização do material dielétrico
+		- Intuition: Precisa fornecer maior energia para carregar o capacitor
+		- Intuition: Potencial cai por causa da polarização que "gera" seu proprio potencial contra campo
+	- Condições de contorno (TODO: Think if insert or not)
+
+
+Corrente Elétrica
+	- Example: Ligar com fio placas de capacitores de polaridades opostas
+	- Def: Fluxo de corrente
+		- Def: Vetor densidade de corrente
+		- Unidade do vetor densidade de corrente
+		- Def: Intensidade de corrente I.
+	- Vetor Densidade de corrente
+		- Def: Portadores de corrente
+		- Assumption: Um tipo de portadores de corrente, com mesma velocidade
+		- Vetor em função da densidade volumetrica de carga e sua velocidade
+		- Vetor em função do numero de portadores por unidade de volume, carga, e velocidade.
+		- Generalização para vários portadores de corrente
+		- Note: Existe corrente ao mover matéria (vários átomos)?
+	- Conservação de carga e equação da continuidade
+		- Initial examples
+			- Principio geral (não há violação so far)
+			- Example: Particle Physics: processos de aniquilação, e de criação de pares.
+		- Conservação de carga
+			- Assume: Volume arbitrario V delimitado por superficie S.
+			- Calc: Fluxo da densidade de corrente saindo de V.
+			- Calc: Quantidade total de carga saindo de V em intervalo dt
+			- Note: Redução de carga contida em V.
+			- Forma integral da conservação de carga elétrica
+			- Forma local da conservação de carga elétrica (eq da continuidade)
+			- Note: Analogo a equação da continuidade de fluido
+		- Example: Cargas de polarização obedecem equação da continuidade
+			- Carga de polarização por elemento de superficie
+			- Densidade de corrente de polarização
+			- Densidade volumétrica de carga de polarização
+			- Conclusion: Cargas de polarização obedecem equação da continuidade
+			- Note: Densidade de correntes é estacionaria
+				- Não varia com o tempo
+				- Em "Regime de escoamento" estacionario
+			- Caso especial da eq. da continuidade para densidade de corrente estacionaria
+				- Forma Local
+				- Forma Integral
+			- Note: Linhas de corrente de vetor densidade de corrente não se cruzam
+	- Condutividade Elétrica e Lei de Ohm
+		- Corrente é resposta do campo eletrico aplicado em material
+		- Def: Lei de Ohm
+			- Materiais isotrópicos não-gasosos
+			- Analogy: Condução de calor
+			- Def: Condutividade elétrica do material
+		- Resistencia de um fio
+			- Diferneça de potencial em um fio
+			- Calc: Intensidade da corrente (fluxo do vetor densidade)
+			- Potencial em função da corrente
+			- Def: Resistencia do fio entre pontos A e B
+			- Dimensão de resistência
+			- Def: Resistividade do material
+			- Note: Valido para corrente constante
+		- Variação da resistividade com temperatura do material
+			- Experimental equation (linear)
+			- Def: Coeficiente de resistividade
+			- Coeficiente de resistividade positivo: Materiais condutores
+			- Coeficiente de resistividade negativo: Materiais semicondutores
+		- Circuits: Resistores em série e paralelo
+			- Resistores em série. Resistencia equivalente.
+			- Intuition: Aumentando "tamanho"
+			- Resistores em paralelo. Resistencia equivalente.
+			- Intuition: Aumentando "área"
+		- Modelo Cinético da lei de Ohm (TODO: TO think se por ou nao)
+	- Efeito Joule
+		- Calc: Energia para levar carga dq através de diferença de potencial V
+		- Calc: Energia necessaria para manter uma corrente I durante tempo dt
+		- Calc: Potencia necessaria para manter corrente
+		- Calc: Densidade de Potencia: Potencia por unidade de volume (dp/dv)
+		- Calc: Densidade de potencia para condutores ôhmicos
+		- Calc: Potencia em termos da resistencia (corrente constante)
+		- Potencia é dissipada na forma de calor
+	- Força Eletromotriz
+		- De onde vem a energia para manter a corrente estacioanria?
+			- Lei de Ohm. J cte ==> E cte ==> Eletrostatic Field. Is this right?
+			- Principio da conservação de carga ==> Equação da continuidade ==>
+			- ==> Linhas de corrente de J fechadas ==> Campo eletrico fechado ==> Contradiction. :(
+			- Conclusion: Forças não-eletrostáticas são necessarias para manter corrente estacionária
+		- Pilha voltaica (Alessandro Volta)
+			- Disco de cobre e de zinco separado por pano com agua salgada (ou acidulada)
+			- "Amplificação" do efeito fazendo uma pilha de discos (empilhando os discos)
+			- By the way, por isso se chama "pilha".
+			- Curious: Origem dessa energia é explicado pela Mecânica Quântica
+		- Representação do efeito não-eletrostatico
+			- Generalização da lei de Ohm
+			- Def: Campo Elétrico Equivalente or Campo Impresso
+			- Significado do campo elétrico equivalente
+		- Example: Ácido Clorídrico (HCl) diluido em água: TODOOOOOOOOOOOOOO
+
+

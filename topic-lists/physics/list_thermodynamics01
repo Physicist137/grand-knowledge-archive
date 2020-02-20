@@ -1,0 +1,1033 @@
+TITLE: Thermodynamics 01: Introduction to General Thermodynamics
+	- Pre-requisitives: Calculus 02, Fisica 01
+	- Co-requisitives: None
+
+
+Introdução e Definições Básicas
+	- Thermodynamical System
+		- Def: Thermodynamical System
+		- Def: Surroundings
+		- Def: System Boundary
+		- Def: Universe
+		- Example of a system.
+	- Types of System
+		- Def: Sistema isolado
+		- Def: Sistema fechado
+		- Def: Sistema aberto
+	- Types of Surroundings
+		- Def: No wall.
+		- Def: Isothermal Wall
+		- Def: Adiabatic Wall
+	- State of a system
+		- Def: State of a system
+		- Def: Property of a system: Quantity that only depends on state of system, and independs of its history.
+		- Def: Extensive Property.  Depends on the mass (or extent) of the system.
+		- Def: Intensive Property.
+		- Examples of properties: Pressure, Volume, Temperature (ofc). Which ones are intensive/extensive?
+	- Substances.
+		- Def: Phase: Quantity of matter that is homogeneous throughout
+		- Def: Phase Boundary
+		- Example: Solid Water, liquid water.
+		- Def: Pure substance: Homogeneous invariable composition (say.. water+ice) (air-steam is not pure substance).
+	- Thermodynamical Processes
+		- Def: Change of state.
+		- Def: Process: Sucession of a change of state.
+		- Def: Isothermal Process
+		- Def: Isobaric Process
+		- Def: Isochoric Process
+		- Def: Thermodynamical Cycle.
+	- Descrição de sistema a nivel macroscopicos
+		- Matéria, radiação e campos
+		- Poucas variaveis
+		- Intuitivas direta/indiretamente por percepções sensoriais
+		- São possíveis de medir
+	- Descrição de sistemas em nivel microscópico
+		- Matéria, radiação e campos
+		- Várias variaveis
+		- Non-Intuitivas direta/indiretamente por percepções sensoriais
+		- Medição de variaveis
+	- TODO: Por definição formal de temperatura
+		- Def: Parede adiabática
+		- Def: Parede diatérmica
+	- TODO: Explain several thermometers??
+
+
+Lei Zero da Termodinâmica
+	- TODO: Equilibrio termico. Termoscopio.
+	- TODO: Construction of thermoscopes
+	- TODO: Zeroth Law of Thermodynamics
+	- TODO: Defining temperature. Construction of Thermometers.
+	- Thermometric Scale
+		- Thermodynamic Temperature Scale
+		- Definition of two arbitrary potints in the scale and assigning them temperatures
+		- Calc: Converstion between two scales
+	- Celcius Thermometric Scale	
+		- Def: 0 degree Celcius: Freezing point of water at mean barometic pressure at sea level.
+		- Def: 100 degree Celcius: Boiliing point of water at mean barometic pressure at sea level.
+		- Note: If you measure it in the top of a mountain it might mess things up...
+		- Def: 0.01 is triple point of water, and -273.15 is absolute zero.
+		- Note: Two points, and hence it is a well defined scale.
+	- Fahrenreit Thermometric Scale
+		- Def: 0 degree Fahrenreit: Lowest temperature of Fahrenreit's hometown Danzig in winter Sep 1708.
+		- Def: 100 degree Fahrenreit: Mean temperature of Fahrenreit's wive.
+		- Conversion to celcius: Measurement: Water freezes at 32F and boils at 212F.
+		- Calc: Conversion formula from Fahrenreit to Celcius.
+		- Calc: Conversion formula from Celcius to Fahrenreit.
+		- Calc: 1 degree celcius space corresponds to 1.8F space.
+	- Kelvin Scale
+		- Ideal Gas Temperature.
+		- Def: 0 Kelvin: Definition by ideal gas Temperature.
+		- Def: We want spacing between water fusion and boiliing point to be 100K.
+		- Note: Two temperature points are chosen. Scale is defined nicely.
+		- Conversion to celcius: Measurement: Water fuses at 273.15K and boils at 373.15K.
+		- Calc: Conversion formula from Kelvin to Celcius.
+		- Calc: Conversion formula from Celcius to Kelvin.
+	- TODO: Other thermometric scales: Rankine, etc.
+
+
+Sistemas termodinamicos
+	- Variaveis macroscopicas
+	- Def: Equilibrio mecanico
+		- Torque e Forças internas
+		- Example: Waves, eddies, turbulence, ...
+	- Def: Equilibrio quimico
+		- Mudança da estrutura interna
+		- Transferencia de Matéria: Difusão, solução, ..
+	- Def: Equilibrio termodinamico
+		- Coordemadas termodinamicas
+		- Note: Sem envolvimento de tempo
+		- Non-equilibrium ==> No description using thermodynamics coordinates
+	- Equação de estado
+		- Gas Example
+			- Coordenadas termodinamicas
+			- Alter T, V ==> Alter P.
+			- (P, T, V) form two-dimensional space
+		- Relação entre variaveis termodinamicas
+			- Existencia da equação de estado
+			- Note: Sistema deve estar em equilibrio termodinamico (obviously).
+		- Determinação da equação de estado
+			- Procedimento experimental
+			- Uso de teoria a nivel microscopico
+			- Validade da equação de estado
+		- Exemplos de equações de estado
+			- Equação de estado de gás ideal (low pressures)
+			- Equação de estado de Van der Wall (for high pressures)
+	- Coordenadas intensivas e extensivas
+		- Sistema termodinamico divido em partes iguais com massas iguais
+		- Def: Propriedades intensivas (the same)
+		- Def: Propriedades extensivas (the half)
+		- Extensive Examples: 
+		- Intensive Examples: 
+
+
+Sistema Termodinamico PVT: Sistema hidrostático
+	- Formal Definition
+		- Coordenadas termodinamicas: Volume, Pressão, Temperatura
+		- Sistema isotrópico de massa constante
+		- Efeitos eletromagneticos e gravitacionais
+		- Pressão uniforme exercida na vizinhança
+		- Equação de estado encontrada por experimentação
+		- Note: Also called: Sistema hidrostático
+	- Propriedade das coordenadas termodinamicas
+		- Coordenadas intensivas
+		- Coordenadas extensivas
+	- Tipos de sistemas hidrostáticos
+		- Substancias puras
+		- Mistura homogenea
+		- Mistura Heterogenea
+	- Diferenciais de coordenadas termodinamicas
+		- Small Enough: Pequeno comparado com o todo. dV << V.
+		- Large enough: Still must be macroscopic
+		- Example: Escrita do diferencial de volume
+		- Notação de taxa de mudança com coordenada termodinamica constantea
+	- Coeficiente diferencial de expansão de volume (expansividade de volume)
+		- Formal Definition
+		- Interpretação intuitiva: Taxa de dilatação térmica
+		- Note: expansividade de volume dependente de V e T
+		- Note: expansividade de volume almost always positive
+		- Counter-example: Water between 0 and 4 degree celsius
+		- Constant approximation and range
+		- Approximation: Held constant for small temperature range (slight variation)
+	- Compressibilidade isotérmica
+		- Formal Definition
+		- Interpretação intuitiva: Taxa de compressibilidade por variação de pressão
+		- Explanation of the minus signal
+		- Dependencia de V e P
+		- Solid-liquid approximation: Held constant (slight variation)
+	- Equação de Estado em sistema PVT
+		- Equação de estado f(P, V, T)
+		- Diferenciais em dP e dV
+		- Calc: Diferencial dP em função de dP e dT
+			- Condition: Sem variação de pressão
+			- Condition: Sem variação de temperatura
+		- Note: Relação entre dP e compressibilidade e expansividade
+		- Note: Relação diferencial a volume constante
+		- Relação entre volumes final e inicial (volume constante e volume não-constante)
+		- Equação de estado à volume constante
+		- Equação de estado geral do sistema PVT
+	- Example: Mercurio a volume constante
+		- Expansividade de volume do mercúrio: 1.81e-4 K^-1
+		- Compressibilidade isotérmica do mercúrio: 4-01e-11 Pa^-1
+		- Initial pressure: Atmospheric pressure
+		- Calc: Final pressure with temperature change
+		- Example: Temperature change of 10 kelvins
+	- Example: Mercurio à pressão constante (atmosférica)
+		- Calc: Final volume with temperature change
+		- Example: Temperatur echange of 10 kelvins
+		- Note: Termometros de mercurio!
+
+
+Outros sistemas termodinâmicos (TODO: Really here? To insert this?)
+	- Sistema: Fio esticado
+		- Coordenadas termodinamicas (e a a unidade (SI))
+			- Tensão no fio
+			- Comprimento do fio
+			- Temperatura do fio
+			- Note: Volume and Pressure are not
+		- Equação de Estado
+			- Lei de Hooks
+			- Temperatura constante
+		- Limite de elasticidade
+		- Variação infinitesimal do comprimento
+		- Def: Expansividade linear
+		- Def: Modulo de Young
+		- Variação de tensão com temperatura
+	- Sistema: Superficie
+		- Exemplos de sistema de superficies
+		- Def: Tensão superficial
+		- Coordenadas termodinamicas
+			- Tensão superficial
+			- Area do filme
+			- Temperatura absoluta
+			- Note: Volume and Pressure are not
+		- Equação de Estado: Superficie de liquido puro com seu vapor
+			- Equação de Van der Wall
+			- Tensão superficial à temperatura padrão
+			- Temperatura critica
+			- Constante 1 < n < 2
+			- Note: Tensão superficial nula
+		- Equação de Estado: Água coberta em oleo
+			- Tensão superficial de superficie de agua pura
+			- "Pressão" Superficial
+	- Sistema: Descrição termodinamica de Dieletrico
+		- Assume: Plane capacitor filled with dielectric material
+		- Dieletrico apolar: Polarização molecular causada por campo externo
+		- Dieletrico polar: reorientação do momento de dipolo molecular
+		- Note: Vetor polarização com uma coordenada termodinamica implicita
+		- Def: Vetor polarização total do dieletrico
+		- Coordenadas termodinamicas
+			- Campo elétrico
+			- Vetor polarização total
+			- Temperatura absoluta
+		- Equação de estado (above 10K)
+	- TODO: Sistema: Descrição termodinamica de material paramagnético
+	- Lista de coordenadas termodinamicas intensivas/extensivas
+		- Fio esticado
+		- Superficie
+		- Termodinamica de material dielétrico
+		- Termodinamica de material paramagnético
+
+
+Trabalho de sistemas termodinamicos
+	- Def: Trabalho externo
+		- Trabalho realizado sobre o sistema
+		- Trabalho realizado pelo sistema
+		- Simple example: Variar volume de sistema com gas
+		- Simple Example: Largar pistão de sistema com volume ja variado
+	- Def: Trabalho interno
+		- Trabalho realizado por parte do sistema em outra parte interna
+		- Example: interação de moleculas/atomos
+		- Impossibilidade de descrição em termodinamica macroscopica
+	- Consistencia com trabalho mecanico
+		- Sign convention: Done work by the system
+		- Sign concention: Done work on the system
+	- Processos quasi-estaticos
+		- Recall: Definition of thermodynamical equilibrium
+		- Sum of external forces changed ==> No mechanical equilibrium
+		- ==> Waves, turbulence, acceleration, non-uniform temperature, chemical reactions, ...
+		- Conclusion: Força não balançeada may cause system to pass in non-equilibrium states
+		- Mudança infinitesimal de forças não balançeadas ==> Mechanical equilibrium
+		- Formal Definition: Processo quasi-estático
+		- Descrição válida em coordenadas termodinamicas
+		- Never will happen in real life, but, we can do with arbitrary accuracy
+	- Trabalho para alterar volume de sistema hidrostático
+		- Suppose: Sistema hidrostático em cilindro fechado com pistão sem atrito
+		- Calc: Trabalho necessario para mover o pistão
+		- Note: Explanation of minus sign
+			- Convenção: dv>0: Work done by the system
+			- Convention: dv<0: Work done on the system
+		- Dominio de validade
+			- Equilibrio termodinamico
+			- No waves, no turbulence, no chemical reaction, ...
+		- Note: Pressure is a thermodynamical coordinate (depends on V, T)
+		- Calc: Work done by the system
+		- Calc: Work done on the system
+		- Relation of work done by & and the system
+	- Diagrama PV
+		- Note: Trabalho é área do grafico do diagrama PV
+		- Note: Há caminhos diferentes para ponto inicial e final no diagrama PV
+		- Representação da área de integral de caminho fechada
+		- Def: Ciclo
+		- Trabalho total realizado pelo ciclo
+		- Note: Work depends on the path!
+	- Consequencias da dependencia do trabalho com caminho termodinamico
+		- Example: Trabalho realizado à pressão constante e volume constante
+		- Example: Trabalho realizado a volume constante e pressão constante
+		- Example: Trabalho realizado em linha reta no diagrama PV
+		- Diferencial inexata
+		- Trabalho não é uma função de estado
+		- "Work in/of the body" has no meaning
+		- Work doesn't moves. Work makes other quantities to move
+	- Example: Trabalho em gás ideal mantido em temperatura constante
+		- Equação de estado de gás ideal
+		- Calc: Trabalho para gás ideal à temperatura constante
+		- Note: Compression ==> Positive work ==> Work done on the system
+		- Note: Expansion ==> Negative work ==> Work done by the system
+		- Number example: 2mol of gas, compression 4liter to 1liter, 20 celsius
+	- Example: Aumento de pressão isotermica em sólido
+		- Trabalho
+		- Diferencial de volume
+		- Compressibilidade isotérmica
+		- Note: Volume é praticamente constante
+		- Note: Compressibilidade isotérmica é praticamente constante
+		- Calc: Trabalho do aumento de pressão
+		- Number example: 10g of cupper, k=7.16e-12Pa-1, 20 celsius, 0atm to 1k atm
+		- Note: Why to add pressure in gas requires much more work than in solid?
+	- Example: Trabalho realizado em mudar o comprimento de fio
+		- Calculation
+		- Note: Big variations of tension ==> Lose thermodynamic equilibrium
+		- Work has to be quasi-static
+	- Exemplos de outros sistemas
+		- Example: Trabalho em área da superficie de filme
+		- Example: Trabalho na mudança da polarização total de sólido dielétrico
+		- Example: Trabalho realizado na mudança de magnetização total de sólido paramagnético
+	- Trabalho generalizado
+		- Note: Work é gradeza intensiva * grandeza extensiva
+		- Note: Work é uma grandeza extensiva
+		- List of all calculated works
+			- Diagrama PV (PVT System)
+			- Diagrama Tension-Comprimento (sistema do fio esticado)
+			- Diagrama Tensão superficial-area (sistema da superficie)
+			- Diagrama Campo elétrico - Polarização total (sistema dielétrico)
+			- Diagrama TODO
+		- Def: Força termodinamica generalizada
+		- Def: Deslocamento termodinamico generalizado
+		- Sistema XY: Diagrama XY
+			- X generalized displacmenet
+			- Y generalized force
+	- TODO: Sistemas compostos
+	- TODO: There are other means of changing state of the system, rather than doing work. Next chapter!
+
+
+Primeira Lei da Termodinamica
+	- Postulado do fluido calórico
+		- Two systems at different temperatures in diathermic wall
+		- Result: Os dois adquirem a mesma temperatura, enter os pontos iniciais
+		- Postulate: fluido elastico chamado calorico
+		- Corpo de maior temperatura cede calórico
+		- What about atritar pedra? (TODO: Should really bere here?)
+		- Still... something is exchanged
+	- Def: Heat
+		- Note: Non-rigid walls allow work to occur
+		- Note: Diathermic wall allows heat to occur
+		- Transferencia of something entre sistema e vizinhança por diferneça de temperatura
+		- Note: Definition highly dependent of definition of sistema/vizinhança
+		- Case 1: System: Agua. Vizinhança: Resistor.
+		- Case 2: System: Agua+Resistor
+	- Trabalho adiabático
+		- Formal definition
+		- Sistema e vizinhança protegidos por parede adiabáticas
+		- Case 1: Realizar trabalho adiabatico ligando resistor em agua.
+		- Case 2: Comprimir, ligar resistor, descomprimir
+		- Experimental results: Trabalho adiabático é independente do caminho termodinamico
+	- Energia interna
+		- Trabalho independe do caminho termodinamico
+		- Campo "de forças" conservativo
+		- Função energia potencial "termodinamica"
+		- Def: Energia interna
+		- Note: Trabalho termodinamico é independente do caminho em processo adiabático
+	- Diferencial da energia interna
+		- Note: Energia interna é uma caracteristica do sistema
+		- Note: Energia interna pode ser relacionada com variaveis termodinamicas
+		- Note: Energia interna é um diferencial exato
+		- Calc: Diferencial da energia interna em T e V
+		- Calc: Diferencial da energia interna em T e P
+		- Note: Derivada parcial dU/dT em pressão/volume constante podem ser diferentes
+		- Note: Interpretações físicas diferentes
+	- Formulação matematica da primeira lei da Termodinamica
+		- Possiveis mudanças de estado de um sistema
+			- Mudança de estado do sistema mediante trabalho adiabático
+			- Mudança de estado do sistema mediante trabalho não adiabático
+			- Example: Trabalho diatérmico para movimentar pistão
+		- Mesma mudança de estado por meios diferentes
+			- Calc: Trabalho adiabático necessario para mudar o sistema de Uf para Ui
+			- Calc: Trabalho não-adiabático necessario para mudar ao sistema de Uf para Ui
+			- Note: Trabalhos são diferentes
+		- Conservation of energy: Energia transferida em outra forma de energia than work
+		- Def: Thermodynamical Heat
+		- Formulação matematica da 1a lei da termodinamica
+			- Note: Existencia da função de energia interna
+			- Note: Principio de conservação de energia
+			- Note: Definição de calor como energia atuando por diferença de temperatura
+		- Example: Transformação isocórica: Calor transferido é diferença de energia interna
+		- Example: Transformação isobárica: Calor transferido é "entalpia"
+		- Note: Calor é energia em transito. "body" has heat is as wrong as "body" has work.
+		- Note: Variação infinitesimal de calor é uma diferencial inexata
+	- Sistemas em parede adiabática
+		- Primeira lei da termodinamica para sistema 1
+		- Primeira lei da termodinamica para sistema 2
+		- Trabalho feito em sistema 12
+		- Calor transferido em sistema 12
+		- Note: Possivel calculo de temperatura intermediaria para sistermas com temperatures diferentes
+		- Calor eh conservado em sistema adiabático
+	- Calor como um fluido: Calorico
+		- Calorido como fluido. High temperature cede calorico para low temperature object.
+		- Analogy: Electric como fluido. High charged cede electric para low charged object.
+		- Analogy: Principio da conservação de fluido eletrico. Works.
+		- Principio da conservação de fluido calorico?
+		- Atrito: Seems to generate infinite calorico
+		- Principio de conservação inexistente
+		- The end of caloric fluid theory
+	- Experimentos de Rumford
+		- Atrto de dois corpos
+		- Sistema: Dois corpos, em parede adiabática
+		- Aplicação da primeira lei da termodinamica: Calor eh conservado
+		- Experimental result: Sistema com temperatura final maior
+		- Conclusion: Calor não é conservado em sistema adiabático
+		- Out the scope of thermodynamics
+	- Forma diferencial da primeira lei da termodinamica
+		- Processo envolvendo mudanças infinitesimais de estado
+		- Forma diferencial da 1a lei da termodinamica
+		- Processo quasi-estatico: Diferencial de trabalho expressa em coordenadas termodinamicas
+		- Example: Sistema hidrostatico: dQ = dU + PdV
+		- Example: Sistema de fio esticado
+		- Example: Sistema dieletrico
+		- Example: Sistema paramagnetico
+		- Example: Sistema generalizado (Thermodynamic generalized force and displacement)
+		- Example: Sistemas compostos. Example: Dois sistemas hidrostaticos
+		- Example: Gas paramagnetico
+	- Capacidade térmica
+		- Formal Definition
+		- Note: Grandeza extensiva
+		- Def: Capacidade térmica especifica (calor especifico)
+		- Def: Capacidade térmica molar
+		- Sistema hidrostatico
+			- Def: Capacidade térmica a volume constante
+			- Def: Capacidade térmica a pressão constante
+			- Note: Ambas capacidades térmicas a principio não são iguais
+		- Sistema de fio esticado
+			- Def: Capacidade térmica a tensão constante
+			- Def: capacidade térmica a volume constante
+		- Sistema dieletrico
+			- Def: Capacidade térmica a campo eletrico constante
+			- Def: capacidade térmica a polarização total consntate
+		- Sistema generalizado
+			- Def: Capacidade deslocamento a força generalizado constante
+			- Def: Capacidade térmica a força generalizada constante
+		- Note: Derivadas não são variações de funções
+		- Note: Derivadas são medidas experimentais de pequenas variações de calor e temperatura
+	- TODO: Experimentos de medida de capacidade térmica?
+	- Capacidade térmica para sistema hidrostático
+		- Forma diferencial da 1a lei da termodinamica para sistema hidrostático
+		- Calc: Capacidade térmica em qualquer processo termodinamico
+		- Calc: Capacidade térmica a volume constante em função das coorodenadas termodinamicas
+			- Note: Medida experimental now can be nicely thermodynamically calculated.
+			- Note: Hard to measure for solids. Recall pressure necessary to hold slighly temperature increasse
+		- Calc: Capacidade térmica a pressão constante em função das coorodenadas termodinamicas
+			- Note: Termo conhecido da expansibilidade volumetrica do material
+			- Note: Possibilidade de por em função da capacidade térmica a volume constante
+			- Note: Relação entre grandezas experimentais e termodinamicas (again).
+
+
+Fluxo de Calor
+	- Tipos de fluxo de calor
+		- Condução. Contato térmico.
+		- Convecção. Movimentação de fluido.
+		- Radiação. Emissão de radiação.
+	- Reservatório térmico
+		- Def: Fluxo quasi-estatico de calor
+		- Def: Reservatorio termico
+		- Example: Ocean, atmosphere
+		- Processo sucessivos quasi-estatico de sistema em contato com reservatorios termicos
+		- Note: Possivel calcular usando capacidade térmica à pressão constante
+		- Calc: Fluxo de calor com variação infinitesimal da capacidade térmica
+	- Condução de calor
+		- Substancia material mantida em duas temperaturas
+			- Example: Em contato térmico com dois reservatórios térmicos
+			- Distribuição de temperatura no material
+		- Experimentation result
+			- Proporcional à área em contato
+			- Distribuição de temperatura dependente da distancia
+		- Lei do fluxo de calor
+			- Def: Condutividade térmica do material
+				- Isolante térmico
+				- Condutor térmico
+			- Def: Gradiente de temperatura
+			- Note: Fluxo de calor é contra o gradiente de temperatura
+	- Convecção de calor
+		- Intuição
+			- Def: Convecção natural
+			- Def: Convecção forçada
+			- Thin layer perto da superficie aquecida. Calor fornecido por condução.
+			- Aquecimento do resto do fluido. Calor fornecido por conveccção natural.
+		- Lei de convencção de caor
+			- Def: Coeficiente de convencção
+			- Area da parede (superficie aquecida)
+		- Dependencia do coeficiente de convenção de calor
+			- Geometria da parede. Flat or plain. Horizontal or vertical.
+			- Tipo de fluido: Gas ou liquido
+			- Densidade, viscosidade, calor especifico e condutividade térmica do fluido
+			- Tipo de movimentação fluidica: Laminar, turbulenta
+			- Note: Propriedade de fluidos (gases) mainly dependent on temperature, pressure, ...
+			- Note: As you can probably notice, hard to calculate theoretically
+	- Radiação térmica
+		- Motivação intuitiva
+			- Example: Aproximar de objeto aquecido. Feel hot.
+			- Note: Why is not convection? Why is so sure is matter independent?
+			- Tip: Solar system
+			- Def: Radiant exitance
+			- Def: Absorbilidade
+			- Def: Emissividade total
+			- Equilibrio térmico no processo de radiação térmica
+		- Corpo negro e não-negro
+			- Def: Corpo negro
+			- Def: corpo não negro
+			- Def: Emissividade de corpo não-negro
+			- Calc: Emissividade de corpo negro
+			- Def: Corpo cinza
+			- Calc: Emissividade de corpo cinza
+			- Note: Everything temperature dependent
+		- Comportamento de cavidade como corpo negro
+			- Cavidade fechada por paredes opacas em alta temperatura com pequeno orificio
+			- Potencia radiante de entrada é refletida repetidas vezes
+			- Quantidade ínfima chega à saida do orificio pequeno
+			- Emissividade se aproxima da unidade
+		- Def: Irradiancia
+			- Potencia radiante por unidade de area incidente numa superficie da cavidade
+			- Note: Irradiancia é propriedade de corpo negro
+			- Calc: Potencia radiante absorvida por unidade de area pela cavidade
+			- Calc: Potencia radiante emitida por unidade de area pela cavidade
+			- Note: Condição para equilibrio térmico na cavidade
+		- Lei de Kirchhoff
+			- Corpo não negro
+			- Calc: Potencia radiante absorvida por unidade de area no corpo
+			- Calc: Potencia radiante emitida por unidade de area no corpo
+			- Equação de equilibrio
+			- Note: Equação de equilibrio de corpo nao negro relacionavel com corpo negro
+			- Note: Calculo experimental da emissividade de materiais
+			- Note: Remember: Todas as variaveis são dependentes da temperatura
+		- Lei do fluxo de calor
+			- Heat transfer only in temperature gradient
+			- Diferença de temperatura entre sistema e vizinhança
+			- Variação de energia interna do sistema ==> Diferença de radiação emitida e absorvida
+			- Variação de energia interna da vizinhança
+			- Def: Calor por radiação térmica
+			- Note: Consistente com definição de calor
+			- Diferença entre potencia radiante absorvida e emitida
+			- Lei de fluxo de calor
+		- Variaveis apenas de radiação de corpo negro
+			- Approximation: Corpo não-negro small enough
+			- Note: Temperatura de corpo negro almost the same
+			- Aplicação da Lei de Kirchhoff
+				- Escrita da potencia radiante de corpo não negro em função de corpo negro
+				- Escrita da irradiancia em função de potencia radiante
+			- Reescrita da lei de fluxo de calor
+			- Note: Apenas em função de potencia irradiante de corpo negro
+	- Lei de Stefan-Boltzmann: Potencia total radiante
+		- Potencia radiante proporcional à quarta potencia da temperatura
+		- Def: Constante de Stefan-Boltzmann
+		- Reescrita da Lei de fluxo de calor por radiação em função da temperatura
+		- Determinação da constante de Stefan-Boltzmann: Metodo de não-equilibrio
+		- Determinação da constante de Stefan-Boltzmann: Metodo de equilibrio
+		- Valor numerico da constante de Stefan-Boltzmann
+
+
+Gás Ideal
+	- Expansão virial
+		- Remember: Definição da temperatura absoluta
+		- Relação Pv (Pressão e volume molar)
+		- Relação de Pv em series de potencia em função da pressão
+		- Def: Expansão virial
+		- Def: Coeficients viriais
+		- Info: From 0atm to 40atm, relação Pv é praticamente linear
+	- Equação de estado de gas ideal
+		- Experiment: Pv at P-->0 de varios gases at some temperatures
+			- Conclusion: Coeficiente virial de ordem zero é independente da natureza do gás
+			- Conclusion: Coeficiente virial de ordem zero dependente da temperatura do gás
+		- Uso da definição de temperatura para calculo da relação Pv
+		- Def: Constante molar dos gases
+		- Equação de estado de gás ideal
+		- Note: Equação de estado com coeficientes viriais de ordens superiores não nulos
+	- Leis do gas Ideal
+		- Boyle's Law
+		- Charle's Law
+		- Avogadro's Law
+		- Ideal Gas Equation of State
+	- Energia Interna de gás
+		- Example: Expansão livre adiabática de um gás
+			- Note: Nenhum trabalho foi realizado
+			- Note: Nenhum calor foi transferido
+			- Conclusion: Energia interna permanece constante
+			- But: Does the temperature varies?
+			- Def: Coeficiente Joule. Hard to measure.
+		- Assumption: Variação nula de temperatura
+			- Diferencial da energia interna
+			- Derivadas parciais nulas em expansão livre
+		- Some experimentation with real gases
+			- Derivadas não nulas
+			- Dependente de pressão e temperatura
+	- Definição Formal de Gas ideal
+		- Satisfazer equação de estado de gas ideal
+		- Satisfazer variação de temperatura nula em expansão adiabática livre
+		- Conclusion: Energia interna de gás ideal dependente apenas da temperatura
+	- Capacidade térmica de gás ideal
+		- Calc: Capacidade térmica a volume constante
+		- Note: Agora podemos escrever como derivada total
+		- 1a lei, processo hidrostatico quasi-estatico em função da capacide térmiva a volume constante
+		- Equação de estado de gás ideal na forma diferencial
+		- Calc: Capacidade térmica geral de gás ideal
+		- Calc: Capacidade térmica a pressão constante
+		- Calc: Relação entre capacidade térmiva a pressão constante e volume constante
+		- Note: Capacidade térmica a pressão constante é sempre maior que a volume constante. Why?
+			- Fornecimento de calor em gás à volume constante
+			- Fornecimento de calor em gás à pressão constante
+			- Note: Trabalho foi realizado contra pressão externa in the later one
+		- Note: Capacidade térmica é função dependente apenas da temperatura
+		- Note: Diferença entre capacidade térmica molar à pressão e volume constante
+		- Def: Coeficiente adiabático: Razão entre capacidade térmica molar à pressão e volume constante
+		- Note: Coeficiente adiabático eh sempre maior que 1
+	- Processo adiabático quasi-estático
+		- Equações da 1a lei da termodinamica para gás ideal
+		- Equação diferencial de processo adiabático
+		- Assumption: Quasi-estatico ==> Pequena variação de temperatura ==> coeficiente adiabático cte
+		- Equação de estado para gás ideal em processo adiabático quasi-estático
+		- Note: Invalid for use in adiabatic expansion. It is not quasi-static.
+		- Calc: Slope de uma curva adiabática em diagrama PV
+		- Calc: Slope de uma curva isotérmica em diagrama PV
+		- Note: Curva adiabática passa por várias curvas isotérmicas
+		- Note: Equação com termos P,V apenas para: Processo isotérmico e adiabático
+		- Calc: Equação de estado de processo adiabático em termos PT
+		- Calc: Equação de estado de processo adiabático em termos VT
+		- Calc: Trabalho do processo adiabático
+	- Método de Ruchhardt: Medição experimental do coeficiente adiabático a uma dada temperatura
+		- Elements: Pistão, Bolinha, gás. Volume V, pressure P.
+		- Calc: Pressão depois que a bola foi colocada.
+		- Procedure: Pequena variação de deslocamento na bola
+		- Note: Bola irá oscilar. Oscilação rápida.
+		- Note: Variação rápida enter P e V ==> No time for heat transfers
+		- Conclusion: Procedimento é adiabático
+		- Conclusion: Procedimento é quasi-estático
+		- Calc: Variação pequena de volume dV
+		- Calc: Variação pdequena de pressão dP
+		- Calc: Força sujeita à bola. Equação de movimento. Harmonic motion
+		- Calc: Periodo da oscilação harmonica
+		- Calc: Coeficiente adiabático em função das medidas experimentais
+	- Onda longitudinal em gás ideal: Medição experimental do coeficiente adiabático
+		- Velocidade constante de movimentação do pistão
+		- Velocidade constante da onda de compressão do gás ideal
+		- Calc: Volume que será comprimido antes da compressão.
+		- Calc: Massa do gás
+		- Calc: Taxa de aumento de massa da coluna comprimida
+		- Calc: Taxa de aumento de momentum da coluna comprimida
+		- Aplicação da segunda lei de newton
+		- Calc: Velocidade da onda de compressão
+		- Note: Termo da compressibilidade isotérmica de gás
+
+
+PVT Curves for Systems
+	- TODO: Experiment: Water boiling at isolated system, isobarically. Saturated vapor, saturated liquid, saturated temperature, critical pressure, etc.
+	- Deviations from the Ideal gas
+		- Def: Compressibility Factor
+		- Eg: Compressibility of N2 under pressure, plot below.
+			- Plot: https://upload.wikimedia.org/wikipedia/commons/2/2c/N2_Compressibility_Factor_High_T.png
+			- Note: Z --> 1 as P --> 0. Ideal gas holds at low pressure.
+			- Note: Z < 1 at P = 4MPa and T = 300K ==> Higher density ==> Attractive molecular forces in this regime.
+			- Note: Z > 1 at P > 30MPa and T = 300K ==> Lower density ==> Repulsive molecular forces in this regime.
+		- Several Plots: https://en.wikipedia.org/wiki/Compressibility_factor
+
+
+Conversão Calor-Trabalho
+	- Analise da primeira lei da Termodinamica
+		- Objective: Conversão eficiente interminável de calor<->trabalho
+		- Note: Não poderá haver significativa variação de energia interna no sistema
+		- Conclusion: Não poderá haver mudança do estado do sistema
+	- Conversão: Trabalho-->Calor
+		- Objective: Developt efficient machine que converte trabalho em calor
+		- Example: Atritar duas pedras na agua.
+			- Note: Agua agindo como reservatório térmico ==> Sem variação de energia interna
+			- Note: 100% do trabalho externo sendo transformado em calor
+			- Note: Processo interminável de conversão trabalho-->calor
+		- Example: Resistor na água
+	- Conversão: Calor-->Trabalho
+		- Note: This one is what we are really interested :)
+		- Expansão isotérmica de um gás por fornecimento de calor
+			- Note: 100% do calor externo sendo transformado em trabalho
+			- Note: Processo é terminável
+		- Objective: Processo deverá continuar indefinidamente sem mudanças do estado do sistema
+		- Reservatório térmico de alta temperatura
+		- Calor sendo transferido de um reservatório a outro realizando work at mean time ciclicamente
+			- Calor que sai do reservatorio de alta temepratura
+			- Calor que entra no reservatorio de baixa temperatura
+			- Trabalho realziado pela transferencia de calor
+		- Eficiencia termal
+			- Formal Definition: Thermal Efficiency
+			- Aplicação da primeira lei da termodinamica para esse processo
+			- Calc: Eficiencia em função de calor de entrada e saida nos reservatorios
+		- Note: Objective to be accomplished for 100% conversion
+	- 4 stroke gasoline engine
+		- Intake Stroke
+		- Compression Stroke
+		- Combustion/Power Stroke
+			- Combustão completa é muito rápida. Motionless piston.
+			- High Pressure and high temperature mixture
+		- Exhaust Stroke
+			- Exaustão para pressão atmosférica é muito rápida. Motionless piston.
+			- Exaustão do restante. Baixa pressão.
+		- https://www.youtube.com/watch?v=SYd40qWQ9Bc
+	- Ciclo de Otto
+		- Simplificação para o tratamento matematico
+			- No chemical reactions
+			- No heat losses by conduction
+			- No friction. No turbulence
+			- Name: Otto Ciclo
+			- Approximation: Gás ideal (Aren't we being too harsh with those approximations? anyway...)
+		- Diagrama PV
+			- Intake Stroke. Model: Expansão isobárica de gás. Valves are open!
+			- Compression Stroke. Model: Adiabatic compression of gas.
+			- Combustion Phase.
+				- Model: Isocoric quick increase of pressure due to explosion.
+				- Note: Calor absorvido pelo sistema (high temperature reservouir)
+			- Power Stroke. Model: Adiabatic expansion of the gas
+			- Exhaust phase
+				- Model: Isocoric quick decrease of pressure due to valve openning.
+				- Note: Calor liberado pelo sistema (low temperature reservouir).
+			- Exhaust Stroke. Model: Isobaric compression of gas. Valves are open!
+		- Eficiencia térmica
+			- Compression Stroke: Relação TV de compressão adiabática
+			- Power Stroke: Relação TV de expansão adiabática
+			- Combustion Phase: Calc: Calor absorvido pelo sistema (high temperature reservouir).
+			- Exhaust phase: Calc: Calor liberado pelo sistema (low temperature reservouir).
+			- Calc: Eficiencia térmica em função das temperaturas
+			- Calc: Razão entre temperaturas em consequencia das relações adiabáticas
+			- Calc: Eficiencia térmica em função de duas temperaturas (1-final/initial of any stroke)
+		- Well known example: Gasolina
+			- Temperature in the beginning of compression stroke: 300K.
+			- Temeprature in the end of compression stroke: 580K.
+			- Calc: Eficiencia térmica do ciclo
+			- Note: Esse é um máximo teórico. Ainda há perdas de eficiencia due to other engineering problems.
+			- Some problems: Turbulence, Friction, Heat Conduction, ...
+			- Actual efficiency drops to half approximately in well designed system.
+	- Ciclo Diesel
+		- Air-Standard Diesel Cycle
+			- Air is adiabatically compressed.
+			- Oil is spreayed after compression. 
+			- Rate of supply is made for combustion to be apprx isobarically.
+			- Diagrama PV
+		- Eficiencia Térmica
+			- Calc: Calor liberado e absorvido pelo sistema
+			- Calc: Eficiencia térmica dependente das temperaturas
+			- Note: Dependencia da razão da capacidade térmica
+			- Calc: Eficiencia térmica dependente apenas da temperatura no inicio e fim da compressão
+			- Def: Expansion ratio
+			- Def: Compression rate
+		- Example:
+			- Temperature in the beginning of compression stroke: 300K.
+			- Temperature in the end of compression stroke: 990K.
+			- Razão de expansão: 5
+			- Constante adiabática: 1.4
+	- Ciclo Rankine
+		- Steam Engine. How works.
+		- Diagrama PV
+		- Eficiencia Térmica
+	- Ciclo termodinamico geral
+		- Ciclo fechado no diagrama PV
+		- Note: Trabalho é a área do ciclo
+		- Ciclo no diagrama XY (Força generalizada x deslocamento generalizado)
+
+
+Enunciado da Segunda Lei da Termodinamica com auxilio de máquinas térmicas
+	- Características de ciclos de máquinas térmicas
+		- Calor liberado de reservatório térmico à alta temperatura
+		- Calor absorvido por reservatório térmico à baixa temperatura
+		- Calor liberado é menor que calor absorvido: Trabalho liberado para vizinhança
+		- Representação esquemática
+	- Enunciado de Kelvin-Planck da Segunda Lei da Termodinamica
+		- Máquina térmica com único efeito: extração de calor de um unico reservatório e transformar em trabalho
+		- Note: Não há violação da primeira lei da Termodinamica com respeito a isso. 2nd law is a separate law.
+		- Def: Máquina de movimento perpétuo do primeiro tipo: Violação da primeira lei da Termodinamica.
+		- Def: Máquina de movimento perpétuo do segundo tipo: Violação da segunda lei da Termodinamica.
+	- Caracteristicas de ciclos de refrigeradores
+		- Note: Funcionamento completamente inverso à máquina térmica
+		- Calor liberado de reservatório térmico à alta temperatura
+		- Calor absorvido por reservatório térmico à baixa temperatura
+		- Calor liberado é maior que calor absorvido: Trabalho absorvido da vizinhança
+		- Representação esquemática
+	- Enunciado de Clausius da Segunda Lei da Termodinamica
+		- Refrigerador com único efeito: Extração de calor de um reservatorio R1 para R2 com T1<T2
+	- Equivalencia dos enunciados de Kelvin-Planck e Clausius
+		- Prova por contrapositiva da proposição: Kelvin-Planck ==> Clausius
+		- Prova por contrapositiva da proposição: Clausius ==> Kelvin-Planck
+	- Reversibilidade
+		- Pontos de equilibrio termodinamico: processos quasi-estáticos
+		- Processos sem envolvimento de dissipação
+		- Enunciado de Kelvin-Planck e Clausius e irreversibilidade
+		- Def: Máquina de movimento perpétuo do terceiro tipo: Ausencia de processos dissipativos
+	- TODO: Linhas adiabátiacs não se interceptam
+	- TODO: Eficiencia de Máquina Térmica. Corolary of second law: Efficiency of reversible machine is always greater than irreversiboe, under same two resevoirs.
+	- TODO: Coeficient of performance of refrigerator. To note it CAN be greater than 01. Examplify in actual refrigerator.
+	- TODO: Coeficient of performance in a heat pump.
+
+
+Ciclo de Carnot
+	- Descrição do ciclo de carnot
+		- Processo adiabático na direção de aumento/decréscimo de temperatura para alta/baixa.
+		- Troca de calor por processo isotérmico com o reservatório de alta/baixa temperatura
+		- Note: All 4 processes are reversible ==> Ciclo de Carnot é reversível
+	- Exemplos de Ciclos de Carnot
+		- Example: Ciclo de carnot de um gás. Representação no diagrama PV.
+		- Example: Ciclo de carnot em sistema de duas fases (say.. water and vapor). Diagrama PV.
+		- Example: Ciclo de carnot de substancia paramagnética. Diagrama HM. Adiabtic/Isothermal (de)magnetization.
+	- Reversibilidade de máquinas térmicas
+		- Note: Ciclo de Otto reversível ==> Multiplas passagems de reservatório térmico
+		- Note: Ciclo de Carnot é reversível usando apenas dois reservatórios térmicos
+		- Carnot engine <==> ideal engine reversibly operating between 2 reservours without need for work
+		- Refrigerador de Carnot.
+			- Note: Máquina de Carnot é reversível ==> Pode operar na direção oposta
+			- Formal Def: Máquina de Carnot operando na direção oposta
+		- Representação esquemática de máquina/refrigerador de Carnot. Note: R in the middle.
+		- Reversibility: Valores numericos de calor trocado e trabalho são identicos na máquina e refrigerador
+	- Teorema de Carnot
+		- Enunciado do Teorema de Carnot. Note: Same two reservoirs are being considered
+		- Consideração de máquina irreversível e reversível realizando mesma quantidade de trabalho
+		- Assume: Counter positive: Máquina irreversível com maior eficiencia que máquina de carnot
+		- Consider: Máquina irreversível fornecendo trabalho para refrigerador de carnot
+		- Note: Violação da segunda lei da Termodinamica
+	- Carnot Colorary
+		- Assume: Two reversible(carnot) engines
+		- Consider: One drive the other and vice-versa
+	- Consequences of Carnot Theorem and corolary
+		- Natureza da substancia no ciclo de carnot não influencia na eficiencia
+		- No machine M can be more effective than carnot, operating in the same reservoirs
+	- Escala Termodinamica de temperatura. Definição formal.
+		- Termometer using carnot engine (after all, does not depend on substance)
+		- Three carnot engines operating in three reservoirs
+		- Calc: Eficiencia em função do calor do reservatório de alta/baixa temperatura
+		- Calc: Dependencia da eficiencia com a temperatura por meio de função deseconhecida
+		- Calc: Deendencia da razão entre calor com temperatura por meio de função deseconhecida f
+		- Calc: Propriedade da função f: Razão entre f de argumentos de 3 temperaturas
+		- Definição termodinamica de temperatura usando ponto de temperatura fixa 
+			- Ponto triplo da agua: 273.16K
+			- Definição de temperatura
+			- Razão entre troca de calor é razão entre temperatura dos reservatórios
+		- Done! We have our termometer using carnot engine
+		- Comparisom: Definição de temperatura com escala de gás-ideal.
+		- Fact: Very precise. Used to measure temperatures below 1K
+	- Máxima eficiencia da máquina de Carnot
+		- Remember: Eficiencia da máquina de Carnot
+		- Note: Eficiência 100% ==> Calor zero ==> Temperatura zero.
+		- Consequence: No zero absoluto: Curvas adiabáticas e isotérmicas coincidem.
+		- Note: Transformar todo o calor em trabalho.
+		- Remember: Second law. No one saw it happening. (Perhaps because no one achive absolute zero at the time).
+		- Maybe: Possibility of violation of second law of thermodynamics at absolute zero
+	- Relação entre temperatura de gás-ideal e temperatura termodinamica
+		- Executando ciclo de carnot com gás ideal
+		- Remember: Equação de estado de gás ideal e de curva adiabática em gás ideal.
+		- Calc: Calor absorvido do reservatório de alta temperatura (1st lei da termodinamica)
+		- Calc: Calor liberado para o reservatório de baixa temperatura (1st law of thermodynamics)
+		- Razão entre troca de calor em função da temperatura de gás ideal (e volume...)
+		- Relação entre os volumes usando 1a lei da termodinamica nas curvas adiabáticas
+		- Proof: Razão entre troca de calor é razão entre temperaturas de gás ideal
+		- Consequence: Razão entre temperatura termodinamica é razão entre temperatura de gás ideal
+		- Consequence: Temperatura de referencia: Ponto triplo ==> Temperaturas iguais.
+		- Consequence: Temperatura termodinamica pode ser medida por termômetro de gás ideal
+	- Perpertual Motion Machines
+		- TODO: Perpertuan motion machines of first and second kind.
+		- TODO: Proving impossibility using carnot engines.
+
+
+Entropia
+	- Processo qualquer no diagrama de trabalho generalizado (XY)
+		- Força Generalizada X, e deslocamento generalizado Y.
+		- Smooth curve i-->f in XY-diagram
+		- Calc: Trabalho do processo if no diagrama XY
+		- Intersecção com linhas isotérmicas(ab) e adiabáticas(ia,if) iabf
+		- Imposition: Trabalho iabf é igual a trabalho if. (Mesma área)
+		- Aplicação da segunda lei da termodinamica ==> Trocas de calor iabf e if são iguais.
+		- Proof: Trabalho em iabf e if são iguais <==> Trocas de calor iabf e if são iguais
+		- Consequence: Calor em if e ab são iguais
+	- Ciclo reversível no diagrama de trabalho generalizado
+		- Trabalho do ciclo
+		- Remember: Linhas adiabáticas não se intersecptam
+		- Aproximação do ciclo com composição de linhas isotérmicas e adiabáticas
+		- Imposition: Calor transferido no ciclo é igual aos processos isotérmicos
+		- Note: Vários ciclos de Carnot aproximando ciclo em XY.
+		- Remember: Razão entre troca de calor e temperatura em um dos ciclos de carnot. 
+		- Calc: Soma da Razão calor/temperatura é nula no ciclo de carnot.
+		- Calc: Soma da Razão calor/temperatura em todo o ciclo no diagrama XY
+	- Teorema de Clausius
+		- Aproximação infinitesimal de linhas adiabáticas-isotérmicas
+		- Integral em todo o ciclo da razão calor-temperatura é nula.
+		- Note: Theorem only applies to reversible cycles
+	- Definição Formal de Entropia
+		- Teorema de Clausius para ciclo reversível: Integral de linha fechada nula
+		- Proof: Integral de dois caminhos que fecham são opostas.
+		- Proof: Integral é independente do caminho reversível que liga os pontos inicial e final
+		- Formal Def: Variação de entropia. Entropia.
+		- Note: Heat depends on path. But entropy does not!
+		- Note: Entropia é uma função de estado
+		- Note: Apenas a diferença entre dois estados é calculavel.
+		- Note: Diferencial de entropia. É exato.
+		- Note: Dificuldade com diferencial inexato de calor é eliminada (just like with work and pdv)
+		- Note: Unidade dimensional da entropia
+	- Enunciado de Carathéodory da Entropia (optional)
+		- Teorema de Carathéodory
+		- Existencia de funções T, S.
+		- Fator integrante
+	- Diagrama TS
+		- Remember: dq = Tds
+		- Calc: Calor total liberado em processo reversivel (Simple integration).
+		- Note: Área da curva do diagrama TS.
+		- Def: Processo isentrópico
+		- Draw: TS Diagram. Curve area.
+		- Note: Linhas adiabáticas em diagrama TS (isentrope).
+		- Note: Linhas isotérmicas em diagrama TS (isotherms).
+		- Draw: TS Diagram of carnot engine. A rectangle!
+			- Interpretation: Area of upper line of rectangle.
+			- Interpretation: Area of lower line of rectangle.
+			- Interpretation: Area of rectangle.
+		- Note: Entropy def ==> Only reversible processed can be plotted in TS diagram (TODO: CHECK IT)
+		- Note: Linhas isobáricas em diagrama TS em sistema hidrostático (TODO) (TODO: To think: To put here?)
+		- Note: Linhas isocóricas em diagrama TS em sistema hidrostático (TODO) (TODO: To think: To put here?)
+	- Entropia do gás ideal (TODO: To think: Take it out of here?)
+		- Remember: 1st law, diff, dependente de dq, Cp e vdp. (dq = cpdT - vdp)
+		- Calc: Variação de entropia em função de T, P, Cp.
+		- Estado de referencia para variação de entropia. Valores arbitrarios de P, T.
+		- Tabelas de entropia (chemistry, engineering, physics, ..)
+		- Linha isobárica no diagrama TS. Calc: Slope.
+		- Linha isocórica no diagrama TS. Calc: Slope.
+
+
+Segunda Lei da Termodinamica
+	- Inequação de Clausius
+		- Remember: Equação de Clausius
+		- Consider: RT, Máquina auxiliar reversível (MR), Máquina irreversível (MI)
+		- Parte da máquina irreversível atuando como RT para máquina reversivel.
+		- Sistema MR+MI é uma máquina irreversível acoplada a único reservatório.
+		- 2d law (Enunciado Kelvin-Planck) ==> Trabalho do sistema não pode ser positivo
+		- Trabalho negativo ==> Integral fechada reversível do calor do RT é negativo
+		- Relação entre calor e temperature for carnot Engine. Integrating...
+		- Proof: Inequação de Clausius (Note: Validade para processos irreversíveis)
+	- Considerações da inequação de Clausius para processos irreversíveis
+		- Note: Temperature é parte do MI que representa RT (MIRT)
+		- Note: Não necessariamente é igual à temperatura da MI
+		- Note: Processo irreversível: Temperatura da MIRT é maior que temperatura da MI. (Heat flow).
+		- Note: Processo reversível: Temperatura da MIRT é igual a temperatura da MI.
+	- Enunciado matemático de Clausius da Segunda Lei da Termodinamica
+		- Remember: Equação de Clausius (processos reversíveis)
+		- Remember: Inequação de Clausius (processos irreversíveis) (we just proved it)
+		- Conclusion: Inequação geral de Clausius (qualquer processo)
+		- Usar inequação geral de Clausius como segunda lei da termodinamica
+		- Note: Instead of phrase involving engines, now we have a mathematical 2nd law statement.
+	- Entropia e Segunda Lei da termodinamica
+		- Processo i-->f irreversível
+		- Processo "carnot" f-->i reversível
+		- Note: Entropia é função de estado ==> Integral de linha fechada nula
+		- Uso da inequação de Clausius
+		- Inequação para entropia
+		- Entropia sempre aumenta, ou permanece constante.
+		- Note: Processo adiabático reversível ==> Entropia constante.
+	- Aplicação do enunciado entrópico da segunda lei da termodinamica
+		- Objective: Abaixar temperatura de um corpo C
+		- Solution: Por refrigerador conectado a RT e a C.
+		- Calc: Variação de entropia no corpo C
+		- Calc: Variação de entropia no refrigerador
+		- Calc: Variação de entropia no reservatório térmico
+		- Aplicação da segunda lei da termodinamica
+		- Calc: Mínimo valor possível para o trabalho
+	- Example: Entropy change by heat supplied from thermal resevouir to thermal reservouir	
+		- Assume: Two thermal reservoirs at different temperature
+		- Calc: Entropy change of the reservoir from which heat got out
+		- Calc: Entropy change of the resevoir from which heat got in
+		- Calc: Entropy change of the universe
+		- Calc: Application of Second Law of thermodynamics in entropic form ==> Temperature inequality of the reservoirs.
+		- Note: Entropic form of second law is consistent with Kelvin-Planck enunciation.
+	- Example: 10Kg of Liquid water at 0 degree turning into ice at 0 degree
+		- Data: Fusion Latent heat of water: 333.55kJ/kg
+		- Assume: Process is reversible
+		- Calc: Entropy change of the water
+		- Note: By first law, surroundings have received energy
+		- Note: By second law, surroundings must have temperature lower than 0 degree.
+		- Calc: Energy received by surroundings.
+		- Calc: Entropy change of the surroundings (assume environment -10 degree).
+		- Calc: Entropy change of the universe.
+
+
+Potenciais Termodinamicos
+	- Definition
+		- Formal Definition: Potencial. (Independe do caminho)
+		- Formal Definition: Potencial Termodinamico.
+		- Example: Energia interna
+	- Joule-Thompsom Expansionm (Throttling process)
+		- Descrição do experimento: Porus plug. Constant pressure difference.
+		- Passagem adiabática de gás de um ponto para o outro pelo porus
+		- Pressão e volume bem definidos no equilibrio: Ponto final e inicial.
+		- Note: All other poitns are non-equilibrium points (cannot be treated with thermodynamics)
+		- Calc: Aplicação da 1a lei da termodinamica
+		- Calc: Trabalho realizado pelos pistões
+		- Calc: Escrita da 1a lei. Note: Algo é igual on initial/final poitns.
+	- Entalpia e propriedades
+		- Formal Definition: Entalpia
+		- Formal Definition: Entalpia específica
+		- Initial and final enthalpies are equal in Joule-Thompsom Expansion process
+		- Calc: Diferencial de Entalpia
+		- Calc: Escrita da 1a lei na forma diferencial envolvendo entalpia
+		- Relação entre entalpia e capacidade térmica à pressão constante
+		- Note: Modo de determinação experimental de variação de entalpia
+	- Helmholtz motivation (TODO)
+	- Função de Helmholtz (TODO)
+	- Gibbs motivation (TODO)
+	- Função de Gibbs (TODO)
+	- Transformação diferencial de Legendre
+		- Função qualquer f(x, y) satisfazendo df = udx+vdy
+		- Transformação de Legendre
+		- Calc: dg
+	- Potenciais termodinamicos como transformações de Legendre
+		- Entalpia
+		- Função de Helmholtz
+		- Função livre de Gibbs
+		- Example: U(V, S). Internal Energy.
+	- TODO: Achando potenciais para casos gerais
+	- TODO: Example: Derivar potencias para gás paramagnético
+
+
+Relações de Maxwell
+	- Equações Características dos Potenciais Termodinamicos
+		- Energia Interna
+		- Entalpia
+		- Energia livre de Helmholtz
+		- Energia livre de Gibbs
+	- Relações de Maxwell
+		- Eq. Caracteristica: Energia Interna
+		- Eq. Caracteristica: Entalpia
+		- Eq. Caracteristica: Energia livre de Helmholtz
+		- Eq. Caracteristica: Energia livre de Gibbs
+		- Note: Relações entre quantidades facilmente mediveis e não-mediveis (ou dificeis de medir)
+	- Consequencias da relações de maxwell
+
+
+TO THINK: Maybe to have maxwell relations in Thermodynamics 02.
+TO THINK: Maybe to have all thermodynamic potentials in Thermodynamics 02.
+
+
+DECISION: To talk about ideal gas again later? Discuss entropy, enthalpy, gibbs, etc?
+	- Calc: Change of entropy of ideal-gas as function of T, P.
+	- Calc: Change of entropy of ideal-gas as function of T, V.
+TODO: When talking of third law of thermodynamics: 
+	- Talk about Kelvin noticing assymetry of linear choice of temperature (from 0 to inf). 
+	- Talk of logarithm scale (from -inf to inf). Now the "absolute zero" is -inf. Faaar away.
+TODO: Rethink about putting cycle engines. Where is thermodynamic learning on them? They are applicaations....
+TODO: Falar sobre porque PV^gamma=cte é valido apenas para non-entropic adiabatic process (adiabatic reversible).
+TODO: Coisas funcionam na reitoria :)
+TODO: Garcia's example about sistemas reversíveis/irreversíveis
+	Battery --> Current --> Resistor --> Heating up resistor --> Gas expansion --> Moving embolo --> Work!
+	Work --> Moving Embolo --> Gas compression --> Freezing up resistor --> Current --> Charge battery  :)

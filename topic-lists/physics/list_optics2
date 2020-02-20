@@ -1,0 +1,195 @@
+TITLE: Optics 02: Fundamentos de Ótica Ondulatória. Wave Optics.
+	- Pre-requisitives: Fisica 02
+	- Co-requisitives: Fisica 03
+
+
+https://en.wikipedia.org/wiki/Interference_filter
+
+
+KEEP IN MIND: Formalism must be general enough para englobar: (Really? MAybe this is better in optics 3)
+	- Elastic Waves. Shear Waves. (sound).
+	- Surface waves. Menbran waves.
+	- Electromagnetic waves.
+
+
+Equações de Onda e superposição de ondas
+	- Prova da equação de onda unidimensional
+		- Referencial movendo-se com a onda
+		- Objective: Achar equação diferencial
+	- Ondas Harmonicas (1D)
+		- Formal Definition (Senos e cossenos (fourier series))
+		- Periodos da onda: Periodo/Frequencia temporal e espacial.
+		- Constante de propagação
+		- Outras escritas da função de onda harmonica
+		- Def: Fase da onda. Angulo de fase inicial.
+		- Calc: Fase constante: Variação em x e t.
+		- Escrita da onda harmonica com numeros complexos
+	- Ondas planas em tres dimensões
+		- Função de onda para uma onda harmonica plana tridimensional
+		- Generalization: Vetor de propagação
+		- Escrita complexa da função de onda
+		- Derivação da equação de onda tridimensional
+	- Ondas Esféricas
+		- Escrita da função de onda esférica
+		- Note: Amplitude inicial para r=1 (not for r=0)
+		- Note: Irradiancia da onda é proporcional a 1/r^2
+	- Ondas Electromagnéticas harmonicas planas monocromáticas
+		- Escrita complexa da onda eletromagnética
+		- Data from EM Theory
+			- Relação da amplitude dos campos elétricos e magnéticos
+			- Velocidade da onda eletromagnética
+			- Densidade de energia elétrica e magnética associada à onda
+		- Calc: Potencia da onda eletromagnética
+		- Note: Potencia transferida por unidade de área
+		- Calc: Potencia por unidade de area em função dos campos EM.
+		- Def: Vetor de Poynting
+		- Calc: Irradiancia da onda EM: Potencia por unidade de área média.
+	- Efeito doppler da luz
+		- Note: Sem distinção entre fonte movente e observador movente
+		- Note: Special Theory of Relativity is required
+		- Show: Efeito doppler de onda eletromagnética
+		- Calc: Efeito doppler de onda EM para v << c
+		- Mention: Doppler broadening
+	- Interferencia de ondas
+		- Note: Combinação linear de duas ondas é solução da equação de onda
+		- Principio de superposição: Soma das ondas
+		- EM Case: Soma (vetorial) dos campos elétricos e magnéticos das ondas
+	- Superposição de duas ondas planas de mesma frequencia
+		- Note: Vetor de propagação e amplitude das ondas distintos
+		- Vetor girante de uma dada onda (fasor).
+		- Note: Ambas ondas tem angulo inicial de fase não nulo
+		- Calc: Diferença de fase das duas ondas
+		- Calc: Amplitude resultante da onda
+		- Calc: Angulo de fase resultante da onda
+	- Superposição de n ondas planas de mesma frequencia
+		- Calc: Diferença de fase
+		- Calc: Amplitude resultante da onda
+		- Calc: Angulo de fase resultante da onda
+		- Note: Simplifiable when i=j. Also i>j for a 2-factor.
+	- Fontes randomicas
+		- Formal Def: Random phase angles
+		- Approximation: For large values of superposed waves.
+		- Calc: Aproximação da amplitude da onda resultante
+		- Calc: Irradiancia da onda resultante
+		- Note: Soma das irradiancias
+		- Special case: N waves, equal amplitudes
+	- Fontes de luz coerentes
+		- Formal Def: Sem defasagem in all waves
+		- Approximation: For large values of superposed waves.
+		- Calc: Aproximação da amplitude da onda resultante
+		- Calc: Irradiancia da onda resultante
+		- Note: Quadrado da soma da raiz das irradiancias
+		- Special case: N waves, equal amplitudes
+		- Comparação da irradiancia entre fontes randomicas e coerentes
+	- Ondas estacionárias
+		- Ondas identicas propagando-se em sentidos opostos
+		- Assumption: No energy lost on reflection. No energy absorbed by media.
+		- Calc: Escrita da onda estacionaria
+		- Calc: Posição dos nodos
+		- Redo calcs: Duas ondas identicas defasadas
+	- Velocidade de grupo e de fase
+		- Superposição de ondas com frequencias iguais
+		- Maximos e minimos da onda dependentes do tempo. Having their own speed.
+		- Calc: Escrita da onda resultante como multiplicação de duas ondas
+		- Note: Low frequency wave modulating a high frequency wave.
+		- Note: Beat phenomena. Beat frequency twice frequency of low frequency wave.
+		- Def: Velocidade de fase (velocidade da onda de alta frequencia)
+		- Def: Velocidade de grupo (velocidade da onda de baixa frequencia)
+		- Interpretação da velocidede de fase e grupo. If vp>vg, vp<vg, vp=vg cases.
+	- Aproximação: Superposição de ondas para frequencias muito próximas
+		- Remember: Função de onda. Velocidade de fase.
+		- Calc: Velocidade de grupo
+		- Relação entre velocidade de fase e velocidade de grupo
+		- Non-dispersive media: Velocidade de grupo é velocidade de fase
+		- Dispersive media: Relação entre velocidades de fase e de grupo
+			- em função de indice de refração e propagação de onda
+			- em função de indice de refração e wavelength
+
+
+
+Interferencia da Luz
+	- Two-Beam interference
+		- Consider: Two waves
+		- Calc: Irradiancia da onda resultante
+		- Note: Presença de termo de interferencia
+		- Calc: Time average do termo de interferencia
+		- Special case: Campo elétrico paralelo
+			- Termo de interferencia
+			- Irradiacia total
+			- Irradiancia mínima
+			- Irradiancia máxima
+			- Special case: Ondas de irradiancia iguais
+	- Young's double slit experiment
+		- Schematic Draw of experiment
+		- Consider: Fonte de luz incoerente
+		- Passagem por pequeno orificio: Principio de Hyugens ==> Fonte de luz coerente
+		- Passagem por dois pequenos orificios: Case: Ondas de irradiancia iguais por campo elétrico paralelo
+		- Condição de interferencia destrutiva e construtiva em função do caminho otico
+	- Interferencia por dupla fenda
+		- Aproximação para separação entre orificios muito menor que distancia da imagem
+		- Relação entre caminho optico e angulo
+		- Calc: Irradiancia em um ponto da imagem
+		- Calc: Aproximação paraxial da irradiancia em um ponto da imagem
+		- Posição das franjas de interferencia construtiva (using paraxial approximation)
+		- Posição das franjas de interferencia destrutiva (using paraxial approximation)
+	- Arcos hiperbólicos
+		- Remember: Condição de diferença de caminho para interferencia construtiva
+		- Escrita em função de distancia de pontos
+		- Note: Equação de hipérbole
+		- Note: Aberturas são focos de hiperboles
+		- Calc: Familia de hipérboles para interferencia construtiva. Draw it.
+	- Fonte virtual na interferencia por dupla fenda
+
+
+
+
+
+
+
+
+
+
+
+
+=========================================================
+FROM THE WORDY INTRODUCTORY HECHT BOOK:
+Mecanica Ondulatória Clássica
+	- Formal Definition of classical waves
+		- Disturbio propagante auto-sustentável
+		- Transporte de energia
+		- Transporte de momento
+		- Propagação em meio
+		- Note: Disturbio propaga. Medium keeps where it was.
+	- Tipos de ondas
+		- Direção de disturbio do meio e de propagação da onda
+		- Def: Ondas transversais
+		- Def: Ondas longitudinais
+	- Restrição no modelo de ondas (so far at least)
+		- Formato da onda invariante ao propagar
+	- Ondas unidimensionais
+		- Função de onda unidimensional
+		- Def: Perfil da onda em dado tempo
+		- Restrição à função de onda
+			- Velocidade de propagação da onda
+			- Referencial de propagação. Formato conservado.
+			- Formato f(x-vt)
+			- Ondas propagando no sentido oposto
+		- Equação de onda
+	- Ondas harmonicas
+		- Def: Perfil de onda harmonica
+		- Def: Função de onda harmonica
+		- Def: Numero de propagação da onda harmonica
+		- Def: Amplitude da onda harmonica
+		- Def: Periodo espacial da onda armonica: Comprimento de onda
+		- Def: Periodo temporal da onda harmonica
+		- Def: Fase da onda harmonica
+		- Def: Frequencia temporal da onda harmonica
+		- Def: Frequencia angular temporal da onda harmonica
+		- Def: Frequencia espacial da onda harmonica: Numero de onda
+		- Def: Constante de fase inicial
+		- Relações envolvendo all those defs e a velocidade de propagação
+	- Fase de onda harmonica
+		- Taxa de mudança de fase com respeito ao tempo
+		- Taxa de mudança de fase com respeito ao espaço
+		- Taxa de mudança de espaço e tempo: Chain rule
+		- Def: Velocidade de fase de onda harmonica
