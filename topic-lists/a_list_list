@@ -1,10 +1,10 @@
 THE LIST OF LIST OF LIST OF LISTS:
-	- Matematica
+	- Mathematics
 	- Physics
-	- Outras Listas
+	- Other lists.
 
 
-THE LIST OF LIST OF LISTS: MATEMÁTICA
+THE LIST OF LIST OF LISTS: MATHEMATICS.
 	- (09 lists) Fundamental Math.
 	- (19 lists) Basic Math.
 	- (-- lists) Pure Mathematics.
@@ -33,7 +33,7 @@ THE LIST OF LIST OF LISTS: PHYSICS.
 	 
 
 
-THE LIST OF LIST OF LISTS: OUTRAS LISTAS
+THE LIST OF LIST OF LISTS: OTHER LISTS.
 	- (20 lists) Engineering Machines: It assumes strong physics base. How to build them.. from scratch. =).
 	- (23 lists) Listas de Eletrônica.
 	- (08 lists) Listas de Programação.
@@ -43,32 +43,34 @@ THE LIST OF LIST OF LISTS: OUTRAS LISTAS
 
 -----------------------------------------------------
 
-
-LISTAS DE MATEMÁTICA FUNDAMENTAL:
-Geometria Elementar: [TODO] Intersecção entre retas, angulos, triangulos, teoremas de pitagoras, quadrados, poligonos.
-Trigonometria: Ciclo trigonométrico, arcos, funções trigonométricas, eq trigonométricas, funções trig inversas.
-Algebra Elementar 01: Somas, multiplicações, expoentes, logaritmos, somatórios, polinomios, intr numeros complexos.
-Algebra Elementar 02: [TODO] Polinomios, Raizes de grau 3 e 4, Frações continuadas, Função W de lambert, etc.
-Geometria Analítica 01: Curvas, Rotações, translações, Secções Cônicas (Elipses, Parábolas, Hipérboles), Coordenadas polares.
-Geometria Analítica 02: [TODO] Retas, Planos, Quádricas.
-Algebra Vetorial: Vetor, Soma, Base, Combinação linear, Produto escalar, Produto vetorial, Produtos triplos.
-Matrix Algebra 01: Matrixes, Linear Systems, Determinants, Inversibility.
+LISTS OF FUNDAMENTAL MATHEMATICS:
+Elementar Geometry: [TODO] Intersection between lines, angles, triangles, pythagoream theorem, squares, polygons.
+Trigonometry: Trigonometric cycle, trigonometric functions, trigonometric equations, inverse trig functions.
+Elementary Algebra 01: Sums, multiplications, exponents, logarithms, summations, polynomials, intr complex numbers.
+Elementary Algebra 02: [TODO] Polynomials, Roots of degrees 3 and 4, continued fractions, W lambert function
+Analytic Geometry 01: Curves, rotations, tranlations, conic sections (Elipses, Parabolas, Hyperbolas), Polar coordinates.
+Analytic Geometry 02: [TODO] Lines, planes, quadrics.
+Vector Algebra: Vector, sum, base, linear combination, dot product, vector product, triple product.
+Matrix Algebra 01: Matrices, Linear Systems, Determinants, Inversibility.
 Matrix Algebra 02: [TODO]
 
 
-LISTAS DE MATEMÁTICA BÁSICA:
-Calculus 00: Pre-Calculus: Principios de lógica e teoria dos conjuntos. Funções de R em R.
-Calculus 01: Calculo real: Continuidade, Limites, Derivadas e aplicações, Polinomio de Taylor, Integrais e aplicações. Teorema fundamental to calculo.
-Calculus 02a: Calculo diferencial e integral curvas: Funções, Derivações em curvas, Integral de linha.
-Calculus 02b: Calculo diferencial em superficies: Continuidade, Limites, Derivadas, Maximização, Expansão de Taylor.
-Calculus 02c: Calculo integral em superficies: Integrais duplas, Integral de superficie, Integrais triplas, Integrais sobre sólido.
-Calculus 03: Basic ODE: Sequencias, Séries, ODE de primeira ordem, ODE de segunda ordem.
-Calculus 04a: Calculo vetorial: Campo escalar (def, continuidade, limites, derivadas). Campo vetorial (def, continuidade, limites, derivadas). Teorema fundamental do calc vetoral.
-Calculus 04b: Calculo vetorial em 3D: Operadores grad, div, rot. Teorema de Green. Teorema de Stokes. Teorema do divergente. Outros teoremas.
+LISTS OF BASIC MATHEMATICS:
+Calculus 00: Pre-Calculus: Principles of Logic and set theory. Functions from R to R. 
+Calculus 01: Real Calculus: Continuity, limits, derivatives and applications, Taylor Polynomial, Integrals and applications. Fundamental Theorem of Calculus.
+Calculus 02a: Differential and integral calculus in curves: Functions, parameterizations, derivatives in curves, line integrals.
+Calculus 02b: Differential calculus in surfaces: Continuity, Limits, Derivatives, Optimization, Taylor Expansion.
+Calculus 02c: Integral Calculus in surfaces: Double integrals, surface integrals, triple integrals, solid integrals.
+Calculus 03: Basic ODE: Sequences, Series, first order ODE, second order ODE.
+Calculus 04a: Vector calculus: Scalar field (def, continuity, limits, derivatives). Vector field (def, continuity, limits, derivatives). Fundamental Theorem of Vector Calculus.
+Calculus 04b: 3D Vector calculus: Operators grad, div, rot. Teorema de Green. Teorema de Stokes. Teorema do divergente. Outros teoremas.
 Complex 01: Complex Algebra: Defs, operações algebricas, funções de variaveis complexas, funções elementares, Polinomios, Teorema fundamental da Algebra.
 Complex 02: Complex Calculus: Continuity, Limits, Derivatives, Integral, Closed Integral, Cauchy Integral, Laurent Expansion.
 Complex 03: Residue Calculus: Poles, Singularies. Residue Calculus. Real integrals. Improper integrals. Sum evaluation by residue.
-Complex 04: [TODO] Mapping: 
+Complex 04: [TODO] Mapping:
+
+
+LIST O
 ODE Methods 01: [TODO]. First order ODE.
 ODE Methods 02: [TODO]. Nth order ODE.
 ODE Methods 03: [TODO]. System of ODEs.
@@ -137,7 +139,7 @@ Algebraic Geometry 04: [TODO].
 
 
 
-LISTAS DE MATEMÁTICA: ANALISE.
+LISTS OF MATHEMATICS: ANALYSIS
 Real Analysis 01: [TODO] Number Set: Sets, Natural, Integer, Rational. Sequences, rational sequences. Real Field. Dedekind Cuts. Cauchy Rational Sequences. Def of real number.
 Real Analysis 02: Real Sequences: Sequences, Convergence, Cauchy Sequences, convergence tests, Bolzanno Weiestrass Theorem.
 Real Analysis 03: [TODO] Real Topology: Open/Closed/Compact sets. Glues and subglues. (Definite version of) Borel-Lebesgue Theorem.
@@ -175,7 +177,7 @@ Variation 02: [TODO]
 
 
 
-LISTAS DE MATEMÁTICA: GEOMETRIA. [TODO]
+LISTS OF MATHEMATICS: GEOMETRY
 Axiomatic Euclidean: [TODO]
 Axiomatic hyperbolic: [TODO]
 Differential Geometry 01: Local/Global Curve Theory: Reparameterization. Arc length. Natural parameter. Isometry. Tangent/torsion vector. Frenet Equations. 2D, 3D and nD curves.
@@ -197,7 +199,7 @@ Differential Manifolds: [TODO]
 
 
 
-LISTAS DE MATEMÁTICA: PROBABILITY AND STATISTICS. [TODO].
+LISTS OF MATHEMATICS: PROBABILITY AND STATISTICS. [TODO].
 Probabilidade 00: (For non-mathematicians) Naive Probability. 
 Probabilidade 01: [TODO] Probabilidade discreta. 
 Probabilidade 02: [TODO] Probabilidade continua.
@@ -207,7 +209,7 @@ Game Theory 01: [TODO].
 
 
 
-LISTAS DE MATEMÁTICA: CRYPTOGRAPHY [TODO].
+LISTS OF MATHEMATICS: CRYPTOGRAPHY [TODO].
 Cryptography 01: [TODO] History of it, ceaser cypher, polyalphabetic, etc.
 Cryptography 02: [TODO]
 Cryptography 03: [TODO]
@@ -216,7 +218,7 @@ TODO: Cryptography: Elliptic Curve, Abstract Algebra, Algebraic Geometric, NT, P
 
 
 
-COMPLEMENTOS DE MATEMÁTICA:
+COMPLEMENTS OF MATHEMATICS:
 Transform 01: Fourier: Fourier Series, Existance and convergence, Coeficients. Complex fourier series. Fourier transform. Fourier inversion theorem.
 Transform 01: Laplace:
 Integration 01: Binomial, Pochhamer, Partial Fractions, Exponential, Logarithm, Quartic, Normal.
@@ -237,7 +239,7 @@ Special Functions 07: [TODO] General Theory of Orthogonal Polynomials: Gegenbaue
 --------------------------------
 
 
-LISTAS DE FISICA FOR LAYMAN: NO CALCULUS.
+LISTS OF PHYSICS: FOR LAYMAN: NO CALCULUS.
 Layman Physics 01: [TODO] Cinematica, Dinamica, Trabalho, Energia, Galileu relativity, linear/angular momentum, collisions. Plano inclinado, roldana, atrito, etc. Colisões.
 Layman Physics 02: [TODO] Massa-Mola, Pendulo. Ondas: Mecânicas/etc. Wavenelgth, frequency, etc.
 Layman Physics 03: [TODO] Gravity: Newton Gravity, Escape Velocity, Orbits, kepler Laws, orbital transfer, orbital dynamics.
@@ -251,22 +253,22 @@ Layman Physics 10: [TODO] Molecules: Electron density, Hybridization (CH4, NH3, 
 
 
 
-LISTAS DE FÍSICA BÁSICA:
-Fisica 01: Introdução básica aos conceitos de mec clássica: Analise Dimesional, Plots, Cinemática e dinâmica pontual, trabalho e energia, galileu relativity, momento linear/angular.
-Fisica 02a: Intr Oscilações e ondas: Oscilações mec, Oscilações: Harmonicas, Amortecidas, Forçadas, Acopladas. Ondas: Mecânicas, harmonicas, unidimensionais, em cordas.
-Física 02b: Intr Fluids: Estática de Fluidos, Dinâmica de Fluidos.
-Fisica 02c: Intr Termodinamica: Expansão térmica, Intr Termodinamica Básica, Intr Gás Ideal, Intr Teoria cinética, Ondas sonoras.
-Física 03a: Intr Eletrostática: Força elétrica, Campo eletrostático, Potecial, Dipolos, Máquinas eletrostáticas, capacitores, dielétricos, corrente estacionária.
-Física 03b: Intr Magnetismo e EM: Campo magnético, Indução magnética, dipolos, produção de campos magnéticos, Indução EM, indutores, Circuitos RLC, Eq de Maxwell, Onda EM.
-Fisica 04: Intr Optica EM: Interferencia, Difração [not decided yet].
+LISTS OF PHYSICS: BASIC PHYSICS
+Physics 01: Basic introduction to the concepts of classical mechanics: Dimensional Analysis, Plots, Point kinematics/dynamics, work and energy, galillean relativity, linear/angular momentum.
+Physics 02a: Intr oscilations and waves: Mec oscilations, harmonic/damepened/forced/coupled oscilations. Mechanical harmonic 1D waves in strings.
+Physics 02b: Intr Fluids: Static of Fluids, Dynamics of Fluids.
+Physics 02c: Intr Thermodynamics: Thermal Expansion, Intr Basic Thermodynamics, Intr Ideal Gas, Intr Kinetic Theory. Sound waves.
+Physics 03a: Intr Electrostatics: Electric force, Electrostatic Field, Potential, Dipole, Electrostatic Machines, Capacitors, Dielectrics, stationary current.
+Physics 03b: Intr Magnetism and EM: Magnetic Field, Magnetic induction, dipoles, generation of magnetic fields, electromagnetic induction, inductors, RLC circuits, Maxwell, EM Wave.
+Physics 40: Intr EM Optics: Interference, Diffraction [not decided yet].
 
 
 
-LISTAS DE FÍSICA: CLASSICAL MECHANICS
-Classical Mechanics 00: Math: Calculo de versores em várias coordenadas. Coordenadas ortogonais e curvilineas. Transformações diferenciais. Tensores.
-Classical Mechanics 01: Mecânica Newtoniana: Teoremas de conservação, curva potencial, espaço de fase, oscilações 1D, non-inertial frame, Orbital Dynamics, Chaos.
-Classical Mechanics 02: Problema de dois Corpos: Conservation Theorems, Collisions, Collisional Scattering, Central forces, Orbits, Scattering, Inverse Scattering.
-Classical Mechanics 03: Problema de N Corpos: Conservation Theorems, Teorema virial, Corpos Rígidos.
+LISTS OF PHYSICS: CLASSICAL MECHANICS
+Classical Mechanics 00: Math: Calculations of unit vectors in several coordinates. Orthogonal and curvilinear coordinates. Differental Transformations. Tensors.
+Classical Mechanics 01: One-Body problem: Conservation Theorem, potential curve, phase space, 1D oscilations, non-inertial frame, Orbital Dynamics, Chaos.
+Classical Mechanics 02: Two-Body problem: Conservation Theorems, Collisions, Collisional Scattering, Central forces, Orbits, Scattering, Inverse Scattering.
+Classical Mechanics 03: N-Body problem:: Conservation Theorems, Teorema virial, Corpos Rígidos.
 Classical Mechanics 04: Coupled Oscilations and Continuum: Coupled Oscilations, Ressonances, Infinite limit, continuous systems, waves, continuum ressonances.
 Classical Mechanics 05: Lagrangian Mechanics, Euler-Lagrange, Variational, Hamiltonian Mechanics, Cannonical Equations, Hamiltonian Chaos.
 Analytical Mechanics 01: [TODO] Lagrangian Mechanics: Virtual Work, D'Alambert, Lagrangian, Variational, Hamiltonian, Noether Theorems, Symmetry, Examples (oscilations, rigid body, relativity, etc).
@@ -296,7 +298,7 @@ Orbits 01: [TOTHINK] Travelling thru out solar system: Acceleration by: Gravity,
 
 
 
-LISTAS DE FÍSICA: ELECTRODYNAMICS.
+LISTS OF PHYSICS: ELECTRODYNAMICS.
 Electromagnetism 01: Eletrostatica: Expansão multipolar. Problemas eletrostaticos, imagens, laplace. Dielétricos, circuitos elétricos. Energia, torque, pressão, estresse.
 Electromagnetism 02: Magnetostatica: Campo magnético, materiais magnéticos, histerese, circuitos magnéticos. Energia, torque, pressão, estresse.
 Electromagnetism 03: Indução EM: Indução, Circuitos, Magnetic Energy, Magnetization Dynamics, Pinch, etc.
@@ -327,7 +329,7 @@ Plasma Physics 05: [TODO] Interaction of plasma particles: Boltzmann Plasma Theo
 
 
 
-LISTAS DE FÍSICA: THERMODYNAMICS AND STATISTICAL MECHANICS:
+LISTS OF PHYSICS: THERMODYNAMICS AND STATISTICAL MECHANICS:
 Thermodynamics 01: General Theory: Lei zero, Sistemas termodinamicos, PVT, Trabalho e energia, Primeira lei, Calor, Gás ideal, Máquinas térmicas, Segunda lei, Ciclo de Carnot, Entropia.
 Thermodynamics 02: Sistema PVT: Primeira Lei, Segunda lei, Potenciais Termodinamicos, Relações de Maxwell, Transição de fase, Zero absoluto, Gases, teoria cinética.
 Thermodynamics 03: Sistema PVTN: First Law, Chemical Potential, Multi-specie system, Mixtures, Second Law, Thermodynamical Potential. Chemical Reactions, Equilibrium, Ideal Gas. Open Systems.
@@ -356,7 +358,7 @@ Quantum Statistics 05: Non-Equilibrium:
 
 
 
-LISTAS DE FÍSICA: GRAVITY:
+LISTS OF PHYSICS: GRAVITY:
 Gravity 00: [TODO] How was developed. Experiments (Calculation of G, etc). Kepler equations. (Make it to be Physics 01?)
 Gravity 01: [TODO] Newtonian Gravity: Field equations. Pressures/Stresses. Tidal Forces/Torques/Stresses. Orbital maneouvers. Precession. Pertubations. Mercury precession problem.
 Gravity 02: [TODO] Beyond Newton: Galactic Rotation curves, Dark Matter, MOND, AQUAL, etc. Dark Energy, etc.
@@ -369,7 +371,7 @@ TODO: QG Theories: LQG, etc.
 
 
 
-LISTAS DE FÍSICA: RELATIVISTIC MECHANICS:
+LISTS OF PHYSICS: RELATIVISTIC MECHANICS:
 Special Relativity 01: Special Theory of Relativity: How the thery was developted. Rival Theories. Relativistic Kinematics and dynamics. Implications to Electromagnetic Theory.
 Special Relativity 02: [TODO] Tensorial Notation, Geometrical formulation, spacetime, covariant formulation. Accelerating frames. Electrodynamics.
 Special Relativity 03: [TODO] Fluids, Relativistic Euler Equation, https://en.wikipedia.org/wiki/Relativistic_Euler_equations, speed of sound, etc. More relativistic stuff: heat, etc.
@@ -382,7 +384,7 @@ General Relativity 05: [TODO] Lagrangian and Hamiltonian of it all. Analogous to
 
 
 
-LISTAS DE FÍSICA: QUANTUM MECHANICS:
+LISTS OF PHYSICS: QUANTUM MECHANICS:
 Quantum Mechanics 00: Early Quantum Mechanics: Ultraviolet Catastrophe, Thermal Radiation, Photoelectric, Compton, Matter-Radiation, Bohr, Sommefeld Quantization, de Brougli, Schrodinger.
 Quantum Mechanics 01: 1D one quantum particle: The 1D Quantum Theory, Infinite square well, Harmonic Oscilator, free particle, finite square well, delta well, arbitrary potential, formalism.
 Quantum Mechanics 02: 3D one quantum particle: The 3D Quantum Theory, Galilean Relativity, Angular Momentum, Spin.
@@ -422,7 +424,7 @@ SSD Circuits:
 
 
 
-LISTAS DE FÍSICA: ATOMIC AND MOLECULAR PHYSICS:
+LISTS OF PHYSICS: ATOMIC AND MOLECULAR PHYSICS:
 Atomic Physics 01: History: Dalton Atom. Avogadro. Thomsom Atom. Rutheford Atom. de Brougli Atom. Schrodinger Atom.
 Atomic Physics 02: [TODO] The Hydrogen Atom: Full hydrogen quantum wavefunction (with spin) in nlmjs state. Spectrum. Perturbative spectrum. Gas of hydrogen. Relativistic Hydrogen. Hydrog apprx.
 Atomic Physics 03: [TODO] The Helium Atom: Experiment. Hydrogenionic apprx. Energy levels. Pertubation, nth order. Variational.
@@ -444,7 +446,7 @@ Molecular Calculations 05: [TODO] Coordination.
 
 
 
-LISTAS DE FÍSICA: CONDENSED MATTER PHYSICS:
+LISTS OF PHYSICS: CONDENSED MATTER PHYSICS:
 Solid State Physics 01: Simple Models of solids: Drude Model (conductivity(DC/AC), thermal, etc). Sommefeld model. Einstein Model.
 Solid State Physics 02: Electrons in Crystals:
 Solid State Physics 03: Quantum excitations:
@@ -463,7 +465,7 @@ Condensed Matter Physics 05:
 
 
 
-LISTAS DE FÍSICA: QUANTUM FIELD THEORY:
+LISTS OF PHYSICS: QUANTUM FIELD THEORY:
 Classical Field Theory 01: [TODO]
 Classical Field Theory 02: [TODO]
 Classical Field Theory 03: [TODO]
@@ -531,7 +533,7 @@ Machines 08: [TODO] Nuclear Machines: Nuclear Reactors, breeders, generation 1, 
 
 
 LISTAS DE ELETRÔNICA:
-Circuits 01: Circuitos resistivos: Leis de circuitos. Thevenin, norton theorems. Maybe op amps.
+Circuits 01: Circuitos resistivos: Circuit Laws. Thevenin, norton theorems. Maybe op amps.
 Circuits 02: Lumped Circuit Abstraction: Lumped Elements, IV Curve, Circuits, Kirchhoff laws, Methods to solve circuits.
 Circuits 03: [TODO] The RLC Circuit: Capacitor, Inductor, Resistor. RLC-Circuit in series. Ressonance. AC Power.
 Circuits 04: [TODO] Stationary Linear RLC Circuits: Impedance, Thevenin/Norton, Magnetic Coupling, Polyphasic Systems, Two-Port Network.
